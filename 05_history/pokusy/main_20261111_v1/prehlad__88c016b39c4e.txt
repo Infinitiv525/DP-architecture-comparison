@@ -1,0 +1,36 @@
+HLAVNÝ EXPERIMENT ARCHITEKTÚR – ČO TERAZ BEŽÍ
+
+Pre každú z9 metód trénujeme5 nových sietí od začiatku.
+Všetky používajú640 tréningových a160 validačných simulácií FlowBench.
+Výstupom každej siete je celé ustálené rýchlostné a tlakové pole512x512.
+Nejde o časový vývoj simulácie. Testovacích200 simulácií sa vyhodnotí
+až po skončení všetkých tréningov; žiadna testovacia chyba sa nepoužila
+na tento výber nastavení. Starší experiment už TEST poznal, čo priznávame.
+
+Vybrané varianty podľa nezávisle overenej validačnej chyby a GPU p99<=5ms:
+- tfno: tfno_b; kalibračná GPU p99 4.988 ms.
+- chebkan: chebkan_a; kalibračná GPU p99 3.861 ms.
+- pinet: pinet_a; kalibračná GPU p99 1.290 ms.
+- dendrite: dendrite_a; kalibračná GPU p99 1.241 ms.
+- realnpu: realnpu_b; kalibračná GPU p99 1.245 ms.
+- rbf: rbf_b; kalibračná GPU p99 1.873 ms.
+- cascor: cascor_a; kalibračná GPU p99 4.566 ms.
+- elm: elm_b; kalibračná GPU p99 1.329 ms.
+- scn: scn_b; kalibračná GPU p99 0.985 ms.
+
+FNO/TFNO používa knižnicu autorov s upraveným rozhraním a vybranou
+kapacitou hidden48 (publikovaný príklad používa32). Ostatné jadrá sú
+naše zdokumentované adaptácie publikovaných princípov. Porovnávame celé
+postupy s rozdielnymi reprezentáciami geometrie a hustotou supervízie.
+Výsledok sa nesmie prezentovať ako presná reprodukcia skóre článku.
+Väčší FNO je tesne pod5ms; finálne meranie môže ukázať aj prekročenie.
+Kalibračné skóre nie je záruka presnosti alebo rýchlosti všetkých5 behov.
+
+35 tréningov beží naCPU,10 naGPU. Maximálne12 CPU úloh a5 GPU úloh
+naraz. Päť hotových pevných PINN bude vedľajšia referencia bez doučenia.
+Prípravná kontrola154614 prešla. Dávky154631(CPU) a154632(GPU),
+po nich automatická validačná kontrola154633. Počet dokončených modelov
+a prípadné chyby ukáže collect.py a report/; ID dávky nie je počet sietí.
+
+Zdroj: nemenná revízia r_6015802a53cffb3c.
+Váhy a veľké polia ostávajú naPerune; lokálne sú len malé reporty.

@@ -1,0 +1,12 @@
+{
+  "name": "tfno",
+  "repr": "AuthorTFNOPipeline(\n  (core): TFNO(\n    (positional_embedding): GridEmbeddingND()\n    (fno_blocks): FNOBlocks(\n      (convs): ModuleList(\n        (0-4): 5 x SpectralConv(\n          (weight): TuckerTensor(shape=(32, 32, 32, 17), rank=(18, 18, 18, 9))\n        )\n      )\n      (fno_skips): ModuleList(\n        (0-4): 5 x Flattened1dConv(\n          (conv): Conv1d(32, 32, kernel_size=(1,), stride=(1,), bias=False)\n        )\n      )\n      (channel_mlp): ModuleList(\n        (0-4): 5 x ChannelMLP(\n          (fcs): ModuleList(\n            (0): Conv1d(32, 16, kernel_size=(1,), stride=(1,))\n            (1): Conv1d(16, 32, kernel_size=(1,), stride=(1,))\n          )\n        )\n      )\n      (channel_mlp_skips): ModuleList(\n        (0-4): 5 x SoftGating()\n      )\n    )\n    (lifting): ChannelMLP(\n      (fcs): ModuleList(\n        (0): Conv1d(5, 64, kernel_size=(1,), stride=(1,))\n        (1): Conv1d(64, 32, kernel_size=(1,), stride=(1,))\n      )\n    )\n    (projection): ChannelMLP(\n      (fcs): ModuleList(\n        (0): Conv1d(32, 128, kernel_size=(1,), stride=(1,))\n        (1): Conv1d(128, 3, kernel_size=(1,), stride=(1,))\n      )\n    )\n  )\n)",
+  "total_parameters": 289720,
+  "trainable_parameters": 289720,
+  "buffer_values": 10,
+  "core_parameter_values": 289720,
+  "core_buffer_values": 0,
+  "data_fitted_or_selected_core_scalars": 289720,
+  "counting_note": "ELM fixed random weights are buffers; SCN selected weights and CasCor frozen units also count as fitted/selected. Static coordinate buffers are not learned weights.",
+  "point_encoding": null
+}

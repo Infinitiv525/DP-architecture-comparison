@@ -1,0 +1,48 @@
+NÁVRH VÝPOČTOVÉHO ROZPOČTU — 11.11.2026
+Prvá riadna etapa porovnania architektúr. Nie je to meraná konečná spotreba.
+
+PODKLAD
+Technický pilot 152886: 94 s na jednej H200 a štyroch CPU; 16 TRAIN,
+4 VAL prípady. Nové gradientové modely dostali iba 120 aktualizácií.
+Z tohto krátkeho behu nemožno spoľahlivo odvodiť čas do požadovanej
+presnosti. Finálna vstupná reprezentácia a kapacity ešte nie sú zmrazené.
+Nasledujúce čísla sú preto navrhované limity etapy, nie prísľub konvergencie.
+
+ROZSAH A ARITMETIKA
+Nový tréning: FNO/TFNO a 8 alternatív = 9 modelových variantov.
+Pôvodná PINN zostáva archívnou referenciou, teraz sa znovu netrénuje.
+
+1. Dve skúšobné konfigurácie každého nového modelu:
+   9 x 2 = 18 tréningov, limit 1 GPU-h na tréning = najviac 18 GPU-h.
+2. Tri nové opakované tréningy vybranej konfigurácie každého modelu:
+   9 x 3 = 27 tréningov, limit 1 GPU-h na tréning = najviac 27 GPU-h.
+3. Samostatné vyhodnotenie, dlhšie meranie latencie a kontrola výstupov:
+   navrhovaný spoločný limit 10 GPU-h.
+4. Rezerva na kalibráciu plnej sady a opravu technického zlyhania:
+   navrhovaný limit 5 GPU-h. Nevyužitá rezerva sa nespotrebúva povinne.
+
+Spolu: 45 nových tréningov a najviac 60 GPU-h pre túto etapu.
+Pri 4 pridelených CPU na GPU úlohu ide o 240 pridelených CPU core-h,
+ak sa využije celý GPU limit. Osobitné CPU audity do toho nepatria;
+pre ich malé doplnkové úlohy navrhujeme rezervu do 10 CPU core-h.
+Celková plánovacia rezerva CPU je teda približne 250 core-h.
+
+Limity sú návrh, zatiaľ neboli zavedené do hlavného tréningového protokolu
+ani zadané do Slurmu. Jedna hodina nie je vedecké kritérium dostatočného
+tréningu. Najprv treba overiť plnú sadu a priebeh učenia; potom zmraziť
+pravidlá práce/času pre všetky metódy. Ak hodinový limit bráni konvergencii,
+rozsah a rozpočet sa pred definitívnym porovnaním upravia transparentne.
+Tri opakovania sú základ na posúdenie variability, nezaručujú štatistickú silu.
+
+PAMÄŤ A KALENDÁRNY ČAS
+Počiatočná požiadavka na úlohu: 1 H200, 4 CPU, 32 GiB RAM; plná sada
+a väčšie siete môžu vyžadovať úpravu. Pilotné kapacity nie sú finálne.
+Pri využití celého limitu je 60 GPU-h ideálne 15 h na štyroch GPU alebo
+7,5 h na ôsmich GPU. Je to iba výpočet práce delením súbehom: etapy
+na seba nadväzujú, úlohy sú nerovnako dlhé a čaká sa vo fronte.
+Rozumný cieľ na samotné výpočty je preto rádovo niekoľko dní po zmrazení
+nastavení; programovanie, výber reprezentácie a prípadné opravy sú navyše.
+
+Nie je započítané nové CFD, nové LLM hľadanie ani pretrénovanie starej PINN.
+Tieto práce do súčasného porovnania nepridávame. Veľké dáta a váhy zostávajú
+na Perune. Návrh neoveruje aktuálny disponibilný zostatok portálu.

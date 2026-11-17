@@ -1,0 +1,6 @@
+{
+  "matplotlib": "3.11.2",
+  "numpy": "1.26.2",
+  "data_source": "report/continuation/summary/cost_curves.csv",
+  "note": "Step curve is best-so-far GPU VAL normalized by original GPU baseline; x marker is actual last checkpoint. No raw fields or weights used."
+}

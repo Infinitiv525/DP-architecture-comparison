@@ -1,0 +1,145 @@
+{
+  "status": "ALL9_UNTRAINED_CONSTRUCTOR_COUNTS_VERIFIED",
+  "models": [
+    {
+      "model": "tfno",
+      "width": 48,
+      "ledger": {
+        "trainable_real_scalars": 1353318,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353328,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413272,
+        "core_state": "UNTRAINED_CONSTRUCTOR_ONLY"
+      }
+    },
+    {
+      "model": "chebkan",
+      "width": 294,
+      "ledger": {
+        "trainable_real_scalars": 1354356,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354366,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5417424,
+        "core_state": "UNTRAINED_CONSTRUCTOR_ONLY"
+      }
+    },
+    {
+      "model": "pinet",
+      "width": 618,
+      "ledger": {
+        "trainable_real_scalars": 1353612,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353622,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5414448,
+        "core_state": "UNTRAINED_CONSTRUCTOR_ONLY"
+      }
+    },
+    {
+      "model": "dendrite",
+      "width": 636,
+      "ledger": {
+        "trainable_real_scalars": 1354872,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354882,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5419488,
+        "core_state": "UNTRAINED_CONSTRUCTOR_ONLY"
+      }
+    },
+    {
+      "model": "realnpu",
+      "width": 1578,
+      "ledger": {
+        "trainable_real_scalars": 1353203,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353213,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5412812,
+        "core_state": "UNTRAINED_CONSTRUCTOR_ONLY"
+      }
+    },
+    {
+      "model": "rbf",
+      "width": 1577,
+      "ledger": {
+        "trainable_real_scalars": 1353258,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "core_state": "UNTRAINED_CONSTRUCTOR_ONLY"
+      }
+    },
+    {
+      "model": "cascor",
+      "width": 927,
+      "ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 1352449,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1352449,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5409756,
+        "core_state": "UNTRAINED_CONSTRUCTOR_ONLY"
+      }
+    },
+    {
+      "model": "elm",
+      "width": 7048,
+      "ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 1353418,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 4693968,
+        "learned_or_fitted_total": 1353418,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 24189504,
+        "core_state": "UNTRAINED_CONSTRUCTOR_ONLY"
+      }
+    },
+    {
+      "model": "scn",
+      "width": 1577,
+      "ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 302986,
+        "data_selected_frozen_real_scalars": 1050282,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "core_state": "UNTRAINED_CONSTRUCTOR_ONLY"
+      }
+    }
+  ],
+  "forward_calls": 0,
+  "training_updates": 0,
+  "simulation_fields_read": 0,
+  "GPU_allocated": false,
+  "purpose": "Model construction and scalar accounting only; not an inference/training experiment",
+  "learned_or_fitted_reference": 1353328,
+  "torch": "2.12.0+cu130",
+  "source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_fair_design_20261111_v1/revisions/r_36c7edbd14a77baf",
+  "source_sha256": {
+    "field_adapter.py": "715540b1ce0d0867ca4bd85b07a28ca36b686e2775340e69fe9018a8b42063aa",
+    "operator_models.py": "4f5af7a08f610d49ae9ca80e8172d082c24a0f0017d91c74b7d16f7712006219",
+    "capacity_plan.json": "1a09ffa8239176e58e0d61fc2966d970b9092844148b02d3ecccb2c7cb969dc7",
+    "count_constructors.py": "a527771cd0e7bca547220e3d2cdb1abff7c1a36117c0ada13c9bcf671700ce5b"
+  }
+}

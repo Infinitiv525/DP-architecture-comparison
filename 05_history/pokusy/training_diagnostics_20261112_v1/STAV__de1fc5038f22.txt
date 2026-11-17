@@ -1,0 +1,25 @@
+DIAGNOSTIKA JE DOKONČENÁ A OVERENÁ
+
+Všetkých 45 modelov bolo prepočítaných na 640 TRAIN a 160 VAL prípadoch:
+36 000 prípadových strát, všetkých 7 200 VAL zhôd s pôvodným GPU výpočtom.
+Deväť kompletných rodín po päť modelov, chybové logy prázdne, CPU front prázdny.
+Žiadny nový tréning ani TEST ciele, váhy sú nezmenené.
+
+PiNet, Dendrite, ELM, SCN aj CasCor majú vysokú chybu už na TRAIN.
+Najsilnejšia opora pre skúmanie ďalšieho času: ChebKAN a RBF.
+Návrh je v druha_sanca_navrh.txt; nič z neho nie je spustené.
+Prípadná druhá šanca bude iba samostatný doplnok mimo hlavného porovnania.
+
+Čísla a interpretácia: VYSVETLENIE.txt, diagnostic_summary.json.
+Integrita a úplnosť: completion_check.json. Protokol: protokol.txt.
+Veľké váhy ostávajú na Perune.
+
+Následná aktualizácia: po výslovnom pokyne používateľa sú oddelené
+8h pokračovania už zaradené v architecture_second_chance_20261112_v1.
+Čakajú na koniec FNO auditu. Pôvodná diagnostika a experiment bez zmeny.
+
+UZAVRETIE DRUHEJ ŠANCE 17. 11. 2026
+Štyri autorizované pokračovania sú dokončené a skontrolované. ChebKAN
+znížilo VAL stratu o 11–15 %, RBF o 5–8 %, pri približne dvojnásobnom
+rozpočte línie. Ide o samostatný doplnok; hlavné výsledky sa nemenia.
+Úplný výstup: ../architecture_second_chance_20261112_v1/VYSLEDKY.txt.

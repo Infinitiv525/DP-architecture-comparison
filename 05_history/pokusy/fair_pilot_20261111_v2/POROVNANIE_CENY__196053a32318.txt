@@ -1,0 +1,38 @@
+UPRESNENIE VYPOCTOVEJ CENY
+
+Pouzivatel chce podobnu vypoctovu cenu sieti; chyba je vysledok.
+Sucasny pilot je kalibracia, nie hotove porovnanie s rovnakou cenou.
+Priblizne 1.35 miliona koeficientov nie je zaruka rovnakej ceny.
+Rovnaky pocet epoch alebo konstrukcnych uzlov tiez nie je rovnaka praca.
+
+Priklad z rovnakeho plneho TRAIN pripadu; CPU 4 jadra / H200:
+Model        koeficienty       CPU aktualizacia ms     GPU aktualizacia ms
+tfno            1353328                  47.397                   9.077
+chebkan         1354366                 140.301                   1.694
+pinet           1353622                 110.958                   1.257
+dendrite        1354882                 125.838                   1.335
+realnpu         1353213                 264.589                   2.472
+rbf             1353268                 126.920                   1.621
+
+Hodnoty su casy celej aktualizacie gradientu na jednom pripade,
+nie cas predikcie. Obsahuju cas jadra a loss/backward/optimizer,
+nezahrnaju nanovo vstupnu transformaciu, nacitanie celej sady a validaciu.
+CPU a GPU hodina sa preto nesmu prehlasit za zamenitelne. Ani jeden
+univerzalny prevodny koeficient medzi zariadeniami nie je meranim potvrdeny.
+
+Treba upresnit, ci chceme kontrolovat rozpocet ucenia, cenu jednej
+predikcie, alebo oboje. Otazka bola polozena pouzivatelovi; zatial
+nezavadzame svojvolny casovy limit alebo novu zmenu velkosti sieti.
+Ziadny finalny compute-matched trening sa bez tejto definicie nespusti.
+Existujuce piloty pokracuju ako kalibracia v uz ohranicenom rozpocte.
+
+Pri porovnani predikcie je spolocny meraci stroj H200, FP32, batch1,
+rovnake cele polia 512x512 a cela vstupno-vystupna cesta. Ciel 5ms sa
+vyhodnoti samostatne. FLOPs sa zatial nemerali; nepouzivame vymyslene
+pocty operacii alebo publikovane cisla inych velkosti namiesto merania.
+
+ROZHODNUTIE UPRESNENE: kazda rodina dostane rovnaky strop treningu na
+rovnakom H200. Novy primarny protokol je v susednom priecinku
+architecture_budgeted_20261111_v3/protokol.txt. Jednotne ladenie2x1h
+na rodinu uz bezi156096; hlavne behy maju pracovny strop8h/seed,
+planuje sa5opakovani. Tento zmiesany pilot je nadalej iba kalibracia.

@@ -1,0 +1,176 @@
+{
+  "train_ids": [
+    928,
+    25,
+    555,
+    534,
+    506,
+    930,
+    823,
+    345,
+    961,
+    588,
+    421,
+    183,
+    63,
+    873,
+    100,
+    592
+  ],
+  "validation_ids": [
+    341,
+    952,
+    548,
+    417
+  ],
+  "cases": [
+    {
+      "index": 928,
+      "phase": "train",
+      "reynolds": 384.0,
+      "geometry_hash": "b0e441df84b331fb75a978a35eddad5791ff787b2798204b4095a831c2ebb6a6"
+    },
+    {
+      "index": 25,
+      "phase": "train",
+      "reynolds": 660.0,
+      "geometry_hash": "033de925a5560a8bcea62f22ff284bf9c01aab69e41793b661859e8a79eac0b9"
+    },
+    {
+      "index": 555,
+      "phase": "train",
+      "reynolds": 582.0,
+      "geometry_hash": "ed5ddded8b8ae94eb20a58aec5943c38e02744e8d4753e263139f9012a0a1e2a"
+    },
+    {
+      "index": 534,
+      "phase": "train",
+      "reynolds": 93.0,
+      "geometry_hash": "d1e37f8d9365c588598c52c52159ad6c6cdaf966dc3d99cbb17f82a83f21ae35"
+    },
+    {
+      "index": 506,
+      "phase": "train",
+      "reynolds": 117.0,
+      "geometry_hash": "71b6b32f214c31c93e65942cbe29a8b9a4b5090c681d1e702e488165b328b961"
+    },
+    {
+      "index": 930,
+      "phase": "train",
+      "reynolds": 666.0,
+      "geometry_hash": "ce45410b73df6243e984e45d3a41552c880366f8c0700a79db3bf7d477446f32"
+    },
+    {
+      "index": 823,
+      "phase": "train",
+      "reynolds": 71.0,
+      "geometry_hash": "e914d6b42aba9ab89c7793b80b43f53005d07fe26fe4a390cee998ab0e7db379"
+    },
+    {
+      "index": 345,
+      "phase": "train",
+      "reynolds": 71.0,
+      "geometry_hash": "79a1bda776c30e65f234871bb991035a4c40f8ba8d82e62a4edc3f4ff2af314f"
+    },
+    {
+      "index": 961,
+      "phase": "train",
+      "reynolds": 24.0,
+      "geometry_hash": "e6064cf57fb2f861df5c32559523f7496ff6baf5a4257d88a34a7fe65bd6e1c0"
+    },
+    {
+      "index": 588,
+      "phase": "train",
+      "reynolds": 599.0,
+      "geometry_hash": "e1c1a408f6ecdca3832173276ef2876258933503061e230a14aa1fb040abe9d8"
+    },
+    {
+      "index": 421,
+      "phase": "train",
+      "reynolds": 656.0,
+      "geometry_hash": "0b585ca1d4374c549fefbdf1fe0de121109829bd854d5b2570563b452bba3163"
+    },
+    {
+      "index": 183,
+      "phase": "train",
+      "reynolds": 14.0,
+      "geometry_hash": "d73bf3d8f27e97518330e6631f24a449eb4d0c7f38bbd67f2175cd2ab43170b2"
+    },
+    {
+      "index": 63,
+      "phase": "train",
+      "reynolds": 80.0,
+      "geometry_hash": "37d487e0e3bee333b4d0438651c930853ffb1c3f9ae0b45c4af6e4f4f837b870"
+    },
+    {
+      "index": 873,
+      "phase": "train",
+      "reynolds": 890.0,
+      "geometry_hash": "251699050b807b9a9ba27b03673785c6da4a7c096bde8db701c3cb0e23cfe586"
+    },
+    {
+      "index": 100,
+      "phase": "train",
+      "reynolds": 334.0,
+      "geometry_hash": "d0d8f2b282faac7ed25ab79995c63c6f7b9ac3733e86ec919c89eee516657b55"
+    },
+    {
+      "index": 592,
+      "phase": "train",
+      "reynolds": 47.0,
+      "geometry_hash": "3541056a917a50b87faa41f81e76f772add8d77b62791a6e48bd5adafabf21f1"
+    },
+    {
+      "index": 341,
+      "phase": "validation",
+      "reynolds": 903.0,
+      "geometry_hash": "79a1bda776c30e65f234871bb991035a4c40f8ba8d82e62a4edc3f4ff2af314f"
+    },
+    {
+      "index": 952,
+      "phase": "validation",
+      "reynolds": 30.0,
+      "geometry_hash": "2d6fcd91d952a56dafb92f2dcb0565705ddc4363b1a8d7359146b494c433d4e4"
+    },
+    {
+      "index": 548,
+      "phase": "validation",
+      "reynolds": 44.0,
+      "geometry_hash": "6293c46ad369484d2c8f7226e343d0424af313276c937e5afdfa5123bd142350"
+    },
+    {
+      "index": 417,
+      "phase": "validation",
+      "reynolds": 778.0,
+      "geometry_hash": "45971ef6f5dd077f102dfcabce1ddb1ac6a538cca0ff2590f57be164b8405192"
+    }
+  ],
+  "input_revision": "937c672604d4c9f39aceedf1fa2f0a603695264b",
+  "normalization": {
+    "target_mean": [
+      0.001105676085176367,
+      -0.0008026961615262943,
+      2.487567464712493e-11
+    ],
+    "target_std": [
+      0.19154282465036498,
+      0.1350667922297031,
+      0.2857597197454343
+    ],
+    "target_fluid_points": 148754654,
+    "geometry_mean": [
+      0.886646831035614,
+      0.36494894616530166
+    ],
+    "geometry_std": [
+      0.31075343595726984,
+      0.2738975038115574
+    ],
+    "source": "TRAIN only; pressuregauge fluid mean per sample; no TESTtargets"
+  },
+  "prepared_sha256": "bccc653832466b229b24e2426f9897298af3d6173241704565afe207fd1e978d",
+  "split_sha256": "4b5b8baa9d8c1cec6992921a66c393c2f381504dd8dc1632eb1c9923ad4530ff",
+  "test_targets_read": false,
+  "known_geometry_split": true,
+  "case_selection": "first16 TRAIN/first4 VAL in frozen split order; no target-based selection"
+}

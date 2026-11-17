@@ -1,0 +1,7914 @@
+{
+  "status": "BUDGETED_TRAINING_COMPLETE",
+  "task": {
+    "model": "scn",
+    "seed": 931102,
+    "configuration_index": 0,
+    "learning_rate": 0.001,
+    "ridge": 1e-08,
+    "time_budget_seconds": 14400,
+    "mode": "main"
+  },
+  "stop_reason": "no_admissible_candidate",
+  "limit_seconds": 14400,
+  "allocation_elapsed_seconds": 435.2785101759946,
+  "within_time_limit": true,
+  "best_complete_validation_loss": 0.39745340757071973,
+  "best_checkpoint_selected_at_seconds": 435.0747321540257,
+  "physical_validation_metrics": {
+    "case_metrics": [
+      {
+        "velocity_relative_L2": 0.46376174688339233,
+        "pressure_relative_L2": 0.6919994354248047
+      },
+      {
+        "velocity_relative_L2": 0.4402109384536743,
+        "pressure_relative_L2": 0.9098173975944519
+      },
+      {
+        "velocity_relative_L2": 0.370215505361557,
+        "pressure_relative_L2": 0.8222844004631042
+      },
+      {
+        "velocity_relative_L2": 0.42607250809669495,
+        "pressure_relative_L2": 0.6486836671829224
+      },
+      {
+        "velocity_relative_L2": 0.4529966115951538,
+        "pressure_relative_L2": 0.6379886269569397
+      },
+      {
+        "velocity_relative_L2": 0.3638439178466797,
+        "pressure_relative_L2": 0.8577621579170227
+      },
+      {
+        "velocity_relative_L2": 0.42214542627334595,
+        "pressure_relative_L2": 0.7442755699157715
+      },
+      {
+        "velocity_relative_L2": 0.3750246465206146,
+        "pressure_relative_L2": 0.8955962657928467
+      },
+      {
+        "velocity_relative_L2": 0.3852734863758087,
+        "pressure_relative_L2": 0.6392003297805786
+      },
+      {
+        "velocity_relative_L2": 0.41319069266319275,
+        "pressure_relative_L2": 0.6820749640464783
+      },
+      {
+        "velocity_relative_L2": 0.42272695899009705,
+        "pressure_relative_L2": 0.8567283749580383
+      },
+      {
+        "velocity_relative_L2": 0.4006301760673523,
+        "pressure_relative_L2": 0.8809965252876282
+      },
+      {
+        "velocity_relative_L2": 0.446347713470459,
+        "pressure_relative_L2": 0.6600135564804077
+      },
+      {
+        "velocity_relative_L2": 0.4702177047729492,
+        "pressure_relative_L2": 0.6658387184143066
+      },
+      {
+        "velocity_relative_L2": 0.40768325328826904,
+        "pressure_relative_L2": 0.7410025596618652
+      },
+      {
+        "velocity_relative_L2": 0.4115302860736847,
+        "pressure_relative_L2": 0.716180145740509
+      },
+      {
+        "velocity_relative_L2": 0.3671979606151581,
+        "pressure_relative_L2": 0.7828729748725891
+      },
+      {
+        "velocity_relative_L2": 0.3442700505256653,
+        "pressure_relative_L2": 0.8179611563682556
+      },
+      {
+        "velocity_relative_L2": 0.42769476771354675,
+        "pressure_relative_L2": 0.6486833691596985
+      },
+      {
+        "velocity_relative_L2": 0.35324615240097046,
+        "pressure_relative_L2": 0.8776987195014954
+      },
+      {
+        "velocity_relative_L2": 0.3975975811481476,
+        "pressure_relative_L2": 0.6350494623184204
+      },
+      {
+        "velocity_relative_L2": 0.37622779607772827,
+        "pressure_relative_L2": 0.746004045009613
+      },
+      {
+        "velocity_relative_L2": 0.4004729688167572,
+        "pressure_relative_L2": 0.7643662691116333
+      },
+      {
+        "velocity_relative_L2": 0.40182018280029297,
+        "pressure_relative_L2": 0.6980478167533875
+      },
+      {
+        "velocity_relative_L2": 0.3415338099002838,
+        "pressure_relative_L2": 0.7410593032836914
+      },
+      {
+        "velocity_relative_L2": 0.3840738534927368,
+        "pressure_relative_L2": 0.735122799873352
+      },
+      {
+        "velocity_relative_L2": 0.3673720061779022,
+        "pressure_relative_L2": 0.6759077906608582
+      },
+      {
+        "velocity_relative_L2": 0.43843623995780945,
+        "pressure_relative_L2": 0.7307330965995789
+      },
+      {
+        "velocity_relative_L2": 0.4199811518192291,
+        "pressure_relative_L2": 0.7399388551712036
+      },
+      {
+        "velocity_relative_L2": 0.353409081697464,
+        "pressure_relative_L2": 0.8007771968841553
+      },
+      {
+        "velocity_relative_L2": 0.3607073128223419,
+        "pressure_relative_L2": 0.7933603525161743
+      },
+      {
+        "velocity_relative_L2": 0.44245249032974243,
+        "pressure_relative_L2": 0.6911216974258423
+      },
+      {
+        "velocity_relative_L2": 0.5589960813522339,
+        "pressure_relative_L2": 0.6996020674705505
+      },
+      {
+        "velocity_relative_L2": 0.36892837285995483,
+        "pressure_relative_L2": 0.9120038151741028
+      },
+      {
+        "velocity_relative_L2": 0.38562384247779846,
+        "pressure_relative_L2": 0.6712356209754944
+      },
+      {
+        "velocity_relative_L2": 0.4201943874359131,
+        "pressure_relative_L2": 0.6818724870681763
+      },
+      {
+        "velocity_relative_L2": 0.4333413243293762,
+        "pressure_relative_L2": 0.9433722496032715
+      },
+      {
+        "velocity_relative_L2": 0.36755847930908203,
+        "pressure_relative_L2": 0.7804006338119507
+      },
+      {
+        "velocity_relative_L2": 0.3848904073238373,
+        "pressure_relative_L2": 0.6525863409042358
+      },
+      {
+        "velocity_relative_L2": 0.3834681212902069,
+        "pressure_relative_L2": 0.7748101353645325
+      },
+      {
+        "velocity_relative_L2": 0.3755241632461548,
+        "pressure_relative_L2": 0.7973871231079102
+      },
+      {
+        "velocity_relative_L2": 0.3641557991504669,
+        "pressure_relative_L2": 0.7091407775878906
+      },
+      {
+        "velocity_relative_L2": 0.42399975657463074,
+        "pressure_relative_L2": 0.6927192807197571
+      },
+      {
+        "velocity_relative_L2": 0.44541025161743164,
+        "pressure_relative_L2": 0.6512919664382935
+      },
+      {
+        "velocity_relative_L2": 0.46759650111198425,
+        "pressure_relative_L2": 0.7653882503509521
+      },
+      {
+        "velocity_relative_L2": 0.4453040659427643,
+        "pressure_relative_L2": 0.6476312279701233
+      },
+      {
+        "velocity_relative_L2": 0.35155442357063293,
+        "pressure_relative_L2": 0.7442725896835327
+      },
+      {
+        "velocity_relative_L2": 0.3519814610481262,
+        "pressure_relative_L2": 0.7456698417663574
+      },
+      {
+        "velocity_relative_L2": 0.35587066411972046,
+        "pressure_relative_L2": 0.7639203667640686
+      },
+      {
+        "velocity_relative_L2": 0.3957328796386719,
+        "pressure_relative_L2": 0.6969977021217346
+      },
+      {
+        "velocity_relative_L2": 0.42520448565483093,
+        "pressure_relative_L2": 0.6489230394363403
+      },
+      {
+        "velocity_relative_L2": 0.3653959631919861,
+        "pressure_relative_L2": 0.8226453065872192
+      },
+      {
+        "velocity_relative_L2": 0.3962780833244324,
+        "pressure_relative_L2": 0.7735018730163574
+      },
+      {
+        "velocity_relative_L2": 0.4019257128238678,
+        "pressure_relative_L2": 0.7745594382286072
+      },
+      {
+        "velocity_relative_L2": 0.35724419355392456,
+        "pressure_relative_L2": 0.7460041046142578
+      },
+      {
+        "velocity_relative_L2": 0.34735387563705444,
+        "pressure_relative_L2": 0.8369052410125732
+      },
+      {
+        "velocity_relative_L2": 0.44154903292655945,
+        "pressure_relative_L2": 0.6665240526199341
+      },
+      {
+        "velocity_relative_L2": 0.3728249967098236,
+        "pressure_relative_L2": 0.9150906205177307
+      },
+      {
+        "velocity_relative_L2": 0.4154073894023895,
+        "pressure_relative_L2": 0.706904947757721
+      },
+      {
+        "velocity_relative_L2": 0.41875866055488586,
+        "pressure_relative_L2": 0.6959241628646851
+      },
+      {
+        "velocity_relative_L2": 0.3673214018344879,
+        "pressure_relative_L2": 0.8178045749664307
+      },
+      {
+        "velocity_relative_L2": 0.4826151728630066,
+        "pressure_relative_L2": 0.762073278427124
+      },
+      {
+        "velocity_relative_L2": 0.4261866509914398,
+        "pressure_relative_L2": 0.6699532270431519
+      },
+      {
+        "velocity_relative_L2": 0.5261582136154175,
+        "pressure_relative_L2": 0.9382300972938538
+      },
+      {
+        "velocity_relative_L2": 0.4382035732269287,
+        "pressure_relative_L2": 0.7280125617980957
+      },
+      {
+        "velocity_relative_L2": 0.4000454545021057,
+        "pressure_relative_L2": 0.6479006409645081
+      },
+      {
+        "velocity_relative_L2": 0.4121358096599579,
+        "pressure_relative_L2": 0.6263084411621094
+      },
+      {
+        "velocity_relative_L2": 0.4485341012477875,
+        "pressure_relative_L2": 0.6514221429824829
+      },
+      {
+        "velocity_relative_L2": 0.378517210483551,
+        "pressure_relative_L2": 0.8433008193969727
+      },
+      {
+        "velocity_relative_L2": 0.35467401146888733,
+        "pressure_relative_L2": 0.8167690634727478
+      },
+      {
+        "velocity_relative_L2": 0.35627707839012146,
+        "pressure_relative_L2": 0.7368435263633728
+      },
+      {
+        "velocity_relative_L2": 0.4306394159793854,
+        "pressure_relative_L2": 0.6476016044616699
+      },
+      {
+        "velocity_relative_L2": 0.4286186397075653,
+        "pressure_relative_L2": 0.7139742374420166
+      },
+      {
+        "velocity_relative_L2": 0.4257220923900604,
+        "pressure_relative_L2": 0.5767641663551331
+      },
+      {
+        "velocity_relative_L2": 0.4258275628089905,
+        "pressure_relative_L2": 0.6947319507598877
+      },
+      {
+        "velocity_relative_L2": 0.44085410237312317,
+        "pressure_relative_L2": 0.6938586831092834
+      },
+      {
+        "velocity_relative_L2": 0.3698761463165283,
+        "pressure_relative_L2": 0.8775502443313599
+      },
+      {
+        "velocity_relative_L2": 0.35924187302589417,
+        "pressure_relative_L2": 0.7153504490852356
+      },
+      {
+        "velocity_relative_L2": 0.3856317102909088,
+        "pressure_relative_L2": 0.6909369230270386
+      },
+      {
+        "velocity_relative_L2": 0.40180912613868713,
+        "pressure_relative_L2": 0.7528429627418518
+      },
+      {
+        "velocity_relative_L2": 0.45434096455574036,
+        "pressure_relative_L2": 0.7035057544708252
+      },
+      {
+        "velocity_relative_L2": 0.3635309636592865,
+        "pressure_relative_L2": 0.7449864745140076
+      },
+      {
+        "velocity_relative_L2": 0.3755270540714264,
+        "pressure_relative_L2": 0.6783326864242554
+      },
+      {
+        "velocity_relative_L2": 0.41929832100868225,
+        "pressure_relative_L2": 0.6955599188804626
+      },
+      {
+        "velocity_relative_L2": 0.36259204149246216,
+        "pressure_relative_L2": 0.9349550604820251
+      },
+      {
+        "velocity_relative_L2": 0.4329591393470764,
+        "pressure_relative_L2": 0.6635139584541321
+      },
+      {
+        "velocity_relative_L2": 0.34302061796188354,
+        "pressure_relative_L2": 0.7996872067451477
+      },
+      {
+        "velocity_relative_L2": 0.3671252131462097,
+        "pressure_relative_L2": 0.7101512551307678
+      },
+      {
+        "velocity_relative_L2": 0.4403918385505676,
+        "pressure_relative_L2": 0.696806788444519
+      },
+      {
+        "velocity_relative_L2": 0.3759070932865143,
+        "pressure_relative_L2": 0.6630392074584961
+      },
+      {
+        "velocity_relative_L2": 0.36354440450668335,
+        "pressure_relative_L2": 0.8293173313140869
+      },
+      {
+        "velocity_relative_L2": 0.4491523504257202,
+        "pressure_relative_L2": 0.7663982510566711
+      },
+      {
+        "velocity_relative_L2": 0.408073753118515,
+        "pressure_relative_L2": 0.6810862421989441
+      },
+      {
+        "velocity_relative_L2": 0.3566232919692993,
+        "pressure_relative_L2": 0.8754872679710388
+      },
+      {
+        "velocity_relative_L2": 0.4615408182144165,
+        "pressure_relative_L2": 0.6459771990776062
+      },
+      {
+        "velocity_relative_L2": 0.3561692237854004,
+        "pressure_relative_L2": 0.8470094203948975
+      },
+      {
+        "velocity_relative_L2": 0.44480007886886597,
+        "pressure_relative_L2": 0.833899974822998
+      },
+      {
+        "velocity_relative_L2": 0.3626722991466522,
+        "pressure_relative_L2": 0.80314040184021
+      },
+      {
+        "velocity_relative_L2": 0.3611876368522644,
+        "pressure_relative_L2": 0.7820740938186646
+      },
+      {
+        "velocity_relative_L2": 0.3737764060497284,
+        "pressure_relative_L2": 0.7152246832847595
+      },
+      {
+        "velocity_relative_L2": 0.44330817461013794,
+        "pressure_relative_L2": 0.8143706321716309
+      },
+      {
+        "velocity_relative_L2": 0.4363701641559601,
+        "pressure_relative_L2": 0.7284992933273315
+      },
+      {
+        "velocity_relative_L2": 0.35797080397605896,
+        "pressure_relative_L2": 0.8721304535865784
+      },
+      {
+        "velocity_relative_L2": 0.39193859696388245,
+        "pressure_relative_L2": 0.8786183595657349
+      },
+      {
+        "velocity_relative_L2": 0.3563232123851776,
+        "pressure_relative_L2": 0.8980374336242676
+      },
+      {
+        "velocity_relative_L2": 0.35106924176216125,
+        "pressure_relative_L2": 0.8871031999588013
+      },
+      {
+        "velocity_relative_L2": 0.3584235906600952,
+        "pressure_relative_L2": 0.7994459867477417
+      },
+      {
+        "velocity_relative_L2": 0.433584988117218,
+        "pressure_relative_L2": 0.7090878486633301
+      },
+      {
+        "velocity_relative_L2": 0.396383672952652,
+        "pressure_relative_L2": 0.7160332202911377
+      },
+      {
+        "velocity_relative_L2": 0.4245452880859375,
+        "pressure_relative_L2": 0.939115047454834
+      },
+      {
+        "velocity_relative_L2": 0.38331013917922974,
+        "pressure_relative_L2": 0.8717819452285767
+      },
+      {
+        "velocity_relative_L2": 0.34764835238456726,
+        "pressure_relative_L2": 0.7726414203643799
+      },
+      {
+        "velocity_relative_L2": 0.4243854582309723,
+        "pressure_relative_L2": 0.6921247839927673
+      },
+      {
+        "velocity_relative_L2": 0.443261057138443,
+        "pressure_relative_L2": 0.6338406205177307
+      },
+      {
+        "velocity_relative_L2": 0.35891926288604736,
+        "pressure_relative_L2": 0.9043875336647034
+      },
+      {
+        "velocity_relative_L2": 0.3957330286502838,
+        "pressure_relative_L2": 0.8990792632102966
+      },
+      {
+        "velocity_relative_L2": 0.4463101923465729,
+        "pressure_relative_L2": 0.6536242961883545
+      },
+      {
+        "velocity_relative_L2": 0.4267835319042206,
+        "pressure_relative_L2": 0.6073007583618164
+      },
+      {
+        "velocity_relative_L2": 0.3704844117164612,
+        "pressure_relative_L2": 0.7265899777412415
+      },
+      {
+        "velocity_relative_L2": 0.44722333550453186,
+        "pressure_relative_L2": 0.6704655885696411
+      },
+      {
+        "velocity_relative_L2": 0.45530039072036743,
+        "pressure_relative_L2": 0.718172550201416
+      },
+      {
+        "velocity_relative_L2": 0.4184265434741974,
+        "pressure_relative_L2": 0.9310525059700012
+      },
+      {
+        "velocity_relative_L2": 0.38154229521751404,
+        "pressure_relative_L2": 0.6512888073921204
+      },
+      {
+        "velocity_relative_L2": 0.3995027244091034,
+        "pressure_relative_L2": 0.6557335257530212
+      },
+      {
+        "velocity_relative_L2": 0.3821283280849457,
+        "pressure_relative_L2": 0.9283785820007324
+      },
+      {
+        "velocity_relative_L2": 0.44106021523475647,
+        "pressure_relative_L2": 0.6637763381004333
+      },
+      {
+        "velocity_relative_L2": 0.40262356400489807,
+        "pressure_relative_L2": 0.7699592709541321
+      },
+      {
+        "velocity_relative_L2": 0.41706982254981995,
+        "pressure_relative_L2": 0.7350404858589172
+      },
+      {
+        "velocity_relative_L2": 0.36987781524658203,
+        "pressure_relative_L2": 0.7399410605430603
+      },
+      {
+        "velocity_relative_L2": 0.3753509223461151,
+        "pressure_relative_L2": 0.7699966430664062
+      },
+      {
+        "velocity_relative_L2": 0.40976381301879883,
+        "pressure_relative_L2": 0.7143107056617737
+      },
+      {
+        "velocity_relative_L2": 0.36737555265426636,
+        "pressure_relative_L2": 0.7953864336013794
+      },
+      {
+        "velocity_relative_L2": 0.4125854969024658,
+        "pressure_relative_L2": 0.6707955598831177
+      },
+      {
+        "velocity_relative_L2": 0.44815146923065186,
+        "pressure_relative_L2": 0.6145694255828857
+      },
+      {
+        "velocity_relative_L2": 0.3735652565956116,
+        "pressure_relative_L2": 0.7560622692108154
+      },
+      {
+        "velocity_relative_L2": 0.3514566719532013,
+        "pressure_relative_L2": 0.8608260750770569
+      },
+      {
+        "velocity_relative_L2": 0.34897199273109436,
+        "pressure_relative_L2": 0.8886931538581848
+      },
+      {
+        "velocity_relative_L2": 0.4074302613735199,
+        "pressure_relative_L2": 0.7470244765281677
+      },
+      {
+        "velocity_relative_L2": 0.40842315554618835,
+        "pressure_relative_L2": 0.6497841477394104
+      },
+      {
+        "velocity_relative_L2": 0.3692741096019745,
+        "pressure_relative_L2": 0.7070523500442505
+      },
+      {
+        "velocity_relative_L2": 0.4411981999874115,
+        "pressure_relative_L2": 0.6099990010261536
+      },
+      {
+        "velocity_relative_L2": 0.48609283566474915,
+        "pressure_relative_L2": 0.6699962615966797
+      },
+      {
+        "velocity_relative_L2": 0.36128461360931396,
+        "pressure_relative_L2": 0.9122461676597595
+      },
+      {
+        "velocity_relative_L2": 0.43808844685554504,
+        "pressure_relative_L2": 0.715400218963623
+      },
+      {
+        "velocity_relative_L2": 0.36275967955589294,
+        "pressure_relative_L2": 0.6821756958961487
+      },
+      {
+        "velocity_relative_L2": 0.4601919651031494,
+        "pressure_relative_L2": 0.7120303511619568
+      },
+      {
+        "velocity_relative_L2": 0.3439907133579254,
+        "pressure_relative_L2": 0.7910995483398438
+      },
+      {
+        "velocity_relative_L2": 0.4174177050590515,
+        "pressure_relative_L2": 0.6764664649963379
+      },
+      {
+        "velocity_relative_L2": 0.4338347911834717,
+        "pressure_relative_L2": 0.6844695806503296
+      },
+      {
+        "velocity_relative_L2": 0.44298988580703735,
+        "pressure_relative_L2": 0.9077455997467041
+      },
+      {
+        "velocity_relative_L2": 0.42811906337738037,
+        "pressure_relative_L2": 0.7071466445922852
+      },
+      {
+        "velocity_relative_L2": 0.43347641825675964,
+        "pressure_relative_L2": 0.8613148331642151
+      },
+      {
+        "velocity_relative_L2": 0.4544508159160614,
+        "pressure_relative_L2": 0.7704377770423889
+      },
+      {
+        "velocity_relative_L2": 0.464942991733551,
+        "pressure_relative_L2": 0.6480119228363037
+      },
+      {
+        "velocity_relative_L2": 0.41484174132347107,
+        "pressure_relative_L2": 0.6640767455101013
+      },
+      {
+        "velocity_relative_L2": 0.3538805842399597,
+        "pressure_relative_L2": 0.7395833134651184
+      },
+      {
+        "velocity_relative_L2": 0.41470324993133545,
+        "pressure_relative_L2": 0.9160877466201782
+      },
+      {
+        "velocity_relative_L2": 0.4302617311477661,
+        "pressure_relative_L2": 0.9359115362167358
+      },
+      {
+        "velocity_relative_L2": 0.4284899830818176,
+        "pressure_relative_L2": 0.6718177795410156
+      },
+      {
+        "velocity_relative_L2": 0.3432134985923767,
+        "pressure_relative_L2": 0.7107653617858887
+      }
+    ],
+    "mean_velocity_relative_L2": 0.4030602939426899,
+    "mean_pressure_relative_L2": 0.7509232513606549,
+    "processing": "Shared solid mask and zero-mean fluid pressure; complete native fields"
+  },
+  "selected_parameter_ledger": {
+    "trainable_real_scalars": 0,
+    "data_fitted_frozen_real_scalars": 159946,
+    "data_selected_frozen_real_scalars": 554112,
+    "data_independent_core_real_scalars": 0,
+    "learned_or_fitted_total": 714058,
+    "total_core_coefficients_plus_normalization": 714058,
+    "common_adapter_buffer_bytes": 2459688,
+    "core_tensor_bytes": 2856192,
+    "accounting_only": false
+  },
+  "last_parameter_ledger": {
+    "trainable_real_scalars": 0,
+    "data_fitted_frozen_real_scalars": 159946,
+    "data_selected_frozen_real_scalars": 554112,
+    "data_independent_core_real_scalars": 0,
+    "learned_or_fitted_total": 714058,
+    "total_core_coefficients_plus_normalization": 714058,
+    "common_adapter_buffer_bytes": 2459688,
+    "core_tensor_bytes": 2856192,
+    "accounting_only": true
+  },
+  "selected_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931102/best.pt",
+  "selected_checkpoint_sha256": "785e002006375b5bcbe152c140f1a9d527bf4017dd8e15ad35022674f4297152",
+  "complete_native_TRAIN_case_visits": [
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833,
+    833
+  ],
+  "gradient_updates": 0,
+  "epochs_started": 0,
+  "final_grown_units": 832,
+  "candidate_history": [
+    {
+      "unit": 1,
+      "radius": 0.5,
+      "relaxation": 0.999,
+      "minimum_xi": 0.00035022280049911607,
+      "candidate_tests": 48
+    },
+    {
+      "unit": 2,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0003536550108287494,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 3,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0011445706070336071,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 4,
+      "radius": 0.5,
+      "relaxation": 0.999,
+      "minimum_xi": 0.009662591090662496,
+      "candidate_tests": 48
+    },
+    {
+      "unit": 5,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0003993545392579877,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 6,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0006203697957129734,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 7,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0010192479603777086,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 8,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0007573367585814316,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 9,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 8.123441815191708e-05,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 10,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.00024764221899647293,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 11,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0009452349116320822,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 12,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0032423774709641716,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 13,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.00051842069905593,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 14,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0002532807364108986,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 15,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0020599278723269555,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 16,
+      "radius": 0.5,
+      "relaxation": 0.999,
+      "minimum_xi": 0.0007276131391631565,
+      "candidate_tests": 48
+    },
+    {
+      "unit": 17,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 1.731994262480356e-05,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 18,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0007787190515321876,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 19,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0004036349496123959,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 20,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.006529055746855197,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 21,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 0.00041331273545231666,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 22,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0007835682542023519,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 23,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0001538504394108971,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 24,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0008158288315085201,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 25,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0006080867431209962,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 26,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 4.0717039694734055e-05,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 27,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.001163080327273657,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 28,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 6.834038783831112e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 29,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.002268089471601782,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 30,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0002396172945547206,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 31,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 0.0002175969511421788,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 32,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.002365913783140634,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 33,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 6.583165290052205e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 34,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 0.00033724596524249223,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 35,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 5.878082882875548e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 36,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.00010154479102951616,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 37,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.00015389286235946258,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 38,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 4.02466810633571e-05,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 39,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 7.681008540563876e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 40,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 0.00012850195403865265,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 41,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.0008019888292158397,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 42,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 3.655627033129222e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 43,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 1.2532946686930014e-05,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 44,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 7.638882406046626e-06,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 45,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 0.00024359430159511333,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 46,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.64657854490382e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 47,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 0.00018240602219808956,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 48,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 9.563464685906394e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 49,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 2.5304409022640167e-06,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 50,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 2.879586747653414e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 51,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 0.00019182540923670349,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 52,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 7.446022840195443e-06,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 53,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 1.0429079187501067e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 54,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 6.23211050492119e-06,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 55,
+      "radius": 0.5,
+      "relaxation": 0.9999,
+      "minimum_xi": 0.00011565374267472029,
+      "candidate_tests": 64
+    },
+    {
+      "unit": 56,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 6.271802382486972e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 57,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 4.416529716173513e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 58,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 1.9536445856611888e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 59,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 0.0001407235452688833,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 60,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 1.3637769652039856e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 61,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 1.60808350927987e-06,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 62,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 1.0390644752921314e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 63,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 8.134173995882541e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 64,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 3.4257157686309588e-06,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 65,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 9.887772148024971e-06,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 66,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 0.00041221458606773985,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 67,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.3099732711015894e-05,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 68,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.5019441735977925e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 69,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 2.0582250911642348e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 70,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 1.820649484015903e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 71,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.2225358097610143e-05,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 72,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 7.881573883200225e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 73,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 1.5144021445839783e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 74,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 7.017043076232073e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 75,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 5.494446474340564e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 76,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 0.00026204848770812467,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 77,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 1.3597279822757996e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 78,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0355449184681145e-05,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 79,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 4.8125011777430516e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 80,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.0954562713627824e-05,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 81,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.811370588032263e-05,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 82,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 1.1572647036904155e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 83,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 2.2717778531304494e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 84,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 8.887946142826275e-06,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 85,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.531495650636024e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 86,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 1.0607710770992405e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 87,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 2.9865846536806182e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 88,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.6116527798616106e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 89,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.839884993607538e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 90,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.4291386533077214e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 91,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.811493706796799e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 92,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 2.30772761379751e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 93,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.494937016199804e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 94,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 4.888771622332892e-06,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 95,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.757184120156986e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 96,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 1.9566394363500503e-06,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 97,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 8.358871556060175e-06,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 98,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 3.4454422175934435e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 99,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.9915859362467685e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 100,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.8925491946463952e-05,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 101,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.6230304727841653e-05,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 102,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.0445627434095896e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 103,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 3.8733012022372217e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 104,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 2.5022182128849673e-06,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 105,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.298959661583839e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 106,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 2.2879037376288993e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 107,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.531611937343923e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 108,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.7281430975892684e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 109,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 3.958832181400279e-07,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 110,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.799613647188051e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 111,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.4904387581230376e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 112,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 3.942097183385223e-06,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 113,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.313451977294787e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 114,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.456197639343452e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 115,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0804674189205973e-05,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 116,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.629142443016266e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 117,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2462376416993814e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 118,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.418301093301607e-05,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 119,
+      "radius": 0.5,
+      "relaxation": 0.99999,
+      "minimum_xi": 3.113349048945164e-05,
+      "candidate_tests": 80
+    },
+    {
+      "unit": 120,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.128762857676036e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 121,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.2213919353923805e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 122,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1805445668231763e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 123,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.9988829302387788e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 124,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2010980649756445e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 125,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2362357279259115e-05,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 126,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.953683065982427e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 127,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.883382608395269e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 128,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.5586675586531497e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 129,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.6420839476876615e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 130,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.57104639048126e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 131,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.435457701820631e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 132,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.844783733935638e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 133,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.907077716978464e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 134,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.585113879589596e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 135,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.546006203456347e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 136,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.7337619364833526e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 137,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.15943278897254e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 138,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.734322826348157e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 139,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.6210946194008716e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 140,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.82810992329398e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 141,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.8330651934272895e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 142,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.44119481902388e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 143,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.9868667377014127e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 144,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.1140575739176626e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 145,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.4110977571415713e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 146,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.945524637873307e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 147,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.330730502775308e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 148,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.705206193466275e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 149,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.8480752340102172e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 150,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.9586492565453066e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 151,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.550584563049287e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 152,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.974091643958768e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 153,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.8133028762379935e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 154,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.6514358931405062e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 155,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.008894398937095e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 156,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.3350016114546448e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 157,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.209747102003202e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 158,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.654107345625014e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 159,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.971391417061567e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 160,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.340795766588022e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 161,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.8439064917566842e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 162,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.621222405790281e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 163,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0538780627575692e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 164,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.903474736854502e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 165,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.4332396385998008e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 166,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.4230897002057685e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 167,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.2874370826489983e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 168,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.994998318928455e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 169,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.853457981015052e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 170,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.285054041650043e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 171,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.191558689437095e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 172,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.174526157242697e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 173,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3231439189245407e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 174,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.244661596697102e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 175,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.264074845887958e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 176,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.3526706202325608e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 177,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.203309135292277e-09,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 178,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.810562769869925e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 179,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.8939211588709242e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 180,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.786701242891235e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 181,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.484996629629105e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 182,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.282924889639512e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 183,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.260100335037253e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 184,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.5141968543881684e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 185,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1541719164834973e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 186,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2273552170611647e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 187,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.061085272147294e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 188,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.8390856909434385e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 189,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1822739257603212e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 190,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.64129733967378e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 191,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.148889110541664e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 192,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.95242663324905e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 193,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0567811652250323e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 194,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.041174889426368e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 195,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.925934954383245e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 196,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.461095359674637e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 197,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.2908840175443685e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 198,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.073021552141335e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 199,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.069671089276113e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 200,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.9909273935274544e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 201,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.4164981349302977e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 202,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.6392630587568086e-06,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 203,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1484472111728295e-09,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 204,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.954526710885496e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 205,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.955927960219154e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 206,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.5964398292805874e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 207,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.752067421616516e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 208,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.798163847630764e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 209,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.9611529734105636e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 210,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.19782883458473e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 211,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.29352953147992e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 212,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.847576896629025e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 213,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.4913463175813588e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 214,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.8875785668852476e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 215,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.8901178945092063e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 216,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.5766529965282967e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 217,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.2731922750422265e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 218,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.112821924955352e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 219,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.320913642636722e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 220,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.8577560931220704e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 221,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.2626116080557623e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 222,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.121285949301457e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 223,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.089972899952584e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 224,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.741684957115358e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 225,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1535278129184945e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 226,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.5435154742274355e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 227,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.369159127075838e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 228,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.798422475555164e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 229,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2894807398713934e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 230,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.062948153032331e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 231,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.03661167969354e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 232,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.950579560099146e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 233,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3774967726856738e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 234,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1507875855865508e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 235,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.111382284087775e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 236,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.6676583695159226e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 237,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.455029168394826e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 238,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.56206815764862e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 239,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.901808399169585e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 240,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.5329353552487285e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 241,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.291919901853315e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 242,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.4819323687057857e-09,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 243,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0612318993661888e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 244,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3457208993417962e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 245,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.8131994205929504e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 246,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.328225753685384e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 247,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.863869830024307e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 248,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3914976620077346e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 249,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2599513569982696e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 250,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.740128575724393e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 251,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.216431237917875e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 252,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3502885525602616e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 253,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.386662700643984e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 254,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.30046618578627e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 255,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.799952329338022e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 256,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.916726687399247e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 257,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.128062704539866e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 258,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.51481996556502e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 259,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.5225896216020805e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 260,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.341929241851504e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 261,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.9187256046574346e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 262,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.466450889763926e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 263,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.5451234855793437e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 264,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.3289084710426707e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 265,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.550185775709357e-09,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 266,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.315430061868745e-09,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 267,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.347770163198949e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 268,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.3120032292172038e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 269,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.5092304512651624e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 270,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.454232459977096e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 271,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.3878864873625585e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 272,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.078987868780633e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 273,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.912885926730167e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 274,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.89110647309618e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 275,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.9488058059473334e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 276,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.87403000212519e-09,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 277,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.078982637183921e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 278,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.374221238633278e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 279,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.5475446271819587e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 280,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.217802868535768e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 281,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2361253263104614e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 282,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0378726664918784e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 283,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.218951332287828e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 284,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3683930483862333e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 285,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2106767864856656e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 286,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.366392944932753e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 287,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1864750402842232e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 288,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.398540660046302e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 289,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.6061989608916447e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 290,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.6166602733880804e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 291,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.855491819570386e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 292,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.77226129208425e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 293,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.3604705350498474e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 294,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.3758630518247894e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 295,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.935301736739102e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 296,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.5023963112748272e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 297,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3303823399836812e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 298,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.6972627050199995e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 299,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.75396395894146e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 300,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.21398784634893e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 301,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2099380067653458e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 302,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.4170024888893693e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 303,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.0641848931396505e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 304,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2623848942592821e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 305,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.288756916060002e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 306,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.773393264428118e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 307,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.00092554658142e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 308,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.162309651132327e-09,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 309,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.4783948875783167e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 310,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.6815701506636394e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 311,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0387483000250933e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 312,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.825593243799129e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 313,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.380478469275476e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 314,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.850425256038927e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 315,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.1759135735348874e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 316,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.022326600137443e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 317,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3948317259376525e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 318,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.608330486482982e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 319,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.82376313947579e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 320,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.4949934468591392e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 321,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.949880611090535e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 322,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.554337283225505e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 323,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.9546678986427926e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 324,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0305427974271822e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 325,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.389120116716787e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 326,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.9505651964091063e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 327,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.500443224007425e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 328,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.65082816307512e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 329,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.653781046597272e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 330,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.457677862610289e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 331,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.8744914790803238e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 332,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.976138570121389e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 333,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.7614653967011867e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 334,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.0344038660827533e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 335,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.7542256501231355e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 336,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.788579946467529e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 337,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.542929301634459e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 338,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.405361840240825e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 339,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2745895013888324e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 340,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.077764509057414e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 341,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.57777408233414e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 342,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.775122871741064e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 343,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.443091122839096e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 344,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.608786337346069e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 345,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.481759780300988e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 346,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.170435183531239e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 347,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.5418594825164284e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 348,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2786431440893397e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 349,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.481037521254796e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 350,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.6075252309031414e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 351,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.106883020836689e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 352,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.3618575179843887e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 353,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.074801998118326e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 354,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3499626586705848e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 355,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.94600021610275e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 356,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.597049445459868e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 357,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.47555669067081e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 358,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.889632000457838e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 359,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.8491338176510513e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 360,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.309592701511707e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 361,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0495109226794427e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 362,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.47552210880221e-07,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 363,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.594079475028877e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 364,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.336985122450443e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 365,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.3250045812114803e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 366,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.0414662683154498e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 367,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3579254277728744e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 368,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.1143469919848323e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 369,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.3827984915610968e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 370,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0723581725919524e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 371,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.327053505813729e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 372,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.43063694114367e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 373,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.683975786564967e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 374,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.297586847158223e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 375,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.012693174882155e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 376,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.667451719101961e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 377,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2062810923553968e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 378,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.0755693491082658e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 379,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.654333242285165e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 380,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.353104576591445e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 381,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.169955185812549e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 382,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2758458498720016e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 383,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2572157543376847e-05,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 384,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.695681642291764e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 385,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2953861783823118e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 386,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.397224306668927e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 387,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.5759130088236274e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 388,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.4246530461336605e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 389,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.826519598836728e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 390,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.0305674170420407e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 391,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.818449462585636e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 392,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.415618414669146e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 393,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.314904050112425e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 394,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.1508141511175656e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 395,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.688121914663594e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 396,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.8013289586719713e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 397,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3086161336750017e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 398,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.816829143041016e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 399,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.7995062030404774e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 400,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.093696808592732e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 401,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.170137387672635e-10,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 402,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.979439478035952e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 403,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.8358754111278283e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 404,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.363466854906468e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 405,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.719769753758512e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 406,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.469881972483972e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 407,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.776255765234172e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 408,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.564591964637499e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 409,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.107541255421593e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 410,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1681006691026228e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 411,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.616591708889223e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 412,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2243203179097377e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 413,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.443848949485897e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 414,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.7719940814135237e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 415,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.705665982805937e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 416,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.5808410757713468e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 417,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.16771927169875e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 418,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.10082029415912e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 419,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.657617826827336e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 420,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3150761054289395e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 421,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.9917219422868288e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 422,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.418841506439274e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 423,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.6925838718685334e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 424,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.403298348408161e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 425,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.332838062254078e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 426,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.172377050229464e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 427,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2333033249151175e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 428,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.064190314226042e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 429,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.759789655461071e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 430,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1226550971624566e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 431,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1232018413065748e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 432,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.982485053380024e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 433,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.92617257878471e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 434,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.629385823234206e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 435,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.06918933288445e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 436,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.5907499363836152e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 437,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.499753131467079e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 438,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.42239355392191e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 439,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.248121584954735e-06,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 440,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.6953433704892405e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 441,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.5204389776270025e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 442,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.732425499691248e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 443,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.948258955981407e-09,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 444,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.8279766524291585e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 445,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.5636895224134744e-09,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 446,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.418446286230358e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 447,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.2071125065100957e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 448,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.429850562800192e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 449,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.104819076257853e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 450,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.286978271528028e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 451,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.33727114387438e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 452,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.3491257577476108e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 453,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.192956876109459e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 454,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.959690586190944e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 455,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3919275395445218e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 456,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.16838739376092e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 457,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1980685148264088e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 458,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.957867072777264e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 459,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.8217338365560817e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 460,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.9203606384814915e-09,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 461,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.051649547620599e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 462,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.752407745945412e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 463,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.231208658132966e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 464,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.742633995818586e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 465,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.247224869388093e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 466,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.060099343062013e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 467,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1549538298108018e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 468,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.580711512135391e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 469,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.432331015928747e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 470,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.171963093677137e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 471,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.81498957052258e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 472,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.21180348017988e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 473,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.336950369325168e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 474,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.7447290764099235e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 475,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1971226756126614e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 476,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.2522799587290164e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 477,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.5752483646359347e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 478,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.4794236660135177e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 479,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.697733754257013e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 480,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1404627069772456e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 481,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.399811653477703e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 482,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.300418473790157e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 483,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0747525550108996e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 484,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.576718284497097e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 485,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.188035092162468e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 486,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.9237842304129304e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 487,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.706122404189155e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 488,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.4342595450933488e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 489,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.192872184918198e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 490,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.131063499324335e-06,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 491,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.9927306986852693e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 492,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0793540763921528e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 493,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.9039243682861585e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 494,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.3626976409099535e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 495,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.866231222580674e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 496,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.04010159973925e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 497,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.357564030019867e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 498,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.211159129466241e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 499,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.4707780724395746e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 500,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.928321493065154e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 501,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.9023118266401245e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 502,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.507157580975877e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 503,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.691748803353762e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 504,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.7117231392123024e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 505,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.6471811188318848e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 506,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.176061164249773e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 507,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.2861903814638745e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 508,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.4830632598282519e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 509,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0978337393567857e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 510,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.715460547009716e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 511,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.4798210779021496e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 512,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.229798935686363e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 513,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.250893034377676e-07,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 514,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1598500004622017e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 515,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.468503147384686e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 516,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.090455957803411e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 517,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.252983111969479e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 518,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.4460056148682777e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 519,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.661918935523025e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 520,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.826318293531796e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 521,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.1291521454077435e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 522,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.040627693405148e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 523,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.112383519359482e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 524,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.288533388953609e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 525,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.242560562737272e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 526,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.61460452767058e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 527,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.026908311194343e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 528,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.298751407992884e-10,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 529,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.461263851159593e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 530,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.648565964778683e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 531,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.433195851985106e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 532,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.822055076241268e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 533,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.2018947453131006e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 534,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.8076866394086307e-06,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 535,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.229120743213199e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 536,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.6765470423793665e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 537,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.702974278693836e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 538,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.933779580637805e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 539,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.477336799392701e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 540,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.8408007102630457e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 541,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.391702339315452e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 542,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.7493646471704612e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 543,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.509212983686697e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 544,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.99716634582396e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 545,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.5562191970521942e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 546,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.840499770540547e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 547,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2904503339119999e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 548,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1275404575263685e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 549,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.167880044818977e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 550,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.747147023884271e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 551,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.122519228498952e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 552,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.544385110038651e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 553,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.551619786889579e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 554,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.222900622238712e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 555,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.432585568476835e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 556,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.47383250164694e-09,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 557,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.318957229179261e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 558,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1799718732031546e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 559,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.7012365887204833e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 560,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.132244367343245e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 561,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0210006292955738e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 562,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.1690422337775497e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 563,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.95942002568204e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 564,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.699877744450282e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 565,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0260447950216695e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 566,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.196395982081738e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 567,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0782815423895615e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 568,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.4589619050759254e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 569,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.8937349476332986e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 570,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.635556339294626e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 571,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.136469697710244e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 572,
+      "radius": 0.5,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.6893095568908543e-08,
+      "candidate_tests": 96
+    },
+    {
+      "unit": 573,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.826708758069716e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 574,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.3866245690724503e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 575,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.714094425112984e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 576,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.88685458717604e-07,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 577,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.308620675541591e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 578,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.078559295172849e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 579,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.820249556882388e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 580,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.166861605794479e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 581,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.345119870296853e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 582,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.801220495781737e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 583,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.6565059683299305e-06,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 584,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.5040769887069665e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 585,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.907505520940104e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 586,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.8059280217174533e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 587,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.015179258969475e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 588,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.510539441433686e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 589,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.083916136475048e-09,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 590,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3913640546015152e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 591,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.388667327803329e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 592,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.917331069665153e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 593,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2940897024381483e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 594,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.796277318327126e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 595,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.214566814139256e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 596,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.105819478456224e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 597,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.3040103318938636e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 598,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.125272938188123e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 599,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.6711150400492742e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 600,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.230552547209995e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 601,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.933535401408554e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 602,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.860840975150208e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 603,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.906708468105576e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 604,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.5201958855730086e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 605,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.5666462255638718e-06,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 606,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.915755440965496e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 607,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.297057465297783e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 608,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.353629352665003e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 609,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.938928057401713e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 610,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.279358055512396e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 611,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.5113560438614972e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 612,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.235984816685078e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 613,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.6169563568385658e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 614,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.7596669679435233e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 615,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.31718660781526e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 616,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0685853094045503e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 617,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.7320583585718233e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 618,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.4532773524554153e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 619,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.553560993294432e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 620,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.6763356946964535e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 621,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.256719909394885e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 622,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.13533585590189e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 623,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.559876672824937e-09,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 624,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.4817209827901037e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 625,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.506345296560288e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 626,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.63543538656441e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 627,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.872404567984404e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 628,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.2818911257562844e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 629,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.0191505615705124e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 630,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0194132763162181e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 631,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.162708030356834e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 632,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.753044532469801e-07,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 633,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.248329385618924e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 634,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.944410684683897e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 635,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.2928641211335896e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 636,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.4940478032217285e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 637,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.030638288939221e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 638,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.341862474040324e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 639,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.9866167226411918e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 640,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.7616694875071827e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 641,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.443420249327943e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 642,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.143444727248811e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 643,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.285099866648922e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 644,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.565343675680001e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 645,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.0441369700149113e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 646,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.5932936026297075e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 647,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.630705437866269e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 648,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.617977444851311e-09,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 649,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.820596331847315e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 650,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.551177666319397e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 651,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.929346772206195e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 652,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.7965669642316833e-06,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 653,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.9268510987980826e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 654,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.774062880386317e-06,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 655,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.9440495379895114e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 656,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.03505537234468e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 657,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.238942092949158e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 658,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.907746408563701e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 659,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.4917449194355705e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 660,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.435831750718322e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 661,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.959848767270798e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 662,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.948622731847468e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 663,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.6755131747130692e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 664,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.034394246362897e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 665,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.386809639191122e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 666,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.9198956706782024e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 667,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.890065136073999e-08,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 668,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3261352197131866e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 669,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.975415671139036e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 670,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.8689941465158095e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 671,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.91842161657534e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 672,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.1538003514313484e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 673,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.8067556668345787e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 674,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1350032164254146e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 675,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3572616393252874e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 676,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.706033464253291e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 677,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.836135457593262e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 678,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.657061633792755e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 679,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.0592448588521565e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 680,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.7452264662592534e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 681,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.908179199011458e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 682,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.29540513112762e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 683,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0256967392166038e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 684,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.958197734884691e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 685,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.062169969857824e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 686,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.78727750939206e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 687,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.255609383196932e-07,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 688,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.993181459923713e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 689,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.366463476266346e-09,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 690,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.5462570419396145e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 691,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.613215420239397e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 692,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.1025350984672975e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 693,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.764100256285001e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 694,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.1954093032299172e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 695,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.8301893497936078e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 696,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.759010176339187e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 697,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.785522969186787e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 698,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.996572537784759e-06,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 699,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.081620582278362e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 700,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2749953190077952e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 701,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.303985715734492e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 702,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.494518513622181e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 703,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.467055348419728e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 704,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.172794709965669e-06,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 705,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.513154220270557e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 706,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.042211436365539e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 707,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0540158362331045e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 708,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.565660619224551e-07,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 709,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1873255048185227e-06,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 710,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.664521132323445e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 711,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.7647532504131024e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 712,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.82458095727556e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 713,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.4501158397652075e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 714,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.523078111111261e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 715,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.886691685588995e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 716,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.667899862911863e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 717,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.71729369948532e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 718,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.607259156656408e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 719,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.267173355382926e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 720,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.880867560724646e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 721,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.078632820011862e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 722,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.9505245118417708e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 723,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.414726795092261e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 724,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.509736108384314e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 725,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.491045670428865e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 726,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.196769209575591e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 727,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1483069424644778e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 728,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.01014666366398e-06,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 729,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.526573013568935e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 730,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.34209290567324e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 731,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0371360773154759e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 732,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.530803995948892e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 733,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.733388238986684e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 734,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.23111134241976e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 735,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.838839539591525e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 736,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.898885213224186e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 737,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.2291884479063826e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 738,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.9170991755940275e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 739,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.4586909230554608e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 740,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.8679267524846913e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 741,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.443548022781805e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 742,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.3246402879742224e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 743,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.2874069896176925e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 744,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.5969895403417407e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 745,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.545478112140087e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 746,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.7878301697056275e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 747,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.8555476094892436e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 748,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.1905837484926497e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 749,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.3280197982794e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 750,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.31052769499229e-10,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 751,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.007475957657974e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 752,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0348034560421081e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 753,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.8206958008544026e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 754,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3722880152306972e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 755,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.784250506765869e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 756,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.038514870452822e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 757,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.554980132550972e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 758,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.962937850466791e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 759,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0416291317684971e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 760,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.0552530667997434e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 761,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.965590223654371e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 762,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.2452030479452145e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 763,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.79139585652697e-07,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 764,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.4663025246748446e-07,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 765,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.393891104665968e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 766,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.079819738785954e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 767,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1852100476812596e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 768,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2433723408123997e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 769,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.352758937157682e-07,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 770,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.601911619754154e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 771,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.235933412923188e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 772,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.015044769528277e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 773,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.6817543091049113e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 774,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.1403134839825716e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 775,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.7856220639173266e-07,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 776,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.759359282039479e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 777,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.230205375000569e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 778,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.5758741519257365e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 779,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.9170766451749834e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 780,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.3295808163445083e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 781,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2047085528509369e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 782,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1374534106586272e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 783,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1575975389873227e-06,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 784,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.828115534387334e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 785,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.352687408771974e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 786,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.4042994816347097e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 787,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.235143120408029e-06,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 788,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.485606196082184e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 789,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.4660244228495967e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 790,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.535303146336573e-06,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 791,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.32520927099173e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 792,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.5050721262209613e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 793,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.5211588847591213e-09,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 794,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.7361694978090676e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 795,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.017827268841092e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 796,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3489379185105373e-07,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 797,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.3347510292444495e-09,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 798,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2301345682026422e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 799,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 8.833668258307222e-07,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 800,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1414846641949325e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 801,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.686543939862477e-10,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 802,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.500255084996965e-09,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 803,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.776034474836504e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 804,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.733326113347656e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 805,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.5761933521028515e-07,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 806,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.995591868031724e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 807,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.310953275169209e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 808,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 9.325191210716098e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 809,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.779660891704683e-06,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 810,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.157690669784708e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 811,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.649345203216092e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 812,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.2315278288330876e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 813,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.561109774597147e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 814,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.8233356386263664e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 815,
+      "radius": 1.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.059635129903991e-08,
+      "candidate_tests": 192
+    },
+    {
+      "unit": 816,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.328265150819796e-06,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 817,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.1703487746568337e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 818,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.6285602524675084e-06,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 819,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.939149071402504e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 820,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.018770768288706e-07,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 821,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.4424057794659291e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 822,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.736340092121858e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 823,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.90233350944759e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 824,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.119623266990517e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 825,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 5.850764151467385e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 826,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 6.029482488441017e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 827,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.021343144637192e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 828,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 1.2749940377074535e-07,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 829,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 7.037212428291963e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 830,
+      "radius": 4.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 4.2257808571796313e-07,
+      "candidate_tests": 384
+    },
+    {
+      "unit": 831,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 2.1681586720812004e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 832,
+      "radius": 2.0,
+      "relaxation": 0.9999999,
+      "minimum_xi": 3.845074980048848e-08,
+      "candidate_tests": 288
+    },
+    {
+      "unit": 833,
+      "stop": "no_admissible_candidate",
+      "candidate_tests": 384
+    }
+  ],
+  "history": [
+    {
+      "event": "initial",
+      "allocation_elapsed_seconds": 3.9234491779934615,
+      "epochs": 0,
+      "updates": 0,
+      "units": 0,
+      "validation": {
+        "mean_raw_case_balanced_loss": 0.9999852288514376,
+        "case_losses": [
+          0.9999874830245972,
+          0.9999850392341614,
+          0.9999833703041077,
+          0.9999868273735046,
+          0.9999879598617554,
+          0.9999843239784241,
+          0.9999865293502808,
+          0.999984860420227,
+          0.9999858140945435,
+          0.9999854564666748,
+          0.9999857544898987,
+          0.9999856352806091,
+          0.9999863505363464,
+          0.9999862313270569,
+          0.9999866485595703,
+          0.9999859929084778,
+          0.9999839067459106,
+          0.9999844431877136,
+          0.9999878406524658,
+          0.9999839663505554,
+          0.9999858140945435,
+          0.9999842643737793,
+          0.9999860525131226,
+          0.9999852180480957,
+          0.9999843835830688,
+          0.9999847412109375,
+          0.9999844431877136,
+          0.9999856948852539,
+          0.9999864101409912,
+          0.999983549118042,
+          0.9999849796295166,
+          0.9999858736991882,
+          0.9999873042106628,
+          0.9999831914901733,
+          0.9999854564666748,
+          0.9999848008155823,
+          0.9999836683273315,
+          0.9999847412109375,
+          0.9999854564666748,
+          0.9999843239784241,
+          0.9999840259552002,
+          0.9999852180480957,
+          0.9999861717224121,
+          0.9999855756759644,
+          0.9999856948852539,
+          0.9999855756759644,
+          0.9999852180480957,
+          0.9999837875366211,
+          0.9999848008155823,
+          0.9999851584434509,
+          0.9999865293502808,
+          0.9999834299087524,
+          0.9999861121177673,
+          0.9999862313270569,
+          0.9999839067459106,
+          0.999984622001648,
+          0.9999861717224121,
+          0.9999837279319763,
+          0.9999850988388062,
+          0.999986469745636,
+          0.999984622001648,
+          0.9999856948852539,
+          0.999985933303833,
+          0.9999834299087524,
+          0.9999869465827942,
+          0.9999865889549255,
+          0.999985933303833,
+          0.9999864101409912,
+          0.9999818801879883,
+          0.9999837875366211,
+          0.9999843239784241,
+          0.9999867081642151,
+          0.9999865293502808,
+          0.9999860525131226,
+          0.9999855756759644,
+          0.9999834299087524,
+          0.9999836683273315,
+          0.9999842047691345,
+          0.9999843835830688,
+          0.9999865889549255,
+          0.9999860525131226,
+          0.9999842643737793,
+          0.9999837875366211,
+          0.9999865293502808,
+          0.9999834299087524,
+          0.9999850988388062,
+          0.9999840259552002,
+          0.9999837279319763,
+          0.9999870657920837,
+          0.9999845027923584,
+          0.9999837875366211,
+          0.9999874234199524,
+          0.9999856948852539,
+          0.9999841451644897,
+          0.9999847412109375,
+          0.9999836683273315,
+          0.9999861717224121,
+          0.9999856948852539,
+          0.9999844431877136,
+          0.999984860420227,
+          0.9999861121177673,
+          0.9999857544898987,
+          0.999984622001648,
+          0.999983012676239,
+          0.9999834895133972,
+          0.9999842643737793,
+          0.9999844431877136,
+          0.9999860525131226,
+          0.9999855756759644,
+          0.9999834299087524,
+          0.999984622001648,
+          0.9999850988388062,
+          0.9999867677688599,
+          0.9999869465827942,
+          0.999983549118042,
+          0.9999843835830688,
+          0.9999867677688599,
+          0.9999861121177673,
+          0.9999840259552002,
+          0.9999870657920837,
+          0.9999855756759644,
+          0.999984622001648,
+          0.9999844431877136,
+          0.999985933303833,
+          0.9999832510948181,
+          0.9999858140945435,
+          0.9999846816062927,
+          0.9999854564666748,
+          0.9999855756759644,
+          0.9999834895133972,
+          0.9999856948852539,
+          0.9999837875366211,
+          0.9999863505363464,
+          0.9999850988388062,
+          0.9999847412109375,
+          0.9999842047691345,
+          0.9999843239784241,
+          0.9999865293502808,
+          0.9999867677688599,
+          0.999984860420227,
+          0.9999847412109375,
+          0.9999847412109375,
+          0.9999843239784241,
+          0.9999876618385315,
+          0.9999850988388062,
+          0.9999876022338867,
+          0.9999849200248718,
+          0.9999852180480957,
+          0.9999859929084778,
+          0.9999866485595703,
+          0.9999863505363464,
+          0.9999868273735046,
+          0.9999872446060181,
+          0.9999871850013733,
+          0.9999856352806091,
+          0.9999849200248718,
+          0.9999842047691345,
+          0.9999836683273315,
+          0.9999861717224121,
+          0.9999840259552002
+        ],
+        "cases": 160
+      },
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 202,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 202,
+        "total_core_coefficients_plus_normalization": 202,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 768,
+        "accounting_only": true
+      }
+    },
+    {
+      "event": "first_complete_output_fit",
+      "allocation_elapsed_seconds": 4.164252446964383,
+      "epochs": 0,
+      "updates": 0,
+      "units": 0,
+      "validation": {
+        "mean_raw_case_balanced_loss": 0.99974594861269,
+        "case_losses": [
+          0.999795138835907,
+          0.9997639656066895,
+          0.9997443556785583,
+          0.9997713565826416,
+          0.9997787475585938,
+          0.9997559785842896,
+          0.9997430443763733,
+          0.9997658133506775,
+          0.9997109174728394,
+          0.9997217059135437,
+          0.9997536540031433,
+          0.9997755885124207,
+          0.9997105002403259,
+          0.9997949004173279,
+          0.999746561050415,
+          0.9997117519378662,
+          0.9997326135635376,
+          0.9997466206550598,
+          0.9997893571853638,
+          0.9997529983520508,
+          0.9996976256370544,
+          0.9997239708900452,
+          0.9997571706771851,
+          0.9997054934501648,
+          0.9997331500053406,
+          0.9997148513793945,
+          0.9997107982635498,
+          0.9997326135635376,
+          0.9997259974479675,
+          0.9997352957725525,
+          0.9997519254684448,
+          0.9997677206993103,
+          0.9998041391372681,
+          0.9997589588165283,
+          0.999699592590332,
+          0.9997331500053406,
+          0.9997669458389282,
+          0.999744713306427,
+          0.9997020959854126,
+          0.9997275471687317,
+          0.9997355937957764,
+          0.9997243285179138,
+          0.9997565150260925,
+          0.9997960329055786,
+          0.9997565746307373,
+          0.9997402429580688,
+          0.9997311234474182,
+          0.9997252821922302,
+          0.9997433423995972,
+          0.9997161030769348,
+          0.9997528791427612,
+          0.9997411370277405,
+          0.9997192025184631,
+          0.9997252225875854,
+          0.9997196197509766,
+          0.9997565746307373,
+          0.9997379183769226,
+          0.9997661709785461,
+          0.9997072219848633,
+          0.9997438192367554,
+          0.9997491836547852,
+          0.9997814297676086,
+          0.9997701048851013,
+          0.999761700630188,
+          0.9997193813323975,
+          0.9997064471244812,
+          0.9997746348381042,
+          0.999757707118988,
+          0.9997280836105347,
+          0.999743640422821,
+          0.9997227191925049,
+          0.9997579455375671,
+          0.9997999668121338,
+          0.9997454881668091,
+          0.9997227787971497,
+          0.999701201915741,
+          0.9997524619102478,
+          0.9997230768203735,
+          0.9997093081474304,
+          0.999727725982666,
+          0.9997801780700684,
+          0.9997329711914062,
+          0.9997109174728394,
+          0.9997901916503906,
+          0.999760627746582,
+          0.9997698664665222,
+          0.9997421503067017,
+          0.9997243881225586,
+          0.9997923970222473,
+          0.9997140169143677,
+          0.9997384548187256,
+          0.9997610449790955,
+          0.9997042417526245,
+          0.9997512698173523,
+          0.9997811913490295,
+          0.9997472763061523,
+          0.9997447729110718,
+          0.9997478723526001,
+          0.999740719795227,
+          0.9997237920761108,
+          0.9997396469116211,
+          0.999708890914917,
+          0.9997579455375671,
+          0.9997526407241821,
+          0.9997614026069641,
+          0.9997612237930298,
+          0.9997484683990479,
+          0.9997506141662598,
+          0.9997237920761108,
+          0.9997633695602417,
+          0.9997596740722656,
+          0.9997487664222717,
+          0.9997518062591553,
+          0.9997788071632385,
+          0.9997623562812805,
+          0.9997648596763611,
+          0.9997479915618896,
+          0.9997928142547607,
+          0.9997208118438721,
+          0.9997849464416504,
+          0.9997246861457825,
+          0.9997713565826416,
+          0.9996942281723022,
+          0.9996969699859619,
+          0.9997605681419373,
+          0.9997692108154297,
+          0.9997012615203857,
+          0.9997329115867615,
+          0.9997377395629883,
+          0.9997305870056152,
+          0.9997148513793945,
+          0.9997318387031555,
+          0.9997427463531494,
+          0.9997766017913818,
+          0.9997354745864868,
+          0.9997507333755493,
+          0.9997690916061401,
+          0.9997107982635498,
+          0.9997187256813049,
+          0.9997236728668213,
+          0.9997549057006836,
+          0.9998130798339844,
+          0.9997661113739014,
+          0.9997991323471069,
+          0.9997258186340332,
+          0.9997460842132568,
+          0.9997466802597046,
+          0.9997279047966003,
+          0.9997166991233826,
+          0.9997888803482056,
+          0.999789834022522,
+          0.9997813105583191,
+          0.9998055100440979,
+          0.9998019933700562,
+          0.9997317790985107,
+          0.9997376203536987,
+          0.9997641444206238,
+          0.9997687339782715,
+          0.9997175931930542,
+          0.9997255206108093
+        ],
+        "cases": 160
+      },
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 202,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 202,
+        "total_core_coefficients_plus_normalization": 202,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 768,
+        "accounting_only": true
+      }
+    },
+    {
+      "event": "during_growth",
+      "allocation_elapsed_seconds": 304.4969748900039,
+      "epochs": 0,
+      "updates": 0,
+      "units": 676,
+      "validation": {
+        "mean_raw_case_balanced_loss": 0.41563818156719207,
+        "case_losses": [
+          1.3683756589889526,
+          0.5387240648269653,
+          0.4460940659046173,
+          0.3285270035266876,
+          0.3452069163322449,
+          0.4661223292350769,
+          0.38223472237586975,
+          0.4931766390800476,
+          0.3201732635498047,
+          0.3281513750553131,
+          0.4849858582019806,
+          0.4920944273471832,
+          0.36653971672058105,
+          0.41579335927963257,
+          0.3613126277923584,
+          0.3520006835460663,
+          0.4024672210216522,
+          0.4220501482486725,
+          0.38186657428741455,
+          0.4718272387981415,
+          0.3459148406982422,
+          0.3793632686138153,
+          0.40116167068481445,
+          0.3205828368663788,
+          0.3732251822948456,
+          0.37584277987480164,
+          0.32586896419525146,
+          0.40134909749031067,
+          0.3538636565208435,
+          0.42057326436042786,
+          0.41095495223999023,
+          0.4100019037723541,
+          0.47259965538978577,
+          0.515220046043396,
+          0.32408779859542847,
+          0.3710886836051941,
+          0.5498533248901367,
+          0.39786550402641296,
+          0.31299132108688354,
+          0.40589016675949097,
+          0.4167245626449585,
+          0.3508572578430176,
+          0.3725722134113312,
+          0.361741840839386,
+          0.8932273387908936,
+          0.3429316580295563,
+          0.36900389194488525,
+          0.37052661180496216,
+          0.3850800096988678,
+          0.33473044633865356,
+          0.33726292848587036,
+          0.4219759702682495,
+          0.40910446643829346,
+          0.4021620452404022,
+          0.3727206587791443,
+          0.4436481297016144,
+          0.4396842420101166,
+          0.510791540145874,
+          0.3867952227592468,
+          0.3736850619316101,
+          0.4458880126476288,
+          1.227903962135315,
+          0.33755552768707275,
+          0.5656206011772156,
+          0.3774082064628601,
+          0.31476056575775146,
+          0.3476945459842682,
+          0.3678232431411743,
+          0.4655914604663849,
+          0.4300280511379242,
+          0.3624761700630188,
+          0.3430812954902649,
+          0.3342432677745819,
+          0.2970511019229889,
+          0.36920925974845886,
+          0.36250022053718567,
+          0.46897757053375244,
+          0.35141003131866455,
+          0.3248882591724396,
+          0.35948866605758667,
+          0.37119096517562866,
+          0.3675679564476013,
+          0.3366280794143677,
+          0.38763856887817383,
+          0.5301244854927063,
+          0.36852654814720154,
+          0.4115074872970581,
+          0.3509868085384369,
+          0.41123420000076294,
+          0.32443180680274963,
+          0.4259481728076935,
+          0.424276739358902,
+          0.3370402753353119,
+          0.4693930745124817,
+          0.3496817350387573,
+          0.4474102258682251,
+          0.471662312746048,
+          0.4140161871910095,
+          0.3996809124946594,
+          0.3622247874736786,
+          0.4592621326446533,
+          0.3821105659008026,
+          0.47664326429367065,
+          0.4976496398448944,
+          0.5005406737327576,
+          0.4759725332260132,
+          0.4082898497581482,
+          0.3989681303501129,
+          0.3611707091331482,
+          0.5610066652297974,
+          0.48947572708129883,
+          0.3892407715320587,
+          0.337342232465744,
+          0.35227999091148376,
+          0.5085351467132568,
+          0.4996279776096344,
+          0.3762160837650299,
+          0.31757158041000366,
+          0.34619608521461487,
+          0.3542986810207367,
+          0.3998849093914032,
+          0.5316059589385986,
+          0.3272939920425415,
+          0.3178124725818634,
+          0.5309684872627258,
+          0.3739149570465088,
+          0.3779143989086151,
+          0.39410433173179626,
+          0.36730512976646423,
+          0.39420589804649353,
+          0.37553635239601135,
+          0.3979363441467285,
+          0.36005520820617676,
+          0.33635854721069336,
+          0.3738439679145813,
+          0.45487695932388306,
+          0.4786761701107025,
+          0.4240960478782654,
+          0.32381442189216614,
+          0.34858739376068115,
+          0.32344692945480347,
+          0.4909640848636627,
+          0.5053615570068359,
+          0.4172981381416321,
+          0.3215169310569763,
+          0.3891710042953491,
+          0.4074671268463135,
+          0.3479745388031006,
+          0.40356898307800293,
+          0.5389257073402405,
+          0.3563491106033325,
+          0.4874051809310913,
+          0.47651582956314087,
+          0.40169185400009155,
+          0.3367552161216736,
+          0.35794785618782043,
+          0.5430130362510681,
+          0.5620540976524353,
+          0.363139271736145,
+          0.3443319499492645
+        ],
+        "cases": 160
+      },
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 129994,
+        "data_selected_frozen_real_scalars": 450216,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 580210,
+        "total_core_coefficients_plus_normalization": 580210,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 2320800,
+        "accounting_only": true
+      }
+    },
+    {
+      "event": "training_finished",
+      "allocation_elapsed_seconds": 435.0544148039771,
+      "epochs": 0,
+      "updates": 0,
+      "units": 832,
+      "validation": {
+        "mean_raw_case_balanced_loss": 0.39745340757071973,
+        "case_losses": [
+          0.9519941806793213,
+          0.5233309268951416,
+          0.4096580445766449,
+          0.31791961193084717,
+          0.3580016791820526,
+          0.4379158914089203,
+          0.37979286909103394,
+          0.47927743196487427,
+          0.28730377554893494,
+          0.33799442648887634,
+          0.460254967212677,
+          0.47091758251190186,
+          0.34085386991500854,
+          0.36283648014068604,
+          0.37255915999412537,
+          0.3540176749229431,
+          0.3775814175605774,
+          0.39820101857185364,
+          0.3376900255680084,
+          0.451545387506485,
+          0.3122921586036682,
+          0.3583122789859772,
+          0.37781989574432373,
+          0.34282201528549194,
+          0.34990888833999634,
+          0.3609420657157898,
+          0.3020271360874176,
+          0.3786744773387909,
+          0.3775360584259033,
+          0.3896702229976654,
+          0.3824901282787323,
+          0.36155834794044495,
+          0.6792603135108948,
+          0.4892701506614685,
+          0.311100572347641,
+          0.3377539813518524,
+          0.5442832112312317,
+          0.3785545825958252,
+          0.29367777705192566,
+          0.3862431049346924,
+          0.39577192068099976,
+          0.32454824447631836,
+          0.35039690136909485,
+          0.33526262640953064,
+          0.9768345952033997,
+          0.33341389894485474,
+          0.34309253096580505,
+          0.34488844871520996,
+          0.36394384503364563,
+          0.33016881346702576,
+          0.3155943751335144,
+          0.41128551959991455,
+          0.39037925004959106,
+          0.3976043164730072,
+          0.34954285621643066,
+          0.41592133045196533,
+          0.3681993782520294,
+          0.4938432574272156,
+          0.35389843583106995,
+          0.3487531542778015,
+          0.4106118381023407,
+          1.317928671836853,
+          0.33384186029434204,
+          0.5862879157066345,
+          0.3716479539871216,
+          0.29857897758483887,
+          0.30556854605674744,
+          0.33117544651031494,
+          0.4335853159427643,
+          0.4017414450645447,
+          0.34534353017807007,
+          0.3315975069999695,
+          0.3648332357406616,
+          0.2750285863876343,
+          0.3412077724933624,
+          0.36467522382736206,
+          0.45776864886283875,
+          0.32714736461639404,
+          0.3180775046348572,
+          0.37860316038131714,
+          0.3853270709514618,
+          0.346438467502594,
+          0.3096444606781006,
+          0.3517521023750305,
+          0.5079060792922974,
+          0.34281468391418457,
+          0.3858022093772888,
+          0.32775261998176575,
+          0.36477768421173096,
+          0.2956211566925049,
+          0.4148959517478943,
+          0.3995147943496704,
+          0.32518893480300903,
+          0.4522835612297058,
+          0.3217453062534332,
+          0.425466388463974,
+          0.44925692677497864,
+          0.3933362662792206,
+          0.37612366676330566,
+          0.3325923979282379,
+          0.43842750787734985,
+          0.38581809401512146,
+          0.4518060088157654,
+          0.46678417921066284,
+          0.4691045880317688,
+          0.45716747641563416,
+          0.39305874705314636,
+          0.3566054701805115,
+          0.35349979996681213,
+          0.539499044418335,
+          0.4590960741043091,
+          0.36195918917655945,
+          0.3401610553264618,
+          0.3668847680091858,
+          0.4758719503879547,
+          0.4883456528186798,
+          0.3567478060722351,
+          0.30409368872642517,
+          0.3387715518474579,
+          0.3507213592529297,
+          0.3815605640411377,
+          0.5348517298698425,
+          0.30102017521858215,
+          0.31118083000183105,
+          0.5118409991264343,
+          0.36852937936782837,
+          0.39228320121765137,
+          0.3647593855857849,
+          0.3466483950614929,
+          0.37363407015800476,
+          0.35073310136795044,
+          0.38852211833000183,
+          0.32315897941589355,
+          0.32135918736457825,
+          0.3591035008430481,
+          0.4374103546142578,
+          0.4591852128505707,
+          0.43959882855415344,
+          0.304377943277359,
+          0.32622382044792175,
+          0.3009940981864929,
+          0.45201027393341064,
+          0.4846799969673157,
+          0.38897255063056946,
+          0.30344709753990173,
+          0.36565297842025757,
+          0.3768802285194397,
+          0.3422467112541199,
+          0.3553278148174286,
+          0.5137994289398193,
+          0.362490713596344,
+          0.46706607937812805,
+          0.4254862368106842,
+          0.47870877385139465,
+          0.32221823930740356,
+          0.3398447334766388,
+          0.5084168910980225,
+          0.535159170627594,
+          0.3312014937400818,
+          0.3168571889400482
+        ],
+        "cases": 160
+      },
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 159946,
+        "data_selected_frozen_real_scalars": 554112,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 714058,
+        "total_core_coefficients_plus_normalization": 714058,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 2856192,
+        "accounting_only": true
+      }
+    }
+  ],
+  "accuracy_threshold": null,
+  "test_targets_read": false,
+  "hardware": "NVIDIA H200",
+  "peak_CUDA_allocated_bytes": 11346761728,
+  "allocated_CPU_cores": 4,
+  "allocated_H200_GPUs": 1,
+  "host_CPU_user_seconds": 374.319115,
+  "host_CPU_system_seconds": 58.421087,
+  "host_peak_RSS_bytes": 7618433024,
+  "scope": "Complete budgeted TRAIN/VAL fit",
+  "accounting_note": "Entire allocation runtime is the cost, not the earlier selected checkpoint time. Final scheduler runtime must also be collected."
+}

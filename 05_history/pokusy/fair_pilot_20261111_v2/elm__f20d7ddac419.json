@@ -1,0 +1,75 @@
+{
+  "model": "elm",
+  "device": "cuda",
+  "case_id": 928,
+  "native_target_values": 786432,
+  "encoded_rows": 4096,
+  "input_channels": 665,
+  "output_channels": 192,
+  "scope": "One complete TRAIN simulation. No TEST targets. Timing estimates are not guarantees.",
+  "adapter_checks": {
+    "loss_native": 0.0023806621320545673,
+    "loss_packed": 0.0023806618992239237,
+    "gradient_max_difference": 8.554934538551606e-11,
+    "geometry_roundtrip_max_error": 8.940696716308594e-08,
+    "target_roundtrip_max_error": 2.384185791015625e-07
+  },
+  "basis_forward": {
+    "seconds": [
+      0.00044728408101946115,
+      0.00031182903330773115,
+      0.00028381694573909044
+    ],
+    "median_seconds": 0.00031182903330773115
+  },
+  "gram_one_case": {
+    "seconds": [
+      0.00218746205791831,
+      0.0007940060459077358,
+      0.0007569590816274285
+    ],
+    "median_seconds": 0.0007940060459077358
+  },
+  "fit": {
+    "cases": 1,
+    "rows": 4096,
+    "normal_equation_relative_residual": [
+      4.830747429286255e-13,
+      1.4863843432467332e-12,
+      1.0420092054394758e-11
+    ],
+    "ridge": 1e-08
+  },
+  "fit_total_seconds": 0.007553047966212034,
+  "measured_training_work_seconds": 0.012958394014276564,
+  "one_case_raw_loss_after": 0.018916675820946693,
+  "inference_full_path": {
+    "seconds": [
+      0.0006173589499667287,
+      0.0005855310009792447,
+      0.0005778799531981349,
+      0.0005792320007458329,
+      0.0005740739870816469,
+      0.0005717410240322351,
+      0.0005814750911667943,
+      0.0005678449524566531,
+      0.0005755859892815351,
+      0.0005704089999198914
+    ],
+    "median_seconds": 0.000576732971239835
+  },
+  "checkpoint_restore_max_difference": 0.0,
+  "parameter_ledger_current": {
+    "trainable_real_scalars": 0,
+    "data_fitted_frozen_real_scalars": 302986,
+    "data_selected_frozen_real_scalars": 0,
+    "data_independent_core_real_scalars": 1050282,
+    "learned_or_fitted_total": 302986,
+    "total_core_coefficients_plus_normalization": 1353268,
+    "common_adapter_buffer_bytes": 2459688,
+    "core_tensor_bytes": 5413032,
+    "accounting_only": true
+  },
+  "peak_GPU_allocated_bytes": 357074432,
+  "status": "ONE_CASE_TIMING_AND_TECHNICAL_CHECKS_COMPLETE"
+}

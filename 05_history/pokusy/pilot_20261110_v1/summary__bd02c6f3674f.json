@@ -1,0 +1,254 @@
+{
+  "status": "TECHNICAL_PILOT_COMPLETE",
+  "model": "scn",
+  "validation_cases": 4,
+  "mean_validation_mse": 0.016080209865478798,
+  "mean_velocity_relative_l2": 0.5823611757280303,
+  "mean_pressure_relative_l2": 1.9665889510246863,
+  "worst_case_gpu_p99_ms": 0.7322489684820176,
+  "gpu_p99_pass_all_cases": true,
+  "wall_seconds": 2.731909052003175,
+  "cpu_seconds": 2.285255838,
+  "peak_cuda_allocated_bytes": 290477568,
+  "peak_cuda_reserved_bytes": 381681664,
+  "peak_process_rss_kib": 1600348,
+  "training": {
+    "algorithm": "scn",
+    "point_samples": 32768,
+    "point_sample_sha256": "de029a9f95ba750702b4257a4037f06392c5d2ff6b1a8cbe2384b3a0d3ae2373",
+    "history": [
+      {
+        "units": 1,
+        "mse": 0.8936418890953064,
+        "r": 0.999,
+        "minimum_xi": 69.27313232421875,
+        "candidate_tests": 96
+      },
+      {
+        "units": 2,
+        "mse": 0.8364831805229187,
+        "r": 0.99,
+        "minimum_xi": 91.26591491699219,
+        "candidate_tests": 64
+      },
+      {
+        "units": 3,
+        "mse": 0.801750659942627,
+        "r": 0.99,
+        "minimum_xi": 11.32867431640625,
+        "candidate_tests": 64
+      },
+      {
+        "units": 4,
+        "mse": 0.7730595469474792,
+        "r": 0.99,
+        "minimum_xi": 27.750396728515625,
+        "candidate_tests": 64
+      },
+      {
+        "units": 5,
+        "mse": 0.6683979034423828,
+        "r": 0.999,
+        "minimum_xi": 201.656005859375,
+        "candidate_tests": 96
+      },
+      {
+        "units": 6,
+        "mse": 0.6329597234725952,
+        "r": 0.999,
+        "minimum_xi": 2.800912857055664,
+        "candidate_tests": 96
+      },
+      {
+        "units": 7,
+        "mse": 0.5891529321670532,
+        "r": 0.999,
+        "minimum_xi": 34.66742706298828,
+        "candidate_tests": 96
+      },
+      {
+        "units": 8,
+        "mse": 0.5810978412628174,
+        "r": 0.999,
+        "minimum_xi": 23.93586540222168,
+        "candidate_tests": 96
+      },
+      {
+        "units": 9,
+        "mse": 0.5546649694442749,
+        "r": 0.999,
+        "minimum_xi": 115.00019836425781,
+        "candidate_tests": 96
+      },
+      {
+        "units": 10,
+        "mse": 0.5416691303253174,
+        "r": 0.999,
+        "minimum_xi": 45.38249969482422,
+        "candidate_tests": 96
+      },
+      {
+        "units": 11,
+        "mse": 0.5357530117034912,
+        "r": 0.999,
+        "minimum_xi": 21.251646041870117,
+        "candidate_tests": 96
+      },
+      {
+        "units": 12,
+        "mse": 0.5202178955078125,
+        "r": 0.9999,
+        "minimum_xi": 4.117440223693848,
+        "candidate_tests": 128
+      },
+      {
+        "units": 13,
+        "mse": 0.5157264471054077,
+        "r": 0.9999,
+        "minimum_xi": 15.941610336303711,
+        "candidate_tests": 128
+      },
+      {
+        "units": 14,
+        "mse": 0.511597216129303,
+        "r": 0.9999,
+        "minimum_xi": 7.961292266845703,
+        "candidate_tests": 128
+      },
+      {
+        "units": 15,
+        "mse": 0.4988575577735901,
+        "r": 0.9999,
+        "minimum_xi": 17.218036651611328,
+        "candidate_tests": 128
+      },
+      {
+        "units": 16,
+        "mse": 0.4906490743160248,
+        "r": 0.9999,
+        "minimum_xi": 2.011272668838501,
+        "candidate_tests": 128
+      },
+      {
+        "units": 17,
+        "mse": 0.48613104224205017,
+        "r": 0.99999,
+        "minimum_xi": 0.08158531785011292,
+        "candidate_tests": 160
+      },
+      {
+        "units": 18,
+        "mse": 0.4851312041282654,
+        "r": 0.9999,
+        "minimum_xi": 5.867252349853516,
+        "candidate_tests": 128
+      },
+      {
+        "units": 19,
+        "mse": 0.47925782203674316,
+        "r": 0.9999,
+        "minimum_xi": 2.0161938667297363,
+        "candidate_tests": 128
+      },
+      {
+        "units": 20,
+        "mse": 0.47485512495040894,
+        "r": 0.9999,
+        "minimum_xi": 0.5131072998046875,
+        "candidate_tests": 128
+      },
+      {
+        "units": 21,
+        "mse": 0.4709092974662781,
+        "r": 0.9999,
+        "minimum_xi": 0.20513415336608887,
+        "candidate_tests": 128
+      },
+      {
+        "units": 22,
+        "mse": 0.46546387672424316,
+        "r": 0.99999,
+        "minimum_xi": 0.2668910622596741,
+        "candidate_tests": 160
+      },
+      {
+        "units": 23,
+        "mse": 0.46437832713127136,
+        "r": 0.9999,
+        "minimum_xi": 1.2058377265930176,
+        "candidate_tests": 128
+      },
+      {
+        "units": 24,
+        "mse": 0.45491451025009155,
+        "r": 0.99999,
+        "minimum_xi": 0.36085182428359985,
+        "candidate_tests": 160
+      },
+      {
+        "units": 25,
+        "mse": 0.45385313034057617,
+        "r": 0.99999,
+        "minimum_xi": 0.014025166630744934,
+        "candidate_tests": 160
+      },
+      {
+        "units": 26,
+        "mse": 0.45260748267173767,
+        "r": 0.9999,
+        "minimum_xi": 0.9961340427398682,
+        "candidate_tests": 128
+      },
+      {
+        "units": 27,
+        "mse": 0.44948023557662964,
+        "r": 0.99999,
+        "minimum_xi": 0.862491250038147,
+        "candidate_tests": 160
+      },
+      {
+        "units": 28,
+        "mse": 0.44553202390670776,
+        "r": 0.99999,
+        "minimum_xi": 0.18689046800136566,
+        "candidate_tests": 160
+      },
+      {
+        "units": 29,
+        "mse": 0.444143146276474,
+        "r": 0.99999,
+        "minimum_xi": 0.1644144207239151,
+        "candidate_tests": 160
+      },
+      {
+        "units": 30,
+        "mse": 0.43824490904808044,
+        "r": 0.99999,
+        "minimum_xi": 0.17963963747024536,
+        "candidate_tests": 480
+      },
+      {
+        "units": 31,
+        "mse": 0.4357665777206421,
+        "r": 0.99999,
+        "minimum_xi": 0.0964602380990982,
+        "candidate_tests": 160
+      },
+      {
+        "units": 32,
+        "mse": 0.4288496673107147,
+        "r": 0.9999,
+        "minimum_xi": 1.2841978073120117,
+        "candidate_tests": 448
+      }
+    ],
+    "final_point_training_mse": 0.4288496673107147,
+    "wall_seconds": 0.5994896630290896
+  },
+  "device": "NVIDIA H200",
+  "torch": "2.12.0+cu130",
+  "neuraloperator": "2.0.0",
+  "test_targets_read": false,
+  "final_architecture_ranking_allowed": false,
+  "statistical_claims_allowed": false
+}

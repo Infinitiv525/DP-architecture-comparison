@@ -1,0 +1,15 @@
+DRUHÁ ŠANCA JE ZARADENÁ, ČAKÁ NA DOKONČENIE FNO
+
+ChebKAN a RBF, každá dva vopred určené seedy 931101 a 931102.
+Kontrola 157641 prešla: obnovené last.pt, všetky Adam stavy aj presné
+poradie dát vrátane pozície555/640 pri jednom ChebKAN modeli.
+
+Štyri pokračovania 157656 dostanú po najviac ďalšie4H200hodiny
+(nominálne8h spolu s pôvodným behom). Zachová sa uložený koncový LR
+a architektúra. Čakajú na FNO audit157477, aby nenarušili jeho časovania.
+Potom automaticky CPU audit157657 a súhrn157658.
+
+Výsledky budú len samostatným doplnkom mimo hlavného experimentu.
+Pôvodné modely a výsledky sa nemenia. TEST ciele sa v tejto fáze nepoužijú.
+Neskoršie16h pokračovanie nie je spustené ani automaticky naplánované.
+Podrobnosti: protokol.txt; nemenné rodičovské stavy: parents.json.

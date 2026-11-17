@@ -1,0 +1,141 @@
+{
+  "status": "DRAFT_SHARED_INTERFACE_AND_CAPACITY_READY_TRAINERS_NOT_IMPLEMENTED",
+  "old_test_stopped_by_user": true,
+  "automatic_resume_old_test_allowed": false,
+  "automatic_launch_new_pilot_allowed": false,
+  "input_contract": {
+    "geometry_shape": [
+      1,
+      2,
+      512,
+      512
+    ],
+    "geometry_channels": [
+      "fluid_mask",
+      "oriented_sdf"
+    ],
+    "physical_input": "Reynolds_number",
+    "normalization_source": "TRAIN_only",
+    "full_native_geometry_enters_every_model": true,
+    "external_4x4_geometry_replacement_allowed": false,
+    "internal_learned_adapters_must_be_named_and_counted": true,
+    "common_representation": {
+      "kind": "lossless_pixel_unshuffle_plus_shared_global_context",
+      "packing_factor": 8,
+      "packed_geometry_shape": [
+        128,
+        64,
+        64
+      ],
+      "native_geometry_values": 524288,
+      "packed_geometry_values": 524288,
+      "encoded_channels": 665,
+      "global_signed_fft_features": 512,
+      "Re_features": [
+        "Re/100",
+        "log(Re)/8",
+        "100/Re"
+      ],
+      "coordinate_features": 22,
+      "projection_independent_of_targets": true,
+      "global_descriptor_rank_audit_on_TRAIN_required_before_pilot": true
+    },
+    "layout_bijection_arithmetic_verified": true,
+    "runtime_tensor_equivalence_audit_completed": false
+  },
+  "data_contract": {
+    "train_cases": 640,
+    "validation_cases": 160,
+    "test_cases": 200,
+    "target_shape": [
+      512,
+      512,
+      3
+    ],
+    "target_channels": [
+      "u",
+      "v",
+      "p"
+    ],
+    "primary_supervision": "all_native_cells_with_canonical_zero_solid_targets_for_every_method",
+    "alternative_sampling_allowed_only_if_identical_for_all_including_FNO": true,
+    "test_based_tuning_allowed": false,
+    "test_previously_opened": true
+  },
+  "capacity_proposal": {
+    "matched_band_relative_tolerance": 0.01,
+    "categories_required": [
+      "trainable_real_scalars",
+      "data_fitted_frozen_real_scalars",
+      "data_selected_frozen_real_scalars",
+      "data_independent_core_real_scalars"
+    ],
+    "categories_must_be_disjoint": true,
+    "complex_scalar_counts_as_two_real_scalars": true,
+    "all_encoders_and_decoders_included": true,
+    "unused_parameter_padding_allowed": false,
+    "parameter_count_is_not_a_guarantee_of_equal_capacity": true,
+    "operator_adapters_for_eight_alternatives_designed": true,
+    "reference_is_new_shared_interface_TFNO": true,
+    "actual_all_family_constructor_counts_verified": true,
+    "counts_are_untrained_fully_constructed_capacity_only": true,
+    "primary_matching_metric": "total_core_coefficients_including_fixed_random_plus_shared_normalization",
+    "all_learned_and_fixed_counts_reported_separately": true,
+    "optional_ELM_fitted_match_control": {
+      "width": 7048,
+      "data_dependent_coefficients": 1353418,
+      "total_core_coefficients_plus_normalization": 6047386,
+      "role": "optional_sensitivity_control_not_primary_total_parameter_matched_model",
+      "training_started": false
+    },
+    "reference_total_core_coefficients_plus_normalization": 1353328,
+    "normalization_scalars_included": 10
+  },
+  "training_proposal": {
+    "gradient_max_epochs_proposed": 400,
+    "common_dense_supervision_implemented": false,
+    "pressure_loss_scaling_decided": true,
+    "equal_tuning_budget_preregistered": false,
+    "architecture_specific_valid_training_algorithms_allowed": true,
+    "common_loss_proposed": "mean_over_cases(0.5*(squared_relative_velocity_L2+squared_relative_pressure_L2)); same raw native-field objective for every method; implementation equivalence must be checked before training",
+    "constructive_fitting_requires_streamed_weighted_sufficient_statistics": true,
+    "constructive_streamed_trainers_implemented": false,
+    "fixed_shared_input_output_adapter_implemented": true,
+    "full_native_weighted_loss_implementations_verified": false,
+    "pilot_configurations_per_family_proposed": 6
+  },
+  "pilot_quality": {
+    "shared_accuracy_threshold": null,
+    "accuracy_policy": "REPORT_ALL_ERRORS_NO_COMMON_PASS_CUTOFF",
+    "user_decision": "No threshold; ensure similar conditions and identical input",
+    "accuracy_limits_decided": true,
+    "pending_user_question": null,
+    "known_case_fit_diagnostic_completed_for_new_design": false,
+    "full_train_val_pilot_completed_for_new_design": false,
+    "all_methods_must_have_equal_accuracy": false,
+    "weaker_results_must_not_be_silently_excluded": true,
+    "technical_correctness_and_comparability_are_separate_from_observed_accuracy": true,
+    "no_accuracy_based_exclusion_allowed": true
+  },
+  "runtime_contract": {
+    "prediction_shape": [
+      512,
+      512,
+      3
+    ],
+    "batch_cases": 1,
+    "latency_target_ms": 5,
+    "full_model_path_including_encoders_and_decoders": true,
+    "gpu_and_synchronized_host_latency_reported_separately": true,
+    "device": "NVIDIA_H200",
+    "precision": "FP32_TF32_disabled"
+  },
+  "archived_PINN_role": "auxiliary_reference_not_primary_parameter_matched_model",
+  "new_final_seeds_proposed": [
+    931101,
+    931102,
+    931103,
+    931104,
+    931105
+  ]
+}

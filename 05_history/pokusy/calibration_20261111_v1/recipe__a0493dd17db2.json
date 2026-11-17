@@ -1,0 +1,8 @@
+{
+  "id": "pinet_b",
+  "model": "pinet",
+  "device": "cpu",
+  "overrides": {
+    "width": 192
+  }
+}

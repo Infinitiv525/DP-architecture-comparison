@@ -1,0 +1,63 @@
+{
+  "status": "RESOLVED_EQUAL_MAXIMUM_TRAINING_BUDGET",
+  "user_requirement": "Approximately equal computational cost; accuracy is an outcome; determine architecture suitability",
+  "shared_accuracy_threshold": null,
+  "parameter_count_is_not_computational_cost": true,
+  "existing_pilot_role": "cost and training calibration, not the final compute-matched comparison",
+  "final_comparison_launch_allowed": false,
+  "needs_definition": [],
+  "benchmark_rows": [
+    {
+      "model": "tfno",
+      "total_core_coefficients_plus_normalization": 1353328,
+      "CPU4_update_seconds": 0.047397286049090326,
+      "H200_update_seconds": 0.009077392052859068,
+      "CPU4_to_H200_wall_ratio": 5.221465127107934
+    },
+    {
+      "model": "chebkan",
+      "total_core_coefficients_plus_normalization": 1354366,
+      "CPU4_update_seconds": 0.14030119602102786,
+      "H200_update_seconds": 0.0016942300135269761,
+      "CPU4_to_H200_wall_ratio": 82.81118555381674
+    },
+    {
+      "model": "pinet",
+      "total_core_coefficients_plus_normalization": 1353622,
+      "CPU4_update_seconds": 0.11095822299830616,
+      "H200_update_seconds": 0.001257383031770587,
+      "CPU4_to_H200_wall_ratio": 88.24536373936911
+    },
+    {
+      "model": "dendrite",
+      "total_core_coefficients_plus_normalization": 1354882,
+      "CPU4_update_seconds": 0.1258383709937334,
+      "H200_update_seconds": 0.00133487896528095,
+      "CPU4_to_H200_wall_ratio": 94.2694987835458
+    },
+    {
+      "model": "realnpu",
+      "total_core_coefficients_plus_normalization": 1353213,
+      "CPU4_update_seconds": 0.2645892599830404,
+      "H200_update_seconds": 0.0024718299973756075,
+      "CPU4_to_H200_wall_ratio": 107.04185169043188
+    },
+    {
+      "model": "rbf",
+      "total_core_coefficients_plus_normalization": 1353268,
+      "CPU4_update_seconds": 0.12691958399955183,
+      "H200_update_seconds": 0.0016205389983952045,
+      "CPU4_to_H200_wall_ratio": 78.31936419008638
+    }
+  ],
+  "raw_CPU_and_GPU_hours_are_not_directly_equated": true,
+  "inference_measurement_contract": "same H200, FP32, batch one, complete 512x512 output, complete adapter and constraints; report p50/p95/p99 when measured",
+  "do_not_change_running_source_or_existing_results": true,
+  "exact_FLOP_counts_not_measured": true,
+  "no_new_jobs_submitted_in_this_clarification": true,
+  "user_clarification": "Each architecture receives the same training budget; unreasonable computational cost means limited suitability for this problem",
+  "selected_metric": "Allocated wall time on identical H200 hardware",
+  "main_seconds_per_run": 28800,
+  "primary_protocol": "test/architecture_budgeted_20261111_v3/protokol.txt",
+  "calibration_only_for_existing_mixed_hardware_runs": true
+}

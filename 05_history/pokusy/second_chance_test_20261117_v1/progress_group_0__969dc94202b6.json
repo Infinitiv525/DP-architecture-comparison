@@ -1,0 +1,54 @@
+[
+  {
+    "status": "SECOND_CHANCE4_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "chebkan_s931101_extend8h",
+      "model": "chebkan",
+      "seed": 931101,
+      "group": 0,
+      "kind": "fixed_exploratory_second_chance_TEST",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/chebkan_s931101_extend8h/best.pt",
+      "checkpoint_sha256": "94bba83846cc4a00bc580f1d9f4ab2fc263a9ba4b3d7c5b84525f915621f442f",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.06963106989860535,
+          "pressure_l2": 0.07315907627344131
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.06350127607584,
+          "pressure_l2": 0.1958480328321457
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1354356,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354366,
+        "total_core_coefficients_plus_normalization": 1354366,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5417424,
+        "accounting_only": false
+      },
+      "original_baseline_id": "chebkan_s931101",
+      "original_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931101/best.pt",
+      "original_checkpoint_sha256": "bb01513a53b6c27de6c62884d59f5b14004420c0ee1bf3a49eee95164a5b2812",
+      "source_continuation_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/chebkan_s931101_extend8h/complete.json",
+      "source_continuation_summary_sha256": "b40c3f1fbb67924a3dcf03395fd7bb43c0dacb1d8246071bb59471cceec88fa4",
+      "selection": "Best saved continuation checkpoint on VAL, frozen before this TEST",
+      "excluded_from_primary_experiment": true
+    },
+    "means": {
+      "all_cell_mse": 0.0010823489656072909,
+      "fluid_velocity_relative_l2": 0.05672483569505369,
+      "fluid_pressure_relative_l2": 0.08183527039496186
+    },
+    "worst_case_gpu_p99_ms": 0.991491180062294,
+    "worst_case_host_p99_ms": 1.01384042,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true,
+    "elapsed_seconds": 200.32930921204388
+  }
+]

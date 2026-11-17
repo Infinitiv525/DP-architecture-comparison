@@ -1,0 +1,314 @@
+{
+  "status": "DENSE_FNO5_VALIDATION_PREFLIGHT_PASS",
+  "models": [
+    {
+      "id": "fno_s931101",
+      "status": "MODEL_FINAL_PREFLIGHT_PASS",
+      "cases": [
+        {
+          "index": 341,
+          "metrics": {
+            "mse": 4.147933276067492e-06,
+            "velocity_l2": 0.014219005067636195,
+            "pressure_l2": 0.03753999906875916
+          },
+          "timing": {
+            "gpu": {
+              "p50_ms": 2.1824159622192383,
+              "p95_ms": 2.3852080821990986,
+              "p99_ms": 4.233406438827512,
+              "maximum_ms": 4.695456027984619,
+              "above_target": 0
+            },
+            "host_instrumented": {
+              "p50_ms": 2.1998975,
+              "p95_ms": 2.4095419500000017,
+              "p99_ms": 4.253924389999997,
+              "maximum_ms": 4.71502,
+              "above_target": 0
+            }
+          }
+        },
+        {
+          "index": 952,
+          "metrics": {
+            "mse": 7.992353115691341e-06,
+            "velocity_l2": 0.007992285944897459,
+            "pressure_l2": 0.01524454325986061
+          },
+          "timing": {
+            "gpu": {
+              "p50_ms": 2.1665760278701782,
+              "p95_ms": 2.1910528421401976,
+              "p99_ms": 2.2024346208572387,
+              "maximum_ms": 2.205280065536499,
+              "above_target": 0
+            },
+            "host_instrumented": {
+              "p50_ms": 2.1838335,
+              "p95_ms": 2.2085603999999996,
+              "p99_ms": 2.21799048,
+              "maximum_ms": 2.220348,
+              "above_target": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fno_s931102",
+      "status": "MODEL_FINAL_PREFLIGHT_PASS",
+      "cases": [
+        {
+          "index": 341,
+          "metrics": {
+            "mse": 3.5662690639869685e-06,
+            "velocity_l2": 0.013243180025771874,
+            "pressure_l2": 0.0332859965688168
+          },
+          "timing": {
+            "gpu": {
+              "p50_ms": 2.1868960857391357,
+              "p95_ms": 2.2277743697166446,
+              "p99_ms": 2.3877757525444028,
+              "maximum_ms": 2.4277760982513428,
+              "above_target": 0
+            },
+            "host_instrumented": {
+              "p50_ms": 2.2047299999999996,
+              "p95_ms": 2.2427436000000003,
+              "p99_ms": 2.4051951199999997,
+              "maximum_ms": 2.445808,
+              "above_target": 0
+            }
+          }
+        },
+        {
+          "index": 952,
+          "metrics": {
+            "mse": 7.063552962484019e-06,
+            "velocity_l2": 0.008132358321551382,
+            "pressure_l2": 0.014146028255911611
+          },
+          "timing": {
+            "gpu": {
+              "p50_ms": 2.189728021621704,
+              "p95_ms": 2.2081727504730226,
+              "p99_ms": 2.2219865703582764,
+              "maximum_ms": 2.22544002532959,
+              "above_target": 0
+            },
+            "host_instrumented": {
+              "p50_ms": 2.207134,
+              "p95_ms": 2.2253836999999996,
+              "p99_ms": 2.23752394,
+              "maximum_ms": 2.240559,
+              "above_target": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fno_s931103",
+      "status": "MODEL_FINAL_PREFLIGHT_PASS",
+      "cases": [
+        {
+          "index": 341,
+          "metrics": {
+            "mse": 3.973672442721922e-06,
+            "velocity_l2": 0.013974242563990791,
+            "pressure_l2": 0.035266324674004625
+          },
+          "timing": {
+            "gpu": {
+              "p50_ms": 2.204367995262146,
+              "p95_ms": 2.2538464188575746,
+              "p99_ms": 2.3996204876899716,
+              "maximum_ms": 2.4360640048980713,
+              "above_target": 0
+            },
+            "host_instrumented": {
+              "p50_ms": 2.2221465,
+              "p95_ms": 2.26903165,
+              "p99_ms": 2.4169983299999998,
+              "maximum_ms": 2.45399,
+              "above_target": 0
+            }
+          }
+        },
+        {
+          "index": 952,
+          "metrics": {
+            "mse": 6.719066709658829e-06,
+            "velocity_l2": 0.00789972751736377,
+            "pressure_l2": 0.013806727877219307
+          },
+          "timing": {
+            "gpu": {
+              "p50_ms": 2.2164000272750854,
+              "p95_ms": 2.2353360295295714,
+              "p99_ms": 2.2383759903907774,
+              "maximum_ms": 2.239135980606079,
+              "above_target": 0
+            },
+            "host_instrumented": {
+              "p50_ms": 2.2340894999999996,
+              "p95_ms": 2.2533955999999997,
+              "p99_ms": 2.25427112,
+              "maximum_ms": 2.25449,
+              "above_target": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fno_s931104",
+      "status": "MODEL_FINAL_PREFLIGHT_PASS",
+      "cases": [
+        {
+          "index": 341,
+          "metrics": {
+            "mse": 4.190530149774713e-06,
+            "velocity_l2": 0.014362529345766982,
+            "pressure_l2": 0.03589591058730035
+          },
+          "timing": {
+            "gpu": {
+              "p50_ms": 2.1907039880752563,
+              "p95_ms": 2.2327440619468693,
+              "p99_ms": 2.3865680384635923,
+              "maximum_ms": 2.4250240325927734,
+              "above_target": 0
+            },
+            "host_instrumented": {
+              "p50_ms": 2.208571,
+              "p95_ms": 2.2478519500000003,
+              "p99_ms": 2.4036207899999997,
+              "maximum_ms": 2.442563,
+              "above_target": 0
+            }
+          }
+        },
+        {
+          "index": 952,
+          "metrics": {
+            "mse": 7.099761126509275e-06,
+            "velocity_l2": 0.008456334491614521,
+            "pressure_l2": 0.014085112294654428
+          },
+          "timing": {
+            "gpu": {
+              "p50_ms": 2.1813600063323975,
+              "p95_ms": 2.2013487577438355,
+              "p99_ms": 2.205313010215759,
+              "maximum_ms": 2.2063040733337402,
+              "above_target": 0
+            },
+            "host_instrumented": {
+              "p50_ms": 2.199017,
+              "p95_ms": 2.2168716,
+              "p99_ms": 2.2227935199999997,
+              "maximum_ms": 2.224274,
+              "above_target": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fno_s931105",
+      "status": "MODEL_FINAL_PREFLIGHT_PASS",
+      "cases": [
+        {
+          "index": 341,
+          "metrics": {
+            "mse": 4.814965221068951e-06,
+            "velocity_l2": 0.015529198953021094,
+            "pressure_l2": 0.034706171982286496
+          },
+          "timing": {
+            "gpu": {
+              "p50_ms": 2.1940640211105347,
+              "p95_ms": 2.2177296519279484,
+              "p99_ms": 2.3622146773338315,
+              "maximum_ms": 2.3983359336853027,
+              "above_target": 0
+            },
+            "host_instrumented": {
+              "p50_ms": 2.21155,
+              "p95_ms": 2.23259305,
+              "p99_ms": 2.37928901,
+              "maximum_ms": 2.415963,
+              "above_target": 0
+            }
+          }
+        },
+        {
+          "index": 952,
+          "metrics": {
+            "mse": 7.593049599796882e-06,
+            "velocity_l2": 0.008239287887137119,
+            "pressure_l2": 0.014726144858984219
+          },
+          "timing": {
+            "gpu": {
+              "p50_ms": 2.190272092819214,
+              "p95_ms": 2.210793614387512,
+              "p99_ms": 2.2226131677627565,
+              "maximum_ms": 2.2255680561065674,
+              "above_target": 0
+            },
+            "host_instrumented": {
+              "p50_ms": 2.2082705000000002,
+              "p95_ms": 2.22826055,
+              "p99_ms": 2.23892411,
+              "maximum_ms": 2.24159,
+              "above_target": 0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "models_sha256": "942f31e9a4040363025232b2d9095c10cbf859256932318265e9220cd582d2b4",
+  "validation_fields": 10,
+  "test_targets_read": false,
+  "wall_seconds": 4.702820285107009,
+  "environment": {
+    "torch": "2.12.0+cu130",
+    "numpy": "2.5.4",
+    "cuda": "13.0",
+    "gpu": "NVIDIA H200",
+    "hardware": "NVIDIA H200, GPU-65531e30-20ef-b65d-02ce-3551405d5b53, 610.43.02, 40, 1980 MHz, 130.20 W, P0",
+    "hardware_error": "",
+    "slurm_job_id": "157475",
+    "cpu_affinity": [
+      8,
+      9,
+      64,
+      65
+    ],
+    "threads": 4,
+    "matmul_tf32": false,
+    "cudnn_tf32": false
+  },
+  "instrumentation_overhead": {
+    "gpu": {
+      "p50_ms": 0.004031999967992306,
+      "p95_ms": 0.004255999810993671,
+      "p99_ms": 0.004736320204101503,
+      "maximum_ms": 0.037567999213933945,
+      "above_target": 0
+    },
+    "host_instrumented": {
+      "p50_ms": 0.013791,
+      "p95_ms": 0.01413245,
+      "p99_ms": 0.0166972,
+      "maximum_ms": 0.047581,
+      "above_target": 0
+    },
+    "subtracted_from_measurements": false
+  }
+}

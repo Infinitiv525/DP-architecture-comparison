@@ -1,0 +1,12 @@
+{
+  "name": "dendrite",
+  "repr": "PointPipeline(\n  (features): FixedGeometryFeatures()\n  (core): DendriteNet(\n    (embed): Linear(in_features=57, out_features=96, bias=True)\n    (layers): ModuleList(\n      (0-1): 2 x Linear(in_features=96, out_features=96, bias=False)\n    )\n    (output): Linear(in_features=96, out_features=3, bias=True)\n  )\n)",
+  "total_parameters": 24291,
+  "trainable_parameters": 24291,
+  "buffer_values": 6291466,
+  "core_parameter_values": 24291,
+  "core_buffer_values": 0,
+  "data_fitted_or_selected_core_scalars": 24291,
+  "counting_note": "ELM fixed random weights are buffers; SCN selected weights and CasCor frozen units also count as fitted/selected. Static coordinate buffers are not learned weights.",
+  "point_encoding": "fixed TRAIN-normalized 4x4 geometry pooling + local geometry + coordinates/Fourier + logRe; no learned or pretrained encoder"
+}

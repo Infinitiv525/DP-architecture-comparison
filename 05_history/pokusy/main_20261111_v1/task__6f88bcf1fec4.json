@@ -1,0 +1,43 @@
+{
+  "task": {
+    "index": 1,
+    "id": "tfno_s921102",
+    "model": "tfno",
+    "seed": 921102,
+    "device": "cuda"
+  },
+  "selected": {
+    "model": "tfno",
+    "recipe": {
+      "id": "tfno_b",
+      "model": "tfno",
+      "device": "cuda",
+      "overrides": {
+        "tfno": {
+          "n_modes": [
+            32,
+            32
+          ],
+          "n_layers": 5,
+          "hidden_channels": 48
+        }
+      }
+    },
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/tfno_b/best.pt",
+    "checkpoint_sha256": "7594f6eb3bbc25a4e966ce2ec040675d931da14aa794eea480c0aa8acad78dc8",
+    "calibration_validation_mse": 1.1247847922258346e-05,
+    "review_gpu_p99_ms": 4.988387932777405,
+    "latency_criterion_met": true,
+    "selection_status": "FEASIBLE",
+    "continuation": false,
+    "review_role": "audit",
+    "counts": {
+      "core_parameter_elements": 646194,
+      "core_parameter_real_scalar_equivalents": 1253289,
+      "core_buffer_elements": 0,
+      "core_buffer_real_scalar_equivalents": 0,
+      "registered_pipeline_buffer_bytes": 40
+    }
+  },
+  "selection_sha256": "5c9577c7bff341bd05209f97d9e05e89ab46d5f58f15dec1740a42dee89c7b57"
+}

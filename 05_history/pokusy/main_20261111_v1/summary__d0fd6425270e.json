@@ -1,0 +1,42 @@
+{
+  "status": "ARCHITECTURE_MAIN_MODEL_COMPLETE",
+  "task": {
+    "index": 22,
+    "id": "realnpu_s921103",
+    "model": "realnpu",
+    "seed": 921103,
+    "device": "cpu"
+  },
+  "selected_recipe": {
+    "id": "realnpu_b",
+    "model": "realnpu",
+    "device": "cpu",
+    "overrides": {
+      "npu_width": 64
+    }
+  },
+  "selection_sha256": "5c9577c7bff341bd05209f97d9e05e89ab46d5f58f15dec1740a42dee89c7b57",
+  "best": {
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/realnpu_s921103/training/realnpu_b/best.pt",
+    "checkpoint_sha256": "3ee0f9b6f9191b793964aa4886fa004dd8f30303fdf67aa7c54103a8fa606b4d",
+    "validation_mse": 0.001395859381032191,
+    "epoch": 200,
+    "phase": "cosine"
+  },
+  "phase_candidates": [
+    {
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/realnpu_s921103/training/realnpu_b/best.pt",
+      "checkpoint_sha256": "3ee0f9b6f9191b793964aa4886fa004dd8f30303fdf67aa7c54103a8fa606b4d",
+      "validation_mse": 0.001395859381032191,
+      "epoch": 200,
+      "phase": "cosine"
+    }
+  ],
+  "continuation_performed": false,
+  "continuation_skipped_after_early_stop": false,
+  "phase1_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/realnpu_s921103/training/realnpu_b/summary.json",
+  "continuation_summary": null,
+  "wall_seconds": 465.6945911779767,
+  "slurm_job_id": "154724",
+  "test_targets_read": false
+}

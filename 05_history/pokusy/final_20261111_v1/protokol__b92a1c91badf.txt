@@ -1,0 +1,73 @@
+ZÁVEREČNÝ TEST ARCHITEKTÚR – 11. 11. 2026
+
+Po45 dokončených tréningoch a45 úspešných plných VAL kontrolách zmrazíme
+všetkých45 vybraných checkpointov a5 existujúcich fixed PINN. Každá
+metóda má5 nezávislých modelov; nevyberáme najlepší seed. Výber kapacity
+a checkpointov je iba podľaVAL. Žiadna nová zmena modelu podľaTEST.
+50modelov x200 rovnakých zmrazených TEST prípadov =10000 predikcií polí.
+Nejde o nový tréning ani o novéCFD; úloha predikuje ustálené2D polia.
+
+Najprv H200 preflight na prvých2 VAL simuláciách:100 natívnych polí,
+striktné načítanie všetkých50 modelov, pôvodné konfigurácie/normalizácia,
+SHA checkpointov a nemenných zdrojov, porovnanie uložených VAL chýb,
+konečnosť, solid maska a tlakový gauge. Krátke časovanie10zahriatí/20meraní
+overí aj cestu merania a stabilitu výstupu. Až pri všetkých50PASS sa
+samostatne zadáTEST. Preflight neotvára súbor s pôvodnýmiTEST cieľmi.
+
+TEST dáta: rovnakých200 indexov starého splitu640/160/200, rovnaká revízia
+a TRAIN normalizácia. Pôvodný4kanálový cieľ sa kanonizuje existujúcou
+nemennou funkciou canonical_target: u,v,p float32, fluidný tlakový priemer
+na nulu, solid maska na nulu. Po povoleníTEST prístupu najprv overíme
+kanonizáciu2 VAL prípadov proti existujúcemuY_validation cache.
+Zdrojové polia zostanú nedotknuté. Gauge predikcie používa iba predikciu,
+bez znalosti tlakového priemeru referencie. Rovnaký scorer pre všetkých.
+
+Čísla pre každý model a každý prípad: natívna fyzikálna all-cell u/v/p MSE,
+MSE po zložkách, fluidné relatívneL2 rýchlosti/tlaku, FD divergencia a
+ustálenýNS reziduál v erodovanom fluidnom interiéri. Rovnaké diagnostiky
+pre referenciu; nejde o tvrdenie nulovej referenčnej numerickej chyby.
+Použije sa zmrazená field_metrics implementácia1/Re na[0,1]^2 ako doteraz.
+
+Všetkých50 modelov postupne na jednej pridelenejH200, rovnaký softvér,
+FP32, TF32 vypnuté v matmul aj cuDNN. Pre každý200prípad:100zahriatí
+a1000 meraní batch1 celého poľa512x512. Každý dotaz znovu počíta
+vstupne závislé príznaky/encoder/context; cache predikcií nie je prípustná.
+Ukladajú sa surové CUDA-event časy aj meraný čas volania zhostiteľa.
+Dotazy sú sériové; za každým dotazom čakáme na dokončenieCUDA udalosti.
+Tým sa záverečné meranie líši od pôvodného screeningového enqueuing;
+nedosadzujeme screening namiesto finálneho výsledku.
+
+Meraný čas hostiteľa zahŕňa volanie siete, dveCUDA udalosti a čakanie na
+GPU. Je to čas s meracou réžiou, nie čistá latencia hotovej aplikácie.
+Réžia samotných udalostí sa zmeria osobitne a NEODPOČÍTA od výsledku.
+Vstupy už sú naGPU; prenosy, načítanie modelu, kopírovanie výstupu doPC,
+vizualizácia a zápis polí sú mimo oboch meraných úsekov. p50/p95/p99,
+maximum a početprekročení5ms sa vykážu pre oba druhy času samostatne.
+GPU kritérium p99<=5ms na všetkých200 prípadoch a analogické host kritérium
+sa uvádzajú osobitne. Nesplnenie je výsledok, nie dôvod na zmenu modelu.
+
+Uložia sa všetky natívne float32 predikcie:200x512x512x3/model v .npy,
+spolu približne31.5GB naPerune. Surové páry časov majú200x1000/model;
+10miliónov dvojíc GPU/host, plus zahriatia a preflight. Zápis je oddelený
+od časovania. PrváTEST simulácia každého modelu aj ako porovnávacíPNG.
+Na počítač sa automaticky kopírujú len malé reporty, CSV a logy; váhy,
+predikcie, rawčasovania a veľké pôvodné dáta ostávajú naPerune.
+
+PoTEST samostatnýCPU audit bez ďalšieho učenia: overíSHA50 súborov polí
+a časovaní, zo všetkých10000 uložených polí nezávisle prepočíta3 hlavné
+chyby, masku/gauge a zo všetkých10miliónov párov znovu vypočíta kvantily.
+Fyzikálne diagnostiky navyše preverí na prvomprípade každého modelu.
+Výstupom sú case_metrics.csv, model_metrics.csv, JSON report a TXT súhrn.
+Priemery a výberovéSD medzi5 seedmi sú opisné; nevyhlasujeme významnosť.
+
+Priznané obmedzenia: FNO/TFNO má natívne obrazy a hustú supervíziu,
+osem bodových sietí57 pevných príznakov a2048 bodov/scenár; porovnávame
+konkrétne celé postupy. PINN je pomocná referencia s iným tréningovým
+cieľom. Všetci dostanú rovnaké fyzikálne natívneTEST polia na skórovanie.
+Geometrie sa medzi splitmi prekrývajú. TEST už bol otvorený v starej
+LLM/PINN štúdii; netvrdíme nový úplne slepý alebo geometry-held-out test.
+
+Pridelené horné limity, nie odhad spotreby: preflight20min x1GPU,
+TEST24h x1GPU, následnýCPU audit2h x4CPU; spolu max24.333GPU-h
+a105.333CPUcore-h vrátane4 hostCPU priGPU úlohách. Kód je hashovo
+zmrazený pred zadaním a neobsahuje optimizer, gradientové učenie aleboHPO.

@@ -1,0 +1,17 @@
+{
+  "status": "DENSE_FNO_SMOKE_PASS",
+  "parameter_ledger": {
+    "trainable_real_scalars": 12672888,
+    "data_fitted_frozen_real_scalars": 10,
+    "data_selected_frozen_real_scalars": 0,
+    "data_independent_core_real_scalars": 0,
+    "learned_or_fitted_total": 12672898,
+    "total_core_coefficients_plus_normalization": 12672898,
+    "common_adapter_buffer_bytes": 2459688,
+    "core_tensor_bytes": 50691552,
+    "accounting_only": false
+  },
+  "test_targets_read": false,
+  "native_train_validation_fixture": true,
+  "full_training_authorized": true
+}

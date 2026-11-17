@@ -1,0 +1,74 @@
+{
+  "status": "TECHNICAL_PILOT_COMPLETE",
+  "model": "tfno",
+  "validation_cases": 4,
+  "mean_validation_mse": 0.011989372577627985,
+  "mean_velocity_relative_l2": 0.36038759904182943,
+  "mean_pressure_relative_l2": 1.3537860300278977,
+  "worst_case_gpu_p99_ms": 3.6644037246704113,
+  "gpu_p99_pass_all_cases": true,
+  "wall_seconds": 12.597228800994344,
+  "cpu_seconds": 6.721510589,
+  "peak_cuda_allocated_bytes": 1538272256,
+  "peak_cuda_reserved_bytes": 1816133632,
+  "peak_process_rss_kib": 1906032,
+  "training": {
+    "algorithm": "Adam, gradient clipping1, data loss only",
+    "updates": 120,
+    "initial_point_training_mse": null,
+    "final_point_training_mse": null,
+    "point_sample_sha256": null,
+    "point_samples": null,
+    "history": [
+      {
+        "update": 1,
+        "normalized_loss": 0.543308675289154,
+        "gradient_norm_before_clip": 0.030236851423978806,
+        "elapsed_seconds": 2.9340602960437536
+      },
+      {
+        "update": 21,
+        "normalized_loss": 0.38832923769950867,
+        "gradient_norm_before_clip": 0.2819225490093231,
+        "elapsed_seconds": 3.157939415075816
+      },
+      {
+        "update": 41,
+        "normalized_loss": 0.6900457739830017,
+        "gradient_norm_before_clip": 0.7891334295272827,
+        "elapsed_seconds": 3.395403665024787
+      },
+      {
+        "update": 61,
+        "normalized_loss": 0.1445615142583847,
+        "gradient_norm_before_clip": 1.094468593597412,
+        "elapsed_seconds": 3.6161428440827876
+      },
+      {
+        "update": 81,
+        "normalized_loss": 0.08429078757762909,
+        "gradient_norm_before_clip": 0.5109992623329163,
+        "elapsed_seconds": 3.8506726609775797
+      },
+      {
+        "update": 101,
+        "normalized_loss": 0.08335278928279877,
+        "gradient_norm_before_clip": 0.4464840590953827,
+        "elapsed_seconds": 4.071341545088217
+      },
+      {
+        "update": 120,
+        "normalized_loss": 0.12502706050872803,
+        "gradient_norm_before_clip": 0.5992063879966736,
+        "elapsed_seconds": 4.2951079250779
+      }
+    ],
+    "wall_seconds": 5.382788524031639
+  },
+  "device": "NVIDIA H200",
+  "torch": "2.12.0+cu130",
+  "neuraloperator": "2.0.0",
+  "test_targets_read": false,
+  "final_architecture_ranking_allowed": false,
+  "statistical_claims_allowed": false
+}

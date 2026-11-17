@@ -1,0 +1,218 @@
+[
+  {
+    "id": "chebkan_s931101_extend8h",
+    "status": "MODEL_FINAL_PREFLIGHT_PASS",
+    "cases": [
+      {
+        "index": 341,
+        "metrics": {
+          "mse": 9.155361461294053e-05,
+          "velocity_l2": 0.06963050755115299,
+          "pressure_l2": 0.07315898157095227
+        },
+        "timing": {
+          "gpu": {
+            "p50_ms": 0.8439359962940216,
+            "p95_ms": 0.9769680231809617,
+            "p99_ms": 1.0096784061193467,
+            "maximum_ms": 1.0178560018539429,
+            "above_target": 0
+          },
+          "host_instrumented": {
+            "p50_ms": 0.8622080000000001,
+            "p95_ms": 1.0029826499999999,
+            "p99_ms": 1.03468453,
+            "maximum_ms": 1.04261,
+            "above_target": 0
+          }
+        }
+      },
+      {
+        "index": 952,
+        "metrics": {
+          "mse": 0.0012129472539807165,
+          "velocity_l2": 0.06350020457455721,
+          "pressure_l2": 0.19584779467167815
+        },
+        "timing": {
+          "gpu": {
+            "p50_ms": 0.8325280249118805,
+            "p95_ms": 0.8430319786071777,
+            "p99_ms": 0.8662575912475585,
+            "maximum_ms": 0.8720639944076538,
+            "above_target": 0
+          },
+          "host_instrumented": {
+            "p50_ms": 0.848432,
+            "p95_ms": 0.8600581500000001,
+            "p99_ms": 0.88217643,
+            "maximum_ms": 0.887706,
+            "above_target": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "chebkan_s931102_extend8h",
+    "status": "MODEL_FINAL_PREFLIGHT_PASS",
+    "cases": [
+      {
+        "index": 341,
+        "metrics": {
+          "mse": 0.000250445660003353,
+          "velocity_l2": 0.11537619093695756,
+          "pressure_l2": 0.10669440757206208
+        },
+        "timing": {
+          "gpu": {
+            "p50_ms": 0.8307839930057526,
+            "p95_ms": 0.8378927767276764,
+            "p99_ms": 0.8472073566913605,
+            "maximum_ms": 0.8495360016822815,
+            "above_target": 0
+          },
+          "host_instrumented": {
+            "p50_ms": 0.846044,
+            "p95_ms": 0.8543298,
+            "p99_ms": 0.86244356,
+            "maximum_ms": 0.864472,
+            "above_target": 0
+          }
+        }
+      },
+      {
+        "index": 952,
+        "metrics": {
+          "mse": 0.00015674011021835557,
+          "velocity_l2": 0.0504795673853606,
+          "pressure_l2": 0.062058193087411
+        },
+        "timing": {
+          "gpu": {
+            "p50_ms": 0.8277759850025177,
+            "p95_ms": 0.8418015778064728,
+            "p99_ms": 0.8502163279056549,
+            "maximum_ms": 0.8523200154304504,
+            "above_target": 0
+          },
+          "host_instrumented": {
+            "p50_ms": 0.8427184999999999,
+            "p95_ms": 0.85780475,
+            "p99_ms": 0.86546175,
+            "maximum_ms": 0.867376,
+            "above_target": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "rbf_s931101_extend8h",
+    "status": "MODEL_FINAL_PREFLIGHT_PASS",
+    "cases": [
+      {
+        "index": 341,
+        "metrics": {
+          "mse": 0.002057143619409676,
+          "velocity_l2": 0.33116844681211355,
+          "pressure_l2": 0.2671805728918654
+        },
+        "timing": {
+          "gpu": {
+            "p50_ms": 0.6508640050888062,
+            "p95_ms": 0.6649616003036499,
+            "p99_ms": 0.6742275285720825,
+            "maximum_ms": 0.6765440106391907,
+            "above_target": 0
+          },
+          "host_instrumented": {
+            "p50_ms": 0.6651020000000001,
+            "p95_ms": 0.6815639,
+            "p99_ms": 0.69036318,
+            "maximum_ms": 0.692563,
+            "above_target": 0
+          }
+        }
+      },
+      {
+        "index": 952,
+        "metrics": {
+          "mse": 0.004569889553855614,
+          "velocity_l2": 0.12904381634336368,
+          "pressure_l2": 0.37909739860002833
+        },
+        "timing": {
+          "gpu": {
+            "p50_ms": 0.6476959884166718,
+            "p95_ms": 0.66875359416008,
+            "p99_ms": 0.6719395101070404,
+            "maximum_ms": 0.6727359890937805,
+            "above_target": 0
+          },
+          "host_instrumented": {
+            "p50_ms": 0.6620915,
+            "p95_ms": 0.6844887500000001,
+            "p99_ms": 0.68734255,
+            "maximum_ms": 0.688056,
+            "above_target": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "rbf_s931102_extend8h",
+    "status": "MODEL_FINAL_PREFLIGHT_PASS",
+    "cases": [
+      {
+        "index": 341,
+        "metrics": {
+          "mse": 0.0017737304991127239,
+          "velocity_l2": 0.3075201045109811,
+          "pressure_l2": 0.247328352740365
+        },
+        "timing": {
+          "gpu": {
+            "p50_ms": 0.6487039923667908,
+            "p95_ms": 0.6569983720779419,
+            "p99_ms": 0.675092453956604,
+            "maximum_ms": 0.6796159744262695,
+            "above_target": 0
+          },
+          "host_instrumented": {
+            "p50_ms": 0.6633785000000001,
+            "p95_ms": 0.6713949,
+            "p99_ms": 0.69048458,
+            "maximum_ms": 0.695257,
+            "above_target": 0
+          }
+        }
+      },
+      {
+        "index": 952,
+        "metrics": {
+          "mse": 0.006212570110543474,
+          "velocity_l2": 0.11688535863832686,
+          "pressure_l2": 0.44751345985001967
+        },
+        "timing": {
+          "gpu": {
+            "p50_ms": 0.6464000046253204,
+            "p95_ms": 0.6590560019016266,
+            "p99_ms": 0.6651360142230988,
+            "maximum_ms": 0.6666560173034668,
+            "above_target": 0
+          },
+          "host_instrumented": {
+            "p50_ms": 0.6610605,
+            "p95_ms": 0.6747031,
+            "p99_ms": 0.68029822,
+            "maximum_ms": 0.681697,
+            "above_target": 0
+          }
+        }
+      }
+    ]
+  }
+]

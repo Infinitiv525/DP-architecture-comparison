@@ -1,0 +1,20 @@
+{
+  "id": "dendrite_b",
+  "model": "dendrite",
+  "status": "EVALUATED",
+  "validation_mse": 0.0053598134894814065,
+  "velocity_l2": 0.1269231695458481,
+  "pressure_l2": 1.0656784720096557,
+  "worst_screen_gpu_p99_ms": 2.247898488044739,
+  "latency_screen_pass": true,
+  "screen_cases": 16,
+  "best_epoch": 180,
+  "last_epoch": 200,
+  "initial_validation_mse": 0.04266261471196248,
+  "last_relative_validation_gain": -0.0003929739711184913,
+  "needs_longer_training_review": false,
+  "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/dendrite_b/best.pt",
+  "checkpoint_sha256": "497e7761a9537e1aba2031c50091d7c2ff5d5180e938f6a22788d13261e3570e",
+  "training_device": "cpu",
+  "fitted_or_selected_core_scalars": 85443
+}

@@ -1,0 +1,83 @@
+VÝSLEDKY ZÁVEREČNÉHO POROVNANIA ARCHITEKTÚR
+
+Celé dohodnuté porovnanie je dokončené a skontrolované. Deväť hlavných rodín
+má po päť nezávislých tréningov (45 nových modelov). Osobitne je vyhodnotených
+päť archivovaných PINN referencií. Každý z 50 modelov predikoval rovnakých
+200 TEST prípadov: spolu 10 000 polí 512 × 512 × 3 (u, v, tlak).
+Použitý split: 640 TRAIN / 160 VAL / 200 TEST. Nové učenie sa nespustilo.
+
+PRIEMERNÉ TESTOVACIE CHYBY A SPLNENIE ČASOVÉHO CIEĽA
+Rýchlosť aj tlak: priemer relatívnej L2 chyby v tekutine, v percentách.
+Hodnota ± SD vyjadruje priemer a výberovú smerodajnú odchýlku piatich
+modelových priemerov; každý modelový priemer zahŕňa 200 prípadov.
+Časové rozpätie: minimum až maximum najhoršieho scenárového p99 medzi
+piatimi modelmi, podľa synchronizovaného instrumentovaného času hostiteľa.
+Posledný stĺpec: počet modelov, ktoré mali p99 ≤ 5 ms vo VŠETKÝCH prípadoch.
+
+Metóda        Rýchlosť L2 [%]      Tlak L2 [%]       Najhorší p99 [ms]  Splnilo
+----------------------------------------------------------------------------
+tfno          0.758 ± 0.021     1.561 ± 0.025    3.764–5.595      3/5
+chebkan       6.016 ± 0.278     8.364 ± 0.410    1.024–1.050      5/5
+pinet        10.118 ± 0.112    27.194 ± 0.050    0.737–0.761      5/5
+dendrite      9.883 ± 0.151    26.964 ± 0.068    0.720–0.748      5/5
+realnpu       1.716 ± 0.022     2.074 ± 0.019    1.084–1.139      5/5
+rbf           7.260 ± 0.085    13.988 ± 0.171    0.844–0.875      5/5
+elm          38.216 ± 0.277    75.990 ± 0.449    0.718–0.752      5/5
+scn          41.592 ± 1.392    76.101 ± 0.959    0.633–0.663      5/5
+cascor       52.872 ± 0.647    86.013 ± 1.246    3.184–14.545     2/5
+pinn          2.407 ± 0.111     8.601 ± 0.245    2.930–3.465      5/5
+
+PINN v tabuľke je pomocná historická referencia s vlastným postupom učenia.
+Má inú reprezentáciu a fyzikálnu stratu; nie je desiatym kontrolovaným
+súťažiacim v hlavnom porovnaní deviatich architektúr.
+
+ČO Z TOHO ZATIAĽ VYPLÝVA
+TFNO má najnižšiu priemernú MSE aj priemernú relatívnu chybu rýchlosti a tlaku.
+RealNPU má z ôsmich alternatív najnižšie priemerné chyby v týchto metrikách
+a všetkých päť jeho modelov splnilo časový cieľ. TFNO ho splnilo pri troch
+z piatich modelov. Toto je opis výsledkov; nejde o test štatistickej významnosti.
+ELM, SCN a CasCor mali pod týmto rozhraním a rozpočtom podstatne vyššie chyby.
+Z výsledku nemožno vyvodiť všeobecnú nevhodnosť týchto rodín pre všetku fyziku.
+Zdrojové obmedzenie je horná hranica, nie povinnosť vyčerpať všetok čas:
+ELM skončilo prirodzene po priamom riešení, SCN po nenájdení prípustného kandidáta.
+Všetci ostávajú vo výsledkoch; podľa TEST sa nič nedolaďovalo ani nevylúčilo.
+
+VÝZNAM ČASOVÉHO MERANIA
+Na prípad a model prebehlo 100 zahrievacích a 1 000 meraných volaní.
+CPU audit overil 10 miliónov párov GPU/host časovaní zo surových záznamov.
+Ide o predikciu celého ustáleného poľa, NIE o krok vývoja simulácie v čase.
+P99 ≤ 5 ms neznamená, že ani jediné volanie nikdy neprekročilo 5 ms.
+GPU aj hostiteľské percentily a počty prekročení sú v pôvodných JSON reportoch.
+Čas hostiteľa zahŕňa CUDA udalosti a synchronizáciu. Vstup už je na GPU;
+prenos vstupu/výstupu a zobrazovanie sú mimo tohto merania. H200, FP32, batch 1.
+Päť skupín používalo päť overených odlišných H200 kariet; v každej skupine sa
+desať modelov meralo postupne na tej istej karte. TF32 bolo vypnuté.
+
+OVERENIE A OBMEDZENIA
+Úlohy 157377, celé pole 157382 a následný CPU audit 157383 majú COMPLETED,
+ExitCode 0:0. Všetky stiahnuté chybové logy sú prázdne. Front je prázdny.
+Audit zo všetkých 10 000 uložených polí znovu vypočítal chyby aj fyzikálne
+rezíduá a overil hashe váh, polí a časovaní. Lokálne sú zhodné SHA reportov
+s Perunom, 10 000 jedinečných model/prípad riadkov a 50 modelových riadkov.
+Nemenné konfigurácie a zdroje sa zhodujú s manifestom pred testovaním.
+Fyzikálne metriky sú diagnostikou ustálených rovníc na zvolenom diskrétnom
+interiéri; nezamieňajú sa za dôkaz presnej fyzikálnej správnosti celého poľa.
+Split obsahuje známe geometrie a TEST bol otvorený už v starších štúdiách.
+Neoznačujeme ho za nový slepý test ani za test výlučne nových geometrií.
+
+KDE NÁJSŤ ČÍSLA A SÚBORY
+report/audit/case_metrics.csv: 10 000 riadkov, chyby, fyzika, p50/p95/p99.
+report/audit/model_metrics.csv: 50 modelových súhrnov a splnenie 5 ms.
+report/audit/summary.json: priemery, SD, všetky modely a potvrdenie auditu.
+report/test/models/<id>/summary.json: úplné metriky, časovania, hashe, hardvér.
+completion_check.json: dodatočná kontrola úplnosti, SHA a súborový inventár.
+protokol.txt: zmrazený postup; models.json: presné váhy, seedy a ich hashe.
+Veľké súbory ostávajú na Perune. Predikcie: 31,457 GB; komprimované časovania:
+približne 0,058 GB; 50 použitých checkpointov: približne 0,639 GB.
+Lokálne sa nestiahli žiadne váhy, surové predikčné polia ani časovacie polia.
+
+Perun výsledky:
+/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb
+
+Ďalší krok je analýza a prezentácia týchto výsledkov. Žiadne ďalšie učenie
+ani doplnkové experimenty sa pri tejto kontrole nespustili.

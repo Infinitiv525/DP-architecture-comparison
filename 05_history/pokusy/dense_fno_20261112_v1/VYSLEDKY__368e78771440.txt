@@ -1,0 +1,38 @@
+DENSE FNO — TRÉNINGY, TESTOVANIE AJ AUDIT SÚ DOKONČENÉ
+
+Päť nezávislých tréningov na 640 TRAIN / 160 VAL prípadoch.
+Každý vybraný model bol vyhodnotený na rovnakých 200 TEST prípadoch.
+Spolu 1 000 uložených natívnych polí a milión párov GPU/host časovaní.
+CPU audit overil všetky uložené polia, fyzikálne diagnostiky a časovania.
+
+Priemerná relatívna L2 chyba rýchlosti: 0.811 % ± 0.013 percentuálneho bodu.
+Priemerná relatívna L2 chyba tlaku: 1.666 % ± 0.028 percentuálneho bodu.
+Priemerná natívna MSE u/v/p: 1.5439836e-05.
+Časový cieľ najhoršieho scenárového p99 ≤ 5 ms splnilo všetkých 5/5 modelov.
+Rozsah najhorších host p99 medzi modelmi: 2.219 až 2.887 ms.
+P99 nie je maximálny čas každého volania. H2D prenos a vizualizácia
+sú mimo merania; vstup je na H200, FP32, batch 1, TF32 vypnuté.
+
+Ide o FNO bez faktorizácie, s rovnakým backbone a plnými vstupmi ako náš
+TFNO: päť vrstiev, 48 skrytých kanálov a módy 32 × 32.
+Má 12 672 888 trénovateľných reálnych skalárov plus 10 normalizačných hodnôt.
+Pridelený rozpočet na model bol rovnaký: najviac 4 H200-h a 16 CPU-core-h.
+Päť finálnych tréningov podľa uložených closeoutov spotrebovalo spolu
+19.5875 H200-h. Ladenie a záverečné meranie sú samostatné položky.
+Closeout runtime nie je presné portálové vyúčtovanie.
+
+Autori FlowBench v zverejnenom modeli sami volajú TFNO. Táto dense verzia
+je dodatočný variant; nie je chýbajúcim presným pôvodným baseline.
+Bola pridaná po znalosti pôvodných výsledkov. TEST slúžil na vyhodnotenie,
+nie na výber jej checkpointov alebo zmenu konfigurácie.
+Pôvodný deväťrodinový experiment a pomocná PINN zostali zachované.
+
+Úplné čísla: report/audit/summary.json, case_metrics.csv a model_metrics.csv.
+Presné váhy a SHA: report/frozen_evaluation/models.json.
+Integrita: completion_check.json — päť úspešných tréningových closeoutov,
+desať VAL kontrolných polí a tisíc CPU overených TEST polí.
+Staré finálne Slurm záznamy už expirovali; netvrdíme ich spätné overenie.
+Pôvodné reporty a chybové logy sú kompletné, stderr prázdne.
+Váhy a objemné polia ostávajú na Perune.
+
+Kompletné porovnanie je v ../architecture_closeout_20261117_v1/POROVNANIE_55_MODELOV.txt.

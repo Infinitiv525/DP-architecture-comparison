@@ -1,0 +1,106 @@
+HLAVNÁ SÉRIA ARCHITEKTÚR — ROZPOČET PODĽA EMPIRICKEJ PINN REFERENCIE
+
+VEDECKÁ OTÁZKA
+Ako vhodné sú vybrané architektúry pre naše 2D prúdenie pri zdrojovom
+rozpočte zodpovedajúcom nákladom existujúcej referenčnej PINN?
+Presnosť, priebeh učenia, reálna spotreba, pamäť a rýchlosť predikcie
+sú výsledky. Neexistuje spoločný prah prijateľnej chyby.
+
+ZDÔVODNENIE ZDROJOV — NIE PODĽA DOSTUPNEJ KVÓTY
+Päť referenčných PINN behov na rovnakých 640 TRAIN scenároch počas
+400 epoch používalo 1 H200 a 4 CPU jadrá na proces. Overené procesné
+časy boli 3 h 50 min 35 s až 3 h 55 min 55 s; medián 3,905 H200-GPU-h.
+Rozpočet sa stanovuje zaokrúhlením najpomalšieho referenčného procesu
+nahor na štvrťhodinový alokačný blok: 4 H200-GPU-h a 16 CPU core-h.
+RAM limit je 40 GiB, podľa proporcionálneho podielu pôvodnej skupinovej
+alokácie. Nejde o tvrdenie, že všetky modely musia tak dlho konvergovať.
+Podrobné dôkazy a SHA sú v PINN_resource_reference.json a v susednom
+architecture_time_design_20261111_v1/ZDOVODNENIE_ZDROJOV.txt.
+
+Pôvodný návrh ôsmich hodín nebol spustený ako hlavná séria a je nahradený
+týmto empiricky ukotveným rozpočtom. Kvóta sa kontroluje až následne:
+45 behov × 4 H200-GPU-h znamená strop 180 GPU-h a 720 CPU core-h.
+Celkový konzervatívny plán s ladením, pomocnými testmi a rezervou na
+vyhodnotenie má strop približne 274,303 GPU-h. Toto je kontrola kapacity,
+nie vedecký dôvod výberu rozpočtu.
+
+SPOLOČNÉ PODMIENKY
+Metódy: TFNO, ChebKAN, PiNet, DendriteNet, RealNPU, RBF, ELM, SCN, CasCor.
+Ide o zdokumentované adaptácie. TFNO používa oficiálne jadro neuraloperator
+so spoločným rozhraním; nereprodukujeme presné autorské skóre FlowBench.
+Všetci majú jednu H200, 4 CPU jadrá, 40 GiB hostiteľskej RAM, FP32 bez TF32.
+Rovnakých 640 TRAIN, 160 VAL a neskôr 200 TEST scenárov zo zmrazeného splitu.
+Všetci dostávajú úplnú pôvodnú geometriu a fyzikálne vstupy a učia sa
+z úplných natívnych polí 512 × 512. Pevný spoločný adaptér iba preskupí
+hodnoty a doplní rovnaké príznaky; cieľové dáta nevstupujú do adaptéra.
+TRAIN normalizácia, prípadovo vyvážená relatívna loss a úplná validácia
+sú spoločné. Rozdielny algoritmus učenia ostáva súčasťou danej rodiny.
+
+LADENIE A OPAKOVANIA
+Na rodinu boli vopred stanovené dve nastavenia a maximálne 1 H200-GPU-h
+na každé. Všetkých 18 ladení má kompletné výsledky. Zdrojové záznamy
+a všetkých 160 VAL polí každého modelu boli nezávisle prepočítané na CPU:
+celkovo 2 880 model/prípad validačných polí, bez učenia a bez TEST.
+Časť plánovacích záznamov už vypršala z krátkodobej retencie scontrol;
+dochované reporty, čisté logy, váhy a nezávislý prepočet zostávajú dôkazmi.
+Táto absencia sa nezamieňa za zlyhanie modelov alebo za presné vyúčtovanie.
+
+Vyberá sa nižšia priemerná raw prípadovo vyvážená VAL loss zo 160 prípadov.
+Pri presnej rovnosti rozhodne menší index konfigurácie. Žiadna metóda
+sa nevyraďuje podľa veľkosti chyby. Výber je nemenný v selection.json.
+Víťazné indexy: TFNO0, ChebKAN1, PiNet1, DendriteNet0, RealNPU0,
+RBF0, ELM0, SCN0, CasCor1. Nastavenia používajú rovnaký štvorhodinový
+zdrojový strop, nie rovnaký počet epoch alebo uzlov.
+
+Päť nových seedov: 931101–931105, pre každú z deviatich rodín.
+Spolu 45 čerstvých modelov; žiadne pokračovanie váh z ladenia.
+Úlohy sú zoradené po seedoch s prekladaním rodín. Najviac 8 H200 naraz.
+Rýchla algoritmická metóda môže skončiť skôr. ELM dokončí globálny
+vážený fit; SCN môže naraziť na chýbajúceho prípustného kandidáta;
+konštrukčné siete môžu dosiahnuť plánovanú kapacitu. Dôvody sa vykážu.
+Približne 1,35 milióna koeficientov ostáva východiskovou kapacitnou
+kontrolou; skutočný posledný a vybraný rozmer sa zaznamená.
+
+MERANIE A KONTROLY
+Celý čas alokácie vrátane načítania, učenia, validácií a checkpointov
+sa počíta do rozpočtu. Štartový RunTime plánovača dopĺňajú monotónne hodiny.
+Pred ukončením ostáva prevádzková rezerva. Worker ukladá best a last,
+presné počítadlá všetkých 640 prípadov a celé VAL výsledky každých približne
+päť minút. Najlepší VAL checkpoint sa vyberie pre všetky rodiny, vrátane
+konštrukčných. Cena sa vzťahuje na celý vykonaný beh, nie iba na skorší
+čas vzniku vybraného checkpointu. Zaznamená sa aj skutočný CPU čas,
+peak CUDA a hostiteľská RAM. Pozorovaná pamäť PINN 4,622 GiB nie je VRAM
+limitom nových metód; prideleným zdrojom je rovnaká celá karta H200.
+
+Po skončení tréningového kroku sa perzistentne zachytí exit code a
+RunTime zo Slurmu. Tento blízky koncový údaj je označený ako closeout,
+nie ako konečné portálové vyúčtovanie. Zabráni strate všetkých údajov
+pri rýchlom vypršaní záznamov plánovača. Automatické neobmedzené obnovenie
+úloh nie je povolené; opakovanie vyžaduje zohľadniť celú predchádzajúcu
+spotrebu. Pevný limit plánovača zostáva štyri hodiny na model.
+
+Deviatim zvoleným konfiguráciám predchádzal nový minútový integračný
+test 156490 na rovnakom hardvéri a 40 GiB RAM. Všetky prešli, obnovili
+checkpointy a uložili úspešný closeout. Hlavné pole 156499 odoslané až
+po tejto kontrole. Zhodu matematického tréningového cyklu s overeným
+ladením dokladuje implementation_provenance.json.
+
+INTERPRETÁCIA
+Krivka chyby proti H200-GPU-h umožní posúdiť zlepšovanie približne po
+jednej, dvoch a štyroch GPU-h. Checkpointy pochádzajú z jednej štvorhodinovej
+optimalizácie; nie sú to osobitne optimalizované kratšie tréningy.
+Pri skoršom časovom bode sa použije len checkpoint, ktorý už vtedy existoval.
+Ak model ešte na konci zreteľne napreduje, nie je preukázaná konvergencia;
+záver sa obmedzí na dosiahnutý výsledok pri referenčnom rozpočte.
+
+Historická PINN ostáva vedľajšou výsledkovou referenciou a kotvou nákladov,
+nie novým rovnako kontrolovaným účastníkom. Má odlišné vzorkovanie, loss
+a reprezentáciu; mala tiež iné nastavenie cuDNN TF32. Jej staré skóre sa
+nezamieňa s kontrolovaným porovnaním deviatich nových implementácií.
+Pôvodné TEST údaje už boli otvorené v starších štúdiách. Nový výber
+nastavení sa riadi iba TRAIN/VAL; záverečný test sa neoznačí za nový
+úplne slepý alebo za test výhradne neznámych geometrií.
+
+Predikčná latencia vrátane adaptéra a spracovania celého poľa sa zmeria
+osobitne na H200, s p50/p95/p99 a cieľom 5 ms. Nevyhovujúce chyby alebo
+latencie sa nesmú potichu vynechať. Veľké dáta a váhy ostávajú na Perune.

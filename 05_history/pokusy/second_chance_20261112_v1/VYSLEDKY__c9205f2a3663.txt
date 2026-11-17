@@ -1,0 +1,20 @@
+DRUHA SANCA DOKONCENA - SAMOSTATNY EXPLORATIVNY DOPLNOK
+
+ChebKAN a RBF: po dva vopred urcene seedy, pokracovanie z last.pt a Adam.
+Povodny 4h experiment a jeho poradie ostavaju nezmenene.
+Rovnaky posledny LR, bez restartu, novych vstupov alebo zmeny architektury.
+Povodne a nove skutocne GPU-h sa scitavaju; nominalny strop linie je8h.
+Ziadne TEST ciele. Vsetky cisla nizsie su TRAIN/VAL diagnostika.
+
+Model                  VAL4h       VAL8h-best   VAL8h-last   zlepsenie-best[%]   GPU-h-spolu
+chebkan_s931101_extend8h 0.009519646  0.008445346  0.008734314        11.285         7.834
+chebkan_s931102_extend8h 0.007913683  0.006710077  0.006751574        15.209         7.834
+rbf_s931101_extend8h    0.01555891  0.01429414  0.01429414         8.129         7.834
+rbf_s931102_extend8h    0.01478883  0.01405036  0.01408031         4.993         7.834
+
+Vybrany najlepsi priebezny model moze zostat povodny; posledny a novy
+fazovy najlepsi model sa vykazuju aj ked sa zhorsili. Cas prveho pozorovaneho
+zlepsenia je obmedzeny priblizne5min validacnym intervalom, nie presny minimalny cas.
+Krivky su v cost_curves.csv; povodny cosine rozvrh a novy konstantny LR
+sa rozlisuju. Z dvoch explorativnych seedov nerobime vseobecnu kauzalnu
+alebo statisticky vyznamnu vetu o celej rodine. Ziadne16h pokracovanie sa nespustilo.

@@ -1,0 +1,116 @@
+DRUHÁ ŠANCA: SAMOSTATNÉ POKRAČOVANIE CHEBKAN A RBF
+
+Účel a rozsah
+Používateľ 12. 11. 2026 výslovne požiadal spustiť druhú šancu pre navrhnuté
+modely. Ide výhradne o samostatnú exploratívnu poznámku mimo hlavného
+porovnania sietí. Pôvodné štvorhodinové výsledky, váhy, poradie a seedy sa
+nenahradia. Dodatok neslúži na dodatočnú zmenu záverov hlavného experimentu.
+
+Pokračujú štyri vopred určené línie:
+ChebKAN, seed 931101; ChebKAN, seed 931102;
+RBF, seed 931101; RBF, seed 931102.
+Nejde o výber dvoch najlepších seedov. Ide o prvé dva uvedené už v návrhu.
+Každá línia dostane najviac ďalšie štyri H200-GPU-h na rovnakej architektúre.
+S pôvodným nominálnym rozpočtom je to najviac 4 + 4 = 8 GPU-h na líniu.
+Šestnásťhodinová verzia sa nespúšťa ani automaticky neplánuje.
+
+Prečo práve tieto modely
+Pri všetkých piatich pôvodných opakovaniach oboch rodín ešte klesala
+validačná strata v druhej polovici učenia. Priemer dovtedy najlepších
+VAL strát medzi druhou a štvrtou hodinou klesol približne o 61,26 % pri
+ChebKAN a 39,39 % pri RBF. Je to dôvod skúmať ďalší čas, nie záruka výsledku.
+Základom je už dokončená TRAIN/VAL diagnostika, nie nové ladenie podľa TEST.
+
+Najprv prebehla kontrola skutočnej možnosti pokračovať
+CPU úloha 157641 úspešne skončila za 44 sekúnd. Pri všetkých štyroch last.pt:
+- overila SHA pôvodného best.pt, last.pt, tréningového reportu a closeoutu;
+- obnovila architektúru, normalizáciu, všetky Adam momenty, kroky a nastavenia;
+- potvrdila zhodu všetkých 4 × 160 individuálnych VAL strát s pôvodným GPU
+  výsledkom v relatívnej tolerancii 0,5 % a absolútnej 1e-7;
+- dokázala obnoviť presný ďalší tréningový prípad z uložených počítadiel.
+Numerická tolerancia nie je hranica požadovanej presnosti siete.
+Žiadny pôvodný checkpoint sa pri kontrole nezmenil.
+
+Presný obnovený stav
+ChebKAN 931101: 7 594 240 aktualizácií, nasledujúca epocha 11867, pozícia 0.
+ChebKAN 931102: 8 085 035 aktualizácií, epocha 12633, pozícia 555 zo 640.
+RBF 931101: 8 992 640 aktualizácií, nasledujúca epocha 14052, pozícia 0.
+RBF 931102: 8 953 600 aktualizácií, nasledujúca epocha 13991, pozícia 0.
+Poradie sa obnovuje rovnakým CPU randperm s generator seed + epocha.
+Počty návštev všetkých 640 prípadov presne potvrdili tento prefix permutácie.
+
+Pôvodné checkpointy nemajú samostatný snapshot RNG. V overených ChebKAN
+a RBF nie sú náhodné tréningové vrstvy ani dátová augmentácia. Jediné
+tréningové miešanie používa nezávislý deterministický generátor na epochu.
+To umožňuje pokračovať bez preskakovania alebo opakovania časti dát.
+Netvrdíme bitovú reprodukovateľnosť celého CUDA učenia riadeného časom.
+Nové checkpointy už ukladajú aj RNG stavy a explicitný kurzor.
+
+Čo zostáva rovnaké
+Rovnakých 640 TRAIN a 160 VAL prípadov, rovnaké úplné vstupy a normalizácia,
+rovnaká natívna strata, Adam, orezanie gradientov na 1 a pevná architektúra.
+Jedna H200, štyri CPU a 40 GiB host RAM na líniu, FP32, oba TF32 režimy vypnuté.
+Celá nová alokácia sa počíta do dodatku vrátane obnovy, validácií a checkpointov.
+
+Žiadny reset optimalizátora ani LR
+Každá línia zachová svoj presný uložený posledný learning rate. Ide o hodnoty
+tesne nad 1e-5, odlišné len na vzdialených desatinných miestach; presné čísla
+sú v parents.json. LR zostane po celý dodatok konštantný. Nepredlžujeme
+spätne pôvodný cosine rozvrh a nereštartujeme ho. Tým vieme pomenovať
+skúmanú vec: ďalšie kroky pri pôvodnom koncovom stave učenia.
+Nejde o nový tréning od inicializácie alebo hľadanie lepších hyperparametrov.
+
+Pôvodné Adam krokové tenzory sú float32. Ich dtype a stav sa nemenia.
+Pri veľmi vysokých počtoch môžu tieto tenzory stratiť jednotkovú presnosť;
+preto počet skutočných aktualizácií určujú samostatné celočíselné počítadlá
+a počty návštev, nie hodnota float32 step. Obe hodnoty zostanú v reportoch.
+
+Zaznamenávanie a výber
+Približne každých päť minút prebehne úplná validácia na všetkých 160 prípadoch.
+Uloží sa aktuálna strata, počítadlá, konštantný LR, checkpoint, Adam a čas.
+Pôvodný najlepší štvorhodinový model ostáva referenciou. Nový best.pt je
+najlepší model samotnej nadväzujúcej fázy, last.pt je jej posledný stav.
+Najlepší model celej línie môže zostať pôvodný, ak sa nič nezlepší.
+Aj horší nový best alebo posledný stav sa vykáže; neskrývame zhoršenie.
+Nie je stanovený dodatočný prah prijatia architektúry podľa presnosti.
+
+Výpočtová postupnosť
+FNO pipeline zostáva prioritou. Dodatok čaká na úspešný koniec FNO auditu
+157477; nové tréningy tak neprebiehajú počas jeho záverečných časovaní.
+157656: štyri paralelné GPU pokračovania, každé najviac 04:00:00, spolu max16 GPU-h.
+157657: štyri následné CPU audity, najviac dva naraz, 4 CPU/40 GiB/max2h každý.
+157658: CPU zhrnutie a CSV krivky po úspechu všetkých štyroch auditov.
+Všetky závislosti sú afterok. Nespúšťa sa automatické opakovanie po chybe.
+
+Nezávislá CPU kontrola po pokračovaní
+Znova vyhodnotí pôvodný best, nový best aj nový last na všetkých 640 TRAIN
+a 160 VAL prípadoch. Zachová každú prípadovú stratu aj priemer. Na natívnych
+VAL poliach dopočíta relatívnu chybu rýchlosti a tlaku rovnakým postupom
+ako v hlavnom tréningovom protokole. Overí zhodu CPU/GPU validačných hodnôt,
+lineage, obnovu kurzora, počty nových návštev a nemennosť všetkých rodičov.
+Pri tejto fáze sa neotvárajú TEST ciele a nezisťujú nové TEST latencie.
+
+Ako budeme vykazovať zdroje
+Nominálny strop línie je osem H200-GPU-h. Skutočne pozorovaný čas je súčet
+pôvodnej alokácie a nového Slurm closeoutu; pre rezervu na záverečné uloženie
+môže byť kratší než osem hodín. Pôvodné closeouty zachytili 14 100 alebo
+14 101 sekúnd. Ide o runtime pri closeoute, nie presné portálové vyúčtovanie.
+Pri štyroch pridelených CPU je tréningová CPU-core-h hodnota štvornásobkom
+príslušných GPU-h. Technická CPU kontrola a následné CPU audity sú oddelené
+režijné náklady a nepredstierajú sa ako čas učenia modelu.
+Čas prvého pozorovaného zlepšenia je intervalový údaj podľa validácií,
+nie presný minimálny čas potrebný na zlepšenie.
+
+Výstupy a hranice záverov
+summary/model_metrics.csv: všetky štyri výsledky vrátane zhoršení a nákladov.
+summary/cost_curves.csv: pôvodné aj nové validačné krivky oproti kumulatívnym GPU-h.
+summary/VYSLEDKY.txt: ľudské vysvetlenie a oddelenie od hlavného experimentu.
+Ide o dva exploratívne seedy na rodinu; nevytvárajú univerzálny čas potrebný
+na natrénovanie rodiny a samy nedokazujú štatistickú významnosť.
+V hlavnej porovnávacej tabuľke ostávajú pôvodné výsledky pri pôvodnom rozpočte.
+
+Umiestnenie a integrita
+Kontrola rodičov: inspection/r_cb9365a719b6553b.
+Nemenné zdroje pokračovania: continuation/r_a2e6385af02ef1bb.
+Presné cesty, SHA a job ID sú v inspect/submission.json a submission.json.
+Veľké váhy ostávajú na Perune. Lokálne sa prenášajú len malé reporty a logy.

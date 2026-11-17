@@ -1,0 +1,58 @@
+[
+  {
+    "id": "chebkan_s931101_extend8h",
+    "model": "chebkan",
+    "role": "fixed_exploratory_second_chance_TEST",
+    "seed": 931101,
+    "status": "SECOND_CHANCE4_SAVED_OUTPUT_AUDIT_PASS",
+    "all_cell_mse": 0.0010823489656072325,
+    "fluid_velocity_relative_l2": 0.05672483569505369,
+    "fluid_pressure_relative_l2": 0.08183527039496186,
+    "worst_gpu_p99_ms": 0.991491180062294,
+    "worst_host_p99_ms": 1.01384042,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true
+  },
+  {
+    "id": "chebkan_s931102_extend8h",
+    "model": "chebkan",
+    "role": "fixed_exploratory_second_chance_TEST",
+    "seed": 931102,
+    "status": "SECOND_CHANCE4_SAVED_OUTPUT_AUDIT_PASS",
+    "all_cell_mse": 0.0012755029886040703,
+    "fluid_velocity_relative_l2": 0.05041146085828351,
+    "fluid_pressure_relative_l2": 0.07064008333029395,
+    "worst_gpu_p99_ms": 0.9893788886070252,
+    "worst_host_p99_ms": 1.0121371,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true
+  },
+  {
+    "id": "rbf_s931101_extend8h",
+    "model": "rbf",
+    "role": "fixed_exploratory_second_chance_TEST",
+    "seed": 931101,
+    "status": "SECOND_CHANCE4_SAVED_OUTPUT_AUDIT_PASS",
+    "all_cell_mse": 0.0010731423230926583,
+    "fluid_velocity_relative_l2": 0.06880418802696456,
+    "fluid_pressure_relative_l2": 0.13109776168805543,
+    "worst_gpu_p99_ms": 0.8112415713071823,
+    "worst_host_p99_ms": 0.8327853000000001,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true
+  },
+  {
+    "id": "rbf_s931102_extend8h",
+    "model": "rbf",
+    "role": "fixed_exploratory_second_chance_TEST",
+    "seed": 931102,
+    "status": "SECOND_CHANCE4_SAVED_OUTPUT_AUDIT_PASS",
+    "all_cell_mse": 0.0010941587637977662,
+    "fluid_velocity_relative_l2": 0.06922920824807166,
+    "fluid_pressure_relative_l2": 0.13251817245188702,
+    "worst_gpu_p99_ms": 0.8052224141359329,
+    "worst_host_p99_ms": 0.8264975099999999,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true
+  }
+]

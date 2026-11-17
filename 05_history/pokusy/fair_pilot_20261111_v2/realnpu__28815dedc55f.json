@@ -1,0 +1,69 @@
+{
+  "model": "realnpu",
+  "device": "cpu",
+  "case_id": 928,
+  "native_target_values": 786432,
+  "encoded_rows": 4096,
+  "input_channels": 665,
+  "output_channels": 192,
+  "scope": "One complete TRAIN simulation. No TEST targets. Timing estimates are not guarantees.",
+  "adapter_checks": {
+    "loss_native": 0.0023677463177591562,
+    "loss_packed": 0.0023677474819123745,
+    "gradient_max_difference": 7.099743015714921e-11,
+    "geometry_roundtrip_max_error": 8.940696716308594e-08,
+    "target_roundtrip_max_error": 2.384185791015625e-07
+  },
+  "training_step": {
+    "seconds": [
+      0.2690457639982924,
+      0.2688048470299691,
+      0.2621481689857319,
+      0.2645892599830404,
+      0.26262783794663846
+    ],
+    "median_seconds": 0.2645892599830404
+  },
+  "one_case_learning_losses": [
+    6.013978958129883,
+    39.00629425048828,
+    20.40886688232422,
+    7.156606674194336,
+    3.79256534576416,
+    5.24895715713501,
+    3.69921875,
+    1.496351718902588
+  ],
+  "training_updates": 8,
+  "measured_training_work_seconds": 2.123713269014843,
+  "one_case_raw_loss_after": 2.536984443664551,
+  "inference_full_path": {
+    "seconds": [
+      0.10526550898794085,
+      0.10469554294832051,
+      0.10704019700642675,
+      0.10320254298858345,
+      0.10344378103036433,
+      0.10669861803762615,
+      0.10320480703376234,
+      0.10927818901836872,
+      0.10970238398294896,
+      0.11562509695068002
+    ],
+    "median_seconds": 0.1059820635127835
+  },
+  "checkpoint_restore_max_difference": 0.0,
+  "parameter_ledger_current": {
+    "trainable_real_scalars": 1353203,
+    "data_fitted_frozen_real_scalars": 10,
+    "data_selected_frozen_real_scalars": 0,
+    "data_independent_core_real_scalars": 0,
+    "learned_or_fitted_total": 1353213,
+    "total_core_coefficients_plus_normalization": 1353213,
+    "common_adapter_buffer_bytes": 2459688,
+    "core_tensor_bytes": 5412812,
+    "accounting_only": true
+  },
+  "peak_GPU_allocated_bytes": 0,
+  "status": "ONE_CASE_TIMING_AND_TECHNICAL_CHECKS_COMPLETE"
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "status": "DENSE_FNO5_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "fno_s931103",
+      "model": "fno",
+      "seed": 931103,
+      "group": 2,
+      "kind": "posthoc_resource_matched_dense_fno_supplement",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931103/best.pt",
+      "checkpoint_sha256": "f9a4282192267c0fa319ae548c6a2e6b2f97be817472ef5d77ca4d958214fd43",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.013974240981042385,
+          "pressure_l2": 0.03526632860302925
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.007899723015725613,
+          "pressure_l2": 0.013806725852191448
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 12672888,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 12672898,
+        "total_core_coefficients_plus_normalization": 12672898,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 50691552,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931103/complete.json",
+      "training_summary_sha256": "866c1b37c543770d433e343ff6657702a5f47bd0825ea62a73d8c8a6e8c53ec3",
+      "training_elapsed_seconds": 14101.719740985078,
+      "training_stop_reason": "training_time_budget"
+    },
+    "means": {
+      "all_cell_mse": 1.651202150545959e-05,
+      "fluid_velocity_relative_l2": 0.0082455603421664,
+      "fluid_pressure_relative_l2": 0.017079424699288047
+    },
+    "worst_case_gpu_p99_ms": 2.201284596920013,
+    "worst_case_host_p99_ms": 2.21888021,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true,
+    "elapsed_seconds": 496.56773130304646
+  }
+]

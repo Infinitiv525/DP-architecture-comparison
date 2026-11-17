@@ -1,0 +1,34 @@
+STAV OPRAVY EXPERIMENTU
+
+Test 155791 a nadväzujúci audit 155792 sú ZRUŠENÉ. Pôvodné dáta a váhy
+sú zachované. Nové tréningy ani modelové predikcie sa nespustili.
+
+Dohoda: BEZ SPOLOČNÉHO PRAHU PRESNOSTI. Zabezpečíme rovnaké vstupy
+a porovnateľné podmienky; dosiahnutú chybu porovnáme ako výsledok.
+
+Pripravený je spoločný bezstratový formát celej geometrie a výstupov.
+Rovnaký adaptér použije aj FNO. Nejde o priemerovanie geometrie.
+
+Pripravených je 9 NEVYTRÉNOVANÝCH návrhov s podobným celkovým počtom
+koeficientov jadra. Na CPU sa overili iba konštrukčné počty, bez volania
+siete, bez aktualizácie váh a bez GPU.
+
+Metóda        Všetky koeficienty   Dátovo učené/fitované
+tfno               1353328               1353328
+chebkan            1354366               1354366
+pinet              1353622               1353622
+dendrite           1354882               1354882
+realnpu            1353213               1353213
+rbf                1353268               1353268
+cascor             1352449               1352449
+elm                1353268                302986
+scn                1353268               1353268
+
+Všetky počty zahŕňajú aj 10 TRAIN normalizačných hodnôt. Pri ELM je
+časť váh pevná náhodná; preto oba počty uvádzame osobitne. Spoločný
+pevný adaptér je rovnaký pre všetkých a jeho pamäť sa tiež zaznamená.
+
+Zatiaľ sú pripravené rozhranie a kapacitné konštrukcie, nie nové úspešne
+naučené modely. Treba dokončiť spoločné úplné učenie a blokové vážené
+fitovanie konštrukčných metód. Až potom možno pristúpiť k novému pilotu.
+Podrobnosti, obmedzenia a zdroje sú v poziadavky.txt.

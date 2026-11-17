@@ -1,0 +1,49 @@
+{
+  "status": "ARCHITECTURE_MAIN_MODEL_COMPLETE",
+  "task": {
+    "index": 4,
+    "id": "tfno_s921105",
+    "model": "tfno",
+    "seed": 921105,
+    "device": "cuda"
+  },
+  "selected_recipe": {
+    "id": "tfno_b",
+    "model": "tfno",
+    "device": "cuda",
+    "overrides": {
+      "tfno": {
+        "n_modes": [
+          32,
+          32
+        ],
+        "n_layers": 5,
+        "hidden_channels": 48
+      }
+    }
+  },
+  "selection_sha256": "5c9577c7bff341bd05209f97d9e05e89ab46d5f58f15dec1740a42dee89c7b57",
+  "best": {
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/tfno_s921105/training/tfno_b/best.pt",
+    "checkpoint_sha256": "dcfe7db2af7d1bdb7bba6a62505a4c0e3793771c41740a11e5762d4f08df3944",
+    "validation_mse": 1.1684559183767206e-05,
+    "epoch": 200,
+    "phase": "cosine"
+  },
+  "phase_candidates": [
+    {
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/tfno_s921105/training/tfno_b/best.pt",
+      "checkpoint_sha256": "dcfe7db2af7d1bdb7bba6a62505a4c0e3793771c41740a11e5762d4f08df3944",
+      "validation_mse": 1.1684559183767206e-05,
+      "epoch": 200,
+      "phase": "cosine"
+    }
+  ],
+  "continuation_performed": false,
+  "continuation_skipped_after_early_stop": false,
+  "phase1_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/tfno_s921105/training/tfno_b/summary.json",
+  "continuation_summary": null,
+  "wall_seconds": 2277.477584726992,
+  "slurm_job_id": "154650",
+  "test_targets_read": false
+}

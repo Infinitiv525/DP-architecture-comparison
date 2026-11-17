@@ -1,0 +1,70 @@
+DIAGNOSTIKA SLABŠÍCH VÝSLEDKOV HOTOVÝCH SIETÍ
+
+Cieľom je vysvetliť výsledky už dokončených 45 tréningov, nie meniť modely.
+Používajú sa presne zmrazené najlepšie VAL checkpointy z hlavnej série.
+Žiadny nový tréning, optimalizátor alebo úprava váh. Žiadne TEST ciele.
+
+Čo overujeme z pôvodných reportov
+Pri každom modeli sledujeme dôvod zastavenia, skutočne použitý čas, počet
+návštev všetkých 640 prípadov, počet aktualizácií alebo pridaných neurónov,
+validačnú krivku a čas dosiahnutia najlepšieho checkpointu. To pomôže
+odlíšiť vyčerpanie zdrojov od prirodzeného zastavenia algoritmu.
+
+Čo sa teraz dopočítava na CPU
+Na každom z 45 uložených modelov znovu vypočítame tú istú natívnu vyváženú
+tréningovú stratu na všetkých 640 TRAIN a 160 VAL prípadoch. Používame
+ten istý nezmenený adaptér a uložené TRAIN/VAL vstupy, ciele a váhy straty.
+Výstup obsahuje každú prípadovú stratu, priemer, medián a p95, plus pomer
+validačnej a tréningovej priemernej straty. Tento pomer je diagnostika,
+nie samostatný dôkaz preučenia alebo jednoznačný test jeho príčiny.
+
+Pred a po sa overí SHA checkpointu, jeho seed, normalizácia a zmrazené
+zdrojové súbory. Nové CPU validačné výsledky sa porovnajú so starými GPU
+výsledkami, aj po prípadoch. Relatívna tolerancia 0,5 % a absolútna 1e-7
+slúžia iba na kontrolu obnovy na inom výpočtovom backende, nie na posúdenie
+presnosti siete. Prípadná nezhoda sa zachová v reporte a vyžaduje kontrolu.
+
+Ako budeme výsledky interpretovať
+Vysoká chyba už na TRAIN podporuje vysvetlenie nedostatočného prispôsobenia
+modelu alebo optimalizácie. Nízka TRAIN a citeľne vyššia VAL môže znamenať
+slabšie zovšeobecnenie; treba zohľadniť aj zloženie splitu a porovnať ostatné
+rodiny. Pokles VAL ešte na konci naznačuje možný prínos ďalšieho učenia,
+ale samotná krivka ho nedokazuje. Konkrétny dôvod zastavenia je priamo
+pozorovaný fakt. Na dokázanie príčiny architektonického rozdielu by boli
+potrebné ďalšie kontrolované zásahy; tie sa teraz nespúšťajú.
+
+Už potvrdené stopy
+ELM: všetkých päť behov skončilo prirodzene po jedinom úplnom priamom
+riešení výstupných váh, približne za 4 až 9 sekúnd. Zvyšok povoleného času
+sám osebe nepredstavuje ďalšie učenie tejto implementácie.
+SCN: päť behov skončilo stavom no_admissible_candidate, približne po
+219 až 435 sekundách a po pridaní 559 až 832 jednotiek. To znamená,
+že dané hľadanie nenašlo kandidáta spĺňajúceho pravidlo, nie že je rodina
+SCN všeobecne neschopná úlohy alebo že vyčerpala štyri hodiny.
+CasCor: päť behov vyčerpalo časový rozpočet, vyrástlo približne na 639 až
+648 jednotiek. Niektoré najlepšie VAL checkpointy vznikli oveľa skôr.
+PiNet a Dendrite: milióny aktualizácií a opakované návštevy celej TRAIN sady;
+nedá sa teda tvrdiť, že zlé výsledky spôsobili nevidené tréningové prípady.
+Presné medzery TRAIN/VAL ešte pred dopočítaním neoznačujeme za známe.
+
+Výpočtová organizácia
+CPU pole 157488, deväť úloh podľa rodiny, po päť modelov v jednej úlohe.
+Najviac tri súbežné úlohy, každá štyri CPU a 40 GiB RAM, limit dve hodiny.
+Horná alokačná hranica je 72 CPU-core-h. GPU sa nepoužijú; nové FNO
+tréningy tým nespotrebujú ďalšiu GPU kapacitu na diagnostiku.
+Zdroj r_ca08bd14cdbe4b48, hashe a umiestnenie v submission.json.
+
+Ukladáme iba malé číselné reporty. Checkpointy zostávajú na Perune a
+nesťahujú sa do PC. Kódy ani výsledky pôvodnej série sa nemenia.
+
+DOKONČENIE
+Všetkých 45 modelov a 36 000 prípadových strát je overených; všetkých
+7 200 individuálnych VAL výsledkov súhlasí so starým GPU výsledkom
+v stanovenej numerickej tolerancii. completion_check.json potvrdzuje
+zhodu 54 vzdialených JSON reportov, 9 kompletných rodín, 9 prázdnych
+chybových logov a prázdny CPU front. Expirujúce Slurm záznamy prvých
+prvkov poľa sa nevyhlasujú za individuálne overené finálne exity.
+
+Používateľ následne určil: prípadná druhá šanca pre niektoré siete bude
+iba samostatná doplnková poznámka mimo hlavného experimentu. Zatiaľ sa
+nespúšťa. Návrh a pozorované dôvody výberu: druha_sanca_navrh.txt.

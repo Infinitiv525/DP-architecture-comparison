@@ -4,3 +4,7 @@
 *.mp4 -text
 04_source/original/** -text -whitespace
 01_results/** -text -whitespace
+05_history/original/** -text -whitespace
+05_history/pokusy/** -text -whitespace
+03_methodology/*protocol.txt -text -whitespace
+04_source/**/*.py -text -whitespace

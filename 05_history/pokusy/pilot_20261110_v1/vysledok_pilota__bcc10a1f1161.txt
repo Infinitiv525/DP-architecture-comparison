@@ -1,0 +1,86 @@
+VÝSLEDOK TECHNICKÉHO PILOTU ARCHITEKTÚR
+Beh na Perune: 10.11.2026. Kontrola a uzavretie: 11.11.2026.
+
+ČO SA PODARILO
+Všetkých 10 vybraných položiek úspešne vytvorilo celé ustálené pole u,v,p
+512 × 512 pre štyri validačné prípady. Deväť modelov bolo nanovo krátko
+natrénovaných; desiaty je pôvodná PINN, ktorá sa iba načítala. Testovanie
+neobsahuje časový vývoj simulácie. Ide o rovnakú ustálenú úlohu ako predtým.
+Použili sme 16 TRAIN a 4 VAL prípady. TEST cieľové polia sa neotvárali.
+
+Úloha 152886 má potvrdený stav COMPLETED a ExitCode 0:0. Bežala 94 sekúnd
+na jednej H200 a štyroch CPU. Toto je krátky funkčný pilot, nie plný tréning.
+Účtovanie sacct bolo nedostupné; 94 sekúnd je čas potvrdený riadiacou službou,
+nie tvrdenie o konečnom zaúčtovaní portálom.
+
+ORIENTAČNÉ VÝSLEDKY
+MSE je priemer štvorcovej chyby celého poľa vrátane známeho telesa a troch
+výstupov. L2 rýchlosti je spoločná relatívna chyba u,v vo fluide; L2 tlaku
+sa ráta samostatne po odčítaní vlastného priemeru tlaku. Tabuľka uvádza
+priemery štyroch prípadov, časy sú najhoršie p99 zo štyroch prípadov.
+Vyše 100 % relatívnej chyby je možné: model je v tejto metrike horší než nula.
+
+Model                 MSE        L2 rychl. %  L2 tlak %  GPU p99 ms  Wall p99 ms
+FNO/TFNO              0.0119894       36.04     135.38       3.664        3.704
+Chebyshev KAN         0.0097852       35.45     197.51       3.882        3.891
+Pi-Net                0.0110358       37.20     208.88       1.305        1.325
+Dendrite Net          0.0100970       37.24     194.09       1.259        1.270
+RealNPU               0.0174945       61.45     227.90       1.100        1.121
+RBF NN                0.0288947       96.88      98.18       1.345        1.364
+Cascade-Correlation   0.0093461       33.98     215.78       4.570        4.584
+ELM                   0.0183333       68.98     190.49       0.732        0.747
+SCN                   0.0160802       58.24     196.66       0.732        0.751
+PINN (archivna)       0.0000909        2.50       9.15       2.797        2.912
+
+ČO Z TOHO MÔŽEME POVEDAŤ
+Všetkých 10 položiek v tejto skúške splnilo p99 do 5 ms pri výpočte celého
+poľa. Na prípad bolo 100 GPU meraní a 30 synchronizovaných wall meraní;
+na konečný záver o spoľahlivom p99 treba viac meraní a opakované behy.
+Vstupy boli už na GPU. Čas zahŕňa opis geometrie závislý od vstupu, sieť,
+masku a tlakovú referenciu. Prenos z PC a vykresľovanie sa nemerali.
+
+Presnosť nových modelov zatiaľ nestačí. Najmä tlak má veľkú chybu. Po
+120 Adam aktualizáciách nemožno rozhodnúť, čo dokážu po plnom tréningu.
+Pri všetkých piatich bodových gradientových alternatívach klesla tréningová
+chyba; RBF iba mierne. ELM, SCN a CasCor majú vlastné konštruktívne učenie.
+Nehovoríme, že malá chyba archívnej PINN dokazuje lepšiu architektúru:
+PINN už mala 640 TRAIN prípadov a 400 epoch, nové siete iba malý pilot.
+
+Pred riadnym porovnaním treba uzavrieť vstupnú reprezentáciu. FNO používa
+plné známe pole geometrie, bodové alternatívy jeho jednoduchý spoločný opis.
+Rozdiel výsledku teda zatiaľ zahŕňa aj opis vstupu a tréningový postup.
+Nové siete sú dátové modely; fyzikálne rovnice sa teraz používajú iba na
+diagnostiku. Bez fyzikálnej tréningovej straty ich neoznačujeme za PINN.
+
+ČO JE OVERENÉ
+Pred behom prešlo 14 matematických kontrol a audit 20 použitých prípadov.
+Po behu boli zo všetkých 40 uložených predikcií nanovo vypočítané metriky;
+presne sa zhodujú s uloženými reportmi. Sedí aj p99 zo surových časov.
+Všetkých deväť nových checkpointov sa obnovilo so striktnou kontrolou váh.
+Pri starej PINN sedí pôvodný SHA256. Zdrojové kódy a freeze prostredia sú
+overené hashmi. Osem bodových alternatív použilo tie isté tréningové body.
+
+Pri obnove FNO treba použiť checkpoint_io.py: neuraloperator 2.0 vkladá
+do state_dict vlastný slovník _metadata. Pomocný loader overí jeho zhodu
+s konštruktorom a oddelí ho pred striktným načítaním obalu. Žiadna váha
+sa neignoruje a pôvodný checkpoint ani zmrazené zdroje sa nemenili.
+
+KDE SÚ VÝSLEDKY
+Na Perune: /mnt/project/perun2601449/dp_llm_cfd/results/architecture_pilot_20261110_v1/job_152886/
+Tam ostávajú váhy model.pt, optimizer_final.pt, plné prediction_*.npz,
+raw_timings.npz, tréningové priebehy, metriky a obrázky comparison.png.
+Starú PINN identifikuje pôvodná cesta a SHA256 v training/reference.
+Lokálne v report_152886 sú iba malé metadáta, logy a 10 obrázkov; veľké
+polia a váhy sa do PC nestiahli. Súhrn je v overview_extended.csv;
+artifact_audit.json obsahuje kontroly a odtlačky vzdialených artefaktov.
+Pôvodné kódy sú v revízii r_e9dafab653bac9e5 a jej archívnej kópii source/.
+
+ČO NASLEDUJE
+1. Ustáliť spoločný vstup pre osem alternatív a presne pomenovať, či
+   porovnávame celé modely, alebo iba jadrá pri rovnakom opise geometrie.
+2. Na TRAIN/VAL overiť dlhší tréning a rozumnú kapacitu každej siete;
+   napríklad RBF inicializovať z tréningových bodov a neskúšať iba jednu
+   náhodnú nevhodnú veľkosť. Pre všetky metódy určiť rovnaké pravidlá ladenia.
+3. Pred záverečným porovnaním zmraziť konfigurácie, skórovanie a opakovania.
+   Pôvodný TEST už bol v staršej štúdii otvorený; novú štúdiu neoznačiť
+   za úplne nový slepý experiment. Veľký experiment sa týmto pilotom nespustil.

@@ -1,0 +1,59 @@
+{
+  "status": "DENSE_FNO_CONFIGURATION_FROZEN_FROM_TWO_ONE_HOUR_VAL_TRIALS",
+  "selection_uses_test": false,
+  "prior_original_test_results_known": true,
+  "selection_metric": "minimum complete mean raw case-balanced VAL loss; ties by configuration index",
+  "candidates": [
+    {
+      "configuration_index": 0,
+      "validation_loss": 0.0003613581081481243,
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/tuning/fno_t0/best.pt",
+      "checkpoint_sha256": "4ce78d69aedc723036423f6270802e3eec31d57703ec02e763da9309667d3651",
+      "allocation_elapsed_seconds": 3421.4693497830303,
+      "stop_reason": "training_time_budget"
+    },
+    {
+      "configuration_index": 1,
+      "validation_loss": 0.0002554199451878958,
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/tuning/fno_t1/best.pt",
+      "checkpoint_sha256": "9ed95fd63615d6442930f53014060621be5523af89d0e50670cb5942f677b726",
+      "allocation_elapsed_seconds": 3421.6186686179135,
+      "stop_reason": "training_time_budget"
+    }
+  ],
+  "selected_configuration_index": 1,
+  "selected_tuning_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/tuning/fno_t1/best.pt",
+  "selected_tuning_checkpoint_sha256": "9ed95fd63615d6442930f53014060621be5523af89d0e50670cb5942f677b726",
+  "tasks": [
+    {
+      "id": "fno_s931101",
+      "model": "fno",
+      "seed": 931101,
+      "configuration_index": 1
+    },
+    {
+      "id": "fno_s931102",
+      "model": "fno",
+      "seed": 931102,
+      "configuration_index": 1
+    },
+    {
+      "id": "fno_s931103",
+      "model": "fno",
+      "seed": 931103,
+      "configuration_index": 1
+    },
+    {
+      "id": "fno_s931104",
+      "model": "fno",
+      "seed": 931104,
+      "configuration_index": 1
+    },
+    {
+      "id": "fno_s931105",
+      "model": "fno",
+      "seed": 931105,
+      "configuration_index": 1
+    }
+  ]
+}

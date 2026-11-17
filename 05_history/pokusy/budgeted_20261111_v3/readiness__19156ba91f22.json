@@ -1,0 +1,27 @@
+{
+  "status": "BUDGET_WORKER_VERIFIED_AND_EQUAL_TUNING_STARTED",
+  "source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budgeted_20261111_v3/revisions/r_eb142e97ac3a1736",
+  "source_sha256": {
+    "policy.json": "0568dac26fc4d333dfedf8bc22d400d8b993386499982f67650184cbf2f80e7d",
+    "budget.py": "5d0df9af10882783d2cad13a402e25aea0a6ba21200ddc5b689d4526ff7fd2d2",
+    "worker.py": "322534dbd0b7d949dc078c4fd16e45fab0f8f94e852d89a6a135803a6be48141",
+    "run.sbatch": "63b03a9ad5be15600e4d870a2349e61457675f27963ed06fc19802dde5fe7f5f"
+  },
+  "all9_clock_checks_completed": true,
+  "shared_accuracy_threshold": null,
+  "criterion": "equal maximum training allocation on the same H200",
+  "tuning_job_id": "156096",
+  "tuning_GPU_hours_limit": 18,
+  "final_training_started": true,
+  "final_per_run_GPU_hours_limit": 4,
+  "final_repetitions_planned": 5,
+  "total_upper_GPU_hours_including_prior_benchmark": 454.1528,
+  "five_repetitions_fit_in_user_500_GPU_hour_budget": true,
+  "superseded_by": "test/architecture_budget_main_20261111_v1/protokol.txt",
+  "uniform_tuning_complete": true,
+  "all18_validation_audits_passed": true,
+  "current_main_job_id": "156499",
+  "current_main_budget_H200_hours_per_run": 4,
+  "current_main_protocol": "test/architecture_budget_main_20261111_v1/protokol.txt",
+  "old8hour_plan_retired": true
+}

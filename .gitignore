@@ -7,3 +7,4 @@ __pycache__/
 *.npz
 *.tar.gz
 .env
+/05_history/original/

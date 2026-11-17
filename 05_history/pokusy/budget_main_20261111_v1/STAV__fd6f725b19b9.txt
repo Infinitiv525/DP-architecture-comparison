@@ -1,0 +1,41 @@
+AKTUÁLNY STAV — HLAVNÁ SÉRIA BEŽÍ
+
+Úloha 156499 obsahuje 45 nových modelov: deväť architektúr, päť
+nezávislých seedov na každú. Súčasne beží najviac osem H200.
+Každý model má rovnakú alokáciu: 1 H200, 4 CPU jadrá, 40 GiB RAM,
+strop 4 H200-GPU-h a 16 CPU core-h. Celý hlavný strop je 180 GPU-h.
+
+Dôvod rozpočtu je empirická referencia: päť pôvodných PINN tréningov
+na 640 TRAIN počas 400 epoch spotrebovalo približne 3,84–3,93 H200-GPU-h
+na proces. Medián je 3,905 H200-GPU-h. Najpomalší záznam sa zaokrúhlil
+nahor na štyri H200-GPU-h. Dostupná kvóta je iba kontrola uskutočniteľnosti.
+Pôvodný osemhodinový hlavný plán nebol spustený a je nahradený.
+
+Všetkých 18 ladení aj 18 pomocných pilotov je hotových. Všetkých
+18 ladiacich modelov bolo obnovených a nezávisle prepočítaných na CPU:
+2 880 jedinečných model/prípad VAL polí. Deväť vybraných konfigurácií
+prešlo novou minútovou kontrolou 156490 na 40 GiB RAM vrátane uloženia
+a obnovy. Až potom bola spustená hlavná séria.
+
+Výber je zmrazený v selection.json. Každý model začína z nového seedu,
+nie z pilotových váh. Matematický tréningový cyklus zostáva zhodný
+s overeným ladením. Zdroj je nemeniteľná revízia r_3e11271df45aff09.
+
+Presnosť, skutočná spotreba, pamäť a celá predikčná latencia sú výsledky.
+Žiadny spoločný prah chyby. Prirodzene rýchle metódy môžu skončiť skôr.
+Váhy a veľké dáta zostávajú na Perune. Lokálne sú iba malé reporty a kód.
+
+Metodika: protokol.txt. Úplné zdôvodnenie a zdrojové dôkazy sú v
+susednom architecture_time_design_20261111_v1/ZDOVODNENIE_ZDROJOV.txt.
+
+Kontrola12.11.2026:32/45dokoncenych,8bezi,5caka. OvereneSHA32
+modelov a5archivovanychPINN. Kazdyhotovy modelpracovalso640TRAIN.
+NovaGPUkvota je rezervou; ziadna zmena metodiky. Najprv45modelov
+aPINN, potomTEST. Podrobnosti DOHODA_20261112.txt.
+
+Dokoncene45/45. Vsetkyworkerexitcode0 a4hlimitydodrzane. Sucet
+reportovanych GPUprocesnych hodin137.4774. Preflight50modelovpresiel;
+bezi finalnyTEST157382 aCPUaudit157383caka. Novyprotokolv susednom
+architecture_budget_test_20261112_v1/protokol.txt. Ziadne dodatocneucenie.
+
+ZÁVEREČNÁ AKTUALIZÁCIA 2026-11-12: celé testovanie 50 modelov aj CPU audit sú úspešne dokončené. Výsledky: ../architecture_budget_test_20261112_v1/VYSLEDKY.txt. Žiadny ďalší tréning nebol spustený.

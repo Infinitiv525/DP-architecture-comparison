@@ -1,0 +1,99 @@
+KALIBRÁCIA ARCHITEKTÚR NA CELEJ TRAIN/VAL SADE — 11.11.2026
+Pred prvou hlavnou päťnásobnou sériou. Nová oddelená nemenná revízia.
+
+ROZSAH A INTERPRETÁCIA
+Predikcia ustáleného u,v,p poľa512x512 z geometrie/Re. FNO/TFNO je
+hlavný referenčný model, osem alternatív sú presne označené adaptácie
+publikovaných princípov. Stará PINN ostáva vedľajšou archívnou referenciou
+a teraz sa netrénuje. Výber rodín sa nemení. Wavelet NN a F-INR sú vyradené.
+Porovnávame celé modelové postupy vrátane ich vstupných reprezentácií.
+Nie je to izolovaná výmena jednej vrstvy so zaručene rovnakými vstupmi
+do jadra: TFNO má natívne vstupné pole; ostatných osem rovnaký57-prvkový opis.
+
+SPOLOČNÉ DÁTA
+Zmrazené640 TRAIN,160 VAL,200 TEST z FlowBench LDC harmonics, pôvodná
+revízia937c672604d4c9f39aceedf1fa2f0a603695264b. Normovanie z640 TRAIN.
+Žiadne TEST ciele sa nenačítavajú. TEST už bol použitý v staršej štúdii;
+budúca práca ho nesmie označiť za nový slepý holdout. Nevykonáva sa nové CFD.
+Bodové metódy používajú spoločných2048 fluidných bodov z každého zo640
+TRAIN prípadov, spolu1310720, už hashovo overených v hardvérovom teste.
+Fixná vzorka zostáva rovnaká, inicializácia a poradie sa riadia seedmi.
+FNO používa plné natívne TRAIN polia; aj tento rozdiel hustoty supervision
+a počtu operácií sa vykáže. Obe tréningové straty sú normované fluidné MSE.
+
+VSTUPY A PRESNÉ VARIANTY
+Bodový vstup z=[q,g,r,l],57 prvkov: q má súradnice a sin/cos na frekvenciách
+1,2,4,8,16; g je4x4 priemer normovanej masky/SDF (32 prvkov), r=log(Re)/8,
+l sú2 lokálne normované geometrické hodnoty. Tento deterministický opis je
+spoločný pre všetkých8 alternatív a neobsahuje učený alebo predtrénovaný encoder.
+Výstup je3 fyzikálne kanály po odnormovaní, nulovanie známeho telesa
+a odčítanie vlastného fluidného priemeru tlaku. Bez klipovania výstupov.
+
+Chebyshev KAN: tri vrstvy sum_j,sum_m a_ijm*T_m(tanh(z_j))+bias_i, stupeň3.
+Pi-Net adaptácia: h=U0(z), potom h=h*(1+Ul(z)), na konci afinný výstup.
+DD-inšpirovaná adaptácia: e=Linear(z), h=e, h=Linear(h)*e, afinný výstup.
+RealNPU: r_j=g_j*(abs(z_j)+eps)+(1-g_j), theta_j=pi*g_j*1[z_j<0],
+h=exp(W*log(r))*cos(W*theta), potom afinný výstup. Gate sa projektuje do[0,1].
+RBF: Gaussova báza s učenými centrami/šírkami a afinným výstupom. Centrá
+sa inicializujú vzorkovaním TRAIN vstupov a šírka z mediánu ich vzdialeností.
+Toto nahrádza nevhodnú čisto náhodnú inicializáciu technického pilotu;
+pravidlo je určené teraz pred novými výsledkami a nepoužíva VAL/TEST ciele.
+ELM: fixné náhodné Tanh príznaky a globálne ridge učený výstup s interceptom.
+SCN: SC-III-style prijatie podľa chyby všetkých3 výstupov a globálny ridge refit;
+pool32, škály0.5/1/2/4, r0.9/0.99/0.999/0.9999/0.99999. Konečné limity,
+ridge a podmienenie geometriou sú explicitné úpravy, nie univerzálny dôkaz.
+CasCor: Tanh uzly prijímané podľa súčtu absolútnych kovariancií s reziduami,
+8 kandidátov,60 Adam krokov na kandidáta pri lr0.01; fixované vstupné váhy
+prijatého uzla a globálny ridge refit. Je to adaptácia pôvodného tréningu.
+TFNO: oficiálny neuraloperator2.0.0, Tucker rank0.1,5 vrstiev,32 módov,
+projection ratio4, vstup logRe a2 normované geometrické kanály, výstup3.
+Presné princípy/pramene/úpravy sú v povod_implementacii_20261111.txt.
+
+DVE KAPACITY PRE KAŽDÚ RODINU
+A/B: TFNO hidden32/48 (projection128/192), ChebKAN width32/64,
+Pi-Net aDD width96/192 pri stupni3, RealNPU width32/64, RBF96/192 báz,
+ELM32/256 príznakov, SCN32/128 uzlov, CasCor32/64 nových uzlov.
+Počet variantov je9 rodín x2 =18 kalibračných behov, nie18 nových rodín.
+Nejde o vyčerpávajúce hľadanie optimálnych hyperparametrov.
+
+UČENIE A CHECKPOINTY
+Kalibračný seed911111; hlavné nové opakovania neskôr921101–921105.
+Gradientové modely max200 epoch, Adam lr0.001, cosine decay na0.00001,
+clip norm1. Bodové batche8192 (160 aktualizácií/epochu), FNO batch1
+natívny prípad (640 aktualizácií/epochu). Porovnanie preto zahŕňa aj rozdiely
+tréningových postupov; rovnaké epochy neznamenajú rovnakú prácu.
+Úplné natívne skóre na všetkých160 VAL pred učením a každých20 epoch.
+Min100 epoch, patience5 validačných kontrol. Best checkpoint podľa VAL MSE;
+uloží sa aj počiatočné skóre, posledný stav, Adam/scheduler/RNG a história.
+ELM/SCN/CasCor majú globálny fit na všetkých TRAIN bodoch, nie fit pri query.
+Ich ridge penalizácia je explicitne1e-6 v priemernej loss, teda N*1e-6
+v súčtových normálnych rovniciach; intercept sa nepenalizuje. To je zmena
+oproti absolútnemu ridge1e-4 pilotu a je priznaná pred novým vyhodnotením.
+
+VYHODNOTENIE A ROZHODNUTIE PO KALIBRÁCII
+Samostatná H200 úloha znovu vyhodnotí každý best checkpoint na všetkých160
+VAL prípadoch v rovnakých podmienkach. Primárna metrika: priemer fyzikálneho
+all-cell MSE u/v/p na natívnom poli. Komponenty a fluidné relatívneL2 osobitne.
+Latencia je zatiaľ screening na prvých16 zmrazených VAL prípadoch,20 zahriatí
+a100 GPU meraní na prípad; celý model vrátane reprezentácie/masky/tlakovej
+referencie. P99<=5ms je kritérium screeningu, nie konečný odhad chvosta.
+Výstupy/časy pre pomalý alebo neúspešný model sa nezataja.
+Odporúčaný kandidát = najnižšie VAL MSE spomedzi natrénovaných variantov,
+ktoré splnia screening. Ak žiadny nesplní, uvedie sa najpresnejší dostupný
+variant s označením nesplneného kritéria; rodina sa potichu nevyhodí.
+Ak best dosiahne limit200epoch a posledný20-epochový úsek ešte zlepší
+VAL MSE o viac než1%, vyžiada sa kontrola potreby dlhšieho učenia. Výstup
+je odporúčanie na revíziu, nie automatické zmrazenie vedeckého záveru.
+Žiadne tvrdenie nadradenosti architektúry z jedného kalibračného seedu.
+Hlavná séria5 nezávislých tréningov sa týmto automaticky nespúšťa.
+
+ZDROJE A OCHRANA
+FNO/CasCor H200, ostatných7 CPU4; počas všetkých budúcich opakovaní
+architektúry má zostať vopred zvolený backend. FP32/TF32 vypnuté, ridgeFP64.
+Príprava CPU4 max20min, každý tréning CPU4 alebo1H200+CPU4 max2h,
+záverečný screening1H200+CPU4 max1h. Horná hranica celej kalibrácie
+9 GPU-h a približne149.33 pridelených CPU core-h; nejde o odhad spotreby.
+Zostávajúcich500 GPU-h a30000 CPU core-h uviedol používateľ; portálový
+zostatok sa týmto znovu neoveruje. Max4 GPU tréningy súbežne,14 CPU tréningov.
+Všetko cez Slurm, bez nových balíkov, s kontrolou CPU masky a SHA256 zdrojov.
+Váhy a veľké polia zostanú na Perune. Do PC iba malé metadáta/logy/obrázky.

@@ -1,0 +1,21 @@
+DOKONČENÉ DVA ODPORÚČANÉ DOPLNKY — 17.11.2026
+
+Pôvodné posúdenie ZOSTAVAJUCE_KROKY.txt vzniklo pred ich schválením.
+Používateľ následne schválil oba a teraz sú dokončené:
+
+1. Jednorazový TEST štyroch predĺžených ChebKAN/RBF modelov na rovnakých
+   200 prípadoch/model. 800 polí a 800000 párov časovaní overil CPUaudit.
+   Všetky štyri majú lepšiu priemernú TEST L2 chybu rýchlosti aj tlaku
+   a splnili merané p99<=5ms pre každý prípad. Bez ďalšieho tréningu.
+   Oddelený exploratívny dodatok, nemení 55-modelovú hlavnú tabuľku.
+   Doklad: test/architecture_second_chance_test_20261117_v1/completion_check.json.
+
+2. Priama Perun→GitHub záloha 59 vybraných aj 59 posledných stavov,
+   vrátane zdrojov a číselných výsledkov, úplne overená cez SHA256 aj
+   spätným prečítaním príloh na Perune. Archívy/modely neprešli cez PC.
+   Podrobnosti a doplnené malé podklady obnovy sú v:
+   test/architecture_github_archive_20261117_v1/PRECITAJ_MA.txt.
+   https://github.com/Infinitiv525/DP/releases/tag/architecture-final-20261117-9dd35018b25d
+
+V tomto dohodnutom rozsahu nie je potrebný ďalší tréning na Perune.
+Originálne váhy a objemné polia sa na Perune ponechávajú.

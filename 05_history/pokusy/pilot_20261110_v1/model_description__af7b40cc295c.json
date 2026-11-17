@@ -1,0 +1,12 @@
+{
+  "name": "chebkan",
+  "repr": "PointPipeline(\n  (features): FixedGeometryFeatures()\n  (core): ChebKAN(\n    (layers): Sequential(\n      (0): ChebLayer()\n      (1): ChebLayer()\n      (2): ChebLayer()\n    )\n  )\n)",
+  "total_parameters": 11843,
+  "trainable_parameters": 11843,
+  "buffer_values": 6291466,
+  "core_parameter_values": 11843,
+  "core_buffer_values": 0,
+  "data_fitted_or_selected_core_scalars": 11843,
+  "counting_note": "ELM fixed random weights are buffers; SCN selected weights and CasCor frozen units also count as fitted/selected. Static coordinate buffers are not learned weights.",
+  "point_encoding": "fixed TRAIN-normalized 4x4 geometry pooling + local geometry + coordinates/Fourier + logRe; no learned or pretrained encoder"
+}

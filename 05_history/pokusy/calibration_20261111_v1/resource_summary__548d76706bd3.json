@@ -1,0 +1,189 @@
+{
+  "status": "COMPLETED_CALIBRATION_RESOURCE_EXPOSURE",
+  "basis": "scontrol completed elapsed time times allocated resources; not portal billing",
+  "cpu_core_hours": 14.822222222222225,
+  "gpu_hours": 1.1725,
+  "jobs": [
+    {
+      "role": "prepare",
+      "job_id": "154255",
+      "runtime": "00:00:07",
+      "allocated_cpus": 4,
+      "allocated_gpus": 0,
+      "allocated_cpu_core_hours": 0.0077777777777777776,
+      "allocated_gpu_hours": 0.0
+    },
+    {
+      "role": "tfno_a",
+      "job_id": "154256",
+      "runtime": "00:28:45",
+      "allocated_cpus": 4,
+      "allocated_gpus": 1,
+      "allocated_cpu_core_hours": 1.9166666666666667,
+      "allocated_gpu_hours": 0.4791666666666667
+    },
+    {
+      "role": "tfno_b",
+      "job_id": "154257",
+      "runtime": "00:38:31",
+      "allocated_cpus": 4,
+      "allocated_gpus": 1,
+      "allocated_cpu_core_hours": 2.5677777777777777,
+      "allocated_gpu_hours": 0.6419444444444444
+    },
+    {
+      "role": "chebkan_a",
+      "job_id": "154258",
+      "runtime": "00:17:09",
+      "allocated_cpus": 4,
+      "allocated_gpus": 0,
+      "allocated_cpu_core_hours": 1.1433333333333333,
+      "allocated_gpu_hours": 0.0
+    },
+    {
+      "role": "chebkan_b",
+      "job_id": "154259",
+      "runtime": "00:24:50",
+      "allocated_cpus": 4,
+      "allocated_gpus": 0,
+      "allocated_cpu_core_hours": 1.6555555555555557,
+      "allocated_gpu_hours": 0.0
+    },
+    {
+      "role": "pinet_a",
+      "job_id": "154260",
+      "runtime": "00:11:36",
+      "allocated_cpus": 4,
+      "allocated_gpus": 0,
+      "allocated_cpu_core_hours": 0.7733333333333333,
+      "allocated_gpu_hours": 0.0
+    },
+    {
+      "role": "pinet_b",
+      "job_id": "154261",
+      "runtime": "00:19:04",
+      "allocated_cpus": 4,
+      "allocated_gpus": 0,
+      "allocated_cpu_core_hours": 1.271111111111111,
+      "allocated_gpu_hours": 0.0
+    },
+    {
+      "role": "dendrite_a",
+      "job_id": "154262",
+      "runtime": "00:11:37",
+      "allocated_cpus": 4,
+      "allocated_gpus": 0,
+      "allocated_cpu_core_hours": 0.7744444444444444,
+      "allocated_gpu_hours": 0.0
+    },
+    {
+      "role": "dendrite_b",
+      "job_id": "154263",
+      "runtime": "00:23:30",
+      "allocated_cpus": 4,
+      "allocated_gpus": 0,
+      "allocated_cpu_core_hours": 1.5666666666666669,
+      "allocated_gpu_hours": 0.0
+    },
+    {
+      "role": "realnpu_a",
+      "job_id": "154264",
+      "runtime": "00:07:53",
+      "allocated_cpus": 4,
+      "allocated_gpus": 0,
+      "allocated_cpu_core_hours": 0.5255555555555556,
+      "allocated_gpu_hours": 0.0
+    },
+    {
+      "role": "realnpu_b",
+      "job_id": "154265",
+      "runtime": "00:10:18",
+      "allocated_cpus": 4,
+      "allocated_gpus": 0,
+      "allocated_cpu_core_hours": 0.6866666666666666,
+      "allocated_gpu_hours": 0.0
+    },
+    {
+      "role": "rbf_a",
+      "job_id": "154266",
+      "runtime": "00:07:25",
+      "allocated_cpus": 4,
+      "allocated_gpus": 0,
+      "allocated_cpu_core_hours": 0.49444444444444446,
+      "allocated_gpu_hours": 0.0
+    },
+    {
+      "role": "rbf_b",
+      "job_id": "154267",
+      "runtime": "00:10:59",
+      "allocated_cpus": 4,
+      "allocated_gpus": 0,
+      "allocated_cpu_core_hours": 0.7322222222222222,
+      "allocated_gpu_hours": 0.0
+    },
+    {
+      "role": "cascor_a",
+      "job_id": "154268",
+      "runtime": "00:00:19",
+      "allocated_cpus": 4,
+      "allocated_gpus": 1,
+      "allocated_cpu_core_hours": 0.021111111111111112,
+      "allocated_gpu_hours": 0.005277777777777778
+    },
+    {
+      "role": "cascor_b",
+      "job_id": "154269",
+      "runtime": "00:00:26",
+      "allocated_cpus": 4,
+      "allocated_gpus": 1,
+      "allocated_cpu_core_hours": 0.028888888888888888,
+      "allocated_gpu_hours": 0.007222222222222222
+    },
+    {
+      "role": "elm_a",
+      "job_id": "154270",
+      "runtime": "00:00:28",
+      "allocated_cpus": 4,
+      "allocated_gpus": 0,
+      "allocated_cpu_core_hours": 0.03111111111111111,
+      "allocated_gpu_hours": 0.0
+    },
+    {
+      "role": "elm_b",
+      "job_id": "154271",
+      "runtime": "00:01:31",
+      "allocated_cpus": 4,
+      "allocated_gpus": 0,
+      "allocated_cpu_core_hours": 0.10111111111111111,
+      "allocated_gpu_hours": 0.0
+    },
+    {
+      "role": "scn_a",
+      "job_id": "154272",
+      "runtime": "00:00:51",
+      "allocated_cpus": 4,
+      "allocated_gpus": 0,
+      "allocated_cpu_core_hours": 0.056666666666666664,
+      "allocated_gpu_hours": 0.0
+    },
+    {
+      "role": "scn_b",
+      "job_id": "154273",
+      "runtime": "00:04:41",
+      "allocated_cpus": 4,
+      "allocated_gpus": 0,
+      "allocated_cpu_core_hours": 0.31222222222222223,
+      "allocated_gpu_hours": 0.0
+    },
+    {
+      "role": "evaluate",
+      "job_id": "154274",
+      "runtime": "00:02:20",
+      "allocated_cpus": 4,
+      "allocated_gpus": 1,
+      "allocated_cpu_core_hours": 0.15555555555555556,
+      "allocated_gpu_hours": 0.03888888888888889
+    }
+  ],
+  "project_billing_database_available": false
+}

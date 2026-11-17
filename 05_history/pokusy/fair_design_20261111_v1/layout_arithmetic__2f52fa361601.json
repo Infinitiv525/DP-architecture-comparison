@@ -1,0 +1,38 @@
+{
+  "status": "INTEGER_LAYOUT_BIJECTION_VERIFIED",
+  "geometry": {
+    "native_shape": [
+      2,
+      512,
+      512
+    ],
+    "packed_shape": [
+      128,
+      64,
+      64
+    ],
+    "values": 524288,
+    "unique_destinations": 524288,
+    "mapping_is_bijective": true
+  },
+  "target": {
+    "native_shape": [
+      3,
+      512,
+      512
+    ],
+    "packed_shape": [
+      192,
+      64,
+      64
+    ],
+    "values": 786432,
+    "unique_destinations": 786432,
+    "mapping_is_bijective": true
+  },
+  "model_forward_calls": 0,
+  "training_updates": 0,
+  "simulation_data_read": false,
+  "GPU_used": false,
+  "note": "Verification of the layout definition only. Runtime tensors/training/latency remain unverified."
+}

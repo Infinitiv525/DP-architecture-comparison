@@ -1,0 +1,98 @@
+NÁVRH NESKORŠEJ DRUHEJ ŠANCE — ZATIAĽ NESPUSTENÉ
+
+Účel a oddelenie
+Používateľ chce prípadne zistiť, koľko ďalších zdrojov niektoré siete
+potrebujú na lepší výsledok. Bude to samostatná doplnková poznámka,
+oddelená od hlavného porovnania pri spoločnom štvorhodinovom rozpočte.
+Výsledky hlavného experimentu ani jeho vybrané váhy sa nenahradia.
+Aj neúspešné predĺženia ostanú vykázané. Tento dokument nie je spustenie
+ďalších behov; aktuálne pokračuje len už autorizovaná séria dense FNO.
+
+Čo už vieme po diagnostike všetkých 45 modelov
+Na CPU sa znovu prepočítalo 28 800 TRAIN a 7 200 VAL prípadových strát.
+Všetky jednotlivé VAL výsledky sa zhodujú s pôvodným GPU výpočtom
+v stanovenej numerickej tolerancii. Váhy sa nemenili a TEST sa nepoužil.
+PiNet, Dendrite, ELM, SCN aj CasCor majú vysokú chybu už na tréningovej
+sade; samotné zovšeobecnenie preto nevysvetľuje ich výsledky.
+
+Ktoré siete majú najlepšiu oporu pre dlhší tréning
+Ako prvé navrhujeme ChebKAN a RBF. Priemer najlepších dovtedy pozorovaných
+VAL strát klesol medzi druhou a štvrtou hodinou približne o 61,26 % pri
+ChebKAN a 39,39 % pri RBF. Najlepší checkpoint vznikol pri oboch rodinách
+blízko konca; pri RBF to platí vo všetkých piatich opakovaniach.
+To podporuje skúmanie ďalšieho času, nezaručuje jeho prínos.
+
+PiNet sa v tej istej druhej polovici zlepšilo približne o 2,61 %;
+pri CasCor bol pokles pod 0,001 %. Preto ich nenavrhujeme ako prvých
+kandidátov na samotné pridanie času pri nezmenenom nastavení.
+Dendrite sa zlepšilo približne o 22,97 %, ale všetky najlepšie checkpointy
+vznikli okolo 3,0 až 3,3 hodiny a potom sa už nezlepšovalo.
+RealNPU sa zlepšilo približne o 14,65 % a je ďalšou možnosťou, ale už
+v hlavnej sérii dosiahlo podstatne lepšiu presnosť než väčšina alternatív.
+Tieto čísla pochádzajú z jedného štvorhodinového rozvrhu učenia s klesajúcim
+LR. Nie sú kauzálnym odhadom, čo by spravil nový osemhodinový rozvrh.
+
+ELM a SCN treba odlíšiť od predĺženia učenia
+ELM pri daných náhodných príznakoch dokončilo priame riešenie výstupných
+váh za 4 až 9 sekúnd. Ponechanie procesu bežať dlhšie nemá ďalší učiaci
+krok. Zväčšenie počtu príznakov alebo iný výber príznakov je nový variant.
+SCN skončilo preto, že konečné hľadanie nenašlo prípustného kandidáta.
+Rozšírenie hľadania, zmena kritéria či zvýšenie počtu kandidátov sú tiež
+zmenou nastavenia. Nedali by sa označiť len ako väčšia časová alokácia.
+Podobne zmena stupňa polynómu, hĺbky alebo šírky PiNet/Dendrite je zmena
+modelu; prípadný prínos sa musí takto aj pomenovať.
+
+Ako navrhujeme skúmať čas pri ChebKAN/RBF
+Po dokončení aktuálnej série FNO najprv pripraviť samostatnú vetvu
+pokračovania. Použiť vopred prvé dva pôvodné seedy 931101 a 931102,
+rovnakých 640 TRAIN a 160 VAL prípadov, stratu, normalizáciu a architektúru.
+Pred pokračovaním overiť dostupnosť a úplnosť last.pt vrátane stavu Adam,
+počítadiel a reprodukovateľného poradia prípadov. Pôvodné súbory iba čítať.
+Pokračovať z posledného stavu, nie podľa výsledku vyberať lepší seed.
+
+Prvý navrhovaný bod je nominálny celkový rozpočet osem H200-GPU-h;
+ďalší možný bod je šestnásť, ak sa neskôr rozhodneme pokračovať.
+Pôvodné a dodatočne pridelené časy sa sčítajú a vykážu aj so skutočnými
+alokačnými časmi, nielen nominálnou hranicou. Pri každom kontrolnom bode
+uložiť priebeh TRAIN/VAL chyby, najlepší VAL model, počet návštev dát,
+GPU-h, CPU-core-h, skutočný čas a pamäť.
+
+Rozvrh učenia musí byť pomenovaný
+Pôvodný kosínusový rozvrh skončil blízko LR 1e-5. Pre čisté pokračovanie
+navrhujeme tento koncový LR ponechať a zachovať stav optimalizátora.
+Reštart LR alebo nový dlhší kosínusový rozvrh by bol osobitne označenou
+zmenou nastavenia, pretože by nešlo iba o viac rovnakých učiacich krokov.
+Ak checkpoint neumožní verné pokračovanie, treba to najprv vyriešiť
+v samostatnej príprave; nevydávať nový tréning od začiatku za pokračovanie.
+
+Ako odpovieme, čo znamená lepší výsledok
+Ukážeme skutočnú krivku validačnej chyby oproti celkovým prideleným
+zdrojom a zmenu voči vlastnému štvorhodinovému výsledku. Zaznamenáme aj
+dosiahnuté relatívne chyby rýchlosti a tlaku. Nevymyslíme dodatočný prah
+presnosti ako podmienku prijatia metódy. Zlepšenie sa neposudzuje len
+podľa výberu jedného priaznivého checkpointu alebo jedného seedu.
+TEST sa nesmie používať na rozhodovanie, či pokračovať alebo čo meniť.
+Prípadné záverečné TEST výsledky a latencie dostanú samostatný názov
+a nebudú vstupovať do poradia hlavného experimentu.
+
+Čo bude možné napísať do práce
+Takýto doplnok ukáže pozorovanú citlivosť konkrétnej konfigurácie na
+ďalší rozpočet, napríklad že pri dvojnásobnom rozpočte sa chyba znížila
+o danú hodnotu. Ak sa nezníži, aj to je výsledok. Z niekoľkých
+exploratívnych behov nemožno tvrdiť, že sme našli nevyhnutný alebo
+minimálny čas pre celú rodinu sietí či jej optimálne nastavenie.
+
+REALIZÁCIA PO VÝSLOVNOM POKYNE POUŽÍVATEĽA, 12.11.2026
+Používateľ následne požiadal druhú šancu vykonať. Návrh vyššie je
+historický podklad; aktuálna realizácia je v samostatnom priečinku
+../architecture_second_chance_20261112_v1/protokol.txt.
+Kontrola štyroch last.pt/Adam/poradia157641 úspešná. Štyri nadväzujúce
+behy157656 sú zaradené po FNO audite157477, každý maxďalšie4GPUh.
+CPU kontrola157657 a súhrn157658 nadväzujú automaticky. Ide iba o prvý
+nominálny8h bod;16h verzia nie je naplánovaná. Hlavný experiment sa nemení.
+
+UZAVRETIE DRUHEJ ŠANCE 17. 11. 2026
+Štyri autorizované pokračovania sú dokončené a skontrolované. ChebKAN
+znížilo VAL stratu o 11–15 %, RBF o 5–8 %, pri približne dvojnásobnom
+rozpočte línie. Ide o samostatný doplnok; hlavné výsledky sa nemenia.
+Úplný výstup: ../architecture_second_chance_20261112_v1/VYSLEDKY.txt.

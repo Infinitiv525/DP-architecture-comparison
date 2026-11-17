@@ -1,0 +1,126 @@
+{
+  "status": "TUNING18_COMPLETE_AND_MAIN_RESOURCE_MATCHED_SERIES_ACTIVE",
+  "primary_tuning": {
+    "completed": 18,
+    "running": 0,
+    "pending": 0,
+    "total": 18
+  },
+  "completed_runs_all_within3600_seconds": true,
+  "CPU_checkpoint_audit": {
+    "job_id": "156239",
+    "models": 8,
+    "validation_fields": 1280,
+    "status": "COMPLETED_TUNING_MODEL_AUDIT_PASS",
+    "maximum_CPU_GPU_case_loss_difference": 2.0265579223632812e-06,
+    "GPU_allocated": false,
+    "CPU_allocated_core_hours": 0.16
+  },
+  "auxiliary_mixed_pilot": {
+    "completed": 15,
+    "total": 18,
+    "role": "calibration only, separate from equal-budget study"
+  },
+  "final_main_series_started": true,
+  "final_plan": "45 fresh models, five seeds per family, resource allowance4H200-GPU-h/16CPUcore-h/40GiBRAM perrun",
+  "accuracy_threshold": null,
+  "new_training_jobs_launched_in_this_check": false,
+  "recorded_scheduler_jobs": [
+    {
+      "index": 0,
+      "state": "COMPLETED",
+      "elapsed_seconds": 3422
+    },
+    {
+      "index": 1,
+      "state": "COMPLETED",
+      "elapsed_seconds": 3422
+    },
+    {
+      "index": 2,
+      "state": "COMPLETED",
+      "elapsed_seconds": 3421
+    },
+    {
+      "index": 3,
+      "state": "COMPLETED",
+      "elapsed_seconds": 3421
+    },
+    {
+      "index": 4,
+      "state": "COMPLETED",
+      "elapsed_seconds": 3420
+    },
+    {
+      "index": 5,
+      "state": "COMPLETED",
+      "elapsed_seconds": 3421
+    },
+    {
+      "index": 6,
+      "state": "COMPLETED",
+      "elapsed_seconds": 3421
+    },
+    {
+      "index": 7,
+      "state": "COMPLETED",
+      "elapsed_seconds": 3423
+    },
+    {
+      "index": 8,
+      "state": "RUNNING",
+      "elapsed_seconds": 1743
+    },
+    {
+      "index": 9,
+      "state": "RUNNING",
+      "elapsed_seconds": 1741
+    },
+    {
+      "index": 10,
+      "state": "RUNNING",
+      "elapsed_seconds": 1741
+    },
+    {
+      "index": 11,
+      "state": "RUNNING",
+      "elapsed_seconds": 1739
+    },
+    {
+      "index": 12,
+      "state": "PENDING",
+      "elapsed_seconds": 0
+    },
+    {
+      "index": 13,
+      "state": "PENDING",
+      "elapsed_seconds": 0
+    },
+    {
+      "index": 14,
+      "state": "PENDING",
+      "elapsed_seconds": 0
+    },
+    {
+      "index": 15,
+      "state": "PENDING",
+      "elapsed_seconds": 0
+    },
+    {
+      "index": 16,
+      "state": "PENDING",
+      "elapsed_seconds": 0
+    },
+    {
+      "index": 17,
+      "state": "PENDING",
+      "elapsed_seconds": 0
+    }
+  ],
+  "model_weights_downloaded": false,
+  "test_targets_read": false,
+  "all18_CPU_validation_audit_passed": true,
+  "total_validation_fields_audited": 2880,
+  "current_main_job_id": "156499",
+  "archived_snapshot_note": "Earlier eight-model audit and scheduler evidence retained in Git history and architecture_budget_audit_20261111_v1."
+}

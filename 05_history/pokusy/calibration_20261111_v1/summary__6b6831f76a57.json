@@ -1,0 +1,20 @@
+{
+  "id": "rbf_a",
+  "model": "rbf",
+  "status": "EVALUATED",
+  "validation_mse": 0.010825002429062345,
+  "velocity_l2": 0.20945189068899675,
+  "pressure_l2": 1.2812238331238959,
+  "worst_screen_gpu_p99_ms": 1.343747879266739,
+  "latency_screen_pass": true,
+  "screen_cases": 16,
+  "best_epoch": 200,
+  "last_epoch": 200,
+  "initial_validation_mse": 0.04397340103283742,
+  "last_relative_validation_gain": 0.0012761853779613224,
+  "needs_longer_training_review": false,
+  "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/rbf_a/best.pt",
+  "checkpoint_sha256": "04e1caec8234a6bba7a69be36e534f2b7ca06e8a26387469f9dbd686e10e9b30",
+  "training_device": "cpu",
+  "fitted_or_selected_core_scalars": 5859
+}

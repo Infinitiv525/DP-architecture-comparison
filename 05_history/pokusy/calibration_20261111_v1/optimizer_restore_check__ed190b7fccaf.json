@@ -1,0 +1,9 @@
+{
+  "status": "OPTIMIZER_AND_SCHEDULER_LOAD_STATE_DICT_PASS",
+  "epoch": 2,
+  "lr": [
+    1e-05
+  ],
+  "model_sha256": "12be316088c06ca0be9fc7b8d2edb39827bd08d45572f821ee2b284ca03eb10d",
+  "optimizer_sha256": "a17ac04b9cc5d2bb1dc85f1367a489f3cd6eced002849448fcc80f65a1130874"
+}

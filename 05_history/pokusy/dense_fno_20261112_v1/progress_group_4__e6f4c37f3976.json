@@ -1,0 +1,51 @@
+[
+  {
+    "status": "DENSE_FNO5_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "fno_s931105",
+      "model": "fno",
+      "seed": 931105,
+      "group": 4,
+      "kind": "posthoc_resource_matched_dense_fno_supplement",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931105/best.pt",
+      "checkpoint_sha256": "454150ebec948ae9d0121b75fbec17226caceca49d275e6a30d09bac54c18b80",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.015529187396168709,
+          "pressure_l2": 0.03470616787672043
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.00823928788304329,
+          "pressure_l2": 0.014726148918271065
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 12672888,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 12672898,
+        "total_core_coefficients_plus_normalization": 12672898,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 50691552,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931105/complete.json",
+      "training_summary_sha256": "991681b90fc0c3de61f89b9b8e0ff8fc0347fa50effec4036324a1466c0b8992",
+      "training_elapsed_seconds": 14101.64769804012,
+      "training_stop_reason": "training_time_budget"
+    },
+    "means": {
+      "all_cell_mse": 1.4625164549317854e-05,
+      "fluid_velocity_relative_l2": 0.008130638252829362,
+      "fluid_pressure_relative_l2": 0.01659260682992306
+    },
+    "worst_case_gpu_p99_ms": 2.415690491199493,
+    "worst_case_host_p99_ms": 2.43714811,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true,
+    "elapsed_seconds": 496.6234808169538
+  }
+]

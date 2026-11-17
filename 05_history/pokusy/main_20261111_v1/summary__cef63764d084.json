@@ -1,0 +1,47 @@
+{
+  "status": "ARCHITECTURE_MAIN_MODEL_COMPLETE",
+  "task": {
+    "index": 7,
+    "id": "chebkan_s921103",
+    "model": "chebkan",
+    "seed": 921103,
+    "device": "cpu"
+  },
+  "selected_recipe": {
+    "id": "chebkan_a",
+    "model": "chebkan",
+    "device": "cpu",
+    "overrides": {}
+  },
+  "selection_sha256": "5c9577c7bff341bd05209f97d9e05e89ab46d5f58f15dec1740a42dee89c7b57",
+  "best": {
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921103/continuation/best.pt",
+    "checkpoint_sha256": "3615c8b2d5fafbba0fd737c8f2f67f8cebcbc74c3e3b5a9e9ac4b5ac7107891c",
+    "validation_mse": 0.001098301750068999,
+    "epoch": 400,
+    "phase": "constant_lr_continuation"
+  },
+  "phase_candidates": [
+    {
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921103/training/chebkan_a/best.pt",
+      "checkpoint_sha256": "cb03455aea96641712be429e925077644c83b22511bfe8660f9caecb94e4a163",
+      "validation_mse": 0.0011759994620424512,
+      "epoch": 200,
+      "phase": "cosine"
+    },
+    {
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921103/continuation/best.pt",
+      "checkpoint_sha256": "3615c8b2d5fafbba0fd737c8f2f67f8cebcbc74c3e3b5a9e9ac4b5ac7107891c",
+      "validation_mse": 0.001098301750068999,
+      "epoch": 400,
+      "phase": "constant_lr_continuation"
+    }
+  ],
+  "continuation_performed": true,
+  "continuation_skipped_after_early_stop": false,
+  "phase1_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921103/training/chebkan_a/summary.json",
+  "continuation_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921103/continuation/summary.json",
+  "wall_seconds": 2274.7409917340847,
+  "slurm_job_id": "154636",
+  "test_targets_read": false
+}

@@ -1,0 +1,69 @@
+{
+  "model": "tfno",
+  "device": "cpu",
+  "case_id": 928,
+  "native_target_values": 786432,
+  "encoded_rows": 4096,
+  "input_channels": 665,
+  "output_channels": 192,
+  "scope": "One complete TRAIN simulation. No TEST targets. Timing estimates are not guarantees.",
+  "adapter_checks": {
+    "loss_native": 0.0023677463177591562,
+    "loss_packed": 0.0023677474819123745,
+    "gradient_max_difference": 7.099743015714921e-11,
+    "geometry_roundtrip_max_error": 8.940696716308594e-08,
+    "target_roundtrip_max_error": 2.384185791015625e-07
+  },
+  "training_step": {
+    "seconds": [
+      0.047397286049090326,
+      0.04815489798784256,
+      0.04734352498780936,
+      0.04695852904114872,
+      0.04872781899757683
+    ],
+    "median_seconds": 0.047397286049090326
+  },
+  "one_case_learning_losses": [
+    1.0912235975265503,
+    1.0510234832763672,
+    1.0280003547668457,
+    1.0154417753219604,
+    1.0088694095611572,
+    1.003082036972046,
+    1.0015878677368164,
+    1.0009067058563232
+  ],
+  "training_updates": 8,
+  "measured_training_work_seconds": 1.942205106955953,
+  "one_case_raw_loss_after": 0.9995981454849243,
+  "inference_full_path": {
+    "seconds": [
+      0.01983370806556195,
+      0.019223671057261527,
+      0.019243370974436402,
+      0.019484697957523167,
+      0.019823682960122824,
+      0.019481242983601987,
+      0.01939071505330503,
+      0.019383714068681,
+      0.019331053947098553,
+      0.01962181692942977
+    ],
+    "median_seconds": 0.01943597901845351
+  },
+  "checkpoint_restore_max_difference": 0.0,
+  "parameter_ledger_current": {
+    "trainable_real_scalars": 1353318,
+    "data_fitted_frozen_real_scalars": 10,
+    "data_selected_frozen_real_scalars": 0,
+    "data_independent_core_real_scalars": 0,
+    "learned_or_fitted_total": 1353328,
+    "total_core_coefficients_plus_normalization": 1353328,
+    "common_adapter_buffer_bytes": 2459688,
+    "core_tensor_bytes": 5413272,
+    "accounting_only": true
+  },
+  "peak_GPU_allocated_bytes": 0,
+  "status": "ONE_CASE_TIMING_AND_TECHNICAL_CHECKS_COMPLETE"
+}

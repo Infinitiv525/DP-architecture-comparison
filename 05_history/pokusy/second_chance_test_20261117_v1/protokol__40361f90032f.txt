@@ -1,0 +1,39 @@
+ZÁVEREČNÝ TEST ŠTYROCH MODELOV DRUHEJ ŠANCE — 17. 11. 2026
+
+Používateľ schválil jediné doplnenie: zmerať na TEST štyri už hotové
+predĺžené modely ChebKAN/RBF (seedy 931101 a 931102). Neučíme znova.
+Váhy vyberala výlučne pôvodná VAL kontrola; models.json ich zmrazil
+kontrolným súčtom ešte pred otvorením tohto TEST. Žiadne dodatočné ladenie.
+
+Rovnakých 200 TEST prípadov, natívne polia 512×512 u/v/p a rovnaký
+geometrický vstup/normalizácia/metriky ako v pôvodnom experimente.
+Pri porovnaní pred/po sa overuje index prípadu, geometria, Re aj referenčné
+fyzikálne hodnoty. Výsledkom je 800 párov, nie 800 nezávislých simulácií.
+
+Každá predikcia má 100 zahrievacích a 1000 časovaných opakovaní; spolu
+800000 párov GPU/host časov. Časovanie používa dáta už v GPU a zahŕňa
+obnovu natívneho poľa. Prenos vstupu z PC a kreslenie doň nepatria.
+Cieľ: p99 do 5 ms vo všetkých 200 prípadoch, samostatne host aj GPU.
+Nie je to záruka, že každé jednotlivé volanie trvá najviac 5 ms.
+Ide o ustálené pole, nie o model celého časového vývoja.
+
+Postup: GPU kontrola obnovy na 2 VAL prípadoch/model, potom 4 GPU TEST
+pracovníci, následne nezávislé CPU opätovné čítanie uložených polí,
+prepočet metrík a kontrola surových časov. Žiadny optimizer ani tréning.
+Váhy sa kontrolujú SHA256 pred/po. Detaily v config.json a zdrojoch.
+
+Zdroj: revisions/r_40028c5a5a732cab. Úlohy: 165541 preflight,
+165542 pole 0–3 TEST, 165543 CPU audit/porovnanie. Pri prvom nasadení
+Perun odmietol CPU požiadavku 48 GiB pri 4 CPU: limit je 6000 MB/CPU.
+Opravilo sa iba nasadenie CPU na 20 GiB; zdroj výpočtu zostal nemenný.
+Idempotentné nasadenie už prijaté GPU úlohy nespustilo druhýkrát.
+
+HOTOVO: CPU audit overil 800 polí a 800000 párov časovaní. Všetky štyri
+modely zlepšili priemernú TEST L2 chybu rýchlosti aj tlaku a splnili
+uvedené kritérium p99. Čísla: report/comparison/VYSLEDKY.txt,
+model_comparison.csv a paired_case_metrics.csv. Integrita: completion_check.json.
+
+Výsledky sú samostatný exploratívny dodatok, nikdy náhrada hlavnej
+55-modelovej tabuľky. Iba dva seedy na rodinu; nevyhlasujeme štatistickú
+významnosť ani optimálny potrebný čas tréningu. TEST bol známy už
+z pôvodného experimentu. Surové polia a časovania zostávajú na Perune.

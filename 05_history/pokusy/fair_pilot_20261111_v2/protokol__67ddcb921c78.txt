@@ -1,0 +1,20 @@
+RYCHLY TEST CPU/GPU PRED OPRAVENOU SERIOU
+Pouzivatel povolil 500 GPU-h a 29000 CPU core-h, preferuje CPU tam,
+kde je to vhodne. Prioritou je 5 opakovani, pripustne su 3.
+Dva ohranicene testy: 1 CPU uloha (4 jadra) a 1 GPU uloha (1 H200,
+4 jadra), kazda maximalne 20 minut. Ide o prvu TRAIN simulaciu vo
+zmrazenom poradi, cele polia 512x512, bez TEST cielov.
+Rovnaka bezstratova geometria a vystup pre vsetkych devat rodin,
+rovnaka fyzikalna relativna loss. Ziadny prah prijatelnej presnosti.
+Gradientove rodiny: 8 aktualizacii s plnym polom; priamy ELM:
+kompletne vahovane fitovanie jedneho pripadu. SCN/CasCor: skutocny
+prvy konstrukcny krok a samostatne nakladove meranie nenauceneho
+plneho rozmeru. Posledne uvedene nie je vysledok treningu.
+Kontroly: spatne preusporiadanie celej geometrie/cielov, ekvivalencia
+loss aj gradientov, FP64 blokovy vazeny fit oproti priamemu rieseniu,
+obnova modelu a zhodna predikcia. Cas celeho vstup/vystup postupu sa
+meria oddelene od uz pripraveneho treningoveho vstupu.
+Odhady z jedneho pripadu su len projekcie, najma konstruktivne metody
+vyzaduju neskorsie meranie rastu. Po dokonceni oboch merani rozhodneme
+o zariadeni a rozsahu dalsieho pilotu. Povodne zrusene TEST ulohy sa
+neobnovuju. Vahy a velke polia zostavaju na Perune.

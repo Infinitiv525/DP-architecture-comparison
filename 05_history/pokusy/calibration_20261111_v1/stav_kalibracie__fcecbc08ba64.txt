@@ -1,0 +1,39 @@
+ČO TERAZ BEŽÍ — KALIBRÁCIA ARCHITEKTÚR, 11.11.2026
+Tento súbor je záznam spustenia, nie živá nástenka.
+
+Spustili sme18 dlhších overovacích tréningov: pre každú z9 nových sietí
+dve kapacity. FNO a Cascade-Correlation na GPU, ostatné na CPU so4 jadrami.
+Každý model používa celú TRAIN časť640 simulácií. Validačná kontrola je
+na všetkých160 prípadoch; TEST ciele sa nenačítavajú.
+
+Gradientové siete majú najviac200 epoch. ELM/SCN/CasCor vykonajú svoj
+globálny fit/rast s určenou kapacitou a regularizáciou. Každý priebeh,
+kontrola a uložený model zostanú na Perune. Zaregistrovaná následná úloha
+po dokončení tréningov vyhodnotí ich checkpointy na spoločnej H200 a
+overí presnosť aj orientačný p99 čas celého poľa proti hranici5ms.
+
+Prípravné kontroly už prešli: matematické jadrá, spoločné dáta, dve krátke
+kontrolné epochy, obnovenie modelu/optimizeru/scheduleru a natívne skórovanie.
+Po prvých6 minútach bežalo12 tréningov a6 bolo hotových. FNO malo uložené
+prvé plné validačné checkpointy. Žiadne numerické zlyhanie nebolo zistené.
+Tieto priebežné informácie nepredstavujú konečný výsledok porovnania.
+
+Toto je ešte ladenie pred piatimi záverečnými opakovaniami. Po skončení
+skontrolujeme krivky učenia a vyberieme nastavenie podľa validačných dát.
+Siete, ktoré budú na konci limitu stále výrazne zlepšovať presnosť, dostanú
+kontrolu potreby dlhšieho tréningu. Nesplnenie5ms alebo slabá presnosť sa
+zaznamenajú; model sa z výsledkov potichu nevyhodí.
+
+Presné nastavenia a pravidlá: protokol_kalibracie.txt a config.json.
+Prístup k úlohám: submission.json. Stav a malé metriky aktualizuje collect.py.
+Pri pohľade na tréningovú loss a validačné MSE pozor: loss je normovaná,
+validačné MSE je vo fyzikálnej škále. Číselne sa nedajú priamo porovnávať.
+
+Na Perune výsledky:
+/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/
+Príprava154255; tréningy154256–154273; spoločné vyhodnotenie154274.
+Aktívna zdrojová revízia r_12669e7239a2e28c.
+
+Horné limity celej dávky9GPU-h a149,33 pridelených CPU core-h sú súčty
+časových limitov, nie odhad spotreby. Všetky váhy a veľké polia ostávajú
+na Perune; lokálne a na Git iba malé zdroje, protokoly, reporty a logy.

@@ -1,0 +1,36 @@
+{
+  "task": {
+    "index": 27,
+    "id": "rbf_s921103",
+    "model": "rbf",
+    "seed": 921103,
+    "device": "cpu"
+  },
+  "selected": {
+    "model": "rbf",
+    "recipe": {
+      "id": "rbf_b",
+      "model": "rbf",
+      "device": "cpu",
+      "overrides": {
+        "width": 192
+      }
+    },
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/rbf_b/best.pt",
+    "checkpoint_sha256": "ee4332d09bed566f722bb2eac636b6fdb7fdb189f927f21155e1de69a36bd4ab",
+    "calibration_validation_mse": 0.009974623864810229,
+    "review_gpu_p99_ms": 1.8733513045310974,
+    "latency_criterion_met": true,
+    "selection_status": "FEASIBLE",
+    "continuation": false,
+    "review_role": "audit",
+    "counts": {
+      "core_parameter_elements": 11715,
+      "core_parameter_real_scalar_equivalents": 11715,
+      "core_buffer_elements": 0,
+      "core_buffer_real_scalar_equivalents": 0,
+      "registered_pipeline_buffer_bytes": 25165864
+    }
+  },
+  "selection_sha256": "5c9577c7bff341bd05209f97d9e05e89ab46d5f58f15dec1740a42dee89c7b57"
+}

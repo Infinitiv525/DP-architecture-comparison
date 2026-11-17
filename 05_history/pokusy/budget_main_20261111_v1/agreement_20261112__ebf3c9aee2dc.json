@@ -1,0 +1,45 @@
+{
+  "status": "AGREED_COMPLETE_PRIMARY_STUDY_BEFORE_EXTENSIONS",
+  "date": "2026-11-12",
+  "timezone": "Europe/Bratislava",
+  "user_decision": "Complete the agreed45models and archivedPINN reference first, then final testing; further experiments only afterwards",
+  "primary_protocol_unchanged": true,
+  "main_family_count": 9,
+  "repetitions_per_family": 5,
+  "per_run_resource_limit": {
+    "H200_GPUs": 1,
+    "H200_GPU_hours": 4,
+    "CPU_cores": 4,
+    "CPU_core_hours": 16,
+    "host_RAM_GiB": 40
+  },
+  "quota_user_snapshot": {
+    "allocated_GPU_hours": 4137,
+    "used_GPU_hours": 1867,
+    "remaining_GPU_hours_at_screenshot": 2270,
+    "source": "User-provided Perun portal screenshot; not a fresh portal/accounting query"
+  },
+  "verified_main_completed": 32,
+  "latest_queue_snapshot": {
+    "running": 8,
+    "pending": 5
+  },
+  "archived_PINN": {
+    "checkpoints_verified": 5,
+    "role": "separate archived auxiliary reference family, not new matched-condition trainings"
+  },
+  "all32_complete_models_used_all640_TRAIN_cases": true,
+  "all32_have_all160_VAL_case_metrics": true,
+  "completed_model_SHA_checks": 32,
+  "pinn_checkpoint_SHA_checks": 5,
+  "test_plan": {
+    "primary_model_case_pairs": 9000,
+    "auxiliary_PINN_model_case_pairs": 1000,
+    "test_cases": 200,
+    "run_after_all45main_trainings_complete": true,
+    "configuration_retuning_on_test_allowed": false
+  },
+  "new_training_jobs_submitted": false,
+  "test_targets_read": false,
+  "model_weights_downloaded": false
+}

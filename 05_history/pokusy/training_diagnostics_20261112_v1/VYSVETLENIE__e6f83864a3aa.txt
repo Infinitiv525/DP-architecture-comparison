@@ -1,0 +1,91 @@
+PREČO NIEKTORÉ MODELY DOPADLI SLABŠIE
+
+Aktuálne CPU overených modelov: 45/45. Diagnostika je dokončená.
+Používame nemenné uložené váhy. Žiadne nové učenie ani výber podľa TEST.
+
+Natívna vyvážená strata nie je percentuálna chyba; nižšia je lepšia.
+Každá metóda má päť overených modelov.
+Metóda      Hotovo       TRAIN strata       VAL strata    Zhoda CPU/GPU VAL
+tfno        5/5       0.00010930204       0.00021363385       True
+chebkan     5/5       0.0045605262       0.0097577211       True
+pinet       5/5       0.042606612       0.044138153       True
+dendrite    5/5       0.041904673       0.043121607       True
+realnpu     5/5       0.00015930269       0.0005353216       True
+rbf         5/5       0.0092424464       0.015715493       True
+elm         5/5       0.36556769       0.38570185       True
+scn         5/5       0.38185032       0.39964694       True
+cascor      5/5       0.52293521       0.51411327       True
+
+ZÁVERY PO DOKONČENÍ VŠETKÝCH 45 PREPOČTOV
+Všetkých 7 200 jednotlivých CPU VAL strát súhlasí s pôvodnými GPU
+výsledkami v uvedenej numerickej tolerancii. Spolu s TRAIN sa
+skontrolovalo 36 000 prípadových strát. Žiadna váha sa nemenila.
+PiNet, Dendrite, ELM, SCN aj CasCor majú vysokú chybu už na TRAIN.
+Slabé výsledky sa teda nedajú vysvetliť iba prechodom na novú sadu.
+Nedostatočnú reprezentáciu a neúčinnú optimalizáciu tieto dáta
+jednoznačne neoddelia. Pri CasCor je TRAIN dokonca mierne horšia než
+VAL; samo osebe to nie je chyba, sady majú odlišné konkrétne prípady.
+ChebKAN a RBF majú nižšiu TRAIN stratu než VAL, ale stále aj TRAIN
+stratu výrazne vyššiu než TFNO; problém nemožno zúžiť len na preučenie.
+
+POZOROVANÝ POKLES VAL STRATY MEDZI 2. A 4. HODINOU
+Priemer najlepších dovtedy pozorovaných VAL strát piatich modelov:
+tfno         43.13789 %
+chebkan      61.25835 %
+pinet         2.61428 %
+dendrite     22.97212 %
+realnpu      14.64635 %
+rbf          39.38619 %
+elm           0.00000 %
+scn           0.00000 %
+cascor        0.00054 %
+ChebKAN a RBF sú preto najlepšie podložené prvé návrhy na neskoršie
+skúmanie dlhšieho tréningu. Pri CasCor bol dodatočný pokles pod 0,001 %,
+takže samotné predĺženie nie je podložené rovnako silno.
+Tieto poklesy patria k jednému 4h kosínusovému rozvrhu a nie sú
+odhadom, ako dopadne nový 8h rozvrh alebo pokračovanie pri minimálnom LR.
+Návrh druhej šance je v druha_sanca_navrh.txt. Používateľ ju následne autorizoval;
+aktuálne samostatné pokračovania sú v ../architecture_second_chance_20261112_v1/STAV.txt.
+
+PRIAMO POTVRDENÉ Z TRÉNINGOVÝCH REPORTOV
+ELM: výstupné váhy sa vyriešili priamo; náhodná skrytá vrstva sa neučí.
+Všetkých päť behov preto prirodzene skončilo za 4 až 9 sekúnd. Viac
+čakania pri rovnakom algoritme neznamená ďalšie učenie.
+SCN: všetkých päť behov skončilo bez prípustného nového kandidáta.
+Hľadanie má konečný rozsah a vyžaduje zlepšenie všetkých aktívnych
+výstupných zložiek; nejde o vyčerpanie štvorhodinového rozpočtu.
+CasCor: päť behov spotrebovalo celý tréningový rozpočet; postupne
+pridávali a zmrazovali neuróny, teda neprebiehalo spoločné doladenie
+všetkých skrytých váh. Niektoré najlepšie modely vznikli oveľa skôr.
+PiNet a Dendrite: celú TRAIN sadu videli opakovane pri miliónoch
+aktualizácií. Použité varianty majú polynomiálnu rekurenciu stupňa 3
+vo vstupných príznakoch. To je vlastnosť implementácie, nie dôkaz príčiny.
+TFNO má naučené globálne priestorové miešanie Fourierovými vrstvami;
+ostatné jadrá pracujú bodovo na spoločných úplných vstupných príznakoch.
+Odlišný spôsob spracovania kontextu je možným vysvetlením rozdielov,
+nie samostatne dokázanou kauzálnou príčinou.
+
+AKO ČÍTAŤ DOPLŇOVANÉ TRAIN/VAL ČÍSLA
+Ak je chyba vysoká už na TRAIN a VAL je podobná, problém nie je len
+v prechode na nové prípady. Zodpovedá to nedostatočnému prispôsobeniu
+reprezentácie alebo optimalizácie. Tieto dve príčiny samotný gap nerozlíši.
+Výrazne menšia TRAIN chyba môže odhaliť slabšie zovšeobecnenie, ale
+pomer sám nestačí: aj presný TFNO má približne dvojnásobnú VAL stratu.
+Porovnávajú sa preto aj absolútne chyby a všetkých päť opakovaní.
+Zlepšovanie VAL na konci je stopa pre možný prínos dlhšieho učenia,
+nie dôkaz, že viac času určite odstráni rozdiel.
+Časové body v CSV patria k jednému štvorhodinovému rozvrhu učenia,
+nejde o samostatne optimalizované jedno- a dvojhodinové experimenty.
+
+ČO ZATIAĽ NEVIEME TVRDIŤ
+Bez cieleného kontrolného zásahu nevieme dokázať, že rozdiel spôsobil
+konkrétny počet vrstiev, báza, výber kandidátov alebo nastavenie učenia.
+Výsledky hodnotia naše konkrétne implementácie v tomto rozhraní a
+rozpočte; nepredstavujú všeobecný zákaz použitia danej rodiny na fyziku.
+Takéto zásahy a nové tréningy sa pri tejto diagnostike nespúšťajú.
+
+UZAVRETIE DRUHEJ ŠANCE 17. 11. 2026
+Štyri autorizované pokračovania sú dokončené a skontrolované. ChebKAN
+znížilo VAL stratu o 11–15 %, RBF o 5–8 %, pri približne dvojnásobnom
+rozpočte línie. Ide o samostatný doplnok; hlavné výsledky sa nemenia.
+Úplný výstup: ../architecture_second_chance_20261112_v1/VYSLEDKY.txt.

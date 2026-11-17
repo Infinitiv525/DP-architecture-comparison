@@ -1,0 +1,832 @@
+{
+  "id": "elm_t1",
+  "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED",
+  "checkpoint_sha256": "201886f3bf264079aa1419ef571aaa0fdfc7823c87bd6c5976008f5b5fac4210",
+  "CPU_validation": {
+    "mean_raw_case_balanced_loss": 0.3815121468156576,
+    "case_losses": [
+      0.6561739444732666,
+      0.5066257119178772,
+      0.4075096845626831,
+      0.30654996633529663,
+      0.42888668179512024,
+      0.4377151429653168,
+      0.31341707706451416,
+      0.467251181602478,
+      0.27667316794395447,
+      0.30696338415145874,
+      0.48172837495803833,
+      0.4709271192550659,
+      0.36511263251304626,
+      0.35950538516044617,
+      0.32114899158477783,
+      0.32440385222435,
+      0.3713669180870056,
+      0.39193975925445557,
+      0.3659166097640991,
+      0.4384159445762634,
+      0.3115129768848419,
+      0.3328031599521637,
+      0.3842102289199829,
+      0.3152351677417755,
+      0.34430599212646484,
+      0.3345497250556946,
+      0.31243330240249634,
+      0.36265623569488525,
+      0.31622540950775146,
+      0.3859671950340271,
+      0.37463653087615967,
+      0.3202762007713318,
+      0.387225866317749,
+      0.4901992678642273,
+      0.3187014162540436,
+      0.3245486617088318,
+      0.5333119630813599,
+      0.3573407530784607,
+      0.2891961932182312,
+      0.36256545782089233,
+      0.3685998320579529,
+      0.3289063572883606,
+      0.3934447467327118,
+      0.31253886222839355,
+      0.7278911471366882,
+      0.33047693967819214,
+      0.32935628294944763,
+      0.33775389194488525,
+      0.3521759808063507,
+      0.3759916424751282,
+      0.3019610345363617,
+      0.3930826187133789,
+      0.3406909704208374,
+      0.3600563406944275,
+      0.342306911945343,
+      0.41234004497528076,
+      0.3496728241443634,
+      0.48154279589653015,
+      0.389992892742157,
+      0.32930615544319153,
+      0.3972305357456207,
+      0.9409422874450684,
+      0.2987288236618042,
+      0.5755531787872314,
+      0.39134296774864197,
+      0.30646735429763794,
+      0.3289444148540497,
+      0.30710622668266296,
+      0.42735737562179565,
+      0.3948778808116913,
+      0.345706582069397,
+      0.29904481768608093,
+      0.35337740182876587,
+      0.31332260370254517,
+      0.32697567343711853,
+      0.37083494663238525,
+      0.445967435836792,
+      0.31890633702278137,
+      0.30550652742385864,
+      0.3323022127151489,
+      0.3742528557777405,
+      0.3404216766357422,
+      0.30249857902526855,
+      0.32988646626472473,
+      0.5682296752929688,
+      0.33370059728622437,
+      0.3617934584617615,
+      0.32068711519241333,
+      0.391148179769516,
+      0.2831837832927704,
+      0.4002201557159424,
+      0.3815823197364807,
+      0.28273314237594604,
+      0.4456470012664795,
+      0.32074618339538574,
+      0.4108710289001465,
+      0.44417881965637207,
+      0.3884763717651367,
+      0.3476521074771881,
+      0.3051677942276001,
+      0.4405839741230011,
+      0.33502089977264404,
+      0.4318390190601349,
+      0.47245627641677856,
+      0.46874427795410156,
+      0.4460616707801819,
+      0.3619239926338196,
+      0.33446836471557617,
+      0.3634186387062073,
+      0.5175460577011108,
+      0.44748708605766296,
+      0.3505622446537018,
+      0.2996455430984497,
+      0.2943893074989319,
+      0.4762522876262665,
+      0.4787548780441284,
+      0.38755762577056885,
+      0.30055344104766846,
+      0.3249577581882477,
+      0.3028563857078552,
+      0.4234887659549713,
+      0.5757582187652588,
+      0.2837142050266266,
+      0.326305091381073,
+      0.5184057354927063,
+      0.38009166717529297,
+      0.3349403142929077,
+      0.3460111618041992,
+      0.32965898513793945,
+      0.38044238090515137,
+      0.384675532579422,
+      0.37314075231552124,
+      0.30628255009651184,
+      0.3333008885383606,
+      0.33796000480651855,
+      0.43544596433639526,
+      0.45240071415901184,
+      0.4399893879890442,
+      0.31210795044898987,
+      0.3119640350341797,
+      0.3084237575531006,
+      0.5281429290771484,
+      0.48532888293266296,
+      0.39243462681770325,
+      0.2961428165435791,
+      0.3600935935974121,
+      0.3722970485687256,
+      0.3049772381782532,
+      0.35057544708251953,
+      0.4977790415287018,
+      0.3514086604118347,
+      0.45358020067214966,
+      0.41468673944473267,
+      0.3192337453365326,
+      0.34585487842559814,
+      0.32843121886253357,
+      0.5129361748695374,
+      0.5161561369895935,
+      0.32667773962020874,
+      0.3278241753578186
+    ],
+    "cases": 160
+  },
+  "CPU_physical_validation": {
+    "case_metrics": [
+      {
+        "velocity_relative_L2": 0.49288731813430786,
+        "pressure_relative_L2": 0.8581103682518005
+      },
+      {
+        "velocity_relative_L2": 0.42972657084465027,
+        "pressure_relative_L2": 0.9050817489624023
+      },
+      {
+        "velocity_relative_L2": 0.3435862064361572,
+        "pressure_relative_L2": 0.8299919366836548
+      },
+      {
+        "velocity_relative_L2": 0.4183325171470642,
+        "pressure_relative_L2": 0.6311374306678772
+      },
+      {
+        "velocity_relative_L2": 0.4169498383998871,
+        "pressure_relative_L2": 0.7179747223854065
+      },
+      {
+        "velocity_relative_L2": 0.3277440369129181,
+        "pressure_relative_L2": 0.8701062798500061
+      },
+      {
+        "velocity_relative_L2": 0.3983120024204254,
+        "pressure_relative_L2": 0.65959632396698
+      },
+      {
+        "velocity_relative_L2": 0.3859803378582001,
+        "pressure_relative_L2": 0.8830599188804626
+      },
+      {
+        "velocity_relative_L2": 0.3603097200393677,
+        "pressure_relative_L2": 0.6362967491149902
+      },
+      {
+        "velocity_relative_L2": 0.39506494998931885,
+        "pressure_relative_L2": 0.6579208374023438
+      },
+      {
+        "velocity_relative_L2": 0.4279269874095917,
+        "pressure_relative_L2": 0.8788067102432251
+      },
+      {
+        "velocity_relative_L2": 0.38352474570274353,
+        "pressure_relative_L2": 0.8869496583938599
+      },
+      {
+        "velocity_relative_L2": 0.4220859408378601,
+        "pressure_relative_L2": 0.7187273502349854
+      },
+      {
+        "velocity_relative_L2": 0.4354560673236847,
+        "pressure_relative_L2": 0.6836827993392944
+      },
+      {
+        "velocity_relative_L2": 0.3919149935245514,
+        "pressure_relative_L2": 0.6815032362937927
+      },
+      {
+        "velocity_relative_L2": 0.39619359374046326,
+        "pressure_relative_L2": 0.672608494758606
+      },
+      {
+        "velocity_relative_L2": 0.3360840380191803,
+        "pressure_relative_L2": 0.7884181141853333
+      },
+      {
+        "velocity_relative_L2": 0.338279664516449,
+        "pressure_relative_L2": 0.811607837677002
+      },
+      {
+        "velocity_relative_L2": 0.4152565002441406,
+        "pressure_relative_L2": 0.6600276827812195
+      },
+      {
+        "velocity_relative_L2": 0.33202680945396423,
+        "pressure_relative_L2": 0.8709645867347717
+      },
+      {
+        "velocity_relative_L2": 0.40269720554351807,
+        "pressure_relative_L2": 0.6605930328369141
+      },
+      {
+        "velocity_relative_L2": 0.3441574275493622,
+        "pressure_relative_L2": 0.7334879040718079
+      },
+      {
+        "velocity_relative_L2": 0.3816852569580078,
+        "pressure_relative_L2": 0.7827505469322205
+      },
+      {
+        "velocity_relative_L2": 0.4049084186553955,
+        "pressure_relative_L2": 0.654979944229126
+      },
+      {
+        "velocity_relative_L2": 0.33452752232551575,
+        "pressure_relative_L2": 0.7478141188621521
+      },
+      {
+        "velocity_relative_L2": 0.3563801646232605,
+        "pressure_relative_L2": 0.7288833856582642
+      },
+      {
+        "velocity_relative_L2": 0.35190218687057495,
+        "pressure_relative_L2": 0.6853713393211365
+      },
+      {
+        "velocity_relative_L2": 0.41557127237319946,
+        "pressure_relative_L2": 0.6968827247619629
+      },
+      {
+        "velocity_relative_L2": 0.3999663293361664,
+        "pressure_relative_L2": 0.6693006157875061
+      },
+      {
+        "velocity_relative_L2": 0.33106595277786255,
+        "pressure_relative_L2": 0.809203028678894
+      },
+      {
+        "velocity_relative_L2": 0.3453540503978729,
+        "pressure_relative_L2": 0.7891488075256348
+      },
+      {
+        "velocity_relative_L2": 0.4282536506652832,
+        "pressure_relative_L2": 0.6441558599472046
+      },
+      {
+        "velocity_relative_L2": 0.48065385222435,
+        "pressure_relative_L2": 0.666862964630127
+      },
+      {
+        "velocity_relative_L2": 0.3797364830970764,
+        "pressure_relative_L2": 0.9076179265975952
+      },
+      {
+        "velocity_relative_L2": 0.38978248834609985,
+        "pressure_relative_L2": 0.6703444719314575
+      },
+      {
+        "velocity_relative_L2": 0.41113072633743286,
+        "pressure_relative_L2": 0.6733292937278748
+      },
+      {
+        "velocity_relative_L2": 0.3908737003803253,
+        "pressure_relative_L2": 0.9467954635620117
+      },
+      {
+        "velocity_relative_L2": 0.33836567401885986,
+        "pressure_relative_L2": 0.7694171071052551
+      },
+      {
+        "velocity_relative_L2": 0.36975669860839844,
+        "pressure_relative_L2": 0.6434285640716553
+      },
+      {
+        "velocity_relative_L2": 0.35140448808670044,
+        "pressure_relative_L2": 0.769573986530304
+      },
+      {
+        "velocity_relative_L2": 0.3413178026676178,
+        "pressure_relative_L2": 0.7828766703605652
+      },
+      {
+        "velocity_relative_L2": 0.33661559224128723,
+        "pressure_relative_L2": 0.7278475165367126
+      },
+      {
+        "velocity_relative_L2": 0.42458024621009827,
+        "pressure_relative_L2": 0.758579432964325
+      },
+      {
+        "velocity_relative_L2": 0.4261000454425812,
+        "pressure_relative_L2": 0.6335980296134949
+      },
+      {
+        "velocity_relative_L2": 0.4571574032306671,
+        "pressure_relative_L2": 0.8884536027908325
+      },
+      {
+        "velocity_relative_L2": 0.42263665795326233,
+        "pressure_relative_L2": 0.6666136980056763
+      },
+      {
+        "velocity_relative_L2": 0.3474706709384918,
+        "pressure_relative_L2": 0.7256017923355103
+      },
+      {
+        "velocity_relative_L2": 0.34279200434684753,
+        "pressure_relative_L2": 0.7390300035476685
+      },
+      {
+        "velocity_relative_L2": 0.34252986311912537,
+        "pressure_relative_L2": 0.7616835236549377
+      },
+      {
+        "velocity_relative_L2": 0.3903685510158539,
+        "pressure_relative_L2": 0.7636561989784241
+      },
+      {
+        "velocity_relative_L2": 0.41669920086860657,
+        "pressure_relative_L2": 0.6244794726371765
+      },
+      {
+        "velocity_relative_L2": 0.3472386300563812,
+        "pressure_relative_L2": 0.8104763031005859
+      },
+      {
+        "velocity_relative_L2": 0.3942582309246063,
+        "pressure_relative_L2": 0.7114459872245789
+      },
+      {
+        "velocity_relative_L2": 0.40320032835006714,
+        "pressure_relative_L2": 0.7328510284423828
+      },
+      {
+        "velocity_relative_L2": 0.3505294919013977,
+        "pressure_relative_L2": 0.7392464876174927
+      },
+      {
+        "velocity_relative_L2": 0.3370433747768402,
+        "pressure_relative_L2": 0.8391838669776917
+      },
+      {
+        "velocity_relative_L2": 0.4255520701408386,
+        "pressure_relative_L2": 0.6786598563194275
+      },
+      {
+        "velocity_relative_L2": 0.3661119043827057,
+        "pressure_relative_L2": 0.9057691097259521
+      },
+      {
+        "velocity_relative_L2": 0.3929855525493622,
+        "pressure_relative_L2": 0.7575898766517639
+      },
+      {
+        "velocity_relative_L2": 0.40413564443588257,
+        "pressure_relative_L2": 0.6795001029968262
+      },
+      {
+        "velocity_relative_L2": 0.3466448187828064,
+        "pressure_relative_L2": 0.8149366974830627
+      },
+      {
+        "velocity_relative_L2": 0.46898648142814636,
+        "pressure_relative_L2": 0.9159873127937317
+      },
+      {
+        "velocity_relative_L2": 0.4294453561306,
+        "pressure_relative_L2": 0.6163284778594971
+      },
+      {
+        "velocity_relative_L2": 0.5206099152565002,
+        "pressure_relative_L2": 0.9331960678100586
+      },
+      {
+        "velocity_relative_L2": 0.4128012955188751,
+        "pressure_relative_L2": 0.7634041905403137
+      },
+      {
+        "velocity_relative_L2": 0.3894695043563843,
+        "pressure_relative_L2": 0.6621242761611938
+      },
+      {
+        "velocity_relative_L2": 0.42955949902534485,
+        "pressure_relative_L2": 0.6637448072433472
+      },
+      {
+        "velocity_relative_L2": 0.416544109582901,
+        "pressure_relative_L2": 0.6160964369773865
+      },
+      {
+        "velocity_relative_L2": 0.3626517653465271,
+        "pressure_relative_L2": 0.8439979553222656
+      },
+      {
+        "velocity_relative_L2": 0.34043410420417786,
+        "pressure_relative_L2": 0.8142102956771851
+      },
+      {
+        "velocity_relative_L2": 0.3529093861579895,
+        "pressure_relative_L2": 0.7381619215011597
+      },
+      {
+        "velocity_relative_L2": 0.4147767722606659,
+        "pressure_relative_L2": 0.6326977610588074
+      },
+      {
+        "velocity_relative_L2": 0.4266200661659241,
+        "pressure_relative_L2": 0.6346187591552734
+      },
+      {
+        "velocity_relative_L2": 0.42959272861480713,
+        "pressure_relative_L2": 0.5818926095962524
+      },
+      {
+        "velocity_relative_L2": 0.3885953426361084,
+        "pressure_relative_L2": 0.6957164406776428
+      },
+      {
+        "velocity_relative_L2": 0.41898593306541443,
+        "pressure_relative_L2": 0.7174181342124939
+      },
+      {
+        "velocity_relative_L2": 0.357714980840683,
+        "pressure_relative_L2": 0.8712437152862549
+      },
+      {
+        "velocity_relative_L2": 0.3416363000869751,
+        "pressure_relative_L2": 0.708254337310791
+      },
+      {
+        "velocity_relative_L2": 0.3770383298397064,
+        "pressure_relative_L2": 0.6745423674583435
+      },
+      {
+        "velocity_relative_L2": 0.38636645674705505,
+        "pressure_relative_L2": 0.7017644643783569
+      },
+      {
+        "velocity_relative_L2": 0.4233447015285492,
+        "pressure_relative_L2": 0.6476641893386841
+      },
+      {
+        "velocity_relative_L2": 0.34850847721099854,
+        "pressure_relative_L2": 0.7430438995361328
+      },
+      {
+        "velocity_relative_L2": 0.3450752794742584,
+        "pressure_relative_L2": 0.6748068332672119
+      },
+      {
+        "velocity_relative_L2": 0.40691491961479187,
+        "pressure_relative_L2": 0.6804915070533752
+      },
+      {
+        "velocity_relative_L2": 0.4894762933254242,
+        "pressure_relative_L2": 0.935762345790863
+      },
+      {
+        "velocity_relative_L2": 0.4208797812461853,
+        "pressure_relative_L2": 0.6712159514427185
+      },
+      {
+        "velocity_relative_L2": 0.33297470211982727,
+        "pressure_relative_L2": 0.778141438961029
+      },
+      {
+        "velocity_relative_L2": 0.35342085361480713,
+        "pressure_relative_L2": 0.7098037600517273
+      },
+      {
+        "velocity_relative_L2": 0.4228329658508301,
+        "pressure_relative_L2": 0.7431041598320007
+      },
+      {
+        "velocity_relative_L2": 0.3577958047389984,
+        "pressure_relative_L2": 0.6530770659446716
+      },
+      {
+        "velocity_relative_L2": 0.3579675853252411,
+        "pressure_relative_L2": 0.814208447933197
+      },
+      {
+        "velocity_relative_L2": 0.4292299449443817,
+        "pressure_relative_L2": 0.7561817765235901
+      },
+      {
+        "velocity_relative_L2": 0.3853672742843628,
+        "pressure_relative_L2": 0.6292054057121277
+      },
+      {
+        "velocity_relative_L2": 0.36261528730392456,
+        "pressure_relative_L2": 0.8658296465873718
+      },
+      {
+        "velocity_relative_L2": 0.46679675579071045,
+        "pressure_relative_L2": 0.632580041885376
+      },
+      {
+        "velocity_relative_L2": 0.3447953462600708,
+        "pressure_relative_L2": 0.8354873061180115
+      },
+      {
+        "velocity_relative_L2": 0.43593648076057434,
+        "pressure_relative_L2": 0.8295259475708008
+      },
+      {
+        "velocity_relative_L2": 0.34685346484184265,
+        "pressure_relative_L2": 0.8023943305015564
+      },
+      {
+        "velocity_relative_L2": 0.3364219665527344,
+        "pressure_relative_L2": 0.7504494786262512
+      },
+      {
+        "velocity_relative_L2": 0.3514610528945923,
+        "pressure_relative_L2": 0.6919628381729126
+      },
+      {
+        "velocity_relative_L2": 0.4409625232219696,
+        "pressure_relative_L2": 0.824515163898468
+      },
+      {
+        "velocity_relative_L2": 0.3994297385215759,
+        "pressure_relative_L2": 0.6830199360847473
+      },
+      {
+        "velocity_relative_L2": 0.3363240957260132,
+        "pressure_relative_L2": 0.8576369285583496
+      },
+      {
+        "velocity_relative_L2": 0.35726913809776306,
+        "pressure_relative_L2": 0.8941083550453186
+      },
+      {
+        "velocity_relative_L2": 0.363142728805542,
+        "pressure_relative_L2": 0.8935220837593079
+      },
+      {
+        "velocity_relative_L2": 0.3440173864364624,
+        "pressure_relative_L2": 0.8740079402923584
+      },
+      {
+        "velocity_relative_L2": 0.3304823637008667,
+        "pressure_relative_L2": 0.7798115611076355
+      },
+      {
+        "velocity_relative_L2": 0.4180141091346741,
+        "pressure_relative_L2": 0.6878953576087952
+      },
+      {
+        "velocity_relative_L2": 0.4027084708213806,
+        "pressure_relative_L2": 0.7350965142250061
+      },
+      {
+        "velocity_relative_L2": 0.38285326957702637,
+        "pressure_relative_L2": 0.9365018010139465
+      },
+      {
+        "velocity_relative_L2": 0.37418243288993835,
+        "pressure_relative_L2": 0.8636580109596252
+      },
+      {
+        "velocity_relative_L2": 0.3345496356487274,
+        "pressure_relative_L2": 0.763694167137146
+      },
+      {
+        "velocity_relative_L2": 0.4055299162864685,
+        "pressure_relative_L2": 0.6361244320869446
+      },
+      {
+        "velocity_relative_L2": 0.4215247929096222,
+        "pressure_relative_L2": 0.617074191570282
+      },
+      {
+        "velocity_relative_L2": 0.36738884449005127,
+        "pressure_relative_L2": 0.8999049663543701
+      },
+      {
+        "velocity_relative_L2": 0.3589193522930145,
+        "pressure_relative_L2": 0.9067003726959229
+      },
+      {
+        "velocity_relative_L2": 0.43958237767219543,
+        "pressure_relative_L2": 0.703891396522522
+      },
+      {
+        "velocity_relative_L2": 0.4082084000110626,
+        "pressure_relative_L2": 0.6362990736961365
+      },
+      {
+        "velocity_relative_L2": 0.3592298626899719,
+        "pressure_relative_L2": 0.7113059163093567
+      },
+      {
+        "velocity_relative_L2": 0.4243907034397125,
+        "pressure_relative_L2": 0.6334840059280396
+      },
+      {
+        "velocity_relative_L2": 0.42587554454803467,
+        "pressure_relative_L2": 0.7775894999504089
+      },
+      {
+        "velocity_relative_L2": 0.5428111553192139,
+        "pressure_relative_L2": 0.9210518002510071
+      },
+      {
+        "velocity_relative_L2": 0.363147497177124,
+        "pressure_relative_L2": 0.6455373167991638
+      },
+      {
+        "velocity_relative_L2": 0.3749043941497803,
+        "pressure_relative_L2": 0.6938835978507996
+      },
+      {
+        "velocity_relative_L2": 0.39172521233558655,
+        "pressure_relative_L2": 0.9309694170951843
+      },
+      {
+        "velocity_relative_L2": 0.4257437586784363,
+        "pressure_relative_L2": 0.6561115980148315
+      },
+      {
+        "velocity_relative_L2": 0.3987908959388733,
+        "pressure_relative_L2": 0.6915316581726074
+      },
+      {
+        "velocity_relative_L2": 0.3824863135814667,
+        "pressure_relative_L2": 0.7287405729293823
+      },
+      {
+        "velocity_relative_L2": 0.34067320823669434,
+        "pressure_relative_L2": 0.7293651103973389
+      },
+      {
+        "velocity_relative_L2": 0.3519987165927887,
+        "pressure_relative_L2": 0.7878848314285278
+      },
+      {
+        "velocity_relative_L2": 0.3873133361339569,
+        "pressure_relative_L2": 0.7630022168159485
+      },
+      {
+        "velocity_relative_L2": 0.3612261712551117,
+        "pressure_relative_L2": 0.7780673503875732
+      },
+      {
+        "velocity_relative_L2": 0.40184327960014343,
+        "pressure_relative_L2": 0.6454237103462219
+      },
+      {
+        "velocity_relative_L2": 0.4424985349178314,
+        "pressure_relative_L2": 0.6497039794921875
+      },
+      {
+        "velocity_relative_L2": 0.34762808680534363,
+        "pressure_relative_L2": 0.7406575083732605
+      },
+      {
+        "velocity_relative_L2": 0.3541790246963501,
+        "pressure_relative_L2": 0.8576775193214417
+      },
+      {
+        "velocity_relative_L2": 0.3435365557670593,
+        "pressure_relative_L2": 0.8847705721855164
+      },
+      {
+        "velocity_relative_L2": 0.3905716836452484,
+        "pressure_relative_L2": 0.8300997018814087
+      },
+      {
+        "velocity_relative_L2": 0.3939380943775177,
+        "pressure_relative_L2": 0.6677852272987366
+      },
+      {
+        "velocity_relative_L2": 0.3428981304168701,
+        "pressure_relative_L2": 0.685073971748352
+      },
+      {
+        "velocity_relative_L2": 0.41817259788513184,
+        "pressure_relative_L2": 0.6396337151527405
+      },
+      {
+        "velocity_relative_L2": 0.45241478085517883,
+        "pressure_relative_L2": 0.6470269560813904
+      },
+      {
+        "velocity_relative_L2": 0.3611416220664978,
+        "pressure_relative_L2": 0.9115440845489502
+      },
+      {
+        "velocity_relative_L2": 0.43758776783943176,
+        "pressure_relative_L2": 0.7393193244934082
+      },
+      {
+        "velocity_relative_L2": 0.36036086082458496,
+        "pressure_relative_L2": 0.6737197041511536
+      },
+      {
+        "velocity_relative_L2": 0.4394383728504181,
+        "pressure_relative_L2": 0.7195005416870117
+      },
+      {
+        "velocity_relative_L2": 0.33669349551200867,
+        "pressure_relative_L2": 0.7897543907165527
+      },
+      {
+        "velocity_relative_L2": 0.3996134400367737,
+        "pressure_relative_L2": 0.6428366899490356
+      },
+      {
+        "velocity_relative_L2": 0.41908377408981323,
+        "pressure_relative_L2": 0.696700930595398
+      },
+      {
+        "velocity_relative_L2": 0.4264385402202606,
+        "pressure_relative_L2": 0.8984822034835815
+      },
+      {
+        "velocity_relative_L2": 0.4296455979347229,
+        "pressure_relative_L2": 0.6825043559074402
+      },
+      {
+        "velocity_relative_L2": 0.4131365716457367,
+        "pressure_relative_L2": 0.8536428809165955
+      },
+      {
+        "velocity_relative_L2": 0.4275849163532257,
+        "pressure_relative_L2": 0.7632874250411987
+      },
+      {
+        "velocity_relative_L2": 0.4319731295108795,
+        "pressure_relative_L2": 0.6435929536819458
+      },
+      {
+        "velocity_relative_L2": 0.39591968059539795,
+        "pressure_relative_L2": 0.7108978033065796
+      },
+      {
+        "velocity_relative_L2": 0.34796786308288574,
+        "pressure_relative_L2": 0.7270578742027283
+      },
+      {
+        "velocity_relative_L2": 0.4142071306705475,
+        "pressure_relative_L2": 0.917439877986908
+      },
+      {
+        "velocity_relative_L2": 0.4027651846408844,
+        "pressure_relative_L2": 0.9259639978408813
+      },
+      {
+        "velocity_relative_L2": 0.40723374485969543,
+        "pressure_relative_L2": 0.683049738407135
+      },
+      {
+        "velocity_relative_L2": 0.3430960774421692,
+        "pressure_relative_L2": 0.7252603769302368
+      }
+    ],
+    "mean_velocity_relative_L2": 0.389701041392982,
+    "mean_pressure_relative_L2": 0.7494957812130452,
+    "processing": "Shared solid mask and zero-mean fluid pressure; complete native fields"
+  },
+  "maximum_raw_case_loss_CPU_GPU_difference": 2.6226043701171875e-06,
+  "parameter_ledger": {
+    "trainable_real_scalars": 0,
+    "data_fitted_frozen_real_scalars": 302986,
+    "data_selected_frozen_real_scalars": 0,
+    "data_independent_core_real_scalars": 1050282,
+    "learned_or_fitted_total": 302986,
+    "total_core_coefficients_plus_normalization": 1353268,
+    "common_adapter_buffer_bytes": 2459688,
+    "core_tensor_bytes": 5413032,
+    "accounting_only": true
+  },
+  "test_targets_read": false,
+  "training_updates": 0
+}

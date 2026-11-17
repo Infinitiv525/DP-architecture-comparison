@@ -1,0 +1,12 @@
+{
+  "name": "pinn_reference",
+  "repr": "SharedSteadyPINN(\n  (encoder): Sequential(\n    (0): Conv2d(2, 8, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))\n    (1): Tanh()\n    (2): AvgPool2d(kernel_size=2, stride=2, padding=0)\n    (3): Conv2d(8, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))\n    (4): Tanh()\n    (5): AvgPool2d(kernel_size=2, stride=2, padding=0)\n  )\n  (global_head): Sequential(\n    (0): AdaptiveAvgPool2d(output_size=(4, 4))\n    (1): Flatten(start_dim=1, end_dim=-1)\n    (2): Linear(in_features=256, out_features=32, bias=True)\n    (3): Tanh()\n  )\n  (net): Sequential(\n    (0): Linear(in_features=71, out_features=192, bias=True)\n    (1): Tanh()\n    (2): Linear(in_features=192, out_features=192, bias=True)\n    (3): Tanh()\n    (4): Linear(in_features=192, out_features=192, bias=True)\n    (5): Tanh()\n    (6): Linear(in_features=192, out_features=192, bias=True)\n    (7): Tanh()\n    (8): Linear(in_features=192, out_features=2, bias=True)\n  )\n)",
+  "total_parameters": 134922,
+  "trainable_parameters": 134922,
+  "buffer_values": 49,
+  "core_parameter_values": 134922,
+  "core_buffer_values": 49,
+  "data_fitted_or_selected_core_scalars": 134922,
+  "counting_note": "ELM fixed random weights are buffers; SCN selected weights and CasCor frozen units also count as fitted/selected. Static coordinate buffers are not learned weights.",
+  "point_encoding": null
+}

@@ -1,0 +1,101 @@
+DOPLNENIE KLASICKÉHO FNO BEZ FAKTORIZÁCIE
+
+Prečo túto sériu dopĺňame
+Na požiadanie používateľa pridávame päť samostatných tréningov FNO bez
+faktorizácie Fourierových váh. Pôvodných 45 modelov, päť PINN referencií
+a všetky ich výsledky ostávajú zachované. Po doplnení bude 50 nových
+modelov desiatich rodín a päť historických PINN referencií.
+
+Oprava tvrdenia o autoroch FlowBench
+Autori vo vlastnom Training/codes/models/FNO.py importujú neuralop.models.TFNO
+a ich trieda TensorizedFNO ho priamo používa. Predchádzajúce tvrdenie v chate,
+že používajú samostatný klasický FNO, bolo nesprávne. Doterajší TFNO teda
+patrí k rovnakému typu siete ako ich implementácia; naše celé nastavenie
+nie je presná reprodukcia článku. Nový dense FNO je dodatočné porovnanie.
+Overený commit: 6877099b8883232138c73b2b6056ff01f7d3697b.
+Kód autorov:
+https://github.com/baskargroup/flowbench-tools/blob/6877099b8883232138c73b2b6056ff01f7d3697b/Training/codes/models/FNO.py
+
+Čo sa pri FNO mení
+Používame neuralop.models.FNO v rovnakom už overenom prostredí
+neuraloperator 2.0.0, torch 2.12.0+cu130. Oproti nášmu TFNO sú zachované
+módy 32 × 32, päť Fourierových vrstiev, 48 skrytých kanálov, lifting ratio 2,
+projection ratio 4 a rovnaké vstupy/výstupy. Factorization=None a rank=1.0
+znamenajú husté Fourierove tenzory. Parameter implementation='factorized'
+je názov kontrakčnej vetvy knižnice, nie zapnutie kompresie; faktorizačná
+metóda je explicitne None. Kontrolný beh overil aj core.factorization=None.
+
+Hustý model má 12 672 888 trénovateľných reálnych skalárov plus 10
+normalizačných hodnôt. Komplexné koeficienty sa počítajú ako dva reálne
+skaláre, rovnako ako v pôvodnej sérii. TFNO má približne 1,35 milióna.
+Nevynucujeme rovnaký počet parametrov za cenu zmeny hĺbky alebo šírky:
+hlavným dohodnutým porovnávacím rozpočtom sú pridelené zdroje. Preto sa
+väčšia kapacita aj dosiahnutá rýchlosť novej siete riadne vykážu.
+
+Rovnaké podmienky
+Rovnakých 640 TRAIN, 160 VAL a 200 TEST scenárov; pôvodný split a indexy.
+Celá geometria maska/SDF, Reynoldsovo číslo a spoločný plný vstupný adaptér.
+Bezstratové rozbalenie natívnych polí 512 × 512, rovnakých 665 vstupných
+a 192 výstupných kanálov na vnútornej mriežke 64 × 64. Natívny výstup u/v/p.
+Rovnaká normalizácia len z TRAIN, rovnaká fyzikálna reprezentácia a gauge.
+Rovnaká natívna vyvážená strata, Adam, orezanie gradientov na 1, časový
+kosínusový rozvrh učenia s minimom 1e-5 a najlepší úplný VAL checkpoint.
+Rovnaké H200, štyri CPU, 40 GiB host RAM, FP32, TF32 vypnuté, batch 1.
+Maximálne 4 H200-GPU-h a 16 CPU-core-h na každý hlavný tréning, vrátane
+načítania dát, učenia, validácií a uloženia checkpointov. Počet epoch
+nie je zhodovaný; v záznamoch bude skutočný počet návštev všetkých prípadov.
+Zdôvodnenie rozpočtu zostáva meraná spotreba piatich pôvodných PINN behov.
+
+Ladenie a hlavné tréningy
+Najprv dve hodinové skúšky rovnakých kandidátov ako pri ostatných rodinách:
+LR 0,001 alebo 0,0003, rovnaký tuning seed 933001. Vyberie sa najnižšia
+úplná priemerná validačná strata zo 160 VAL prípadov, zhoda sa rozhodne
+indexom konfigurácie. Žiadna hranica prijateľnej presnosti a žiadny výber
+podľa TEST. Následne päť nových tréningov od inicializácie s rovnakými
+hlavnými seedmi 931101 až 931105. Tuning checkpointy sa nepoužijú ako warm start.
+Validačné meranie prebieha každých približne päť minút rovnakým postupom.
+
+Kontrolný beh na kompletnom TRAIN/VAL podklade úspešne prešiel, použil
+51,8 sekundy zo 60-sekundového pracovného rozpočtu a každý tréningový
+prípad navštívil aspoň osemkrát. Ide o technickú kontrolu, nie šiesty
+záverečný vedecký model alebo dôkaz prijateľnej presnosti.
+
+Automatická postupnosť úloh
+157470: krátky GPU kontrolný beh a kontrola obnovy modelu, úspešne dokončený.
+157471: dve hodinové GPU skúšky konfigurácie, práve bežia.
+157472: CPU výber konfigurácie iba podľa VAL, po úspechu oboch skúšok.
+157473: päť hlavných GPU tréningov, každý max. štyri hodiny, po výbere.
+157474: CPU zmrazenie piatich váh a ich SHA, kontrola všetkých 640 návštev.
+157475: GPU kontrola obnovy piatich modelov na desiatich VAL poliach, bez TEST.
+157476: päť GPU TEST úloh, každá jeden model na všetkých 200 prípadoch.
+157477: následný nezávislý CPU audit všetkých uložených polí a časovaní.
+Závislosti afterok umožnia pokračovať iba po úspešnom predchádzajúcom kroku.
+Žiadna automatická výmena zdrojov, rozšírenie času alebo opakovanie po chybe.
+
+Rovnaké záverečné meranie
+Na model a prípad 100 zahrievacích a 1 000 meraných serializovaných volaní.
+Spolu pribudne 1 000 natívnych predikčných polí a milión párov GPU/host časov.
+Celý prechod modelom vrátane adaptéra sa meria so vstupmi na GPU. Prenos
+a vykreslenie sú mimo merania. Výstupy, surové časy, p50/p95/p99, počty
+prekročení 5 ms a najhoršie scenárové p99 sa zachovajú rovnako ako predtým.
+Použije sa nezmenená field_metrics, vrátane fyziky a jej CFD referencie.
+CPU audit opätovne prepočíta všetky polia a overí váhy a záznamy pomocou SHA.
+
+Zdrojová a dátová stopa
+Nová nemenná verzia r_c93033883d5f56d4, hashe a všetky úlohy v submission.json.
+Výber konfigurácie vznikne po ladení ako nemenný run_root/selection.json.
+Po tréningoch vznikne samostatný run_root/frozen_evaluation/models.json
+a config.json s presnými SHA všetkých piatich váh. Statické zdroje sa nemenia.
+Nová séria vzniká po zverejnení výsledkov pôvodnej série; neoznačuje sa za
+nový slepý test. Konfigurácie a váhy sa podľa nových TEST výsledkov nemenia.
+
+Limity a uloženie
+Skutočné Slurm limity: 0,05 GPU-h kontrola, 2 GPU-h ladenie, 20 GPU-h hlavné
+tréningy, 0,25 GPU-h záverečná kontrola a najviac 10 GPU-h testovanie.
+Horná hranica celého dodatku je 32,30 GPU-h, nie odhad očakávanej spotreby.
+V evaluation_template.json zostal konzervatívny zdedený údaj 60 GPU-h
+a poznámka o starom limite 11,9 hodiny; nie sú použité na spúšťanie.
+Platné limity nových úloh sú v submission.json a v predchádzajúcom odseku.
+Túto administratívnu nezrovnalosť výslovne evidujeme, nemá vplyv na meranie.
+Váhy, natívne polia a surové časovania ostávajú na Perune; do PC iba malé
+JSON/CSV/TXT/logy. Stav možno získať cez collect.py a výsledky sú v report/.

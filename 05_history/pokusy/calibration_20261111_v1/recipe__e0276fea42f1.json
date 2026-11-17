@@ -1,0 +1,8 @@
+{
+  "id": "dendrite_b",
+  "model": "dendrite",
+  "device": "cpu",
+  "overrides": {
+    "width": 192
+  }
+}

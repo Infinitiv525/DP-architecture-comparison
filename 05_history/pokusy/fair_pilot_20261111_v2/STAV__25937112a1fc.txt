@@ -1,0 +1,55 @@
+AKTUALNY STAV
+Rychly porovnavaci test CPU 156063 a GPU 156064 je dokonceny.
+Vsetkych 9 rodin preslo technickymi kontrolami na oboch zariadeniach.
+Samotne rychle meranie alokovalo 0.0028 GPU-h a 0.0400 CPU core-h
+podla Slurm runtime; nejde o portalove uctovanie.
+
+Na zaklade merania sa rozhodlo:
+- CPU: TFNO, ChebKAN, PiNet, DendriteNet, RealNPU, RBF, ELM.
+- GPU: SCN a CasCor, kde postupny rast na CPU trva prilis dlho.
+- Zatial ponechat 5 finalnych opakovani; ak pilot ukaze riziko
+  prekrocenia rozpoctu 500 GPU-h, znizit na 3.
+
+Uz odoslany nasledujuci pilot, nie cela finalna seria:
+156067: priprava uplnych TRAIN/VAL poli, dokoncena.
+156068: 14 CPU konfiguracii, maximalne 6 sucasne, limit 6 h na kazdu.
+156069: 4 GPU konfiguracie, maximalne 2 sucasne, limit 4 h na kazdu.
+Spolu 2 nastavenia na kazdu z 9 architektur.
+Gradientove modely: 50 epoch na 640 TRAIN + priebezne 160 VAL.
+ELM: dva kompletne vahovane fity vsetkych nativnych poli.
+SCN/CasCor: pilot rastu do 128 uzlov na vsetkych 640 TRAIN.
+Tento ciastocny rast sa nebude vydavat za finalne kapacitne zhodny model.
+
+Kontroly pred spustenim treningov presli: 640/160, vstup 665 kanalov
+na 64x64, vystup 192 kanalov na 64x64, bezstratove preskupenie
+nativnych 512x512 poli, ekvivalencia loss aj gradientov, blokove
+FP64 fitovanie, 9 ulozeni/obnov s nulovym rozdielom predikcie.
+Globalny geometricky opis na TRAIN: 100 geometrii, centrovana hodnost
+99 zo 99, ziadna kolizia. Cielove data sa na jeho tvorbu nepouzili.
+Plna povodna geometria zostava sucastou vstupu pre kazdy model.
+Cache ma 11.23 GB a zostava iba na Perune.
+
+Pilot ma strop 16 GPU-h. CPU pole najviac 336 core-h, hostitelske
+CPU jadra GPU uloh dalsich 64 core-h a priprava 8: spolu najviac
+408 CPU core-h za celu tuto etapu. Dalsie automaticke finalne spustanie
+nie je nastavene. Po vyhodnoteni pilotu vyberieme nastavenia podla VAL
+bez spolocneho prahu chyby a spresnime naklady piatich opakovani.
+Velke polia, vahy a checkpointy sa nestahuju do PC.
+Podrobnosti merania su vo VYSLEDOK_TESTU.txt a resource_decision.json.
+
+Prva priebezna kontrola: obe SCN konfiguracie dokoncili rast do 128
+uzlov. Kazdy z 640 TRAIN pripadov mal 129 vystupnych fitovacich
+navstev; kandidatove prechody su navyse. VAL su vysledky merania,
+nie potvrdenie poziadovanej presnosti. Ostatne konfiguracie este bezia.
+
+NOVE UPRESNENIE: prioritou je podobna vypoctova cena, nie dosiahnutie
+vopred urcenej presnosti. Pocet koeficientov nie je meradlom rovnakej
+ceny. Definicia kontrolovaneho rozpoctu (ucenie/predikcia/obe) sa
+upresnuje s pouzivatelom. Dovtedajsie piloty su kalibracia; finalne
+porovnanie sa zatial nespusta. Pozri POROVNANIE_CENY.txt.
+
+ROZHODNUTIE UPRESNENE: kazda rodina dostane rovnaky strop treningu na
+rovnakom H200. Novy primarny protokol je v susednom priecinku
+architecture_budgeted_20261111_v3/protokol.txt. Jednotne ladenie2x1h
+na rodinu uz bezi156096; hlavne behy maju pracovny strop8h/seed,
+planuje sa5opakovani. Tento zmiesany pilot je nadalej iba kalibracia.

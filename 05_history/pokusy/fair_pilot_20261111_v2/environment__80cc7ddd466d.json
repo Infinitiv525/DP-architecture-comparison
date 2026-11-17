@@ -1,0 +1,16 @@
+{
+  "device": "cuda",
+  "torch": "2.12.0+cu130",
+  "numpy": "2.5.4",
+  "host": "gpu20",
+  "CPU_threads": 4,
+  "GPU": "NVIDIA H200",
+  "weighted_solver_check": {
+    "max_beta_difference": 0.0,
+    "normal_equation_residual": [
+      2.6401741514774834e-16,
+      2.445601514400219e-16,
+      2.253547895343175e-16
+    ]
+  }
+}

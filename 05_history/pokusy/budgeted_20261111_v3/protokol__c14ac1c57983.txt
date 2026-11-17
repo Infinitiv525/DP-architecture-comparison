@@ -1,0 +1,110 @@
+POROVNANIE ARCHITEKTÚR PRI ROVNAKOM ROZPOČTE NA TRÉNING
+
+ROZHODNUTIE POUŽÍVATEĽA
+Chceme zistiť vhodnosť architektúr pri prakticky dostupných zdrojoch.
+Každá dostane rovnaký maximálny rozpočet na tréning. Presnosť je výsledok;
+nebude spoločný prah chyby ani dodatočné učenie slabších metód bez limitu.
+
+ČO JE ROVNAKÉ
+Hlavné rodiny: TFNO, ChebKAN, PiNet, DendriteNet, RealNPU, RBF, CasCor,
+ELM a SCN. Ide o dokumentované adaptácie so spoločným rozhraním.
+TFNO používa oficiálne jadro neuraloperator; tento upravený vstup a výstup
+nepredstavujú presnú reprodukciu publikovaných autorských skóre.
+Rovnaké masky/SDF v plnom rozlíšení, Reynoldsovo číslo, pevný spoločný
+adaptér, celé cieľové u/v/p polia, TRAIN normalizácia, 640 TRAIN a 160 VAL,
+rovnaká dátová loss a spôsob hodnotenia. TEST zostáva mimo učenia/ladenia.
+Všetkých deväť hlavných rodín používa pri porovnaní nákladov jednu H200,
+4 pridelené CPU jadrá, 48 GiB RAM a tú istú FP32 konfiguráciu bez TF32.
+
+Hodina na CPU sa nevyhlasuje za hodinu na GPU. Doterajší zmiešaný pilot
+je pomocná kalibrácia učenia a nákladov, nie finálne porovnanie pri rovnakom
+rozpočte. Príprava dát, kontroly a pomocné analýzy môžu ďalej bežať na CPU.
+Primárne porovnanie na rovnakom hardvéri bráni tomu, aby sa rozdiel
+zariadení vydával za rozdiel vhodnosti architektúr.
+
+PRACOVNÉ LIMITY
+Finálny nezávislý beh: najviac 8 hodín alokácie jednej H200.
+9 architektúr × 5 opakovaní × 8 hodín = maximálne 360 GPU-h.
+Spoločný plán ladenia: dve nastavenia na rodinu, najviac hodina na každé;
+spolu najviac 18 GPU-h. Ladenie a finálne učenie sa účtujú osobitne,
+pričom všetky rodiny majú rovnaké oba stropy.
+
+Horný rozpis štúdie od používateľom stanovených 500 GPU-h:
+  pôvodná zmiešaná kalibrácia:       najviac 16 GPU-h,
+  jednotné ladenie:                 najviac 18 GPU-h,
+  45 finálnych behov:               najviac 360 GPU-h,
+  rezerva na konečné vyhodnotenie:   60 GPU-h,
+  deväť minútových kontrol časovača: najviac 0,15 GPU-h.
+Spolu plánovaných najviac 454,15 GPU-h; zostáva 45,85 GPU-h rezervy.
+Ide o alokačné limity, nie sľub skutočnej spotreby ani portálové vyúčtovanie.
+Krátky prvý CPU/GPU benchmark spotreboval navyše približne 0,0028 GPU-h.
+Ak nové merania alebo zostávajúca kvóta vyžadujú úsporu, počet finálnych
+opakovaní znížime jednotne z piatich na tri: hlavný strop klesne na 216 GPU-h.
+
+ČO SA POČÍTA DO ČASU
+Čas celej GPU alokácie vrátane štartu procesu, nahratia spoločnej cache,
+konštrukcie siete, učenia/fitovania, validácií a uloženia checkpointov.
+Čakanie vo fronte sa nepočíta. Spoločná príprava datasetu sa vykazuje
+osobitne raz za štúdiu; nevykonáva sa ako skryté učenie pre jednu rodinu.
+Priebežné meranie začne zo skutočného RunTime plánovača a pokračuje
+monotónnymi hodinami. Konečný RunTime zo Slurmu je rozhodujúci pre účtovanie.
+
+Rozpočet je horný limit, nie povinnosť spotrebovať ho celý. ELM môže
+dokončiť svoj priamy fit skôr. SCN môže skončiť bez prípustného kandidáta
+alebo dosiahnutím plánovanej kapacity. Tieto dôvody aj skutočná spotreba
+sa uvedú. Nebudeme opakovať zbytočnú prácu, aby čísla hodín vyzerali rovnako.
+
+Gradientové siete už nemajú pevný spoločný koniec po 400 epochách.
+Pokračujú do časového limitu; rýchlejšia metóda môže vykonať viac krokov.
+Learning rate klesá podľa podielu spotrebovaného časového rozpočtu.
+Všetky metódy majú rovnaké úplné validačné hodnotenie podľa časového plánu.
+Vyberie sa najlepší dostupný VAL checkpoint každej metódy vrátane
+konštrukčných. Uvedie sa jeho skutočná veľkosť aj cena celého vykonaného
+tréningu, teda aj práca po neskoršom zlepšení/preučení; účet sa nevráti
+na skorší čas, v ktorom vybraný checkpoint vznikol.
+
+Približne 1,35 milióna koeficientov zostáva východiskom kapacitného návrhu,
+nie náhradou za meranie ceny. Konštrukčné siete môžu v limite dosiahnuť
+inú veľkosť; vykáže sa posledná aj vybraná kapacita. Pevné náhodné,
+učené, fitované a podľa dát vybrané koeficienty sa uvádzajú samostatne.
+
+Ukončenie podľa rozpočtu znamená výsledok experimentu, nie automaticky
+chybný výpočet. Nekonečné hodnoty, nesprávne dáta alebo poškodené váhy
+sú samostatné technické zlyhanie a tiež sa zaznamenajú. Opravy a opakovania
+sa nesmú zatajiť pri účtovaní. Pokračovanie po prerušení vyžaduje audit
+celého času pôvodnej alokácie a smie čerpať len zvyšok spoločného rozpočtu.
+
+ČO BUDE VÝSLEDKOM
+Chyba v závislosti od spotrebovaného času, skutočné náklady učenia,
+dosiahnutá kapacita, pamäť a rýchlosť celej predikcie na rovnakom H200.
+Podmienka 5 ms sa posúdi samostatne podľa p50/p95/p99. Presnosť ani
+splnenie 5 ms sa nepoužijú na potichu vynechanie nepohodlných architektúr.
+Závery budú platiť pre tieto implementácie, dáta, hardvér a rozpočty.
+Nebudeme z nich tvrdiť absolútnu nevhodnosť celej rodiny pre všetky úlohy.
+
+AKTUÁLNY STAV
+Implementovaný je časovo obmedzený worker a kontrola alokačného času.
+Všetkých deväť jednominútových integračných skúšok na H200 skončilo
+úspešne aj podľa konečného stavu plánovača (156083). Spustené je jednotné
+hodinové ladenie 156096: dve konfigurácie na každú z deviatich rodín,
+maximálne štyri GPU naraz. Hlavných 45 behov sa ešte nespustilo.
+Po ladení sa zmrazia konfigurácie; hlavná séria sa nepredspúšťa automaticky. Pôvodné zdroje, váhy a výsledky sa nemenia.
+Pôvodná PINN je naďalej iba samostatná archivovaná vedľajšia referencia.
+
+ZDROJE A VLASTNÉ VOĽBY
+Benchmarking Neural Network Training Algorithms (AlgoPerf) používa
+štandardizovaný hardvér a osobitne rieši meranie času aj ladenie.
+Preberáme zásadu kontrolovaného hardvéru, nie ich presný benchmark.
+https://arxiv.org/abs/2306.07179
+PyTorch CUDA semantics opisuje asynchrónne výpočty a ich synchronizované
+časovanie. Na meracích hraniciach sa GPU synchronizuje.
+https://docs.pytorch.org/docs/2.12/notes/cuda.html
+Hodina ladenia a osem hodín finálneho behu sú naše experimentálne
+limity odvodené od dostupnej kvóty; nepochádzajú z týchto publikácií.
+
+AKTUALIZACIA PO UPRESNENI POUZIVATELA: vsetkych18ladeni hotovych a
+nezavisle overenych na160VALkazdeho modelu. Povodny8h hlavnyplan
+nebol spusteny. Primarnyprotokol je teraz susedny architecture_budget_main_20261111_v1/protokol.txt.
+Rozpocet je4H200-GPU-h +16CPUcore-h +40GiBRAMna beh, empiricky
+odvodenyz5meranychreferencnychPINN.Po9uspesnychminutovychkontrolach
+bolaodoslanahlavnadavka156499:45novychbehov,5opakovanin arodinu,max8GPU.

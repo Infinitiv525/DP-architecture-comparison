@@ -1,0 +1,7 @@
+{
+  "parent_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921105/training/chebkan_a/last.pt",
+  "parent_sha256": "c88bdbfab48e47d0ad75249f6827b90907fcd205ca157c82a5686eb9b409c8a2",
+  "parent_optimizer_sha256": "dc8d272d76cff295aa203069915d4f299bd00316e48dc5a1fcf6aaa505c2a6a2",
+  "rule": "resume all Adam moments and RNG; extra epochs at constant saved minimum LR",
+  "constant_lr": 1e-05
+}

@@ -1,0 +1,23 @@
+{
+  "author_repository": "https://github.com/baskargroup/flowbench-tools",
+  "author_commit": "6877099b8883232138c73b2b6056ff01f7d3697b",
+  "author_model_path": "Training/codes/models/FNO.py",
+  "author_model_git_blob": "2ff7f9c4e43d075483d57005172b24154a2ed4ba",
+  "author_model_url": "https://github.com/baskargroup/flowbench-tools/blob/6877099b8883232138c73b2b6056ff01f7d3697b/Training/codes/models/FNO.py",
+  "author_actual_implementation": "TensorizedFNO wrapper instantiates neuralop.models.TFNO; not a separate dense FNO.",
+  "correction": "Earlier chat claim that FlowBench authors use a separate classical FNO was incorrect.",
+  "implementation": "neuralop.models.FNO, neuraloperator==2.0.0, factorization=None, rank=1.0",
+  "documentation": "https://neuraloperator.github.io/dev/modules/generated/neuralop.models.FNO.html",
+  "backbone_comparator": "Completed TFNO: modes32x32, five layers, width48, Tucker rank0.1",
+  "shared_input_output_adapter": true,
+  "unchanged_native_loss": true,
+  "original_worker_sha256": "fe19e1905943336477cc587af00779e944810fb65a07aa9934473c1eaf567997",
+  "original_learning_loop_sha256": "c943de457bf859f30cc459351b2b5853c9f691db0e618d76243d188221aa0574",
+  "learning_loop_change": "Only selection manifest location changes to immutable runtime-generated run_root/selection.json; optimization loop is identical.",
+  "changes": [
+    "one family name fno",
+    "dense FNO constructor and loader",
+    "TRAIN/VAL-only two-candidate selection at run time"
+  ],
+  "all_previous_checkpoints_and_results_unchanged": true
+}

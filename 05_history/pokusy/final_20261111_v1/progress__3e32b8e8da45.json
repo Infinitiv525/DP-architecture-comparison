@@ -1,0 +1,125 @@
+[
+  {
+    "status": "FINAL50_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "tfno_s921101",
+      "model": "tfno",
+      "seed": 921101,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/tfno_s921101/training/tfno_b/best.pt",
+      "checkpoint_sha256": "c1404dadc1fe3b1dc88ecb6b29663223aec772f89dcc6ce627b88cb70f70b687",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 4.0385525292075305e-06,
+          "velocity_l2": 0.013454253087267283,
+          "pressure_l2": 0.049281869695382376
+        },
+        {
+          "index": 952,
+          "mse": 8.781288653427786e-06,
+          "velocity_l2": 0.00879116290651026,
+          "pressure_l2": 0.01585760259304262
+        }
+      ],
+      "counts": {
+        "parameter_elements": 646194,
+        "parameter_real_scalars": 1253289,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    "means": {
+      "all_cell_mse": 8.172353027696849e-06,
+      "fluid_velocity_relative_l2": 0.009787523334098191,
+      "fluid_pressure_relative_l2": 0.02913938214200562
+    },
+    "worst_case_gpu_p99_ms": 5.172988018989563,
+    "worst_case_host_p99_ms": 5.19482431,
+    "gpu_5ms_pass": false,
+    "host_instrumented_5ms_pass": false,
+    "elapsed_seconds": 1145.5162460850552
+  },
+  {
+    "status": "FINAL50_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "tfno_s921102",
+      "model": "tfno",
+      "seed": 921102,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/tfno_s921102/training/tfno_b/best.pt",
+      "checkpoint_sha256": "1f5b26a9a457ba6fa02defd7e65537a27450f52620b5e4a66794955cd05a94c5",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 4.023621798021172e-06,
+          "velocity_l2": 0.013241514541585541,
+          "pressure_l2": 0.05247944401277525
+        },
+        {
+          "index": 952,
+          "mse": 8.689055579545213e-06,
+          "velocity_l2": 0.008653314712136834,
+          "pressure_l2": 0.01580161052086215
+        }
+      ],
+      "counts": {
+        "parameter_elements": 646194,
+        "parameter_real_scalars": 1253289,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    "means": {
+      "all_cell_mse": 1.1079414762844836e-05,
+      "fluid_velocity_relative_l2": 0.010268860389022751,
+      "fluid_pressure_relative_l2": 0.02848784062525426
+    },
+    "worst_case_gpu_p99_ms": 5.171270890235901,
+    "worst_case_host_p99_ms": 5.19090771,
+    "gpu_5ms_pass": false,
+    "host_instrumented_5ms_pass": false,
+    "elapsed_seconds": 1141.8675692630932
+  },
+  {
+    "status": "FINAL50_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "tfno_s921103",
+      "model": "tfno",
+      "seed": 921103,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/tfno_s921103/training/tfno_b/best.pt",
+      "checkpoint_sha256": "e7c8ade3c2202067aa00e7007bb618b5d2054e7cbb3e151e40780fb5608f592b",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 4.098290107468493e-06,
+          "velocity_l2": 0.013177894593528493,
+          "pressure_l2": 0.05598696117450844
+        },
+        {
+          "index": 952,
+          "mse": 9.261436415048435e-06,
+          "velocity_l2": 0.008631288421025517,
+          "pressure_l2": 0.01640231873729473
+        }
+      ],
+      "counts": {
+        "parameter_elements": 646194,
+        "parameter_real_scalars": 1253289,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    "means": {
+      "all_cell_mse": 8.532914621393546e-06,
+      "fluid_velocity_relative_l2": 0.00998129991320036,
+      "fluid_pressure_relative_l2": 0.02976915888014851
+    },
+    "worst_case_gpu_p99_ms": 5.165491552352905,
+    "worst_case_host_p99_ms": 5.1839929399999995,
+    "gpu_5ms_pass": false,
+    "host_instrumented_5ms_pass": false,
+    "elapsed_seconds": 1142.2329959520139
+  }
+]

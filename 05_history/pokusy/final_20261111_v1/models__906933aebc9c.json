@@ -1,0 +1,1509 @@
+{
+  "status": "FINAL50_MODEL_MANIFEST_FROZEN",
+  "models": [
+    {
+      "id": "tfno_s921101",
+      "model": "tfno",
+      "seed": 921101,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/tfno_s921101/training/tfno_b/best.pt",
+      "checkpoint_sha256": "c1404dadc1fe3b1dc88ecb6b29663223aec772f89dcc6ce627b88cb70f70b687",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 4.0385525292075305e-06,
+          "velocity_l2": 0.013454253087267283,
+          "pressure_l2": 0.049281869695382376
+        },
+        {
+          "index": 952,
+          "mse": 8.781288653427786e-06,
+          "velocity_l2": 0.00879116290651026,
+          "pressure_l2": 0.01585760259304262
+        }
+      ],
+      "counts": {
+        "parameter_elements": 646194,
+        "parameter_real_scalars": 1253289,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "tfno_s921102",
+      "model": "tfno",
+      "seed": 921102,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/tfno_s921102/training/tfno_b/best.pt",
+      "checkpoint_sha256": "1f5b26a9a457ba6fa02defd7e65537a27450f52620b5e4a66794955cd05a94c5",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 4.023621798021172e-06,
+          "velocity_l2": 0.013241514541585541,
+          "pressure_l2": 0.05247944401277525
+        },
+        {
+          "index": 952,
+          "mse": 8.689055579545213e-06,
+          "velocity_l2": 0.008653314712136834,
+          "pressure_l2": 0.01580161052086215
+        }
+      ],
+      "counts": {
+        "parameter_elements": 646194,
+        "parameter_real_scalars": 1253289,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "tfno_s921103",
+      "model": "tfno",
+      "seed": 921103,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/tfno_s921103/training/tfno_b/best.pt",
+      "checkpoint_sha256": "e7c8ade3c2202067aa00e7007bb618b5d2054e7cbb3e151e40780fb5608f592b",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 4.098290107468493e-06,
+          "velocity_l2": 0.013177894593528493,
+          "pressure_l2": 0.05598696117450844
+        },
+        {
+          "index": 952,
+          "mse": 9.261436415048435e-06,
+          "velocity_l2": 0.008631288421025517,
+          "pressure_l2": 0.01640231873729473
+        }
+      ],
+      "counts": {
+        "parameter_elements": 646194,
+        "parameter_real_scalars": 1253289,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "tfno_s921104",
+      "model": "tfno",
+      "seed": 921104,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/tfno_s921104/training/tfno_b/best.pt",
+      "checkpoint_sha256": "da618243cfad38eff9869fc016f7fd3ed2a9452b6a2e2859c320c16eed1d8b17",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 3.31881686788113e-06,
+          "velocity_l2": 0.011533003882785798,
+          "pressure_l2": 0.05519783603890977
+        },
+        {
+          "index": 952,
+          "mse": 8.608262422642879e-06,
+          "velocity_l2": 0.00907775664107737,
+          "pressure_l2": 0.015584804750894311
+        }
+      ],
+      "counts": {
+        "parameter_elements": 646194,
+        "parameter_real_scalars": 1253289,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "tfno_s921105",
+      "model": "tfno",
+      "seed": 921105,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/tfno_s921105/training/tfno_b/best.pt",
+      "checkpoint_sha256": "dcfe7db2af7d1bdb7bba6a62505a4c0e3793771c41740a11e5762d4f08df3944",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 3.7227581494496126e-06,
+          "velocity_l2": 0.01256098761645082,
+          "pressure_l2": 0.05333904252509173
+        },
+        {
+          "index": 952,
+          "mse": 8.459836317408753e-06,
+          "velocity_l2": 0.008484149474729653,
+          "pressure_l2": 0.015607935370497582
+        }
+      ],
+      "counts": {
+        "parameter_elements": 646194,
+        "parameter_real_scalars": 1253289,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "chebkan_s921101",
+      "model": "chebkan",
+      "seed": 921101,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921101/continuation/best.pt",
+      "checkpoint_sha256": "44cbd7b639ccfbfa0fb3f4e80b32481cb104e0b17fdff5ab4dbfe41e2ce6a0ba",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.00012206267906429645,
+          "velocity_l2": 0.06487759136046045,
+          "pressure_l2": 0.3970309691466976
+        },
+        {
+          "index": 952,
+          "mse": 0.0008725805476689666,
+          "velocity_l2": 0.0851669880259483,
+          "pressure_l2": 0.15880762456687333
+        }
+      ],
+      "counts": {
+        "parameter_elements": 11843,
+        "parameter_real_scalars": 11843,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "chebkan_s921102",
+      "model": "chebkan",
+      "seed": 921102,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921102/continuation/best.pt",
+      "checkpoint_sha256": "80cff99646214f7f2c8075f984f31016a1876457846706d25a727263aa8bc07f",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.00011972310103646356,
+          "velocity_l2": 0.06281127882253273,
+          "pressure_l2": 0.40845684566009305
+        },
+        {
+          "index": 952,
+          "mse": 0.0007447076066584708,
+          "velocity_l2": 0.07312224518557454,
+          "pressure_l2": 0.14826991610862342
+        }
+      ],
+      "counts": {
+        "parameter_elements": 11843,
+        "parameter_real_scalars": 11843,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "chebkan_s921103",
+      "model": "chebkan",
+      "seed": 921103,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921103/continuation/best.pt",
+      "checkpoint_sha256": "3615c8b2d5fafbba0fd737c8f2f67f8cebcbc74c3e3b5a9e9ac4b5ac7107891c",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.0001303424197106702,
+          "velocity_l2": 0.06514838469871108,
+          "pressure_l2": 0.4301527075699173
+        },
+        {
+          "index": 952,
+          "mse": 0.0007774347189265708,
+          "velocity_l2": 0.08326815640642607,
+          "pressure_l2": 0.14904040717162112
+        }
+      ],
+      "counts": {
+        "parameter_elements": 11843,
+        "parameter_real_scalars": 11843,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "chebkan_s921104",
+      "model": "chebkan",
+      "seed": 921104,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921104/continuation/best.pt",
+      "checkpoint_sha256": "4f916e44004998d5008dfec1aa4d363fe4bce91c7203d84b85b11fe266261a84",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.00012084437368036092,
+          "velocity_l2": 0.06590573501032086,
+          "pressure_l2": 0.379845036187905
+        },
+        {
+          "index": 952,
+          "mse": 0.0007422493933840631,
+          "velocity_l2": 0.08950639312424888,
+          "pressure_l2": 0.1429998146595924
+        }
+      ],
+      "counts": {
+        "parameter_elements": 11843,
+        "parameter_real_scalars": 11843,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "chebkan_s921105",
+      "model": "chebkan",
+      "seed": 921105,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921105/continuation/best.pt",
+      "checkpoint_sha256": "a1043be48ffe837c916d92da22b659e187ecaf8acd065f2ea9109b7081282bd4",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.00015717425426448487,
+          "velocity_l2": 0.07198498799287346,
+          "pressure_l2": 0.4678276843807449
+        },
+        {
+          "index": 952,
+          "mse": 0.000935802783233276,
+          "velocity_l2": 0.08643252030158081,
+          "pressure_l2": 0.16497057751192795
+        }
+      ],
+      "counts": {
+        "parameter_elements": 11843,
+        "parameter_real_scalars": 11843,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "pinet_s921101",
+      "model": "pinet",
+      "seed": 921101,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/pinet_s921101/training/pinet_a/best.pt",
+      "checkpoint_sha256": "b6eee380d55b3e7a9525581fdc808cfc1750063a847060735c342443191bde08",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.0021038499070705715,
+          "velocity_l2": 0.14915069201664108,
+          "pressure_l2": 2.4645636862707625
+        },
+        {
+          "index": 952,
+          "mse": 0.005175666425373447,
+          "velocity_l2": 0.14035526925766595,
+          "pressure_l2": 0.4028740306594372
+        }
+      ],
+      "counts": {
+        "parameter_elements": 16995,
+        "parameter_real_scalars": 16995,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "pinet_s921102",
+      "model": "pinet",
+      "seed": 921102,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/pinet_s921102/training/pinet_a/best.pt",
+      "checkpoint_sha256": "2d083d99a8c2a060d454ab3864cd479f9209929aaa3fffcc82ba5c50f09ffe9b",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.0022641187973649946,
+          "velocity_l2": 0.14875545391064807,
+          "pressure_l2": 2.580261863971081
+        },
+        {
+          "index": 952,
+          "mse": 0.005118837337811518,
+          "velocity_l2": 0.14260797201145084,
+          "pressure_l2": 0.400074796477429
+        }
+      ],
+      "counts": {
+        "parameter_elements": 16995,
+        "parameter_real_scalars": 16995,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "pinet_s921103",
+      "model": "pinet",
+      "seed": 921103,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/pinet_s921103/training/pinet_a/best.pt",
+      "checkpoint_sha256": "051e3d9b4b35ad037c0e962361affd1c3e1ab7d2b1cac3592b5946cf0e8e03a5",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.0022161200650809712,
+          "velocity_l2": 0.14805121519587242,
+          "pressure_l2": 2.5493627152987437
+        },
+        {
+          "index": 952,
+          "mse": 0.005081138562060585,
+          "velocity_l2": 0.14356232974612204,
+          "pressure_l2": 0.39830951579097457
+        }
+      ],
+      "counts": {
+        "parameter_elements": 16995,
+        "parameter_real_scalars": 16995,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "pinet_s921104",
+      "model": "pinet",
+      "seed": 921104,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/pinet_s921104/training/pinet_a/best.pt",
+      "checkpoint_sha256": "0ed42e781862c85dc7f85180a10c1ca452279ca5e2f689730843d8ebf06d66fc",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.0022221395595038145,
+          "velocity_l2": 0.14964898173357888,
+          "pressure_l2": 2.5473774502384106
+        },
+        {
+          "index": 952,
+          "mse": 0.00511066088625477,
+          "velocity_l2": 0.14297719067760847,
+          "pressure_l2": 0.39966106883507774
+        }
+      ],
+      "counts": {
+        "parameter_elements": 16995,
+        "parameter_real_scalars": 16995,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "pinet_s921105",
+      "model": "pinet",
+      "seed": 921105,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/pinet_s921105/training/pinet_a/best.pt",
+      "checkpoint_sha256": "752f280ae7891edd13dbe1df58d8b8ec20bff4a6d62de044a5df6d75cc2bd124",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.00226354422951572,
+          "velocity_l2": 0.14891415816097675,
+          "pressure_l2": 2.5792506767043575
+        },
+        {
+          "index": 952,
+          "mse": 0.005071197916460209,
+          "velocity_l2": 0.14262030799829065,
+          "pressure_l2": 0.3980767488378152
+        }
+      ],
+      "counts": {
+        "parameter_elements": 16995,
+        "parameter_real_scalars": 16995,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "dendrite_s921101",
+      "model": "dendrite",
+      "seed": 921101,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/dendrite_s921101/training/dendrite_a/best.pt",
+      "checkpoint_sha256": "545066db7c4139a01c65a4244d8d73b1edf1c28e2f661e9269cf1a7dd488061f",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.002100935194586306,
+          "velocity_l2": 0.14852217939763154,
+          "pressure_l2": 2.4649723372110848
+        },
+        {
+          "index": 952,
+          "mse": 0.0051965682424281665,
+          "velocity_l2": 0.14242932323504298,
+          "pressure_l2": 0.40334420058649945
+        }
+      ],
+      "counts": {
+        "parameter_elements": 24291,
+        "parameter_real_scalars": 24291,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "dendrite_s921102",
+      "model": "dendrite",
+      "seed": 921102,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/dendrite_s921102/training/dendrite_a/best.pt",
+      "checkpoint_sha256": "1ba3b8e0fc3f5ba015d04950f6a4a02d730c81770d015c25414d8315595baea5",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.00217042223846581,
+          "velocity_l2": 0.14710289826912987,
+          "pressure_l2": 2.520663867256729
+        },
+        {
+          "index": 952,
+          "mse": 0.005147764170065598,
+          "velocity_l2": 0.1427793100486314,
+          "pressure_l2": 0.401248490858596
+        }
+      ],
+      "counts": {
+        "parameter_elements": 24291,
+        "parameter_real_scalars": 24291,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "dendrite_s921103",
+      "model": "dendrite",
+      "seed": 921103,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/dendrite_s921103/training/dendrite_a/best.pt",
+      "checkpoint_sha256": "02db390f18ef6204e46ea3a13854077b7764d007630be8fd9c8715ffaa2abd34",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.002132857513043203,
+          "velocity_l2": 0.1489278386187714,
+          "pressure_l2": 2.4865089928591857
+        },
+        {
+          "index": 952,
+          "mse": 0.005212887650275715,
+          "velocity_l2": 0.143683654366604,
+          "pressure_l2": 0.40377779222812876
+        }
+      ],
+      "counts": {
+        "parameter_elements": 24291,
+        "parameter_real_scalars": 24291,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "dendrite_s921104",
+      "model": "dendrite",
+      "seed": 921104,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/dendrite_s921104/training/dendrite_a/best.pt",
+      "checkpoint_sha256": "ca98cc19d4bb03b23b4ea3a36c08403fa2f948594cba623cb9c5673050fcbb17",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.002294767483876393,
+          "velocity_l2": 0.1484889243299071,
+          "pressure_l2": 2.602528437400679
+        },
+        {
+          "index": 952,
+          "mse": 0.005093362549506245,
+          "velocity_l2": 0.14218235839230703,
+          "pressure_l2": 0.3990916960790095
+        }
+      ],
+      "counts": {
+        "parameter_elements": 24291,
+        "parameter_real_scalars": 24291,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "dendrite_s921105",
+      "model": "dendrite",
+      "seed": 921105,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/dendrite_s921105/training/dendrite_a/best.pt",
+      "checkpoint_sha256": "e71c5f578c4ecdb4c75a5c8ebbfc086932e47d8c14f715175824b37959c5d1a5",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.0022736826128148474,
+          "velocity_l2": 0.14802305497352872,
+          "pressure_l2": 2.5897141047989245
+        },
+        {
+          "index": 952,
+          "mse": 0.005062755289987956,
+          "velocity_l2": 0.14230901520199218,
+          "pressure_l2": 0.39778283008105436
+        }
+      ],
+      "counts": {
+        "parameter_elements": 24291,
+        "parameter_real_scalars": 24291,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "realnpu_s921101",
+      "model": "realnpu",
+      "seed": 921101,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/realnpu_s921101/training/realnpu_b/best.pt",
+      "checkpoint_sha256": "6a430d53c919a61cd88a03623a3409ab745489e2f46aa765bee311ef8d4c93df",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.0005466690774990051,
+          "velocity_l2": 0.1408851468492295,
+          "pressure_l2": 0.7996156740157601
+        },
+        {
+          "index": 952,
+          "mse": 0.002141497805058162,
+          "velocity_l2": 0.18441330116634755,
+          "pressure_l2": 0.23034353081283124
+        }
+      ],
+      "counts": {
+        "parameter_elements": 3900,
+        "parameter_real_scalars": 3900,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "realnpu_s921102",
+      "model": "realnpu",
+      "seed": 921102,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/realnpu_s921102/training/realnpu_b/best.pt",
+      "checkpoint_sha256": "bff8f4ffba44a9797399d7e8b407e893086301318816c5f02f5a5c9bdf228e38",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.0004780204184615429,
+          "velocity_l2": 0.13825245379034984,
+          "pressure_l2": 0.6646718352172827
+        },
+        {
+          "index": 952,
+          "mse": 0.002054384898278883,
+          "velocity_l2": 0.18025686557101778,
+          "pressure_l2": 0.2257697182916305
+        }
+      ],
+      "counts": {
+        "parameter_elements": 3900,
+        "parameter_real_scalars": 3900,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "realnpu_s921103",
+      "model": "realnpu",
+      "seed": 921103,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/realnpu_s921103/training/realnpu_b/best.pt",
+      "checkpoint_sha256": "3ee0f9b6f9191b793964aa4886fa004dd8f30303fdf67aa7c54103a8fa606b4d",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.0005475428203911719,
+          "velocity_l2": 0.1434091652383874,
+          "pressure_l2": 0.7711251339170172
+        },
+        {
+          "index": 952,
+          "mse": 0.0029777563831633958,
+          "velocity_l2": 0.1937984290137793,
+          "pressure_l2": 0.2812171652685274
+        }
+      ],
+      "counts": {
+        "parameter_elements": 3900,
+        "parameter_real_scalars": 3900,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "realnpu_s921104",
+      "model": "realnpu",
+      "seed": 921104,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/realnpu_s921104/training/realnpu_b/best.pt",
+      "checkpoint_sha256": "27f27d0760293563a1d908fe5d735d757a2401251c1aabdfaa62b4a7ed0275e1",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.0005140992226462066,
+          "velocity_l2": 0.14308914402215797,
+          "pressure_l2": 0.6932502706845972
+        },
+        {
+          "index": 952,
+          "mse": 0.0025241404971633238,
+          "velocity_l2": 0.18123462640792695,
+          "pressure_l2": 0.25784791515930705
+        }
+      ],
+      "counts": {
+        "parameter_elements": 3900,
+        "parameter_real_scalars": 3900,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "realnpu_s921105",
+      "model": "realnpu",
+      "seed": 921105,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/realnpu_s921105/training/realnpu_b/best.pt",
+      "checkpoint_sha256": "c4725cb32e0565fac5520641f523017e896f5b247e33aa841f1e876cb623acde",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.0005440865751544857,
+          "velocity_l2": 0.14116412341472692,
+          "pressure_l2": 0.790477869691168
+        },
+        {
+          "index": 952,
+          "mse": 0.002391145602307111,
+          "velocity_l2": 0.20098870966788301,
+          "pressure_l2": 0.24066985106629757
+        }
+      ],
+      "counts": {
+        "parameter_elements": 3900,
+        "parameter_real_scalars": 3900,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "rbf_s921101",
+      "model": "rbf",
+      "seed": 921101,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/rbf_s921101/training/rbf_b/best.pt",
+      "checkpoint_sha256": "599f51d1e14b70d28de1ea9f130be60a0fbdf15643f253c4f11aa623c38ec312",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.004040864243218095,
+          "velocity_l2": 0.24393369485465627,
+          "pressure_l2": 3.2475905985535487
+        },
+        {
+          "index": 952,
+          "mse": 0.013328382287863708,
+          "velocity_l2": 0.24964458214189014,
+          "pressure_l2": 0.6416026199824366
+        }
+      ],
+      "counts": {
+        "parameter_elements": 11715,
+        "parameter_real_scalars": 11715,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "rbf_s921102",
+      "model": "rbf",
+      "seed": 921102,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/rbf_s921102/training/rbf_b/best.pt",
+      "checkpoint_sha256": "cabe8de762361c36de2d15ba52c3c985e2913f0524faeec03360f41942a9e928",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.004018520016183847,
+          "velocity_l2": 0.24883862263505152,
+          "pressure_l2": 3.210179662666405
+        },
+        {
+          "index": 952,
+          "mse": 0.013086977424011584,
+          "velocity_l2": 0.2480516753700958,
+          "pressure_l2": 0.6356215875966117
+        }
+      ],
+      "counts": {
+        "parameter_elements": 11715,
+        "parameter_real_scalars": 11715,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "rbf_s921103",
+      "model": "rbf",
+      "seed": 921103,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/rbf_s921103/training/rbf_b/best.pt",
+      "checkpoint_sha256": "91860268b57fef8b52566aa78c02f4fdbc3f98d2a856105082c96879a688a9e8",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.004036058220019465,
+          "velocity_l2": 0.24722182059527206,
+          "pressure_l2": 3.2282802077221575
+        },
+        {
+          "index": 952,
+          "mse": 0.013068858259425541,
+          "velocity_l2": 0.24864829373358877,
+          "pressure_l2": 0.6350176442610371
+        }
+      ],
+      "counts": {
+        "parameter_elements": 11715,
+        "parameter_real_scalars": 11715,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "rbf_s921104",
+      "model": "rbf",
+      "seed": 921104,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/rbf_s921104/training/rbf_b/best.pt",
+      "checkpoint_sha256": "0d7254949e3a8424353723f3078e278a72112d24d3a287b40f7298498874a769",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.0040227017358853735,
+          "velocity_l2": 0.24155100557455378,
+          "pressure_l2": 3.249429548062494
+        },
+        {
+          "index": 952,
+          "mse": 0.01287741326105641,
+          "velocity_l2": 0.24038471435517675,
+          "pressure_l2": 0.6317039432961902
+        }
+      ],
+      "counts": {
+        "parameter_elements": 11715,
+        "parameter_real_scalars": 11715,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "rbf_s921105",
+      "model": "rbf",
+      "seed": 921105,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/rbf_s921105/training/rbf_b/best.pt",
+      "checkpoint_sha256": "e2d61a2cb2148f0aeb848e457acd07ee5cd95a436fd281b8720e7a152383e48d",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.003978258344224651,
+          "velocity_l2": 0.24155988937299053,
+          "pressure_l2": 3.224721445630763
+        },
+        {
+          "index": 952,
+          "mse": 0.0131506552211649,
+          "velocity_l2": 0.24183284053282686,
+          "pressure_l2": 0.6385960982904602
+        }
+      ],
+      "counts": {
+        "parameter_elements": 11715,
+        "parameter_real_scalars": 11715,
+        "buffer_elements": 0,
+        "buffer_real_scalars": 0
+      }
+    },
+    {
+      "id": "cascor_s921101",
+      "model": "cascor",
+      "seed": 921101,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/cascor_s921101/training/cascor_a/best.pt",
+      "checkpoint_sha256": "9d169de59ddad2a8811084f7ca68e842b7847ce2d75c5cc505d6e41efda1e233",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.004995243313527825,
+          "velocity_l2": 0.3609329243335007,
+          "pressure_l2": 3.041812723917714
+        },
+        {
+          "index": 952,
+          "mse": 0.018364918633741654,
+          "velocity_l2": 0.3533071729067808,
+          "pressure_l2": 0.7388983851255643
+        }
+      ],
+      "counts": {
+        "parameter_elements": 2352,
+        "parameter_real_scalars": 2352,
+        "buffer_elements": 270,
+        "buffer_real_scalars": 270
+      }
+    },
+    {
+      "id": "cascor_s921102",
+      "model": "cascor",
+      "seed": 921102,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/cascor_s921102/training/cascor_a/best.pt",
+      "checkpoint_sha256": "0fa26c704edd852a367e7dedd25e4c73ea9f9fdd7ca2bc61649f9d8f9af40a06",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.004949411131406221,
+          "velocity_l2": 0.3474722847885105,
+          "pressure_l2": 3.1183915175059487
+        },
+        {
+          "index": 952,
+          "mse": 0.0164046827589674,
+          "velocity_l2": 0.3740649395981026,
+          "pressure_l2": 0.6871664654881663
+        }
+      ],
+      "counts": {
+        "parameter_elements": 2352,
+        "parameter_real_scalars": 2352,
+        "buffer_elements": 270,
+        "buffer_real_scalars": 270
+      }
+    },
+    {
+      "id": "cascor_s921103",
+      "model": "cascor",
+      "seed": 921103,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/cascor_s921103/training/cascor_a/best.pt",
+      "checkpoint_sha256": "f79bd7b9821724f4d0af2152a76c6425523ce30bf63d2274cf99c232bc2867ee",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.004809567434936762,
+          "velocity_l2": 0.33174172878255065,
+          "pressure_l2": 3.151985465572096
+        },
+        {
+          "index": 952,
+          "mse": 0.015199022950181261,
+          "velocity_l2": 0.34497466538937704,
+          "pressure_l2": 0.6658013539656443
+        }
+      ],
+      "counts": {
+        "parameter_elements": 2352,
+        "parameter_real_scalars": 2352,
+        "buffer_elements": 270,
+        "buffer_real_scalars": 270
+      }
+    },
+    {
+      "id": "cascor_s921104",
+      "model": "cascor",
+      "seed": 921104,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/cascor_s921104/training/cascor_a/best.pt",
+      "checkpoint_sha256": "80af8782195b9798a8420d3e35f5c7b28ad7cc43a907fdfe5ab9fdd12370fe8c",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.005310484162311871,
+          "velocity_l2": 0.3521519021746606,
+          "pressure_l2": 3.2868120660459668
+        },
+        {
+          "index": 952,
+          "mse": 0.017531151990945022,
+          "velocity_l2": 0.3461655484344036,
+          "pressure_l2": 0.7216768754233055
+        }
+      ],
+      "counts": {
+        "parameter_elements": 2352,
+        "parameter_real_scalars": 2352,
+        "buffer_elements": 270,
+        "buffer_real_scalars": 270
+      }
+    },
+    {
+      "id": "cascor_s921105",
+      "model": "cascor",
+      "seed": 921105,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/cascor_s921105/training/cascor_a/best.pt",
+      "checkpoint_sha256": "983ea46af9c2d9edf0e3ced6188dc9191c5b277f47e56bdea2693b3ae5598ccb",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.004670627241485725,
+          "velocity_l2": 0.3463556495227892,
+          "pressure_l2": 2.962169782332366
+        },
+        {
+          "index": 952,
+          "mse": 0.017670087082184843,
+          "velocity_l2": 0.340116910788514,
+          "pressure_l2": 0.7264476434219256
+        }
+      ],
+      "counts": {
+        "parameter_elements": 2352,
+        "parameter_real_scalars": 2352,
+        "buffer_elements": 270,
+        "buffer_real_scalars": 270
+      }
+    },
+    {
+      "id": "elm_s921101",
+      "model": "elm",
+      "seed": 921101,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/elm_s921101/training/elm_b/best.pt",
+      "checkpoint_sha256": "a39f58a16372a54c033ce622510500bfd671f9f40f4dc48a8676e45f9fae6b8a",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.007942751049665115,
+          "velocity_l2": 0.46007012488813076,
+          "pressure_l2": 3.7961023776483174
+        },
+        {
+          "index": 952,
+          "mse": 0.022763031507503338,
+          "velocity_l2": 0.46663123462302636,
+          "pressure_l2": 0.8014725035040661
+        }
+      ],
+      "counts": {
+        "parameter_elements": 0,
+        "parameter_real_scalars": 0,
+        "buffer_elements": 15619,
+        "buffer_real_scalars": 15619
+      }
+    },
+    {
+      "id": "elm_s921102",
+      "model": "elm",
+      "seed": 921102,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/elm_s921102/training/elm_b/best.pt",
+      "checkpoint_sha256": "d443784bef8ba7cd8ba2434bc0db5798e781dc7c740cbae6446a34e8f4ed1505",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.008062231135194978,
+          "velocity_l2": 0.45163927874876836,
+          "pressure_l2": 3.9182474673913634
+        },
+        {
+          "index": 952,
+          "mse": 0.02258975231224052,
+          "velocity_l2": 0.46826535930689056,
+          "pressure_l2": 0.7973277744316912
+        }
+      ],
+      "counts": {
+        "parameter_elements": 0,
+        "parameter_real_scalars": 0,
+        "buffer_elements": 15619,
+        "buffer_real_scalars": 15619
+      }
+    },
+    {
+      "id": "elm_s921103",
+      "model": "elm",
+      "seed": 921103,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/elm_s921103/training/elm_b/best.pt",
+      "checkpoint_sha256": "f983653fa4515765c2226b497553c47161d4f25e5806915dbad939a18f0e0a6e",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.008264165816947024,
+          "velocity_l2": 0.4479274534628504,
+          "pressure_l2": 4.037453212773751
+        },
+        {
+          "index": 952,
+          "mse": 0.02122602561491012,
+          "velocity_l2": 0.45042791526259623,
+          "pressure_l2": 0.773996361831749
+        }
+      ],
+      "counts": {
+        "parameter_elements": 0,
+        "parameter_real_scalars": 0,
+        "buffer_elements": 15619,
+        "buffer_real_scalars": 15619
+      }
+    },
+    {
+      "id": "elm_s921104",
+      "model": "elm",
+      "seed": 921104,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/elm_s921104/training/elm_b/best.pt",
+      "checkpoint_sha256": "bbd5847e4a7a33aad0d0b10dda786fef7922becd471686f1eca2352b9b3423f4",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.008395043753568225,
+          "velocity_l2": 0.44521663619210483,
+          "pressure_l2": 4.1149530966552605
+        },
+        {
+          "index": 952,
+          "mse": 0.02146558273827044,
+          "velocity_l2": 0.43747876199607305,
+          "pressure_l2": 0.7831660340620418
+        }
+      ],
+      "counts": {
+        "parameter_elements": 0,
+        "parameter_real_scalars": 0,
+        "buffer_elements": 15619,
+        "buffer_real_scalars": 15619
+      }
+    },
+    {
+      "id": "elm_s921105",
+      "model": "elm",
+      "seed": 921105,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/elm_s921105/training/elm_b/best.pt",
+      "checkpoint_sha256": "b6a27d9e31d61580fbb156d5d44a829406109a54cc969e7a436e45033b6b8360",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.007988540649659759,
+          "velocity_l2": 0.4608364033255035,
+          "pressure_l2": 3.8115365407137145
+        },
+        {
+          "index": 952,
+          "mse": 0.02411935417984371,
+          "velocity_l2": 0.4731406646039135,
+          "pressure_l2": 0.8272674283624775
+        }
+      ],
+      "counts": {
+        "parameter_elements": 0,
+        "parameter_real_scalars": 0,
+        "buffer_elements": 15619,
+        "buffer_real_scalars": 15619
+      }
+    },
+    {
+      "id": "scn_s921101",
+      "model": "scn",
+      "seed": 921101,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/scn_s921101/training/scn_b/best.pt",
+      "checkpoint_sha256": "d1886cdefd5b49557934483317316aca26cbbcd4ccf613c2b2a236611e10dc8d",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.009586126913313738,
+          "velocity_l2": 0.4951335202724265,
+          "pressure_l2": 4.251993700300711
+        },
+        {
+          "index": 952,
+          "mse": 0.022455490523909386,
+          "velocity_l2": 0.4615400108413863,
+          "pressure_l2": 0.7966505575729623
+        }
+      ],
+      "counts": {
+        "parameter_elements": 0,
+        "parameter_real_scalars": 0,
+        "buffer_elements": 7811,
+        "buffer_real_scalars": 7811
+      }
+    },
+    {
+      "id": "scn_s921102",
+      "model": "scn",
+      "seed": 921102,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/scn_s921102/training/scn_b/best.pt",
+      "checkpoint_sha256": "86d21a9c9163f52861181f850a0e63256b50bc5f41a865c445adfa74c22f966e",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.008745445241876296,
+          "velocity_l2": 0.46756961186155876,
+          "pressure_l2": 4.102442727706558
+        },
+        {
+          "index": 952,
+          "mse": 0.021393151025150135,
+          "velocity_l2": 0.4585033411551488,
+          "pressure_l2": 0.7750200578397651
+        }
+      ],
+      "counts": {
+        "parameter_elements": 0,
+        "parameter_real_scalars": 0,
+        "buffer_elements": 7811,
+        "buffer_real_scalars": 7811
+      }
+    },
+    {
+      "id": "scn_s921103",
+      "model": "scn",
+      "seed": 921103,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/scn_s921103/training/scn_b/best.pt",
+      "checkpoint_sha256": "e83f64c2ecf62ccc5a48bced147585f40aaa9fc2cb7963fef08fc3d03b2c61af",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.008937362124328958,
+          "velocity_l2": 0.4754180382688646,
+          "pressure_l2": 4.126211084462091
+        },
+        {
+          "index": 952,
+          "mse": 0.021693157387816967,
+          "velocity_l2": 0.45527635421688534,
+          "pressure_l2": 0.7824925685762031
+        }
+      ],
+      "counts": {
+        "parameter_elements": 0,
+        "parameter_real_scalars": 0,
+        "buffer_elements": 7811,
+        "buffer_real_scalars": 7811
+      }
+    },
+    {
+      "id": "scn_s921104",
+      "model": "scn",
+      "seed": 921104,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/scn_s921104/training/scn_b/best.pt",
+      "checkpoint_sha256": "84d7f45dfe1615001e1dad4f4f16f555003e6aeb55c7f36e0ef64235318e583d",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.008770041063325743,
+          "velocity_l2": 0.4828562480529206,
+          "pressure_l2": 3.9935882436793095
+        },
+        {
+          "index": 952,
+          "mse": 0.02131641298213086,
+          "velocity_l2": 0.4656834430895451,
+          "pressure_l2": 0.7710202446441979
+        }
+      ],
+      "counts": {
+        "parameter_elements": 0,
+        "parameter_real_scalars": 0,
+        "buffer_elements": 7384,
+        "buffer_real_scalars": 7384
+      }
+    },
+    {
+      "id": "scn_s921105",
+      "model": "scn",
+      "seed": 921105,
+      "kind": "new_architecture",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/scn_s921105/training/scn_b/best.pt",
+      "checkpoint_sha256": "40009b87bfe7882a8af7da4d5bf8f3ef96c4b90432a1ddabca39ac2db46c334d",
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 0.008804727145195642,
+          "velocity_l2": 0.4730644426799865,
+          "pressure_l2": 4.086327249012957
+        },
+        {
+          "index": 952,
+          "mse": 0.021650683009165568,
+          "velocity_l2": 0.46113694515190434,
+          "pressure_l2": 0.7797089910968568
+        }
+      ],
+      "counts": {
+        "parameter_elements": 0,
+        "parameter_real_scalars": 0,
+        "buffer_elements": 7811,
+        "buffer_real_scalars": 7811
+      }
+    },
+    {
+      "id": "fixed_k00",
+      "model": "pinn",
+      "seed": 150001,
+      "kind": "archived_auxiliary_pinn",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k00/145176/training/best.pt",
+      "checkpoint_sha256": "00a3879ff52f64db3b7b0a907085b8861754f8bde121cdb2bc1ead3a4f0c3b17",
+      "config": {
+        "width": 192,
+        "depth": 4,
+        "latent": 32,
+        "frequencies": [
+          1.0,
+          2.0,
+          4.0,
+          8.0,
+          16.0
+        ],
+        "seed": 150001,
+        "epochs": 400,
+        "batch_cases": 4,
+        "lr": 0.001,
+        "data_points": 2048,
+        "physics_points": 64,
+        "wall_points_per_side": 16,
+        "body_points": 64,
+        "physics_weight": 0.001,
+        "bc_weight": 0.01,
+        "warmup": 2000,
+        "ramp": 2000,
+        "assess_epochs": 10,
+        "pressure_weight": 1.0
+      },
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 1.866143703445725e-05,
+          "velocity_l2": 0.028470251055114713,
+          "pressure_l2": 0.11380090854157596
+        },
+        {
+          "index": 952,
+          "mse": 0.0002308928199037549,
+          "velocity_l2": 0.025108131377021045,
+          "pressure_l2": 0.08588467914496964
+        }
+      ]
+    },
+    {
+      "id": "fixed_k01",
+      "model": "pinn",
+      "seed": 150002,
+      "kind": "archived_auxiliary_pinn",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k01/145176/training/best.pt",
+      "checkpoint_sha256": "ca725dd517b78aec4c2460f0c61a68672cae61f94e1f97f7b00564e9733bcff0",
+      "config": {
+        "width": 192,
+        "depth": 4,
+        "latent": 32,
+        "frequencies": [
+          1.0,
+          2.0,
+          4.0,
+          8.0,
+          16.0
+        ],
+        "seed": 150002,
+        "epochs": 400,
+        "batch_cases": 4,
+        "lr": 0.001,
+        "data_points": 2048,
+        "physics_points": 64,
+        "wall_points_per_side": 16,
+        "body_points": 64,
+        "physics_weight": 0.001,
+        "bc_weight": 0.01,
+        "warmup": 2000,
+        "ramp": 2000,
+        "assess_epochs": 10,
+        "pressure_weight": 1.0
+      },
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 1.7921821441868258e-05,
+          "velocity_l2": 0.028914762360332993,
+          "pressure_l2": 0.09268712020595865
+        },
+        {
+          "index": 952,
+          "mse": 0.0001892972106190506,
+          "velocity_l2": 0.020574348499231343,
+          "pressure_l2": 0.0780919693368179
+        }
+      ]
+    },
+    {
+      "id": "fixed_k02",
+      "model": "pinn",
+      "seed": 150003,
+      "kind": "archived_auxiliary_pinn",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k02/145176/training/best.pt",
+      "checkpoint_sha256": "a2140119e03c4769ae571e8ae014bc9c9c62186402fb9a644350b56b398ae179",
+      "config": {
+        "width": 192,
+        "depth": 4,
+        "latent": 32,
+        "frequencies": [
+          1.0,
+          2.0,
+          4.0,
+          8.0,
+          16.0
+        ],
+        "seed": 150003,
+        "epochs": 400,
+        "batch_cases": 4,
+        "lr": 0.001,
+        "data_points": 2048,
+        "physics_points": 64,
+        "wall_points_per_side": 16,
+        "body_points": 64,
+        "physics_weight": 0.001,
+        "bc_weight": 0.01,
+        "warmup": 2000,
+        "ramp": 2000,
+        "assess_epochs": 10,
+        "pressure_weight": 1.0
+      },
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 2.1154009397077454e-05,
+          "velocity_l2": 0.030067208948240127,
+          "pressure_l2": 0.12516798742567686
+        },
+        {
+          "index": 952,
+          "mse": 0.00019305408156687737,
+          "velocity_l2": 0.023857781690898475,
+          "pressure_l2": 0.07838635494170855
+        }
+      ]
+    },
+    {
+      "id": "fixed_k03",
+      "model": "pinn",
+      "seed": 150004,
+      "kind": "archived_auxiliary_pinn",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k03/145176/training/best.pt",
+      "checkpoint_sha256": "063223064bd2c7b70538b3137183d262833d5f05756abd6773c6cbb07fe74fb5",
+      "config": {
+        "width": 192,
+        "depth": 4,
+        "latent": 32,
+        "frequencies": [
+          1.0,
+          2.0,
+          4.0,
+          8.0,
+          16.0
+        ],
+        "seed": 150004,
+        "epochs": 400,
+        "batch_cases": 4,
+        "lr": 0.001,
+        "data_points": 2048,
+        "physics_points": 64,
+        "wall_points_per_side": 16,
+        "body_points": 64,
+        "physics_weight": 0.001,
+        "bc_weight": 0.01,
+        "warmup": 2000,
+        "ramp": 2000,
+        "assess_epochs": 10,
+        "pressure_weight": 1.0
+      },
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 2.2697726105416844e-05,
+          "velocity_l2": 0.03242348689860979,
+          "pressure_l2": 0.1067057947635287
+        },
+        {
+          "index": 952,
+          "mse": 0.0001943473186034043,
+          "velocity_l2": 0.021134852063416747,
+          "pressure_l2": 0.07908514008878309
+        }
+      ]
+    },
+    {
+      "id": "fixed_k04",
+      "model": "pinn",
+      "seed": 150005,
+      "kind": "archived_auxiliary_pinn",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k04/145176/training/best.pt",
+      "checkpoint_sha256": "6038f436125a4c3369b3d544567b1f1f018c7ea569528d9418d63bb99d7c83f2",
+      "config": {
+        "width": 192,
+        "depth": 4,
+        "latent": 32,
+        "frequencies": [
+          1.0,
+          2.0,
+          4.0,
+          8.0,
+          16.0
+        ],
+        "seed": 150005,
+        "epochs": 400,
+        "batch_cases": 4,
+        "lr": 0.001,
+        "data_points": 2048,
+        "physics_points": 64,
+        "wall_points_per_side": 16,
+        "body_points": 64,
+        "physics_weight": 0.001,
+        "bc_weight": 0.01,
+        "warmup": 2000,
+        "ramp": 2000,
+        "assess_epochs": 10,
+        "pressure_weight": 1.0
+      },
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 1.826088467804953e-05,
+          "velocity_l2": 0.029079813084393547,
+          "pressure_l2": 0.09576145998504086
+        },
+        {
+          "index": 952,
+          "mse": 0.00021927092778410606,
+          "velocity_l2": 0.02398532645703256,
+          "pressure_l2": 0.08377144478633104
+        }
+      ]
+    }
+  ],
+  "full_test_cases": 200,
+  "selection_uses_test": false,
+  "test_previously_opened_in_old_study": true,
+  "created_unix": 1794378887.3456736
+}

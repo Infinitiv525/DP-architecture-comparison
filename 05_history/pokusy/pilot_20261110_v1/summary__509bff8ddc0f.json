@@ -1,0 +1,74 @@
+{
+  "status": "TECHNICAL_PILOT_COMPLETE",
+  "model": "realnpu",
+  "validation_cases": 4,
+  "mean_validation_mse": 0.017494495036490476,
+  "mean_velocity_relative_l2": 0.614509623793768,
+  "mean_pressure_relative_l2": 2.279016889253893,
+  "worst_case_gpu_p99_ms": 1.1001487565040589,
+  "gpu_p99_pass_all_cases": true,
+  "wall_seconds": 3.8506708779605106,
+  "cpu_seconds": 3.59755293,
+  "peak_cuda_allocated_bytes": 476085760,
+  "peak_cuda_reserved_bytes": 562036736,
+  "peak_process_rss_kib": 1793716,
+  "training": {
+    "algorithm": "Adam, gradient clipping1, data loss only",
+    "updates": 120,
+    "initial_point_training_mse": 1.0797498226165771,
+    "final_point_training_mse": 0.4357878565788269,
+    "point_sample_sha256": "de029a9f95ba750702b4257a4037f06392c5d2ff6b1a8cbe2384b3a0d3ae2373",
+    "point_samples": 32768,
+    "history": [
+      {
+        "update": 1,
+        "normalized_loss": 1.0316094160079956,
+        "gradient_norm_before_clip": 2.2381370067596436,
+        "elapsed_seconds": 0.08608695701695979
+      },
+      {
+        "update": 21,
+        "normalized_loss": 0.6944682598114014,
+        "gradient_norm_before_clip": 0.39543285965919495,
+        "elapsed_seconds": 0.11107774695847183
+      },
+      {
+        "update": 41,
+        "normalized_loss": 0.6489711403846741,
+        "gradient_norm_before_clip": 0.3873460590839386,
+        "elapsed_seconds": 0.13357697997707874
+      },
+      {
+        "update": 61,
+        "normalized_loss": 0.6885327100753784,
+        "gradient_norm_before_clip": 0.2895141541957855,
+        "elapsed_seconds": 0.1557848360389471
+      },
+      {
+        "update": 81,
+        "normalized_loss": 0.44001302123069763,
+        "gradient_norm_before_clip": 0.19845329225063324,
+        "elapsed_seconds": 0.17794534098356962
+      },
+      {
+        "update": 101,
+        "normalized_loss": 0.399169921875,
+        "gradient_norm_before_clip": 0.17817473411560059,
+        "elapsed_seconds": 0.19995346700306982
+      },
+      {
+        "update": 120,
+        "normalized_loss": 0.4569680690765381,
+        "gradient_norm_before_clip": 0.19061048328876495,
+        "elapsed_seconds": 0.2210995099740103
+      }
+    ],
+    "wall_seconds": 1.329259961959906
+  },
+  "device": "NVIDIA H200",
+  "torch": "2.12.0+cu130",
+  "neuraloperator": "2.0.0",
+  "test_targets_read": false,
+  "final_architecture_ranking_allowed": false,
+  "statistical_claims_allowed": false
+}

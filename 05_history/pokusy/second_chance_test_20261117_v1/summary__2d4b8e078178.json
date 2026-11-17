@@ -1,0 +1,103 @@
+{
+  "status": "SECOND_CHANCE4_TEST_AND_SAVED_OUTPUT_AUDIT_COMPLETE",
+  "models": [
+    {
+      "id": "chebkan_s931101_extend8h",
+      "model": "chebkan",
+      "role": "fixed_exploratory_second_chance_TEST",
+      "seed": 931101,
+      "status": "SECOND_CHANCE4_SAVED_OUTPUT_AUDIT_PASS",
+      "all_cell_mse": 0.0010823489656072325,
+      "fluid_velocity_relative_l2": 0.05672483569505369,
+      "fluid_pressure_relative_l2": 0.08183527039496186,
+      "worst_gpu_p99_ms": 0.991491180062294,
+      "worst_host_p99_ms": 1.01384042,
+      "gpu_5ms_pass": true,
+      "host_instrumented_5ms_pass": true
+    },
+    {
+      "id": "chebkan_s931102_extend8h",
+      "model": "chebkan",
+      "role": "fixed_exploratory_second_chance_TEST",
+      "seed": 931102,
+      "status": "SECOND_CHANCE4_SAVED_OUTPUT_AUDIT_PASS",
+      "all_cell_mse": 0.0012755029886040703,
+      "fluid_velocity_relative_l2": 0.05041146085828351,
+      "fluid_pressure_relative_l2": 0.07064008333029395,
+      "worst_gpu_p99_ms": 0.9893788886070252,
+      "worst_host_p99_ms": 1.0121371,
+      "gpu_5ms_pass": true,
+      "host_instrumented_5ms_pass": true
+    },
+    {
+      "id": "rbf_s931101_extend8h",
+      "model": "rbf",
+      "role": "fixed_exploratory_second_chance_TEST",
+      "seed": 931101,
+      "status": "SECOND_CHANCE4_SAVED_OUTPUT_AUDIT_PASS",
+      "all_cell_mse": 0.0010731423230926583,
+      "fluid_velocity_relative_l2": 0.06880418802696456,
+      "fluid_pressure_relative_l2": 0.13109776168805543,
+      "worst_gpu_p99_ms": 0.8112415713071823,
+      "worst_host_p99_ms": 0.8327853000000001,
+      "gpu_5ms_pass": true,
+      "host_instrumented_5ms_pass": true
+    },
+    {
+      "id": "rbf_s931102_extend8h",
+      "model": "rbf",
+      "role": "fixed_exploratory_second_chance_TEST",
+      "seed": 931102,
+      "status": "SECOND_CHANCE4_SAVED_OUTPUT_AUDIT_PASS",
+      "all_cell_mse": 0.0010941587637977662,
+      "fluid_velocity_relative_l2": 0.06922920824807166,
+      "fluid_pressure_relative_l2": 0.13251817245188702,
+      "worst_gpu_p99_ms": 0.8052224141359329,
+      "worst_host_p99_ms": 0.8264975099999999,
+      "gpu_5ms_pass": true,
+      "host_instrumented_5ms_pass": true
+    }
+  ],
+  "methods": [
+    {
+      "model": "chebkan",
+      "role": "fixed_exploratory_second_chance_TEST",
+      "independent_models": 5,
+      "gpu_5ms_pass_models": 2,
+      "host_5ms_pass_models": 2,
+      "all_cell_mse_mean": 0.0011789259771056515,
+      "all_cell_mse_sample_sd": 0.00013658051947452635,
+      "fluid_velocity_relative_l2_mean": 0.0535681482766686,
+      "fluid_velocity_relative_l2_sample_sd": 0.004464230159252705,
+      "fluid_pressure_relative_l2_mean": 0.0762376768626279,
+      "fluid_pressure_relative_l2_sample_sd": 0.007916192690078596,
+      "worst_gpu_p99_ms_mean": 0.9904350343346595,
+      "worst_gpu_p99_ms_sample_sd": 0.0014936156118629772,
+      "worst_host_p99_ms_mean": 1.0129887599999998,
+      "worst_host_p99_ms_sample_sd": 0.001204429122530715
+    },
+    {
+      "model": "rbf",
+      "role": "fixed_exploratory_second_chance_TEST",
+      "independent_models": 5,
+      "gpu_5ms_pass_models": 2,
+      "host_5ms_pass_models": 2,
+      "all_cell_mse_mean": 0.0010836505434452122,
+      "all_cell_mse_sample_sd": 1.486086773898673e-05,
+      "fluid_velocity_relative_l2_mean": 0.06901669813751811,
+      "fluid_velocity_relative_l2_sample_sd": 0.00030053468048623835,
+      "fluid_pressure_relative_l2_mean": 0.13180796706997122,
+      "fluid_pressure_relative_l2_sample_sd": 0.0010043820831756825,
+      "worst_gpu_p99_ms_mean": 0.8082319927215575,
+      "worst_gpu_p99_ms_sample_sd": 0.004256186852818127,
+      "worst_host_p99_ms_mean": 0.829641405,
+      "worst_host_p99_ms_sample_sd": 0.004446138947677051
+    }
+  ],
+  "saved_native_fields_checked": 800,
+  "raw_timing_pairs_checked": 800000,
+  "models_sha256": "b8056a660203b143cacd49b83ae438c946877ffb6511abd59a0775def0ac89aa",
+  "no_weight_updates": true,
+  "no_test_selection": true,
+  "elapsed_seconds": 53.46416767593473
+}

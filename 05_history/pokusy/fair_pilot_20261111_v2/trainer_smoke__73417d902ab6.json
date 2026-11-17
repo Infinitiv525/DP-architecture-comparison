@@ -1,0 +1,227 @@
+{
+  "status": "ALL9_TRAINER_UTILITY_SMOKE_COMPLETE",
+  "models": [
+    {
+      "model": "tfno",
+      "validation": {
+        "mean_raw_case_balanced_loss": 1.1148414611816406,
+        "case_losses": [
+          1.1148414611816406
+        ],
+        "cases": 1
+      },
+      "physical": {
+        "case_metrics": [
+          {
+            "velocity_relative_L2": 1.0009291172027588,
+            "pressure_relative_L2": 1.09560227394104
+          }
+        ],
+        "mean_velocity_relative_L2": 1.0009291172027588,
+        "mean_pressure_relative_L2": 1.09560227394104,
+        "processing": "Shared solid mask and zero-mean fluid pressure; complete native fields"
+      },
+      "restore_max_difference": 0.0,
+      "constructive_first_step": {}
+    },
+    {
+      "model": "chebkan",
+      "validation": {
+        "mean_raw_case_balanced_loss": 22.688583374023438,
+        "case_losses": [
+          22.688583374023438
+        ],
+        "cases": 1
+      },
+      "physical": {
+        "case_metrics": [
+          {
+            "velocity_relative_L2": 1.1807951927185059,
+            "pressure_relative_L2": 6.229891300201416
+          }
+        ],
+        "mean_velocity_relative_L2": 1.1807951927185059,
+        "mean_pressure_relative_L2": 6.229891300201416,
+        "processing": "Shared solid mask and zero-mean fluid pressure; complete native fields"
+      },
+      "restore_max_difference": 0.0,
+      "constructive_first_step": {}
+    },
+    {
+      "model": "pinet",
+      "validation": {
+        "mean_raw_case_balanced_loss": 52.438873291015625,
+        "case_losses": [
+          52.438873291015625
+        ],
+        "cases": 1
+      },
+      "physical": {
+        "case_metrics": [
+          {
+            "velocity_relative_L2": 1.063630223274231,
+            "pressure_relative_L2": 7.445359706878662
+          }
+        ],
+        "mean_velocity_relative_L2": 1.063630223274231,
+        "mean_pressure_relative_L2": 7.445359706878662,
+        "processing": "Shared solid mask and zero-mean fluid pressure; complete native fields"
+      },
+      "restore_max_difference": 0.0,
+      "constructive_first_step": {}
+    },
+    {
+      "model": "dendrite",
+      "validation": {
+        "mean_raw_case_balanced_loss": 1.390890121459961,
+        "case_losses": [
+          1.390890121459961
+        ],
+        "cases": 1
+      },
+      "physical": {
+        "case_metrics": [
+          {
+            "velocity_relative_L2": 1.0007948875427246,
+            "pressure_relative_L2": 1.0662245750427246
+          }
+        ],
+        "mean_velocity_relative_L2": 1.0007948875427246,
+        "mean_pressure_relative_L2": 1.0662245750427246,
+        "processing": "Shared solid mask and zero-mean fluid pressure; complete native fields"
+      },
+      "restore_max_difference": 0.0,
+      "constructive_first_step": {}
+    },
+    {
+      "model": "realnpu",
+      "validation": {
+        "mean_raw_case_balanced_loss": 60.5693244934082,
+        "case_losses": [
+          60.5693244934082
+        ],
+        "cases": 1
+      },
+      "physical": {
+        "case_metrics": [
+          {
+            "velocity_relative_L2": 1.230605125427246,
+            "pressure_relative_L2": 10.271161079406738
+          }
+        ],
+        "mean_velocity_relative_L2": 1.230605125427246,
+        "mean_pressure_relative_L2": 10.271161079406738,
+        "processing": "Shared solid mask and zero-mean fluid pressure; complete native fields"
+      },
+      "restore_max_difference": 0.0,
+      "constructive_first_step": {}
+    },
+    {
+      "model": "rbf",
+      "validation": {
+        "mean_raw_case_balanced_loss": 8.078498840332031,
+        "case_losses": [
+          8.078498840332031
+        ],
+        "cases": 1
+      },
+      "physical": {
+        "case_metrics": [
+          {
+            "velocity_relative_L2": 1.069777488708496,
+            "pressure_relative_L2": 3.8390073776245117
+          }
+        ],
+        "mean_velocity_relative_L2": 1.069777488708496,
+        "mean_pressure_relative_L2": 3.8390073776245117,
+        "processing": "Shared solid mask and zero-mean fluid pressure; complete native fields"
+      },
+      "restore_max_difference": 0.0,
+      "constructive_first_step": {}
+    },
+    {
+      "model": "elm",
+      "validation": {
+        "mean_raw_case_balanced_loss": 5620.89697265625,
+        "case_losses": [
+          5620.89697265625
+        ],
+        "cases": 1
+      },
+      "physical": {
+        "case_metrics": [
+          {
+            "velocity_relative_L2": 10.25916576385498,
+            "pressure_relative_L2": 79.01802825927734
+          }
+        ],
+        "mean_velocity_relative_L2": 10.25916576385498,
+        "mean_pressure_relative_L2": 79.01802825927734,
+        "processing": "Shared solid mask and zero-mean fluid pressure; complete native fields"
+      },
+      "restore_max_difference": 0.0,
+      "constructive_first_step": {}
+    },
+    {
+      "model": "scn",
+      "validation": {
+        "mean_raw_case_balanced_loss": 0.9182441234588623,
+        "case_losses": [
+          0.9182441234588623
+        ],
+        "cases": 1
+      },
+      "physical": {
+        "case_metrics": [
+          {
+            "velocity_relative_L2": 0.9679269194602966,
+            "pressure_relative_L2": 0.9342943429946899
+          }
+        ],
+        "mean_velocity_relative_L2": 0.9679269194602966,
+        "mean_pressure_relative_L2": 0.9342943429946899,
+        "processing": "Shared solid mask and zero-mean fluid pressure; complete native fields"
+      },
+      "restore_max_difference": 0.0,
+      "constructive_first_step": {
+        "radius": 0.5,
+        "relaxation": 0.999,
+        "minimum_xi": 9.381199382747216e-06,
+        "candidate_tests": 48
+      }
+    },
+    {
+      "model": "cascor",
+      "validation": {
+        "mean_raw_case_balanced_loss": 4.133308410644531,
+        "case_losses": [
+          4.133308410644531
+        ],
+        "cases": 1
+      },
+      "physical": {
+        "case_metrics": [
+          {
+            "velocity_relative_L2": 0.7086129784584045,
+            "pressure_relative_L2": 1.0525685548782349
+          }
+        ],
+        "mean_velocity_relative_L2": 0.7086129784584045,
+        "mean_pressure_relative_L2": 1.0525685548782349,
+        "processing": "Shared solid mask and zero-mean fluid pressure; complete native fields"
+      },
+      "restore_max_difference": 0.0,
+      "constructive_first_step": {
+        "candidate_correlation": 0.0019335395190864801,
+        "candidate_epochs": 1,
+        "candidate_train_case_visits": 1,
+        "candidate_train_row_visits": 4096
+      }
+    }
+  ],
+  "TRAIN_cases": 1,
+  "VAL_cases": 1,
+  "test_targets_read": false,
+  "accuracy_cutoff": null,
+  "note": "One-case integration check, not a full training or accuracy acceptance test."
+}

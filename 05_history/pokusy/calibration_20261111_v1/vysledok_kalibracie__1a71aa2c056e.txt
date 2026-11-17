@@ -1,0 +1,37 @@
+KALIBRÁCIA ARCHITEKTÚR – 11. 11. 2026
+
+Dokončilo sa všetkých 18 tréningov: dve kapacity každej z deviatich
+nových architektúr. Všetky použili 640 tréningových simulácií a kontrolu
+na rovnakých 160 validačných simuláciách. Testovacích 200 simulácií sa
+v tejto etape neotváralo. Zatiaľ ide o jeden náhodný seed, nie o dôkaz
+štatisticky významného rozdielu.
+
+Najpresnejší je FNO/TFNO: pri menšej kapacite priemerná relatívna chyba
+rýchlostného poľa približne 1,21 % a tlaku 3,66 %; pri väčšej 0,97 %
+a 3,20 %. ChebKAN dosiahol približne 7,18 % / 24,81 % pri menšej a
+5,01 % / 18,33 % pri väčšej kapacite (rýchlosť / tlak). Ostatné skúšané
+varianty sú podstatne menej presné. Aj neúspešné varianty zostávajú
+zdokumentované; výsledok nepredstavuje tvrdenie o celej rodine sietí.
+
+FNO dostáva natívny obraz geometrie a plné tréningové polia. Osem bodových
+metód používa spoločných 57 pevných príznakov a 2048 bodov z každej
+tréningovej simulácie. Porovnávame preto celé presne opísané postupy,
+nie izolovaný účinok architektúry pri úplne rovnakom spracovaní vstupu.
+Všetky sa však hodnotia na celých natívnych poliach 512 x 512.
+
+Pôvodné rýchlostné meranie (100 opakovaní, 16 VAL prípadov) bolo iba
+screeningom. Väčší FNO bol tesne nad 5 ms; pred výberom sa opakuje
+dlhšie, v troch vopred určených blokoch po 1000 meraní na prípad.
+Ostatné siete sa kontrolujú rovnakou dlhšou sériou. Ide o GPU čas
+výpočtu celého poľa s pripravenými vstupmi; neobsahuje vykreslenie ani
+prenos dát do používateľského počítača.
+
+ChebKAN sa na konci 200 epoch stále zlepšoval, preto pokračujú oba jeho
+varianty najviac o ďalších 200 epoch pri zachovaní nízkej rýchlosti učenia,
+Adam momentov a náhodných stavov. Ide o vopred zdokumentovanú kontrolu
+dĺžky učenia pred zmrazením nastavení a piatimi nezávislými opakovaniami.
+
+Číselné výsledky: report/evaluation/summary.json a comparison.csv.
+Priebehy učenia: report/training/<variant>/history.json.
+Nadväzujúca kontrola: ../architecture_review_20261111_v1/.
+Váhy, pôvodné polia, predikcie a surové časovania zostávajú na Perune.

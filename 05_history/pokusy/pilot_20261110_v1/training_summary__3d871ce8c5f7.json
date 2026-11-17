@@ -1,0 +1,13 @@
+{
+  "algorithm": "elm",
+  "point_samples": 32768,
+  "point_sample_sha256": "de029a9f95ba750702b4257a4037f06392c5d2ff6b1a8cbe2384b3a0d3ae2373",
+  "history": [
+    {
+      "units": 32,
+      "mse": 0.4949813783168793
+    }
+  ],
+  "final_point_training_mse": 0.4949813783168793,
+  "wall_seconds": 0.14444593503139913
+}

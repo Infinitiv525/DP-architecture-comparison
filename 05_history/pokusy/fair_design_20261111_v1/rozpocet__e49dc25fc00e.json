@@ -1,0 +1,20 @@
+{
+  "kind": "STATIC_ARITHMETIC_NOT_A_MODEL_TEST",
+  "reference_fitted_real_scalars": 1353328,
+  "matched_lower": 1339795,
+  "matched_upper": 1366861,
+  "naive_point_elm": {
+    "input_features": 57,
+    "output_features": 3,
+    "hidden_units": 451105,
+    "fitted_beta_scalars": 1353318,
+    "data_independent_weights_and_bias": 26164090,
+    "total_core_stored_scalars": 27517408,
+    "unchunked_fp32_hidden_activation_bytes": 473017876480,
+    "unchunked_fp32_hidden_activation_gib": 440.5322265625,
+    "example_is_old_three_output_point_signature": true,
+    "note": "Old point formulation expanded to the new core budget, not the new192-output operator. Chunking can reduce peak memory; this is not measured runtime or a claim of impossibility for another formulation."
+  },
+  "new_training_started": false,
+  "new_model_test_started": false
+}

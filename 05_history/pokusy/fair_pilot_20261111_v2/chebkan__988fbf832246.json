@@ -1,0 +1,69 @@
+{
+  "model": "chebkan",
+  "device": "cpu",
+  "case_id": 928,
+  "native_target_values": 786432,
+  "encoded_rows": 4096,
+  "input_channels": 665,
+  "output_channels": 192,
+  "scope": "One complete TRAIN simulation. No TEST targets. Timing estimates are not guarantees.",
+  "adapter_checks": {
+    "loss_native": 0.0023677463177591562,
+    "loss_packed": 0.0023677474819123745,
+    "gradient_max_difference": 7.099743015714921e-11,
+    "geometry_roundtrip_max_error": 8.940696716308594e-08,
+    "target_roundtrip_max_error": 2.384185791015625e-07
+  },
+  "training_step": {
+    "seconds": [
+      0.14030119602102786,
+      0.14552396396175027,
+      0.13989378605037928,
+      0.1426444270182401,
+      0.13915109704248607
+    ],
+    "median_seconds": 0.14030119602102786
+  },
+  "one_case_learning_losses": [
+    13.963319778442383,
+    11.743584632873535,
+    11.636616706848145,
+    9.958066940307617,
+    4.8018798828125,
+    4.443260669708252,
+    3.2396514415740967,
+    2.653606653213501
+  ],
+  "training_updates": 8,
+  "measured_training_work_seconds": 1.1320479740388691,
+  "one_case_raw_loss_after": 2.3864612579345703,
+  "inference_full_path": {
+    "seconds": [
+      0.07625867705792189,
+      0.07908553397282958,
+      0.07741072901990265,
+      0.08573067595716566,
+      0.09288995806127787,
+      0.08505735197104514,
+      0.09432373696472496,
+      0.08599763107486069,
+      0.08691210194956511,
+      0.09599187201820314
+    ],
+    "median_seconds": 0.08586415351601318
+  },
+  "checkpoint_restore_max_difference": 0.0,
+  "parameter_ledger_current": {
+    "trainable_real_scalars": 1354356,
+    "data_fitted_frozen_real_scalars": 10,
+    "data_selected_frozen_real_scalars": 0,
+    "data_independent_core_real_scalars": 0,
+    "learned_or_fitted_total": 1354366,
+    "total_core_coefficients_plus_normalization": 1354366,
+    "common_adapter_buffer_bytes": 2459688,
+    "core_tensor_bytes": 5417424,
+    "accounting_only": true
+  },
+  "peak_GPU_allocated_bytes": 0,
+  "status": "ONE_CASE_TIMING_AND_TECHNICAL_CHECKS_COMPLETE"
+}

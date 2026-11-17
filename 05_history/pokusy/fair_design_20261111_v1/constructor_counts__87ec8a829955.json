@@ -1,0 +1,163 @@
+{
+  "status": "ALL9_UNTRAINED_CONSTRUCTOR_COUNTS_VERIFIED",
+  "models": [
+    {
+      "model": "tfno",
+      "width": 48,
+      "ledger": {
+        "trainable_real_scalars": 1353318,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353328,
+        "total_core_coefficients_plus_normalization": 1353328,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413272,
+        "accounting_only": true
+      },
+      "model_state": "UNTRAINED_PLANNED_FULL_CAPACITY"
+    },
+    {
+      "model": "chebkan",
+      "width": 294,
+      "ledger": {
+        "trainable_real_scalars": 1354356,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354366,
+        "total_core_coefficients_plus_normalization": 1354366,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5417424,
+        "accounting_only": true
+      },
+      "model_state": "UNTRAINED_PLANNED_FULL_CAPACITY"
+    },
+    {
+      "model": "pinet",
+      "width": 618,
+      "ledger": {
+        "trainable_real_scalars": 1353612,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353622,
+        "total_core_coefficients_plus_normalization": 1353622,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5414448,
+        "accounting_only": true
+      },
+      "model_state": "UNTRAINED_PLANNED_FULL_CAPACITY"
+    },
+    {
+      "model": "dendrite",
+      "width": 636,
+      "ledger": {
+        "trainable_real_scalars": 1354872,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354882,
+        "total_core_coefficients_plus_normalization": 1354882,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5419488,
+        "accounting_only": true
+      },
+      "model_state": "UNTRAINED_PLANNED_FULL_CAPACITY"
+    },
+    {
+      "model": "realnpu",
+      "width": 1578,
+      "ledger": {
+        "trainable_real_scalars": 1353203,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353213,
+        "total_core_coefficients_plus_normalization": 1353213,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5412812,
+        "accounting_only": true
+      },
+      "model_state": "UNTRAINED_PLANNED_FULL_CAPACITY"
+    },
+    {
+      "model": "rbf",
+      "width": 1577,
+      "ledger": {
+        "trainable_real_scalars": 1353258,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353268,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": true
+      },
+      "model_state": "UNTRAINED_PLANNED_FULL_CAPACITY"
+    },
+    {
+      "model": "cascor",
+      "width": 927,
+      "ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 1352449,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1352449,
+        "total_core_coefficients_plus_normalization": 1352449,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5409756,
+        "accounting_only": true
+      },
+      "model_state": "UNTRAINED_PLANNED_FULL_CAPACITY"
+    },
+    {
+      "model": "elm",
+      "width": 1577,
+      "ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 302986,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 1050282,
+        "learned_or_fitted_total": 302986,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": true
+      },
+      "model_state": "UNTRAINED_PLANNED_FULL_CAPACITY"
+    },
+    {
+      "model": "scn",
+      "width": 1577,
+      "ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 302986,
+        "data_selected_frozen_real_scalars": 1050282,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353268,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": true
+      },
+      "model_state": "UNTRAINED_PLANNED_FULL_CAPACITY"
+    }
+  ],
+  "forward_calls": 0,
+  "training_updates": 0,
+  "simulation_fields_read": 0,
+  "GPU_allocated": false,
+  "purpose": "Model construction and scalar accounting only; not an inference/training experiment",
+  "learned_or_fitted_reference": 1353328,
+  "torch": "2.12.0+cu130",
+  "source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_fair_design_20261111_v1/revisions/r_dff1b00bafedc679",
+  "source_sha256": {
+    "field_adapter.py": "715540b1ce0d0867ca4bd85b07a28ca36b686e2775340e69fe9018a8b42063aa",
+    "operator_models.py": "2d8ae6379a1a5a40d3c5864bb5b75657621bd7f846e63e5cafe4a81fba5cd9a2",
+    "capacity_plan.json": "aba3f6dc9a45977b7224266ca581330a6ae49cb4e155e3ae455551e75ef50c57",
+    "count_constructors.py": "510573278126634e1d88934809af9a7154e40c1948c21ba9888a4c863a869284"
+  }
+}

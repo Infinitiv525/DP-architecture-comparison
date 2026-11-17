@@ -1,0 +1,118 @@
+ZDÔVODNENIE VÝPOČTOVÉHO ROZPOČTU Z REFERENČNEJ PINN
+
+Rozpočet určujeme podľa empirických nákladov existujúceho referenčného
+modelu na tom istom probléme. Dostupná kvóta je iba kontrola, či sa
+experiment zmestí do pridelených zdrojov. Nie je vedeckým dôvodom času.
+Pôvodne navrhnutá osemhodinová hlavná séria sa nespustila a je nahradená
+nižšie uvedeným rozpočtom podľa overenej referencie.
+
+1. ČO SME SKUTOČNE ZMERALI
+Päť nezávislých behov pôvodnej pevnej konfigurácie PINN: fixed_k00–k04,
+seedy 150001–150005. Každý mal rovnakých 640 TRAIN a 160 VAL prípadov,
+400 epoch a 134 922 parametrov. Všetky TRAIN prípady sa použili 400-krát.
+
+Jeden tréningový proces používal jednu NVIDIA H200 a štyri CPU jadrá.
+Doklad: uložené environment.json, training_process.json a scheduler
+záznam skupiny 145176; pridelenie jedného GPU na task a štyroch CPU
+je aj v pôvodnom Slurm skripte s overeným pôvodným SHA.
+Skupina mala 16 GPU a 64 CPU; jeden model sa nesmie násobiť všetkými
+16 GPU, pretože súčasne bežali rôzne modely.
+
+Celý samostatný tréningový proces vrátane jeho štartu/ukončenia:
+minimum 13 834,666 s = približne 3 h 50 min 35 s,
+maximum 14 154,781 s = približne 3 h 55 min 55 s,
+medián 3,905203 H200-GPU-h, teda približne 3 h 54 min 19 s.
+
+Pri jednej pridelenej H200 sa zdrojová spotreba vyjadruje ako:
+  GPU-h = počet pridelených GPU × trvanie procesu v hodinách.
+Pri štyroch CPU je zodpovedajúci podiel alokácie:
+  CPU core-h = počet pridelených CPU × trvanie procesu v hodinách.
+Medián teda zodpovedá približne 3,905 H200-GPU-h a 15,621 CPU core-h.
+Skutočne využitý CPU čas procesu je zaznamenaný oddelene; toto číslo
+označuje pridelený podiel CPU, nie percento vyťaženia procesora.
+
+Pozorované maximum CUDA alokovanej pamäte bolo 4,622 GiB na model.
+Ide o využitú pamäť, nie o pridelený limit VRAM. Všetci mali k dispozícii
+jednu rovnakú kartu H200. Skupinový hostiteľský RAM rozpočet bol 320 GiB
+na uzol s ôsmimi workermi, teda proporcionálne 40 GiB na worker.
+Toto nie je zmerané maximum RAM každého jednotlivého procesu.
+
+2. Z TOHO ODVODENÝ SPOLOČNÝ ROZPOČET
+Vezmeme najpomalší z piatich referenčných tréningových procesov a
+zaokrúhlime ho nahor na pätnásťminútový alokačný blok:
+  B = ceil(14 154,781 / 900) × 900 = 14 400 s.
+
+Každý hlavný nezávislý beh preto dostane:
+  1 × NVIDIA H200, najviac 4 H200-GPU-h,
+  4 CPU jadrá, najviac 16 pridelených CPU core-h,
+  40 GiB hostiteľskej RAM,
+  rovnaké dáta, presnosť výpočtu a vstupno-výstupné rozhranie.
+
+Takýto strop pokrýva všetkých päť zmeraných nákladov referenčnej PINN
+s malou spoločnou prevádzkovou rezervou. Výber rozpočtu nevychádza
+z požadovanej chyby ani z testovacích skóre konkurenčných architektúr.
+Počet epoch a koeficientov nie je náhradou tohto výpočtového rozpočtu.
+
+Čas je mechanizmus merania pobytu na pridelenom hardvéri, nie tvrdenie,
+že všetky algoritmy potrebujú rovnaký počet minút na konvergenciu.
+Rýchlejší priamy algoritmus môže skončiť skôr a zaznamená sa jeho nižšia
+spotreba. Ak metóda limit vyčerpá a stále sa zlepšuje, uvedie sa, že pri
+tomto rozpočte nebola preukázaná konvergencia. Výsledok sa nebude
+interpretovať ako absolútna neschopnosť celej rodiny sietí.
+
+Priebežné krivky najlepšej VAL chyby proti H200-GPU-h ukážu, čo metóda
+dosiahla približne po jednej, dvoch a štyroch GPU-h. Sú to checkpointy
+jedného tréningu s pevným štvorhodinovým plánom učenia; nie samostatné
+optimalizované kratšie tréningy. Každý checkpoint má skutočný čas a
+celkovú cenu ďalšej práce po jeho vzniku. Na skoršie časové body sa
+nesmie priradiť neskorší checkpoint.
+
+3. ČO TÝM VÝSKUMNE POROVNÁVAME
+Otázka znie: ako vhodné sú vybrané architektúry pre daný problém pri
+výpočtovom rozpočte zodpovedajúcom existujúcej referenčnej PINN?
+Porovnajú sa chyba, priebeh učenia, pamäť a rýchlosť celej predikcie
+vrátane cieľa 5 ms. Nebude spoločný prah prijateľnej chyby.
+Hlavných deväť rodín má zhodné dáta, rozhranie a zdrojové limity.
+
+Historická PINN sa používa ako kotva nákladov a oddelená vedľajšia
+výsledková referencia. Jej stará chyba sa tým automaticky nestáva
+kontrolovaným hlavným porovnaním: používala iné vzorkovanie, reprezentáciu
+a fyzikálnu loss. Vo FP32 mala vypnuté matmul TF32, ale zapnuté cuDNN
+TF32; nová deväťčlenná séria má oba TF32 režimy jednotne vypnuté.
+Porovnávame konkrétne zdokumentované implementácie a zdrojový rozpočet.
+
+4. FNO A ČAS CELÉHO DATASETU
+V aktuálnom hodinovom ladení FNO bežalo približne 57 min 1 s na H200,
+vrátane prevádzkových kontrol a uloženia. V jednom nastavení každý
+z 640 TRAIN prípadov navštívilo 575- alebo 576-krát; v druhom 547- alebo
+548-krát. To nie je preukázaný minimálny čas učenia alebo konvergencie.
+Pri víťaznom nastavení sa najlepšia VAL chyba po približne 45 minútach
+do konca ešte znížila o 19,28 %. Údaj pochádza iba z kalibrácie.
+Starší pomocný CPU pilot FNO s 50 epochami trval 31 min 12 s a
+31 min 57 s; ide o iný hardvér, iný počet krokov a iný účel merania.
+
+5. DÔKAZY A HRANICE ÚČTOVANIA
+PINN_resource_reference.json obsahuje všetkých päť záznamov, cesty,
+SHA a presný výpočet. Ďalšie reference_pinn_*.json uchovávajú uložené
+procesné a plánovacie dôkazy. Mierou je aktívny pobyt tréningového
+podprocesu na jednom GPU. Spoločné nevyužité chvosty pôvodnej veľkej
+Slurm skupiny sa nedajú spätne presne rozdeliť medzi jednotlivé modely;
+nejde preto o presné portálové vyúčtovanie na model.
+Presný počet FLOPs ani energia pôvodnej PINN sa nemerali. Nevydávame
+počet parametrov alebo nominálny výkon GPU za tieto chýbajúce merania.
+V novej sérii sa zaznamená celý čas alokácie, pridelené CPU/GPU, reálny
+CPU čas, peak CUDA a hostiteľská pamäť. Všetky veľké dáta ostávajú na Perune.
+
+6. PREPOJENIE NA ODBORNÚ METODIKU
+Zásadu porovnávania času na štandardizovanom hardvéri podporuje AlgoPerf:
+https://arxiv.org/abs/2306.07179
+NAS-Bench-101 uvádza viac tréningových rozpočtov a upozorňuje, že
+medziľahlé checkpointy dlhého cosine plánu nie sú totožné s plnými
+kratšími tréningmi. Túto hranicu rešpektujeme pri interpretácii kriviek:
+https://proceedings.mlr.press/v97/ying19a/ying19a.pdf
+Konkrétne štyri H200-GPU-h sú naša empirická voľba z referenčných meraní,
+nie univerzálny čas predpísaný týmito publikáciami.
+
+USKUTOČNITEĽNOSŤ — ODDELENÁ OD VEDECKÉHO DÔVODU
+9 rodín × 5 nezávislých opakovaní × 4 H200-GPU-h = strop 180 GPU-h.
+Tento výpočet iba kontroluje súlad s kvótou. Nie je dôvodom výberu B.

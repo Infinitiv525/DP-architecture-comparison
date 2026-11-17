@@ -1,0 +1,16 @@
+{
+  "task": {
+    "model": "realnpu",
+    "seed": 931103,
+    "configuration_index": 0,
+    "learning_rate": 0.001,
+    "ridge": 1e-08,
+    "time_budget_seconds": 14400,
+    "mode": "main"
+  },
+  "allocation": {
+    "job_id": "156823",
+    "initial_scontrol": "JobId=156823 ArrayJobId=156499 ArrayTaskId=22 ArrayTaskThrottle=8 JobName=dp-budget-main UserId=lutoke823(507402392) GroupId=domain users(507400513) MCS_label=N/A Priority=526 Nice=0 Account=perun2601449 QOS=perun2601449 JobState=RUNNING Reason=None Dependency=(null) Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:02 TimeLimit=04:00:00 TimeMin=N/A SubmitTime=2026-11-11T18:17:55 EligibleTime=2026-11-12T02:07:56 AccrueTime=2026-11-11T18:17:55 StartTime=2026-11-12T02:07:56 EndTime=2026-11-12T06:07:56 Deadline=N/A PreemptEligibleTime=2026-11-12T02:07:56 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-11-12T02:07:56 Scheduler=Main Partition=gpu_short AllocNode:Sid=login01:524490 ReqNodeList=(null) ExcNodeList=(null) NodeList=gpu13 BatchHost=gpu13 NumNodes=1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=4,mem=40G,node=1,billing=5,gres/gpu=1 AllocTRES=cpu=4,mem=40G,node=1,billing=5,gres/gpu=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=4 MinMemoryNode=40G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=NO Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null) Command=/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budget_main_20261111_v1/revisions/r_3e11271df45aff09/run.sbatch SubmitLine=sbatch --parsable --chdir=/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budget_main_20261111_v1/revisions/r_3e11271df45aff09 --job-name=dp-budget-main --partition=gpu_short --time=04:00:00 --gres=gpu:1 --array=0-44%8 --output=/mnt/project/perun2601449/dp_llm_cfd/logs/%x_%A_%a.out --error=/mnt/project/perun2601449/dp_llm_cfd/logs/%x_%A_%a.err --dependency=afterok:156490 run.sbatch main /mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09 WorkDir=/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budget_main_20261111_v1/revisions/r_3e11271df45aff09 StdErr=/mnt/project/perun2601449/dp_llm_cfd/logs/dp-budget-main_156499_22.err StdIn=/dev/null StdOut=/mnt/project/perun2601449/dp_llm_cfd/logs/dp-budget-main_156499_22.out TresPerNode=gres/gpu:1 TresPerTask=cpu=4\n"
+  },
+  "policy_sha256": "2b6890bcaf6ee7398fcfe298317aa1247f65923471b64e411982f21e8fe432cf"
+}

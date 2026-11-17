@@ -1,0 +1,69 @@
+{
+  "model": "dendrite",
+  "device": "cpu",
+  "case_id": 928,
+  "native_target_values": 786432,
+  "encoded_rows": 4096,
+  "input_channels": 665,
+  "output_channels": 192,
+  "scope": "One complete TRAIN simulation. No TEST targets. Timing estimates are not guarantees.",
+  "adapter_checks": {
+    "loss_native": 0.0023677463177591562,
+    "loss_packed": 0.0023677474819123745,
+    "gradient_max_difference": 7.099743015714921e-11,
+    "geometry_roundtrip_max_error": 8.940696716308594e-08,
+    "target_roundtrip_max_error": 2.384185791015625e-07
+  },
+  "training_step": {
+    "seconds": [
+      0.12736906704958528,
+      0.12392054602969438,
+      0.127133599948138,
+      0.1258383709937334,
+      0.12579849001485854
+    ],
+    "median_seconds": 0.1258383709937334
+  },
+  "one_case_learning_losses": [
+    1.1413469314575195,
+    1.6736478805541992,
+    1.6574259996414185,
+    1.7171508073806763,
+    1.3728246688842773,
+    1.068863868713379,
+    1.019960880279541,
+    0.9726822376251221
+  ],
+  "training_updates": 8,
+  "measured_training_work_seconds": 1.0062026320956647,
+  "one_case_raw_loss_after": 0.944736123085022,
+  "inference_full_path": {
+    "seconds": [
+      0.0528672409709543,
+      0.053108346997760236,
+      0.05661257402971387,
+      0.0560971200466156,
+      0.05487925908528268,
+      0.05858936905860901,
+      0.05476219207048416,
+      0.055557920946739614,
+      0.05223017290700227,
+      0.05402888695243746
+    ],
+    "median_seconds": 0.05482072557788342
+  },
+  "checkpoint_restore_max_difference": 0.0,
+  "parameter_ledger_current": {
+    "trainable_real_scalars": 1354872,
+    "data_fitted_frozen_real_scalars": 10,
+    "data_selected_frozen_real_scalars": 0,
+    "data_independent_core_real_scalars": 0,
+    "learned_or_fitted_total": 1354882,
+    "total_core_coefficients_plus_normalization": 1354882,
+    "common_adapter_buffer_bytes": 2459688,
+    "core_tensor_bytes": 5419488,
+    "accounting_only": true
+  },
+  "peak_GPU_allocated_bytes": 0,
+  "status": "ONE_CASE_TIMING_AND_TECHNICAL_CHECKS_COMPLETE"
+}

@@ -1,0 +1,102 @@
+ZÁVEREČNÉ TESTOVANIE DOKONČENEJ ZDROJOVO POROVNANEJ SÉRIE
+
+Rozsah je dohodnutých 45 nových modelov (9 rodín × 5 seedov) a päť
+archivovaných PINN referencií. Všetkých 45 tréningov je dokončených,
+po každom existuje kompletný report, best checkpoint a closeout s exit 0.
+Všetci použili všetkých 640 TRAIN prípadov a 160 VAL. Nepridáva sa
+žiadne ďalšie učenie alebo ladenie. Zdrojový rozpočet na model ostáva
+podľa zmeranej PINN referencie: max. 4 H200-GPU-h a 16 CPU core-h.
+
+ZMRAZENIE A KONTROLA
+V models.json je presne určených všetkých 50 váh vrátane SHA a seedov.
+Pri nových modeloch ide o najlepší uložený VAL checkpoint daného behu.
+Žiadna architektúra sa nevylučuje podľa chyby ani času predikcie.
+Main source, vstupné metadáta, normalizácia, split, legacy zdroje,
+rozhranie a pôvodná metrická funkcia majú overené SHA/fingerprinty.
+
+Pred otvorením TEST cieľov prebehla GPU kontrola všetkých 50 modelov
+na prvých dvoch VAL prípadoch: 100 jedinečných polí, obnova váh,
+finitnosť, nulové hodnoty v telese, tlakový gauge, zhoda s už uloženými
+validačnými metrikami a stabilita pred/po opakovaných volaniach.
+Všetkých 50 prešlo. Kontrola 157377 nepoužila TEST ciele.
+Numerické tolerancie obnovy nie sú prahom prijateľnej presnosti.
+
+TESTOVACÍ ROZSAH
+Používa sa všetkých 200 nemenných TEST scenárov z pôvodného splitu.
+50 modelov × 200 scenárov = 10 000 natívnych polí 512 × 512 × 3.
+Primárnych porovnaní je 9 000 a osobitných PINN referenčných 1 000.
+Každý model dostane rovnaké geometrické a fyzikálne vstupy svojho
+zmrazeného rozhrania. Nových deväť rodín má identický spoločný adaptér.
+Historická PINN zostáva pomocnou referenciou s vlastným pôvodným modelom;
+jej staré učenie sa nevydáva za úplne kontrolovaný nový súťažiaci postup.
+
+Záverečný prístup k Y_original.npy je povolený až po úspešnej kontrole
+všetkých modelov. Kanonický prevod cieľov sa navyše porovná s existujúcou
+VAL cache. Zaznamená sa čas otvorenia a presné TEST indexy každej skupiny.
+TEST bol už otvorený v starších štúdiách; neoznačuje sa za nový úplne
+slepý alebo za test výlučne nových geometrií. Nič z TEST nebude slúžiť
+na zmenu konfigurácií alebo výber iného modelu.
+
+MERANIE PREDIKCIE
+NVIDIA H200, batch 1, FP32, matmul aj cuDNN TF32 vypnuté.
+Na každom scenári pre každý model: 100 warmup volaní a 1 000 meraných
+serializovaných predikcií. Spolu 10 000 000 dvojíc GPU/host časovaní.
+Vstupy sú pripravené na GPU. Zahrnutý je celý prechod modelom vrátane
+vstupného adaptéra, encoderov/decoderov a spracovania celého výstupu.
+Geometrické príznaky závislé od vstupu sa v novej sieti nepredpočítajú
+ako náhrada meraného volania. Pevné súradnice a stav modelu sú bežný stav.
+H2D prenos vstupov, prenos predikcie do PC a vizualizácia nie sú v latencii.
+
+Meria sa CUDA event interval a súčasne synchronizovaný instrumentovaný
+čas hostiteľského volania. Priebežné p50/p95/p99 aj surové hodnoty sa
+zachovajú. Režijný čas meradla sa meria, ale dodatočne sa neodpočítava.
+Cieľ 5 ms sa vykáže samostatne pre GPU a hostiteľa: aj podľa najhoršieho
+scenárového p99, aj ako prehľad rozdelenia. Nadlimitné alebo nepresné
+metódy sa nevynechávajú.
+
+METRIKY A ULOŽENIE
+Používa sa pôvodná zmrazená field_metrics: fyzikálna all-cell MSE u/v/p,
+fluid relatívna L2 rýchlosti a tlaku, RMS divergencie a rezídua ustálených
+Navierových–Stokesových rovníc vo filtrovanom fluid interiéri.
+Rovnaké fyzikálne diagnostiky sa ukladajú aj pre CFD referenciu.
+Zachovajú sa všetky float32 natívne predikcie, float64 surové časovania,
+indexy, Reynoldsovo číslo, geometrický hash a metriky na každý prípad.
+Váhy sa pred aj po vyhodnotení kontrolujú SHA; nevykonáva sa aktualizácia.
+Pri každom modeli sa zaznamená hardvér, UUID/ovládač, stav GPU pred/po,
+pamäť a čas vyhodnotenia. Host RSS je vysoká hladina procesu, nie
+izolovaná pamäť architektúry. Prídavný CUDA peak sa uvádza oproti baseline.
+
+ORGANIZÁCIA ÚLOH — METODIKA ZOSTÁVA ROVNAKÁ
+Pole 157382 má päť skupín podľa opakovania. Každá skupina obsahuje jeden
+model všetkých deviatich hlavných rodín a jeden PINN referenčný model.
+Desať modelov skupiny sa meria postupne na tej istej H200; jednotlivé
+predikčné volania sú serializované. Skupiny môžu bežať na piatich
+oddelených kartách naraz. Každá má rovnaký typ H200, štyri CPU a 48 GiB
+RAM. Táto organizácia nemení modely, prípady, metriky alebo počet meraní.
+
+Predbežná kontrola má limit 30 minút na jednej GPU, každá TEST skupina
+11 h 54 min. Celkový horný alokačný limit týchto šiestich úloh je
+60 GPU-h vrátane predbežnej kontroly. Nejde o očakávanú spotrebu.
+Každá skupina je označená hardvérovými údajmi pre posúdenie variability.
+
+NEZÁVISLÁ KONTROLA ULOŽENÝCH VÝSLEDKOV
+Úloha 157383 sa spustí na CPU až po úspechu všetkých piatich TEST skupín.
+Zo všetkých 10 000 uložených polí znovu vypočíta chyby aj fyzikálne
+diagnostiky, overí SHA polí, váh a časovaní, všetky p50/p95/p99 a počty
+prekročení 5 ms. Vytvorí case_metrics.csv, model_metrics.csv, skupinové
+opisné súhrny a VYSLEDOK.txt. Overí všetkých päť modelov každej rodiny.
+CPU limit je osem hodín na štyroch jadrách; GPU táto kontrola nepoužije.
+Opisné priemery a smerodajné odchýlky samy nedokazujú štatistickú významnosť.
+
+VÝSLEDKY OSTÁVAJÚ NA PERUNE
+Surové polia sú približne 31,46 GB plus časovania a obrázky. Do počítača
+sa prenášajú iba malé JSON/CSV/TXT/logy. Žiadne váhy ani objemné polia.
+Všetko je v novom architecture_budget_test_20261112_v1; stará zrušená
+testovacia séria sa neobnovuje a jej výstupy sa nemiešajú s novými.
+
+AKTUÁLNE ÚLOHY
+157377: úspešná validačná kontrola všetkých 50 modelov, bez TEST cieľov.
+157382: všetkých päť GPU TEST skupín úspešne dokončených, 50 modelov.
+157383: CPU audit úspešne dokončený; 10 000 polí a 10 miliónov párov časovaní.
+Dodatočné overenie: completion_check.json, stav FINAL50_COMPLETION_VERIFIED.
+Výsledky: VYSLEDKY.txt a report/audit/. Protokol merania sa nemenil.

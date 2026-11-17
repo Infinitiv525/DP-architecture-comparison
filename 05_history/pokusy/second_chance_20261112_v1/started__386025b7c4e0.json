@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "chebkan_s931101_extend8h",
+    "model": "chebkan",
+    "seed": 931101,
+    "mode": "exploratory_continuation",
+    "excluded_from_primary_experiment": true,
+    "additional_GPU_seconds_limit": 14400,
+    "original_nominal_GPU_seconds": 14400,
+    "cumulative_nominal_GPU_seconds": 28800,
+    "constant_saved_learning_rates": [
+      1.0000002821853297e-05
+    ],
+    "no_optimizer_reset": true,
+    "no_architecture_change": true,
+    "no_TEST_targets": true,
+    "original_last_sha256": "b7992a957e44a6f7f08e5b2a08bc62b3875d30d510274e7ba481b61b7f4f249e",
+    "parent_inspection_sha256": "2230f00963c9538a73bc83157e50afad3c4a3651ed8343e607a6e7319370e3f9"
+  },
+  "allocation": {
+    "job_id": "158053",
+    "initial_scontrol": "JobId=158053 ArrayJobId=157656 ArrayTaskId=0 ArrayTaskThrottle=4 JobName=dp-second-continuation UserId=lutoke823(507402392) GroupId=domain users(507400513) MCS_label=N/A Priority=540 Nice=0 Account=perun2601449 QOS=perun2601449 JobState=RUNNING Reason=None Dependency=(null) Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:03 TimeLimit=04:00:00 TimeMin=N/A SubmitTime=2026-11-12T21:01:00 EligibleTime=2026-11-12T23:11:43 AccrueTime=Unknown StartTime=2026-11-12T23:11:43 EndTime=2026-11-13T03:11:43 Deadline=N/A PreemptEligibleTime=2026-11-12T23:11:43 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-11-12T23:11:43 Scheduler=Main Partition=gpu_short AllocNode:Sid=login01:2018818 ReqNodeList=(null) ExcNodeList=(null) NodeList=gpu03 BatchHost=gpu03 NumNodes=1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=4,mem=40G,node=1,billing=5,gres/gpu=1 AllocTRES=cpu=4,mem=40G,node=1,billing=5,gres/gpu=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=4 MinMemoryNode=40G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=NO Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null) Command=/mnt/project/perun2601449/dp_llm_cfd/test/architecture_second_chance_20261112_v1/continuation/r_a2e6385af02ef1bb/run.sbatch SubmitLine=sbatch --parsable --chdir=/mnt/project/perun2601449/dp_llm_cfd/test/architecture_second_chance_20261112_v1/continuation/r_a2e6385af02ef1bb --job-name=dp-second-continuation --partition=gpu_short --time=04:00:00 --mem=40G --output=/mnt/project/perun2601449/dp_llm_cfd/logs/%x_%A_%a.out --error=/mnt/project/perun2601449/dp_llm_cfd/logs/%x_%A_%a.err --gres=gpu:1 --array=0-3%4 --dependency=afterok:157477 run.sbatch continuation /mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb WorkDir=/mnt/project/perun2601449/dp_llm_cfd/test/architecture_second_chance_20261112_v1/continuation/r_a2e6385af02ef1bb StdErr=/mnt/project/perun2601449/dp_llm_cfd/logs/dp-second-continuation_157656_0.err StdIn=/dev/null StdOut=/mnt/project/perun2601449/dp_llm_cfd/logs/dp-second-continuation_157656_0.out TresPerNode=gres/gpu:1 TresPerTask=cpu=4\n"
+  },
+  "recovered_cursor": {
+    "epoch": 11867,
+    "position": 0,
+    "global_updates": 7594240
+  },
+  "initial_optimizer_steps": [
+    {
+      "step": 7594240.0,
+      "dtype": "torch.float32"
+    },
+    {
+      "step": 7594240.0,
+      "dtype": "torch.float32"
+    },
+    {
+      "step": 7594240.0,
+      "dtype": "torch.float32"
+    },
+    {
+      "step": 7594240.0,
+      "dtype": "torch.float32"
+    },
+    {
+      "step": 7594240.0,
+      "dtype": "torch.float32"
+    },
+    {
+      "step": 7594240.0,
+      "dtype": "torch.float32"
+    }
+  ],
+  "policy_sha256": "06f27b27fa49c4172a8d93a73d38657a51035337fcd5093f4aa3c2c349da4361",
+  "original_actual_GPU_seconds": 14100
+}

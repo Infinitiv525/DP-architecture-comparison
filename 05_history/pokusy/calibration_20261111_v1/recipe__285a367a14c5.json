@@ -1,0 +1,8 @@
+{
+  "id": "realnpu_b",
+  "model": "realnpu",
+  "device": "cpu",
+  "overrides": {
+    "npu_width": 64
+  }
+}

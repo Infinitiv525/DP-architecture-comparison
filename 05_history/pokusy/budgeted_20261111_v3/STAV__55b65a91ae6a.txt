@@ -1,0 +1,55 @@
+AKTUALNY PRIMARNY PROTOKOL: ROVNAKY ROZPOCET NA UCENIE
+
+Pouzivatel upresnil ciel: kazda architektura ma dostat rovnaky maximalny
+rozpocet treningu. Chyba, cena dosiahnuteho vysledku a rychlost predikcie
+su vysledky. Nezavadza sa spolocny prah chyby.
+
+Rovnaky hardware pre primarne porovnanie: 1 NVIDIA H200 + 4 CPU jadra,
+48 GiB RAM, FP32 bez TF32. Rovnake 640 TRAIN /160 VAL, rovnaky uplny
+vstup/ciel a loss. CPU hodiny sa neprevadzaju na GPU hodiny vymyslenym
+pomerom. Doterajsi zmiesany pilot zostava pomocnou kalibraciou.
+
+Dokoncene: 9/9 minutovych kontrol casovaca a noveho trenera, job156083.
+Vsetky realne Slurm ulohy COMPLETED bez prekrocenia limitu. Kazdy
+checkpoint sa obnovil pri konecnom vyhodnoteni. Spotreba podla Slurmu
+bola 0.11333 GPU-h a0.45333CPUcore-h, nie portalove vyuctovanie.
+Nie je to finalny vysledok presnosti; ide o kontrolu casoveho riadenia.
+
+Uz spustene: jednotne ladenie156096, 18 uloh (2 na kazdu rodinu),
+max4H200naraz, kazda uloha najviac1GPUh, spolu najviac18GPUh.
+Vsetky modely startuju nanovo zo spolocneho tuning seedu933001.
+Data a ich normalizacia zostavaju nezmenene, TEST sa necita.
+
+Potom planovana hlavna seria: 9 rodin x5 nezavislych seedov,
+kazdy beh maximalne8hodin naH200, hlavny strop360GPUh.
+Zatial NIE JE SPUSTENA. Po jednotnom ladeni sa zmrazi vyber nastaveni.
+Ak bude potrebne setrit, jednotne3 opakovania namiesto5: strop216GPUh.
+
+GPU rozpocet: 16 pomocny stary pilot +18 jednotne ladenie +360hlavna
+seria +60rezerva vyhodnotenia +0.15kontrola casovaca =454.15GPUh
+plus0.0028prvy kratky benchmark. Limit pouzivatela je500GPUh.
+Tieto cisla su horne alokacne limity, nie odhad nutnej spotreby.
+CPU ulohy pripravy/kontroly/pomocnej kalibracie ostavaju naCPU.
+
+Rozpocet je strop, nie povinnost minat cas. ELM moze skoncit hned po
+priamom fite, SCN pri chybajucom kandid atovi alebo konstruktivne siete
+pri dosiahnuti planovanej kapacity. Rychlejsie gradientove metody mozu
+v rovnakom case vykonat viac krokov; spolocny limit400epoch sa nepouzije.
+Vykaze sa dovod ukoncenia, najlepsi dostupny VAL checkpoint, skutocna
+kapacita a cena celeho vykonaneho behu. Latencia5ms sa hodnoti osobitne.
+Rovnaky rozmer parametrov je iba vedlajsia kontrola, nie meradlo ceny.
+
+Vsetky nove zdroje su nemenno ulozene naPerune pod r_eb142e97ac3a1736,
+zdielana cache sa nekopiruje doPC. Lokalne su iba male JSON/TXT/logy.
+Podrobnosti protokol.txt,policy.json,budget_control_audit.json.
+
+AKTUALIZACIA: hlavne ladenie8/18hotove,4bezia,6cakaju. DodatocnyCPU
+audit8checkpointov a1280VALpoli presiel (156239);ziadny GPU navyse.
+Podrobnosti KONTROLA.txt a current_review.json. Hlavna seria este nebezi.
+
+AKTUALIZACIA PO UPRESNENI POUZIVATELA: vsetkych18ladeni hotovych a
+nezavisle overenych na160VALkazdeho modelu. Povodny8h hlavnyplan
+nebol spusteny. Primarnyprotokol je teraz susedny architecture_budget_main_20261111_v1/protokol.txt.
+Rozpocet je4H200-GPU-h +16CPUcore-h +40GiBRAMna beh, empiricky
+odvodenyz5meranychreferencnychPINN.Po9uspesnychminutovychkontrolach
+bolaodoslanahlavnadavka156499:45novychbehov,5opakovanin arodinu,max8GPU.

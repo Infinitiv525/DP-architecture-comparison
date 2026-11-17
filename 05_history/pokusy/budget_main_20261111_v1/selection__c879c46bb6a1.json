@@ -1,0 +1,588 @@
+{
+  "status": "CONFIGURATIONS_FROZEN_FROM_COMPLETED_ONE_HOUR_TUNING",
+  "selected": [
+    {
+      "model": "tfno",
+      "configuration_index": 0,
+      "selection_metric": "minimum mean raw case-balanced loss over all160VAL fields, tie broken by configuration index",
+      "selected_tuning_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budgeted_20261111_v3/tuning_eb142e97ac3a1736/tuning/tfno_t0/best.pt",
+      "selected_tuning_checkpoint_sha256": "cf632b19be655b0cb5c66e4fbc6e402f3f4b73b91ff79191ba9c6bf5abd09bb3",
+      "candidates": [
+        {
+          "configuration_index": 0,
+          "validation_loss": 0.00025166055565932765,
+          "active_allocation_elapsed_seconds": 3421.3789030050393,
+          "stop_reason": "training_time_budget",
+          "checkpoint_sha256": "cf632b19be655b0cb5c66e4fbc6e402f3f4b73b91ff79191ba9c6bf5abd09bb3"
+        },
+        {
+          "configuration_index": 1,
+          "validation_loss": 0.00029173025213822255,
+          "active_allocation_elapsed_seconds": 3421.3601846050005,
+          "stop_reason": "training_time_budget",
+          "checkpoint_sha256": "a1b006ee42f8875db8e637bc0771d9d2a240d10dbb3dd98e50b86f3f5784e8d9"
+        }
+      ]
+    },
+    {
+      "model": "chebkan",
+      "configuration_index": 1,
+      "selection_metric": "minimum mean raw case-balanced loss over all160VAL fields, tie broken by configuration index",
+      "selected_tuning_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budgeted_20261111_v3/tuning_eb142e97ac3a1736/tuning/chebkan_t1/best.pt",
+      "selected_tuning_checkpoint_sha256": "cac9b98916162c5b184bcfb0b895af70a9e6db342e458a44625ab615d667beb3",
+      "candidates": [
+        {
+          "configuration_index": 0,
+          "validation_loss": 1.000186237692833,
+          "active_allocation_elapsed_seconds": 3420.4921187310247,
+          "stop_reason": "training_time_budget",
+          "checkpoint_sha256": "be0c35aa43bb8a383767bd1368874ad5c7ed548cdb80e259b39b7f8fbd6b4eb3"
+        },
+        {
+          "configuration_index": 1,
+          "validation_loss": 0.010810152904014103,
+          "active_allocation_elapsed_seconds": 3420.370504059014,
+          "stop_reason": "training_time_budget",
+          "checkpoint_sha256": "cac9b98916162c5b184bcfb0b895af70a9e6db342e458a44625ab615d667beb3"
+        }
+      ]
+    },
+    {
+      "model": "pinet",
+      "configuration_index": 1,
+      "selection_metric": "minimum mean raw case-balanced loss over all160VAL fields, tie broken by configuration index",
+      "selected_tuning_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budgeted_20261111_v3/tuning_eb142e97ac3a1736/tuning/pinet_t1/best.pt",
+      "selected_tuning_checkpoint_sha256": "a777a501e870e0dcc622762c98ee1845e130d7671316e8e107787daa9da35f6e",
+      "candidates": [
+        {
+          "configuration_index": 0,
+          "validation_loss": 0.043765183491632345,
+          "active_allocation_elapsed_seconds": 3419.4055909200106,
+          "stop_reason": "training_time_budget",
+          "checkpoint_sha256": "0436e1b309b2f73dea044a938b79765e54ad04c3bee104397744a6ab865a008e"
+        },
+        {
+          "configuration_index": 1,
+          "validation_loss": 0.043655743217095734,
+          "active_allocation_elapsed_seconds": 3420.051001557964,
+          "stop_reason": "training_time_budget",
+          "checkpoint_sha256": "a777a501e870e0dcc622762c98ee1845e130d7671316e8e107787daa9da35f6e"
+        }
+      ]
+    },
+    {
+      "model": "dendrite",
+      "configuration_index": 0,
+      "selection_metric": "minimum mean raw case-balanced loss over all160VAL fields, tie broken by configuration index",
+      "selected_tuning_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budgeted_20261111_v3/tuning_eb142e97ac3a1736/tuning/dendrite_t0/best.pt",
+      "selected_tuning_checkpoint_sha256": "796bd506a04cb7a556ea234d7d0f8203e726365455bc416e8577b0fd9a87aaf9",
+      "candidates": [
+        {
+          "configuration_index": 0,
+          "validation_loss": 0.04280571768758819,
+          "active_allocation_elapsed_seconds": 3419.666807841044,
+          "stop_reason": "training_time_budget",
+          "checkpoint_sha256": "796bd506a04cb7a556ea234d7d0f8203e726365455bc416e8577b0fd9a87aaf9"
+        },
+        {
+          "configuration_index": 1,
+          "validation_loss": 0.04326613417360932,
+          "active_allocation_elapsed_seconds": 3420.274695346947,
+          "stop_reason": "training_time_budget",
+          "checkpoint_sha256": "ae9dc789d6dfa9a791a73191015ca15aa55d925d293c8cd86b919da940e68518"
+        }
+      ]
+    },
+    {
+      "model": "realnpu",
+      "configuration_index": 0,
+      "selection_metric": "minimum mean raw case-balanced loss over all160VAL fields, tie broken by configuration index",
+      "selected_tuning_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budgeted_20261111_v3/tuning_eb142e97ac3a1736/tuning/realnpu_t0/best.pt",
+      "selected_tuning_checkpoint_sha256": "92d9ea41910846472c491e89b5ccf071b36a5cbd4ea2b2a60448837c5c68e870",
+      "candidates": [
+        {
+          "configuration_index": 0,
+          "validation_loss": 0.0006956500215892447,
+          "active_allocation_elapsed_seconds": 3419.958039942081,
+          "stop_reason": "training_time_budget",
+          "checkpoint_sha256": "92d9ea41910846472c491e89b5ccf071b36a5cbd4ea2b2a60448837c5c68e870"
+        },
+        {
+          "configuration_index": 1,
+          "validation_loss": 0.0009959349409200513,
+          "active_allocation_elapsed_seconds": 3420.5416783309774,
+          "stop_reason": "training_time_budget",
+          "checkpoint_sha256": "ebe1d10e4c647e7983a49cfec69755f49d3f6bcc6e14e5a2cf6ffa8bc3f4319e"
+        }
+      ]
+    },
+    {
+      "model": "rbf",
+      "configuration_index": 0,
+      "selection_metric": "minimum mean raw case-balanced loss over all160VAL fields, tie broken by configuration index",
+      "selected_tuning_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budgeted_20261111_v3/tuning_eb142e97ac3a1736/tuning/rbf_t0/best.pt",
+      "selected_tuning_checkpoint_sha256": "593607f82c39a207bbb0c2a04d739e765bb322e8b0b058083537b8bd990d542e",
+      "candidates": [
+        {
+          "configuration_index": 0,
+          "validation_loss": 0.04646842494839802,
+          "active_allocation_elapsed_seconds": 3419.889731365023,
+          "stop_reason": "training_time_budget",
+          "checkpoint_sha256": "593607f82c39a207bbb0c2a04d739e765bb322e8b0b058083537b8bd990d542e"
+        },
+        {
+          "configuration_index": 1,
+          "validation_loss": 0.13544701244682072,
+          "active_allocation_elapsed_seconds": 3419.7490039219847,
+          "stop_reason": "training_time_budget",
+          "checkpoint_sha256": "b3944b4ef2d7ee6992c5e88a84f7af66429c3ba8690961ec7393f6bfaf022624"
+        }
+      ]
+    },
+    {
+      "model": "elm",
+      "configuration_index": 0,
+      "selection_metric": "minimum mean raw case-balanced loss over all160VAL fields, tie broken by configuration index",
+      "selected_tuning_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budgeted_20261111_v3/tuning_eb142e97ac3a1736/tuning/elm_t0/best.pt",
+      "selected_tuning_checkpoint_sha256": "9a7afa869fe48303f1578eb1097dff77fe277edcfa1ad97dc5a48d39970512fe",
+      "candidates": [
+        {
+          "configuration_index": 0,
+          "validation_loss": 0.38140261042863133,
+          "active_allocation_elapsed_seconds": 4.86427417898085,
+          "stop_reason": "algorithm_completed",
+          "checkpoint_sha256": "9a7afa869fe48303f1578eb1097dff77fe277edcfa1ad97dc5a48d39970512fe"
+        },
+        {
+          "configuration_index": 1,
+          "validation_loss": 0.38151215836405755,
+          "active_allocation_elapsed_seconds": 5.048420959035866,
+          "stop_reason": "algorithm_completed",
+          "checkpoint_sha256": "201886f3bf264079aa1419ef571aaa0fdfc7823c87bd6c5976008f5b5fac4210"
+        }
+      ]
+    },
+    {
+      "model": "scn",
+      "configuration_index": 0,
+      "selection_metric": "minimum mean raw case-balanced loss over all160VAL fields, tie broken by configuration index",
+      "selected_tuning_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budgeted_20261111_v3/tuning_eb142e97ac3a1736/tuning/scn_t0/best.pt",
+      "selected_tuning_checkpoint_sha256": "7c821c71986b4f8f249231ac39e99505841a340a7cbcee963fdbd9f3f3b44d7e",
+      "candidates": [
+        {
+          "configuration_index": 0,
+          "validation_loss": 0.4139567600563169,
+          "active_allocation_elapsed_seconds": 289.3349951970158,
+          "stop_reason": "no_admissible_candidate",
+          "checkpoint_sha256": "7c821c71986b4f8f249231ac39e99505841a340a7cbcee963fdbd9f3f3b44d7e"
+        },
+        {
+          "configuration_index": 1,
+          "validation_loss": 0.4157559959217906,
+          "active_allocation_elapsed_seconds": 339.5452621700242,
+          "stop_reason": "no_admissible_candidate",
+          "checkpoint_sha256": "14f55768c28b71e8b1b92e4c122730f71733b8883a3f1057de7c2f5e989c3c36"
+        }
+      ]
+    },
+    {
+      "model": "cascor",
+      "configuration_index": 1,
+      "selection_metric": "minimum mean raw case-balanced loss over all160VAL fields, tie broken by configuration index",
+      "selected_tuning_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budgeted_20261111_v3/tuning_eb142e97ac3a1736/tuning/cascor_t1/best.pt",
+      "selected_tuning_checkpoint_sha256": "e4cd9d96624e59475177411331d29049cb3aa8059a881302a77c3cbde3df601c",
+      "candidates": [
+        {
+          "configuration_index": 0,
+          "validation_loss": 0.5254210030660034,
+          "active_allocation_elapsed_seconds": 3392.9186664720764,
+          "stop_reason": "training_time_budget",
+          "checkpoint_sha256": "ebbf2517ab33567b187f7148db211d73750f553dbb498efa7a6f9b5a28c48afc"
+        },
+        {
+          "configuration_index": 1,
+          "validation_loss": 0.521388273499906,
+          "active_allocation_elapsed_seconds": 3384.8534874271136,
+          "stop_reason": "training_time_budget",
+          "checkpoint_sha256": "e4cd9d96624e59475177411331d29049cb3aa8059a881302a77c3cbde3df601c"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tfno_s931101",
+      "model": "tfno",
+      "seed": 931101,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "chebkan_s931101",
+      "model": "chebkan",
+      "seed": 931101,
+      "configuration_index": 1,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "pinet_s931101",
+      "model": "pinet",
+      "seed": 931101,
+      "configuration_index": 1,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "dendrite_s931101",
+      "model": "dendrite",
+      "seed": 931101,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "realnpu_s931101",
+      "model": "realnpu",
+      "seed": 931101,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "rbf_s931101",
+      "model": "rbf",
+      "seed": 931101,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "elm_s931101",
+      "model": "elm",
+      "seed": 931101,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "scn_s931101",
+      "model": "scn",
+      "seed": 931101,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "cascor_s931101",
+      "model": "cascor",
+      "seed": 931101,
+      "configuration_index": 1,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "tfno_s931102",
+      "model": "tfno",
+      "seed": 931102,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "chebkan_s931102",
+      "model": "chebkan",
+      "seed": 931102,
+      "configuration_index": 1,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "pinet_s931102",
+      "model": "pinet",
+      "seed": 931102,
+      "configuration_index": 1,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "dendrite_s931102",
+      "model": "dendrite",
+      "seed": 931102,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "realnpu_s931102",
+      "model": "realnpu",
+      "seed": 931102,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "rbf_s931102",
+      "model": "rbf",
+      "seed": 931102,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "elm_s931102",
+      "model": "elm",
+      "seed": 931102,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "scn_s931102",
+      "model": "scn",
+      "seed": 931102,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "cascor_s931102",
+      "model": "cascor",
+      "seed": 931102,
+      "configuration_index": 1,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "tfno_s931103",
+      "model": "tfno",
+      "seed": 931103,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "chebkan_s931103",
+      "model": "chebkan",
+      "seed": 931103,
+      "configuration_index": 1,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "pinet_s931103",
+      "model": "pinet",
+      "seed": 931103,
+      "configuration_index": 1,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "dendrite_s931103",
+      "model": "dendrite",
+      "seed": 931103,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "realnpu_s931103",
+      "model": "realnpu",
+      "seed": 931103,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "rbf_s931103",
+      "model": "rbf",
+      "seed": 931103,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "elm_s931103",
+      "model": "elm",
+      "seed": 931103,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "scn_s931103",
+      "model": "scn",
+      "seed": 931103,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "cascor_s931103",
+      "model": "cascor",
+      "seed": 931103,
+      "configuration_index": 1,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "tfno_s931104",
+      "model": "tfno",
+      "seed": 931104,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "chebkan_s931104",
+      "model": "chebkan",
+      "seed": 931104,
+      "configuration_index": 1,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "pinet_s931104",
+      "model": "pinet",
+      "seed": 931104,
+      "configuration_index": 1,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "dendrite_s931104",
+      "model": "dendrite",
+      "seed": 931104,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "realnpu_s931104",
+      "model": "realnpu",
+      "seed": 931104,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "rbf_s931104",
+      "model": "rbf",
+      "seed": 931104,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "elm_s931104",
+      "model": "elm",
+      "seed": 931104,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "scn_s931104",
+      "model": "scn",
+      "seed": 931104,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "cascor_s931104",
+      "model": "cascor",
+      "seed": 931104,
+      "configuration_index": 1,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "tfno_s931105",
+      "model": "tfno",
+      "seed": 931105,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "chebkan_s931105",
+      "model": "chebkan",
+      "seed": 931105,
+      "configuration_index": 1,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "pinet_s931105",
+      "model": "pinet",
+      "seed": 931105,
+      "configuration_index": 1,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "dendrite_s931105",
+      "model": "dendrite",
+      "seed": 931105,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "realnpu_s931105",
+      "model": "realnpu",
+      "seed": 931105,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "rbf_s931105",
+      "model": "rbf",
+      "seed": 931105,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "elm_s931105",
+      "model": "elm",
+      "seed": 931105,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "scn_s931105",
+      "model": "scn",
+      "seed": 931105,
+      "configuration_index": 0,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    },
+    {
+      "id": "cascor_s931105",
+      "model": "cascor",
+      "seed": 931105,
+      "configuration_index": 1,
+      "max_H200_GPU_hours": 4,
+      "max_CPU_core_hours": 16
+    }
+  ],
+  "cases": {
+    "train": 640,
+    "validation": 160,
+    "test": 200
+  },
+  "accuracy_threshold": null,
+  "main_repetitions": 5,
+  "main_seed_order": "seed-major; round-robin families",
+  "model_initialization": "fresh independent seed; no warm start from tuning or preflight checkpoints",
+  "tuning_source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budgeted_20261111_v3/revisions/r_eb142e97ac3a1736",
+  "test_previously_opened_in_old_studies": true,
+  "selection_uses_test": false,
+  "scientific_budget_reference": "PINN_resource_reference.json",
+  "main_H200_hours_limit": 180
+}

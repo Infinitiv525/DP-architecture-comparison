@@ -1,0 +1,12 @@
+{
+  "status": "DRAFT_DOCUMENT_AND_SOURCE_CONSISTENCY_VERIFIED",
+  "models": 9,
+  "source_hashes_checked": 4,
+  "shared_accuracy_threshold": null,
+  "old_test_and_audit": "CANCELLED",
+  "model_forward_calls": 0,
+  "training_updates": 0,
+  "new_pilot_launched": false,
+  "full_trainers_complete": false,
+  "scope": "Static checks of existing local evidence only; no remote model call, data read, training or inference"
+}

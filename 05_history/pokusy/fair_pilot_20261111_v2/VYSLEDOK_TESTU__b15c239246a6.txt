@@ -1,0 +1,48 @@
+VYSLEDOK RYCHLEHO TESTU CPU/GPU A DALSIE ROZHODNUTIE
+
+Oba testy skoncili. Vsetkych 9 rodin preslo kontrolami rozhrania,
+ekvivalencie fyzikalnej loss/gradientov a obnovy modelu. Na fitovanie
+sa pouzila jedna cela TRAIN simulacia, nie podmnozina bodov.
+Nie je to dokaz vysokej presnosti ani splnenia p99 do 5 ms.
+
+Merany cas plnej aktualizacie na jednom pripade / CPU (4 jadra):
+tfno            47.40 ms; orientacne 400 epoch x 640: 3.37 h na jeden beh
+chebkan        140.30 ms; orientacne 400 epoch x 640: 9.98 h na jeden beh
+pinet          110.96 ms; orientacne 400 epoch x 640: 7.89 h na jeden beh
+dendrite       125.84 ms; orientacne 400 epoch x 640: 8.95 h na jeden beh
+realnpu        264.59 ms; orientacne 400 epoch x 640: 18.82 h na jeden beh
+rbf            126.92 ms; orientacne 400 epoch x 640: 9.03 h na jeden beh
+
+Pri sucinovej projekcii piatich behov tychto 6 rodin vychadza asi
+1161 CPU core-h bez rezervy na validaciu a ulozenie. Rozpocet je 29000.
+ELM sa bude kompletne vazene fitovat na CPU; na jednom pripade trval
+jeho fit priblizne 0.24 s. Priamy fit nie je 400 gradientovych epoch.
+
+SCN a CasCor zvolene na GPU. Rast je postupny a cas s velkostou rastie.
+Komponentova konzervativna projekcia piatich behov oboch rodin spolu
+vychadza priblizne 269 GPU-h; nejde o zaruku alebo o namerany cas plnej sady.
+Presne zlozky a obmedzenia su v resource_decision.json.
+
+ROZHODNUTIE: Zatial ponechat 5 finalnych opakovani. Najprv spusteny
+ohraniceny pilot na vsetkych 640 TRAIN a 160 VAL: 2 nastavenia x 9 rodin.
+Gradientove rodiny maju 50 epoch pri plnej kapacite; ELM 2 cele fity.
+SCN/CasCor maju pilot rastu do 128 uzlov, co nie je finalne kapacitne
+zhodne porovnanie. Finalny ciel je 1577/927 uzlov; vykaze sa realna velkost.
+Vyber konstruktivnych modelov ponecha poslednu dosiahnutu kapacitu,
+nie mensi ranny model vybrany podla VAL. Priebeh VAL ostane ulozeny.
+
+Pilot: 14 CPU treningov (suhbezne max 6), 4 GPU treningy (suhbezne max 2).
+Horni limit GPU alokacie pilotu 16 GPU-h; CPU treningov 336 core-h.
+CPU priprava max 8 core-h navyse, CPU hosty GPU uloh dalsich max 64.
+Cely pilot spolu maximalne 408 CPU core-h; presny rozpocet allocation_bounds.json. Pred ucenim je kontrola celej spolocnej
+cache, globalnych geometrickych priznakov a integracna skuska 9 trenerov.
+Finalnych 45 behov sa nepredspusta; po pilote sa odhad prepocita.
+Ak namerane naklady ohrozia rozpocet 500 GPU-h, prejdeme na 3 opakovania.
+Neexistuje spolocny prah presnosti. Slabe vysledky sa nevynechaju.
+
+Skutocna Slurm alokacia rychleho CPU/GPU testu (nie portalove uctovanie):
+cpu: cas 00:00:26, CPU core-h 0.0289, GPU-h 0.0000
+cuda: cas 00:00:10, CPU core-h 0.0111, GPU-h 0.0028
+
+Vahy, vstupne cache, vystupne polia a checkpointy zostavaju na Perune.
+V tomto priecinku su len zdroje, male metriky a protokoly.

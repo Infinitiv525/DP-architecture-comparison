@@ -1,0 +1,201 @@
+{
+  "name": "architecture_calibration_20261111_v1",
+  "purpose": "Full640 TRAIN/160 VAL calibration of explicit adapted pipelines, no final repetitions yet",
+  "root": "/mnt/project/perun2601449/dp_llm_cfd",
+  "prepared_path": "results/ldc_pinn_prepare_20261104_v25/prepared.json",
+  "split_path": "results/ldc_pinn_prepare_20261104_v25/split.json",
+  "dependencies": {
+    "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_pilot_20261110_v1/revisions/r_e9dafab653bac9e5": {
+      "models.py": "2ee19101e62a09867807e36d1509f93f9afc7f262f5c13270aa4974fe6894f56",
+      "data_metrics.py": "3a004a845e1bc83f9fea41db3732b494a132358e9b24838bd6cdaf52dc75458a",
+      "checks.py": "7c4bac7e47fdf7ef6c192a9d530333108aa78ddc764a55bb9e8d5d8688850d53"
+    },
+    "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_pilot_20261110_v1/postprocessing/r_c65d7f2e9c9038c6": {
+      "checkpoint_io.py": "4cde96f59ae82669a81011377b66e471cbf8e54095deed14801f09e79c68718c"
+    },
+    "/mnt/project/perun2601449/dp_llm_cfd/test/cpu_gpu_benchmark_20261111_v1/revisions/r_35799e0a071b9fac": {
+      "bench.py": "7861844c059caec6dd0917c2a3096b75343077eda4be4e8c91a16c325c86eed8"
+    }
+  },
+  "hardware_source": "/mnt/project/perun2601449/dp_llm_cfd/test/cpu_gpu_benchmark_20261111_v1/revisions/r_35799e0a071b9fac",
+  "point_fixture": "/mnt/project/perun2601449/dp_llm_cfd/results/cpu_gpu_benchmark_20261111_v1/fixture_f922ac12e7d38b1e",
+  "calibration_seed": 911111,
+  "final_seeds": [
+    921101,
+    921102,
+    921103,
+    921104,
+    921105
+  ],
+  "model_defaults": {
+    "width": 96,
+    "kan_width": 32,
+    "degree": 3,
+    "npu_width": 32,
+    "constructive_width": 32,
+    "constructive_pool": 32,
+    "cascade_pool": 8,
+    "ridge": 0.0001,
+    "tfno": {
+      "n_modes": [
+        32,
+        32
+      ],
+      "n_layers": 5,
+      "hidden_channels": 32
+    },
+    "point_representation": "fixed TRAIN-normalized 4x4 geometry pooling + local geometry + coordinates/Fourier + logRe; no learned or pretrained encoder",
+    "learning_rate": 0.001,
+    "gradient_batch_points": 8192,
+    "cascade_candidate_steps": 60
+  },
+  "recipes": [
+    {
+      "id": "tfno_a",
+      "model": "tfno",
+      "device": "cuda",
+      "overrides": {}
+    },
+    {
+      "id": "tfno_b",
+      "model": "tfno",
+      "device": "cuda",
+      "overrides": {
+        "tfno": {
+          "n_modes": [
+            32,
+            32
+          ],
+          "n_layers": 5,
+          "hidden_channels": 48
+        }
+      }
+    },
+    {
+      "id": "chebkan_a",
+      "model": "chebkan",
+      "device": "cpu",
+      "overrides": {}
+    },
+    {
+      "id": "chebkan_b",
+      "model": "chebkan",
+      "device": "cpu",
+      "overrides": {
+        "kan_width": 64
+      }
+    },
+    {
+      "id": "pinet_a",
+      "model": "pinet",
+      "device": "cpu",
+      "overrides": {}
+    },
+    {
+      "id": "pinet_b",
+      "model": "pinet",
+      "device": "cpu",
+      "overrides": {
+        "width": 192
+      }
+    },
+    {
+      "id": "dendrite_a",
+      "model": "dendrite",
+      "device": "cpu",
+      "overrides": {}
+    },
+    {
+      "id": "dendrite_b",
+      "model": "dendrite",
+      "device": "cpu",
+      "overrides": {
+        "width": 192
+      }
+    },
+    {
+      "id": "realnpu_a",
+      "model": "realnpu",
+      "device": "cpu",
+      "overrides": {}
+    },
+    {
+      "id": "realnpu_b",
+      "model": "realnpu",
+      "device": "cpu",
+      "overrides": {
+        "npu_width": 64
+      }
+    },
+    {
+      "id": "rbf_a",
+      "model": "rbf",
+      "device": "cpu",
+      "overrides": {}
+    },
+    {
+      "id": "rbf_b",
+      "model": "rbf",
+      "device": "cpu",
+      "overrides": {
+        "width": 192
+      }
+    },
+    {
+      "id": "cascor_a",
+      "model": "cascor",
+      "device": "cuda",
+      "overrides": {}
+    },
+    {
+      "id": "cascor_b",
+      "model": "cascor",
+      "device": "cuda",
+      "overrides": {
+        "constructive_width": 64
+      }
+    },
+    {
+      "id": "elm_a",
+      "model": "elm",
+      "device": "cpu",
+      "overrides": {}
+    },
+    {
+      "id": "elm_b",
+      "model": "elm",
+      "device": "cpu",
+      "overrides": {
+        "constructive_width": 256
+      }
+    },
+    {
+      "id": "scn_a",
+      "model": "scn",
+      "device": "cpu",
+      "overrides": {}
+    },
+    {
+      "id": "scn_b",
+      "model": "scn",
+      "device": "cpu",
+      "overrides": {
+        "constructive_width": 128
+      }
+    }
+  ],
+  "max_epochs": 200,
+  "assess_every": 20,
+  "minimum_epochs": 100,
+  "patience_assessments": 5,
+  "min_learning_rate": 1e-05,
+  "ridge_mean": 1e-06,
+  "selection_metric": "mean native512x512 physical all-cell u/v/p MSE over all160 VAL cases on common H200",
+  "latency_screen_validation_cases": 16,
+  "latency_warmup": 20,
+  "latency_repetitions": 100,
+  "latency_p99_target_ms": 5.0,
+  "test_targets_allowed": false,
+  "test_previously_opened_in_old_study": true,
+  "automatic_final_training": false
+}

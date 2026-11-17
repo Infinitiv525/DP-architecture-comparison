@@ -1,0 +1,40 @@
+{
+  "status": "ARCHITECTURE_MAIN_MODEL_COMPLETE",
+  "task": {
+    "index": 19,
+    "id": "dendrite_s921105",
+    "model": "dendrite",
+    "seed": 921105,
+    "device": "cpu"
+  },
+  "selected_recipe": {
+    "id": "dendrite_a",
+    "model": "dendrite",
+    "device": "cpu",
+    "overrides": {}
+  },
+  "selection_sha256": "5c9577c7bff341bd05209f97d9e05e89ab46d5f58f15dec1740a42dee89c7b57",
+  "best": {
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/dendrite_s921105/training/dendrite_a/best.pt",
+    "checkpoint_sha256": "e71c5f578c4ecdb4c75a5c8ebbfc086932e47d8c14f715175824b37959c5d1a5",
+    "validation_mse": 0.0053395972795585184,
+    "epoch": 200,
+    "phase": "cosine"
+  },
+  "phase_candidates": [
+    {
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/dendrite_s921105/training/dendrite_a/best.pt",
+      "checkpoint_sha256": "e71c5f578c4ecdb4c75a5c8ebbfc086932e47d8c14f715175824b37959c5d1a5",
+      "validation_mse": 0.0053395972795585184,
+      "epoch": 200,
+      "phase": "cosine"
+    }
+  ],
+  "continuation_performed": false,
+  "continuation_skipped_after_early_stop": false,
+  "phase1_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/dendrite_s921105/training/dendrite_a/summary.json",
+  "continuation_summary": null,
+  "wall_seconds": 561.0266720049549,
+  "slurm_job_id": "154720",
+  "test_targets_read": false
+}

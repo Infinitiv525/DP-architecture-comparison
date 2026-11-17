@@ -1,0 +1,5636 @@
+{
+  "train_ids": [
+    928,
+    25,
+    555,
+    534,
+    506,
+    930,
+    823,
+    345,
+    961,
+    588,
+    421,
+    183,
+    63,
+    873,
+    100,
+    592,
+    145,
+    893,
+    541,
+    95,
+    929,
+    602,
+    936,
+    289,
+    298,
+    301,
+    802,
+    594,
+    975,
+    151,
+    585,
+    403,
+    205,
+    603,
+    551,
+    576,
+    19,
+    644,
+    264,
+    658,
+    455,
+    309,
+    493,
+    688,
+    617,
+    883,
+    745,
+    259,
+    305,
+    299,
+    54,
+    406,
+    963,
+    681,
+    153,
+    443,
+    557,
+    334,
+    202,
+    146,
+    857,
+    718,
+    546,
+    846,
+    350,
+    817,
+    518,
+    184,
+    787,
+    112,
+    621,
+    370,
+    875,
+    169,
+    4,
+    188,
+    139,
+    12,
+    150,
+    381,
+    795,
+    533,
+    174,
+    176,
+    631,
+    397,
+    782,
+    686,
+    561,
+    82,
+    986,
+    666,
+    256,
+    868,
+    128,
+    652,
+    23,
+    740,
+    553,
+    251,
+    703,
+    3,
+    949,
+    170,
+    317,
+    825,
+    181,
+    540,
+    752,
+    31,
+    35,
+    775,
+    32,
+    821,
+    545,
+    284,
+    744,
+    9,
+    700,
+    306,
+    335,
+    768,
+    497,
+    655,
+    722,
+    478,
+    897,
+    940,
+    201,
+    50,
+    127,
+    563,
+    352,
+    339,
+    723,
+    955,
+    716,
+    991,
+    94,
+    224,
+    858,
+    70,
+    295,
+    414,
+    292,
+    439,
+    743,
+    915,
+    770,
+    886,
+    469,
+    376,
+    801,
+    147,
+    628,
+    571,
+    233,
+    879,
+    457,
+    212,
+    496,
+    488,
+    924,
+    769,
+    516,
+    333,
+    710,
+    507,
+    160,
+    78,
+    191,
+    57,
+    310,
+    642,
+    154,
+    640,
+    721,
+    144,
+    103,
+    773,
+    661,
+    108,
+    221,
+    68,
+    470,
+    197,
+    653,
+    99,
+    717,
+    420,
+    739,
+    691,
+    622,
+    932,
+    357,
+    320,
+    994,
+    433,
+    17,
+    354,
+    933,
+    228,
+    885,
+    346,
+    270,
+    869,
+    580,
+    342,
+    90,
+    412,
+    487,
+    88,
+    694,
+    719,
+    808,
+    962,
+    225,
+    667,
+    311,
+    989,
+    126,
+    904,
+    490,
+    612,
+    280,
+    138,
+    685,
+    115,
+    15,
+    610,
+    241,
+    983,
+    235,
+    199,
+    837,
+    343,
+    41,
+    44,
+    560,
+    840,
+    587,
+    822,
+    271,
+    995,
+    754,
+    608,
+    616,
+    606,
+    947,
+    589,
+    654,
+    290,
+    765,
+    238,
+    104,
+    432,
+    232,
+    80,
+    182,
+    853,
+    479,
+    855,
+    438,
+    764,
+    549,
+    482,
+    919,
+    464,
+    113,
+    777,
+    964,
+    387,
+    776,
+    124,
+    351,
+    596,
+    626,
+    921,
+    278,
+    806,
+    814,
+    532,
+    267,
+    436,
+    435,
+    786,
+    527,
+    687,
+    544,
+    216,
+    36,
+    978,
+    538,
+    444,
+    172,
+    418,
+    16,
+    584,
+    234,
+    465,
+    53,
+    758,
+    262,
+    303,
+    796,
+    375,
+    523,
+    643,
+    935,
+    21,
+    632,
+    440,
+    575,
+    891,
+    826,
+    831,
+    829,
+    819,
+    692,
+    657,
+    59,
+    168,
+    243,
+    884,
+    578,
+    901,
+    677,
+    990,
+    247,
+    649,
+    785,
+    737,
+    111,
+    75,
+    712,
+    898,
+    783,
+    196,
+    304,
+    355,
+    189,
+    605,
+    10,
+    198,
+    261,
+    254,
+    848,
+    510,
+    780,
+    908,
+    502,
+    733,
+    96,
+    275,
+    781,
+    372,
+    663,
+    701,
+    265,
+    941,
+    208,
+    294,
+    633,
+    47,
+    634,
+    651,
+    87,
+    664,
+    977,
+    133,
+    998,
+    992,
+    453,
+    697,
+    217,
+    623,
+    707,
+    428,
+    833,
+    939,
+    724,
+    668,
+    984,
+    391,
+    214,
+    427,
+    337,
+    976,
+    747,
+    471,
+    656,
+    896,
+    413,
+    760,
+    287,
+    156,
+    20,
+    749,
+    732,
+    67,
+    178,
+    979,
+    34,
+    250,
+    763,
+    804,
+    636,
+    134,
+    999,
+    281,
+    907,
+    920,
+    938,
+    27,
+    162,
+    595,
+    473,
+    958,
+    200,
+    409,
+    447,
+    84,
+    500,
+    874,
+    676,
+    143,
+    385,
+    148,
+    24,
+    81,
+    209,
+    684,
+    392,
+    314,
+    911,
+    547,
+    437,
+    918,
+    871,
+    72,
+    784,
+    863,
+    362,
+    797,
+    905,
+    360,
+    389,
+    912,
+    237,
+    467,
+    180,
+    854,
+    77,
+    64,
+    788,
+    704,
+    690,
+    861,
+    729,
+    778,
+    114,
+    841,
+    944,
+    378,
+    552,
+    537,
+    366,
+    83,
+    119,
+    851,
+    158,
+    223,
+    252,
+    322,
+    61,
+    627,
+    157,
+    945,
+    579,
+    329,
+    573,
+    461,
+    830,
+    116,
+    698,
+    266,
+    489,
+    1,
+    231,
+    894,
+    753,
+    792,
+    33,
+    635,
+    966,
+    395,
+    52,
+    312,
+    965,
+    98,
+    22,
+    39,
+    706,
+    296,
+    411,
+    550,
+    705,
+    324,
+    58,
+    110,
+    338,
+    520,
+    302,
+    344,
+    509,
+    422,
+    74,
+    515,
+    274,
+    715,
+    484,
+    558,
+    926,
+    386,
+    714,
+    85,
+    813,
+    582,
+    709,
+    832,
+    838,
+    902,
+    55,
+    816,
+    607,
+    950,
+    18,
+    269,
+    889,
+    117,
+    476,
+    511,
+    260,
+    755,
+    161,
+    423,
+    449,
+    481,
+    458,
+    542,
+    190,
+    662,
+    394,
+    807,
+    382,
+    931,
+    494,
+    71,
+    358,
+    645,
+    480,
+    917,
+    734,
+    748,
+    613,
+    400,
+    45,
+    131,
+    997,
+    972,
+    398,
+    959,
+    456,
+    590,
+    195,
+    711,
+    554,
+    725,
+    556,
+    93,
+    325,
+    870,
+    69,
+    942,
+    361,
+    492,
+    29,
+    598,
+    665,
+    967,
+    726,
+    671,
+    834,
+    568,
+    913,
+    220,
+    285,
+    374,
+    810,
+    693,
+    40,
+    969,
+    282,
+    405,
+    330,
+    670,
+    253,
+    316,
+    727,
+    849,
+    899,
+    179,
+    368,
+    860,
+    674,
+    328,
+    519,
+    62,
+    429,
+    985,
+    0,
+    60,
+    401,
+    137,
+    163,
+    130,
+    927,
+    862,
+    882,
+    647,
+    11,
+    872,
+    367,
+    434,
+    187,
+    774,
+    166,
+    204,
+    193,
+    86
+  ],
+  "validation_ids": [
+    341,
+    952,
+    548,
+    417,
+    844,
+    42,
+    513,
+    843,
+    803,
+    486,
+    960,
+    903,
+    529,
+    51,
+    742,
+    185,
+    293,
+    257,
+    809,
+    371,
+    122,
+    159,
+    909,
+    472,
+    483,
+    313,
+    175,
+    564,
+    66,
+    97,
+    359,
+    118,
+    286,
+    399,
+    219,
+    738,
+    283,
+    463,
+    255,
+    319,
+    152,
+    43,
+    601,
+    396,
+    240,
+    536,
+    660,
+    836,
+    699,
+    332,
+    410,
+    300,
+    675,
+    49,
+    682,
+    741,
+    639,
+    89,
+    683,
+    695,
+    248,
+    245,
+    277,
+    425,
+    76,
+    641,
+    779,
+    611,
+    923,
+    390,
+    475,
+    827,
+    424,
+    508,
+    521,
+    922,
+    426,
+    393,
+    273,
+    746,
+    531,
+    380,
+    327,
+    559,
+    501,
+    735,
+    136,
+    149,
+    678,
+    539,
+    279,
+    859,
+    591,
+    120,
+    988,
+    530,
+    982,
+    646,
+    101,
+    629,
+    971,
+    614,
+    793,
+    815,
+    383,
+    30,
+    581,
+    56,
+    789,
+    210,
+    525,
+    577,
+    65,
+    824,
+    388,
+    514,
+    522,
+    485,
+    761,
+    468,
+    951,
+    847,
+    91,
+    165,
+    171,
+    567,
+    811,
+    528,
+    845,
+    459,
+    756,
+    272,
+    499,
+    474,
+    13,
+    419,
+    713,
+    794,
+    648,
+    102,
+    766,
+    956,
+    800,
+    798,
+    7,
+    850,
+    828,
+    92,
+    637,
+    856,
+    173,
+    878,
+    2,
+    820,
+    132,
+    5,
+    720,
+    109,
+    14,
+    192
+  ],
+  "cases": [
+    {
+      "index": 928,
+      "phase": "train",
+      "reynolds": 384.0,
+      "geometry_hash": "b0e441df84b331fb75a978a35eddad5791ff787b2798204b4095a831c2ebb6a6"
+    },
+    {
+      "index": 25,
+      "phase": "train",
+      "reynolds": 660.0,
+      "geometry_hash": "033de925a5560a8bcea62f22ff284bf9c01aab69e41793b661859e8a79eac0b9"
+    },
+    {
+      "index": 555,
+      "phase": "train",
+      "reynolds": 582.0,
+      "geometry_hash": "ed5ddded8b8ae94eb20a58aec5943c38e02744e8d4753e263139f9012a0a1e2a"
+    },
+    {
+      "index": 534,
+      "phase": "train",
+      "reynolds": 93.0,
+      "geometry_hash": "d1e37f8d9365c588598c52c52159ad6c6cdaf966dc3d99cbb17f82a83f21ae35"
+    },
+    {
+      "index": 506,
+      "phase": "train",
+      "reynolds": 117.0,
+      "geometry_hash": "71b6b32f214c31c93e65942cbe29a8b9a4b5090c681d1e702e488165b328b961"
+    },
+    {
+      "index": 930,
+      "phase": "train",
+      "reynolds": 666.0,
+      "geometry_hash": "ce45410b73df6243e984e45d3a41552c880366f8c0700a79db3bf7d477446f32"
+    },
+    {
+      "index": 823,
+      "phase": "train",
+      "reynolds": 71.0,
+      "geometry_hash": "e914d6b42aba9ab89c7793b80b43f53005d07fe26fe4a390cee998ab0e7db379"
+    },
+    {
+      "index": 345,
+      "phase": "train",
+      "reynolds": 71.0,
+      "geometry_hash": "79a1bda776c30e65f234871bb991035a4c40f8ba8d82e62a4edc3f4ff2af314f"
+    },
+    {
+      "index": 961,
+      "phase": "train",
+      "reynolds": 24.0,
+      "geometry_hash": "e6064cf57fb2f861df5c32559523f7496ff6baf5a4257d88a34a7fe65bd6e1c0"
+    },
+    {
+      "index": 588,
+      "phase": "train",
+      "reynolds": 599.0,
+      "geometry_hash": "e1c1a408f6ecdca3832173276ef2876258933503061e230a14aa1fb040abe9d8"
+    },
+    {
+      "index": 421,
+      "phase": "train",
+      "reynolds": 656.0,
+      "geometry_hash": "0b585ca1d4374c549fefbdf1fe0de121109829bd854d5b2570563b452bba3163"
+    },
+    {
+      "index": 183,
+      "phase": "train",
+      "reynolds": 14.0,
+      "geometry_hash": "d73bf3d8f27e97518330e6631f24a449eb4d0c7f38bbd67f2175cd2ab43170b2"
+    },
+    {
+      "index": 63,
+      "phase": "train",
+      "reynolds": 80.0,
+      "geometry_hash": "37d487e0e3bee333b4d0438651c930853ffb1c3f9ae0b45c4af6e4f4f837b870"
+    },
+    {
+      "index": 873,
+      "phase": "train",
+      "reynolds": 890.0,
+      "geometry_hash": "251699050b807b9a9ba27b03673785c6da4a7c096bde8db701c3cb0e23cfe586"
+    },
+    {
+      "index": 100,
+      "phase": "train",
+      "reynolds": 334.0,
+      "geometry_hash": "d0d8f2b282faac7ed25ab79995c63c6f7b9ac3733e86ec919c89eee516657b55"
+    },
+    {
+      "index": 592,
+      "phase": "train",
+      "reynolds": 47.0,
+      "geometry_hash": "3541056a917a50b87faa41f81e76f772add8d77b62791a6e48bd5adafabf21f1"
+    },
+    {
+      "index": 145,
+      "phase": "train",
+      "reynolds": 571.0,
+      "geometry_hash": "aca03136c5c696f958803f34e77e0fc75c3f06cc03e53b5c77926286da32c035"
+    },
+    {
+      "index": 893,
+      "phase": "train",
+      "reynolds": 32.0,
+      "geometry_hash": "576e47212b1acb4d903c379b905fb785ec8c486c39aa0a0160286308b332fe89"
+    },
+    {
+      "index": 541,
+      "phase": "train",
+      "reynolds": 84.0,
+      "geometry_hash": "6293c46ad369484d2c8f7226e343d0424af313276c937e5afdfa5123bd142350"
+    },
+    {
+      "index": 95,
+      "phase": "train",
+      "reynolds": 74.0,
+      "geometry_hash": "928cab70302869c113dd3be7d4a9b96b7da9cb58f23dde9799bbe833f57c38cd"
+    },
+    {
+      "index": 929,
+      "phase": "train",
+      "reynolds": 100.0,
+      "geometry_hash": "b0e441df84b331fb75a978a35eddad5791ff787b2798204b4095a831c2ebb6a6"
+    },
+    {
+      "index": 602,
+      "phase": "train",
+      "reynolds": 29.0,
+      "geometry_hash": "826a4c9572874eebbd603e29aa261139dce2907dda903f2dc4b550a983d9c0be"
+    },
+    {
+      "index": 936,
+      "phase": "train",
+      "reynolds": 33.0,
+      "geometry_hash": "ce45410b73df6243e984e45d3a41552c880366f8c0700a79db3bf7d477446f32"
+    },
+    {
+      "index": 289,
+      "phase": "train",
+      "reynolds": 103.0,
+      "geometry_hash": "766e15fc7861691fa85205d0acf52c3e54dfb1b071ea3b04e63348a92a9333e7"
+    },
+    {
+      "index": 298,
+      "phase": "train",
+      "reynolds": 22.0,
+      "geometry_hash": "89a1be42a4465a53696f3290d550bace55163c454adb5b5da452d7d77e9cbc36"
+    },
+    {
+      "index": 301,
+      "phase": "train",
+      "reynolds": 503.0,
+      "geometry_hash": "f8d52a769b5217bf9247f861d60ed2a89c6276036d3bd9b5730acba41316fd39"
+    },
+    {
+      "index": 802,
+      "phase": "train",
+      "reynolds": 66.0,
+      "geometry_hash": "cd3ce22dc01e3d60fdde68bf0604a614b44b97b41b0674ff89272feee940c844"
+    },
+    {
+      "index": 594,
+      "phase": "train",
+      "reynolds": 983.0,
+      "geometry_hash": "3541056a917a50b87faa41f81e76f772add8d77b62791a6e48bd5adafabf21f1"
+    },
+    {
+      "index": 975,
+      "phase": "train",
+      "reynolds": 37.0,
+      "geometry_hash": "f4ec0695baf5488e8a5ceb34928539ce325e84b70b4ad3db4d8717ba1ec4b8f5"
+    },
+    {
+      "index": 151,
+      "phase": "train",
+      "reynolds": 39.0,
+      "geometry_hash": "b5fdc305195c64ed2cbdd3241c775158d20931899274fd329acfe440f39c19dd"
+    },
+    {
+      "index": 585,
+      "phase": "train",
+      "reynolds": 80.0,
+      "geometry_hash": "e1c1a408f6ecdca3832173276ef2876258933503061e230a14aa1fb040abe9d8"
+    },
+    {
+      "index": 403,
+      "phase": "train",
+      "reynolds": 644.0,
+      "geometry_hash": "83000881a5be3560ebcb591d766599fc57a7cfa776a52b05c20b758921e02010"
+    },
+    {
+      "index": 205,
+      "phase": "train",
+      "reynolds": 321.0,
+      "geometry_hash": "407fdbdf64ea9a12dd6ca7873505466a7ff67cf7612219c0dc70cd9401bd7e13"
+    },
+    {
+      "index": 603,
+      "phase": "train",
+      "reynolds": 463.0,
+      "geometry_hash": "826a4c9572874eebbd603e29aa261139dce2907dda903f2dc4b550a983d9c0be"
+    },
+    {
+      "index": 551,
+      "phase": "train",
+      "reynolds": 432.0,
+      "geometry_hash": "ed5ddded8b8ae94eb20a58aec5943c38e02744e8d4753e263139f9012a0a1e2a"
+    },
+    {
+      "index": 576,
+      "phase": "train",
+      "reynolds": 43.0,
+      "geometry_hash": "6f3704444be102c9cebfe285d3dc6f15e40e02ecfc16abf8422587b823f1a704"
+    },
+    {
+      "index": 19,
+      "phase": "train",
+      "reynolds": 16.0,
+      "geometry_hash": "51fd81a497cf968916287776db6a5a46b01c54834872494412ec2ab7bbd690de"
+    },
+    {
+      "index": 644,
+      "phase": "train",
+      "reynolds": 941.0,
+      "geometry_hash": "3ff014e4e0c59403230fa01ddc34febaf6796e684d95fa8170dfa7c53ddd648e"
+    },
+    {
+      "index": 264,
+      "phase": "train",
+      "reynolds": 12.0,
+      "geometry_hash": "3a51a11680c4281b6117f8f61e35786a5e422fb8eedb998a0ba5bb5957fc75f9"
+    },
+    {
+      "index": 658,
+      "phase": "train",
+      "reynolds": 451.0,
+      "geometry_hash": "e72cec11b9a82728cef1c34c9b0fc721df429c99b26874ed8e7fdafb6d7449ea"
+    },
+    {
+      "index": 455,
+      "phase": "train",
+      "reynolds": 675.0,
+      "geometry_hash": "e33c7467e243381473a69c9689093381681d45d5e048e13bb09772b73880d302"
+    },
+    {
+      "index": 309,
+      "phase": "train",
+      "reynolds": 611.0,
+      "geometry_hash": "f8d52a769b5217bf9247f861d60ed2a89c6276036d3bd9b5730acba41316fd39"
+    },
+    {
+      "index": 493,
+      "phase": "train",
+      "reynolds": 12.0,
+      "geometry_hash": "d4bcde7dc90e02f8bd85ccd0ff615c67d81b4a4ccc6362386ff15991bca7fefe"
+    },
+    {
+      "index": 688,
+      "phase": "train",
+      "reynolds": 67.0,
+      "geometry_hash": "bdb753d14d4b62d94a0eb8540c567188e99883d51d29eec462d6d83786a53cac"
+    },
+    {
+      "index": 617,
+      "phase": "train",
+      "reynolds": 52.0,
+      "geometry_hash": "8756d4dddba4b22b39972f6c4df56a4e46ea2d40a4ab5265a8849cba95129378"
+    },
+    {
+      "index": 883,
+      "phase": "train",
+      "reynolds": 75.0,
+      "geometry_hash": "c30d34b459f060de6bef2750b94069da60697f6a80c66061e29d5700cf578f91"
+    },
+    {
+      "index": 745,
+      "phase": "train",
+      "reynolds": 85.0,
+      "geometry_hash": "3bebd4e0d965bcd3067e93bc2263fdc656d27db86660defae598fa7d4c43e8bd"
+    },
+    {
+      "index": 259,
+      "phase": "train",
+      "reynolds": 894.0,
+      "geometry_hash": "c4c20b5c2b838da60db537abe488d05b8f928430933ec2b7242dd8bddeef024b"
+    },
+    {
+      "index": 305,
+      "phase": "train",
+      "reynolds": 842.0,
+      "geometry_hash": "f8d52a769b5217bf9247f861d60ed2a89c6276036d3bd9b5730acba41316fd39"
+    },
+    {
+      "index": 299,
+      "phase": "train",
+      "reynolds": 629.0,
+      "geometry_hash": "89a1be42a4465a53696f3290d550bace55163c454adb5b5da452d7d77e9cbc36"
+    },
+    {
+      "index": 54,
+      "phase": "train",
+      "reynolds": 83.0,
+      "geometry_hash": "5648ee525545614bee8f524ee263ccf8ff7f45979f1e8b7e532caac7a1351215"
+    },
+    {
+      "index": 406,
+      "phase": "train",
+      "reynolds": 765.0,
+      "geometry_hash": "83000881a5be3560ebcb591d766599fc57a7cfa776a52b05c20b758921e02010"
+    },
+    {
+      "index": 963,
+      "phase": "train",
+      "reynolds": 59.0,
+      "geometry_hash": "e6064cf57fb2f861df5c32559523f7496ff6baf5a4257d88a34a7fe65bd6e1c0"
+    },
+    {
+      "index": 681,
+      "phase": "train",
+      "reynolds": 47.0,
+      "geometry_hash": "bdb753d14d4b62d94a0eb8540c567188e99883d51d29eec462d6d83786a53cac"
+    },
+    {
+      "index": 153,
+      "phase": "train",
+      "reynolds": 841.0,
+      "geometry_hash": "b5fdc305195c64ed2cbdd3241c775158d20931899274fd329acfe440f39c19dd"
+    },
+    {
+      "index": 443,
+      "phase": "train",
+      "reynolds": 12.0,
+      "geometry_hash": "e2a573ac023e0fd17254ab59fe0f4d96329b6fe46f05780db86691548e7f6fbe"
+    },
+    {
+      "index": 557,
+      "phase": "train",
+      "reynolds": 58.0,
+      "geometry_hash": "ed5ddded8b8ae94eb20a58aec5943c38e02744e8d4753e263139f9012a0a1e2a"
+    },
+    {
+      "index": 334,
+      "phase": "train",
+      "reynolds": 38.0,
+      "geometry_hash": "3be89d1cb5692d97218944a4bf478569e3142199a929568b0cc42b12cb843924"
+    },
+    {
+      "index": 202,
+      "phase": "train",
+      "reynolds": 32.0,
+      "geometry_hash": "407fdbdf64ea9a12dd6ca7873505466a7ff67cf7612219c0dc70cd9401bd7e13"
+    },
+    {
+      "index": 146,
+      "phase": "train",
+      "reynolds": 57.0,
+      "geometry_hash": "aca03136c5c696f958803f34e77e0fc75c3f06cc03e53b5c77926286da32c035"
+    },
+    {
+      "index": 857,
+      "phase": "train",
+      "reynolds": 223.0,
+      "geometry_hash": "8a11818f4944587844beebc2b11e70a3ffbaa4b45e754693ab1bbd2ebce16117"
+    },
+    {
+      "index": 718,
+      "phase": "train",
+      "reynolds": 51.0,
+      "geometry_hash": "3b2f3eb8ddcfa731c05bcfff97654d5e85670cbddf33c63d55a0ed5e48394c29"
+    },
+    {
+      "index": 546,
+      "phase": "train",
+      "reynolds": 610.0,
+      "geometry_hash": "6293c46ad369484d2c8f7226e343d0424af313276c937e5afdfa5123bd142350"
+    },
+    {
+      "index": 846,
+      "phase": "train",
+      "reynolds": 120.0,
+      "geometry_hash": "e5c5cb57c41b9e72ed285a47cb2398fb8545e155e177cdefbafc5940caa36571"
+    },
+    {
+      "index": 350,
+      "phase": "train",
+      "reynolds": 927.0,
+      "geometry_hash": "c5ad1e031dc80f8dd63db7177a18a9aceee244f8493229f42086cf88b6d07b9c"
+    },
+    {
+      "index": 817,
+      "phase": "train",
+      "reynolds": 258.0,
+      "geometry_hash": "0a2c8072f1ce1545fb9f517924099ecbf2323537aa1dbcfa5d8e8a4e9390306a"
+    },
+    {
+      "index": 518,
+      "phase": "train",
+      "reynolds": 74.0,
+      "geometry_hash": "099caf6a91d11eeb75b7851bd0b12057f40b529e47510495f83015bd2ae14cd9"
+    },
+    {
+      "index": 184,
+      "phase": "train",
+      "reynolds": 60.0,
+      "geometry_hash": "d73bf3d8f27e97518330e6631f24a449eb4d0c7f38bbd67f2175cd2ab43170b2"
+    },
+    {
+      "index": 787,
+      "phase": "train",
+      "reynolds": 45.0,
+      "geometry_hash": "473b575bf4123c47a2b310251ba48cc5e0dda1decd4bf9054f4ca388945f2e2b"
+    },
+    {
+      "index": 112,
+      "phase": "train",
+      "reynolds": 135.0,
+      "geometry_hash": "6afaee3ab3323eb9359875f72492c085fbb37a8a477f65fc24cc7de2940dbbdc"
+    },
+    {
+      "index": 621,
+      "phase": "train",
+      "reynolds": 32.0,
+      "geometry_hash": "26221a0f5605e27151e8e96060e4a0529dd154f1c473e829f5f8e13160817696"
+    },
+    {
+      "index": 370,
+      "phase": "train",
+      "reynolds": 77.0,
+      "geometry_hash": "5b3d8d83062b6c7a2aefb8ce3d03c46a095748bac8b2393957121c6d6d4689fe"
+    },
+    {
+      "index": 875,
+      "phase": "train",
+      "reynolds": 71.0,
+      "geometry_hash": "251699050b807b9a9ba27b03673785c6da4a7c096bde8db701c3cb0e23cfe586"
+    },
+    {
+      "index": 169,
+      "phase": "train",
+      "reynolds": 655.0,
+      "geometry_hash": "bb184545fa6e7d5afa870f57a871278c1d7997c1433df2d43e4258cf7625f8bb"
+    },
+    {
+      "index": 4,
+      "phase": "train",
+      "reynolds": 788.0,
+      "geometry_hash": "ca3457a531ec8bbbfb1a4a5f856e9c55b2d21c6d1150c378df4093b32c3631dd"
+    },
+    {
+      "index": 188,
+      "phase": "train",
+      "reynolds": 138.0,
+      "geometry_hash": "d73bf3d8f27e97518330e6631f24a449eb4d0c7f38bbd67f2175cd2ab43170b2"
+    },
+    {
+      "index": 139,
+      "phase": "train",
+      "reynolds": 54.0,
+      "geometry_hash": "7407d3c76988d2fff7532ddafd68e0b79437e61f47b2cd9771663dd3eb7658c3"
+    },
+    {
+      "index": 12,
+      "phase": "train",
+      "reynolds": 687.0,
+      "geometry_hash": "51fd81a497cf968916287776db6a5a46b01c54834872494412ec2ab7bbd690de"
+    },
+    {
+      "index": 150,
+      "phase": "train",
+      "reynolds": 390.0,
+      "geometry_hash": "b5fdc305195c64ed2cbdd3241c775158d20931899274fd329acfe440f39c19dd"
+    },
+    {
+      "index": 381,
+      "phase": "train",
+      "reynolds": 469.0,
+      "geometry_hash": "ded5662ee998425a4bf2bed6a05c78926c91f2dbeaf3f01d8a24dc6ce8d1b603"
+    },
+    {
+      "index": 795,
+      "phase": "train",
+      "reynolds": 88.0,
+      "geometry_hash": "3a7ae9843de1c981e7428c590b3030575f4217ad55005c7c9ff8fb677349482a"
+    },
+    {
+      "index": 533,
+      "phase": "train",
+      "reynolds": 11.0,
+      "geometry_hash": "d1e37f8d9365c588598c52c52159ad6c6cdaf966dc3d99cbb17f82a83f21ae35"
+    },
+    {
+      "index": 174,
+      "phase": "train",
+      "reynolds": 868.0,
+      "geometry_hash": "422939840aca9f94d9d42bea9248e266e52dba942363d5449845e44da12c4949"
+    },
+    {
+      "index": 176,
+      "phase": "train",
+      "reynolds": 45.0,
+      "geometry_hash": "422939840aca9f94d9d42bea9248e266e52dba942363d5449845e44da12c4949"
+    },
+    {
+      "index": 631,
+      "phase": "train",
+      "reynolds": 97.0,
+      "geometry_hash": "3906407afc836c680e50d1a62ab2d2d4d4a88104bc95dc01013598974697002d"
+    },
+    {
+      "index": 397,
+      "phase": "train",
+      "reynolds": 83.0,
+      "geometry_hash": "984272ebb00549d6870bbbdd38d4f9bbbf6e77f076b69e113b31a4b71a96f190"
+    },
+    {
+      "index": 782,
+      "phase": "train",
+      "reynolds": 57.0,
+      "geometry_hash": "473b575bf4123c47a2b310251ba48cc5e0dda1decd4bf9054f4ca388945f2e2b"
+    },
+    {
+      "index": 686,
+      "phase": "train",
+      "reynolds": 349.0,
+      "geometry_hash": "bdb753d14d4b62d94a0eb8540c567188e99883d51d29eec462d6d83786a53cac"
+    },
+    {
+      "index": 561,
+      "phase": "train",
+      "reynolds": 64.0,
+      "geometry_hash": "dc0269f2984f0e4031a1793641ab1bcd6e41606d386cfd841d8532bfff4f915e"
+    },
+    {
+      "index": 82,
+      "phase": "train",
+      "reynolds": 170.0,
+      "geometry_hash": "5d9f51f63226324e58521c8a667f012f95532cdedfee42a2c2f385a94e508e98"
+    },
+    {
+      "index": 986,
+      "phase": "train",
+      "reynolds": 99.0,
+      "geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+    },
+    {
+      "index": 666,
+      "phase": "train",
+      "reynolds": 256.0,
+      "geometry_hash": "3c3246d7eebb9bad788eb327bb78cc4cd6b7c101e028269add362696236cc18c"
+    },
+    {
+      "index": 256,
+      "phase": "train",
+      "reynolds": 67.0,
+      "geometry_hash": "c4c20b5c2b838da60db537abe488d05b8f928430933ec2b7242dd8bddeef024b"
+    },
+    {
+      "index": 868,
+      "phase": "train",
+      "reynolds": 471.0,
+      "geometry_hash": "296849eb5ce30f3e886b8b64d2c2b6daa0f2d6277e841f8cc7c405d53d2d9c32"
+    },
+    {
+      "index": 128,
+      "phase": "train",
+      "reynolds": 935.0,
+      "geometry_hash": "d72271c682722411b715c315c12abda164499478d07dee0cc1643947ed0aca33"
+    },
+    {
+      "index": 652,
+      "phase": "train",
+      "reynolds": 611.0,
+      "geometry_hash": "e72cec11b9a82728cef1c34c9b0fc721df429c99b26874ed8e7fdafb6d7449ea"
+    },
+    {
+      "index": 23,
+      "phase": "train",
+      "reynolds": 398.0,
+      "geometry_hash": "033de925a5560a8bcea62f22ff284bf9c01aab69e41793b661859e8a79eac0b9"
+    },
+    {
+      "index": 740,
+      "phase": "train",
+      "reynolds": 304.0,
+      "geometry_hash": "3bebd4e0d965bcd3067e93bc2263fdc656d27db86660defae598fa7d4c43e8bd"
+    },
+    {
+      "index": 553,
+      "phase": "train",
+      "reynolds": 85.0,
+      "geometry_hash": "ed5ddded8b8ae94eb20a58aec5943c38e02744e8d4753e263139f9012a0a1e2a"
+    },
+    {
+      "index": 251,
+      "phase": "train",
+      "reynolds": 482.0,
+      "geometry_hash": "c4c20b5c2b838da60db537abe488d05b8f928430933ec2b7242dd8bddeef024b"
+    },
+    {
+      "index": 703,
+      "phase": "train",
+      "reynolds": 70.0,
+      "geometry_hash": "86827fb2ce8a19b8d4b41c2f08b0184c74e46be5f623cb850ed164c74effb7d5"
+    },
+    {
+      "index": 3,
+      "phase": "train",
+      "reynolds": 340.0,
+      "geometry_hash": "ca3457a531ec8bbbfb1a4a5f856e9c55b2d21c6d1150c378df4093b32c3631dd"
+    },
+    {
+      "index": 949,
+      "phase": "train",
+      "reynolds": 331.0,
+      "geometry_hash": "14b003b1ae89a74b51036a35df536350feb754a500f47fbacbcf109939520430"
+    },
+    {
+      "index": 170,
+      "phase": "train",
+      "reynolds": 90.0,
+      "geometry_hash": "422939840aca9f94d9d42bea9248e266e52dba942363d5449845e44da12c4949"
+    },
+    {
+      "index": 317,
+      "phase": "train",
+      "reynolds": 833.0,
+      "geometry_hash": "9adc2e4e9117a8034700f1deb4a4ef9fc974aa968c60fa8d5f7e072823c851c7"
+    },
+    {
+      "index": 825,
+      "phase": "train",
+      "reynolds": 20.0,
+      "geometry_hash": "e914d6b42aba9ab89c7793b80b43f53005d07fe26fe4a390cee998ab0e7db379"
+    },
+    {
+      "index": 181,
+      "phase": "train",
+      "reynolds": 601.0,
+      "geometry_hash": "d73bf3d8f27e97518330e6631f24a449eb4d0c7f38bbd67f2175cd2ab43170b2"
+    },
+    {
+      "index": 540,
+      "phase": "train",
+      "reynolds": 61.0,
+      "geometry_hash": "6293c46ad369484d2c8f7226e343d0424af313276c937e5afdfa5123bd142350"
+    },
+    {
+      "index": 752,
+      "phase": "train",
+      "reynolds": 42.0,
+      "geometry_hash": "b6f8d3adf8a3fb2cdf623a16539656ea2b1d0c2743e7e7f60942dddb5369ccad"
+    },
+    {
+      "index": 31,
+      "phase": "train",
+      "reynolds": 74.0,
+      "geometry_hash": "e0852cf7e88b52fa4a79b2a5fd2622bad93c13b8ed8db7d315ab357a9c5036fd"
+    },
+    {
+      "index": 35,
+      "phase": "train",
+      "reynolds": 83.0,
+      "geometry_hash": "e0852cf7e88b52fa4a79b2a5fd2622bad93c13b8ed8db7d315ab357a9c5036fd"
+    },
+    {
+      "index": 775,
+      "phase": "train",
+      "reynolds": 81.0,
+      "geometry_hash": "fde61aba2903bcb36a42c11f68eaf3e3561494ed96607d38db3683c90660e13b"
+    },
+    {
+      "index": 32,
+      "phase": "train",
+      "reynolds": 268.0,
+      "geometry_hash": "e0852cf7e88b52fa4a79b2a5fd2622bad93c13b8ed8db7d315ab357a9c5036fd"
+    },
+    {
+      "index": 821,
+      "phase": "train",
+      "reynolds": 477.0,
+      "geometry_hash": "e914d6b42aba9ab89c7793b80b43f53005d07fe26fe4a390cee998ab0e7db379"
+    },
+    {
+      "index": 545,
+      "phase": "train",
+      "reynolds": 672.0,
+      "geometry_hash": "6293c46ad369484d2c8f7226e343d0424af313276c937e5afdfa5123bd142350"
+    },
+    {
+      "index": 284,
+      "phase": "train",
+      "reynolds": 56.0,
+      "geometry_hash": "766e15fc7861691fa85205d0acf52c3e54dfb1b071ea3b04e63348a92a9333e7"
+    },
+    {
+      "index": 744,
+      "phase": "train",
+      "reynolds": 52.0,
+      "geometry_hash": "3bebd4e0d965bcd3067e93bc2263fdc656d27db86660defae598fa7d4c43e8bd"
+    },
+    {
+      "index": 9,
+      "phase": "train",
+      "reynolds": 99.0,
+      "geometry_hash": "ca3457a531ec8bbbfb1a4a5f856e9c55b2d21c6d1150c378df4093b32c3631dd"
+    },
+    {
+      "index": 700,
+      "phase": "train",
+      "reynolds": 303.0,
+      "geometry_hash": "86827fb2ce8a19b8d4b41c2f08b0184c74e46be5f623cb850ed164c74effb7d5"
+    },
+    {
+      "index": 306,
+      "phase": "train",
+      "reynolds": 900.0,
+      "geometry_hash": "f8d52a769b5217bf9247f861d60ed2a89c6276036d3bd9b5730acba41316fd39"
+    },
+    {
+      "index": 335,
+      "phase": "train",
+      "reynolds": 989.0,
+      "geometry_hash": "3be89d1cb5692d97218944a4bf478569e3142199a929568b0cc42b12cb843924"
+    },
+    {
+      "index": 768,
+      "phase": "train",
+      "reynolds": 964.0,
+      "geometry_hash": "6c52d067af14dcbc8c3555c861d4cc6476dfe21f3a11d9d4756871e8503579be"
+    },
+    {
+      "index": 497,
+      "phase": "train",
+      "reynolds": 719.0,
+      "geometry_hash": "d4bcde7dc90e02f8bd85ccd0ff615c67d81b4a4ccc6362386ff15991bca7fefe"
+    },
+    {
+      "index": 655,
+      "phase": "train",
+      "reynolds": 148.0,
+      "geometry_hash": "e72cec11b9a82728cef1c34c9b0fc721df429c99b26874ed8e7fdafb6d7449ea"
+    },
+    {
+      "index": 722,
+      "phase": "train",
+      "reynolds": 49.0,
+      "geometry_hash": "8691f63c74b12893bb99c93a873a8a542f8f408f1ed810e310123d0ffa237a33"
+    },
+    {
+      "index": 478,
+      "phase": "train",
+      "reynolds": 720.0,
+      "geometry_hash": "edf447923099d357a56a1f4f1fccdf14bbdb9537c6f88c5e59f6ba77d09e4520"
+    },
+    {
+      "index": 897,
+      "phase": "train",
+      "reynolds": 82.0,
+      "geometry_hash": "576e47212b1acb4d903c379b905fb785ec8c486c39aa0a0160286308b332fe89"
+    },
+    {
+      "index": 940,
+      "phase": "train",
+      "reynolds": 33.0,
+      "geometry_hash": "14b003b1ae89a74b51036a35df536350feb754a500f47fbacbcf109939520430"
+    },
+    {
+      "index": 201,
+      "phase": "train",
+      "reynolds": 84.0,
+      "geometry_hash": "407fdbdf64ea9a12dd6ca7873505466a7ff67cf7612219c0dc70cd9401bd7e13"
+    },
+    {
+      "index": 50,
+      "phase": "train",
+      "reynolds": 34.0,
+      "geometry_hash": "5648ee525545614bee8f524ee263ccf8ff7f45979f1e8b7e532caac7a1351215"
+    },
+    {
+      "index": 127,
+      "phase": "train",
+      "reynolds": 325.0,
+      "geometry_hash": "d72271c682722411b715c315c12abda164499478d07dee0cc1643947ed0aca33"
+    },
+    {
+      "index": 563,
+      "phase": "train",
+      "reynolds": 27.0,
+      "geometry_hash": "dc0269f2984f0e4031a1793641ab1bcd6e41606d386cfd841d8532bfff4f915e"
+    },
+    {
+      "index": 352,
+      "phase": "train",
+      "reynolds": 199.0,
+      "geometry_hash": "c5ad1e031dc80f8dd63db7177a18a9aceee244f8493229f42086cf88b6d07b9c"
+    },
+    {
+      "index": 339,
+      "phase": "train",
+      "reynolds": 210.0,
+      "geometry_hash": "3be89d1cb5692d97218944a4bf478569e3142199a929568b0cc42b12cb843924"
+    },
+    {
+      "index": 723,
+      "phase": "train",
+      "reynolds": 577.0,
+      "geometry_hash": "8691f63c74b12893bb99c93a873a8a542f8f408f1ed810e310123d0ffa237a33"
+    },
+    {
+      "index": 955,
+      "phase": "train",
+      "reynolds": 92.0,
+      "geometry_hash": "2d6fcd91d952a56dafb92f2dcb0565705ddc4363b1a8d7359146b494c433d4e4"
+    },
+    {
+      "index": 716,
+      "phase": "train",
+      "reynolds": 93.0,
+      "geometry_hash": "3b2f3eb8ddcfa731c05bcfff97654d5e85670cbddf33c63d55a0ed5e48394c29"
+    },
+    {
+      "index": 991,
+      "phase": "train",
+      "reynolds": 99.0,
+      "geometry_hash": "a84c876eb5d6d26d15225de39f20641fd8a85c07958d48beb560d058a3484655"
+    },
+    {
+      "index": 94,
+      "phase": "train",
+      "reynolds": 88.0,
+      "geometry_hash": "928cab70302869c113dd3be7d4a9b96b7da9cb58f23dde9799bbe833f57c38cd"
+    },
+    {
+      "index": 224,
+      "phase": "train",
+      "reynolds": 57.0,
+      "geometry_hash": "ff1818101b1175a0daaf3dce0b822abe116acd518a34ebdc87130a356905b751"
+    },
+    {
+      "index": 858,
+      "phase": "train",
+      "reynolds": 804.0,
+      "geometry_hash": "8a11818f4944587844beebc2b11e70a3ffbaa4b45e754693ab1bbd2ebce16117"
+    },
+    {
+      "index": 70,
+      "phase": "train",
+      "reynolds": 274.0,
+      "geometry_hash": "8d1ee12eb2a237125fad5c98c1e47b2caba48c770bd950cab141821b63af9c1e"
+    },
+    {
+      "index": 295,
+      "phase": "train",
+      "reynolds": 224.0,
+      "geometry_hash": "89a1be42a4465a53696f3290d550bace55163c454adb5b5da452d7d77e9cbc36"
+    },
+    {
+      "index": 414,
+      "phase": "train",
+      "reynolds": 23.0,
+      "geometry_hash": "45971ef6f5dd077f102dfcabce1ddb1ac6a538cca0ff2590f57be164b8405192"
+    },
+    {
+      "index": 292,
+      "phase": "train",
+      "reynolds": 44.0,
+      "geometry_hash": "89a1be42a4465a53696f3290d550bace55163c454adb5b5da452d7d77e9cbc36"
+    },
+    {
+      "index": 439,
+      "phase": "train",
+      "reynolds": 52.0,
+      "geometry_hash": "bc006bcc50a84edd692be156987ae36773871c4efd943443f66f7da0ea2906ae"
+    },
+    {
+      "index": 743,
+      "phase": "train",
+      "reynolds": 74.0,
+      "geometry_hash": "3bebd4e0d965bcd3067e93bc2263fdc656d27db86660defae598fa7d4c43e8bd"
+    },
+    {
+      "index": 915,
+      "phase": "train",
+      "reynolds": 447.0,
+      "geometry_hash": "9b4cfab73245c8f40946912d482baa1454e1526cc892d1bc1891b477a538644f"
+    },
+    {
+      "index": 770,
+      "phase": "train",
+      "reynolds": 997.0,
+      "geometry_hash": "fde61aba2903bcb36a42c11f68eaf3e3561494ed96607d38db3683c90660e13b"
+    },
+    {
+      "index": 886,
+      "phase": "train",
+      "reynolds": 84.0,
+      "geometry_hash": "c30d34b459f060de6bef2750b94069da60697f6a80c66061e29d5700cf578f91"
+    },
+    {
+      "index": 469,
+      "phase": "train",
+      "reynolds": 896.0,
+      "geometry_hash": "5b11a61f72e85a27ce20f9e4b83f2ed579d7f166b7db0d0456ba17f67c550c3e"
+    },
+    {
+      "index": 376,
+      "phase": "train",
+      "reynolds": 99.0,
+      "geometry_hash": "5b3d8d83062b6c7a2aefb8ce3d03c46a095748bac8b2393957121c6d6d4689fe"
+    },
+    {
+      "index": 801,
+      "phase": "train",
+      "reynolds": 87.0,
+      "geometry_hash": "cd3ce22dc01e3d60fdde68bf0604a614b44b97b41b0674ff89272feee940c844"
+    },
+    {
+      "index": 147,
+      "phase": "train",
+      "reynolds": 19.0,
+      "geometry_hash": "aca03136c5c696f958803f34e77e0fc75c3f06cc03e53b5c77926286da32c035"
+    },
+    {
+      "index": 628,
+      "phase": "train",
+      "reynolds": 970.0,
+      "geometry_hash": "26221a0f5605e27151e8e96060e4a0529dd154f1c473e829f5f8e13160817696"
+    },
+    {
+      "index": 571,
+      "phase": "train",
+      "reynolds": 215.0,
+      "geometry_hash": "6f3704444be102c9cebfe285d3dc6f15e40e02ecfc16abf8422587b823f1a704"
+    },
+    {
+      "index": 233,
+      "phase": "train",
+      "reynolds": 37.0,
+      "geometry_hash": "57fe4dbd3403536f39f3631992cf8e665a6f1a4a74c0ebe7949166f672f89bde"
+    },
+    {
+      "index": 879,
+      "phase": "train",
+      "reynolds": 57.0,
+      "geometry_hash": "251699050b807b9a9ba27b03673785c6da4a7c096bde8db701c3cb0e23cfe586"
+    },
+    {
+      "index": 457,
+      "phase": "train",
+      "reynolds": 18.0,
+      "geometry_hash": "e33c7467e243381473a69c9689093381681d45d5e048e13bb09772b73880d302"
+    },
+    {
+      "index": 212,
+      "phase": "train",
+      "reynolds": 697.0,
+      "geometry_hash": "c98ce5d03a6341ab45aba73eb52b95fb17103b1cc12337c3e4b4d5b8389adb2f"
+    },
+    {
+      "index": 496,
+      "phase": "train",
+      "reynolds": 72.0,
+      "geometry_hash": "d4bcde7dc90e02f8bd85ccd0ff615c67d81b4a4ccc6362386ff15991bca7fefe"
+    },
+    {
+      "index": 488,
+      "phase": "train",
+      "reynolds": 89.0,
+      "geometry_hash": "e8f8705653b53a8b2ebec089ace1d64480a712e7449461ff7ab69be160dcac3b"
+    },
+    {
+      "index": 924,
+      "phase": "train",
+      "reynolds": 202.0,
+      "geometry_hash": "b0e441df84b331fb75a978a35eddad5791ff787b2798204b4095a831c2ebb6a6"
+    },
+    {
+      "index": 769,
+      "phase": "train",
+      "reynolds": 657.0,
+      "geometry_hash": "6c52d067af14dcbc8c3555c861d4cc6476dfe21f3a11d9d4756871e8503579be"
+    },
+    {
+      "index": 516,
+      "phase": "train",
+      "reynolds": 85.0,
+      "geometry_hash": "099caf6a91d11eeb75b7851bd0b12057f40b529e47510495f83015bd2ae14cd9"
+    },
+    {
+      "index": 333,
+      "phase": "train",
+      "reynolds": 99.0,
+      "geometry_hash": "3be89d1cb5692d97218944a4bf478569e3142199a929568b0cc42b12cb843924"
+    },
+    {
+      "index": 710,
+      "phase": "train",
+      "reynolds": 329.0,
+      "geometry_hash": "3b2f3eb8ddcfa731c05bcfff97654d5e85670cbddf33c63d55a0ed5e48394c29"
+    },
+    {
+      "index": 507,
+      "phase": "train",
+      "reynolds": 37.0,
+      "geometry_hash": "71b6b32f214c31c93e65942cbe29a8b9a4b5090c681d1e702e488165b328b961"
+    },
+    {
+      "index": 160,
+      "phase": "train",
+      "reynolds": 66.0,
+      "geometry_hash": "bb184545fa6e7d5afa870f57a871278c1d7997c1433df2d43e4258cf7625f8bb"
+    },
+    {
+      "index": 78,
+      "phase": "train",
+      "reynolds": 36.0,
+      "geometry_hash": "8d1ee12eb2a237125fad5c98c1e47b2caba48c770bd950cab141821b63af9c1e"
+    },
+    {
+      "index": 191,
+      "phase": "train",
+      "reynolds": 110.0,
+      "geometry_hash": "513791937e9cfa07ebd54bb352880f2897ba54756ea21eb08874ca6dac654b58"
+    },
+    {
+      "index": 57,
+      "phase": "train",
+      "reynolds": 95.0,
+      "geometry_hash": "5648ee525545614bee8f524ee263ccf8ff7f45979f1e8b7e532caac7a1351215"
+    },
+    {
+      "index": 310,
+      "phase": "train",
+      "reynolds": 912.0,
+      "geometry_hash": "9adc2e4e9117a8034700f1deb4a4ef9fc974aa968c60fa8d5f7e072823c851c7"
+    },
+    {
+      "index": 642,
+      "phase": "train",
+      "reynolds": 94.0,
+      "geometry_hash": "3ff014e4e0c59403230fa01ddc34febaf6796e684d95fa8170dfa7c53ddd648e"
+    },
+    {
+      "index": 154,
+      "phase": "train",
+      "reynolds": 941.0,
+      "geometry_hash": "b5fdc305195c64ed2cbdd3241c775158d20931899274fd329acfe440f39c19dd"
+    },
+    {
+      "index": 640,
+      "phase": "train",
+      "reynolds": 53.0,
+      "geometry_hash": "3ff014e4e0c59403230fa01ddc34febaf6796e684d95fa8170dfa7c53ddd648e"
+    },
+    {
+      "index": 721,
+      "phase": "train",
+      "reynolds": 58.0,
+      "geometry_hash": "8691f63c74b12893bb99c93a873a8a542f8f408f1ed810e310123d0ffa237a33"
+    },
+    {
+      "index": 144,
+      "phase": "train",
+      "reynolds": 34.0,
+      "geometry_hash": "aca03136c5c696f958803f34e77e0fc75c3f06cc03e53b5c77926286da32c035"
+    },
+    {
+      "index": 103,
+      "phase": "train",
+      "reynolds": 33.0,
+      "geometry_hash": "d0d8f2b282faac7ed25ab79995c63c6f7b9ac3733e86ec919c89eee516657b55"
+    },
+    {
+      "index": 773,
+      "phase": "train",
+      "reynolds": 33.0,
+      "geometry_hash": "fde61aba2903bcb36a42c11f68eaf3e3561494ed96607d38db3683c90660e13b"
+    },
+    {
+      "index": 661,
+      "phase": "train",
+      "reynolds": 686.0,
+      "geometry_hash": "3c3246d7eebb9bad788eb327bb78cc4cd6b7c101e028269add362696236cc18c"
+    },
+    {
+      "index": 108,
+      "phase": "train",
+      "reynolds": 25.0,
+      "geometry_hash": "d0d8f2b282faac7ed25ab79995c63c6f7b9ac3733e86ec919c89eee516657b55"
+    },
+    {
+      "index": 221,
+      "phase": "train",
+      "reynolds": 810.0,
+      "geometry_hash": "ff1818101b1175a0daaf3dce0b822abe116acd518a34ebdc87130a356905b751"
+    },
+    {
+      "index": 68,
+      "phase": "train",
+      "reynolds": 802.0,
+      "geometry_hash": "37d487e0e3bee333b4d0438651c930853ffb1c3f9ae0b45c4af6e4f4f837b870"
+    },
+    {
+      "index": 470,
+      "phase": "train",
+      "reynolds": 72.0,
+      "geometry_hash": "edf447923099d357a56a1f4f1fccdf14bbdb9537c6f88c5e59f6ba77d09e4520"
+    },
+    {
+      "index": 197,
+      "phase": "train",
+      "reynolds": 913.0,
+      "geometry_hash": "513791937e9cfa07ebd54bb352880f2897ba54756ea21eb08874ca6dac654b58"
+    },
+    {
+      "index": 653,
+      "phase": "train",
+      "reynolds": 100.0,
+      "geometry_hash": "e72cec11b9a82728cef1c34c9b0fc721df429c99b26874ed8e7fdafb6d7449ea"
+    },
+    {
+      "index": 99,
+      "phase": "train",
+      "reynolds": 50.0,
+      "geometry_hash": "928cab70302869c113dd3be7d4a9b96b7da9cb58f23dde9799bbe833f57c38cd"
+    },
+    {
+      "index": 717,
+      "phase": "train",
+      "reynolds": 55.0,
+      "geometry_hash": "3b2f3eb8ddcfa731c05bcfff97654d5e85670cbddf33c63d55a0ed5e48394c29"
+    },
+    {
+      "index": 420,
+      "phase": "train",
+      "reynolds": 110.0,
+      "geometry_hash": "0b585ca1d4374c549fefbdf1fe0de121109829bd854d5b2570563b452bba3163"
+    },
+    {
+      "index": 739,
+      "phase": "train",
+      "reynolds": 87.0,
+      "geometry_hash": "ba8d8401fe9ceabd2d3685c824fd22137fa22fc03bb9d57f5a4321a99699da56"
+    },
+    {
+      "index": 691,
+      "phase": "train",
+      "reynolds": 34.0,
+      "geometry_hash": "a06c1393f90d342f91d7b15eee0c2b12f493c77da239f350c0fe6ffa21a5e79b"
+    },
+    {
+      "index": 622,
+      "phase": "train",
+      "reynolds": 351.0,
+      "geometry_hash": "26221a0f5605e27151e8e96060e4a0529dd154f1c473e829f5f8e13160817696"
+    },
+    {
+      "index": 932,
+      "phase": "train",
+      "reynolds": 46.0,
+      "geometry_hash": "ce45410b73df6243e984e45d3a41552c880366f8c0700a79db3bf7d477446f32"
+    },
+    {
+      "index": 357,
+      "phase": "train",
+      "reynolds": 693.0,
+      "geometry_hash": "c5ad1e031dc80f8dd63db7177a18a9aceee244f8493229f42086cf88b6d07b9c"
+    },
+    {
+      "index": 320,
+      "phase": "train",
+      "reynolds": 11.0,
+      "geometry_hash": "1a752076c417b873ce19adcb5eafc3dd217f676bb40fdfc182d52386f44340e7"
+    },
+    {
+      "index": 994,
+      "phase": "train",
+      "reynolds": 297.0,
+      "geometry_hash": "a84c876eb5d6d26d15225de39f20641fd8a85c07958d48beb560d058a3484655"
+    },
+    {
+      "index": 433,
+      "phase": "train",
+      "reynolds": 978.0,
+      "geometry_hash": "bc006bcc50a84edd692be156987ae36773871c4efd943443f66f7da0ea2906ae"
+    },
+    {
+      "index": 17,
+      "phase": "train",
+      "reynolds": 165.0,
+      "geometry_hash": "51fd81a497cf968916287776db6a5a46b01c54834872494412ec2ab7bbd690de"
+    },
+    {
+      "index": 354,
+      "phase": "train",
+      "reynolds": 69.0,
+      "geometry_hash": "c5ad1e031dc80f8dd63db7177a18a9aceee244f8493229f42086cf88b6d07b9c"
+    },
+    {
+      "index": 933,
+      "phase": "train",
+      "reynolds": 19.0,
+      "geometry_hash": "ce45410b73df6243e984e45d3a41552c880366f8c0700a79db3bf7d477446f32"
+    },
+    {
+      "index": 228,
+      "phase": "train",
+      "reynolds": 566.0,
+      "geometry_hash": "ff1818101b1175a0daaf3dce0b822abe116acd518a34ebdc87130a356905b751"
+    },
+    {
+      "index": 885,
+      "phase": "train",
+      "reynolds": 11.0,
+      "geometry_hash": "c30d34b459f060de6bef2750b94069da60697f6a80c66061e29d5700cf578f91"
+    },
+    {
+      "index": 346,
+      "phase": "train",
+      "reynolds": 79.0,
+      "geometry_hash": "79a1bda776c30e65f234871bb991035a4c40f8ba8d82e62a4edc3f4ff2af314f"
+    },
+    {
+      "index": 270,
+      "phase": "train",
+      "reynolds": 942.0,
+      "geometry_hash": "c823602024089ae4dfc722faad4253904e83d97389f0452fe5b64f16475bfb9e"
+    },
+    {
+      "index": 869,
+      "phase": "train",
+      "reynolds": 656.0,
+      "geometry_hash": "296849eb5ce30f3e886b8b64d2c2b6daa0f2d6277e841f8cc7c405d53d2d9c32"
+    },
+    {
+      "index": 580,
+      "phase": "train",
+      "reynolds": 26.0,
+      "geometry_hash": "e1c1a408f6ecdca3832173276ef2876258933503061e230a14aa1fb040abe9d8"
+    },
+    {
+      "index": 342,
+      "phase": "train",
+      "reynolds": 47.0,
+      "geometry_hash": "79a1bda776c30e65f234871bb991035a4c40f8ba8d82e62a4edc3f4ff2af314f"
+    },
+    {
+      "index": 90,
+      "phase": "train",
+      "reynolds": 745.0,
+      "geometry_hash": "928cab70302869c113dd3be7d4a9b96b7da9cb58f23dde9799bbe833f57c38cd"
+    },
+    {
+      "index": 412,
+      "phase": "train",
+      "reynolds": 89.0,
+      "geometry_hash": "45971ef6f5dd077f102dfcabce1ddb1ac6a538cca0ff2590f57be164b8405192"
+    },
+    {
+      "index": 487,
+      "phase": "train",
+      "reynolds": 870.0,
+      "geometry_hash": "e8f8705653b53a8b2ebec089ace1d64480a712e7449461ff7ab69be160dcac3b"
+    },
+    {
+      "index": 88,
+      "phase": "train",
+      "reynolds": 48.0,
+      "geometry_hash": "5d9f51f63226324e58521c8a667f012f95532cdedfee42a2c2f385a94e508e98"
+    },
+    {
+      "index": 694,
+      "phase": "train",
+      "reynolds": 343.0,
+      "geometry_hash": "a06c1393f90d342f91d7b15eee0c2b12f493c77da239f350c0fe6ffa21a5e79b"
+    },
+    {
+      "index": 719,
+      "phase": "train",
+      "reynolds": 553.0,
+      "geometry_hash": "3b2f3eb8ddcfa731c05bcfff97654d5e85670cbddf33c63d55a0ed5e48394c29"
+    },
+    {
+      "index": 808,
+      "phase": "train",
+      "reynolds": 665.0,
+      "geometry_hash": "cd3ce22dc01e3d60fdde68bf0604a614b44b97b41b0674ff89272feee940c844"
+    },
+    {
+      "index": 962,
+      "phase": "train",
+      "reynolds": 241.0,
+      "geometry_hash": "e6064cf57fb2f861df5c32559523f7496ff6baf5a4257d88a34a7fe65bd6e1c0"
+    },
+    {
+      "index": 225,
+      "phase": "train",
+      "reynolds": 15.0,
+      "geometry_hash": "ff1818101b1175a0daaf3dce0b822abe116acd518a34ebdc87130a356905b751"
+    },
+    {
+      "index": 667,
+      "phase": "train",
+      "reynolds": 100.0,
+      "geometry_hash": "3c3246d7eebb9bad788eb327bb78cc4cd6b7c101e028269add362696236cc18c"
+    },
+    {
+      "index": 311,
+      "phase": "train",
+      "reynolds": 43.0,
+      "geometry_hash": "9adc2e4e9117a8034700f1deb4a4ef9fc974aa968c60fa8d5f7e072823c851c7"
+    },
+    {
+      "index": 989,
+      "phase": "train",
+      "reynolds": 60.0,
+      "geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+    },
+    {
+      "index": 126,
+      "phase": "train",
+      "reynolds": 839.0,
+      "geometry_hash": "d72271c682722411b715c315c12abda164499478d07dee0cc1643947ed0aca33"
+    },
+    {
+      "index": 904,
+      "phase": "train",
+      "reynolds": 89.0,
+      "geometry_hash": "c6f7d98ceb15cd68af54281dee1a93c27dada44da26fe1cda027582677d857e7"
+    },
+    {
+      "index": 490,
+      "phase": "train",
+      "reynolds": 116.0,
+      "geometry_hash": "d4bcde7dc90e02f8bd85ccd0ff615c67d81b4a4ccc6362386ff15991bca7fefe"
+    },
+    {
+      "index": 612,
+      "phase": "train",
+      "reynolds": 13.0,
+      "geometry_hash": "8756d4dddba4b22b39972f6c4df56a4e46ea2d40a4ab5265a8849cba95129378"
+    },
+    {
+      "index": 280,
+      "phase": "train",
+      "reynolds": 99.0,
+      "geometry_hash": "766e15fc7861691fa85205d0acf52c3e54dfb1b071ea3b04e63348a92a9333e7"
+    },
+    {
+      "index": 138,
+      "phase": "train",
+      "reynolds": 536.0,
+      "geometry_hash": "7407d3c76988d2fff7532ddafd68e0b79437e61f47b2cd9771663dd3eb7658c3"
+    },
+    {
+      "index": 685,
+      "phase": "train",
+      "reynolds": 12.0,
+      "geometry_hash": "bdb753d14d4b62d94a0eb8540c567188e99883d51d29eec462d6d83786a53cac"
+    },
+    {
+      "index": 115,
+      "phase": "train",
+      "reynolds": 38.0,
+      "geometry_hash": "6afaee3ab3323eb9359875f72492c085fbb37a8a477f65fc24cc7de2940dbbdc"
+    },
+    {
+      "index": 15,
+      "phase": "train",
+      "reynolds": 468.0,
+      "geometry_hash": "51fd81a497cf968916287776db6a5a46b01c54834872494412ec2ab7bbd690de"
+    },
+    {
+      "index": 610,
+      "phase": "train",
+      "reynolds": 41.0,
+      "geometry_hash": "8756d4dddba4b22b39972f6c4df56a4e46ea2d40a4ab5265a8849cba95129378"
+    },
+    {
+      "index": 241,
+      "phase": "train",
+      "reynolds": 61.0,
+      "geometry_hash": "c9d6273b78b21f6b7eaba0302f31560f07a1ca08c9ed56c3fb9cd2dbb86326bc"
+    },
+    {
+      "index": 983,
+      "phase": "train",
+      "reynolds": 413.0,
+      "geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+    },
+    {
+      "index": 235,
+      "phase": "train",
+      "reynolds": 245.0,
+      "geometry_hash": "57fe4dbd3403536f39f3631992cf8e665a6f1a4a74c0ebe7949166f672f89bde"
+    },
+    {
+      "index": 199,
+      "phase": "train",
+      "reynolds": 803.0,
+      "geometry_hash": "513791937e9cfa07ebd54bb352880f2897ba54756ea21eb08874ca6dac654b58"
+    },
+    {
+      "index": 837,
+      "phase": "train",
+      "reynolds": 75.0,
+      "geometry_hash": "f40cf9e06ab343fdb8b01969d70d271d1cd1c7516356196c9340ab481854e5c9"
+    },
+    {
+      "index": 343,
+      "phase": "train",
+      "reynolds": 90.0,
+      "geometry_hash": "79a1bda776c30e65f234871bb991035a4c40f8ba8d82e62a4edc3f4ff2af314f"
+    },
+    {
+      "index": 41,
+      "phase": "train",
+      "reynolds": 10.0,
+      "geometry_hash": "35941117e4d9427565fdc0750f17152cfd5159e7ca9ff30680cdb6f478318e04"
+    },
+    {
+      "index": 44,
+      "phase": "train",
+      "reynolds": 617.0,
+      "geometry_hash": "35941117e4d9427565fdc0750f17152cfd5159e7ca9ff30680cdb6f478318e04"
+    },
+    {
+      "index": 560,
+      "phase": "train",
+      "reynolds": 376.0,
+      "geometry_hash": "dc0269f2984f0e4031a1793641ab1bcd6e41606d386cfd841d8532bfff4f915e"
+    },
+    {
+      "index": 840,
+      "phase": "train",
+      "reynolds": 80.0,
+      "geometry_hash": "e5c5cb57c41b9e72ed285a47cb2398fb8545e155e177cdefbafc5940caa36571"
+    },
+    {
+      "index": 587,
+      "phase": "train",
+      "reynolds": 901.0,
+      "geometry_hash": "e1c1a408f6ecdca3832173276ef2876258933503061e230a14aa1fb040abe9d8"
+    },
+    {
+      "index": 822,
+      "phase": "train",
+      "reynolds": 202.0,
+      "geometry_hash": "e914d6b42aba9ab89c7793b80b43f53005d07fe26fe4a390cee998ab0e7db379"
+    },
+    {
+      "index": 271,
+      "phase": "train",
+      "reynolds": 509.0,
+      "geometry_hash": "c823602024089ae4dfc722faad4253904e83d97389f0452fe5b64f16475bfb9e"
+    },
+    {
+      "index": 995,
+      "phase": "train",
+      "reynolds": 59.0,
+      "geometry_hash": "a84c876eb5d6d26d15225de39f20641fd8a85c07958d48beb560d058a3484655"
+    },
+    {
+      "index": 754,
+      "phase": "train",
+      "reynolds": 736.0,
+      "geometry_hash": "b6f8d3adf8a3fb2cdf623a16539656ea2b1d0c2743e7e7f60942dddb5369ccad"
+    },
+    {
+      "index": 608,
+      "phase": "train",
+      "reynolds": 95.0,
+      "geometry_hash": "826a4c9572874eebbd603e29aa261139dce2907dda903f2dc4b550a983d9c0be"
+    },
+    {
+      "index": 616,
+      "phase": "train",
+      "reynolds": 71.0,
+      "geometry_hash": "8756d4dddba4b22b39972f6c4df56a4e46ea2d40a4ab5265a8849cba95129378"
+    },
+    {
+      "index": 606,
+      "phase": "train",
+      "reynolds": 46.0,
+      "geometry_hash": "826a4c9572874eebbd603e29aa261139dce2907dda903f2dc4b550a983d9c0be"
+    },
+    {
+      "index": 947,
+      "phase": "train",
+      "reynolds": 963.0,
+      "geometry_hash": "14b003b1ae89a74b51036a35df536350feb754a500f47fbacbcf109939520430"
+    },
+    {
+      "index": 589,
+      "phase": "train",
+      "reynolds": 802.0,
+      "geometry_hash": "e1c1a408f6ecdca3832173276ef2876258933503061e230a14aa1fb040abe9d8"
+    },
+    {
+      "index": 654,
+      "phase": "train",
+      "reynolds": 15.0,
+      "geometry_hash": "e72cec11b9a82728cef1c34c9b0fc721df429c99b26874ed8e7fdafb6d7449ea"
+    },
+    {
+      "index": 290,
+      "phase": "train",
+      "reynolds": 905.0,
+      "geometry_hash": "89a1be42a4465a53696f3290d550bace55163c454adb5b5da452d7d77e9cbc36"
+    },
+    {
+      "index": 765,
+      "phase": "train",
+      "reynolds": 543.0,
+      "geometry_hash": "6c52d067af14dcbc8c3555c861d4cc6476dfe21f3a11d9d4756871e8503579be"
+    },
+    {
+      "index": 238,
+      "phase": "train",
+      "reynolds": 369.0,
+      "geometry_hash": "57fe4dbd3403536f39f3631992cf8e665a6f1a4a74c0ebe7949166f672f89bde"
+    },
+    {
+      "index": 104,
+      "phase": "train",
+      "reynolds": 254.0,
+      "geometry_hash": "d0d8f2b282faac7ed25ab79995c63c6f7b9ac3733e86ec919c89eee516657b55"
+    },
+    {
+      "index": 432,
+      "phase": "train",
+      "reynolds": 11.0,
+      "geometry_hash": "bc006bcc50a84edd692be156987ae36773871c4efd943443f66f7da0ea2906ae"
+    },
+    {
+      "index": 232,
+      "phase": "train",
+      "reynolds": 697.0,
+      "geometry_hash": "57fe4dbd3403536f39f3631992cf8e665a6f1a4a74c0ebe7949166f672f89bde"
+    },
+    {
+      "index": 80,
+      "phase": "train",
+      "reynolds": 95.0,
+      "geometry_hash": "5d9f51f63226324e58521c8a667f012f95532cdedfee42a2c2f385a94e508e98"
+    },
+    {
+      "index": 182,
+      "phase": "train",
+      "reynolds": 469.0,
+      "geometry_hash": "d73bf3d8f27e97518330e6631f24a449eb4d0c7f38bbd67f2175cd2ab43170b2"
+    },
+    {
+      "index": 853,
+      "phase": "train",
+      "reynolds": 506.0,
+      "geometry_hash": "8a11818f4944587844beebc2b11e70a3ffbaa4b45e754693ab1bbd2ebce16117"
+    },
+    {
+      "index": 479,
+      "phase": "train",
+      "reynolds": 355.0,
+      "geometry_hash": "edf447923099d357a56a1f4f1fccdf14bbdb9537c6f88c5e59f6ba77d09e4520"
+    },
+    {
+      "index": 855,
+      "phase": "train",
+      "reynolds": 769.0,
+      "geometry_hash": "8a11818f4944587844beebc2b11e70a3ffbaa4b45e754693ab1bbd2ebce16117"
+    },
+    {
+      "index": 438,
+      "phase": "train",
+      "reynolds": 98.0,
+      "geometry_hash": "bc006bcc50a84edd692be156987ae36773871c4efd943443f66f7da0ea2906ae"
+    },
+    {
+      "index": 764,
+      "phase": "train",
+      "reynolds": 23.0,
+      "geometry_hash": "6c52d067af14dcbc8c3555c861d4cc6476dfe21f3a11d9d4756871e8503579be"
+    },
+    {
+      "index": 549,
+      "phase": "train",
+      "reynolds": 67.0,
+      "geometry_hash": "6293c46ad369484d2c8f7226e343d0424af313276c937e5afdfa5123bd142350"
+    },
+    {
+      "index": 482,
+      "phase": "train",
+      "reynolds": 41.0,
+      "geometry_hash": "e8f8705653b53a8b2ebec089ace1d64480a712e7449461ff7ab69be160dcac3b"
+    },
+    {
+      "index": 919,
+      "phase": "train",
+      "reynolds": 99.0,
+      "geometry_hash": "9b4cfab73245c8f40946912d482baa1454e1526cc892d1bc1891b477a538644f"
+    },
+    {
+      "index": 464,
+      "phase": "train",
+      "reynolds": 90.0,
+      "geometry_hash": "5b11a61f72e85a27ce20f9e4b83f2ed579d7f166b7db0d0456ba17f67c550c3e"
+    },
+    {
+      "index": 113,
+      "phase": "train",
+      "reynolds": 977.0,
+      "geometry_hash": "6afaee3ab3323eb9359875f72492c085fbb37a8a477f65fc24cc7de2940dbbdc"
+    },
+    {
+      "index": 777,
+      "phase": "train",
+      "reynolds": 27.0,
+      "geometry_hash": "fde61aba2903bcb36a42c11f68eaf3e3561494ed96607d38db3683c90660e13b"
+    },
+    {
+      "index": 964,
+      "phase": "train",
+      "reynolds": 542.0,
+      "geometry_hash": "e6064cf57fb2f861df5c32559523f7496ff6baf5a4257d88a34a7fe65bd6e1c0"
+    },
+    {
+      "index": 387,
+      "phase": "train",
+      "reynolds": 226.0,
+      "geometry_hash": "ded5662ee998425a4bf2bed6a05c78926c91f2dbeaf3f01d8a24dc6ce8d1b603"
+    },
+    {
+      "index": 776,
+      "phase": "train",
+      "reynolds": 61.0,
+      "geometry_hash": "fde61aba2903bcb36a42c11f68eaf3e3561494ed96607d38db3683c90660e13b"
+    },
+    {
+      "index": 124,
+      "phase": "train",
+      "reynolds": 93.0,
+      "geometry_hash": "d72271c682722411b715c315c12abda164499478d07dee0cc1643947ed0aca33"
+    },
+    {
+      "index": 351,
+      "phase": "train",
+      "reynolds": 437.0,
+      "geometry_hash": "c5ad1e031dc80f8dd63db7177a18a9aceee244f8493229f42086cf88b6d07b9c"
+    },
+    {
+      "index": 596,
+      "phase": "train",
+      "reynolds": 386.0,
+      "geometry_hash": "3541056a917a50b87faa41f81e76f772add8d77b62791a6e48bd5adafabf21f1"
+    },
+    {
+      "index": 626,
+      "phase": "train",
+      "reynolds": 35.0,
+      "geometry_hash": "26221a0f5605e27151e8e96060e4a0529dd154f1c473e829f5f8e13160817696"
+    },
+    {
+      "index": 921,
+      "phase": "train",
+      "reynolds": 57.0,
+      "geometry_hash": "b0e441df84b331fb75a978a35eddad5791ff787b2798204b4095a831c2ebb6a6"
+    },
+    {
+      "index": 278,
+      "phase": "train",
+      "reynolds": 82.0,
+      "geometry_hash": "c823602024089ae4dfc722faad4253904e83d97389f0452fe5b64f16475bfb9e"
+    },
+    {
+      "index": 806,
+      "phase": "train",
+      "reynolds": 59.0,
+      "geometry_hash": "cd3ce22dc01e3d60fdde68bf0604a614b44b97b41b0674ff89272feee940c844"
+    },
+    {
+      "index": 814,
+      "phase": "train",
+      "reynolds": 767.0,
+      "geometry_hash": "0a2c8072f1ce1545fb9f517924099ecbf2323537aa1dbcfa5d8e8a4e9390306a"
+    },
+    {
+      "index": 532,
+      "phase": "train",
+      "reynolds": 373.0,
+      "geometry_hash": "d1e37f8d9365c588598c52c52159ad6c6cdaf966dc3d99cbb17f82a83f21ae35"
+    },
+    {
+      "index": 267,
+      "phase": "train",
+      "reynolds": 893.0,
+      "geometry_hash": "3a51a11680c4281b6117f8f61e35786a5e422fb8eedb998a0ba5bb5957fc75f9"
+    },
+    {
+      "index": 436,
+      "phase": "train",
+      "reynolds": 595.0,
+      "geometry_hash": "bc006bcc50a84edd692be156987ae36773871c4efd943443f66f7da0ea2906ae"
+    },
+    {
+      "index": 435,
+      "phase": "train",
+      "reynolds": 111.0,
+      "geometry_hash": "bc006bcc50a84edd692be156987ae36773871c4efd943443f66f7da0ea2906ae"
+    },
+    {
+      "index": 786,
+      "phase": "train",
+      "reynolds": 568.0,
+      "geometry_hash": "473b575bf4123c47a2b310251ba48cc5e0dda1decd4bf9054f4ca388945f2e2b"
+    },
+    {
+      "index": 527,
+      "phase": "train",
+      "reynolds": 59.0,
+      "geometry_hash": "a858b5fcb034ae9a14a62e038c9e325050da610096cc7f185408e12dd32a4483"
+    },
+    {
+      "index": 687,
+      "phase": "train",
+      "reynolds": 896.0,
+      "geometry_hash": "bdb753d14d4b62d94a0eb8540c567188e99883d51d29eec462d6d83786a53cac"
+    },
+    {
+      "index": 544,
+      "phase": "train",
+      "reynolds": 839.0,
+      "geometry_hash": "6293c46ad369484d2c8f7226e343d0424af313276c937e5afdfa5123bd142350"
+    },
+    {
+      "index": 216,
+      "phase": "train",
+      "reynolds": 479.0,
+      "geometry_hash": "c98ce5d03a6341ab45aba73eb52b95fb17103b1cc12337c3e4b4d5b8389adb2f"
+    },
+    {
+      "index": 36,
+      "phase": "train",
+      "reynolds": 735.0,
+      "geometry_hash": "e0852cf7e88b52fa4a79b2a5fd2622bad93c13b8ed8db7d315ab357a9c5036fd"
+    },
+    {
+      "index": 978,
+      "phase": "train",
+      "reynolds": 32.0,
+      "geometry_hash": "f4ec0695baf5488e8a5ceb34928539ce325e84b70b4ad3db4d8717ba1ec4b8f5"
+    },
+    {
+      "index": 538,
+      "phase": "train",
+      "reynolds": 623.0,
+      "geometry_hash": "d1e37f8d9365c588598c52c52159ad6c6cdaf966dc3d99cbb17f82a83f21ae35"
+    },
+    {
+      "index": 444,
+      "phase": "train",
+      "reynolds": 34.0,
+      "geometry_hash": "e2a573ac023e0fd17254ab59fe0f4d96329b6fe46f05780db86691548e7f6fbe"
+    },
+    {
+      "index": 172,
+      "phase": "train",
+      "reynolds": 451.0,
+      "geometry_hash": "422939840aca9f94d9d42bea9248e266e52dba942363d5449845e44da12c4949"
+    },
+    {
+      "index": 418,
+      "phase": "train",
+      "reynolds": 890.0,
+      "geometry_hash": "45971ef6f5dd077f102dfcabce1ddb1ac6a538cca0ff2590f57be164b8405192"
+    },
+    {
+      "index": 16,
+      "phase": "train",
+      "reynolds": 874.0,
+      "geometry_hash": "51fd81a497cf968916287776db6a5a46b01c54834872494412ec2ab7bbd690de"
+    },
+    {
+      "index": 584,
+      "phase": "train",
+      "reynolds": 33.0,
+      "geometry_hash": "e1c1a408f6ecdca3832173276ef2876258933503061e230a14aa1fb040abe9d8"
+    },
+    {
+      "index": 234,
+      "phase": "train",
+      "reynolds": 929.0,
+      "geometry_hash": "57fe4dbd3403536f39f3631992cf8e665a6f1a4a74c0ebe7949166f672f89bde"
+    },
+    {
+      "index": 465,
+      "phase": "train",
+      "reynolds": 41.0,
+      "geometry_hash": "5b11a61f72e85a27ce20f9e4b83f2ed579d7f166b7db0d0456ba17f67c550c3e"
+    },
+    {
+      "index": 53,
+      "phase": "train",
+      "reynolds": 830.0,
+      "geometry_hash": "5648ee525545614bee8f524ee263ccf8ff7f45979f1e8b7e532caac7a1351215"
+    },
+    {
+      "index": 758,
+      "phase": "train",
+      "reynolds": 82.0,
+      "geometry_hash": "b6f8d3adf8a3fb2cdf623a16539656ea2b1d0c2743e7e7f60942dddb5369ccad"
+    },
+    {
+      "index": 262,
+      "phase": "train",
+      "reynolds": 533.0,
+      "geometry_hash": "3a51a11680c4281b6117f8f61e35786a5e422fb8eedb998a0ba5bb5957fc75f9"
+    },
+    {
+      "index": 303,
+      "phase": "train",
+      "reynolds": 101.0,
+      "geometry_hash": "f8d52a769b5217bf9247f861d60ed2a89c6276036d3bd9b5730acba41316fd39"
+    },
+    {
+      "index": 796,
+      "phase": "train",
+      "reynolds": 773.0,
+      "geometry_hash": "3a7ae9843de1c981e7428c590b3030575f4217ad55005c7c9ff8fb677349482a"
+    },
+    {
+      "index": 375,
+      "phase": "train",
+      "reynolds": 17.0,
+      "geometry_hash": "5b3d8d83062b6c7a2aefb8ce3d03c46a095748bac8b2393957121c6d6d4689fe"
+    },
+    {
+      "index": 523,
+      "phase": "train",
+      "reynolds": 339.0,
+      "geometry_hash": "a858b5fcb034ae9a14a62e038c9e325050da610096cc7f185408e12dd32a4483"
+    },
+    {
+      "index": 643,
+      "phase": "train",
+      "reynolds": 584.0,
+      "geometry_hash": "3ff014e4e0c59403230fa01ddc34febaf6796e684d95fa8170dfa7c53ddd648e"
+    },
+    {
+      "index": 935,
+      "phase": "train",
+      "reynolds": 333.0,
+      "geometry_hash": "ce45410b73df6243e984e45d3a41552c880366f8c0700a79db3bf7d477446f32"
+    },
+    {
+      "index": 21,
+      "phase": "train",
+      "reynolds": 933.0,
+      "geometry_hash": "033de925a5560a8bcea62f22ff284bf9c01aab69e41793b661859e8a79eac0b9"
+    },
+    {
+      "index": 632,
+      "phase": "train",
+      "reynolds": 25.0,
+      "geometry_hash": "3906407afc836c680e50d1a62ab2d2d4d4a88104bc95dc01013598974697002d"
+    },
+    {
+      "index": 440,
+      "phase": "train",
+      "reynolds": 442.0,
+      "geometry_hash": "e2a573ac023e0fd17254ab59fe0f4d96329b6fe46f05780db86691548e7f6fbe"
+    },
+    {
+      "index": 575,
+      "phase": "train",
+      "reynolds": 22.0,
+      "geometry_hash": "6f3704444be102c9cebfe285d3dc6f15e40e02ecfc16abf8422587b823f1a704"
+    },
+    {
+      "index": 891,
+      "phase": "train",
+      "reynolds": 42.0,
+      "geometry_hash": "576e47212b1acb4d903c379b905fb785ec8c486c39aa0a0160286308b332fe89"
+    },
+    {
+      "index": 826,
+      "phase": "train",
+      "reynolds": 87.0,
+      "geometry_hash": "e914d6b42aba9ab89c7793b80b43f53005d07fe26fe4a390cee998ab0e7db379"
+    },
+    {
+      "index": 831,
+      "phase": "train",
+      "reynolds": 413.0,
+      "geometry_hash": "f40cf9e06ab343fdb8b01969d70d271d1cd1c7516356196c9340ab481854e5c9"
+    },
+    {
+      "index": 829,
+      "phase": "train",
+      "reynolds": 48.0,
+      "geometry_hash": "e914d6b42aba9ab89c7793b80b43f53005d07fe26fe4a390cee998ab0e7db379"
+    },
+    {
+      "index": 819,
+      "phase": "train",
+      "reynolds": 65.0,
+      "geometry_hash": "0a2c8072f1ce1545fb9f517924099ecbf2323537aa1dbcfa5d8e8a4e9390306a"
+    },
+    {
+      "index": 692,
+      "phase": "train",
+      "reynolds": 318.0,
+      "geometry_hash": "a06c1393f90d342f91d7b15eee0c2b12f493c77da239f350c0fe6ffa21a5e79b"
+    },
+    {
+      "index": 657,
+      "phase": "train",
+      "reynolds": 61.0,
+      "geometry_hash": "e72cec11b9a82728cef1c34c9b0fc721df429c99b26874ed8e7fdafb6d7449ea"
+    },
+    {
+      "index": 59,
+      "phase": "train",
+      "reynolds": 23.0,
+      "geometry_hash": "5648ee525545614bee8f524ee263ccf8ff7f45979f1e8b7e532caac7a1351215"
+    },
+    {
+      "index": 168,
+      "phase": "train",
+      "reynolds": 440.0,
+      "geometry_hash": "bb184545fa6e7d5afa870f57a871278c1d7997c1433df2d43e4258cf7625f8bb"
+    },
+    {
+      "index": 243,
+      "phase": "train",
+      "reynolds": 89.0,
+      "geometry_hash": "c9d6273b78b21f6b7eaba0302f31560f07a1ca08c9ed56c3fb9cd2dbb86326bc"
+    },
+    {
+      "index": 884,
+      "phase": "train",
+      "reynolds": 469.0,
+      "geometry_hash": "c30d34b459f060de6bef2750b94069da60697f6a80c66061e29d5700cf578f91"
+    },
+    {
+      "index": 578,
+      "phase": "train",
+      "reynolds": 433.0,
+      "geometry_hash": "6f3704444be102c9cebfe285d3dc6f15e40e02ecfc16abf8422587b823f1a704"
+    },
+    {
+      "index": 901,
+      "phase": "train",
+      "reynolds": 675.0,
+      "geometry_hash": "c6f7d98ceb15cd68af54281dee1a93c27dada44da26fe1cda027582677d857e7"
+    },
+    {
+      "index": 677,
+      "phase": "train",
+      "reynolds": 82.0,
+      "geometry_hash": "fe11495243f17fd2ec033bf1fbf96855683dbea71503bb3567527bbb25722227"
+    },
+    {
+      "index": 990,
+      "phase": "train",
+      "reynolds": 988.0,
+      "geometry_hash": "a84c876eb5d6d26d15225de39f20641fd8a85c07958d48beb560d058a3484655"
+    },
+    {
+      "index": 247,
+      "phase": "train",
+      "reynolds": 12.0,
+      "geometry_hash": "c9d6273b78b21f6b7eaba0302f31560f07a1ca08c9ed56c3fb9cd2dbb86326bc"
+    },
+    {
+      "index": 649,
+      "phase": "train",
+      "reynolds": 29.0,
+      "geometry_hash": "3ff014e4e0c59403230fa01ddc34febaf6796e684d95fa8170dfa7c53ddd648e"
+    },
+    {
+      "index": 785,
+      "phase": "train",
+      "reynolds": 187.0,
+      "geometry_hash": "473b575bf4123c47a2b310251ba48cc5e0dda1decd4bf9054f4ca388945f2e2b"
+    },
+    {
+      "index": 737,
+      "phase": "train",
+      "reynolds": 77.0,
+      "geometry_hash": "ba8d8401fe9ceabd2d3685c824fd22137fa22fc03bb9d57f5a4321a99699da56"
+    },
+    {
+      "index": 111,
+      "phase": "train",
+      "reynolds": 624.0,
+      "geometry_hash": "6afaee3ab3323eb9359875f72492c085fbb37a8a477f65fc24cc7de2940dbbdc"
+    },
+    {
+      "index": 75,
+      "phase": "train",
+      "reynolds": 27.0,
+      "geometry_hash": "8d1ee12eb2a237125fad5c98c1e47b2caba48c770bd950cab141821b63af9c1e"
+    },
+    {
+      "index": 712,
+      "phase": "train",
+      "reynolds": 33.0,
+      "geometry_hash": "3b2f3eb8ddcfa731c05bcfff97654d5e85670cbddf33c63d55a0ed5e48394c29"
+    },
+    {
+      "index": 898,
+      "phase": "train",
+      "reynolds": 423.0,
+      "geometry_hash": "576e47212b1acb4d903c379b905fb785ec8c486c39aa0a0160286308b332fe89"
+    },
+    {
+      "index": 783,
+      "phase": "train",
+      "reynolds": 19.0,
+      "geometry_hash": "473b575bf4123c47a2b310251ba48cc5e0dda1decd4bf9054f4ca388945f2e2b"
+    },
+    {
+      "index": 196,
+      "phase": "train",
+      "reynolds": 331.0,
+      "geometry_hash": "513791937e9cfa07ebd54bb352880f2897ba54756ea21eb08874ca6dac654b58"
+    },
+    {
+      "index": 304,
+      "phase": "train",
+      "reynolds": 10.0,
+      "geometry_hash": "f8d52a769b5217bf9247f861d60ed2a89c6276036d3bd9b5730acba41316fd39"
+    },
+    {
+      "index": 355,
+      "phase": "train",
+      "reynolds": 44.0,
+      "geometry_hash": "c5ad1e031dc80f8dd63db7177a18a9aceee244f8493229f42086cf88b6d07b9c"
+    },
+    {
+      "index": 189,
+      "phase": "train",
+      "reynolds": 41.0,
+      "geometry_hash": "d73bf3d8f27e97518330e6631f24a449eb4d0c7f38bbd67f2175cd2ab43170b2"
+    },
+    {
+      "index": 605,
+      "phase": "train",
+      "reynolds": 952.0,
+      "geometry_hash": "826a4c9572874eebbd603e29aa261139dce2907dda903f2dc4b550a983d9c0be"
+    },
+    {
+      "index": 10,
+      "phase": "train",
+      "reynolds": 47.0,
+      "geometry_hash": "51fd81a497cf968916287776db6a5a46b01c54834872494412ec2ab7bbd690de"
+    },
+    {
+      "index": 198,
+      "phase": "train",
+      "reynolds": 59.0,
+      "geometry_hash": "513791937e9cfa07ebd54bb352880f2897ba54756ea21eb08874ca6dac654b58"
+    },
+    {
+      "index": 261,
+      "phase": "train",
+      "reynolds": 77.0,
+      "geometry_hash": "3a51a11680c4281b6117f8f61e35786a5e422fb8eedb998a0ba5bb5957fc75f9"
+    },
+    {
+      "index": 254,
+      "phase": "train",
+      "reynolds": 258.0,
+      "geometry_hash": "c4c20b5c2b838da60db537abe488d05b8f928430933ec2b7242dd8bddeef024b"
+    },
+    {
+      "index": 848,
+      "phase": "train",
+      "reynolds": 51.0,
+      "geometry_hash": "e5c5cb57c41b9e72ed285a47cb2398fb8545e155e177cdefbafc5940caa36571"
+    },
+    {
+      "index": 510,
+      "phase": "train",
+      "reynolds": 738.0,
+      "geometry_hash": "099caf6a91d11eeb75b7851bd0b12057f40b529e47510495f83015bd2ae14cd9"
+    },
+    {
+      "index": 780,
+      "phase": "train",
+      "reynolds": 663.0,
+      "geometry_hash": "473b575bf4123c47a2b310251ba48cc5e0dda1decd4bf9054f4ca388945f2e2b"
+    },
+    {
+      "index": 908,
+      "phase": "train",
+      "reynolds": 41.0,
+      "geometry_hash": "c6f7d98ceb15cd68af54281dee1a93c27dada44da26fe1cda027582677d857e7"
+    },
+    {
+      "index": 502,
+      "phase": "train",
+      "reynolds": 50.0,
+      "geometry_hash": "71b6b32f214c31c93e65942cbe29a8b9a4b5090c681d1e702e488165b328b961"
+    },
+    {
+      "index": 733,
+      "phase": "train",
+      "reynolds": 768.0,
+      "geometry_hash": "ba8d8401fe9ceabd2d3685c824fd22137fa22fc03bb9d57f5a4321a99699da56"
+    },
+    {
+      "index": 96,
+      "phase": "train",
+      "reynolds": 19.0,
+      "geometry_hash": "928cab70302869c113dd3be7d4a9b96b7da9cb58f23dde9799bbe833f57c38cd"
+    },
+    {
+      "index": 275,
+      "phase": "train",
+      "reynolds": 94.0,
+      "geometry_hash": "c823602024089ae4dfc722faad4253904e83d97389f0452fe5b64f16475bfb9e"
+    },
+    {
+      "index": 781,
+      "phase": "train",
+      "reynolds": 88.0,
+      "geometry_hash": "473b575bf4123c47a2b310251ba48cc5e0dda1decd4bf9054f4ca388945f2e2b"
+    },
+    {
+      "index": 372,
+      "phase": "train",
+      "reynolds": 773.0,
+      "geometry_hash": "5b3d8d83062b6c7a2aefb8ce3d03c46a095748bac8b2393957121c6d6d4689fe"
+    },
+    {
+      "index": 663,
+      "phase": "train",
+      "reynolds": 424.0,
+      "geometry_hash": "3c3246d7eebb9bad788eb327bb78cc4cd6b7c101e028269add362696236cc18c"
+    },
+    {
+      "index": 701,
+      "phase": "train",
+      "reynolds": 173.0,
+      "geometry_hash": "86827fb2ce8a19b8d4b41c2f08b0184c74e46be5f623cb850ed164c74effb7d5"
+    },
+    {
+      "index": 265,
+      "phase": "train",
+      "reynolds": 118.0,
+      "geometry_hash": "3a51a11680c4281b6117f8f61e35786a5e422fb8eedb998a0ba5bb5957fc75f9"
+    },
+    {
+      "index": 941,
+      "phase": "train",
+      "reynolds": 133.0,
+      "geometry_hash": "14b003b1ae89a74b51036a35df536350feb754a500f47fbacbcf109939520430"
+    },
+    {
+      "index": 208,
+      "phase": "train",
+      "reynolds": 454.0,
+      "geometry_hash": "407fdbdf64ea9a12dd6ca7873505466a7ff67cf7612219c0dc70cd9401bd7e13"
+    },
+    {
+      "index": 294,
+      "phase": "train",
+      "reynolds": 439.0,
+      "geometry_hash": "89a1be42a4465a53696f3290d550bace55163c454adb5b5da452d7d77e9cbc36"
+    },
+    {
+      "index": 633,
+      "phase": "train",
+      "reynolds": 248.0,
+      "geometry_hash": "3906407afc836c680e50d1a62ab2d2d4d4a88104bc95dc01013598974697002d"
+    },
+    {
+      "index": 47,
+      "phase": "train",
+      "reynolds": 45.0,
+      "geometry_hash": "35941117e4d9427565fdc0750f17152cfd5159e7ca9ff30680cdb6f478318e04"
+    },
+    {
+      "index": 634,
+      "phase": "train",
+      "reynolds": 34.0,
+      "geometry_hash": "3906407afc836c680e50d1a62ab2d2d4d4a88104bc95dc01013598974697002d"
+    },
+    {
+      "index": 651,
+      "phase": "train",
+      "reynolds": 694.0,
+      "geometry_hash": "e72cec11b9a82728cef1c34c9b0fc721df429c99b26874ed8e7fdafb6d7449ea"
+    },
+    {
+      "index": 87,
+      "phase": "train",
+      "reynolds": 21.0,
+      "geometry_hash": "5d9f51f63226324e58521c8a667f012f95532cdedfee42a2c2f385a94e508e98"
+    },
+    {
+      "index": 664,
+      "phase": "train",
+      "reynolds": 855.0,
+      "geometry_hash": "3c3246d7eebb9bad788eb327bb78cc4cd6b7c101e028269add362696236cc18c"
+    },
+    {
+      "index": 977,
+      "phase": "train",
+      "reynolds": 637.0,
+      "geometry_hash": "f4ec0695baf5488e8a5ceb34928539ce325e84b70b4ad3db4d8717ba1ec4b8f5"
+    },
+    {
+      "index": 133,
+      "phase": "train",
+      "reynolds": 739.0,
+      "geometry_hash": "7407d3c76988d2fff7532ddafd68e0b79437e61f47b2cd9771663dd3eb7658c3"
+    },
+    {
+      "index": 998,
+      "phase": "train",
+      "reynolds": 50.0,
+      "geometry_hash": "a84c876eb5d6d26d15225de39f20641fd8a85c07958d48beb560d058a3484655"
+    },
+    {
+      "index": 992,
+      "phase": "train",
+      "reynolds": 588.0,
+      "geometry_hash": "a84c876eb5d6d26d15225de39f20641fd8a85c07958d48beb560d058a3484655"
+    },
+    {
+      "index": 453,
+      "phase": "train",
+      "reynolds": 617.0,
+      "geometry_hash": "e33c7467e243381473a69c9689093381681d45d5e048e13bb09772b73880d302"
+    },
+    {
+      "index": 697,
+      "phase": "train",
+      "reynolds": 32.0,
+      "geometry_hash": "a06c1393f90d342f91d7b15eee0c2b12f493c77da239f350c0fe6ffa21a5e79b"
+    },
+    {
+      "index": 217,
+      "phase": "train",
+      "reynolds": 80.0,
+      "geometry_hash": "c98ce5d03a6341ab45aba73eb52b95fb17103b1cc12337c3e4b4d5b8389adb2f"
+    },
+    {
+      "index": 623,
+      "phase": "train",
+      "reynolds": 602.0,
+      "geometry_hash": "26221a0f5605e27151e8e96060e4a0529dd154f1c473e829f5f8e13160817696"
+    },
+    {
+      "index": 707,
+      "phase": "train",
+      "reynolds": 30.0,
+      "geometry_hash": "86827fb2ce8a19b8d4b41c2f08b0184c74e46be5f623cb850ed164c74effb7d5"
+    },
+    {
+      "index": 428,
+      "phase": "train",
+      "reynolds": 402.0,
+      "geometry_hash": "0b585ca1d4374c549fefbdf1fe0de121109829bd854d5b2570563b452bba3163"
+    },
+    {
+      "index": 833,
+      "phase": "train",
+      "reynolds": 234.0,
+      "geometry_hash": "f40cf9e06ab343fdb8b01969d70d271d1cd1c7516356196c9340ab481854e5c9"
+    },
+    {
+      "index": 939,
+      "phase": "train",
+      "reynolds": 98.0,
+      "geometry_hash": "ce45410b73df6243e984e45d3a41552c880366f8c0700a79db3bf7d477446f32"
+    },
+    {
+      "index": 724,
+      "phase": "train",
+      "reynolds": 882.0,
+      "geometry_hash": "8691f63c74b12893bb99c93a873a8a542f8f408f1ed810e310123d0ffa237a33"
+    },
+    {
+      "index": 668,
+      "phase": "train",
+      "reynolds": 69.0,
+      "geometry_hash": "3c3246d7eebb9bad788eb327bb78cc4cd6b7c101e028269add362696236cc18c"
+    },
+    {
+      "index": 984,
+      "phase": "train",
+      "reynolds": 197.0,
+      "geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+    },
+    {
+      "index": 391,
+      "phase": "train",
+      "reynolds": 469.0,
+      "geometry_hash": "984272ebb00549d6870bbbdd38d4f9bbbf6e77f076b69e113b31a4b71a96f190"
+    },
+    {
+      "index": 214,
+      "phase": "train",
+      "reynolds": 800.0,
+      "geometry_hash": "c98ce5d03a6341ab45aba73eb52b95fb17103b1cc12337c3e4b4d5b8389adb2f"
+    },
+    {
+      "index": 427,
+      "phase": "train",
+      "reynolds": 40.0,
+      "geometry_hash": "0b585ca1d4374c549fefbdf1fe0de121109829bd854d5b2570563b452bba3163"
+    },
+    {
+      "index": 337,
+      "phase": "train",
+      "reynolds": 733.0,
+      "geometry_hash": "3be89d1cb5692d97218944a4bf478569e3142199a929568b0cc42b12cb843924"
+    },
+    {
+      "index": 976,
+      "phase": "train",
+      "reynolds": 479.0,
+      "geometry_hash": "f4ec0695baf5488e8a5ceb34928539ce325e84b70b4ad3db4d8717ba1ec4b8f5"
+    },
+    {
+      "index": 747,
+      "phase": "train",
+      "reynolds": 739.0,
+      "geometry_hash": "3bebd4e0d965bcd3067e93bc2263fdc656d27db86660defae598fa7d4c43e8bd"
+    },
+    {
+      "index": 471,
+      "phase": "train",
+      "reynolds": 30.0,
+      "geometry_hash": "edf447923099d357a56a1f4f1fccdf14bbdb9537c6f88c5e59f6ba77d09e4520"
+    },
+    {
+      "index": 656,
+      "phase": "train",
+      "reynolds": 69.0,
+      "geometry_hash": "e72cec11b9a82728cef1c34c9b0fc721df429c99b26874ed8e7fdafb6d7449ea"
+    },
+    {
+      "index": 896,
+      "phase": "train",
+      "reynolds": 51.0,
+      "geometry_hash": "576e47212b1acb4d903c379b905fb785ec8c486c39aa0a0160286308b332fe89"
+    },
+    {
+      "index": 413,
+      "phase": "train",
+      "reynolds": 78.0,
+      "geometry_hash": "45971ef6f5dd077f102dfcabce1ddb1ac6a538cca0ff2590f57be164b8405192"
+    },
+    {
+      "index": 760,
+      "phase": "train",
+      "reynolds": 54.0,
+      "geometry_hash": "6c52d067af14dcbc8c3555c861d4cc6476dfe21f3a11d9d4756871e8503579be"
+    },
+    {
+      "index": 287,
+      "phase": "train",
+      "reynolds": 54.0,
+      "geometry_hash": "766e15fc7861691fa85205d0acf52c3e54dfb1b071ea3b04e63348a92a9333e7"
+    },
+    {
+      "index": 156,
+      "phase": "train",
+      "reynolds": 672.0,
+      "geometry_hash": "b5fdc305195c64ed2cbdd3241c775158d20931899274fd329acfe440f39c19dd"
+    },
+    {
+      "index": 20,
+      "phase": "train",
+      "reynolds": 699.0,
+      "geometry_hash": "033de925a5560a8bcea62f22ff284bf9c01aab69e41793b661859e8a79eac0b9"
+    },
+    {
+      "index": 749,
+      "phase": "train",
+      "reynolds": 30.0,
+      "geometry_hash": "3bebd4e0d965bcd3067e93bc2263fdc656d27db86660defae598fa7d4c43e8bd"
+    },
+    {
+      "index": 732,
+      "phase": "train",
+      "reynolds": 304.0,
+      "geometry_hash": "ba8d8401fe9ceabd2d3685c824fd22137fa22fc03bb9d57f5a4321a99699da56"
+    },
+    {
+      "index": 67,
+      "phase": "train",
+      "reynolds": 67.0,
+      "geometry_hash": "37d487e0e3bee333b4d0438651c930853ffb1c3f9ae0b45c4af6e4f4f837b870"
+    },
+    {
+      "index": 178,
+      "phase": "train",
+      "reynolds": 73.0,
+      "geometry_hash": "422939840aca9f94d9d42bea9248e266e52dba942363d5449845e44da12c4949"
+    },
+    {
+      "index": 979,
+      "phase": "train",
+      "reynolds": 370.0,
+      "geometry_hash": "f4ec0695baf5488e8a5ceb34928539ce325e84b70b4ad3db4d8717ba1ec4b8f5"
+    },
+    {
+      "index": 34,
+      "phase": "train",
+      "reynolds": 829.0,
+      "geometry_hash": "e0852cf7e88b52fa4a79b2a5fd2622bad93c13b8ed8db7d315ab357a9c5036fd"
+    },
+    {
+      "index": 250,
+      "phase": "train",
+      "reynolds": 26.0,
+      "geometry_hash": "c4c20b5c2b838da60db537abe488d05b8f928430933ec2b7242dd8bddeef024b"
+    },
+    {
+      "index": 763,
+      "phase": "train",
+      "reynolds": 231.0,
+      "geometry_hash": "6c52d067af14dcbc8c3555c861d4cc6476dfe21f3a11d9d4756871e8503579be"
+    },
+    {
+      "index": 804,
+      "phase": "train",
+      "reynolds": 483.0,
+      "geometry_hash": "cd3ce22dc01e3d60fdde68bf0604a614b44b97b41b0674ff89272feee940c844"
+    },
+    {
+      "index": 636,
+      "phase": "train",
+      "reynolds": 50.0,
+      "geometry_hash": "3906407afc836c680e50d1a62ab2d2d4d4a88104bc95dc01013598974697002d"
+    },
+    {
+      "index": 134,
+      "phase": "train",
+      "reynolds": 98.0,
+      "geometry_hash": "7407d3c76988d2fff7532ddafd68e0b79437e61f47b2cd9771663dd3eb7658c3"
+    },
+    {
+      "index": 999,
+      "phase": "train",
+      "reynolds": 496.0,
+      "geometry_hash": "a84c876eb5d6d26d15225de39f20641fd8a85c07958d48beb560d058a3484655"
+    },
+    {
+      "index": 281,
+      "phase": "train",
+      "reynolds": 223.0,
+      "geometry_hash": "766e15fc7861691fa85205d0acf52c3e54dfb1b071ea3b04e63348a92a9333e7"
+    },
+    {
+      "index": 907,
+      "phase": "train",
+      "reynolds": 58.0,
+      "geometry_hash": "c6f7d98ceb15cd68af54281dee1a93c27dada44da26fe1cda027582677d857e7"
+    },
+    {
+      "index": 920,
+      "phase": "train",
+      "reynolds": 996.0,
+      "geometry_hash": "b0e441df84b331fb75a978a35eddad5791ff787b2798204b4095a831c2ebb6a6"
+    },
+    {
+      "index": 938,
+      "phase": "train",
+      "reynolds": 980.0,
+      "geometry_hash": "ce45410b73df6243e984e45d3a41552c880366f8c0700a79db3bf7d477446f32"
+    },
+    {
+      "index": 27,
+      "phase": "train",
+      "reynolds": 40.0,
+      "geometry_hash": "033de925a5560a8bcea62f22ff284bf9c01aab69e41793b661859e8a79eac0b9"
+    },
+    {
+      "index": 162,
+      "phase": "train",
+      "reynolds": 109.0,
+      "geometry_hash": "bb184545fa6e7d5afa870f57a871278c1d7997c1433df2d43e4258cf7625f8bb"
+    },
+    {
+      "index": 595,
+      "phase": "train",
+      "reynolds": 467.0,
+      "geometry_hash": "3541056a917a50b87faa41f81e76f772add8d77b62791a6e48bd5adafabf21f1"
+    },
+    {
+      "index": 473,
+      "phase": "train",
+      "reynolds": 35.0,
+      "geometry_hash": "edf447923099d357a56a1f4f1fccdf14bbdb9537c6f88c5e59f6ba77d09e4520"
+    },
+    {
+      "index": 958,
+      "phase": "train",
+      "reynolds": 548.0,
+      "geometry_hash": "2d6fcd91d952a56dafb92f2dcb0565705ddc4363b1a8d7359146b494c433d4e4"
+    },
+    {
+      "index": 200,
+      "phase": "train",
+      "reynolds": 581.0,
+      "geometry_hash": "407fdbdf64ea9a12dd6ca7873505466a7ff67cf7612219c0dc70cd9401bd7e13"
+    },
+    {
+      "index": 409,
+      "phase": "train",
+      "reynolds": 95.0,
+      "geometry_hash": "83000881a5be3560ebcb591d766599fc57a7cfa776a52b05c20b758921e02010"
+    },
+    {
+      "index": 447,
+      "phase": "train",
+      "reynolds": 117.0,
+      "geometry_hash": "e2a573ac023e0fd17254ab59fe0f4d96329b6fe46f05780db86691548e7f6fbe"
+    },
+    {
+      "index": 84,
+      "phase": "train",
+      "reynolds": 750.0,
+      "geometry_hash": "5d9f51f63226324e58521c8a667f012f95532cdedfee42a2c2f385a94e508e98"
+    },
+    {
+      "index": 500,
+      "phase": "train",
+      "reynolds": 368.0,
+      "geometry_hash": "71b6b32f214c31c93e65942cbe29a8b9a4b5090c681d1e702e488165b328b961"
+    },
+    {
+      "index": 874,
+      "phase": "train",
+      "reynolds": 89.0,
+      "geometry_hash": "251699050b807b9a9ba27b03673785c6da4a7c096bde8db701c3cb0e23cfe586"
+    },
+    {
+      "index": 676,
+      "phase": "train",
+      "reynolds": 233.0,
+      "geometry_hash": "fe11495243f17fd2ec033bf1fbf96855683dbea71503bb3567527bbb25722227"
+    },
+    {
+      "index": 143,
+      "phase": "train",
+      "reynolds": 190.0,
+      "geometry_hash": "aca03136c5c696f958803f34e77e0fc75c3f06cc03e53b5c77926286da32c035"
+    },
+    {
+      "index": 385,
+      "phase": "train",
+      "reynolds": 836.0,
+      "geometry_hash": "ded5662ee998425a4bf2bed6a05c78926c91f2dbeaf3f01d8a24dc6ce8d1b603"
+    },
+    {
+      "index": 148,
+      "phase": "train",
+      "reynolds": 75.0,
+      "geometry_hash": "aca03136c5c696f958803f34e77e0fc75c3f06cc03e53b5c77926286da32c035"
+    },
+    {
+      "index": 24,
+      "phase": "train",
+      "reynolds": 70.0,
+      "geometry_hash": "033de925a5560a8bcea62f22ff284bf9c01aab69e41793b661859e8a79eac0b9"
+    },
+    {
+      "index": 81,
+      "phase": "train",
+      "reynolds": 215.0,
+      "geometry_hash": "5d9f51f63226324e58521c8a667f012f95532cdedfee42a2c2f385a94e508e98"
+    },
+    {
+      "index": 209,
+      "phase": "train",
+      "reynolds": 917.0,
+      "geometry_hash": "407fdbdf64ea9a12dd6ca7873505466a7ff67cf7612219c0dc70cd9401bd7e13"
+    },
+    {
+      "index": 684,
+      "phase": "train",
+      "reynolds": 35.0,
+      "geometry_hash": "bdb753d14d4b62d94a0eb8540c567188e99883d51d29eec462d6d83786a53cac"
+    },
+    {
+      "index": 392,
+      "phase": "train",
+      "reynolds": 60.0,
+      "geometry_hash": "984272ebb00549d6870bbbdd38d4f9bbbf6e77f076b69e113b31a4b71a96f190"
+    },
+    {
+      "index": 314,
+      "phase": "train",
+      "reynolds": 763.0,
+      "geometry_hash": "9adc2e4e9117a8034700f1deb4a4ef9fc974aa968c60fa8d5f7e072823c851c7"
+    },
+    {
+      "index": 911,
+      "phase": "train",
+      "reynolds": 67.0,
+      "geometry_hash": "9b4cfab73245c8f40946912d482baa1454e1526cc892d1bc1891b477a538644f"
+    },
+    {
+      "index": 547,
+      "phase": "train",
+      "reynolds": 222.0,
+      "geometry_hash": "6293c46ad369484d2c8f7226e343d0424af313276c937e5afdfa5123bd142350"
+    },
+    {
+      "index": 437,
+      "phase": "train",
+      "reynolds": 60.0,
+      "geometry_hash": "bc006bcc50a84edd692be156987ae36773871c4efd943443f66f7da0ea2906ae"
+    },
+    {
+      "index": 918,
+      "phase": "train",
+      "reynolds": 378.0,
+      "geometry_hash": "9b4cfab73245c8f40946912d482baa1454e1526cc892d1bc1891b477a538644f"
+    },
+    {
+      "index": 871,
+      "phase": "train",
+      "reynolds": 707.0,
+      "geometry_hash": "251699050b807b9a9ba27b03673785c6da4a7c096bde8db701c3cb0e23cfe586"
+    },
+    {
+      "index": 72,
+      "phase": "train",
+      "reynolds": 988.0,
+      "geometry_hash": "8d1ee12eb2a237125fad5c98c1e47b2caba48c770bd950cab141821b63af9c1e"
+    },
+    {
+      "index": 784,
+      "phase": "train",
+      "reynolds": 876.0,
+      "geometry_hash": "473b575bf4123c47a2b310251ba48cc5e0dda1decd4bf9054f4ca388945f2e2b"
+    },
+    {
+      "index": 863,
+      "phase": "train",
+      "reynolds": 47.0,
+      "geometry_hash": "296849eb5ce30f3e886b8b64d2c2b6daa0f2d6277e841f8cc7c405d53d2d9c32"
+    },
+    {
+      "index": 362,
+      "phase": "train",
+      "reynolds": 60.0,
+      "geometry_hash": "abf8854f14ba9337bb14cb2984f62f501740d585dc244f1b24dd948464e32262"
+    },
+    {
+      "index": 797,
+      "phase": "train",
+      "reynolds": 60.0,
+      "geometry_hash": "3a7ae9843de1c981e7428c590b3030575f4217ad55005c7c9ff8fb677349482a"
+    },
+    {
+      "index": 905,
+      "phase": "train",
+      "reynolds": 889.0,
+      "geometry_hash": "c6f7d98ceb15cd68af54281dee1a93c27dada44da26fe1cda027582677d857e7"
+    },
+    {
+      "index": 360,
+      "phase": "train",
+      "reynolds": 460.0,
+      "geometry_hash": "abf8854f14ba9337bb14cb2984f62f501740d585dc244f1b24dd948464e32262"
+    },
+    {
+      "index": 389,
+      "phase": "train",
+      "reynolds": 206.0,
+      "geometry_hash": "ded5662ee998425a4bf2bed6a05c78926c91f2dbeaf3f01d8a24dc6ce8d1b603"
+    },
+    {
+      "index": 912,
+      "phase": "train",
+      "reynolds": 45.0,
+      "geometry_hash": "9b4cfab73245c8f40946912d482baa1454e1526cc892d1bc1891b477a538644f"
+    },
+    {
+      "index": 237,
+      "phase": "train",
+      "reynolds": 93.0,
+      "geometry_hash": "57fe4dbd3403536f39f3631992cf8e665a6f1a4a74c0ebe7949166f672f89bde"
+    },
+    {
+      "index": 467,
+      "phase": "train",
+      "reynolds": 693.0,
+      "geometry_hash": "5b11a61f72e85a27ce20f9e4b83f2ed579d7f166b7db0d0456ba17f67c550c3e"
+    },
+    {
+      "index": 180,
+      "phase": "train",
+      "reynolds": 874.0,
+      "geometry_hash": "d73bf3d8f27e97518330e6631f24a449eb4d0c7f38bbd67f2175cd2ab43170b2"
+    },
+    {
+      "index": 854,
+      "phase": "train",
+      "reynolds": 12.0,
+      "geometry_hash": "8a11818f4944587844beebc2b11e70a3ffbaa4b45e754693ab1bbd2ebce16117"
+    },
+    {
+      "index": 77,
+      "phase": "train",
+      "reynolds": 11.0,
+      "geometry_hash": "8d1ee12eb2a237125fad5c98c1e47b2caba48c770bd950cab141821b63af9c1e"
+    },
+    {
+      "index": 64,
+      "phase": "train",
+      "reynolds": 61.0,
+      "geometry_hash": "37d487e0e3bee333b4d0438651c930853ffb1c3f9ae0b45c4af6e4f4f837b870"
+    },
+    {
+      "index": 788,
+      "phase": "train",
+      "reynolds": 66.0,
+      "geometry_hash": "473b575bf4123c47a2b310251ba48cc5e0dda1decd4bf9054f4ca388945f2e2b"
+    },
+    {
+      "index": 704,
+      "phase": "train",
+      "reynolds": 697.0,
+      "geometry_hash": "86827fb2ce8a19b8d4b41c2f08b0184c74e46be5f623cb850ed164c74effb7d5"
+    },
+    {
+      "index": 690,
+      "phase": "train",
+      "reynolds": 106.0,
+      "geometry_hash": "a06c1393f90d342f91d7b15eee0c2b12f493c77da239f350c0fe6ffa21a5e79b"
+    },
+    {
+      "index": 861,
+      "phase": "train",
+      "reynolds": 23.0,
+      "geometry_hash": "296849eb5ce30f3e886b8b64d2c2b6daa0f2d6277e841f8cc7c405d53d2d9c32"
+    },
+    {
+      "index": 729,
+      "phase": "train",
+      "reynolds": 990.0,
+      "geometry_hash": "8691f63c74b12893bb99c93a873a8a542f8f408f1ed810e310123d0ffa237a33"
+    },
+    {
+      "index": 778,
+      "phase": "train",
+      "reynolds": 275.0,
+      "geometry_hash": "fde61aba2903bcb36a42c11f68eaf3e3561494ed96607d38db3683c90660e13b"
+    },
+    {
+      "index": 114,
+      "phase": "train",
+      "reynolds": 384.0,
+      "geometry_hash": "6afaee3ab3323eb9359875f72492c085fbb37a8a477f65fc24cc7de2940dbbdc"
+    },
+    {
+      "index": 841,
+      "phase": "train",
+      "reynolds": 223.0,
+      "geometry_hash": "e5c5cb57c41b9e72ed285a47cb2398fb8545e155e177cdefbafc5940caa36571"
+    },
+    {
+      "index": 944,
+      "phase": "train",
+      "reynolds": 463.0,
+      "geometry_hash": "14b003b1ae89a74b51036a35df536350feb754a500f47fbacbcf109939520430"
+    },
+    {
+      "index": 378,
+      "phase": "train",
+      "reynolds": 278.0,
+      "geometry_hash": "5b3d8d83062b6c7a2aefb8ce3d03c46a095748bac8b2393957121c6d6d4689fe"
+    },
+    {
+      "index": 552,
+      "phase": "train",
+      "reynolds": 43.0,
+      "geometry_hash": "ed5ddded8b8ae94eb20a58aec5943c38e02744e8d4753e263139f9012a0a1e2a"
+    },
+    {
+      "index": 537,
+      "phase": "train",
+      "reynolds": 62.0,
+      "geometry_hash": "d1e37f8d9365c588598c52c52159ad6c6cdaf966dc3d99cbb17f82a83f21ae35"
+    },
+    {
+      "index": 366,
+      "phase": "train",
+      "reynolds": 802.0,
+      "geometry_hash": "abf8854f14ba9337bb14cb2984f62f501740d585dc244f1b24dd948464e32262"
+    },
+    {
+      "index": 83,
+      "phase": "train",
+      "reynolds": 75.0,
+      "geometry_hash": "5d9f51f63226324e58521c8a667f012f95532cdedfee42a2c2f385a94e508e98"
+    },
+    {
+      "index": 119,
+      "phase": "train",
+      "reynolds": 62.0,
+      "geometry_hash": "6afaee3ab3323eb9359875f72492c085fbb37a8a477f65fc24cc7de2940dbbdc"
+    },
+    {
+      "index": 851,
+      "phase": "train",
+      "reynolds": 51.0,
+      "geometry_hash": "8a11818f4944587844beebc2b11e70a3ffbaa4b45e754693ab1bbd2ebce16117"
+    },
+    {
+      "index": 158,
+      "phase": "train",
+      "reynolds": 22.0,
+      "geometry_hash": "b5fdc305195c64ed2cbdd3241c775158d20931899274fd329acfe440f39c19dd"
+    },
+    {
+      "index": 223,
+      "phase": "train",
+      "reynolds": 147.0,
+      "geometry_hash": "ff1818101b1175a0daaf3dce0b822abe116acd518a34ebdc87130a356905b751"
+    },
+    {
+      "index": 252,
+      "phase": "train",
+      "reynolds": 89.0,
+      "geometry_hash": "c4c20b5c2b838da60db537abe488d05b8f928430933ec2b7242dd8bddeef024b"
+    },
+    {
+      "index": 322,
+      "phase": "train",
+      "reynolds": 70.0,
+      "geometry_hash": "1a752076c417b873ce19adcb5eafc3dd217f676bb40fdfc182d52386f44340e7"
+    },
+    {
+      "index": 61,
+      "phase": "train",
+      "reynolds": 675.0,
+      "geometry_hash": "37d487e0e3bee333b4d0438651c930853ffb1c3f9ae0b45c4af6e4f4f837b870"
+    },
+    {
+      "index": 627,
+      "phase": "train",
+      "reynolds": 83.0,
+      "geometry_hash": "26221a0f5605e27151e8e96060e4a0529dd154f1c473e829f5f8e13160817696"
+    },
+    {
+      "index": 157,
+      "phase": "train",
+      "reynolds": 220.0,
+      "geometry_hash": "b5fdc305195c64ed2cbdd3241c775158d20931899274fd329acfe440f39c19dd"
+    },
+    {
+      "index": 945,
+      "phase": "train",
+      "reynolds": 13.0,
+      "geometry_hash": "14b003b1ae89a74b51036a35df536350feb754a500f47fbacbcf109939520430"
+    },
+    {
+      "index": 579,
+      "phase": "train",
+      "reynolds": 74.0,
+      "geometry_hash": "6f3704444be102c9cebfe285d3dc6f15e40e02ecfc16abf8422587b823f1a704"
+    },
+    {
+      "index": 329,
+      "phase": "train",
+      "reynolds": 969.0,
+      "geometry_hash": "1a752076c417b873ce19adcb5eafc3dd217f676bb40fdfc182d52386f44340e7"
+    },
+    {
+      "index": 573,
+      "phase": "train",
+      "reynolds": 805.0,
+      "geometry_hash": "6f3704444be102c9cebfe285d3dc6f15e40e02ecfc16abf8422587b823f1a704"
+    },
+    {
+      "index": 461,
+      "phase": "train",
+      "reynolds": 27.0,
+      "geometry_hash": "5b11a61f72e85a27ce20f9e4b83f2ed579d7f166b7db0d0456ba17f67c550c3e"
+    },
+    {
+      "index": 830,
+      "phase": "train",
+      "reynolds": 751.0,
+      "geometry_hash": "f40cf9e06ab343fdb8b01969d70d271d1cd1c7516356196c9340ab481854e5c9"
+    },
+    {
+      "index": 116,
+      "phase": "train",
+      "reynolds": 13.0,
+      "geometry_hash": "6afaee3ab3323eb9359875f72492c085fbb37a8a477f65fc24cc7de2940dbbdc"
+    },
+    {
+      "index": 698,
+      "phase": "train",
+      "reynolds": 56.0,
+      "geometry_hash": "a06c1393f90d342f91d7b15eee0c2b12f493c77da239f350c0fe6ffa21a5e79b"
+    },
+    {
+      "index": 266,
+      "phase": "train",
+      "reynolds": 89.0,
+      "geometry_hash": "3a51a11680c4281b6117f8f61e35786a5e422fb8eedb998a0ba5bb5957fc75f9"
+    },
+    {
+      "index": 489,
+      "phase": "train",
+      "reynolds": 761.0,
+      "geometry_hash": "e8f8705653b53a8b2ebec089ace1d64480a712e7449461ff7ab69be160dcac3b"
+    },
+    {
+      "index": 1,
+      "phase": "train",
+      "reynolds": 76.0,
+      "geometry_hash": "ca3457a531ec8bbbfb1a4a5f856e9c55b2d21c6d1150c378df4093b32c3631dd"
+    },
+    {
+      "index": 231,
+      "phase": "train",
+      "reynolds": 70.0,
+      "geometry_hash": "57fe4dbd3403536f39f3631992cf8e665a6f1a4a74c0ebe7949166f672f89bde"
+    },
+    {
+      "index": 894,
+      "phase": "train",
+      "reynolds": 819.0,
+      "geometry_hash": "576e47212b1acb4d903c379b905fb785ec8c486c39aa0a0160286308b332fe89"
+    },
+    {
+      "index": 753,
+      "phase": "train",
+      "reynolds": 22.0,
+      "geometry_hash": "b6f8d3adf8a3fb2cdf623a16539656ea2b1d0c2743e7e7f60942dddb5369ccad"
+    },
+    {
+      "index": 792,
+      "phase": "train",
+      "reynolds": 17.0,
+      "geometry_hash": "3a7ae9843de1c981e7428c590b3030575f4217ad55005c7c9ff8fb677349482a"
+    },
+    {
+      "index": 33,
+      "phase": "train",
+      "reynolds": 168.0,
+      "geometry_hash": "e0852cf7e88b52fa4a79b2a5fd2622bad93c13b8ed8db7d315ab357a9c5036fd"
+    },
+    {
+      "index": 635,
+      "phase": "train",
+      "reynolds": 345.0,
+      "geometry_hash": "3906407afc836c680e50d1a62ab2d2d4d4a88104bc95dc01013598974697002d"
+    },
+    {
+      "index": 966,
+      "phase": "train",
+      "reynolds": 89.0,
+      "geometry_hash": "e6064cf57fb2f861df5c32559523f7496ff6baf5a4257d88a34a7fe65bd6e1c0"
+    },
+    {
+      "index": 395,
+      "phase": "train",
+      "reynolds": 172.0,
+      "geometry_hash": "984272ebb00549d6870bbbdd38d4f9bbbf6e77f076b69e113b31a4b71a96f190"
+    },
+    {
+      "index": 52,
+      "phase": "train",
+      "reynolds": 341.0,
+      "geometry_hash": "5648ee525545614bee8f524ee263ccf8ff7f45979f1e8b7e532caac7a1351215"
+    },
+    {
+      "index": 312,
+      "phase": "train",
+      "reynolds": 434.0,
+      "geometry_hash": "9adc2e4e9117a8034700f1deb4a4ef9fc974aa968c60fa8d5f7e072823c851c7"
+    },
+    {
+      "index": 965,
+      "phase": "train",
+      "reynolds": 890.0,
+      "geometry_hash": "e6064cf57fb2f861df5c32559523f7496ff6baf5a4257d88a34a7fe65bd6e1c0"
+    },
+    {
+      "index": 98,
+      "phase": "train",
+      "reynolds": 504.0,
+      "geometry_hash": "928cab70302869c113dd3be7d4a9b96b7da9cb58f23dde9799bbe833f57c38cd"
+    },
+    {
+      "index": 22,
+      "phase": "train",
+      "reynolds": 169.0,
+      "geometry_hash": "033de925a5560a8bcea62f22ff284bf9c01aab69e41793b661859e8a79eac0b9"
+    },
+    {
+      "index": 39,
+      "phase": "train",
+      "reynolds": 17.0,
+      "geometry_hash": "e0852cf7e88b52fa4a79b2a5fd2622bad93c13b8ed8db7d315ab357a9c5036fd"
+    },
+    {
+      "index": 706,
+      "phase": "train",
+      "reynolds": 901.0,
+      "geometry_hash": "86827fb2ce8a19b8d4b41c2f08b0184c74e46be5f623cb850ed164c74effb7d5"
+    },
+    {
+      "index": 296,
+      "phase": "train",
+      "reynolds": 91.0,
+      "geometry_hash": "89a1be42a4465a53696f3290d550bace55163c454adb5b5da452d7d77e9cbc36"
+    },
+    {
+      "index": 411,
+      "phase": "train",
+      "reynolds": 229.0,
+      "geometry_hash": "45971ef6f5dd077f102dfcabce1ddb1ac6a538cca0ff2590f57be164b8405192"
+    },
+    {
+      "index": 550,
+      "phase": "train",
+      "reynolds": 104.0,
+      "geometry_hash": "ed5ddded8b8ae94eb20a58aec5943c38e02744e8d4753e263139f9012a0a1e2a"
+    },
+    {
+      "index": 705,
+      "phase": "train",
+      "reynolds": 90.0,
+      "geometry_hash": "86827fb2ce8a19b8d4b41c2f08b0184c74e46be5f623cb850ed164c74effb7d5"
+    },
+    {
+      "index": 324,
+      "phase": "train",
+      "reynolds": 799.0,
+      "geometry_hash": "1a752076c417b873ce19adcb5eafc3dd217f676bb40fdfc182d52386f44340e7"
+    },
+    {
+      "index": 58,
+      "phase": "train",
+      "reynolds": 61.0,
+      "geometry_hash": "5648ee525545614bee8f524ee263ccf8ff7f45979f1e8b7e532caac7a1351215"
+    },
+    {
+      "index": 110,
+      "phase": "train",
+      "reynolds": 98.0,
+      "geometry_hash": "6afaee3ab3323eb9359875f72492c085fbb37a8a477f65fc24cc7de2940dbbdc"
+    },
+    {
+      "index": 338,
+      "phase": "train",
+      "reynolds": 73.0,
+      "geometry_hash": "3be89d1cb5692d97218944a4bf478569e3142199a929568b0cc42b12cb843924"
+    },
+    {
+      "index": 520,
+      "phase": "train",
+      "reynolds": 11.0,
+      "geometry_hash": "a858b5fcb034ae9a14a62e038c9e325050da610096cc7f185408e12dd32a4483"
+    },
+    {
+      "index": 302,
+      "phase": "train",
+      "reynolds": 90.0,
+      "geometry_hash": "f8d52a769b5217bf9247f861d60ed2a89c6276036d3bd9b5730acba41316fd39"
+    },
+    {
+      "index": 344,
+      "phase": "train",
+      "reynolds": 22.0,
+      "geometry_hash": "79a1bda776c30e65f234871bb991035a4c40f8ba8d82e62a4edc3f4ff2af314f"
+    },
+    {
+      "index": 509,
+      "phase": "train",
+      "reynolds": 496.0,
+      "geometry_hash": "71b6b32f214c31c93e65942cbe29a8b9a4b5090c681d1e702e488165b328b961"
+    },
+    {
+      "index": 422,
+      "phase": "train",
+      "reynolds": 291.0,
+      "geometry_hash": "0b585ca1d4374c549fefbdf1fe0de121109829bd854d5b2570563b452bba3163"
+    },
+    {
+      "index": 74,
+      "phase": "train",
+      "reynolds": 99.0,
+      "geometry_hash": "8d1ee12eb2a237125fad5c98c1e47b2caba48c770bd950cab141821b63af9c1e"
+    },
+    {
+      "index": 515,
+      "phase": "train",
+      "reynolds": 218.0,
+      "geometry_hash": "099caf6a91d11eeb75b7851bd0b12057f40b529e47510495f83015bd2ae14cd9"
+    },
+    {
+      "index": 274,
+      "phase": "train",
+      "reynolds": 653.0,
+      "geometry_hash": "c823602024089ae4dfc722faad4253904e83d97389f0452fe5b64f16475bfb9e"
+    },
+    {
+      "index": 715,
+      "phase": "train",
+      "reynolds": 508.0,
+      "geometry_hash": "3b2f3eb8ddcfa731c05bcfff97654d5e85670cbddf33c63d55a0ed5e48394c29"
+    },
+    {
+      "index": 484,
+      "phase": "train",
+      "reynolds": 30.0,
+      "geometry_hash": "e8f8705653b53a8b2ebec089ace1d64480a712e7449461ff7ab69be160dcac3b"
+    },
+    {
+      "index": 558,
+      "phase": "train",
+      "reynolds": 21.0,
+      "geometry_hash": "ed5ddded8b8ae94eb20a58aec5943c38e02744e8d4753e263139f9012a0a1e2a"
+    },
+    {
+      "index": 926,
+      "phase": "train",
+      "reynolds": 20.0,
+      "geometry_hash": "b0e441df84b331fb75a978a35eddad5791ff787b2798204b4095a831c2ebb6a6"
+    },
+    {
+      "index": 386,
+      "phase": "train",
+      "reynolds": 685.0,
+      "geometry_hash": "ded5662ee998425a4bf2bed6a05c78926c91f2dbeaf3f01d8a24dc6ce8d1b603"
+    },
+    {
+      "index": 714,
+      "phase": "train",
+      "reynolds": 260.0,
+      "geometry_hash": "3b2f3eb8ddcfa731c05bcfff97654d5e85670cbddf33c63d55a0ed5e48394c29"
+    },
+    {
+      "index": 85,
+      "phase": "train",
+      "reynolds": 955.0,
+      "geometry_hash": "5d9f51f63226324e58521c8a667f012f95532cdedfee42a2c2f385a94e508e98"
+    },
+    {
+      "index": 813,
+      "phase": "train",
+      "reynolds": 992.0,
+      "geometry_hash": "0a2c8072f1ce1545fb9f517924099ecbf2323537aa1dbcfa5d8e8a4e9390306a"
+    },
+    {
+      "index": 582,
+      "phase": "train",
+      "reynolds": 90.0,
+      "geometry_hash": "e1c1a408f6ecdca3832173276ef2876258933503061e230a14aa1fb040abe9d8"
+    },
+    {
+      "index": 709,
+      "phase": "train",
+      "reynolds": 51.0,
+      "geometry_hash": "86827fb2ce8a19b8d4b41c2f08b0184c74e46be5f623cb850ed164c74effb7d5"
+    },
+    {
+      "index": 832,
+      "phase": "train",
+      "reynolds": 41.0,
+      "geometry_hash": "f40cf9e06ab343fdb8b01969d70d271d1cd1c7516356196c9340ab481854e5c9"
+    },
+    {
+      "index": 838,
+      "phase": "train",
+      "reynolds": 10.0,
+      "geometry_hash": "f40cf9e06ab343fdb8b01969d70d271d1cd1c7516356196c9340ab481854e5c9"
+    },
+    {
+      "index": 902,
+      "phase": "train",
+      "reynolds": 414.0,
+      "geometry_hash": "c6f7d98ceb15cd68af54281dee1a93c27dada44da26fe1cda027582677d857e7"
+    },
+    {
+      "index": 55,
+      "phase": "train",
+      "reynolds": 228.0,
+      "geometry_hash": "5648ee525545614bee8f524ee263ccf8ff7f45979f1e8b7e532caac7a1351215"
+    },
+    {
+      "index": 816,
+      "phase": "train",
+      "reynolds": 37.0,
+      "geometry_hash": "0a2c8072f1ce1545fb9f517924099ecbf2323537aa1dbcfa5d8e8a4e9390306a"
+    },
+    {
+      "index": 607,
+      "phase": "train",
+      "reynolds": 290.0,
+      "geometry_hash": "826a4c9572874eebbd603e29aa261139dce2907dda903f2dc4b550a983d9c0be"
+    },
+    {
+      "index": 950,
+      "phase": "train",
+      "reynolds": 610.0,
+      "geometry_hash": "2d6fcd91d952a56dafb92f2dcb0565705ddc4363b1a8d7359146b494c433d4e4"
+    },
+    {
+      "index": 18,
+      "phase": "train",
+      "reynolds": 87.0,
+      "geometry_hash": "51fd81a497cf968916287776db6a5a46b01c54834872494412ec2ab7bbd690de"
+    },
+    {
+      "index": 269,
+      "phase": "train",
+      "reynolds": 78.0,
+      "geometry_hash": "3a51a11680c4281b6117f8f61e35786a5e422fb8eedb998a0ba5bb5957fc75f9"
+    },
+    {
+      "index": 889,
+      "phase": "train",
+      "reynolds": 755.0,
+      "geometry_hash": "c30d34b459f060de6bef2750b94069da60697f6a80c66061e29d5700cf578f91"
+    },
+    {
+      "index": 117,
+      "phase": "train",
+      "reynolds": 82.0,
+      "geometry_hash": "6afaee3ab3323eb9359875f72492c085fbb37a8a477f65fc24cc7de2940dbbdc"
+    },
+    {
+      "index": 476,
+      "phase": "train",
+      "reynolds": 79.0,
+      "geometry_hash": "edf447923099d357a56a1f4f1fccdf14bbdb9537c6f88c5e59f6ba77d09e4520"
+    },
+    {
+      "index": 511,
+      "phase": "train",
+      "reynolds": 850.0,
+      "geometry_hash": "099caf6a91d11eeb75b7851bd0b12057f40b529e47510495f83015bd2ae14cd9"
+    },
+    {
+      "index": 260,
+      "phase": "train",
+      "reynolds": 774.0,
+      "geometry_hash": "3a51a11680c4281b6117f8f61e35786a5e422fb8eedb998a0ba5bb5957fc75f9"
+    },
+    {
+      "index": 755,
+      "phase": "train",
+      "reynolds": 96.0,
+      "geometry_hash": "b6f8d3adf8a3fb2cdf623a16539656ea2b1d0c2743e7e7f60942dddb5369ccad"
+    },
+    {
+      "index": 161,
+      "phase": "train",
+      "reynolds": 100.0,
+      "geometry_hash": "bb184545fa6e7d5afa870f57a871278c1d7997c1433df2d43e4258cf7625f8bb"
+    },
+    {
+      "index": 423,
+      "phase": "train",
+      "reynolds": 99.0,
+      "geometry_hash": "0b585ca1d4374c549fefbdf1fe0de121109829bd854d5b2570563b452bba3163"
+    },
+    {
+      "index": 449,
+      "phase": "train",
+      "reynolds": 344.0,
+      "geometry_hash": "e2a573ac023e0fd17254ab59fe0f4d96329b6fe46f05780db86691548e7f6fbe"
+    },
+    {
+      "index": 481,
+      "phase": "train",
+      "reynolds": 87.0,
+      "geometry_hash": "e8f8705653b53a8b2ebec089ace1d64480a712e7449461ff7ab69be160dcac3b"
+    },
+    {
+      "index": 458,
+      "phase": "train",
+      "reynolds": 52.0,
+      "geometry_hash": "e33c7467e243381473a69c9689093381681d45d5e048e13bb09772b73880d302"
+    },
+    {
+      "index": 542,
+      "phase": "train",
+      "reynolds": 444.0,
+      "geometry_hash": "6293c46ad369484d2c8f7226e343d0424af313276c937e5afdfa5123bd142350"
+    },
+    {
+      "index": 190,
+      "phase": "train",
+      "reynolds": 33.0,
+      "geometry_hash": "513791937e9cfa07ebd54bb352880f2897ba54756ea21eb08874ca6dac654b58"
+    },
+    {
+      "index": 662,
+      "phase": "train",
+      "reynolds": 996.0,
+      "geometry_hash": "3c3246d7eebb9bad788eb327bb78cc4cd6b7c101e028269add362696236cc18c"
+    },
+    {
+      "index": 394,
+      "phase": "train",
+      "reynolds": 595.0,
+      "geometry_hash": "984272ebb00549d6870bbbdd38d4f9bbbf6e77f076b69e113b31a4b71a96f190"
+    },
+    {
+      "index": 807,
+      "phase": "train",
+      "reynolds": 591.0,
+      "geometry_hash": "cd3ce22dc01e3d60fdde68bf0604a614b44b97b41b0674ff89272feee940c844"
+    },
+    {
+      "index": 382,
+      "phase": "train",
+      "reynolds": 69.0,
+      "geometry_hash": "ded5662ee998425a4bf2bed6a05c78926c91f2dbeaf3f01d8a24dc6ce8d1b603"
+    },
+    {
+      "index": 931,
+      "phase": "train",
+      "reynolds": 67.0,
+      "geometry_hash": "ce45410b73df6243e984e45d3a41552c880366f8c0700a79db3bf7d477446f32"
+    },
+    {
+      "index": 494,
+      "phase": "train",
+      "reynolds": 394.0,
+      "geometry_hash": "d4bcde7dc90e02f8bd85ccd0ff615c67d81b4a4ccc6362386ff15991bca7fefe"
+    },
+    {
+      "index": 71,
+      "phase": "train",
+      "reynolds": 109.0,
+      "geometry_hash": "8d1ee12eb2a237125fad5c98c1e47b2caba48c770bd950cab141821b63af9c1e"
+    },
+    {
+      "index": 358,
+      "phase": "train",
+      "reynolds": 20.0,
+      "geometry_hash": "c5ad1e031dc80f8dd63db7177a18a9aceee244f8493229f42086cf88b6d07b9c"
+    },
+    {
+      "index": 645,
+      "phase": "train",
+      "reynolds": 534.0,
+      "geometry_hash": "3ff014e4e0c59403230fa01ddc34febaf6796e684d95fa8170dfa7c53ddd648e"
+    },
+    {
+      "index": 480,
+      "phase": "train",
+      "reynolds": 302.0,
+      "geometry_hash": "e8f8705653b53a8b2ebec089ace1d64480a712e7449461ff7ab69be160dcac3b"
+    },
+    {
+      "index": 917,
+      "phase": "train",
+      "reynolds": 32.0,
+      "geometry_hash": "9b4cfab73245c8f40946912d482baa1454e1526cc892d1bc1891b477a538644f"
+    },
+    {
+      "index": 734,
+      "phase": "train",
+      "reynolds": 30.0,
+      "geometry_hash": "ba8d8401fe9ceabd2d3685c824fd22137fa22fc03bb9d57f5a4321a99699da56"
+    },
+    {
+      "index": 748,
+      "phase": "train",
+      "reynolds": 851.0,
+      "geometry_hash": "3bebd4e0d965bcd3067e93bc2263fdc656d27db86660defae598fa7d4c43e8bd"
+    },
+    {
+      "index": 613,
+      "phase": "train",
+      "reynolds": 997.0,
+      "geometry_hash": "8756d4dddba4b22b39972f6c4df56a4e46ea2d40a4ab5265a8849cba95129378"
+    },
+    {
+      "index": 400,
+      "phase": "train",
+      "reynolds": 273.0,
+      "geometry_hash": "83000881a5be3560ebcb591d766599fc57a7cfa776a52b05c20b758921e02010"
+    },
+    {
+      "index": 45,
+      "phase": "train",
+      "reynolds": 841.0,
+      "geometry_hash": "35941117e4d9427565fdc0750f17152cfd5159e7ca9ff30680cdb6f478318e04"
+    },
+    {
+      "index": 131,
+      "phase": "train",
+      "reynolds": 74.0,
+      "geometry_hash": "7407d3c76988d2fff7532ddafd68e0b79437e61f47b2cd9771663dd3eb7658c3"
+    },
+    {
+      "index": 997,
+      "phase": "train",
+      "reynolds": 30.0,
+      "geometry_hash": "a84c876eb5d6d26d15225de39f20641fd8a85c07958d48beb560d058a3484655"
+    },
+    {
+      "index": 972,
+      "phase": "train",
+      "reynolds": 64.0,
+      "geometry_hash": "f4ec0695baf5488e8a5ceb34928539ce325e84b70b4ad3db4d8717ba1ec4b8f5"
+    },
+    {
+      "index": 398,
+      "phase": "train",
+      "reynolds": 830.0,
+      "geometry_hash": "984272ebb00549d6870bbbdd38d4f9bbbf6e77f076b69e113b31a4b71a96f190"
+    },
+    {
+      "index": 959,
+      "phase": "train",
+      "reynolds": 61.0,
+      "geometry_hash": "2d6fcd91d952a56dafb92f2dcb0565705ddc4363b1a8d7359146b494c433d4e4"
+    },
+    {
+      "index": 456,
+      "phase": "train",
+      "reynolds": 819.0,
+      "geometry_hash": "e33c7467e243381473a69c9689093381681d45d5e048e13bb09772b73880d302"
+    },
+    {
+      "index": 590,
+      "phase": "train",
+      "reynolds": 98.0,
+      "geometry_hash": "3541056a917a50b87faa41f81e76f772add8d77b62791a6e48bd5adafabf21f1"
+    },
+    {
+      "index": 195,
+      "phase": "train",
+      "reynolds": 80.0,
+      "geometry_hash": "513791937e9cfa07ebd54bb352880f2897ba54756ea21eb08874ca6dac654b58"
+    },
+    {
+      "index": 711,
+      "phase": "train",
+      "reynolds": 931.0,
+      "geometry_hash": "3b2f3eb8ddcfa731c05bcfff97654d5e85670cbddf33c63d55a0ed5e48394c29"
+    },
+    {
+      "index": 554,
+      "phase": "train",
+      "reynolds": 10.0,
+      "geometry_hash": "ed5ddded8b8ae94eb20a58aec5943c38e02744e8d4753e263139f9012a0a1e2a"
+    },
+    {
+      "index": 725,
+      "phase": "train",
+      "reynolds": 99.0,
+      "geometry_hash": "8691f63c74b12893bb99c93a873a8a542f8f408f1ed810e310123d0ffa237a33"
+    },
+    {
+      "index": 556,
+      "phase": "train",
+      "reynolds": 213.0,
+      "geometry_hash": "ed5ddded8b8ae94eb20a58aec5943c38e02744e8d4753e263139f9012a0a1e2a"
+    },
+    {
+      "index": 93,
+      "phase": "train",
+      "reynolds": 877.0,
+      "geometry_hash": "928cab70302869c113dd3be7d4a9b96b7da9cb58f23dde9799bbe833f57c38cd"
+    },
+    {
+      "index": 325,
+      "phase": "train",
+      "reynolds": 699.0,
+      "geometry_hash": "1a752076c417b873ce19adcb5eafc3dd217f676bb40fdfc182d52386f44340e7"
+    },
+    {
+      "index": 870,
+      "phase": "train",
+      "reynolds": 13.0,
+      "geometry_hash": "251699050b807b9a9ba27b03673785c6da4a7c096bde8db701c3cb0e23cfe586"
+    },
+    {
+      "index": 69,
+      "phase": "train",
+      "reynolds": 45.0,
+      "geometry_hash": "37d487e0e3bee333b4d0438651c930853ffb1c3f9ae0b45c4af6e4f4f837b870"
+    },
+    {
+      "index": 942,
+      "phase": "train",
+      "reynolds": 768.0,
+      "geometry_hash": "14b003b1ae89a74b51036a35df536350feb754a500f47fbacbcf109939520430"
+    },
+    {
+      "index": 361,
+      "phase": "train",
+      "reynolds": 601.0,
+      "geometry_hash": "abf8854f14ba9337bb14cb2984f62f501740d585dc244f1b24dd948464e32262"
+    },
+    {
+      "index": 492,
+      "phase": "train",
+      "reynolds": 39.0,
+      "geometry_hash": "d4bcde7dc90e02f8bd85ccd0ff615c67d81b4a4ccc6362386ff15991bca7fefe"
+    },
+    {
+      "index": 29,
+      "phase": "train",
+      "reynolds": 66.0,
+      "geometry_hash": "033de925a5560a8bcea62f22ff284bf9c01aab69e41793b661859e8a79eac0b9"
+    },
+    {
+      "index": 598,
+      "phase": "train",
+      "reynolds": 687.0,
+      "geometry_hash": "3541056a917a50b87faa41f81e76f772add8d77b62791a6e48bd5adafabf21f1"
+    },
+    {
+      "index": 665,
+      "phase": "train",
+      "reynolds": 26.0,
+      "geometry_hash": "3c3246d7eebb9bad788eb327bb78cc4cd6b7c101e028269add362696236cc18c"
+    },
+    {
+      "index": 967,
+      "phase": "train",
+      "reynolds": 591.0,
+      "geometry_hash": "e6064cf57fb2f861df5c32559523f7496ff6baf5a4257d88a34a7fe65bd6e1c0"
+    },
+    {
+      "index": 726,
+      "phase": "train",
+      "reynolds": 488.0,
+      "geometry_hash": "8691f63c74b12893bb99c93a873a8a542f8f408f1ed810e310123d0ffa237a33"
+    },
+    {
+      "index": 671,
+      "phase": "train",
+      "reynolds": 575.0,
+      "geometry_hash": "fe11495243f17fd2ec033bf1fbf96855683dbea71503bb3567527bbb25722227"
+    },
+    {
+      "index": 834,
+      "phase": "train",
+      "reynolds": 23.0,
+      "geometry_hash": "f40cf9e06ab343fdb8b01969d70d271d1cd1c7516356196c9340ab481854e5c9"
+    },
+    {
+      "index": 568,
+      "phase": "train",
+      "reynolds": 83.0,
+      "geometry_hash": "dc0269f2984f0e4031a1793641ab1bcd6e41606d386cfd841d8532bfff4f915e"
+    },
+    {
+      "index": 913,
+      "phase": "train",
+      "reynolds": 320.0,
+      "geometry_hash": "9b4cfab73245c8f40946912d482baa1454e1526cc892d1bc1891b477a538644f"
+    },
+    {
+      "index": 220,
+      "phase": "train",
+      "reynolds": 81.0,
+      "geometry_hash": "ff1818101b1175a0daaf3dce0b822abe116acd518a34ebdc87130a356905b751"
+    },
+    {
+      "index": 285,
+      "phase": "train",
+      "reynolds": 544.0,
+      "geometry_hash": "766e15fc7861691fa85205d0acf52c3e54dfb1b071ea3b04e63348a92a9333e7"
+    },
+    {
+      "index": 374,
+      "phase": "train",
+      "reynolds": 986.0,
+      "geometry_hash": "5b3d8d83062b6c7a2aefb8ce3d03c46a095748bac8b2393957121c6d6d4689fe"
+    },
+    {
+      "index": 810,
+      "phase": "train",
+      "reynolds": 652.0,
+      "geometry_hash": "0a2c8072f1ce1545fb9f517924099ecbf2323537aa1dbcfa5d8e8a4e9390306a"
+    },
+    {
+      "index": 693,
+      "phase": "train",
+      "reynolds": 794.0,
+      "geometry_hash": "a06c1393f90d342f91d7b15eee0c2b12f493c77da239f350c0fe6ffa21a5e79b"
+    },
+    {
+      "index": 40,
+      "phase": "train",
+      "reynolds": 84.0,
+      "geometry_hash": "35941117e4d9427565fdc0750f17152cfd5159e7ca9ff30680cdb6f478318e04"
+    },
+    {
+      "index": 969,
+      "phase": "train",
+      "reynolds": 180.0,
+      "geometry_hash": "e6064cf57fb2f861df5c32559523f7496ff6baf5a4257d88a34a7fe65bd6e1c0"
+    },
+    {
+      "index": 282,
+      "phase": "train",
+      "reynolds": 22.0,
+      "geometry_hash": "766e15fc7861691fa85205d0acf52c3e54dfb1b071ea3b04e63348a92a9333e7"
+    },
+    {
+      "index": 405,
+      "phase": "train",
+      "reynolds": 64.0,
+      "geometry_hash": "83000881a5be3560ebcb591d766599fc57a7cfa776a52b05c20b758921e02010"
+    },
+    {
+      "index": 330,
+      "phase": "train",
+      "reynolds": 792.0,
+      "geometry_hash": "3be89d1cb5692d97218944a4bf478569e3142199a929568b0cc42b12cb843924"
+    },
+    {
+      "index": 670,
+      "phase": "train",
+      "reynolds": 33.0,
+      "geometry_hash": "fe11495243f17fd2ec033bf1fbf96855683dbea71503bb3567527bbb25722227"
+    },
+    {
+      "index": 253,
+      "phase": "train",
+      "reynolds": 19.0,
+      "geometry_hash": "c4c20b5c2b838da60db537abe488d05b8f928430933ec2b7242dd8bddeef024b"
+    },
+    {
+      "index": 316,
+      "phase": "train",
+      "reynolds": 76.0,
+      "geometry_hash": "9adc2e4e9117a8034700f1deb4a4ef9fc974aa968c60fa8d5f7e072823c851c7"
+    },
+    {
+      "index": 727,
+      "phase": "train",
+      "reynolds": 174.0,
+      "geometry_hash": "8691f63c74b12893bb99c93a873a8a542f8f408f1ed810e310123d0ffa237a33"
+    },
+    {
+      "index": 849,
+      "phase": "train",
+      "reynolds": 506.0,
+      "geometry_hash": "e5c5cb57c41b9e72ed285a47cb2398fb8545e155e177cdefbafc5940caa36571"
+    },
+    {
+      "index": 899,
+      "phase": "train",
+      "reynolds": 700.0,
+      "geometry_hash": "576e47212b1acb4d903c379b905fb785ec8c486c39aa0a0160286308b332fe89"
+    },
+    {
+      "index": 179,
+      "phase": "train",
+      "reynolds": 733.0,
+      "geometry_hash": "422939840aca9f94d9d42bea9248e266e52dba942363d5449845e44da12c4949"
+    },
+    {
+      "index": 368,
+      "phase": "train",
+      "reynolds": 80.0,
+      "geometry_hash": "abf8854f14ba9337bb14cb2984f62f501740d585dc244f1b24dd948464e32262"
+    },
+    {
+      "index": 860,
+      "phase": "train",
+      "reynolds": 231.0,
+      "geometry_hash": "296849eb5ce30f3e886b8b64d2c2b6daa0f2d6277e841f8cc7c405d53d2d9c32"
+    },
+    {
+      "index": 674,
+      "phase": "train",
+      "reynolds": 23.0,
+      "geometry_hash": "fe11495243f17fd2ec033bf1fbf96855683dbea71503bb3567527bbb25722227"
+    },
+    {
+      "index": 328,
+      "phase": "train",
+      "reynolds": 97.0,
+      "geometry_hash": "1a752076c417b873ce19adcb5eafc3dd217f676bb40fdfc182d52386f44340e7"
+    },
+    {
+      "index": 519,
+      "phase": "train",
+      "reynolds": 53.0,
+      "geometry_hash": "099caf6a91d11eeb75b7851bd0b12057f40b529e47510495f83015bd2ae14cd9"
+    },
+    {
+      "index": 62,
+      "phase": "train",
+      "reynolds": 101.0,
+      "geometry_hash": "37d487e0e3bee333b4d0438651c930853ffb1c3f9ae0b45c4af6e4f4f837b870"
+    },
+    {
+      "index": 429,
+      "phase": "train",
+      "reynolds": 66.0,
+      "geometry_hash": "0b585ca1d4374c549fefbdf1fe0de121109829bd854d5b2570563b452bba3163"
+    },
+    {
+      "index": 985,
+      "phase": "train",
+      "reynolds": 992.0,
+      "geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+    },
+    {
+      "index": 0,
+      "phase": "train",
+      "reynolds": 34.0,
+      "geometry_hash": "ca3457a531ec8bbbfb1a4a5f856e9c55b2d21c6d1150c378df4093b32c3631dd"
+    },
+    {
+      "index": 60,
+      "phase": "train",
+      "reynolds": 10.0,
+      "geometry_hash": "37d487e0e3bee333b4d0438651c930853ffb1c3f9ae0b45c4af6e4f4f837b870"
+    },
+    {
+      "index": 401,
+      "phase": "train",
+      "reynolds": 416.0,
+      "geometry_hash": "83000881a5be3560ebcb591d766599fc57a7cfa776a52b05c20b758921e02010"
+    },
+    {
+      "index": 137,
+      "phase": "train",
+      "reynolds": 981.0,
+      "geometry_hash": "7407d3c76988d2fff7532ddafd68e0b79437e61f47b2cd9771663dd3eb7658c3"
+    },
+    {
+      "index": 163,
+      "phase": "train",
+      "reynolds": 44.0,
+      "geometry_hash": "bb184545fa6e7d5afa870f57a871278c1d7997c1433df2d43e4258cf7625f8bb"
+    },
+    {
+      "index": 130,
+      "phase": "train",
+      "reynolds": 11.0,
+      "geometry_hash": "7407d3c76988d2fff7532ddafd68e0b79437e61f47b2cd9771663dd3eb7658c3"
+    },
+    {
+      "index": 927,
+      "phase": "train",
+      "reynolds": 38.0,
+      "geometry_hash": "b0e441df84b331fb75a978a35eddad5791ff787b2798204b4095a831c2ebb6a6"
+    },
+    {
+      "index": 862,
+      "phase": "train",
+      "reynolds": 972.0,
+      "geometry_hash": "296849eb5ce30f3e886b8b64d2c2b6daa0f2d6277e841f8cc7c405d53d2d9c32"
+    },
+    {
+      "index": 882,
+      "phase": "train",
+      "reynolds": 614.0,
+      "geometry_hash": "c30d34b459f060de6bef2750b94069da60697f6a80c66061e29d5700cf578f91"
+    },
+    {
+      "index": 647,
+      "phase": "train",
+      "reynolds": 39.0,
+      "geometry_hash": "3ff014e4e0c59403230fa01ddc34febaf6796e684d95fa8170dfa7c53ddd648e"
+    },
+    {
+      "index": 11,
+      "phase": "train",
+      "reynolds": 42.0,
+      "geometry_hash": "51fd81a497cf968916287776db6a5a46b01c54834872494412ec2ab7bbd690de"
+    },
+    {
+      "index": 872,
+      "phase": "train",
+      "reynolds": 125.0,
+      "geometry_hash": "251699050b807b9a9ba27b03673785c6da4a7c096bde8db701c3cb0e23cfe586"
+    },
+    {
+      "index": 367,
+      "phase": "train",
+      "reynolds": 18.0,
+      "geometry_hash": "abf8854f14ba9337bb14cb2984f62f501740d585dc244f1b24dd948464e32262"
+    },
+    {
+      "index": 434,
+      "phase": "train",
+      "reynolds": 23.0,
+      "geometry_hash": "bc006bcc50a84edd692be156987ae36773871c4efd943443f66f7da0ea2906ae"
+    },
+    {
+      "index": 187,
+      "phase": "train",
+      "reynolds": 87.0,
+      "geometry_hash": "d73bf3d8f27e97518330e6631f24a449eb4d0c7f38bbd67f2175cd2ab43170b2"
+    },
+    {
+      "index": 774,
+      "phase": "train",
+      "reynolds": 100.0,
+      "geometry_hash": "fde61aba2903bcb36a42c11f68eaf3e3561494ed96607d38db3683c90660e13b"
+    },
+    {
+      "index": 166,
+      "phase": "train",
+      "reynolds": 23.0,
+      "geometry_hash": "bb184545fa6e7d5afa870f57a871278c1d7997c1433df2d43e4258cf7625f8bb"
+    },
+    {
+      "index": 204,
+      "phase": "train",
+      "reynolds": 841.0,
+      "geometry_hash": "407fdbdf64ea9a12dd6ca7873505466a7ff67cf7612219c0dc70cd9401bd7e13"
+    },
+    {
+      "index": 193,
+      "phase": "train",
+      "reynolds": 11.0,
+      "geometry_hash": "513791937e9cfa07ebd54bb352880f2897ba54756ea21eb08874ca6dac654b58"
+    },
+    {
+      "index": 86,
+      "phase": "train",
+      "reynolds": 477.0,
+      "geometry_hash": "5d9f51f63226324e58521c8a667f012f95532cdedfee42a2c2f385a94e508e98"
+    },
+    {
+      "index": 341,
+      "phase": "validation",
+      "reynolds": 903.0,
+      "geometry_hash": "79a1bda776c30e65f234871bb991035a4c40f8ba8d82e62a4edc3f4ff2af314f"
+    },
+    {
+      "index": 952,
+      "phase": "validation",
+      "reynolds": 30.0,
+      "geometry_hash": "2d6fcd91d952a56dafb92f2dcb0565705ddc4363b1a8d7359146b494c433d4e4"
+    },
+    {
+      "index": 548,
+      "phase": "validation",
+      "reynolds": 44.0,
+      "geometry_hash": "6293c46ad369484d2c8f7226e343d0424af313276c937e5afdfa5123bd142350"
+    },
+    {
+      "index": 417,
+      "phase": "validation",
+      "reynolds": 778.0,
+      "geometry_hash": "45971ef6f5dd077f102dfcabce1ddb1ac6a538cca0ff2590f57be164b8405192"
+    },
+    {
+      "index": 844,
+      "phase": "validation",
+      "reynolds": 804.0,
+      "geometry_hash": "e5c5cb57c41b9e72ed285a47cb2398fb8545e155e177cdefbafc5940caa36571"
+    },
+    {
+      "index": 42,
+      "phase": "validation",
+      "reynolds": 33.0,
+      "geometry_hash": "35941117e4d9427565fdc0750f17152cfd5159e7ca9ff30680cdb6f478318e04"
+    },
+    {
+      "index": 513,
+      "phase": "validation",
+      "reynolds": 535.0,
+      "geometry_hash": "099caf6a91d11eeb75b7851bd0b12057f40b529e47510495f83015bd2ae14cd9"
+    },
+    {
+      "index": 843,
+      "phase": "validation",
+      "reynolds": 22.0,
+      "geometry_hash": "e5c5cb57c41b9e72ed285a47cb2398fb8545e155e177cdefbafc5940caa36571"
+    },
+    {
+      "index": 803,
+      "phase": "validation",
+      "reynolds": 162.0,
+      "geometry_hash": "cd3ce22dc01e3d60fdde68bf0604a614b44b97b41b0674ff89272feee940c844"
+    },
+    {
+      "index": 486,
+      "phase": "validation",
+      "reynolds": 414.0,
+      "geometry_hash": "e8f8705653b53a8b2ebec089ace1d64480a712e7449461ff7ab69be160dcac3b"
+    },
+    {
+      "index": 960,
+      "phase": "validation",
+      "reynolds": 54.0,
+      "geometry_hash": "e6064cf57fb2f861df5c32559523f7496ff6baf5a4257d88a34a7fe65bd6e1c0"
+    },
+    {
+      "index": 903,
+      "phase": "validation",
+      "reynolds": 27.0,
+      "geometry_hash": "c6f7d98ceb15cd68af54281dee1a93c27dada44da26fe1cda027582677d857e7"
+    },
+    {
+      "index": 529,
+      "phase": "validation",
+      "reynolds": 293.0,
+      "geometry_hash": "a858b5fcb034ae9a14a62e038c9e325050da610096cc7f185408e12dd32a4483"
+    },
+    {
+      "index": 51,
+      "phase": "validation",
+      "reynolds": 951.0,
+      "geometry_hash": "5648ee525545614bee8f524ee263ccf8ff7f45979f1e8b7e532caac7a1351215"
+    },
+    {
+      "index": 742,
+      "phase": "validation",
+      "reynolds": 523.0,
+      "geometry_hash": "3bebd4e0d965bcd3067e93bc2263fdc656d27db86660defae598fa7d4c43e8bd"
+    },
+    {
+      "index": 185,
+      "phase": "validation",
+      "reynolds": 411.0,
+      "geometry_hash": "d73bf3d8f27e97518330e6631f24a449eb4d0c7f38bbd67f2175cd2ab43170b2"
+    },
+    {
+      "index": 293,
+      "phase": "validation",
+      "reynolds": 63.0,
+      "geometry_hash": "89a1be42a4465a53696f3290d550bace55163c454adb5b5da452d7d77e9cbc36"
+    },
+    {
+      "index": 257,
+      "phase": "validation",
+      "reynolds": 48.0,
+      "geometry_hash": "c4c20b5c2b838da60db537abe488d05b8f928430933ec2b7242dd8bddeef024b"
+    },
+    {
+      "index": 809,
+      "phase": "validation",
+      "reynolds": 874.0,
+      "geometry_hash": "cd3ce22dc01e3d60fdde68bf0604a614b44b97b41b0674ff89272feee940c844"
+    },
+    {
+      "index": 371,
+      "phase": "validation",
+      "reynolds": 28.0,
+      "geometry_hash": "5b3d8d83062b6c7a2aefb8ce3d03c46a095748bac8b2393957121c6d6d4689fe"
+    },
+    {
+      "index": 122,
+      "phase": "validation",
+      "reynolds": 269.0,
+      "geometry_hash": "d72271c682722411b715c315c12abda164499478d07dee0cc1643947ed0aca33"
+    },
+    {
+      "index": 159,
+      "phase": "validation",
+      "reynolds": 94.0,
+      "geometry_hash": "b5fdc305195c64ed2cbdd3241c775158d20931899274fd329acfe440f39c19dd"
+    },
+    {
+      "index": 909,
+      "phase": "validation",
+      "reynolds": 67.0,
+      "geometry_hash": "c6f7d98ceb15cd68af54281dee1a93c27dada44da26fe1cda027582677d857e7"
+    },
+    {
+      "index": 472,
+      "phase": "validation",
+      "reynolds": 304.0,
+      "geometry_hash": "edf447923099d357a56a1f4f1fccdf14bbdb9537c6f88c5e59f6ba77d09e4520"
+    },
+    {
+      "index": 483,
+      "phase": "validation",
+      "reynolds": 76.0,
+      "geometry_hash": "e8f8705653b53a8b2ebec089ace1d64480a712e7449461ff7ab69be160dcac3b"
+    },
+    {
+      "index": 313,
+      "phase": "validation",
+      "reynolds": 117.0,
+      "geometry_hash": "9adc2e4e9117a8034700f1deb4a4ef9fc974aa968c60fa8d5f7e072823c851c7"
+    },
+    {
+      "index": 175,
+      "phase": "validation",
+      "reynolds": 137.0,
+      "geometry_hash": "422939840aca9f94d9d42bea9248e266e52dba942363d5449845e44da12c4949"
+    },
+    {
+      "index": 564,
+      "phase": "validation",
+      "reynolds": 452.0,
+      "geometry_hash": "dc0269f2984f0e4031a1793641ab1bcd6e41606d386cfd841d8532bfff4f915e"
+    },
+    {
+      "index": 66,
+      "phase": "validation",
+      "reynolds": 454.0,
+      "geometry_hash": "37d487e0e3bee333b4d0438651c930853ffb1c3f9ae0b45c4af6e4f4f837b870"
+    },
+    {
+      "index": 97,
+      "phase": "validation",
+      "reynolds": 55.0,
+      "geometry_hash": "928cab70302869c113dd3be7d4a9b96b7da9cb58f23dde9799bbe833f57c38cd"
+    },
+    {
+      "index": 359,
+      "phase": "validation",
+      "reynolds": 58.0,
+      "geometry_hash": "c5ad1e031dc80f8dd63db7177a18a9aceee244f8493229f42086cf88b6d07b9c"
+    },
+    {
+      "index": 118,
+      "phase": "validation",
+      "reynolds": 818.0,
+      "geometry_hash": "6afaee3ab3323eb9359875f72492c085fbb37a8a477f65fc24cc7de2940dbbdc"
+    },
+    {
+      "index": 286,
+      "phase": "validation",
+      "reynolds": 992.0,
+      "geometry_hash": "766e15fc7861691fa85205d0acf52c3e54dfb1b071ea3b04e63348a92a9333e7"
+    },
+    {
+      "index": 399,
+      "phase": "validation",
+      "reynolds": 17.0,
+      "geometry_hash": "984272ebb00549d6870bbbdd38d4f9bbbf6e77f076b69e113b31a4b71a96f190"
+    },
+    {
+      "index": 219,
+      "phase": "validation",
+      "reynolds": 242.0,
+      "geometry_hash": "c98ce5d03a6341ab45aba73eb52b95fb17103b1cc12337c3e4b4d5b8389adb2f"
+    },
+    {
+      "index": 738,
+      "phase": "validation",
+      "reynolds": 638.0,
+      "geometry_hash": "ba8d8401fe9ceabd2d3685c824fd22137fa22fc03bb9d57f5a4321a99699da56"
+    },
+    {
+      "index": 283,
+      "phase": "validation",
+      "reynolds": 10.0,
+      "geometry_hash": "766e15fc7861691fa85205d0acf52c3e54dfb1b071ea3b04e63348a92a9333e7"
+    },
+    {
+      "index": 463,
+      "phase": "validation",
+      "reynolds": 69.0,
+      "geometry_hash": "5b11a61f72e85a27ce20f9e4b83f2ed579d7f166b7db0d0456ba17f67c550c3e"
+    },
+    {
+      "index": 255,
+      "phase": "validation",
+      "reynolds": 194.0,
+      "geometry_hash": "c4c20b5c2b838da60db537abe488d05b8f928430933ec2b7242dd8bddeef024b"
+    },
+    {
+      "index": 319,
+      "phase": "validation",
+      "reynolds": 83.0,
+      "geometry_hash": "9adc2e4e9117a8034700f1deb4a4ef9fc974aa968c60fa8d5f7e072823c851c7"
+    },
+    {
+      "index": 152,
+      "phase": "validation",
+      "reynolds": 67.0,
+      "geometry_hash": "b5fdc305195c64ed2cbdd3241c775158d20931899274fd329acfe440f39c19dd"
+    },
+    {
+      "index": 43,
+      "phase": "validation",
+      "reynolds": 102.0,
+      "geometry_hash": "35941117e4d9427565fdc0750f17152cfd5159e7ca9ff30680cdb6f478318e04"
+    },
+    {
+      "index": 601,
+      "phase": "validation",
+      "reynolds": 673.0,
+      "geometry_hash": "826a4c9572874eebbd603e29aa261139dce2907dda903f2dc4b550a983d9c0be"
+    },
+    {
+      "index": 396,
+      "phase": "validation",
+      "reynolds": 945.0,
+      "geometry_hash": "984272ebb00549d6870bbbdd38d4f9bbbf6e77f076b69e113b31a4b71a96f190"
+    },
+    {
+      "index": 240,
+      "phase": "validation",
+      "reynolds": 609.0,
+      "geometry_hash": "c9d6273b78b21f6b7eaba0302f31560f07a1ca08c9ed56c3fb9cd2dbb86326bc"
+    },
+    {
+      "index": 536,
+      "phase": "validation",
+      "reynolds": 671.0,
+      "geometry_hash": "d1e37f8d9365c588598c52c52159ad6c6cdaf966dc3d99cbb17f82a83f21ae35"
+    },
+    {
+      "index": 660,
+      "phase": "validation",
+      "reynolds": 86.0,
+      "geometry_hash": "3c3246d7eebb9bad788eb327bb78cc4cd6b7c101e028269add362696236cc18c"
+    },
+    {
+      "index": 836,
+      "phase": "validation",
+      "reynolds": 79.0,
+      "geometry_hash": "f40cf9e06ab343fdb8b01969d70d271d1cd1c7516356196c9340ab481854e5c9"
+    },
+    {
+      "index": 699,
+      "phase": "validation",
+      "reynolds": 79.0,
+      "geometry_hash": "a06c1393f90d342f91d7b15eee0c2b12f493c77da239f350c0fe6ffa21a5e79b"
+    },
+    {
+      "index": 332,
+      "phase": "validation",
+      "reynolds": 382.0,
+      "geometry_hash": "3be89d1cb5692d97218944a4bf478569e3142199a929568b0cc42b12cb843924"
+    },
+    {
+      "index": 410,
+      "phase": "validation",
+      "reynolds": 672.0,
+      "geometry_hash": "45971ef6f5dd077f102dfcabce1ddb1ac6a538cca0ff2590f57be164b8405192"
+    },
+    {
+      "index": 300,
+      "phase": "validation",
+      "reynolds": 50.0,
+      "geometry_hash": "f8d52a769b5217bf9247f861d60ed2a89c6276036d3bd9b5730acba41316fd39"
+    },
+    {
+      "index": 675,
+      "phase": "validation",
+      "reynolds": 333.0,
+      "geometry_hash": "fe11495243f17fd2ec033bf1fbf96855683dbea71503bb3567527bbb25722227"
+    },
+    {
+      "index": 49,
+      "phase": "validation",
+      "reynolds": 454.0,
+      "geometry_hash": "35941117e4d9427565fdc0750f17152cfd5159e7ca9ff30680cdb6f478318e04"
+    },
+    {
+      "index": 682,
+      "phase": "validation",
+      "reynolds": 90.0,
+      "geometry_hash": "bdb753d14d4b62d94a0eb8540c567188e99883d51d29eec462d6d83786a53cac"
+    },
+    {
+      "index": 741,
+      "phase": "validation",
+      "reynolds": 42.0,
+      "geometry_hash": "3bebd4e0d965bcd3067e93bc2263fdc656d27db86660defae598fa7d4c43e8bd"
+    },
+    {
+      "index": 639,
+      "phase": "validation",
+      "reynolds": 632.0,
+      "geometry_hash": "3906407afc836c680e50d1a62ab2d2d4d4a88104bc95dc01013598974697002d"
+    },
+    {
+      "index": 89,
+      "phase": "validation",
+      "reynolds": 17.0,
+      "geometry_hash": "5d9f51f63226324e58521c8a667f012f95532cdedfee42a2c2f385a94e508e98"
+    },
+    {
+      "index": 683,
+      "phase": "validation",
+      "reynolds": 466.0,
+      "geometry_hash": "bdb753d14d4b62d94a0eb8540c567188e99883d51d29eec462d6d83786a53cac"
+    },
+    {
+      "index": 695,
+      "phase": "validation",
+      "reynolds": 556.0,
+      "geometry_hash": "a06c1393f90d342f91d7b15eee0c2b12f493c77da239f350c0fe6ffa21a5e79b"
+    },
+    {
+      "index": 248,
+      "phase": "validation",
+      "reynolds": 51.0,
+      "geometry_hash": "c9d6273b78b21f6b7eaba0302f31560f07a1ca08c9ed56c3fb9cd2dbb86326bc"
+    },
+    {
+      "index": 245,
+      "phase": "validation",
+      "reynolds": 788.0,
+      "geometry_hash": "c9d6273b78b21f6b7eaba0302f31560f07a1ca08c9ed56c3fb9cd2dbb86326bc"
+    },
+    {
+      "index": 277,
+      "phase": "validation",
+      "reynolds": 821.0,
+      "geometry_hash": "c823602024089ae4dfc722faad4253904e83d97389f0452fe5b64f16475bfb9e"
+    },
+    {
+      "index": 425,
+      "phase": "validation",
+      "reynolds": 11.0,
+      "geometry_hash": "0b585ca1d4374c549fefbdf1fe0de121109829bd854d5b2570563b452bba3163"
+    },
+    {
+      "index": 76,
+      "phase": "validation",
+      "reynolds": 359.0,
+      "geometry_hash": "8d1ee12eb2a237125fad5c98c1e47b2caba48c770bd950cab141821b63af9c1e"
+    },
+    {
+      "index": 641,
+      "phase": "validation",
+      "reynolds": 288.0,
+      "geometry_hash": "3ff014e4e0c59403230fa01ddc34febaf6796e684d95fa8170dfa7c53ddd648e"
+    },
+    {
+      "index": 779,
+      "phase": "validation",
+      "reynolds": 811.0,
+      "geometry_hash": "fde61aba2903bcb36a42c11f68eaf3e3561494ed96607d38db3683c90660e13b"
+    },
+    {
+      "index": 611,
+      "phase": "validation",
+      "reynolds": 712.0,
+      "geometry_hash": "8756d4dddba4b22b39972f6c4df56a4e46ea2d40a4ab5265a8849cba95129378"
+    },
+    {
+      "index": 923,
+      "phase": "validation",
+      "reynolds": 46.0,
+      "geometry_hash": "b0e441df84b331fb75a978a35eddad5791ff787b2798204b4095a831c2ebb6a6"
+    },
+    {
+      "index": 390,
+      "phase": "validation",
+      "reynolds": 47.0,
+      "geometry_hash": "984272ebb00549d6870bbbdd38d4f9bbbf6e77f076b69e113b31a4b71a96f190"
+    },
+    {
+      "index": 475,
+      "phase": "validation",
+      "reynolds": 92.0,
+      "geometry_hash": "edf447923099d357a56a1f4f1fccdf14bbdb9537c6f88c5e59f6ba77d09e4520"
+    },
+    {
+      "index": 827,
+      "phase": "validation",
+      "reynolds": 590.0,
+      "geometry_hash": "e914d6b42aba9ab89c7793b80b43f53005d07fe26fe4a390cee998ab0e7db379"
+    },
+    {
+      "index": 424,
+      "phase": "validation",
+      "reynolds": 994.0,
+      "geometry_hash": "0b585ca1d4374c549fefbdf1fe0de121109829bd854d5b2570563b452bba3163"
+    },
+    {
+      "index": 508,
+      "phase": "validation",
+      "reynolds": 666.0,
+      "geometry_hash": "71b6b32f214c31c93e65942cbe29a8b9a4b5090c681d1e702e488165b328b961"
+    },
+    {
+      "index": 521,
+      "phase": "validation",
+      "reynolds": 108.0,
+      "geometry_hash": "a858b5fcb034ae9a14a62e038c9e325050da610096cc7f185408e12dd32a4483"
+    },
+    {
+      "index": 922,
+      "phase": "validation",
+      "reynolds": 567.0,
+      "geometry_hash": "b0e441df84b331fb75a978a35eddad5791ff787b2798204b4095a831c2ebb6a6"
+    },
+    {
+      "index": 426,
+      "phase": "validation",
+      "reynolds": 29.0,
+      "geometry_hash": "0b585ca1d4374c549fefbdf1fe0de121109829bd854d5b2570563b452bba3163"
+    },
+    {
+      "index": 393,
+      "phase": "validation",
+      "reynolds": 94.0,
+      "geometry_hash": "984272ebb00549d6870bbbdd38d4f9bbbf6e77f076b69e113b31a4b71a96f190"
+    },
+    {
+      "index": 273,
+      "phase": "validation",
+      "reynolds": 122.0,
+      "geometry_hash": "c823602024089ae4dfc722faad4253904e83d97389f0452fe5b64f16475bfb9e"
+    },
+    {
+      "index": 746,
+      "phase": "validation",
+      "reynolds": 418.0,
+      "geometry_hash": "3bebd4e0d965bcd3067e93bc2263fdc656d27db86660defae598fa7d4c43e8bd"
+    },
+    {
+      "index": 531,
+      "phase": "validation",
+      "reynolds": 929.0,
+      "geometry_hash": "d1e37f8d9365c588598c52c52159ad6c6cdaf966dc3d99cbb17f82a83f21ae35"
+    },
+    {
+      "index": 380,
+      "phase": "validation",
+      "reynolds": 84.0,
+      "geometry_hash": "ded5662ee998425a4bf2bed6a05c78926c91f2dbeaf3f01d8a24dc6ce8d1b603"
+    },
+    {
+      "index": 327,
+      "phase": "validation",
+      "reynolds": 111.0,
+      "geometry_hash": "1a752076c417b873ce19adcb5eafc3dd217f676bb40fdfc182d52386f44340e7"
+    },
+    {
+      "index": 559,
+      "phase": "validation",
+      "reynolds": 855.0,
+      "geometry_hash": "ed5ddded8b8ae94eb20a58aec5943c38e02744e8d4753e263139f9012a0a1e2a"
+    },
+    {
+      "index": 501,
+      "phase": "validation",
+      "reynolds": 12.0,
+      "geometry_hash": "71b6b32f214c31c93e65942cbe29a8b9a4b5090c681d1e702e488165b328b961"
+    },
+    {
+      "index": 735,
+      "phase": "validation",
+      "reynolds": 867.0,
+      "geometry_hash": "ba8d8401fe9ceabd2d3685c824fd22137fa22fc03bb9d57f5a4321a99699da56"
+    },
+    {
+      "index": 136,
+      "phase": "validation",
+      "reynolds": 56.0,
+      "geometry_hash": "7407d3c76988d2fff7532ddafd68e0b79437e61f47b2cd9771663dd3eb7658c3"
+    },
+    {
+      "index": 149,
+      "phase": "validation",
+      "reynolds": 89.0,
+      "geometry_hash": "aca03136c5c696f958803f34e77e0fc75c3f06cc03e53b5c77926286da32c035"
+    },
+    {
+      "index": 678,
+      "phase": "validation",
+      "reynolds": 817.0,
+      "geometry_hash": "fe11495243f17fd2ec033bf1fbf96855683dbea71503bb3567527bbb25722227"
+    },
+    {
+      "index": 539,
+      "phase": "validation",
+      "reynolds": 115.0,
+      "geometry_hash": "d1e37f8d9365c588598c52c52159ad6c6cdaf966dc3d99cbb17f82a83f21ae35"
+    },
+    {
+      "index": 279,
+      "phase": "validation",
+      "reynolds": 51.0,
+      "geometry_hash": "c823602024089ae4dfc722faad4253904e83d97389f0452fe5b64f16475bfb9e"
+    },
+    {
+      "index": 859,
+      "phase": "validation",
+      "reynolds": 80.0,
+      "geometry_hash": "8a11818f4944587844beebc2b11e70a3ffbaa4b45e754693ab1bbd2ebce16117"
+    },
+    {
+      "index": 591,
+      "phase": "validation",
+      "reynolds": 285.0,
+      "geometry_hash": "3541056a917a50b87faa41f81e76f772add8d77b62791a6e48bd5adafabf21f1"
+    },
+    {
+      "index": 120,
+      "phase": "validation",
+      "reynolds": 33.0,
+      "geometry_hash": "d72271c682722411b715c315c12abda164499478d07dee0cc1643947ed0aca33"
+    },
+    {
+      "index": 988,
+      "phase": "validation",
+      "reynolds": 595.0,
+      "geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+    },
+    {
+      "index": 530,
+      "phase": "validation",
+      "reynolds": 37.0,
+      "geometry_hash": "d1e37f8d9365c588598c52c52159ad6c6cdaf966dc3d99cbb17f82a83f21ae35"
+    },
+    {
+      "index": 982,
+      "phase": "validation",
+      "reynolds": 83.0,
+      "geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+    },
+    {
+      "index": 646,
+      "phase": "validation",
+      "reynolds": 58.0,
+      "geometry_hash": "3ff014e4e0c59403230fa01ddc34febaf6796e684d95fa8170dfa7c53ddd648e"
+    },
+    {
+      "index": 101,
+      "phase": "validation",
+      "reynolds": 74.0,
+      "geometry_hash": "d0d8f2b282faac7ed25ab79995c63c6f7b9ac3733e86ec919c89eee516657b55"
+    },
+    {
+      "index": 629,
+      "phase": "validation",
+      "reynolds": 97.0,
+      "geometry_hash": "26221a0f5605e27151e8e96060e4a0529dd154f1c473e829f5f8e13160817696"
+    },
+    {
+      "index": 971,
+      "phase": "validation",
+      "reynolds": 92.0,
+      "geometry_hash": "f4ec0695baf5488e8a5ceb34928539ce325e84b70b4ad3db4d8717ba1ec4b8f5"
+    },
+    {
+      "index": 614,
+      "phase": "validation",
+      "reynolds": 410.0,
+      "geometry_hash": "8756d4dddba4b22b39972f6c4df56a4e46ea2d40a4ab5265a8849cba95129378"
+    },
+    {
+      "index": 793,
+      "phase": "validation",
+      "reynolds": 34.0,
+      "geometry_hash": "3a7ae9843de1c981e7428c590b3030575f4217ad55005c7c9ff8fb677349482a"
+    },
+    {
+      "index": 815,
+      "phase": "validation",
+      "reynolds": 26.0,
+      "geometry_hash": "0a2c8072f1ce1545fb9f517924099ecbf2323537aa1dbcfa5d8e8a4e9390306a"
+    },
+    {
+      "index": 383,
+      "phase": "validation",
+      "reynolds": 23.0,
+      "geometry_hash": "ded5662ee998425a4bf2bed6a05c78926c91f2dbeaf3f01d8a24dc6ce8d1b603"
+    },
+    {
+      "index": 30,
+      "phase": "validation",
+      "reynolds": 27.0,
+      "geometry_hash": "e0852cf7e88b52fa4a79b2a5fd2622bad93c13b8ed8db7d315ab357a9c5036fd"
+    },
+    {
+      "index": 581,
+      "phase": "validation",
+      "reynolds": 60.0,
+      "geometry_hash": "e1c1a408f6ecdca3832173276ef2876258933503061e230a14aa1fb040abe9d8"
+    },
+    {
+      "index": 56,
+      "phase": "validation",
+      "reynolds": 614.0,
+      "geometry_hash": "5648ee525545614bee8f524ee263ccf8ff7f45979f1e8b7e532caac7a1351215"
+    },
+    {
+      "index": 789,
+      "phase": "validation",
+      "reynolds": 453.0,
+      "geometry_hash": "473b575bf4123c47a2b310251ba48cc5e0dda1decd4bf9054f4ca388945f2e2b"
+    },
+    {
+      "index": 210,
+      "phase": "validation",
+      "reynolds": 12.0,
+      "geometry_hash": "c98ce5d03a6341ab45aba73eb52b95fb17103b1cc12337c3e4b4d5b8389adb2f"
+    },
+    {
+      "index": 525,
+      "phase": "validation",
+      "reynolds": 29.0,
+      "geometry_hash": "a858b5fcb034ae9a14a62e038c9e325050da610096cc7f185408e12dd32a4483"
+    },
+    {
+      "index": 577,
+      "phase": "validation",
+      "reynolds": 65.0,
+      "geometry_hash": "6f3704444be102c9cebfe285d3dc6f15e40e02ecfc16abf8422587b823f1a704"
+    },
+    {
+      "index": 65,
+      "phase": "validation",
+      "reynolds": 609.0,
+      "geometry_hash": "37d487e0e3bee333b4d0438651c930853ffb1c3f9ae0b45c4af6e4f4f837b870"
+    },
+    {
+      "index": 824,
+      "phase": "validation",
+      "reynolds": 711.0,
+      "geometry_hash": "e914d6b42aba9ab89c7793b80b43f53005d07fe26fe4a390cee998ab0e7db379"
+    },
+    {
+      "index": 388,
+      "phase": "validation",
+      "reynolds": 21.0,
+      "geometry_hash": "ded5662ee998425a4bf2bed6a05c78926c91f2dbeaf3f01d8a24dc6ce8d1b603"
+    },
+    {
+      "index": 514,
+      "phase": "validation",
+      "reynolds": 22.0,
+      "geometry_hash": "099caf6a91d11eeb75b7851bd0b12057f40b529e47510495f83015bd2ae14cd9"
+    },
+    {
+      "index": 522,
+      "phase": "validation",
+      "reynolds": 587.0,
+      "geometry_hash": "a858b5fcb034ae9a14a62e038c9e325050da610096cc7f185408e12dd32a4483"
+    },
+    {
+      "index": 485,
+      "phase": "validation",
+      "reynolds": 891.0,
+      "geometry_hash": "e8f8705653b53a8b2ebec089ace1d64480a712e7449461ff7ab69be160dcac3b"
+    },
+    {
+      "index": 761,
+      "phase": "validation",
+      "reynolds": 96.0,
+      "geometry_hash": "6c52d067af14dcbc8c3555c861d4cc6476dfe21f3a11d9d4756871e8503579be"
+    },
+    {
+      "index": 468,
+      "phase": "validation",
+      "reynolds": 828.0,
+      "geometry_hash": "5b11a61f72e85a27ce20f9e4b83f2ed579d7f166b7db0d0456ba17f67c550c3e"
+    },
+    {
+      "index": 951,
+      "phase": "validation",
+      "reynolds": 301.0,
+      "geometry_hash": "2d6fcd91d952a56dafb92f2dcb0565705ddc4363b1a8d7359146b494c433d4e4"
+    },
+    {
+      "index": 847,
+      "phase": "validation",
+      "reynolds": 12.0,
+      "geometry_hash": "e5c5cb57c41b9e72ed285a47cb2398fb8545e155e177cdefbafc5940caa36571"
+    },
+    {
+      "index": 91,
+      "phase": "validation",
+      "reynolds": 187.0,
+      "geometry_hash": "928cab70302869c113dd3be7d4a9b96b7da9cb58f23dde9799bbe833f57c38cd"
+    },
+    {
+      "index": 165,
+      "phase": "validation",
+      "reynolds": 228.0,
+      "geometry_hash": "bb184545fa6e7d5afa870f57a871278c1d7997c1433df2d43e4258cf7625f8bb"
+    },
+    {
+      "index": 171,
+      "phase": "validation",
+      "reynolds": 14.0,
+      "geometry_hash": "422939840aca9f94d9d42bea9248e266e52dba942363d5449845e44da12c4949"
+    },
+    {
+      "index": 567,
+      "phase": "validation",
+      "reynolds": 643.0,
+      "geometry_hash": "dc0269f2984f0e4031a1793641ab1bcd6e41606d386cfd841d8532bfff4f915e"
+    },
+    {
+      "index": 811,
+      "phase": "validation",
+      "reynolds": 374.0,
+      "geometry_hash": "0a2c8072f1ce1545fb9f517924099ecbf2323537aa1dbcfa5d8e8a4e9390306a"
+    },
+    {
+      "index": 528,
+      "phase": "validation",
+      "reynolds": 82.0,
+      "geometry_hash": "a858b5fcb034ae9a14a62e038c9e325050da610096cc7f185408e12dd32a4483"
+    },
+    {
+      "index": 845,
+      "phase": "validation",
+      "reynolds": 77.0,
+      "geometry_hash": "e5c5cb57c41b9e72ed285a47cb2398fb8545e155e177cdefbafc5940caa36571"
+    },
+    {
+      "index": 459,
+      "phase": "validation",
+      "reynolds": 68.0,
+      "geometry_hash": "e33c7467e243381473a69c9689093381681d45d5e048e13bb09772b73880d302"
+    },
+    {
+      "index": 756,
+      "phase": "validation",
+      "reynolds": 421.0,
+      "geometry_hash": "b6f8d3adf8a3fb2cdf623a16539656ea2b1d0c2743e7e7f60942dddb5369ccad"
+    },
+    {
+      "index": 272,
+      "phase": "validation",
+      "reynolds": 65.0,
+      "geometry_hash": "c823602024089ae4dfc722faad4253904e83d97389f0452fe5b64f16475bfb9e"
+    },
+    {
+      "index": 499,
+      "phase": "validation",
+      "reynolds": 542.0,
+      "geometry_hash": "d4bcde7dc90e02f8bd85ccd0ff615c67d81b4a4ccc6362386ff15991bca7fefe"
+    },
+    {
+      "index": 474,
+      "phase": "validation",
+      "reynolds": 785.0,
+      "geometry_hash": "edf447923099d357a56a1f4f1fccdf14bbdb9537c6f88c5e59f6ba77d09e4520"
+    },
+    {
+      "index": 13,
+      "phase": "validation",
+      "reynolds": 69.0,
+      "geometry_hash": "51fd81a497cf968916287776db6a5a46b01c54834872494412ec2ab7bbd690de"
+    },
+    {
+      "index": 419,
+      "phase": "validation",
+      "reynolds": 35.0,
+      "geometry_hash": "45971ef6f5dd077f102dfcabce1ddb1ac6a538cca0ff2590f57be164b8405192"
+    },
+    {
+      "index": 713,
+      "phase": "validation",
+      "reynolds": 26.0,
+      "geometry_hash": "3b2f3eb8ddcfa731c05bcfff97654d5e85670cbddf33c63d55a0ed5e48394c29"
+    },
+    {
+      "index": 794,
+      "phase": "validation",
+      "reynolds": 343.0,
+      "geometry_hash": "3a7ae9843de1c981e7428c590b3030575f4217ad55005c7c9ff8fb677349482a"
+    },
+    {
+      "index": 648,
+      "phase": "validation",
+      "reynolds": 393.0,
+      "geometry_hash": "3ff014e4e0c59403230fa01ddc34febaf6796e684d95fa8170dfa7c53ddd648e"
+    },
+    {
+      "index": 102,
+      "phase": "validation",
+      "reynolds": 125.0,
+      "geometry_hash": "d0d8f2b282faac7ed25ab79995c63c6f7b9ac3733e86ec919c89eee516657b55"
+    },
+    {
+      "index": 766,
+      "phase": "validation",
+      "reynolds": 709.0,
+      "geometry_hash": "6c52d067af14dcbc8c3555c861d4cc6476dfe21f3a11d9d4756871e8503579be"
+    },
+    {
+      "index": 956,
+      "phase": "validation",
+      "reynolds": 918.0,
+      "geometry_hash": "2d6fcd91d952a56dafb92f2dcb0565705ddc4363b1a8d7359146b494c433d4e4"
+    },
+    {
+      "index": 800,
+      "phase": "validation",
+      "reynolds": 16.0,
+      "geometry_hash": "cd3ce22dc01e3d60fdde68bf0604a614b44b97b41b0674ff89272feee940c844"
+    },
+    {
+      "index": 798,
+      "phase": "validation",
+      "reynolds": 883.0,
+      "geometry_hash": "3a7ae9843de1c981e7428c590b3030575f4217ad55005c7c9ff8fb677349482a"
+    },
+    {
+      "index": 7,
+      "phase": "validation",
+      "reynolds": 109.0,
+      "geometry_hash": "ca3457a531ec8bbbfb1a4a5f856e9c55b2d21c6d1150c378df4093b32c3631dd"
+    },
+    {
+      "index": 850,
+      "phase": "validation",
+      "reynolds": 120.0,
+      "geometry_hash": "8a11818f4944587844beebc2b11e70a3ffbaa4b45e754693ab1bbd2ebce16117"
+    },
+    {
+      "index": 828,
+      "phase": "validation",
+      "reynolds": 59.0,
+      "geometry_hash": "e914d6b42aba9ab89c7793b80b43f53005d07fe26fe4a390cee998ab0e7db379"
+    },
+    {
+      "index": 92,
+      "phase": "validation",
+      "reynolds": 554.0,
+      "geometry_hash": "928cab70302869c113dd3be7d4a9b96b7da9cb58f23dde9799bbe833f57c38cd"
+    },
+    {
+      "index": 637,
+      "phase": "validation",
+      "reynolds": 500.0,
+      "geometry_hash": "3906407afc836c680e50d1a62ab2d2d4d4a88104bc95dc01013598974697002d"
+    },
+    {
+      "index": 856,
+      "phase": "validation",
+      "reynolds": 22.0,
+      "geometry_hash": "8a11818f4944587844beebc2b11e70a3ffbaa4b45e754693ab1bbd2ebce16117"
+    },
+    {
+      "index": 173,
+      "phase": "validation",
+      "reynolds": 896.0,
+      "geometry_hash": "422939840aca9f94d9d42bea9248e266e52dba942363d5449845e44da12c4949"
+    },
+    {
+      "index": 878,
+      "phase": "validation",
+      "reynolds": 36.0,
+      "geometry_hash": "251699050b807b9a9ba27b03673785c6da4a7c096bde8db701c3cb0e23cfe586"
+    },
+    {
+      "index": 2,
+      "phase": "validation",
+      "reynolds": 987.0,
+      "geometry_hash": "ca3457a531ec8bbbfb1a4a5f856e9c55b2d21c6d1150c378df4093b32c3631dd"
+    },
+    {
+      "index": 820,
+      "phase": "validation",
+      "reynolds": 867.0,
+      "geometry_hash": "e914d6b42aba9ab89c7793b80b43f53005d07fe26fe4a390cee998ab0e7db379"
+    },
+    {
+      "index": 132,
+      "phase": "validation",
+      "reynolds": 558.0,
+      "geometry_hash": "7407d3c76988d2fff7532ddafd68e0b79437e61f47b2cd9771663dd3eb7658c3"
+    },
+    {
+      "index": 5,
+      "phase": "validation",
+      "reynolds": 79.0,
+      "geometry_hash": "ca3457a531ec8bbbfb1a4a5f856e9c55b2d21c6d1150c378df4093b32c3631dd"
+    },
+    {
+      "index": 720,
+      "phase": "validation",
+      "reynolds": 17.0,
+      "geometry_hash": "8691f63c74b12893bb99c93a873a8a542f8f408f1ed810e310123d0ffa237a33"
+    },
+    {
+      "index": 109,
+      "phase": "validation",
+      "reynolds": 13.0,
+      "geometry_hash": "d0d8f2b282faac7ed25ab79995c63c6f7b9ac3733e86ec919c89eee516657b55"
+    },
+    {
+      "index": 14,
+      "phase": "validation",
+      "reynolds": 416.0,
+      "geometry_hash": "51fd81a497cf968916287776db6a5a46b01c54834872494412ec2ab7bbd690de"
+    },
+    {
+      "index": 192,
+      "phase": "validation",
+      "reynolds": 91.0,
+      "geometry_hash": "513791937e9cfa07ebd54bb352880f2897ba54756ea21eb08874ca6dac654b58"
+    }
+  ],
+  "input_revision": "937c672604d4c9f39aceedf1fa2f0a603695264b",
+  "normalization": {
+    "target_mean": [
+      0.001105676085176367,
+      -0.0008026961615262943,
+      2.487567464712493e-11
+    ],
+    "target_std": [
+      0.19154282465036498,
+      0.1350667922297031,
+      0.2857597197454343
+    ],
+    "target_fluid_points": 148754654,
+    "geometry_mean": [
+      0.886646831035614,
+      0.36494894616530166
+    ],
+    "geometry_std": [
+      0.31075343595726984,
+      0.2738975038115574
+    ],
+    "source": "TRAIN only; pressuregauge fluid mean per sample; no TESTtargets"
+  },
+  "prepared_sha256": "bccc653832466b229b24e2426f9897298af3d6173241704565afe207fd1e978d",
+  "split_sha256": "4b5b8baa9d8c1cec6992921a66c393c2f381504dd8dc1632eb1c9923ad4530ff",
+  "test_targets_read": false,
+  "known_geometry_split": true,
+  "case_selection": "first 640 TRAIN / first 160 VAL in frozen split order; no target-based selection"
+}

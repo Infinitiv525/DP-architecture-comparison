@@ -1,0 +1,1627 @@
+{
+  "status": "FROZEN_ORIGINAL45_DIAGNOSTICS_MANIFEST",
+  "models": [
+    {
+      "id": "tfno_s931101",
+      "model": "tfno",
+      "seed": 931101,
+      "group": 0,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931101/best.pt",
+      "checkpoint_sha256": "ed1b6ce255a9925ce7632eb3abe583d28978a41b588c81fa2f75c31d54b8761a",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.011700731702148914,
+          "pressure_l2": 0.02703935280442238
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.006080920808017254,
+          "pressure_l2": 0.015406929887831211
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353318,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353328,
+        "total_core_coefficients_plus_normalization": 1353328,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413272,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931101/complete.json",
+      "training_summary_sha256": "af0395974887d1bd5ebbcf37925ad507ad414b847a1f481316ef80e41fde7260",
+      "training_elapsed_seconds": 14101.66578219505,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "chebkan_s931101",
+      "model": "chebkan",
+      "seed": 931101,
+      "group": 0,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931101/best.pt",
+      "checkpoint_sha256": "bb01513a53b6c27de6c62884d59f5b14004420c0ee1bf3a49eee95164a5b2812",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.08106569945812225,
+          "pressure_l2": 0.08575097471475601
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.06616148352622986,
+          "pressure_l2": 0.19613729417324066
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1354356,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354366,
+        "total_core_coefficients_plus_normalization": 1354366,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5417424,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931101/complete.json",
+      "training_summary_sha256": "8fd716ff97fe032c29314fd2023e2ce5d48580bfa5f4d4d557dcbc55c72c155a",
+      "training_elapsed_seconds": 14099.53388206102,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "pinet_s931101",
+      "model": "pinet",
+      "seed": 931101,
+      "group": 0,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931101/best.pt",
+      "checkpoint_sha256": "26a90de725595f9246797b9f924884dd6c3b32389769c3572df1ff0ec1911174",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.14533564448356628,
+          "pressure_l2": 0.3188062012195587
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.12208528816699982,
+          "pressure_l2": 0.42869997024536133
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353612,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353622,
+        "total_core_coefficients_plus_normalization": 1353622,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5414448,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931101/complete.json",
+      "training_summary_sha256": "fea8aaa15b0176cac40d7abaae4ff5239e95cf9fe8a3848225a209f850bf86cd",
+      "training_elapsed_seconds": 14100.006491893902,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "dendrite_s931101",
+      "model": "dendrite",
+      "seed": 931101,
+      "group": 0,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931101/best.pt",
+      "checkpoint_sha256": "cb2da16208ed7b9b48c5a3f0619978ea58f14cd2310318494c3cf49ff9c36660",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.1453554779291153,
+          "pressure_l2": 0.4094245731830597
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.11259078234434128,
+          "pressure_l2": 0.42362067103385925
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1354872,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354882,
+        "total_core_coefficients_plus_normalization": 1354882,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5419488,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931101/complete.json",
+      "training_summary_sha256": "b773f8df3d739461b09e1e7403432a37894cc2de27bdc39f2595fb7b93bdfd8a",
+      "training_elapsed_seconds": 14099.78555954597,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "realnpu_s931101",
+      "model": "realnpu",
+      "seed": 931101,
+      "group": 0,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931101/best.pt",
+      "checkpoint_sha256": "f7ff5098cf5555abee22834620fcc0ed9789a92c9fb36dadab78616c28cc2349",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.06705360859632492,
+          "pressure_l2": 0.07703572511672974
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.011152371764183044,
+          "pressure_l2": 0.013373703695833683
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353203,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353213,
+        "total_core_coefficients_plus_normalization": 1353213,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5412812,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931101/complete.json",
+      "training_summary_sha256": "22c9518389f25c994dbc7b933a8e785d49bee1532a484707863096ccff1c42f3",
+      "training_elapsed_seconds": 14099.490141206887,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "rbf_s931101",
+      "model": "rbf",
+      "seed": 931101,
+      "group": 0,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931101/best.pt",
+      "checkpoint_sha256": "ea0449cd4711cc197855fd2482a26f716caaf8f4da100df52f16fa20615ef1c1",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.3145541846752167,
+          "pressure_l2": 0.2810128629207611
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.13691438734531403,
+          "pressure_l2": 0.4049810469150543
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353258,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353268,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931101/complete.json",
+      "training_summary_sha256": "753cd57a90c56ef4f0c41d79e483e4cf6029c2391268aaf214f9e814c6af6648",
+      "training_elapsed_seconds": 14099.844109861879,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "elm_s931101",
+      "model": "elm",
+      "seed": 931101,
+      "group": 0,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931101/best.pt",
+      "checkpoint_sha256": "91fd5866b611cf7c89202baac80c17c3099df2eb602a1530370c365886e394f2",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.44120052456855774,
+          "pressure_l2": 0.8883287310600281
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.4503774344921112,
+          "pressure_l2": 0.9000096917152405
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 302986,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 1050282,
+        "learned_or_fitted_total": 302986,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931101/complete.json",
+      "training_summary_sha256": "08e161947f44b94c22e12292a9e4cb5dc444972d0adf792d0304b228f2e11fe7",
+      "training_elapsed_seconds": 3.8774569879751652,
+      "training_stop_reason": "algorithm_completed"
+    },
+    {
+      "id": "scn_s931101",
+      "model": "scn",
+      "seed": 931101,
+      "group": 0,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931101/best.pt",
+      "checkpoint_sha256": "4c46020570627cbf7840fccd010c4bada816037ebb66da765425d26eb0797560",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.592674970626831,
+          "pressure_l2": 0.7447649836540222
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.46938788890838623,
+          "pressure_l2": 0.9144907593727112
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 107530,
+        "data_selected_frozen_real_scalars": 372294,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 479824,
+        "total_core_coefficients_plus_normalization": 479824,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 1919256,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931101/complete.json",
+      "training_summary_sha256": "f279c1099652f3daed94acc05f6df2f012dfc9d46ffd1f17547fd36fd4b66e2a",
+      "training_elapsed_seconds": 218.64219907601364,
+      "training_stop_reason": "no_admissible_candidate"
+    },
+    {
+      "id": "cascor_s931101",
+      "model": "cascor",
+      "seed": 931101,
+      "group": 0,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931101/best.pt",
+      "checkpoint_sha256": "41f15af8db86efebe2db0c58ef6ef3ae03212d51808bd15702a09cd04bc7c929",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.6063106656074524,
+          "pressure_l2": 0.7674047350883484
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.5460810661315918,
+          "pressure_l2": 0.9673250913619995
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 247807,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 247807,
+        "total_core_coefficients_plus_normalization": 247807,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 991188,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931101/complete.json",
+      "training_summary_sha256": "77f6618fae6b2558a307d0007259ec4786206d2265ddfd9e8dbb2bbf2fc1ec01",
+      "training_elapsed_seconds": 14025.469516959041,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "tfno_s931102",
+      "model": "tfno",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931102/best.pt",
+      "checkpoint_sha256": "c67f70b4f27331a52f3d242c0be22217a8c7733b0a758fb97d59da6032a3d0d5",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.01266030129045248,
+          "pressure_l2": 0.027657274156808853
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.005522074177861214,
+          "pressure_l2": 0.014236697927117348
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353318,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353328,
+        "total_core_coefficients_plus_normalization": 1353328,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413272,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931102/complete.json",
+      "training_summary_sha256": "25295f4fdd1af9beaaa1cca9f69adf993d7e061ac00e2f3022f5683b53ab69da",
+      "training_elapsed_seconds": 14101.269061315106,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "chebkan_s931102",
+      "model": "chebkan",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931102/best.pt",
+      "checkpoint_sha256": "cec9099dcd6244f755575fa8f585f23b97b66d801737aa7be92626623079ec2b",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.10251756012439728,
+          "pressure_l2": 0.116776242852211
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.06035691127181053,
+          "pressure_l2": 0.07923845201730728
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1354356,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354366,
+        "total_core_coefficients_plus_normalization": 1354366,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5417424,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931102/complete.json",
+      "training_summary_sha256": "cc2538cdf904db0e21d9add7450b394381134fb8506221fd40109bfd832dfc07",
+      "training_elapsed_seconds": 14100.553358184872,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "pinet_s931102",
+      "model": "pinet",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931102/best.pt",
+      "checkpoint_sha256": "d90db7e51b7c2b80dabc6e0a74c51d8a3d4e9a203cb70d096b3695ef1cd31040",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.14799590408802032,
+          "pressure_l2": 0.3630620539188385
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.116965152323246,
+          "pressure_l2": 0.4240926206111908
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353612,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353622,
+        "total_core_coefficients_plus_normalization": 1353622,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5414448,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931102/complete.json",
+      "training_summary_sha256": "c852adcf79906738d399d0697e5c34447340ac1b74e0808139be24de79f1098d",
+      "training_elapsed_seconds": 14100.199845636962,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "dendrite_s931102",
+      "model": "dendrite",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931102/best.pt",
+      "checkpoint_sha256": "511470a398785bd1d4af7c4adc0affce7eee3395c578f39bcd4274c07252b371",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.139864981174469,
+          "pressure_l2": 0.32300257682800293
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.11461126059293747,
+          "pressure_l2": 0.4253070652484894
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1354872,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354882,
+        "total_core_coefficients_plus_normalization": 1354882,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5419488,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931102/complete.json",
+      "training_summary_sha256": "e9d3aeed570a0921bec5ca8bddb7833eafe6900ec3e124eaff276be11610ef03",
+      "training_elapsed_seconds": 14100.169088786002,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "realnpu_s931102",
+      "model": "realnpu",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931102/best.pt",
+      "checkpoint_sha256": "6293a9577c947d1c24520ef59235b034c9c0c7a8179e97f6636c10202ddca922",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.05439586192369461,
+          "pressure_l2": 0.07814374566078186
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.012119433842599392,
+          "pressure_l2": 0.01375962421298027
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353203,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353213,
+        "total_core_coefficients_plus_normalization": 1353213,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5412812,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931102/complete.json",
+      "training_summary_sha256": "f09b4e335992ad1e53e0e5e49631f335e59d41ebd86948c3ed096c92182d1b5d",
+      "training_elapsed_seconds": 14100.47880059795,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "rbf_s931102",
+      "model": "rbf",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931102/best.pt",
+      "checkpoint_sha256": "1dc2c3443bfcc11ccd5fb8a7ff1578dbec8433948bf70f90dba90036706bb14e",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.22300583124160767,
+          "pressure_l2": 0.23079870641231537
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.12384956330060959,
+          "pressure_l2": 0.43047088384628296
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353258,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353268,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931102/complete.json",
+      "training_summary_sha256": "7b77ff951a57fe4b32d224332802b1877ad2ff32c52f99d1e848124061085f9b",
+      "training_elapsed_seconds": 14100.322722321027,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "elm_s931102",
+      "model": "elm",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931102/best.pt",
+      "checkpoint_sha256": "50c584840d1e02974ffab23e5b572d80cbedfd79ff7b552b066d48b893972e0e",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.4948011636734009,
+          "pressure_l2": 0.8530292510986328
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.41928213834762573,
+          "pressure_l2": 0.9154608249664307
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 302986,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 1050282,
+        "learned_or_fitted_total": 302986,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931102/complete.json",
+      "training_summary_sha256": "d87b2a220c121c2bfe3e5ef836e34de39b7b95c1c6a3135f8992cc4a916918b2",
+      "training_elapsed_seconds": 5.179904713993892,
+      "training_stop_reason": "algorithm_completed"
+    },
+    {
+      "id": "scn_s931102",
+      "model": "scn",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931102/best.pt",
+      "checkpoint_sha256": "785e002006375b5bcbe152c140f1a9d527bf4017dd8e15ad35022674f4297152",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.46376174688339233,
+          "pressure_l2": 0.6919994354248047
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.4402109384536743,
+          "pressure_l2": 0.9098173975944519
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 159946,
+        "data_selected_frozen_real_scalars": 554112,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 714058,
+        "total_core_coefficients_plus_normalization": 714058,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 2856192,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931102/complete.json",
+      "training_summary_sha256": "1baa5047c61ecca8cc0c68b5b144376032fd2ee7ab1c9932f2770f1108efe34b",
+      "training_elapsed_seconds": 435.2785101759946,
+      "training_stop_reason": "no_admissible_candidate"
+    },
+    {
+      "id": "cascor_s931102",
+      "model": "cascor",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931102/best.pt",
+      "checkpoint_sha256": "c13909b97c63ff4db1f62316c5e1824436244099ad5ce533f74e18be2f36decd",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.5766950249671936,
+          "pressure_l2": 0.7580356597900391
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.5366915464401245,
+          "pressure_l2": 0.9615932703018188
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 891989,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 891989,
+        "total_core_coefficients_plus_normalization": 891989,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 3567916,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931102/complete.json",
+      "training_summary_sha256": "557f395d27873c2f68aa5a38e1908db8814c4b6e8bf3fb9fd14e2b4dbf0ad220",
+      "training_elapsed_seconds": 14044.600513238925,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "tfno_s931103",
+      "model": "tfno",
+      "seed": 931103,
+      "group": 2,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931103/best.pt",
+      "checkpoint_sha256": "16115ba5ce54adcc3e97afead7631f05d75761e9f7c8d2684fed4335445b2bb5",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.015605412423610687,
+          "pressure_l2": 0.032084207981824875
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.006881020497530699,
+          "pressure_l2": 0.014809997752308846
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353318,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353328,
+        "total_core_coefficients_plus_normalization": 1353328,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413272,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931103/complete.json",
+      "training_summary_sha256": "26171584b4b174adae67a2e982cf8fdc1887665ee57f2765d169a66695a6c32c",
+      "training_elapsed_seconds": 14101.346600306919,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "chebkan_s931103",
+      "model": "chebkan",
+      "seed": 931103,
+      "group": 2,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931103/best.pt",
+      "checkpoint_sha256": "f9f41b435db72fee49bba2cf24fa12a23b2cc841bfd3452f6513f7e559092787",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.13434714078903198,
+          "pressure_l2": 0.21485163271427155
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.05882665514945984,
+          "pressure_l2": 0.1172303557395935
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1354356,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354366,
+        "total_core_coefficients_plus_normalization": 1354366,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5417424,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931103/complete.json",
+      "training_summary_sha256": "522d6edcb050570158e9014256e5440ff5a716c600b79dda899abce52585cde8",
+      "training_elapsed_seconds": 14100.194070560043,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "pinet_s931103",
+      "model": "pinet",
+      "seed": 931103,
+      "group": 2,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931103/best.pt",
+      "checkpoint_sha256": "6b668ab4af0de37c8157079fe6ec4666c299d62d0597712e985268e9f9c3d732",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.14255598187446594,
+          "pressure_l2": 0.4476594626903534
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.11557120829820633,
+          "pressure_l2": 0.4264237880706787
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353612,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353622,
+        "total_core_coefficients_plus_normalization": 1353622,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5414448,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931103/complete.json",
+      "training_summary_sha256": "26c99b59275c4cac35c943fbb8d870db2ea670f7d3cc07b26d026fb313993d39",
+      "training_elapsed_seconds": 14100.18441636092,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "dendrite_s931103",
+      "model": "dendrite",
+      "seed": 931103,
+      "group": 2,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931103/best.pt",
+      "checkpoint_sha256": "6ffd7294b57f06c2beb227c410b4c68cef0fbed68e356717442f089e6ac97760",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.14123164117336273,
+          "pressure_l2": 0.36795705556869507
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.1137164831161499,
+          "pressure_l2": 0.4256889820098877
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1354872,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354882,
+        "total_core_coefficients_plus_normalization": 1354882,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5419488,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931103/complete.json",
+      "training_summary_sha256": "05ff80bbfbc3dd5414bacbbd7244c97d9c960936e2d170bf382b85c32f43def6",
+      "training_elapsed_seconds": 14099.653486964991,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "realnpu_s931103",
+      "model": "realnpu",
+      "seed": 931103,
+      "group": 2,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931103/best.pt",
+      "checkpoint_sha256": "c9fb8f62a6d1394d3fff7651c6049c2965050e35e8616f919aa108f6d85b4f4a",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.06888192892074585,
+          "pressure_l2": 0.08794719725847244
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.012363777495920658,
+          "pressure_l2": 0.01433910708874464
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353203,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353213,
+        "total_core_coefficients_plus_normalization": 1353213,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5412812,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931103/complete.json",
+      "training_summary_sha256": "b743dbb8a9b6069b8cebf5e0927da4301395087f23525eb05cf8194dd897ba84",
+      "training_elapsed_seconds": 14099.729727120954,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "rbf_s931103",
+      "model": "rbf",
+      "seed": 931103,
+      "group": 2,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931103/best.pt",
+      "checkpoint_sha256": "37be3e974571844d697feead3b1c5c8c6b8642606a0d837df836c4478653614b",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.31394460797309875,
+          "pressure_l2": 0.2699270248413086
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.12309280037879944,
+          "pressure_l2": 0.40049025416374207
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353258,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353268,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931103/complete.json",
+      "training_summary_sha256": "e4bb2fa5b7c44c63bb16090e716fc5cc37a00c1e4bc08ef45e1559f786f1192e",
+      "training_elapsed_seconds": 14099.917564215022,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "elm_s931103",
+      "model": "elm",
+      "seed": 931103,
+      "group": 2,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931103/best.pt",
+      "checkpoint_sha256": "c5aba384ef7f4420553544d38ee2079cbb5a87a2b3c71df0805ec46551a557ba",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.757779061794281,
+          "pressure_l2": 0.7405946254730225
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.3899267613887787,
+          "pressure_l2": 0.9012085199356079
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 302986,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 1050282,
+        "learned_or_fitted_total": 302986,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931103/complete.json",
+      "training_summary_sha256": "d7c9b5a7e6174cf3ed1c38f808469356fec808612d20ab673de7644020188e27",
+      "training_elapsed_seconds": 5.1153106349520385,
+      "training_stop_reason": "algorithm_completed"
+    },
+    {
+      "id": "scn_s931103",
+      "model": "scn",
+      "seed": 931103,
+      "group": 2,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931103/best.pt",
+      "checkpoint_sha256": "847c8518365a4bb0572e9a8d41c33b035c842ffb266503cf6aa6fc0b3c4a0f64",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.43594929575920105,
+          "pressure_l2": 0.7136762142181396
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.45015355944633484,
+          "pressure_l2": 0.9124783873558044
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 139210,
+        "data_selected_frozen_real_scalars": 482184,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 621394,
+        "total_core_coefficients_plus_normalization": 621394,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 2485536,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931103/complete.json",
+      "training_summary_sha256": "7814c39c9d6cc78434c35b0857a67c1278b2d06e28c4dccc64778f40aeb3c010",
+      "training_elapsed_seconds": 338.40928601601627,
+      "training_stop_reason": "no_admissible_candidate"
+    },
+    {
+      "id": "cascor_s931103",
+      "model": "cascor",
+      "seed": 931103,
+      "group": 2,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931103/best.pt",
+      "checkpoint_sha256": "0990472ca4f901036603c36e962c61e0898a3218451635c1cfb1e92055c22f27",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.592901885509491,
+          "pressure_l2": 0.8614398837089539
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.5425921082496643,
+          "pressure_l2": 0.9624598026275635
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 412882,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 412882,
+        "total_core_coefficients_plus_normalization": 412882,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 1651488,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931103/complete.json",
+      "training_summary_sha256": "8bb8b31a6d6b4997c481f0fc61d4104c25447fdbc1cfbe71b2ec8e08bc4060a0",
+      "training_elapsed_seconds": 14020.427127489005,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "tfno_s931104",
+      "model": "tfno",
+      "seed": 931104,
+      "group": 3,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931104/best.pt",
+      "checkpoint_sha256": "84234e5a9f68add2f5ea3e4b001490f07fb9241055cdc6484416820083b29424",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.015078849159181118,
+          "pressure_l2": 0.030044501647353172
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.005999894347041845,
+          "pressure_l2": 0.013051683083176613
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353318,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353328,
+        "total_core_coefficients_plus_normalization": 1353328,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413272,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931104/complete.json",
+      "training_summary_sha256": "c7cfd63b4d45cae9f8360a671e401346f23122c57f16e365d42799dcf0b6921c",
+      "training_elapsed_seconds": 14101.283274983987,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "chebkan_s931104",
+      "model": "chebkan",
+      "seed": 931104,
+      "group": 3,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931104/best.pt",
+      "checkpoint_sha256": "7bf07fa92b42a86e9e5404f999c31bbfc7c017e0df4d79d07b35a6347db1aec8",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.07886604219675064,
+          "pressure_l2": 0.08466699719429016
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.06725592911243439,
+          "pressure_l2": 0.1540629267692566
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1354356,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354366,
+        "total_core_coefficients_plus_normalization": 1354366,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5417424,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931104/complete.json",
+      "training_summary_sha256": "7b325a4fe18c45cbc15eb44ee86724c50f0d393eb678ecda3420dca9c4d9c892",
+      "training_elapsed_seconds": 14100.080636405037,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "pinet_s931104",
+      "model": "pinet",
+      "seed": 931104,
+      "group": 3,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931104/best.pt",
+      "checkpoint_sha256": "9d569cd55a486260322c2761bcb35d4c83785f946ae6969a56bc37715ea52d06",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.16569961607456207,
+          "pressure_l2": 0.4442574977874756
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.11784049868583679,
+          "pressure_l2": 0.4246446490287781
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353612,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353622,
+        "total_core_coefficients_plus_normalization": 1353622,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5414448,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931104/complete.json",
+      "training_summary_sha256": "f6457fbbbecad74f8c41f0d126b259b316549c8c93e717cc81113ea12df8fd31",
+      "training_elapsed_seconds": 14099.750626594992,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "dendrite_s931104",
+      "model": "dendrite",
+      "seed": 931104,
+      "group": 3,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931104/best.pt",
+      "checkpoint_sha256": "a4167357f96519d5937a315ffe6875ea1427ae47ce12c5204f95f613bdcd20b8",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.15465191006660461,
+          "pressure_l2": 0.3850395381450653
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.11109847575426102,
+          "pressure_l2": 0.424071341753006
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1354872,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354882,
+        "total_core_coefficients_plus_normalization": 1354882,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5419488,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931104/complete.json",
+      "training_summary_sha256": "2d5ea3ccef7f85d4a02662605675e62aa6861293a7de3b2173992cb3fa7d9271",
+      "training_elapsed_seconds": 14100.222351688077,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "realnpu_s931104",
+      "model": "realnpu",
+      "seed": 931104,
+      "group": 3,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931104/best.pt",
+      "checkpoint_sha256": "57256ad464328114604bb6126f1a9e4d9140910fad9841ba15d4a49e1230e691",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.06189362704753876,
+          "pressure_l2": 0.09417019784450531
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.011921425350010395,
+          "pressure_l2": 0.015019928105175495
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353203,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353213,
+        "total_core_coefficients_plus_normalization": 1353213,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5412812,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931104/complete.json",
+      "training_summary_sha256": "2454d40718932daafb62a7c83c9511982b5c6ca5baae0a5a49295c05bbbe0854",
+      "training_elapsed_seconds": 14100.33122707007,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "rbf_s931104",
+      "model": "rbf",
+      "seed": 931104,
+      "group": 3,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931104/best.pt",
+      "checkpoint_sha256": "a938617b9fedc769e379901d2bd053b2136a56a8f2133094dbf968e8eec4880f",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.2927325665950775,
+          "pressure_l2": 0.27232831716537476
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.1309197098016739,
+          "pressure_l2": 0.4114357531070709
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353258,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353268,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931104/complete.json",
+      "training_summary_sha256": "a32c92d44e16a07e0458b627c4c8ae86c8b795d24d7e915eddf4543330a07a29",
+      "training_elapsed_seconds": 14100.309315343038,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "elm_s931104",
+      "model": "elm",
+      "seed": 931104,
+      "group": 3,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931104/best.pt",
+      "checkpoint_sha256": "a89450cf16b4d6d6bfd1dd0bb74b13febcc35d6d76cc321f454aac06e24c8dc6",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.524200439453125,
+          "pressure_l2": 0.751417875289917
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.4025195240974426,
+          "pressure_l2": 0.9026637673377991
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 302986,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 1050282,
+        "learned_or_fitted_total": 302986,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931104/complete.json",
+      "training_summary_sha256": "2ab23850aafd7e14e1b1ed304b74ee5eeab448ccd3b738f8575aa7d9d8ec3d1d",
+      "training_elapsed_seconds": 5.522050871979445,
+      "training_stop_reason": "algorithm_completed"
+    },
+    {
+      "id": "scn_s931104",
+      "model": "scn",
+      "seed": 931104,
+      "group": 3,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931104/best.pt",
+      "checkpoint_sha256": "10f9ed5c1ce359c5ce3e404d065fede370d46d14ff62e6881f7a429657fc7807",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.45414549112319946,
+          "pressure_l2": 0.7465957999229431
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.43487459421157837,
+          "pressure_l2": 0.9125996828079224
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 141898,
+        "data_selected_frozen_real_scalars": 491508,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 633406,
+        "total_core_coefficients_plus_normalization": 633406,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 2533584,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931104/complete.json",
+      "training_summary_sha256": "7ad113db76eb9d8ae25fb790e6125f62434a04cbbd104e1d22e068d0b57e84c6",
+      "training_elapsed_seconds": 381.0882164699724,
+      "training_stop_reason": "no_admissible_candidate"
+    },
+    {
+      "id": "cascor_s931104",
+      "model": "cascor",
+      "seed": 931104,
+      "group": 3,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931104/best.pt",
+      "checkpoint_sha256": "6e071f1453e19682251b7481e58756cbada1b30b3c169b7f5e788f744f4d1d3c",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.5800598859786987,
+          "pressure_l2": 0.8348502516746521
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.5319287180900574,
+          "pressure_l2": 0.9666431546211243
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 820925,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 820925,
+        "total_core_coefficients_plus_normalization": 820925,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 3283660,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931104/complete.json",
+      "training_summary_sha256": "6659d9e75ae9c08c0df4f64dc0c37383729af1249ea5cec1efefc321f496e6bb",
+      "training_elapsed_seconds": 14036.52442988602,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "tfno_s931105",
+      "model": "tfno",
+      "seed": 931105,
+      "group": 4,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931105/best.pt",
+      "checkpoint_sha256": "2d36586cfcef860f6cba21d6d4773f1991e2532e1525b2e12fe3a59f7e4847b7",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.011872934177517891,
+          "pressure_l2": 0.030922504141926765
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.006291470490396023,
+          "pressure_l2": 0.013316928409039974
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353318,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353328,
+        "total_core_coefficients_plus_normalization": 1353328,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413272,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931105/complete.json",
+      "training_summary_sha256": "3233e4852a92952f3a5173b217a2a536a976f4cb123c6f1bf90f70821e9cf04c",
+      "training_elapsed_seconds": 14101.535304341,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "chebkan_s931105",
+      "model": "chebkan",
+      "seed": 931105,
+      "group": 4,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931105/best.pt",
+      "checkpoint_sha256": "2e14b7d3e177f18fa957637f8386bb4f8c06d40bedee2ecd3b77e7140b875cdd",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.08455716818571091,
+          "pressure_l2": 0.08405106514692307
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.059305544942617416,
+          "pressure_l2": 0.1323855072259903
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1354356,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354366,
+        "total_core_coefficients_plus_normalization": 1354366,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5417424,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931105/complete.json",
+      "training_summary_sha256": "95def349ac8d06d70f023dd3196a6abd842feb89bf137721ba06bc21aea70cc6",
+      "training_elapsed_seconds": 14099.733627557987,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "pinet_s931105",
+      "model": "pinet",
+      "seed": 931105,
+      "group": 4,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931105/best.pt",
+      "checkpoint_sha256": "139c0a236a8bbb2453f0cf79d912ee94d80b628ade9324d02f1435fbc5a88b73",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.14247159659862518,
+          "pressure_l2": 0.33895835280418396
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.11277229338884354,
+          "pressure_l2": 0.42557913064956665
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353612,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353622,
+        "total_core_coefficients_plus_normalization": 1353622,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5414448,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931105/complete.json",
+      "training_summary_sha256": "71e459bcecc048e712943c485c9c90d04817a9ec1ed64415c277f4e9ffe392a0",
+      "training_elapsed_seconds": 14100.192901439033,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "dendrite_s931105",
+      "model": "dendrite",
+      "seed": 931105,
+      "group": 4,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931105/best.pt",
+      "checkpoint_sha256": "ef32d9c8ef0bf7dd17b06cadc84c503e9427b9587000c0882a7e4828d53ceacb",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.1353304237127304,
+          "pressure_l2": 0.24282768368721008
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.11906271427869797,
+          "pressure_l2": 0.4264611005783081
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1354872,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354882,
+        "total_core_coefficients_plus_normalization": 1354882,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5419488,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931105/complete.json",
+      "training_summary_sha256": "bd8f8dd38adc3737b757c98616af90637b96671ea08b2654c7d85678fe708f7a",
+      "training_elapsed_seconds": 14099.942581831012,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "realnpu_s931105",
+      "model": "realnpu",
+      "seed": 931105,
+      "group": 4,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931105/best.pt",
+      "checkpoint_sha256": "93601d7a9d86c7557b923650a853f04b0cbe98ad4d2c46a416c60cf6cbb4dbf5",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.05813552439212799,
+          "pressure_l2": 0.08499693870544434
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.01205868273973465,
+          "pressure_l2": 0.013858277350664139
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353203,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353213,
+        "total_core_coefficients_plus_normalization": 1353213,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5412812,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931105/complete.json",
+      "training_summary_sha256": "9e88e9beb93e7ee0b3b368396e1797643a3f83c1aef602f65ba39eb5722f9a8c",
+      "training_elapsed_seconds": 14100.049714389024,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "rbf_s931105",
+      "model": "rbf",
+      "seed": 931105,
+      "group": 4,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931105/best.pt",
+      "checkpoint_sha256": "0327dc48aabedf1afd4eb99fd7955a24fd48d840514f93256d6028890a42bd71",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.3232567608356476,
+          "pressure_l2": 0.2525622248649597
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.1698121428489685,
+          "pressure_l2": 0.4574490487575531
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353258,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353268,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931105/complete.json",
+      "training_summary_sha256": "7cb08f7553e0094e953b4ba9f672d712626e8e58509df2b2c531482e56ab8235",
+      "training_elapsed_seconds": 14100.012028057943,
+      "training_stop_reason": "training_time_budget"
+    },
+    {
+      "id": "elm_s931105",
+      "model": "elm",
+      "seed": 931105,
+      "group": 4,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931105/best.pt",
+      "checkpoint_sha256": "cbaf0402583c74ca8c025dc466164a6ae140a0248fa1ca9519e388ef3f7161c1",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.4449521601200104,
+          "pressure_l2": 0.8833986520767212
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.43253904581069946,
+          "pressure_l2": 0.8964489698410034
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 302986,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 1050282,
+        "learned_or_fitted_total": 302986,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931105/complete.json",
+      "training_summary_sha256": "3e96e568e253699ca863a50b0346e7d15d485a907565e6740ac9697cf2c5ef5c",
+      "training_elapsed_seconds": 8.539398260065354,
+      "training_stop_reason": "algorithm_completed"
+    },
+    {
+      "id": "scn_s931105",
+      "model": "scn",
+      "seed": 931105,
+      "group": 4,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931105/best.pt",
+      "checkpoint_sha256": "4cd9315d625f9f9eff6cdf6daf0de81a6c33cfbe2a1c6b97466c69f4a961fcff",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.5630549192428589,
+          "pressure_l2": 0.8176267743110657
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.4323362410068512,
+          "pressure_l2": 0.9120428562164307
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 143818,
+        "data_selected_frozen_real_scalars": 498168,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 641986,
+        "total_core_coefficients_plus_normalization": 641986,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 2567904,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931105/complete.json",
+      "training_summary_sha256": "23730548772d50d04a4a508f280534217eeeb9b9a6406ff104e945b0cd87e1f2",
+      "training_elapsed_seconds": 363.59427477396093,
+      "training_stop_reason": "no_admissible_candidate"
+    },
+    {
+      "id": "cascor_s931105",
+      "model": "cascor",
+      "seed": 931105,
+      "group": 4,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931105/best.pt",
+      "checkpoint_sha256": "44299be000c198cb3ebc5ec54d9a48fd66ac9ff5c46e271b67f394a671ca0a63",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.5880188345909119,
+          "pressure_l2": 0.8293253779411316
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.5231252312660217,
+          "pressure_l2": 0.9752981066703796
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 309905,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 309905,
+        "total_core_coefficients_plus_normalization": 309905,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 1239580,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931105/complete.json",
+      "training_summary_sha256": "2020b5667971d4bbbf6b83d7142773a8c809b442378c04490accb7c98e81465f",
+      "training_elapsed_seconds": 14018.713845880004,
+      "training_stop_reason": "training_time_budget"
+    }
+  ],
+  "no_training": true,
+  "test_targets_allowed": false
+}

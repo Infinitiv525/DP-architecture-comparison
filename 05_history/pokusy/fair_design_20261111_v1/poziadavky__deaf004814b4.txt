@@ -1,0 +1,162 @@
+OPRAVA POROVNANIA ARCHITEKTÚR — PRACOVNÝ PROTOKOL
+11. 11. 2026
+
+STAV
+Test 155791 aj nadväzujúci audit 155792 sú CANCELLED. Pri overení bola
+fronta prázdna. Pôvodné výsledky a váhy zostávajú zachované; neúplný
+zastavený test nie je konečným porovnaním. Nové tréningy ani predikcie
+sa v tomto kroku nespúšťajú. Nasledujúci návrh je rozpracovaný.
+
+ROZHODNUTIE POUŽÍVATEĽA
+Nebude spoločný prah prijateľnej chyby. Musíme zabezpečiť porovnateľné
+podmienky a rovnaké vstupné informácie. Dosiahnutá presnosť je výsledok
+experimentu. Slabší model sa preto nesmie potichu vyradiť ani označiť
+za neúspešný výpočet len pre vysokú chybu. Samostatne sa posúdi 5 ms.
+
+1. ČO OPRAVUJEME
+FNO mal celé polia geometrie a hustú supervíziu. Osem bodových metód
+malo 57 pevných príznakov vrátane hrubého globálneho súhrnu 4 × 4,
+lokálnu masku/SDF a jednu fixnú vzorku 2 048 bodov na scenár. Parametre
+sa tiež výrazne líšili. Rovnakých 640 scenárov neznamenalo rovnaké
+informačné a kapacitné podmienky. Technický PASS neznamenal dobrý fit.
+
+2. ROVNAKÝ VSTUP A VÝSTUP
+Každý hlavný model dostane úplnú masku a orientované SDF 512 × 512,
+Reynoldsovo číslo a tie isté odvodené súradnicové/fyzikálne príznaky.
+Normalizácia používa iba TRAIN. Žiadny model nedostane iba zmenšenú
+náhradu geometrie, zatiaľ čo FNO pôvodný obraz.
+
+Pripravený spoločný adaptér používa pixel_unshuffle s faktorom 8:
+  geometria 2 × 512 × 512 -> 128 × 64 × 64,
+  oba tvary obsahujú presne 524 288 hodnôt.
+Je to preusporiadanie, nie priemerovanie alebo stratové zmenšenie.
+Všetci navyše dostanú rovnakých 512 globálnych lineárnych FFT príznakov
+vypočítaných z celej geometrie, tri Re príznaky (Re/100, log(Re)/8,
+100/Re) a 22 súradnicových príznakov. Spoločný vstup má 665 kanálov
+na mriežke 64 × 64. Globálny opis nenahrádza pôvodné hodnoty geometrie.
+Pred pilotom treba overiť jeho hodnosť/informačnú schopnosť na TRAIN,
+najmä pri jadrách pracujúcich lokálne po blokoch. Toto ešte neprebehlo.
+
+Každé jadro vráti 192 × 64 × 64 čísel. Pixel_shuffle ich bez stratovej
+interpolácie preusporiada na 3 × 512 × 512: rovnakých 786 432 výstupov.
+Žiadny naučený encoder, autoencoder ani PCA dekóder sa tu neskrýva.
+Podmienka nulového poľa v telese a tlakový gauge sú rovnaké spoločné
+spracovanie. Súradnice a pevné transformácie neobsahujú cieľové CFD dáta.
+
+Aj FNO používa toto isté rozhranie. Jeho jadro ostáva oficiálny TFNO
+z knižnice neuraloperator, s dokumentovanou úpravou vstupu a výstupu.
+Nejde o presnú reprodukciu publikovaných skóre alebo o použitie starých
+váh s novými rozmermi. Pôvodný natívny FNO ostáva historická referencia.
+Ostatné sú výslovne vlastné podmienené operátorové adaptácie príslušných
+matematických jadier. Ich prípadné ďalšie doplnky sa musia pomenovať.
+
+3. ROVNAKÉ DÁTA A SUPERVÍZIA
+Rovnakých 640 TRAIN, 160 VAL a 200 TEST, nezmenený split a revízia.
+Predvolená spoločná supervízia používa celé natívne u/v/p polia vrátane
+kanonických núl v telese. Výpočet môže byť rozdelený na pamäťové bloky,
+pričom sa nevynechajú body iba pri niektorých metódach.
+Ak bude potrebné vzorkovanie, musí to byť samostatne zvolený spoločný
+režim aj pre FNO, s rovnakým plánom a overeným pokrytím.
+
+4. POROVNATEĽNÝ PARAMETROVÝ ROZPOČET
+Hlavné porovnanie má približne 1,35 milióna koeficientov jadra pri každej
+metóde. Započítajú sa aj pevné náhodné váhy ELM; nebudeme skrývať ich
+príspevok k veľkosti a výpočtu. Samostatne sa vykáže, koľko koeficientov
+je gradientovo učených, fitovaných iným spôsobom, vybraných podľa dát
+alebo úplne nezávislých od dát. Každý patrí iba do jednej kategórie.
+Komplexný koeficient FNO znamená dva reálne skaláre.
+
+Nové rozhranie TFNO má konštrukčne overených 1 353 318 reálnych
+koeficientov jadra. S desiatimi TRAIN normalizačnými hodnotami je cieľ
+1 353 328. Pracovné pásmo ±1 % je 1 339 795 až 1 366 861. Konštrukčné
+počty všetkých deviatich návrhov sú podstatne bližšie, v rozpätí
+1 352 449 až 1 354 882. Presné hodnoty sú v constructor_counts.json.
+
+Spoločné pevné FFT/súradnicové transformácie sú identické pre všetkých;
+ich stav a pamäť sa tiež zverejnia, osobitne od rozpočtu jadra.
+Naučený/fixovaný predspracujúci model by sa musel započítať do celého
+postupu. Nevyužité váhy na umelé dorovnanie počtu nie sú prípustné.
+
+Pri hlavnom ELM s 1 353 268 koeficientmi je 302 986 dátovo fitovaných
+hodnôt vrátane normalizácie; ostatné sú pevné náhodné váhy. Je to povaha
+ELM, nie dodatočné zníženie jeho celkového rozpočtu. Počítame oba údaje.
+Ako samostatná citlivostná kontrola je pripravená aj väčšia verzia ELM
+s približne rovnakým počtom fitovaných koeficientov ako FNO: má však
+asi 6,05 milióna všetkých koeficientov. Nie je súčasťou hlavného
+porovnania s rovnakým celkovým rozpočtom. Ani jedna verzia sa neučila.
+
+Pri SCN a CasCor ide o plánovaný počet po úplnom konštrukčnom raste.
+Po reálnom učení sa musí znovu spočítať skutočný model. Skoršie ukončenie
+sa nesmie potichu vydávať za kapacitne zhodný model. Rovnaký počet
+koeficientov nezaručuje rovnakú schopnosť funkčnej aproximácie — práve
+rozdiely medzi architektúrami sú predmetom merania.
+
+Pôvodná PINN ostáva podľa predošlej dohody vedľajšia archivovaná
+referencia s uvedenou vlastnou kapacitou a fyzikálnou loss; nie nový
+kapacitne zhodný hlavný súťažiaci. Jej stará štúdia sa týmto nemení.
+
+5. POROVNATEĽNÉ UČENIE
+Navrhnutá spoločná dátová loss je priemer po prípadoch z polovice súčtu
+štvorca relatívnej L2 chyby rýchlostného poľa a tlakového poľa. Tlakové
+prípady s väčšou amplitúdou tak automaticky nedominujú iba pre mierku.
+Nie je to akceptačný prah. Všetci dostanú tú istú loss a hodnotenie.
+
+Konštrukčné a priame fitovanie musí minimalizovať ekvivalentný vážený
+natívny cieľ. Nesmie sa potichu zameniť za iný latentný cieľ. Pri ELM
+sa musia akumulovať vážené normálne rovnice v blokoch; celá matica
+aktivácií všetkých tréningových bodov sa nesmie bezhlavo vytvoriť naraz.
+Vhodne treba upraviť aj vážené učenie SCN a CasCor. Tieto tréningové
+implementácie zatiaľ nie sú dokončené ani overené.
+
+Algoritmus učenia ostane primeraný rodine. Priamy fit nie je nutné
+nahrádzať Adamom len kvôli rovnakému označeniu epochy. Návrh počíta
+s rovnakým rozpočtom šiestich konfigurácií na rodinu a maximom 400
+plných epoch pri gradientových metódach. Presný rozpis a časový rozpočet
+sa musia dopracovať a zmraziť pred spustením; zaznamenajú sa všetky
+pokusy, expozícia dát, konvergencia, čas a CPU/GPU náklady.
+
+6. KONTROLY PRED OPAKOVANIAMI
+Oddelene sa vykáže:
+A) správnosť dát, tensorových tvarov, obnovy a numeriky;
+B) rovnosť vstupných informácií, supervízie a kapacitnej triedy;
+C) dosiahnutá chyba a priebeh učenia na TRAIN/VAL — bez spoločného prahu;
+D) celý čas predikcie vrátane spoločného adaptéra, cieľ 5 ms.
+A automaticky neznamená B, C alebo D.
+
+Najprv malé 1–8 TRAIN prípady iba ako diagnostika učenia, potom spoločný
+model na všetkých 640 TRAIN a kontrola 160 VAL. Nejde o finálne osobitné
+siete pre každú simuláciu. Po metodickom overení sa zmrazia nastavenia
+piatich opakovaní. Aj slabé alebo pomalé metódy sa poctivo vykážu;
+kritériá sa nebudú meniť dovtedy, kým vyhovejú všetci.
+
+7. ČO JE ZATIAĽ NAOZAJ OVERENÉ
+Pripravené sú zdroje spoločného adaptéra a nevytrénovaných jadier.
+Na CPU sa iba skonštruovali modely a overili počty koeficientov.
+Globálny hook zakazoval každé volanie forward: 0 predikcií,
+0 aktualizácií, bez GPU. SCN/CasCor sú nenaučené kapacitné konštrukcie.
+Čisto celočíselná kontrola overila bijektívnosť definície preusporiadania
+pre všetky vstupné a výstupné indexy; nebola to sieťová predikcia.
+
+Ešte treba overiť skutočnú tensorovú cestu a globálne príznaky na TRAIN,
+implementovať spoločné úplné tréningové postupy a až potom vykonať
+nový povolený pilot. Z konštrukčných počtov nevyplýva presnosť ani 5 ms.
+Zrušená pôvodná testovacia séria sa automaticky neobnoví.
+
+8. INTEGRITA A ZDROJE
+Pôvodné modely aj slabé výsledky ostanú prvou zdokumentovanou kohortou
+konkrétnych adaptácií. Pred zastavením sa dokončili tri FNO TEST modely;
+ostatné výstupy sú neúplné. TEST už bol otvorený v starej LLM štúdii
+aj v tejto zastavenej etape. Nové ladenie bude iba podľa TRAIN/VAL;
+nebude sa prezentovať ako nový úplne slepý test. Veľké polia zostávajú
+na Perune a nebudú sa mazať alebo prenášať do PC.
+
+FlowBench, sekcia 3.4: pôvodné maskové/SDF/fyzikálne vstupy a výstupy;
+sekcia 4: autorské referencie, 400 epoch a kontrola stabilizácie.
+https://arxiv.org/html/2409.18032v1#S3.SS4
+https://arxiv.org/html/2409.18032v1#S4
+https://github.com/baskargroup/flowbench-tools
+Presná definícia použitého preusporiadania:
+https://docs.pytorch.org/docs/2.12/generated/torch.nn.PixelUnshuffle.html
+
+Kapacitné pásmo, spoločná loss a 5 ms sú naše experimentálne voľby;
+netvrdíme, že ich ako všeobecný štandard určujú tieto zdroje.

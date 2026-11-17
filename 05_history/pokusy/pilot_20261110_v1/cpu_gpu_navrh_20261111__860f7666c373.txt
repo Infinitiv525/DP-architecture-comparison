@@ -1,0 +1,45 @@
+CPU/GPU VARIANT A AKTUALIZOVANÝ ZOSTATOK — 11.11.2026
+
+Používateľ uviedol zostávajúcich 500 GPU-h a 30000 CPU hodín. CPU hodiny
+interpretujeme ako core-h, rovnako ako pôvodnú alokáciu. Tento údaj je
+od používateľa; nebol potvrdený portálovým účtovaním.
+
+Read-only overenie sinfo: cpu_short a cpu_long sú up, 256 CPU na uzol;
+limity trvania 2 a 4 dni. Dostupnosť partition sama osebe ešte nepotvrdzuje
+konkrétny voľný slot alebo všetky oprávnenia projektu. sacctmgr nedosiahol
+účtovaciu databázu localhost:6819. Žiadna CPU ani GPU úloha sa nezadala.
+
+CPU tréning je technicky možný. Matematické jadrá vrátane TFNO už prešli
+malými CPU kontrolami. Aktuálny pilotný koordinátor však vynucuje jednu
+H200, CUDA generátor, GPU presuny a GPU timing; bez úpravy sa ako plný
+CPU tréning nespustí. Zatiaľ sme nezmerali rýchlosť plného CPU tréningu.
+
+Navrhované rozdelenie:
+- CPU: audit/príprava dát, numerické skórovanie, fyzikálne diagnostiky,
+  obrázky a kontrolné súčty.
+- Kandidáti na CPU tréning: ELM a SCN (náhodné príznaky a lineárne systémy),
+  prípadne Cascade-Correlation. O vhodnosti rozhodne krátke meranie na
+  rovnakej tréningovej práci; netvrdíme, že CPU je pri nich už zmerane rýchlejšie.
+- GPU: FNO a gradientové alternatívy, pokiaľ CPU benchmark neukáže výhodu.
+- GPU H200: spoločné záverečné meranie celého poľa proti limitu 5 ms,
+  aj pri modeloch natrénovaných na CPU. Tréningový a inferenčný hardvér
+  môžu byť rôzne; vstupy aj váhy musia byť na cieľovej GPU pred meraním.
+
+Pred hlavnými piatimi opakovaniami zvoliť a zaznamenať backend každej
+metódy; nemiešať ho potichu medzi seedmi. Nemeniť model, ciele alebo
+pravidlá výberu len kvôli hardvéru. Pri porovnaní ceny vykázať CPU core-h,
+GPU-h, wall čas a pamäť oddelene. Rovnaký seed na CPU a GPU negarantuje
+bitovo zhodný tréning. Hodiny CPU a GPU nemajú univerzálny prepočítací pomer.
+
+Doterajší navrhovaný rozpočet 80 GPU-h je 16 % uvedeného zostatku 500 GPU-h;
+nie je to však overená cena učenia do potrebnej presnosti. Limit jednej
+GPU-h na tréning treba potvrdiť na plnej TRAIN sade pred finálnymi behmi.
+CPU tréning môže šetriť GPU alokáciu, no môže trvať dlhšie. Príklad účtovania:
+32 pridelených CPU jadier na 10 h = 320 CPU core-h, nie 10 core-h.
+
+Primárne technické podklady overené 11.11.2026:
+https://docs.pytorch.org/tutorials/recipes/recipes/tuning_guide.html
+Sekcie CPU specific optimizations a Train a model on CPU opisujú CPU tréning,
+vlákna a NUMA. Nie sú meraním našich modelov na Perune.
+https://docs.pytorch.org/docs/2.12/notes/randomness.html
+Reproducibility: výsledky medzi CPU a GPU nemusia byť identické ani so seedmi.

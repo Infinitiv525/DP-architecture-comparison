@@ -1,0 +1,51 @@
+[
+  {
+    "status": "DENSE_FNO5_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "fno_s931102",
+      "model": "fno",
+      "seed": 931102,
+      "group": 1,
+      "kind": "posthoc_resource_matched_dense_fno_supplement",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931102/best.pt",
+      "checkpoint_sha256": "2b14df473f740d26c5bb3859000986cc9e7e90cb2535ccf06333545d5bed0d2d",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.013243170455098152,
+          "pressure_l2": 0.03328599035739899
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.00813235528767109,
+          "pressure_l2": 0.014146026223897934
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 12672888,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 12672898,
+        "total_core_coefficients_plus_normalization": 12672898,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 50691552,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931102/complete.json",
+      "training_summary_sha256": "78f43c045ad0dfac3e4501877aa22cf16cf9be1c35bcd202669320d5e20004a3",
+      "training_elapsed_seconds": 14101.782146618934,
+      "training_stop_reason": "training_time_budget"
+    },
+    "means": {
+      "all_cell_mse": 1.4637706850158164e-05,
+      "fluid_velocity_relative_l2": 0.00794826691355622,
+      "fluid_pressure_relative_l2": 0.01663792213237888
+    },
+    "worst_case_gpu_p99_ms": 2.5827551603317254,
+    "worst_case_host_p99_ms": 2.603927259999999,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true,
+    "elapsed_seconds": 489.56241291598417
+  }
+]

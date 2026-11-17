@@ -1,0 +1,32 @@
+{
+  "id": "rbf_a",
+  "status": "REVIEW_COMPLETE",
+  "model": "rbf",
+  "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/rbf_a/best.pt",
+  "checkpoint_sha256": "04e1caec8234a6bba7a69be36e534f2b7ca06e8a26387469f9dbd686e10e9b30",
+  "validation_mse": 0.010825002429062818,
+  "worst_gpu_p99_ms": 1.3348819148540496,
+  "latency_pass": true,
+  "timing_blocks": 1,
+  "repetitions_per_case": 1000,
+  "warmup": 100,
+  "counts": {
+    "core_parameter_elements": 5859,
+    "core_parameter_real_scalar_equivalents": 5859,
+    "core_buffer_elements": 0,
+    "core_buffer_real_scalar_equivalents": 0,
+    "registered_pipeline_buffer_bytes": 25165864
+  },
+  "hardware_before": {
+    "returncode": 0,
+    "stdout": "NVIDIA H200, GPU-b62f80fb-9240-26f7-6eb5-c276542eea22, 610.43.02, 36, 1980 MHz, 134.54 W, P0\n",
+    "stderr": ""
+  },
+  "hardware_after": {
+    "returncode": 0,
+    "stdout": "NVIDIA H200, GPU-b62f80fb-9240-26f7-6eb5-c276542eea22, 610.43.02, 43, 1980 MHz, 403.19 W, P0\n",
+    "stderr": ""
+  },
+  "additional_peak_inference_bytes": 362808320,
+  "test_targets_read": false
+}

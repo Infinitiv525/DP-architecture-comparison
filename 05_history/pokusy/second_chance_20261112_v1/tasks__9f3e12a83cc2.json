@@ -1,0 +1,70 @@
+{
+  "tasks": [
+    {
+      "id": "chebkan_s931101_extend8h",
+      "model": "chebkan",
+      "seed": 931101,
+      "original_complete": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931101/complete.json",
+      "original_complete_sha256": "8fd716ff97fe032c29314fd2023e2ce5d48580bfa5f4d4d557dcbc55c72c155a",
+      "original_best": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931101/best.pt",
+      "original_best_sha256": "bb01513a53b6c27de6c62884d59f5b14004420c0ee1bf3a49eee95164a5b2812",
+      "original_last": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931101/last.pt",
+      "original_closeout": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_1.json",
+      "original_closeout_sha256": "fe64b473554cb2aef7faec5122b7d3921ba0541046e5aae656c6ec82fac56518",
+      "original_best_VAL_loss": 0.009519639713107608,
+      "original_nominal_GPU_seconds": 14400,
+      "additional_GPU_seconds_limit": 14400,
+      "excluded_from_primary_experiment": true
+    },
+    {
+      "id": "chebkan_s931102_extend8h",
+      "model": "chebkan",
+      "seed": 931102,
+      "original_complete": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931102/complete.json",
+      "original_complete_sha256": "cc2538cdf904db0e21d9add7450b394381134fb8506221fd40109bfd832dfc07",
+      "original_best": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931102/best.pt",
+      "original_best_sha256": "cec9099dcd6244f755575fa8f585f23b97b66d801737aa7be92626623079ec2b",
+      "original_last": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931102/last.pt",
+      "original_closeout": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_10.json",
+      "original_closeout_sha256": "b71587b49ad056a002330c1a34f05a57c9b4b3b2f649d3bb0a5e4dd967092746",
+      "original_best_VAL_loss": 0.007913675281452015,
+      "original_nominal_GPU_seconds": 14400,
+      "additional_GPU_seconds_limit": 14400,
+      "excluded_from_primary_experiment": true
+    },
+    {
+      "id": "rbf_s931101_extend8h",
+      "model": "rbf",
+      "seed": 931101,
+      "original_complete": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931101/complete.json",
+      "original_complete_sha256": "753cd57a90c56ef4f0c41d79e483e4cf6029c2391268aaf214f9e814c6af6648",
+      "original_best": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931101/best.pt",
+      "original_best_sha256": "ea0449cd4711cc197855fd2482a26f716caaf8f4da100df52f16fa20615ef1c1",
+      "original_last": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931101/last.pt",
+      "original_closeout": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_5.json",
+      "original_closeout_sha256": "430af99e6f83af1aad26801741ad1384847819d5b4c78f55b9649006588b0569",
+      "original_best_VAL_loss": 0.01555881063832203,
+      "original_nominal_GPU_seconds": 14400,
+      "additional_GPU_seconds_limit": 14400,
+      "excluded_from_primary_experiment": true
+    },
+    {
+      "id": "rbf_s931102_extend8h",
+      "model": "rbf",
+      "seed": 931102,
+      "original_complete": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931102/complete.json",
+      "original_complete_sha256": "7b77ff951a57fe4b32d224332802b1877ad2ff32c52f99d1e848124061085f9b",
+      "original_best": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931102/best.pt",
+      "original_best_sha256": "1dc2c3443bfcc11ccd5fb8a7ff1578dbec8433948bf70f90dba90036706bb14e",
+      "original_last": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931102/last.pt",
+      "original_closeout": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_14.json",
+      "original_closeout_sha256": "ceacb02c9f7e5c44a22b0204c7bc5aa3781d6f2147bece6899154d30b26734f4",
+      "original_best_VAL_loss": 0.014788844501890708,
+      "original_nominal_GPU_seconds": 14400,
+      "additional_GPU_seconds_limit": 14400,
+      "excluded_from_primary_experiment": true
+    }
+  ],
+  "selection": "First two predetermined seeds, not best seeds",
+  "no_TEST_selection": true
+}

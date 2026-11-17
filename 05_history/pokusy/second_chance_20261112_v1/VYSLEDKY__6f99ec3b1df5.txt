@@ -1,0 +1,60 @@
+DRUHÁ ŠANCA CHEBKAN A RBF — DOKONČENÁ A OVERENÁ
+
+Samostatný exploratívny doplnok mimo hlavného experimentu.
+Dve vopred určené pokračovania každej rodiny, zo skutočného last.pt
+vrátane Adam momentov a presného poradia prípadov. Bez zmeny architektúry.
+Posledný uložený LR približne 1e-5 zostal konštantný, bez reštartu.
+Celkový nominálny rozpočet bol 4 + 4 = 8 GPU-h na líniu.
+
+Model a seed          VAL pred     VAL nový best   VAL posledný   Zníženie [%]
+--------------------------------------------------------------------------------
+chebkan 931101        0.00951965   0.00844535     0.00873431        11.29
+chebkan 931102        0.00791368   0.00671008     0.00675157        15.21
+rbf 931101            0.01555891   0.01429414     0.01429414         8.13
+rbf 931102            0.01478883   0.01405036     0.01408031         4.99
+
+Ide o spoločnú natívnu vyváženú VAL stratu, nie percentuálnu L2 chybu.
+Vo všetkých štyroch líniách sa zlepšil nový best aj posledný stav.
+Najlepší priebežný a posledný model uvádzame osobitne, aby bolo vidno
+aj zhoršenie po predchádzajúcom lepšom checkpointe.
+
+Relatívne L2 chyby na 160 VAL prípadoch, pôvodný → vybraný nový model:
+Model a seed          Rýchlosť [%]        Tlak [%]
+chebkan 931101         6.055 → 5.592      9.350 → 8.538
+chebkan 931102         5.734 → 4.994      8.237 → 7.451
+rbf 931101             7.024 → 6.718     13.844 → 13.203
+rbf 931102             7.035 → 6.744     13.819 → 13.259
+
+Cena a interpretácia
+Dodatočné H200-h podľa closeoutov spolu: 15.6678.
+Dodatočné pridelené CPU-core-h tréningov: 62.6711.
+Každé pokračovanie spotrebovalo asi 3,917 H200-h. S pôvodným behom
+to bolo asi 7,834 H200-h na líniu. Technické CPU kontroly sú oddelená réžia.
+Runtime pri closeoute zahŕňa startup a validácie, nie iba gradientové kroky;
+nie je presným portálovým vyúčtovaním.
+Zlepšenie existuje, ale prírastok je mierny oproti približne dvojnásobným
+zdrojom. Ukazuje citlivosť tejto konkrétnej konfigurácie pri koncovom LR,
+nie minimálny potrebný čas celej rodiny alebo jej najlepšie možné nastavenie.
+Dva seedy neposkytujú rovnaký rozsah dôkazov ako hlavná päťseedová séria.
+Nepočítali sa nové TEST výsledky. Tieto VAL čísla sa nezmiešajú s TEST
+tabuľkou pôvodných modelov. Hlavné poradie, výsledky a váhy sa nemenia.
+
+Číselná kontrola
+Štyri úspešné tréningové closeouty a štyri CPU audity. Pri pôvodnom best,
+novom best a novom last sa prepočítalo spolu 9 600 TRAIN/VAL prípadových
+strát a natívne VAL chyby rýchlosti a tlaku. SHA rodičov ostali nezmenené.
+Pri RBF sa pôvodný float32 Adam step nasýtil na 16 777 216; skutočné
+počty krokov sú 18 061 736 a 17 968 042, potvrdené celočíselnými počítadlami.
+Stav a dtype Adam sa zámerne nemenili. V overenom kóde ovplyvňuje step
+bias korekcie 1-beta^t; pri nasýtenom aj skutočnom t sú obe beta^t
+numericky nula, takže tieto korekcie zostávajú rovné jednej. Zdrojový
+hash a číselný výpočet sú v adam_counter_check.json. Nezamieňame preto
+interný float32 čítač za skutočný počet vykonaných aktualizácií.
+
+Kde sú podklady
+report/continuation/summary/model_metrics.csv — všetky štyri línie.
+report/continuation/summary/cost_curves.csv — pôvodné a nové krivky.
+report/continuation/audit/<id>/complete.json — prípadové chyby a fyzikálne jednotky.
+completion_check.json — súhrn kontrol a zhoda vzdialených reportov.
+Krivka je v figures/druha_sanca_priebeh.png a .svg.
+Checkpointy ostávajú na Perune. Šestnásťhodinové pokračovanie nie je spustené.

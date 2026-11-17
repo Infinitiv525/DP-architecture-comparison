@@ -1,0 +1,8 @@
+{
+  "id": "elm_b",
+  "model": "elm",
+  "device": "cpu",
+  "overrides": {
+    "constructive_width": 256
+  }
+}

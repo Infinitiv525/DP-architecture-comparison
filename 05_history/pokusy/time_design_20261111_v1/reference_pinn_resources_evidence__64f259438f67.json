@@ -1,0 +1,100 @@
+{
+  "protocol.json": {
+    "keys": [
+      "version",
+      "revision_note",
+      "task",
+      "models",
+      "preparation",
+      "prepared_path",
+      "split_path",
+      "base_model",
+      "llm_runtime",
+      "generation",
+      "phases",
+      "methods",
+      "baseline_parameters",
+      "search_space",
+      "prompts",
+      "design",
+      "training",
+      "seeds",
+      "pairing",
+      "selection",
+      "feedback",
+      "proposal",
+      "failure_policy",
+      "controls",
+      "execution",
+      "timing",
+      "physics",
+      "resources",
+      "model_policy",
+      "test_policy",
+      "storage",
+      "main_search_protocol_frozen",
+      "main_test_opened",
+      "main_experiment_started_at_freeze"
+    ],
+    "resource_sections": {
+      "llm_runtime": {
+        "torch": "2.12.0+cu130",
+        "transformers": "5.20.2",
+        "accelerate": "1.15.0",
+        "huggingface_hub": "2.2.0",
+        "mistral-common": "1.12.0",
+        "optuna": "5.0.0",
+        "lm-format-enforcer": "0.11.3",
+        "interegular": "0.3.3"
+      },
+      "resources": "All proposal/load/schema/token/repair/wall/CPU/RAM/VRAM and training times saved;actual scheduler allocatedGPU/core seconds after each batch includes idle tails. No estimate substituted for actual allocation."
+    }
+  },
+  "operational_manifest.json": {
+    "keys": [
+      "files",
+      "policy"
+    ],
+    "resource_sections": {}
+  },
+  "operational_manifest_v34.json": {
+    "keys": [
+      "revision",
+      "files",
+      "predecessor_manifest_sha256",
+      "correction",
+      "maximum_main_batches",
+      "main_test_opened"
+    ],
+    "resource_sections": {}
+  },
+  "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/submissions": [
+    "145176.json"
+  ],
+  "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/scheduler": [
+    "145176"
+  ],
+  "test/llm/worker_ldc_main_v33.py": [
+    {
+      "line": 60,
+      "text": "    return dict(id=task['id'],parameters=parameters,status=status,score=None,velocity_error=None,\n        pressure_error=None,momentum_rms=None,divergence_rms=None,boundary_error=None,\n        training_seconds=seconds,training_seed=task['seed'],epochs=400 if phase=='main' else 2,\n        error_codes=[str(c)[:200] for c in codes][:8])\n"
+    },
+    {
+      "line": 111,
+      "text": "    save(directory/'request.json',request)\n    processes['training']=bounded([str(ROOT/'envs/training-torch-2.12-cu130/bin/python'),'-B',\n        str(ROOT/'test/training/train_ldc_main_v33.py'),'--request',str(directory/'request.json'),\n        '--output',str(directory/'training')],directory/'training.log',specification['trial_timeout_seconds'])\n    save(directory/'training_process.json',processes['training'])"
+    },
+    {
+      "line": 129,
+      "text": "    if not trained['selected_speed']['pass_5ms']:\n        return dict(status='SPEED_FAILED',history=failed_history(task,phase,parameters,'SPEED_FAILED',\n                    trained['training_seconds'],['NATIVE_P99_OVER_5MS']),\n                    trial_summary_sha256=digest(training_path),processes=processes)\n    val=trained['selected_validation']"
+    },
+    {
+      "line": 134,
+      "text": "    if val['failure']:\n        return dict(status='TRAINING_FAILED',history=failed_history(task,phase,parameters,'TRAINING_FAILED',\n            trained['training_seconds'],['NONFINITE_VALIDATION']),trial_summary_sha256=digest(training_path),processes=processes)\n    history=dict(id=task['id'],parameters=parameters,status='COMPLETE',score=val['score'],\n        velocity_error=val['means']['velocity_relative_l2'],pressure_error=val['means']['pressure_relative_l2'],"
+    },
+    {
+      "line": 138,
+      "text": "        velocity_error=val['means']['velocity_relative_l2'],pressure_error=val['means']['pressure_relative_l2'],\n        momentum_rms=val['mean_momentum_rms'],divergence_rms=val['mean_divergence_rms'],\n        boundary_error=trained['boundary_mean'],training_seconds=trained['training_seconds'],\n        training_seed=task['seed'],epochs=specification['epochs'],error_codes=[])\n    return dict(status='COMPLETE',history=history,trial_summary_sha256=digest(training_path),"
+    }
+  ],
+  "test/llm/ldc_main_scheduler_v33.py": []
+}

@@ -1,0 +1,26 @@
+KONTROLA DOKONČENÝCH ÚLOH
+
+Hlavné ladenie 156096: 8 z 18 dokončených, 4 aktívne, 6 čakajúcich.
+Hotové: po dve nastavenia TFNO, ChebKAN, PiNet a DendriteNet.
+Bežia: po dve nastavenia RealNPU a RBF. Čakajú ELM, SCN a CasCor.
+Všetkých osem skončilo COMPLETED bez stderr a v hodinovom rozpočte.
+Približne tri minúty boli rezervované na ukončenie a uloženie.
+
+Dodatočná CPU kontrola 156239: COMPLETED, osem modelov, 1 280 jedinečných
+validačných polí. Overené SHA checkpointov, obnova, všetkých 160 VAL
+prípadov na model, zhoda metrík a skutočných počtov koeficientov.
+V každom behu je pokrytie všetkých 640 TRAIN prípadov konzistentné.
+Celkový počet krokov sa medzi sieťami líši podľa rýchlosti; limitom
+je rovnaký čas, nie rovnaký počet epoch. Najväčší rozdiel
+CPU/GPU vo vypočítanej chybe je 0,000002027. Toto je kontrola numeriky,
+nie požiadavka na presnosť. Audit spotreboval 0 GPU-h a 0,16 CPU core-h
+podľa alokácie Slurmu; nejde o portálové vyúčtovanie.
+
+Pomocný starší zmiešaný pilot: 15 z 18 hotových, ďalšie tri CPU bežia.
+Tento pilot je oddelený od primárneho porovnania pri rovnakom rozpočte.
+
+Hlavná séria 45 osemhodinových behov ešte nebeží. Najprv dokončenie
+18 rovnako ohraničených ladení, potom zmrazenie nastavení a hlavné
+opakovania. Pri kontrole neboli pridané nové tréningy. TEST sa nečítal.
+Váhy a veľké polia zostávajú na Perune. Technická kontrola nepotvrdzuje
+vopred stanovenú presnosť; dosiahnuté chyby zostávajú výsledkom.

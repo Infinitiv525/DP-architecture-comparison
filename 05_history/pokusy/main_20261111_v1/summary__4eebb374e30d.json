@@ -1,0 +1,47 @@
+{
+  "status": "ARCHITECTURE_MAIN_MODEL_COMPLETE",
+  "task": {
+    "index": 8,
+    "id": "chebkan_s921104",
+    "model": "chebkan",
+    "seed": 921104,
+    "device": "cpu"
+  },
+  "selected_recipe": {
+    "id": "chebkan_a",
+    "model": "chebkan",
+    "device": "cpu",
+    "overrides": {}
+  },
+  "selection_sha256": "5c9577c7bff341bd05209f97d9e05e89ab46d5f58f15dec1740a42dee89c7b57",
+  "best": {
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921104/continuation/best.pt",
+    "checkpoint_sha256": "4f916e44004998d5008dfec1aa4d363fe4bce91c7203d84b85b11fe266261a84",
+    "validation_mse": 0.0011041162185690314,
+    "epoch": 400,
+    "phase": "constant_lr_continuation"
+  },
+  "phase_candidates": [
+    {
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921104/training/chebkan_a/best.pt",
+      "checkpoint_sha256": "b56536245e6144eb79692db419ab89b4d9312be9db90faee4e2bb1d2c183ae8b",
+      "validation_mse": 0.0011907037372055275,
+      "epoch": 200,
+      "phase": "cosine"
+    },
+    {
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921104/continuation/best.pt",
+      "checkpoint_sha256": "4f916e44004998d5008dfec1aa4d363fe4bce91c7203d84b85b11fe266261a84",
+      "validation_mse": 0.0011041162185690314,
+      "epoch": 400,
+      "phase": "constant_lr_continuation"
+    }
+  ],
+  "continuation_performed": true,
+  "continuation_skipped_after_early_stop": false,
+  "phase1_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921104/training/chebkan_a/summary.json",
+  "continuation_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921104/continuation/summary.json",
+  "wall_seconds": 2287.7666990399593,
+  "slurm_job_id": "154637",
+  "test_targets_read": false
+}

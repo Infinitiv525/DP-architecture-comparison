@@ -1,0 +1,12 @@
+{
+  "name": "elm",
+  "repr": "PointPipeline(\n  (features): FixedGeometryFeatures()\n  (core): ELM()\n)",
+  "total_parameters": 0,
+  "trainable_parameters": 0,
+  "buffer_values": 6293421,
+  "core_parameter_values": 0,
+  "core_buffer_values": 1955,
+  "data_fitted_or_selected_core_scalars": 99,
+  "counting_note": "ELM fixed random weights are buffers; SCN selected weights and CasCor frozen units also count as fitted/selected. Static coordinate buffers are not learned weights.",
+  "point_encoding": "fixed TRAIN-normalized 4x4 geometry pooling + local geometry + coordinates/Fourier + logRe; no learned or pretrained encoder"
+}

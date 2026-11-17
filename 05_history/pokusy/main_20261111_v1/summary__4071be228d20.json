@@ -1,0 +1,42 @@
+{
+  "status": "ARCHITECTURE_MAIN_MODEL_COMPLETE",
+  "task": {
+    "index": 25,
+    "id": "rbf_s921101",
+    "model": "rbf",
+    "seed": 921101,
+    "device": "cpu"
+  },
+  "selected_recipe": {
+    "id": "rbf_b",
+    "model": "rbf",
+    "device": "cpu",
+    "overrides": {
+      "width": 192
+    }
+  },
+  "selection_sha256": "5c9577c7bff341bd05209f97d9e05e89ab46d5f58f15dec1740a42dee89c7b57",
+  "best": {
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/rbf_s921101/training/rbf_b/best.pt",
+    "checkpoint_sha256": "599f51d1e14b70d28de1ea9f130be60a0fbdf15643f253c4f11aa623c38ec312",
+    "validation_mse": 0.009956927203870718,
+    "epoch": 200,
+    "phase": "cosine"
+  },
+  "phase_candidates": [
+    {
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/rbf_s921101/training/rbf_b/best.pt",
+      "checkpoint_sha256": "599f51d1e14b70d28de1ea9f130be60a0fbdf15643f253c4f11aa623c38ec312",
+      "validation_mse": 0.009956927203870718,
+      "epoch": 200,
+      "phase": "cosine"
+    }
+  ],
+  "continuation_performed": false,
+  "continuation_skipped_after_early_stop": false,
+  "phase1_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/rbf_s921101/training/rbf_b/summary.json",
+  "continuation_summary": null,
+  "wall_seconds": 867.7038411330432,
+  "slurm_job_id": "154770",
+  "test_targets_read": false
+}

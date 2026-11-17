@@ -1,0 +1,89 @@
+{
+  "status": "STATIC_CAPACITY_PLAN_NO_TRAINING",
+  "reference_total_fitted_real_scalars": 1353328,
+  "input_channels": 665,
+  "output_channels": 192,
+  "normalization_scalars_included": 10,
+  "models": [
+    {
+      "model": "tfno",
+      "width": 48,
+      "degree": null,
+      "planned_core_fitted_scalars": 1353318,
+      "planned_total_fitted_scalars": 1353328
+    },
+    {
+      "model": "chebkan",
+      "width": 294,
+      "degree": 3,
+      "planned_core_fitted_scalars": 1354356,
+      "planned_total_fitted_scalars": 1354366,
+      "relative_budget_difference": 0.0007669980965442229,
+      "constructive_units_are_intended_not_yet_selected": false
+    },
+    {
+      "model": "pinet",
+      "width": 618,
+      "degree": 3,
+      "planned_core_fitted_scalars": 1353612,
+      "planned_total_fitted_scalars": 1353622,
+      "relative_budget_difference": 0.00021724223543738102,
+      "constructive_units_are_intended_not_yet_selected": false
+    },
+    {
+      "model": "dendrite",
+      "width": 636,
+      "degree": 3,
+      "planned_core_fitted_scalars": 1354872,
+      "planned_total_fitted_scalars": 1354882,
+      "relative_budget_difference": 0.0011482803873118712,
+      "constructive_units_are_intended_not_yet_selected": false
+    },
+    {
+      "model": "realnpu",
+      "width": 1578,
+      "degree": null,
+      "planned_core_fitted_scalars": 1353203,
+      "planned_total_fitted_scalars": 1353213,
+      "relative_budget_difference": -8.497570433775108e-05,
+      "constructive_units_are_intended_not_yet_selected": false
+    },
+    {
+      "model": "rbf",
+      "width": 1577,
+      "degree": null,
+      "planned_core_fitted_scalars": 1353258,
+      "planned_total_fitted_scalars": 1353268,
+      "relative_budget_difference": -4.4335150089261435e-05,
+      "constructive_units_are_intended_not_yet_selected": false
+    },
+    {
+      "model": "cascor",
+      "width": 927,
+      "degree": null,
+      "planned_core_fitted_scalars": 1352439,
+      "planned_total_fitted_scalars": 1352449,
+      "relative_budget_difference": -0.00064950994880768,
+      "constructive_units_are_intended_not_yet_selected": true
+    },
+    {
+      "model": "elm",
+      "width": 7048,
+      "degree": null,
+      "planned_core_fitted_scalars": 1353408,
+      "planned_total_fitted_scalars": 1353418,
+      "relative_budget_difference": 6.650272513389215e-05,
+      "constructive_units_are_intended_not_yet_selected": false
+    },
+    {
+      "model": "scn",
+      "width": 1577,
+      "degree": null,
+      "planned_core_fitted_scalars": 1353258,
+      "planned_total_fitted_scalars": 1353268,
+      "relative_budget_difference": -4.4335150089261435e-05,
+      "constructive_units_are_intended_not_yet_selected": true
+    }
+  ],
+  "note": "Common full-field packing and deterministic geometry/context transforms. No claim of equal accuracy or runtime. Construction counts must be verified before any pilot."
+}

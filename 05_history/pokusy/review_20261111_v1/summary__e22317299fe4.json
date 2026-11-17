@@ -1,0 +1,32 @@
+{
+  "id": "dendrite_b",
+  "status": "REVIEW_COMPLETE",
+  "model": "dendrite",
+  "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/dendrite_b/best.pt",
+  "checkpoint_sha256": "497e7761a9537e1aba2031c50091d7c2ff5d5180e938f6a22788d13261e3570e",
+  "validation_mse": 0.005359813489481677,
+  "worst_gpu_p99_ms": 2.232384285926819,
+  "latency_pass": true,
+  "timing_blocks": 1,
+  "repetitions_per_case": 1000,
+  "warmup": 100,
+  "counts": {
+    "core_parameter_elements": 85443,
+    "core_parameter_real_scalar_equivalents": 85443,
+    "core_buffer_elements": 0,
+    "core_buffer_real_scalar_equivalents": 0,
+    "registered_pipeline_buffer_bytes": 25165864
+  },
+  "hardware_before": {
+    "returncode": 0,
+    "stdout": "NVIDIA H200, GPU-b62f80fb-9240-26f7-6eb5-c276542eea22, 610.43.02, 37, 1980 MHz, 158.86 W, P0\n",
+    "stderr": ""
+  },
+  "hardware_after": {
+    "returncode": 0,
+    "stdout": "NVIDIA H200, GPU-b62f80fb-9240-26f7-6eb5-c276542eea22, 610.43.02, 48, 1980 MHz, 592.05 W, P0\n",
+    "stderr": ""
+  },
+  "additional_peak_inference_bytes": 866123776,
+  "test_targets_read": false
+}

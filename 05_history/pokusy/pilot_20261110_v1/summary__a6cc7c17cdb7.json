@@ -1,0 +1,74 @@
+{
+  "status": "TECHNICAL_PILOT_COMPLETE",
+  "model": "dendrite",
+  "validation_cases": 4,
+  "mean_validation_mse": 0.010097005979277254,
+  "mean_velocity_relative_l2": 0.37239534058832996,
+  "mean_pressure_relative_l2": 1.9408690826792911,
+  "worst_case_gpu_p99_ms": 1.2590083384513855,
+  "gpu_p99_pass_all_cases": true,
+  "wall_seconds": 3.8720674769720063,
+  "cpu_seconds": 3.6647555689999995,
+  "peak_cuda_allocated_bytes": 656618496,
+  "peak_cuda_reserved_bytes": 731906048,
+  "peak_process_rss_kib": 1722416,
+  "training": {
+    "algorithm": "Adam, gradient clipping1, data loss only",
+    "updates": 120,
+    "initial_point_training_mse": 0.9290313720703125,
+    "final_point_training_mse": 0.2353728860616684,
+    "point_sample_sha256": "de029a9f95ba750702b4257a4037f06392c5d2ff6b1a8cbe2384b3a0d3ae2373",
+    "point_samples": 32768,
+    "history": [
+      {
+        "update": 1,
+        "normalized_loss": 0.8667382001876831,
+        "gradient_norm_before_clip": 0.10207132250070572,
+        "elapsed_seconds": 0.08610111696179956
+      },
+      {
+        "update": 21,
+        "normalized_loss": 0.45234811305999756,
+        "gradient_norm_before_clip": 0.7905574440956116,
+        "elapsed_seconds": 0.10776832199189812
+      },
+      {
+        "update": 41,
+        "normalized_loss": 0.3518041968345642,
+        "gradient_norm_before_clip": 0.35319456458091736,
+        "elapsed_seconds": 0.12729290197603405
+      },
+      {
+        "update": 61,
+        "normalized_loss": 0.4222571849822998,
+        "gradient_norm_before_clip": 0.2600855529308319,
+        "elapsed_seconds": 0.14651044202037156
+      },
+      {
+        "update": 81,
+        "normalized_loss": 0.21825990080833435,
+        "gradient_norm_before_clip": 0.2466336488723755,
+        "elapsed_seconds": 0.1656606210162863
+      },
+      {
+        "update": 101,
+        "normalized_loss": 0.2027922123670578,
+        "gradient_norm_before_clip": 0.22945301234722137,
+        "elapsed_seconds": 0.18476026400458068
+      },
+      {
+        "update": 120,
+        "normalized_loss": 0.2530097961425781,
+        "gradient_norm_before_clip": 0.3397212028503418,
+        "elapsed_seconds": 0.2030160209396854
+      }
+    ],
+    "wall_seconds": 1.28252111596521
+  },
+  "device": "NVIDIA H200",
+  "torch": "2.12.0+cu130",
+  "neuraloperator": "2.0.0",
+  "test_targets_read": false,
+  "final_architecture_ranking_allowed": false,
+  "statistical_claims_allowed": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "pinet_b",
+  "model": "pinet",
+  "status": "EVALUATED",
+  "validation_mse": 0.005357633994751141,
+  "velocity_l2": 0.12727821600100434,
+  "pressure_l2": 1.0643786831901338,
+  "worst_screen_gpu_p99_ms": 1.8983913612365724,
+  "latency_screen_pass": true,
+  "screen_cases": 16,
+  "best_epoch": 180,
+  "last_epoch": 200,
+  "initial_validation_mse": 0.04421643815412269,
+  "last_relative_validation_gain": -0.00017715789020362116,
+  "needs_longer_training_review": false,
+  "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/pinet_b/best.pt",
+  "checkpoint_sha256": "3c4152db8e7410233aa494ebd277a0d83a3b2daa791e0c4d6cbe7d31cd9cca17",
+  "training_device": "cpu",
+  "fitted_or_selected_core_scalars": 33987
+}

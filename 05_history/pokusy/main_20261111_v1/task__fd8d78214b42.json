@@ -1,0 +1,36 @@
+{
+  "task": {
+    "index": 44,
+    "id": "scn_s921105",
+    "model": "scn",
+    "seed": 921105,
+    "device": "cpu"
+  },
+  "selected": {
+    "model": "scn",
+    "recipe": {
+      "id": "scn_b",
+      "model": "scn",
+      "device": "cpu",
+      "overrides": {
+        "constructive_width": 128
+      }
+    },
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/scn_b/best.pt",
+    "checkpoint_sha256": "25a69d5979e88b0437433d17b437377acc829f81a8a777b9fe1d09a5346f0212",
+    "calibration_validation_mse": 0.021254025062879614,
+    "review_gpu_p99_ms": 0.9852166610956192,
+    "latency_criterion_met": true,
+    "selection_status": "FEASIBLE",
+    "continuation": false,
+    "review_role": "audit",
+    "counts": {
+      "core_parameter_elements": 0,
+      "core_parameter_real_scalar_equivalents": 0,
+      "core_buffer_elements": 7811,
+      "core_buffer_real_scalar_equivalents": 7811,
+      "registered_pipeline_buffer_bytes": 25197108
+    }
+  },
+  "selection_sha256": "5c9577c7bff341bd05209f97d9e05e89ab46d5f58f15dec1740a42dee89c7b57"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "FIXED_FOUR_MODEL_TEST_COMPLETE_AND_VERIFIED",
+  "models": 4,
+  "saved_native_fields_checked": 800,
+  "raw_timing_pairs_checked": 800000,
+  "no_training": true,
+  "excluded_from_primary_experiment": true,
+  "sha256": {
+    "models.json": "b8056a660203b143cacd49b83ae438c946877ffb6511abd59a0775def0ac89aa",
+    "config.json": "cd8fe4c45b38b7964bb12f766d5bf2eee5861dd766c458a581c8fadf92dde09a",
+    "report\\audit\\summary.json": "5c8f3ca8c7c06b1896ca9afc176e49bee4383629e3136334497f0947e676b8bd",
+    "report\\comparison\\complete.json": "0bfe66ad3fa282672f7fae649cee96da076c6c8a18f78b0d3b10f604ba2e6e83",
+    "report\\comparison\\paired_case_metrics.csv": "14877e3a3993d3eef048bdf649b90d605266e470060b2ebbc9844f827f9fe5a7",
+    "report\\comparison\\model_comparison.csv": "6d3aa2302f1104be205ae410e0b854c7acc69f2a1a25833bf02fbd407c67e8ef"
+  }
+}

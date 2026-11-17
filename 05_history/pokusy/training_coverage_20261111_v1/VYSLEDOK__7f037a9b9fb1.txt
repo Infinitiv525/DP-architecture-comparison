@@ -1,0 +1,48 @@
+AUDIT POUZITIA TRENINGOVYCH DAT
+
+Vsetkych45 novych modelov a5 archivovanychPINN pouzilo rovnake640
+TRAIN scenare. Rozdielne metody vsak nepouzivaju rovnaku hustotu bodov
+ani rovnaky treningovy ciel. Pokrytie dat neznamena dostatocnu presnost.
+
+Kontrola naPerune155900 uspesna,19s,CPU4,ziadny novy trening aniTEST.
+Znovu sa vytvorili vstupy aj cielove hodnoty zo vsetkych640povodnych
+TRAIN scenarov. Kazdy dal2048 bodov. Obe matice su bitovo rovnake
+ako tie pouzite pri treningoch: X(1310720,57),Y(1310720,3),max.rozdiel0.
+Overeny sample hash aj nezmenene povodne metadata fixture.
+
+FNO: kazdyz5 behov200epoch,640aktualizacii/epoch,128000aktualizacii.
+Kazda epocha v overenomtreneri permutuje vsetky640scenare a pouzije
+ich cele natívne512x512polia. Doklad: zdroj,dataplan,epochove logy.
+Bodove gradientove modely:160batchov/epoch po8192bodoch prechadza
+celou pevnou matricou1310720bodov,bez vynechania scenarov.
+ChebKAN400epoch;Pi-Net,DD,NPU,RBF200epoch. KonstruovaneELM/SCN/CasCor
+fitury pouziju celu maticu,nie standardny200epochovygradientovyfit.
+ArchivovanePINN:ulozene pocitadla640scenarov, kazdy v treningovom behu
+400krat;bodydata/physics sa pri jednotlivych pouzitiach znovu vzorkovali.
+Vybranycheckpoint moze pochadzat zo skorsej epochy podlaVAL.
+
+Rozdiel v case:staryLLMexperiment395treningov,nova hlavna seria45
+(+18predchadzajucichkapacitnychkalibracii). StaryPINN uci ajNSderivacie
+aokrajove podmienky;novearchitektury maju datovy ciel bezPDEloss.
+Behy sa vykonavali subezne do12CPU a5GPUuloh.
+
+Pozorovane casy jednej natrenovanej verzie,vratane prislusnehoobalu:
+tfno         37.93--38.63 minut
+chebkan      27.55--38.81 minut
+pinet        9.61--11.88 minut
+dendrite     9.16--11.16 minut
+realnpu      7.75--9.77 minut
+rbf          13.95--14.46 minut
+cascor       0.15--0.33 minut
+elm          1.24--1.27 minut
+scn          3.42--6.59 minut
+ArchivovanyPINN:230.45--235.78 minut.
+Cas treningu nie je meritkom dosiahnutej presnosti. VAL chyby aTEST
+sa vyhodnocuju samostatne. Napr. FNO ma VAL velocityL2~0.96%,pL2~3%;
+ELM ma VAL pL2~193%,takze presne modelovanie sa mu v tomto nastaveni
+nepodarilo. Netvrdime,ze sa vsetky siete dobre naucili vsetky scenare.
+
+Prvy pomocny audit155883 sa nespustil pre nespravny pracovnypriecinok
+v launcher-i. Chyba opravena cez cwd=source,novy nemennylauncher
+r_b8546c05d1246c63. Povodny neuspesnyreceipt a logy su zachovane
+sprefixomfailed_155883;treningy ani finálnyGPUtest neboli menene.

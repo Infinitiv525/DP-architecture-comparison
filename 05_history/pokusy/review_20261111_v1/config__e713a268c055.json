@@ -1,0 +1,30 @@
+{
+  "name": "architecture_review_20261111_v1",
+  "calibration_source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_calibration_20261111_v1/revisions/r_12669e7239a2e28c",
+  "calibration_source_sha256": {
+    "train.py": "b260761ae6abed1b3f5ad5044efd9a8f94af79704ecc192c20f7b2329fd4b6cc",
+    "evaluate.py": "633fa253e6e276bc3cdbc17c30652d67813c0cd13c66ddd227350f7951249bcb",
+    "config.json": "c961bd5808fb03416dcdf93611ec3f8ee409809e0b434b2607e116376f3ff335",
+    "run.sbatch": "5ac16facd5ce753013a2c11bd3180d0b8705074cfa0dce2a267002f281036686",
+    "deploy.py": "0da347c787337cfd71b73246fc8e2ea6b9af3175b0453f16bbff35d10cae977a",
+    "collect.py": "87cde3cb64fc8d77de166ec1cc886df1518eb6f14082a1b3abddd668be64424e",
+    "protokol_kalibracie.txt": "03ccea7c84bf3525815c5a8f0f0bd669c06c1370b2a1f5a1ec5af928b630fce1"
+  },
+  "calibration_run": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c",
+  "extra_epochs": 200,
+  "continuation_recipes": [
+    "chebkan_a",
+    "chebkan_b"
+  ],
+  "latency_cases": 16,
+  "latency_warmup": 100,
+  "latency_repetitions": 1000,
+  "repeat_blocks": 3,
+  "repeat_models": [
+    "tfno_a",
+    "tfno_b"
+  ],
+  "latency_target_ms": 5.0,
+  "test_targets_allowed": false,
+  "automatic_main_training": false
+}

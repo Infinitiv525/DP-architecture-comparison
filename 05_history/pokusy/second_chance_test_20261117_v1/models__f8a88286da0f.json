@@ -1,0 +1,165 @@
+{
+  "status": "SECOND_CHANCE4_FIXED_TEST_MANIFEST",
+  "models": [
+    {
+      "id": "chebkan_s931101_extend8h",
+      "model": "chebkan",
+      "seed": 931101,
+      "group": 0,
+      "kind": "fixed_exploratory_second_chance_TEST",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/chebkan_s931101_extend8h/best.pt",
+      "checkpoint_sha256": "94bba83846cc4a00bc580f1d9f4ab2fc263a9ba4b3d7c5b84525f915621f442f",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.06963106989860535,
+          "pressure_l2": 0.07315907627344131
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.06350127607584,
+          "pressure_l2": 0.1958480328321457
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1354356,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354366,
+        "total_core_coefficients_plus_normalization": 1354366,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5417424,
+        "accounting_only": false
+      },
+      "original_baseline_id": "chebkan_s931101",
+      "original_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931101/best.pt",
+      "original_checkpoint_sha256": "bb01513a53b6c27de6c62884d59f5b14004420c0ee1bf3a49eee95164a5b2812",
+      "source_continuation_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/chebkan_s931101_extend8h/complete.json",
+      "source_continuation_summary_sha256": "b40c3f1fbb67924a3dcf03395fd7bb43c0dacb1d8246071bb59471cceec88fa4",
+      "selection": "Best saved continuation checkpoint on VAL, frozen before this TEST",
+      "excluded_from_primary_experiment": true
+    },
+    {
+      "id": "chebkan_s931102_extend8h",
+      "model": "chebkan",
+      "seed": 931102,
+      "group": 1,
+      "kind": "fixed_exploratory_second_chance_TEST",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/chebkan_s931102_extend8h/best.pt",
+      "checkpoint_sha256": "19885ba4e046c03200d97a4312e0432c390fef140bad3b0d96e38cd1ce8b33e7",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.1153772845864296,
+          "pressure_l2": 0.1066943034529686
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.050480425357818604,
+          "pressure_l2": 0.062057942152023315
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1354356,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354366,
+        "total_core_coefficients_plus_normalization": 1354366,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5417424,
+        "accounting_only": false
+      },
+      "original_baseline_id": "chebkan_s931102",
+      "original_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931102/best.pt",
+      "original_checkpoint_sha256": "cec9099dcd6244f755575fa8f585f23b97b66d801737aa7be92626623079ec2b",
+      "source_continuation_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/chebkan_s931102_extend8h/complete.json",
+      "source_continuation_summary_sha256": "914d94c719fbb6af3093a6ad211a499a514a1e8f25f1d8c8c80c671b6ffee1f5",
+      "selection": "Best saved continuation checkpoint on VAL, frozen before this TEST",
+      "excluded_from_primary_experiment": true
+    },
+    {
+      "id": "rbf_s931101_extend8h",
+      "model": "rbf",
+      "seed": 931101,
+      "group": 2,
+      "kind": "fixed_exploratory_second_chance_TEST",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/rbf_s931101_extend8h/best.pt",
+      "checkpoint_sha256": "751858d279cd0eba8bb23eb9ea58bc2db048e77fac2f169eaaa58cb958c096a8",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.3311538100242615,
+          "pressure_l2": 0.2671608626842499
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.12904472649097443,
+          "pressure_l2": 0.37911108136177063
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353258,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353268,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": false
+      },
+      "original_baseline_id": "rbf_s931101",
+      "original_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931101/best.pt",
+      "original_checkpoint_sha256": "ea0449cd4711cc197855fd2482a26f716caaf8f4da100df52f16fa20615ef1c1",
+      "source_continuation_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/rbf_s931101_extend8h/complete.json",
+      "source_continuation_summary_sha256": "cc61706a609e40d35642c35905fb1d327a4ba04f376d55598c8814726472a3bf",
+      "selection": "Best saved continuation checkpoint on VAL, frozen before this TEST",
+      "excluded_from_primary_experiment": true
+    },
+    {
+      "id": "rbf_s931102_extend8h",
+      "model": "rbf",
+      "seed": 931102,
+      "group": 3,
+      "kind": "fixed_exploratory_second_chance_TEST",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/rbf_s931102_extend8h/best.pt",
+      "checkpoint_sha256": "ba7c7fde9a31d3f4be547fe87a4a6f215cd4dea13e0e903a8c41969a69ced1d6",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.3075203597545624,
+          "pressure_l2": 0.2473141849040985
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.1168937161564827,
+          "pressure_l2": 0.44752684235572815
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353258,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353268,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": false
+      },
+      "original_baseline_id": "rbf_s931102",
+      "original_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931102/best.pt",
+      "original_checkpoint_sha256": "1dc2c3443bfcc11ccd5fb8a7ff1578dbec8433948bf70f90dba90036706bb14e",
+      "source_continuation_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/rbf_s931102_extend8h/complete.json",
+      "source_continuation_summary_sha256": "98b6c445b36061aa1f5495cc0db8782f6368ed8b32970a4a3695bdb840bbc7c0",
+      "selection": "Best saved continuation checkpoint on VAL, frozen before this TEST",
+      "excluded_from_primary_experiment": true
+    }
+  ],
+  "selection_uses_test": false,
+  "prior_original_TEST_results_known": true,
+  "no_further_training_or_selection_from_this_TEST": true,
+  "excluded_from_primary_experiment": true
+}

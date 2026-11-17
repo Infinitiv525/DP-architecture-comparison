@@ -1,0 +1,452 @@
+{
+  "status": "FINAL50_COMPLETION_VERIFIED",
+  "checked_at": "2026-11-12T17:55:22.944133+01:00",
+  "source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budget_test_20261112_v1/revisions/r_30896f9aadca67bb",
+  "run_root": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb",
+  "models": 50,
+  "primary_models": 45,
+  "auxiliary_pinn_models": 5,
+  "test_cases_per_model": 200,
+  "verified_native_fields": 10000,
+  "raw_timing_pairs_verified_by_cpu_audit": 10000000,
+  "common_test_cases": true,
+  "independent_gpu_uuids": {
+    "0": "GPU-0eda9851-f8a7-7435-d93a-d5686e8adc0d",
+    "1": "GPU-49f7a2a5-176d-34bc-1a3c-71dcbe03227f",
+    "2": "GPU-121427b0-b2d1-b9df-8646-f79cf1608ea8",
+    "3": "GPU-bfd4554b-ddb3-b343-f7c5-794f00b5f54d",
+    "4": "GPU-26fcdc02-25ae-b1a0-13db-8dc55cc8f059"
+  },
+  "slurm_runtime": {
+    "preflight": [
+      "00:00:42"
+    ],
+    "test": [
+      "00:56:25",
+      "01:30:27",
+      "01:03:26",
+      "01:34:30",
+      "00:51:36"
+    ],
+    "audit": [
+      "00:10:58"
+    ]
+  },
+  "all_job_exits_zero": true,
+  "training_or_configuration_changes": false,
+  "report_checksums_and_remote_inventory": {
+    "totals": {
+      "checkpoint_bytes": 639330251,
+      "prediction_bytes": 31457286400,
+      "raw_timing_bytes": 57855407
+    },
+    "files": [
+      {
+        "id": "tfno_s931101",
+        "bytes": {
+          "checkpoint": 18497663,
+          "prediction": 629145728,
+          "raw_timing": 1519444
+        }
+      },
+      {
+        "id": "chebkan_s931101",
+        "bytes": {
+          "checkpoint": 18441565,
+          "prediction": 629145728,
+          "raw_timing": 1095240
+        }
+      },
+      {
+        "id": "pinet_s931101",
+        "bytes": {
+          "checkpoint": 18409389,
+          "prediction": 629145728,
+          "raw_timing": 1090817
+        }
+      },
+      {
+        "id": "dendrite_s931101",
+        "bytes": {
+          "checkpoint": 18434909,
+          "prediction": 629145728,
+          "raw_timing": 1098257
+        }
+      },
+      {
+        "id": "realnpu_s931101",
+        "bytes": {
+          "checkpoint": 18425485,
+          "prediction": 629145728,
+          "raw_timing": 1053415
+        }
+      },
+      {
+        "id": "rbf_s931101",
+        "bytes": {
+          "checkpoint": 18426253,
+          "prediction": 629145728,
+          "raw_timing": 1023946
+        }
+      },
+      {
+        "id": "elm_s931101",
+        "bytes": {
+          "checkpoint": 7523804,
+          "prediction": 629145728,
+          "raw_timing": 1055997
+        }
+      },
+      {
+        "id": "scn_s931101",
+        "bytes": {
+          "checkpoint": 4059868,
+          "prediction": 629145728,
+          "raw_timing": 1069751
+        }
+      },
+      {
+        "id": "cascor_s931101",
+        "bytes": {
+          "checkpoint": 3190838,
+          "prediction": 629145728,
+          "raw_timing": 1170338
+        }
+      },
+      {
+        "id": "tfno_s931102",
+        "bytes": {
+          "checkpoint": 18497663,
+          "prediction": 629145728,
+          "raw_timing": 1472683
+        }
+      },
+      {
+        "id": "chebkan_s931102",
+        "bytes": {
+          "checkpoint": 18439965,
+          "prediction": 629145728,
+          "raw_timing": 1115159
+        }
+      },
+      {
+        "id": "pinet_s931102",
+        "bytes": {
+          "checkpoint": 18410989,
+          "prediction": 629145728,
+          "raw_timing": 1110081
+        }
+      },
+      {
+        "id": "dendrite_s931102",
+        "bytes": {
+          "checkpoint": 18431773,
+          "prediction": 629145728,
+          "raw_timing": 1092618
+        }
+      },
+      {
+        "id": "realnpu_s931102",
+        "bytes": {
+          "checkpoint": 18423885,
+          "prediction": 629145728,
+          "raw_timing": 1058525
+        }
+      },
+      {
+        "id": "rbf_s931102",
+        "bytes": {
+          "checkpoint": 18426253,
+          "prediction": 629145728,
+          "raw_timing": 1017784
+        }
+      },
+      {
+        "id": "elm_s931102",
+        "bytes": {
+          "checkpoint": 7523804,
+          "prediction": 629145728,
+          "raw_timing": 1074935
+        }
+      },
+      {
+        "id": "scn_s931102",
+        "bytes": {
+          "checkpoint": 5012188,
+          "prediction": 629145728,
+          "raw_timing": 1090215
+        }
+      },
+      {
+        "id": "cascor_s931102",
+        "bytes": {
+          "checkpoint": 6184113,
+          "prediction": 629145728,
+          "raw_timing": 1658635
+        }
+      },
+      {
+        "id": "tfno_s931103",
+        "bytes": {
+          "checkpoint": 18497663,
+          "prediction": 629145728,
+          "raw_timing": 1440607
+        }
+      },
+      {
+        "id": "chebkan_s931103",
+        "bytes": {
+          "checkpoint": 18441565,
+          "prediction": 629145728,
+          "raw_timing": 1058523
+        }
+      },
+      {
+        "id": "pinet_s931103",
+        "bytes": {
+          "checkpoint": 18409389,
+          "prediction": 629145728,
+          "raw_timing": 1057065
+        }
+      },
+      {
+        "id": "dendrite_s931103",
+        "bytes": {
+          "checkpoint": 18433309,
+          "prediction": 629145728,
+          "raw_timing": 1117008
+        }
+      },
+      {
+        "id": "realnpu_s931103",
+        "bytes": {
+          "checkpoint": 18423885,
+          "prediction": 629145728,
+          "raw_timing": 1076102
+        }
+      },
+      {
+        "id": "rbf_s931103",
+        "bytes": {
+          "checkpoint": 18426253,
+          "prediction": 629145728,
+          "raw_timing": 1053820
+        }
+      },
+      {
+        "id": "elm_s931103",
+        "bytes": {
+          "checkpoint": 7523804,
+          "prediction": 629145728,
+          "raw_timing": 1097509
+        }
+      },
+      {
+        "id": "scn_s931103",
+        "bytes": {
+          "checkpoint": 4636188,
+          "prediction": 629145728,
+          "raw_timing": 1065955
+        }
+      },
+      {
+        "id": "cascor_s931103",
+        "bytes": {
+          "checkpoint": 3966568,
+          "prediction": 629145728,
+          "raw_timing": 1185899
+        }
+      },
+      {
+        "id": "tfno_s931104",
+        "bytes": {
+          "checkpoint": 18497663,
+          "prediction": 629145728,
+          "raw_timing": 1509352
+        }
+      },
+      {
+        "id": "chebkan_s931104",
+        "bytes": {
+          "checkpoint": 18441565,
+          "prediction": 629145728,
+          "raw_timing": 1085739
+        }
+      },
+      {
+        "id": "pinet_s931104",
+        "bytes": {
+          "checkpoint": 18409389,
+          "prediction": 629145728,
+          "raw_timing": 1067861
+        }
+      },
+      {
+        "id": "dendrite_s931104",
+        "bytes": {
+          "checkpoint": 18434909,
+          "prediction": 629145728,
+          "raw_timing": 1065224
+        }
+      },
+      {
+        "id": "realnpu_s931104",
+        "bytes": {
+          "checkpoint": 18425485,
+          "prediction": 629145728,
+          "raw_timing": 1042551
+        }
+      },
+      {
+        "id": "rbf_s931104",
+        "bytes": {
+          "checkpoint": 18426253,
+          "prediction": 629145728,
+          "raw_timing": 1073709
+        }
+      },
+      {
+        "id": "elm_s931104",
+        "bytes": {
+          "checkpoint": 7523804,
+          "prediction": 629145728,
+          "raw_timing": 1104405
+        }
+      },
+      {
+        "id": "scn_s931104",
+        "bytes": {
+          "checkpoint": 4684956,
+          "prediction": 629145728,
+          "raw_timing": 1073120
+        }
+      },
+      {
+        "id": "cascor_s931104",
+        "bytes": {
+          "checkpoint": 5856113,
+          "prediction": 629145728,
+          "raw_timing": 1631775
+        }
+      },
+      {
+        "id": "tfno_s931105",
+        "bytes": {
+          "checkpoint": 18495999,
+          "prediction": 629145728,
+          "raw_timing": 1512924
+        }
+      },
+      {
+        "id": "chebkan_s931105",
+        "bytes": {
+          "checkpoint": 18438365,
+          "prediction": 629145728,
+          "raw_timing": 1063590
+        }
+      },
+      {
+        "id": "pinet_s931105",
+        "bytes": {
+          "checkpoint": 18407789,
+          "prediction": 629145728,
+          "raw_timing": 1051983
+        }
+      },
+      {
+        "id": "dendrite_s931105",
+        "bytes": {
+          "checkpoint": 18430173,
+          "prediction": 629145728,
+          "raw_timing": 1061976
+        }
+      },
+      {
+        "id": "realnpu_s931105",
+        "bytes": {
+          "checkpoint": 18423885,
+          "prediction": 629145728,
+          "raw_timing": 1061594
+        }
+      },
+      {
+        "id": "rbf_s931105",
+        "bytes": {
+          "checkpoint": 18426253,
+          "prediction": 629145728,
+          "raw_timing": 1006771
+        }
+      },
+      {
+        "id": "elm_s931105",
+        "bytes": {
+          "checkpoint": 7523804,
+          "prediction": 629145728,
+          "raw_timing": 1056181
+        }
+      },
+      {
+        "id": "scn_s931105",
+        "bytes": {
+          "checkpoint": 4719708,
+          "prediction": 629145728,
+          "raw_timing": 1061670
+        }
+      },
+      {
+        "id": "cascor_s931105",
+        "bytes": {
+          "checkpoint": 3509012,
+          "prediction": 629145728,
+          "raw_timing": 1292700
+        }
+      },
+      {
+        "id": "fixed_k00",
+        "bytes": {
+          "checkpoint": 547219,
+          "prediction": 629145728,
+          "raw_timing": 1196853
+        }
+      },
+      {
+        "id": "fixed_k01",
+        "bytes": {
+          "checkpoint": 547219,
+          "prediction": 629145728,
+          "raw_timing": 1224140
+        }
+      },
+      {
+        "id": "fixed_k02",
+        "bytes": {
+          "checkpoint": 547219,
+          "prediction": 629145728,
+          "raw_timing": 1195065
+        }
+      },
+      {
+        "id": "fixed_k03",
+        "bytes": {
+          "checkpoint": 547219,
+          "prediction": 629145728,
+          "raw_timing": 1194706
+        }
+      },
+      {
+        "id": "fixed_k04",
+        "bytes": {
+          "checkpoint": 547219,
+          "prediction": 629145728,
+          "raw_timing": 1201190
+        }
+      }
+    ],
+    "small_report_sha256": {
+      "audit/summary.json": "0fc714c31d639d0979c9bf21b465a432cf2899b66f13f7e11e179eb0cc0b6021",
+      "audit/case_metrics.csv": "4408f4491d348163c2656347d36df9dc6b88c11ee428f044aa84aed253716788",
+      "audit/model_metrics.csv": "01e1ddf595fc037c7690ec24aaa6236293fbfe54d2f55403f7fe5947363d3ece",
+      "test/summary.json": "5a2ba2a536327ce8f4988fd23805f6785969a6bbeb920bf4aedd9cacf9d1f10d"
+    }
+  }
+}

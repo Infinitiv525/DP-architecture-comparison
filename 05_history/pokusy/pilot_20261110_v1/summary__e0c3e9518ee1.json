@@ -1,0 +1,1098 @@
+{
+  "status": "PILOT_FINISHED",
+  "models": [
+    {
+      "model": "tfno",
+      "status": "COMPLETE",
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 15.688320753048174,
+      "summary": {
+        "status": "TECHNICAL_PILOT_COMPLETE",
+        "model": "tfno",
+        "validation_cases": 4,
+        "mean_validation_mse": 0.011989372577627985,
+        "mean_velocity_relative_l2": 0.36038759904182943,
+        "mean_pressure_relative_l2": 1.3537860300278977,
+        "worst_case_gpu_p99_ms": 3.6644037246704113,
+        "gpu_p99_pass_all_cases": true,
+        "wall_seconds": 12.597228800994344,
+        "cpu_seconds": 6.721510589,
+        "peak_cuda_allocated_bytes": 1538272256,
+        "peak_cuda_reserved_bytes": 1816133632,
+        "peak_process_rss_kib": 1906032,
+        "training": {
+          "algorithm": "Adam, gradient clipping1, data loss only",
+          "updates": 120,
+          "initial_point_training_mse": null,
+          "final_point_training_mse": null,
+          "point_sample_sha256": null,
+          "point_samples": null,
+          "history": [
+            {
+              "update": 1,
+              "normalized_loss": 0.543308675289154,
+              "gradient_norm_before_clip": 0.030236851423978806,
+              "elapsed_seconds": 2.9340602960437536
+            },
+            {
+              "update": 21,
+              "normalized_loss": 0.38832923769950867,
+              "gradient_norm_before_clip": 0.2819225490093231,
+              "elapsed_seconds": 3.157939415075816
+            },
+            {
+              "update": 41,
+              "normalized_loss": 0.6900457739830017,
+              "gradient_norm_before_clip": 0.7891334295272827,
+              "elapsed_seconds": 3.395403665024787
+            },
+            {
+              "update": 61,
+              "normalized_loss": 0.1445615142583847,
+              "gradient_norm_before_clip": 1.094468593597412,
+              "elapsed_seconds": 3.6161428440827876
+            },
+            {
+              "update": 81,
+              "normalized_loss": 0.08429078757762909,
+              "gradient_norm_before_clip": 0.5109992623329163,
+              "elapsed_seconds": 3.8506726609775797
+            },
+            {
+              "update": 101,
+              "normalized_loss": 0.08335278928279877,
+              "gradient_norm_before_clip": 0.4464840590953827,
+              "elapsed_seconds": 4.071341545088217
+            },
+            {
+              "update": 120,
+              "normalized_loss": 0.12502706050872803,
+              "gradient_norm_before_clip": 0.5992063879966736,
+              "elapsed_seconds": 4.2951079250779
+            }
+          ],
+          "wall_seconds": 5.382788524031639
+        },
+        "device": "NVIDIA H200",
+        "torch": "2.12.0+cu130",
+        "neuraloperator": "2.0.0",
+        "test_targets_read": false,
+        "final_architecture_ranking_allowed": false,
+        "statistical_claims_allowed": false
+      }
+    },
+    {
+      "model": "chebkan",
+      "status": "COMPLETE",
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 8.428812967031263,
+      "summary": {
+        "status": "TECHNICAL_PILOT_COMPLETE",
+        "model": "chebkan",
+        "validation_cases": 4,
+        "mean_validation_mse": 0.009785205776819057,
+        "mean_velocity_relative_l2": 0.3544709239269304,
+        "mean_pressure_relative_l2": 1.9751118930601368,
+        "worst_case_gpu_p99_ms": 3.8824473452568053,
+        "gpu_p99_pass_all_cases": true,
+        "wall_seconds": 5.798776773037389,
+        "cpu_seconds": 4.957275307,
+        "peak_cuda_allocated_bytes": 736210944,
+        "peak_cuda_reserved_bytes": 908066816,
+        "peak_process_rss_kib": 1761952,
+        "training": {
+          "algorithm": "Adam, gradient clipping1, data loss only",
+          "updates": 120,
+          "initial_point_training_mse": 1.8238052129745483,
+          "final_point_training_mse": 0.1601158231496811,
+          "point_sample_sha256": "de029a9f95ba750702b4257a4037f06392c5d2ff6b1a8cbe2384b3a0d3ae2373",
+          "point_samples": 32768,
+          "history": [
+            {
+              "update": 1,
+              "normalized_loss": 1.7320499420166016,
+              "gradient_norm_before_clip": 12.155430793762207,
+              "elapsed_seconds": 0.2039192559896037
+            },
+            {
+              "update": 21,
+              "normalized_loss": 0.42791903018951416,
+              "gradient_norm_before_clip": 0.7722057700157166,
+              "elapsed_seconds": 0.23122384794987738
+            },
+            {
+              "update": 41,
+              "normalized_loss": 0.31443220376968384,
+              "gradient_norm_before_clip": 0.7934980988502502,
+              "elapsed_seconds": 0.25998014700599015
+            },
+            {
+              "update": 61,
+              "normalized_loss": 0.36670249700546265,
+              "gradient_norm_before_clip": 0.5390990972518921,
+              "elapsed_seconds": 0.2897115999367088
+            },
+            {
+              "update": 81,
+              "normalized_loss": 0.15003255009651184,
+              "gradient_norm_before_clip": 0.4945985674858093,
+              "elapsed_seconds": 0.31910735892597586
+            },
+            {
+              "update": 101,
+              "normalized_loss": 0.1344902068376541,
+              "gradient_norm_before_clip": 0.2575204074382782,
+              "elapsed_seconds": 0.34842444001697004
+            },
+            {
+              "update": 120,
+              "normalized_loss": 0.17001132667064667,
+              "gradient_norm_before_clip": 0.49064770340919495,
+              "elapsed_seconds": 0.37606282194610685
+            }
+          ],
+          "wall_seconds": 1.6165982219390571
+        },
+        "device": "NVIDIA H200",
+        "torch": "2.12.0+cu130",
+        "neuraloperator": "2.0.0",
+        "test_targets_read": false,
+        "final_architecture_ranking_allowed": false,
+        "statistical_claims_allowed": false
+      }
+    },
+    {
+      "model": "pinet",
+      "status": "COMPLETE",
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 6.473618329036981,
+      "summary": {
+        "status": "TECHNICAL_PILOT_COMPLETE",
+        "model": "pinet",
+        "validation_cases": 4,
+        "mean_validation_mse": 0.0110357835368001,
+        "mean_velocity_relative_l2": 0.37197239736100957,
+        "mean_pressure_relative_l2": 2.0887516728450466,
+        "worst_case_gpu_p99_ms": 1.3054927492141724,
+        "gpu_p99_pass_all_cases": true,
+        "wall_seconds": 4.003417026018724,
+        "cpu_seconds": 3.757879869,
+        "peak_cuda_allocated_bytes": 555897856,
+        "peak_cuda_reserved_bytes": 618659840,
+        "peak_process_rss_kib": 1716084,
+        "training": {
+          "algorithm": "Adam, gradient clipping1, data loss only",
+          "updates": 120,
+          "initial_point_training_mse": 1.0083191394805908,
+          "final_point_training_mse": 0.2515054941177368,
+          "point_sample_sha256": "de029a9f95ba750702b4257a4037f06392c5d2ff6b1a8cbe2384b3a0d3ae2373",
+          "point_samples": 32768,
+          "history": [
+            {
+              "update": 1,
+              "normalized_loss": 0.9471597671508789,
+              "gradient_norm_before_clip": 1.2746365070343018,
+              "elapsed_seconds": 0.11847054702229798
+            },
+            {
+              "update": 21,
+              "normalized_loss": 0.4094146192073822,
+              "gradient_norm_before_clip": 0.3309577405452728,
+              "elapsed_seconds": 0.14439322601538152
+            },
+            {
+              "update": 41,
+              "normalized_loss": 0.3848339915275574,
+              "gradient_norm_before_clip": 0.21729640662670135,
+              "elapsed_seconds": 0.16789728600997478
+            },
+            {
+              "update": 61,
+              "normalized_loss": 0.46853765845298767,
+              "gradient_norm_before_clip": 0.2594221234321594,
+              "elapsed_seconds": 0.19093062006868422
+            },
+            {
+              "update": 81,
+              "normalized_loss": 0.24541954696178436,
+              "gradient_norm_before_clip": 0.47344595193862915,
+              "elapsed_seconds": 0.21381699410267174
+            },
+            {
+              "update": 101,
+              "normalized_loss": 0.22080180048942566,
+              "gradient_norm_before_clip": 0.3015926778316498,
+              "elapsed_seconds": 0.2368049800861627
+            },
+            {
+              "update": 120,
+              "normalized_loss": 0.2669370174407959,
+              "gradient_norm_before_clip": 0.20702509582042694,
+              "elapsed_seconds": 0.25873059302102774
+            }
+          ],
+          "wall_seconds": 1.3230423849308863
+        },
+        "device": "NVIDIA H200",
+        "torch": "2.12.0+cu130",
+        "neuraloperator": "2.0.0",
+        "test_targets_read": false,
+        "final_architecture_ranking_allowed": false,
+        "statistical_claims_allowed": false
+      }
+    },
+    {
+      "model": "dendrite",
+      "status": "COMPLETE",
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 6.525144667015411,
+      "summary": {
+        "status": "TECHNICAL_PILOT_COMPLETE",
+        "model": "dendrite",
+        "validation_cases": 4,
+        "mean_validation_mse": 0.010097005979277254,
+        "mean_velocity_relative_l2": 0.37239534058832996,
+        "mean_pressure_relative_l2": 1.9408690826792911,
+        "worst_case_gpu_p99_ms": 1.2590083384513855,
+        "gpu_p99_pass_all_cases": true,
+        "wall_seconds": 3.8720674769720063,
+        "cpu_seconds": 3.6647555689999995,
+        "peak_cuda_allocated_bytes": 656618496,
+        "peak_cuda_reserved_bytes": 731906048,
+        "peak_process_rss_kib": 1722416,
+        "training": {
+          "algorithm": "Adam, gradient clipping1, data loss only",
+          "updates": 120,
+          "initial_point_training_mse": 0.9290313720703125,
+          "final_point_training_mse": 0.2353728860616684,
+          "point_sample_sha256": "de029a9f95ba750702b4257a4037f06392c5d2ff6b1a8cbe2384b3a0d3ae2373",
+          "point_samples": 32768,
+          "history": [
+            {
+              "update": 1,
+              "normalized_loss": 0.8667382001876831,
+              "gradient_norm_before_clip": 0.10207132250070572,
+              "elapsed_seconds": 0.08610111696179956
+            },
+            {
+              "update": 21,
+              "normalized_loss": 0.45234811305999756,
+              "gradient_norm_before_clip": 0.7905574440956116,
+              "elapsed_seconds": 0.10776832199189812
+            },
+            {
+              "update": 41,
+              "normalized_loss": 0.3518041968345642,
+              "gradient_norm_before_clip": 0.35319456458091736,
+              "elapsed_seconds": 0.12729290197603405
+            },
+            {
+              "update": 61,
+              "normalized_loss": 0.4222571849822998,
+              "gradient_norm_before_clip": 0.2600855529308319,
+              "elapsed_seconds": 0.14651044202037156
+            },
+            {
+              "update": 81,
+              "normalized_loss": 0.21825990080833435,
+              "gradient_norm_before_clip": 0.2466336488723755,
+              "elapsed_seconds": 0.1656606210162863
+            },
+            {
+              "update": 101,
+              "normalized_loss": 0.2027922123670578,
+              "gradient_norm_before_clip": 0.22945301234722137,
+              "elapsed_seconds": 0.18476026400458068
+            },
+            {
+              "update": 120,
+              "normalized_loss": 0.2530097961425781,
+              "gradient_norm_before_clip": 0.3397212028503418,
+              "elapsed_seconds": 0.2030160209396854
+            }
+          ],
+          "wall_seconds": 1.28252111596521
+        },
+        "device": "NVIDIA H200",
+        "torch": "2.12.0+cu130",
+        "neuraloperator": "2.0.0",
+        "test_targets_read": false,
+        "final_architecture_ranking_allowed": false,
+        "statistical_claims_allowed": false
+      }
+    },
+    {
+      "model": "realnpu",
+      "status": "COMPLETE",
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 6.175440757069737,
+      "summary": {
+        "status": "TECHNICAL_PILOT_COMPLETE",
+        "model": "realnpu",
+        "validation_cases": 4,
+        "mean_validation_mse": 0.017494495036490476,
+        "mean_velocity_relative_l2": 0.614509623793768,
+        "mean_pressure_relative_l2": 2.279016889253893,
+        "worst_case_gpu_p99_ms": 1.1001487565040589,
+        "gpu_p99_pass_all_cases": true,
+        "wall_seconds": 3.8506708779605106,
+        "cpu_seconds": 3.59755293,
+        "peak_cuda_allocated_bytes": 476085760,
+        "peak_cuda_reserved_bytes": 562036736,
+        "peak_process_rss_kib": 1793716,
+        "training": {
+          "algorithm": "Adam, gradient clipping1, data loss only",
+          "updates": 120,
+          "initial_point_training_mse": 1.0797498226165771,
+          "final_point_training_mse": 0.4357878565788269,
+          "point_sample_sha256": "de029a9f95ba750702b4257a4037f06392c5d2ff6b1a8cbe2384b3a0d3ae2373",
+          "point_samples": 32768,
+          "history": [
+            {
+              "update": 1,
+              "normalized_loss": 1.0316094160079956,
+              "gradient_norm_before_clip": 2.2381370067596436,
+              "elapsed_seconds": 0.08608695701695979
+            },
+            {
+              "update": 21,
+              "normalized_loss": 0.6944682598114014,
+              "gradient_norm_before_clip": 0.39543285965919495,
+              "elapsed_seconds": 0.11107774695847183
+            },
+            {
+              "update": 41,
+              "normalized_loss": 0.6489711403846741,
+              "gradient_norm_before_clip": 0.3873460590839386,
+              "elapsed_seconds": 0.13357697997707874
+            },
+            {
+              "update": 61,
+              "normalized_loss": 0.6885327100753784,
+              "gradient_norm_before_clip": 0.2895141541957855,
+              "elapsed_seconds": 0.1557848360389471
+            },
+            {
+              "update": 81,
+              "normalized_loss": 0.44001302123069763,
+              "gradient_norm_before_clip": 0.19845329225063324,
+              "elapsed_seconds": 0.17794534098356962
+            },
+            {
+              "update": 101,
+              "normalized_loss": 0.399169921875,
+              "gradient_norm_before_clip": 0.17817473411560059,
+              "elapsed_seconds": 0.19995346700306982
+            },
+            {
+              "update": 120,
+              "normalized_loss": 0.4569680690765381,
+              "gradient_norm_before_clip": 0.19061048328876495,
+              "elapsed_seconds": 0.2210995099740103
+            }
+          ],
+          "wall_seconds": 1.329259961959906
+        },
+        "device": "NVIDIA H200",
+        "torch": "2.12.0+cu130",
+        "neuraloperator": "2.0.0",
+        "test_targets_read": false,
+        "final_architecture_ranking_allowed": false,
+        "statistical_claims_allowed": false
+      }
+    },
+    {
+      "model": "rbf",
+      "status": "COMPLETE",
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 6.074916983954608,
+      "summary": {
+        "status": "TECHNICAL_PILOT_COMPLETE",
+        "model": "rbf",
+        "validation_cases": 4,
+        "mean_validation_mse": 0.028894680928374803,
+        "mean_velocity_relative_l2": 0.9687982906946595,
+        "mean_pressure_relative_l2": 0.9818261062048426,
+        "worst_case_gpu_p99_ms": 1.344826592206955,
+        "gpu_p99_pass_all_cases": true,
+        "wall_seconds": 3.747974695987068,
+        "cpu_seconds": 3.3475939190000004,
+        "peak_cuda_allocated_bytes": 555808768,
+        "peak_cuda_reserved_bytes": 679477248,
+        "peak_process_rss_kib": 1792552,
+        "training": {
+          "algorithm": "Adam, gradient clipping1, data loss only",
+          "updates": 120,
+          "initial_point_training_mse": 0.9341477155685425,
+          "final_point_training_mse": 0.8802353739738464,
+          "point_sample_sha256": "de029a9f95ba750702b4257a4037f06392c5d2ff6b1a8cbe2384b3a0d3ae2373",
+          "point_samples": 32768,
+          "history": [
+            {
+              "update": 1,
+              "normalized_loss": 0.8710473775863647,
+              "gradient_norm_before_clip": 0.4544084370136261,
+              "elapsed_seconds": 0.07754383992869407
+            },
+            {
+              "update": 21,
+              "normalized_loss": 0.8116251826286316,
+              "gradient_norm_before_clip": 0.2245989292860031,
+              "elapsed_seconds": 0.10253236698918045
+            },
+            {
+              "update": 41,
+              "normalized_loss": 0.8936643600463867,
+              "gradient_norm_before_clip": 0.15652798116207123,
+              "elapsed_seconds": 0.12487052893266082
+            },
+            {
+              "update": 61,
+              "normalized_loss": 1.0147762298583984,
+              "gradient_norm_before_clip": 0.10674739629030228,
+              "elapsed_seconds": 0.14696533500682563
+            },
+            {
+              "update": 81,
+              "normalized_loss": 0.8181841373443604,
+              "gradient_norm_before_clip": 0.17245914041996002,
+              "elapsed_seconds": 0.16909086692612618
+            },
+            {
+              "update": 101,
+              "normalized_loss": 0.7885112762451172,
+              "gradient_norm_before_clip": 0.09096898883581161,
+              "elapsed_seconds": 0.19116946891881526
+            },
+            {
+              "update": 120,
+              "normalized_loss": 0.911552906036377,
+              "gradient_norm_before_clip": 0.1711145043373108,
+              "elapsed_seconds": 0.2123193679144606
+            }
+          ],
+          "wall_seconds": 1.2704708779929206
+        },
+        "device": "NVIDIA H200",
+        "torch": "2.12.0+cu130",
+        "neuraloperator": "2.0.0",
+        "test_targets_read": false,
+        "final_architecture_ranking_allowed": false,
+        "statistical_claims_allowed": false
+      }
+    },
+    {
+      "model": "cascor",
+      "status": "COMPLETE",
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 9.378830224974081,
+      "summary": {
+        "status": "TECHNICAL_PILOT_COMPLETE",
+        "model": "cascor",
+        "validation_cases": 4,
+        "mean_validation_mse": 0.009346135481538656,
+        "mean_velocity_relative_l2": 0.3397923167719664,
+        "mean_pressure_relative_l2": 2.1578209128728227,
+        "worst_case_gpu_p99_ms": 4.5702218818664555,
+        "gpu_p99_pass_all_cases": true,
+        "wall_seconds": 7.020585929043591,
+        "cpu_seconds": 5.802940154,
+        "peak_cuda_allocated_bytes": 444643840,
+        "peak_cuda_reserved_bytes": 2990538752,
+        "peak_process_rss_kib": 1746012,
+        "training": {
+          "algorithm": "cascor",
+          "point_samples": 32768,
+          "point_sample_sha256": "de029a9f95ba750702b4257a4037f06392c5d2ff6b1a8cbe2384b3a0d3ae2373",
+          "history": [
+            {
+              "units": 1,
+              "mse": 0.40009254217147827,
+              "candidate_correlation": 0.11458189785480499,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 2,
+              "mse": 0.3752903640270233,
+              "candidate_correlation": 0.0998976081609726,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 3,
+              "mse": 0.34864693880081177,
+              "candidate_correlation": 0.09317833930253983,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 4,
+              "mse": 0.3275099992752075,
+              "candidate_correlation": 0.0834403857588768,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 5,
+              "mse": 0.3149302899837494,
+              "candidate_correlation": 0.07273198664188385,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 6,
+              "mse": 0.30287787318229675,
+              "candidate_correlation": 0.07762269675731659,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 7,
+              "mse": 0.2899724543094635,
+              "candidate_correlation": 0.06535003334283829,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 8,
+              "mse": 0.2819133698940277,
+              "candidate_correlation": 0.059621334075927734,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 9,
+              "mse": 0.27480658888816833,
+              "candidate_correlation": 0.05666890740394592,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 10,
+              "mse": 0.2666485011577606,
+              "candidate_correlation": 0.05255205184221268,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 11,
+              "mse": 0.26005497574806213,
+              "candidate_correlation": 0.05505865067243576,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 12,
+              "mse": 0.2539519965648651,
+              "candidate_correlation": 0.05015108361840248,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 13,
+              "mse": 0.24884603917598724,
+              "candidate_correlation": 0.046082425862550735,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 14,
+              "mse": 0.24260222911834717,
+              "candidate_correlation": 0.05135137960314751,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 15,
+              "mse": 0.2389649599790573,
+              "candidate_correlation": 0.0435810387134552,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 16,
+              "mse": 0.23432493209838867,
+              "candidate_correlation": 0.05246642231941223,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 17,
+              "mse": 0.22748242318630219,
+              "candidate_correlation": 0.04686740040779114,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 18,
+              "mse": 0.22417140007019043,
+              "candidate_correlation": 0.03858109191060066,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 19,
+              "mse": 0.22189810872077942,
+              "candidate_correlation": 0.04165484756231308,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 20,
+              "mse": 0.2179582118988037,
+              "candidate_correlation": 0.04331595450639725,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 21,
+              "mse": 0.2136058509349823,
+              "candidate_correlation": 0.047084640711545944,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 22,
+              "mse": 0.21016079187393188,
+              "candidate_correlation": 0.03971755504608154,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 23,
+              "mse": 0.2051386535167694,
+              "candidate_correlation": 0.05132134258747101,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 24,
+              "mse": 0.20076344907283783,
+              "candidate_correlation": 0.0393330343067646,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 25,
+              "mse": 0.19780489802360535,
+              "candidate_correlation": 0.03878776729106903,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 26,
+              "mse": 0.19508811831474304,
+              "candidate_correlation": 0.03755025193095207,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 27,
+              "mse": 0.1919490545988083,
+              "candidate_correlation": 0.04098428040742874,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 28,
+              "mse": 0.189173623919487,
+              "candidate_correlation": 0.037805065512657166,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 29,
+              "mse": 0.1866852045059204,
+              "candidate_correlation": 0.037800222635269165,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 30,
+              "mse": 0.18493270874023438,
+              "candidate_correlation": 0.033036284148693085,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 31,
+              "mse": 0.18154877424240112,
+              "candidate_correlation": 0.03877425193786621,
+              "candidate_gradient_steps": 30
+            },
+            {
+              "units": 32,
+              "mse": 0.179421529173851,
+              "candidate_correlation": 0.03356308117508888,
+              "candidate_gradient_steps": 30
+            }
+          ],
+          "final_point_training_mse": 0.179421529173851,
+          "wall_seconds": 2.5171739199431613
+        },
+        "device": "NVIDIA H200",
+        "torch": "2.12.0+cu130",
+        "neuraloperator": "2.0.0",
+        "test_targets_read": false,
+        "final_architecture_ranking_allowed": false,
+        "statistical_claims_allowed": false
+      }
+    },
+    {
+      "model": "elm",
+      "status": "COMPLETE",
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 4.622287775040604,
+      "summary": {
+        "status": "TECHNICAL_PILOT_COMPLETE",
+        "model": "elm",
+        "validation_cases": 4,
+        "mean_validation_mse": 0.018333322163615606,
+        "mean_velocity_relative_l2": 0.6897629399233427,
+        "mean_pressure_relative_l2": 1.9049336452278953,
+        "worst_case_gpu_p99_ms": 0.7317565077543259,
+        "gpu_p99_pass_all_cases": true,
+        "wall_seconds": 2.2856259050313383,
+        "cpu_seconds": 2.241881405,
+        "peak_cuda_allocated_bytes": 290477568,
+        "peak_cuda_reserved_bytes": 360710144,
+        "peak_process_rss_kib": 1360340,
+        "training": {
+          "algorithm": "elm",
+          "point_samples": 32768,
+          "point_sample_sha256": "de029a9f95ba750702b4257a4037f06392c5d2ff6b1a8cbe2384b3a0d3ae2373",
+          "history": [
+            {
+              "units": 32,
+              "mse": 0.4949813783168793
+            }
+          ],
+          "final_point_training_mse": 0.4949813783168793,
+          "wall_seconds": 0.14444593503139913
+        },
+        "device": "NVIDIA H200",
+        "torch": "2.12.0+cu130",
+        "neuraloperator": "2.0.0",
+        "test_targets_read": false,
+        "final_architecture_ranking_allowed": false,
+        "statistical_claims_allowed": false
+      }
+    },
+    {
+      "model": "scn",
+      "status": "COMPLETE",
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 4.822988622938283,
+      "summary": {
+        "status": "TECHNICAL_PILOT_COMPLETE",
+        "model": "scn",
+        "validation_cases": 4,
+        "mean_validation_mse": 0.016080209865478798,
+        "mean_velocity_relative_l2": 0.5823611757280303,
+        "mean_pressure_relative_l2": 1.9665889510246863,
+        "worst_case_gpu_p99_ms": 0.7322489684820176,
+        "gpu_p99_pass_all_cases": true,
+        "wall_seconds": 2.731909052003175,
+        "cpu_seconds": 2.285255838,
+        "peak_cuda_allocated_bytes": 290477568,
+        "peak_cuda_reserved_bytes": 381681664,
+        "peak_process_rss_kib": 1600348,
+        "training": {
+          "algorithm": "scn",
+          "point_samples": 32768,
+          "point_sample_sha256": "de029a9f95ba750702b4257a4037f06392c5d2ff6b1a8cbe2384b3a0d3ae2373",
+          "history": [
+            {
+              "units": 1,
+              "mse": 0.8936418890953064,
+              "r": 0.999,
+              "minimum_xi": 69.27313232421875,
+              "candidate_tests": 96
+            },
+            {
+              "units": 2,
+              "mse": 0.8364831805229187,
+              "r": 0.99,
+              "minimum_xi": 91.26591491699219,
+              "candidate_tests": 64
+            },
+            {
+              "units": 3,
+              "mse": 0.801750659942627,
+              "r": 0.99,
+              "minimum_xi": 11.32867431640625,
+              "candidate_tests": 64
+            },
+            {
+              "units": 4,
+              "mse": 0.7730595469474792,
+              "r": 0.99,
+              "minimum_xi": 27.750396728515625,
+              "candidate_tests": 64
+            },
+            {
+              "units": 5,
+              "mse": 0.6683979034423828,
+              "r": 0.999,
+              "minimum_xi": 201.656005859375,
+              "candidate_tests": 96
+            },
+            {
+              "units": 6,
+              "mse": 0.6329597234725952,
+              "r": 0.999,
+              "minimum_xi": 2.800912857055664,
+              "candidate_tests": 96
+            },
+            {
+              "units": 7,
+              "mse": 0.5891529321670532,
+              "r": 0.999,
+              "minimum_xi": 34.66742706298828,
+              "candidate_tests": 96
+            },
+            {
+              "units": 8,
+              "mse": 0.5810978412628174,
+              "r": 0.999,
+              "minimum_xi": 23.93586540222168,
+              "candidate_tests": 96
+            },
+            {
+              "units": 9,
+              "mse": 0.5546649694442749,
+              "r": 0.999,
+              "minimum_xi": 115.00019836425781,
+              "candidate_tests": 96
+            },
+            {
+              "units": 10,
+              "mse": 0.5416691303253174,
+              "r": 0.999,
+              "minimum_xi": 45.38249969482422,
+              "candidate_tests": 96
+            },
+            {
+              "units": 11,
+              "mse": 0.5357530117034912,
+              "r": 0.999,
+              "minimum_xi": 21.251646041870117,
+              "candidate_tests": 96
+            },
+            {
+              "units": 12,
+              "mse": 0.5202178955078125,
+              "r": 0.9999,
+              "minimum_xi": 4.117440223693848,
+              "candidate_tests": 128
+            },
+            {
+              "units": 13,
+              "mse": 0.5157264471054077,
+              "r": 0.9999,
+              "minimum_xi": 15.941610336303711,
+              "candidate_tests": 128
+            },
+            {
+              "units": 14,
+              "mse": 0.511597216129303,
+              "r": 0.9999,
+              "minimum_xi": 7.961292266845703,
+              "candidate_tests": 128
+            },
+            {
+              "units": 15,
+              "mse": 0.4988575577735901,
+              "r": 0.9999,
+              "minimum_xi": 17.218036651611328,
+              "candidate_tests": 128
+            },
+            {
+              "units": 16,
+              "mse": 0.4906490743160248,
+              "r": 0.9999,
+              "minimum_xi": 2.011272668838501,
+              "candidate_tests": 128
+            },
+            {
+              "units": 17,
+              "mse": 0.48613104224205017,
+              "r": 0.99999,
+              "minimum_xi": 0.08158531785011292,
+              "candidate_tests": 160
+            },
+            {
+              "units": 18,
+              "mse": 0.4851312041282654,
+              "r": 0.9999,
+              "minimum_xi": 5.867252349853516,
+              "candidate_tests": 128
+            },
+            {
+              "units": 19,
+              "mse": 0.47925782203674316,
+              "r": 0.9999,
+              "minimum_xi": 2.0161938667297363,
+              "candidate_tests": 128
+            },
+            {
+              "units": 20,
+              "mse": 0.47485512495040894,
+              "r": 0.9999,
+              "minimum_xi": 0.5131072998046875,
+              "candidate_tests": 128
+            },
+            {
+              "units": 21,
+              "mse": 0.4709092974662781,
+              "r": 0.9999,
+              "minimum_xi": 0.20513415336608887,
+              "candidate_tests": 128
+            },
+            {
+              "units": 22,
+              "mse": 0.46546387672424316,
+              "r": 0.99999,
+              "minimum_xi": 0.2668910622596741,
+              "candidate_tests": 160
+            },
+            {
+              "units": 23,
+              "mse": 0.46437832713127136,
+              "r": 0.9999,
+              "minimum_xi": 1.2058377265930176,
+              "candidate_tests": 128
+            },
+            {
+              "units": 24,
+              "mse": 0.45491451025009155,
+              "r": 0.99999,
+              "minimum_xi": 0.36085182428359985,
+              "candidate_tests": 160
+            },
+            {
+              "units": 25,
+              "mse": 0.45385313034057617,
+              "r": 0.99999,
+              "minimum_xi": 0.014025166630744934,
+              "candidate_tests": 160
+            },
+            {
+              "units": 26,
+              "mse": 0.45260748267173767,
+              "r": 0.9999,
+              "minimum_xi": 0.9961340427398682,
+              "candidate_tests": 128
+            },
+            {
+              "units": 27,
+              "mse": 0.44948023557662964,
+              "r": 0.99999,
+              "minimum_xi": 0.862491250038147,
+              "candidate_tests": 160
+            },
+            {
+              "units": 28,
+              "mse": 0.44553202390670776,
+              "r": 0.99999,
+              "minimum_xi": 0.18689046800136566,
+              "candidate_tests": 160
+            },
+            {
+              "units": 29,
+              "mse": 0.444143146276474,
+              "r": 0.99999,
+              "minimum_xi": 0.1644144207239151,
+              "candidate_tests": 160
+            },
+            {
+              "units": 30,
+              "mse": 0.43824490904808044,
+              "r": 0.99999,
+              "minimum_xi": 0.17963963747024536,
+              "candidate_tests": 480
+            },
+            {
+              "units": 31,
+              "mse": 0.4357665777206421,
+              "r": 0.99999,
+              "minimum_xi": 0.0964602380990982,
+              "candidate_tests": 160
+            },
+            {
+              "units": 32,
+              "mse": 0.4288496673107147,
+              "r": 0.9999,
+              "minimum_xi": 1.2841978073120117,
+              "candidate_tests": 448
+            }
+          ],
+          "final_point_training_mse": 0.4288496673107147,
+          "wall_seconds": 0.5994896630290896
+        },
+        "device": "NVIDIA H200",
+        "torch": "2.12.0+cu130",
+        "neuraloperator": "2.0.0",
+        "test_targets_read": false,
+        "final_architecture_ranking_allowed": false,
+        "statistical_claims_allowed": false
+      }
+    },
+    {
+      "model": "pinn_reference",
+      "status": "COMPLETE",
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 6.22330334992148,
+      "summary": {
+        "status": "TECHNICAL_PILOT_COMPLETE",
+        "model": "pinn_reference",
+        "validation_cases": 4,
+        "mean_validation_mse": 9.088717401670985e-05,
+        "mean_velocity_relative_l2": 0.024968917341722317,
+        "mean_pressure_relative_l2": 0.09146119698564088,
+        "worst_case_gpu_p99_ms": 2.7974518108367925,
+        "gpu_p99_pass_all_cases": true,
+        "wall_seconds": 3.9951581460190937,
+        "cpu_seconds": 3.605942106,
+        "peak_cuda_allocated_bytes": 642368512,
+        "peak_cuda_reserved_bytes": 878706688,
+        "peak_process_rss_kib": 1344124,
+        "training": {
+          "algorithm": "NO_RETRAIN_archived_fixed_k00",
+          "reference": {
+            "id": "fixed_k00",
+            "kind": "fixed",
+            "method": "fixed",
+            "search_run": null,
+            "repeat": 0,
+            "seed": 150001,
+            "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k00/145176/training/best.pt",
+            "checkpoint_sha256": "00a3879ff52f64db3b7b0a907085b8861754f8bde121cdb2bc1ead3a4f0c3b17",
+            "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k00/145176/training/summary.json",
+            "training_summary_sha256": "df6e5315f6e8af025e2b357fcb5418b8784d5f7aa83b4d5cda19a4c96d64201c",
+            "config": {
+              "width": 192,
+              "depth": 4,
+              "latent": 32,
+              "frequencies": [
+                1.0,
+                2.0,
+                4.0,
+                8.0,
+                16.0
+              ],
+              "seed": 150001,
+              "epochs": 400,
+              "batch_cases": 4,
+              "lr": 0.001,
+              "data_points": 2048,
+              "physics_points": 64,
+              "wall_points_per_side": 16,
+              "body_points": 64,
+              "physics_weight": 0.001,
+              "bc_weight": 0.01,
+              "warmup": 2000,
+              "ramp": 2000,
+              "assess_epochs": 10,
+              "pressure_weight": 1.0
+            },
+            "normalization_sha256": "fdf0026e4fcd8770c80df5c24da95d5a51a9919d01c5835420fd2d3e825ab400",
+            "selected_by_VAL": null
+          },
+          "not_comparable_training_budget": true
+        },
+        "device": "NVIDIA H200",
+        "torch": "2.12.0+cu130",
+        "neuraloperator": "2.0.0",
+        "test_targets_read": false,
+        "final_architecture_ranking_allowed": false,
+        "statistical_claims_allowed": false
+      }
+    }
+  ],
+  "successful": 10,
+  "planned": 10,
+  "final_architecture_ranking_allowed": false,
+  "test_targets_read": false
+}

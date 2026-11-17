@@ -1,0 +1,40 @@
+{
+  "status": "ARCHITECTURE_MAIN_MODEL_COMPLETE",
+  "task": {
+    "index": 31,
+    "id": "cascor_s921102",
+    "model": "cascor",
+    "seed": 921102,
+    "device": "cuda"
+  },
+  "selected_recipe": {
+    "id": "cascor_a",
+    "model": "cascor",
+    "device": "cuda",
+    "overrides": {}
+  },
+  "selection_sha256": "5c9577c7bff341bd05209f97d9e05e89ab46d5f58f15dec1740a42dee89c7b57",
+  "best": {
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/cascor_s921102/training/cascor_a/best.pt",
+    "checkpoint_sha256": "0fa26c704edd852a367e7dedd25e4c73ea9f9fdd7ca2bc61649f9d8f9af40a06",
+    "validation_mse": 0.014911220167408359,
+    "epoch": 1,
+    "phase": "cosine"
+  },
+  "phase_candidates": [
+    {
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/cascor_s921102/training/cascor_a/best.pt",
+      "checkpoint_sha256": "0fa26c704edd852a367e7dedd25e4c73ea9f9fdd7ca2bc61649f9d8f9af40a06",
+      "validation_mse": 0.014911220167408359,
+      "epoch": 1,
+      "phase": "cosine"
+    }
+  ],
+  "continuation_performed": false,
+  "continuation_skipped_after_early_stop": false,
+  "phase1_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/cascor_s921102/training/cascor_a/summary.json",
+  "continuation_summary": null,
+  "wall_seconds": 19.714474344975315,
+  "slurm_job_id": "154853",
+  "test_targets_read": false
+}

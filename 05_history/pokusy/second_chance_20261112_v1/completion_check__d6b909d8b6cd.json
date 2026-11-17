@@ -1,0 +1,89 @@
+{
+  "status": "ALL_FOUR_SECOND_CHANCE_LINEAGES_VERIFIED",
+  "checked_at": "2026-11-13T14:03:27.575194+01:00",
+  "source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_second_chance_20261112_v1/continuation/r_a2e6385af02ef1bb",
+  "run_root": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb",
+  "lineages": 4,
+  "TRAIN_VAL_case_loss_comparisons": 9600,
+  "additional_observed_H200_hours": 15.667777777777777,
+  "additional_training_CPU_core_hours": 62.67111111111111,
+  "excluded_from_primary_experiment": true,
+  "no_TEST_targets": true,
+  "no16h_extension_scheduled": true,
+  "float32_Adam_counter_saturation": [
+    {
+      "id": "rbf_s931101_extend8h",
+      "logical_updates": 18061736,
+      "Adam_float32_step": 16777216
+    },
+    {
+      "id": "rbf_s931102_extend8h",
+      "logical_updates": 17968042,
+      "Adam_float32_step": 16777216
+    }
+  ],
+  "integer_visit_and_update_counters_verified": true,
+  "completion_evidence": "Four worker exit0 closeouts, four independent CPU audit PASS records, complete aggregate, empty error logs and queue. Final Slurm records expired.",
+  "inventory": {
+    "small_report_sha256": {
+      "submission.json": "3166c4d5f416ac433d322c1feb92cda45a66b8a9307997f3e44e4cb07ea4333c",
+      "continuation/chebkan_s931102_extend8h/started.json": "684d03db988ecc1fb4952e6b164a327b4e8e38d96af45ecbf586cb58690ffe21",
+      "continuation/chebkan_s931102_extend8h/complete.json": "914d94c719fbb6af3093a6ad211a499a514a1e8f25f1d8c8c80c671b6ffee1f5",
+      "continuation/chebkan_s931102_extend8h/history.json": "867d60a6636615f3d3e82742ea3d6e13cb881a1bb58be7c3937f48bec6ee876e",
+      "continuation/rbf_s931101_extend8h/started.json": "7857256eb01cf3a66f80c62673e96c68ff68a8bbd666fea42fdd88f240e2e5d8",
+      "continuation/rbf_s931101_extend8h/complete.json": "cc61706a609e40d35642c35905fb1d327a4ba04f376d55598c8814726472a3bf",
+      "continuation/rbf_s931101_extend8h/history.json": "74e7ded2bd45418526745f6f91cbabf9189b002d772aa72483e258c7de3499f1",
+      "continuation/chebkan_s931101_extend8h/started.json": "1a2748e0ca722ad3da4e63a02661987dd051e2872efaf22e1898cc4509b36b62",
+      "continuation/chebkan_s931101_extend8h/complete.json": "b40c3f1fbb67924a3dcf03395fd7bb43c0dacb1d8246071bb59471cceec88fa4",
+      "continuation/chebkan_s931101_extend8h/history.json": "f501f444943a28ff88e255e1d6fbea85280e6f8df80e03feb5661a36aa254562",
+      "continuation/rbf_s931102_extend8h/started.json": "8132f39dbf74daf93b338a1831241eaed396c360b2a3ff504df3e771333d5306",
+      "continuation/rbf_s931102_extend8h/complete.json": "98b6c445b36061aa1f5495cc0db8782f6368ed8b32970a4a3695bdb840bbc7c0",
+      "continuation/rbf_s931102_extend8h/history.json": "73a944430bf7a3fdff056b4545941011b0c9aae1f3793076e5e15aeac0cb1555",
+      "allocation_closeout/continuation_2.json": "90e619eaa09f34268e2057af09cbac188e3c30581b156ae7bc7b14d7e60b0d0f",
+      "allocation_closeout/continuation_1.json": "624b0da0fcec56ce2b513e998c40e1461e478a7a1b18ce7589311734bb870a26",
+      "allocation_closeout/continuation_3.json": "60f0601bf3cd6f82483154962f70a04ba876faf54637a4b1a3959bd5e96ae942",
+      "allocation_closeout/continuation_0.json": "6d7882cc6d0652fb4b57dfdc99e50e592f5f7e66c67192c37de07d407538248e",
+      "audit/chebkan_s931102_extend8h/complete.json": "255adc5812e2777958597dfb2c590e812a347d90adc4999a0a62cf1b71b2cf27",
+      "audit/chebkan_s931101_extend8h/complete.json": "58d78eed25d2ccac231473961907b35abee44a63e655f1023b5115f2774f0540",
+      "audit/rbf_s931101_extend8h/complete.json": "1fcb6354d05f9f37c41888b1ccd0ace5af43cc2e0452e4ec348f6d6d2b25c92c",
+      "audit/rbf_s931102_extend8h/complete.json": "f084bb60863727f1741d7962a83d79a8157a98d876cc9e359cffd0afebaa8917",
+      "summary/model_metrics.csv": "81ecbf4edce7092f5513d1005d2e09405e51e3a1c16c2da2290f44605a1848e2",
+      "summary/cost_curves.csv": "dee0884432105cd519829775875044eac33107fecde82665bb3752389ea0561d",
+      "summary/complete.json": "3017a727906c1a8105b00f089bb129de1c01558fb99bf0b68f3a2d90dc2db5cb"
+    },
+    "Perun_only_checkpoints": [
+      {
+        "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/chebkan_s931101_extend8h/best.pt",
+        "bytes": 18403921
+      },
+      {
+        "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/chebkan_s931101_extend8h/last.pt",
+        "bytes": 18460369
+      },
+      {
+        "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/chebkan_s931102_extend8h/best.pt",
+        "bytes": 18456593
+      },
+      {
+        "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/chebkan_s931102_extend8h/last.pt",
+        "bytes": 18460369
+      },
+      {
+        "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/rbf_s931101_extend8h/best.pt",
+        "bytes": 18440321
+      },
+      {
+        "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/rbf_s931101_extend8h/last.pt",
+        "bytes": 18440321
+      },
+      {
+        "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/rbf_s931102_extend8h/best.pt",
+        "bytes": 18438529
+      },
+      {
+        "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_20261112_v1/continuation/run_a2e6385af02ef1bb/continuation/rbf_s931102_extend8h/last.pt",
+        "bytes": 18440321
+      }
+    ]
+  }
+}

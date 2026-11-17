@@ -1,0 +1,56 @@
+HLAVNÉ OPAKOVANIA ARCHITEKTÚR – 11. 11. 2026
+
+Rozsah schválený používateľom: deväť nových metód x päť nezávislých
+tréningov = 45 nových modelov. Päť existujúcich pevných PINN ostáva
+vedľajšou referenciou, bez nového tréningu a bez výberu najlepšieho seedu.
+Výber presných kapacít sa zmrazí až po audite všetkých18 variantov
+a oboch pokračovaní KAN. Vyberá sa najnižšia priemerná fyzikálna MSE
+na160 VAL prípadoch medzi variantmi s nameranou GPU p99<=5ms; ak žiadny
+nevyhovie, rodina ostáva a nesplnenie sa prizná. Finálna latencia sa ešte
+zmeria samostatne. Hraničný výsledok kalibrácie nie je záruka.
+
+Pre každú metódu seedy921101–921105, rovnakých640TRAIN/160VAL, normalizácia
+iba zTRAIN, pevná point fixture ako v kalibrácii. Rovnaké číslo seedu
+neznamená totožné inicializačné koeficienty v rôznych architektúrach.
+Každý beh začína novou inicializáciou; nekopíruje kalibračné váhy.
+TFNO dostáva plné obrazy a husté polia; ostatné rovnaké57 pevné príznaky
+a2048 fluidných bodov/simuláciu. Ide o porovnanie celých postupov,
+nie o izolovaný účinok jadra pri identických vstupoch a hustote supervízie.
+Split obsahuje známe geometrie a nie je testom úplne nových geometrií.
+
+Gradientové metódy: pôvodný overený tréner, Adam0.001, cosine do1e-5,
+max200epoch, clip1, kontrola celejVAL každých20epoch, min100epoch,
+patience5 kontrol. Pre ChebKAN navyše po dosiahnutí200epoch pokračovanie
+max200epoch s konštantným1e-5, obnovou Adam momentov a RNG; bez resetu
+alebo predĺženia periódy cosine. Rovnaké pravidlo pre všetkých päť seedov.
+Ak phase1 skončí skôr pre stagnáciu, pokračovanie sa preskočí a zaznamená.
+Vyberie sa najnižšiaVAL MSE spomedzi checkpointov oboch fáz.
+ELM/SCN/CasCor: rovnaká overená ridge/konštrukčná metóda ako v kalibrácii,
+mean ridge1e-6, bez penalizácie interceptu; všetky skutočné hodnoty v JSON.
+
+Používajú sa nemenné a hashovo overené zdroje kalibrácie a kontroly.
+Interný phase1 report zachováva starý technický názov
+CALIBRATION_TRAINING_COMPLETE, lebo ho tvorí nezmenený overený tréner.
+Rozhodujúci obalový report models/<id>/summary.json nesie stav
+ARCHITECTURE_MAIN_MODEL_COMPLETE, skutočný seed, manifest a vybraný
+checkpoint. Nesmie sa zameniť interný názov za opätovnú kalibráciu.
+
+Pred sériou CPU preflight overí45 jedinečných úloh, seedy, split, všetkých
+deväť vybraných checkpointov, matematické kontroly a krátky diagnostický
+tréning s presnou obnovou. Diagnostický model sa nepočíta do výsledkov.
+CPU metódy:4jadrá, najviac12 súbežne; GPU metódy:jednaH200, najviac5
+súbežne. Jednotný backend v rámci rodiny a počtu opakovaní.
+Úlohy tréningu čakajú afterok na preflight; spoločnáGPU VAL kontrola
+čaká na ukončenie oboch dávok. Táto etapa neotvára Y_test.
+
+Nasledujúca samostatná etapa až po45 úspešných modeloch: rovnakých200TEST
+pre45 nových a5 archivovanýchPINN, chyby po jednotlivých simuláciách,
+fyzikálne diagnostiky a časovania p50/p95/p99. Treba zmeraťGPU aj čas
+volania zhostiteľa; kopírovanie naGPU a vizualizácia sa vykazujú oddelene.
+TEST bol už otvorený v starej štúdii; netvrdíme nový úplne slepý benchmark.
+Žiadna zmena architektúr alebo výberu podľa novýchTEST výsledkov.
+
+Čísla, priebehy, seedy, hashe a všetky slabé výsledky sa zachovajú.
+Päť seedov samo osebe nezaručuje štatistickú významnosť; pri neskoršom
+vyhodnotení sa nepovažujú jednotlivé pixely za nezávislé experimenty.
+Váhy a numerické polia ostávajú naPerune. Lokálne iba maléJSON/TXT/logy.

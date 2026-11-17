@@ -1,0 +1,45 @@
+VARIANT POROVNANIA S PIATIMI OPAKOVANIAMI — 11.11.2026
+Návrh k otázke používateľa; nejde o už spustený alebo zmrazený experiment.
+
+Odporúčanie: po základnom overení učenia zvoliť pre každý nový model jednu
+konfiguráciu podľa TRAIN/VAL, zmraziť ju a päťkrát trénovať od začiatku
+s rôznymi seedmi. Opakovania majú oddelené váhy, logy a výsledky. Nejde
+o päť pokračovaní toho istého tréningu ani o päť konfigurácií.
+Pri ELM/SCN sa menia náhodné príznaky/kandidáti; pri gradientových sieťach
+inicializácia a náhodné voľby tréningu. Každý beh používa všetkých 640
+tréningových prípadov; výber bodov či minibatchov sa musí dokumentovať.
+
+Celá sada v tomto kontexte znamená celú TRAIN časť. VAL 160 slúži na
+výber a zastavenie učenia, TEST 200 iba na záverečné vyhodnotenie podľa
+zmrazených pravidiel. VAL ani TEST ciele nesmú vstupovať do tréningovej
+straty. Starší experiment už TEST použil; neoznačovať ho za nový slepý test.
+
+Počty: FNO/TFNO a osem alternatív = 9 nových modelov x 5 = 45 nových
+záverečných tréningov. Na Perune 11.11.2026 read-only overených päť
+archívnych fixed PINN checkpointov fixed_k00–fixed_k04, seed 150001–150005;
+všetky existujú. PINN môže zostať vedľajšou referenciou s týmito piatimi
+behmi bez pretrénovania. Pri vyhodnotení treba znovu overiť ich hashe a
+kompatibilitu dát/merania. Pôvodný tréning PINN sa nezamieňa za nový tréning
+pri presne rovnakom rozpočte ako alternatívy.
+
+Zachováme-li návrh dvoch skúšobných konfigurácií na nový model, je navyše
+18 ladiacich tréningov, spolu 63 nových tréningov. Pri plánovacom limite
+1 GPU-h na tréning je to 63 GPU-h + 10 GPU-h vyhodnotenie + 5 GPU-h rezerva
+= 78 GPU-h, zaokrúhlene rezervovať 80 GPU-h. Pri štyroch CPU na GPU úlohu
+320 CPU core-h + 10 core-h samostatné audity = približne 330 CPU core-h.
+Jednohodinový limit je zatiaľ iba rozpočtový predpoklad. Ak meranie na
+celej TRAIN sade ukáže, že nestačí, musí sa rozpočet a protokol upraviť
+pred definitívnym porovnaním. Nejde o garantovanú spotrebu ani konvergenciu.
+
+Vyhodnotiť všetkých päť behov, nie len najlepší. Uviesť priemer, rozptyl
+alebo smerodajnú odchýlku, jednotlivé výsledky a neúspešné behy. Opakovania
+ukazujú citlivosť na náhodnosť pri danom rozdelení a zvolenej konfigurácii;
+nepokrývajú všetku neistotu výberu dát/hyperparametrov a nezaručujú
+štatistickú významnosť. Nezamieňať body jedného poľa za nezávislé tréningy.
+Formálny štatistický postup sa tu nezmrazuje.
+
+Primárny metodický podklad: Bouthillier et al. (2021), Accounting for
+Variance in Machine Learning Benchmarks, Proceedings of MLSys 3.
+https://proceedings.mlsys.org/paper_files/paper/2021/hash/0184b0cd3cfb185989f858a1d9f5c1eb-Abstract.html
+Článok podporuje zohľadnenie rôznych zdrojov variability; nepredpisuje
+univerzálne päť behov ani nepotvrdzuje náš rozpočet.

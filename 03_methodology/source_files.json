@@ -810,12 +810,6 @@
     "bytes": 1243
   },
   {
-    "source": "experiment_3d_llm_flow/test/architecture_closeout_20261117_v1/Perun_status_20261117.json",
-    "target": "01_results/final/Perun_status_20261117.json",
-    "sha256": "923a0f2363d5e9e5f8dae55e78c3d8336c426a0cf6b8431ea3f1cc65e0087e8c",
-    "bytes": 500
-  },
-  {
     "source": "experiment_3d_llm_flow/test/architecture_closeout_20261117_v1/POROVNANIE_55_MODELOV.txt",
     "target": "01_results/final/POROVNANIE_55_MODELOV.txt",
     "sha256": "41556d05b3adabce12887d5b9c7bac2966a0880d797ff15f4fe5aeb12a5c0976",
@@ -826,12 +820,6 @@
     "target": "01_results/final/summary_55.json",
     "sha256": "dabc54c47604eff03648a750742de81d736a8801367e8d61c4aacdda60a5c69c",
     "bytes": 37192
-  },
-  {
-    "source": "experiment_3d_llm_flow/test/architecture_closeout_20261117_v1/ZOSTAVAJUCE_KROKY.txt",
-    "target": "01_results/final/ZOSTAVAJUCE_KROKY.txt",
-    "sha256": "40b05a50003ee5ab222216e3a780fc0d850c10755d295db8555867960126b40b",
-    "bytes": 2004
   },
   {
     "source": "experiment_3d_llm_flow/test/architecture_budget_test_20261112_v1/report/audit/case_metrics.csv",

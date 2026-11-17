@@ -1,0 +1,8 @@
+{
+  "id": "cascor_b",
+  "model": "cascor",
+  "device": "cuda",
+  "overrides": {
+    "constructive_width": 64
+  }
+}

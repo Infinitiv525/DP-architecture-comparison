@@ -1,0 +1,17 @@
+{
+  "status": "ALL9_ONE_CASE_BENCHMARK_COMPLETE",
+  "device": "cuda",
+  "models": [
+    "tfno",
+    "chebkan",
+    "pinet",
+    "dendrite",
+    "realnpu",
+    "rbf",
+    "elm",
+    "scn",
+    "cascor"
+  ],
+  "test_targets_read": false,
+  "note": "Technical checks and cost timing only; this is not full-cohort accuracy evidence."
+}

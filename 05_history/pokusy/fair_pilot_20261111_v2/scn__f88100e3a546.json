@@ -1,0 +1,96 @@
+{
+  "model": "scn",
+  "device": "cuda",
+  "case_id": 928,
+  "native_target_values": 786432,
+  "encoded_rows": 4096,
+  "input_channels": 665,
+  "output_channels": 192,
+  "scope": "One complete TRAIN simulation. No TEST targets. Timing estimates are not guarantees.",
+  "adapter_checks": {
+    "loss_native": 0.0023806621320545673,
+    "loss_packed": 0.0023806618992239237,
+    "gradient_max_difference": 8.554934538551606e-11,
+    "geometry_roundtrip_max_error": 8.940696716308594e-08,
+    "target_roundtrip_max_error": 2.384185791015625e-07
+  },
+  "initial_output_fit": {
+    "cases": 1,
+    "rows": 4096,
+    "normal_equation_relative_residual": [
+      2.067987395425547e-16,
+      5.71069297286433e-17,
+      1.660465081678283e-16
+    ],
+    "ridge": 1e-08
+  },
+  "first_candidate": {
+    "radius": 0.5,
+    "relaxation": 0.999,
+    "minimum_xi": 4.991101985236332e-07,
+    "candidate_tests": 48
+  },
+  "first_candidate_seconds": 0.05363254202529788,
+  "one_node_output_refit": {
+    "cases": 1,
+    "rows": 4096,
+    "normal_equation_relative_residual": [
+      5.230814577832536e-16,
+      8.376843846788225e-16,
+      2.908913781159732e-16
+    ],
+    "ridge": 1e-08
+  },
+  "late_growth_basis": {
+    "seconds": [
+      0.0005353059386834502,
+      0.00030829396564513445
+    ],
+    "median_seconds": 0.00042179995216429234
+  },
+  "late_growth_gram_case": {
+    "seconds": [
+      0.0012108020018786192,
+      0.000789197045378387
+    ],
+    "median_seconds": 0.000999999523628503
+  },
+  "late_growth_solve": {
+    "seconds": [
+      0.006206111051142216,
+      0.005901352036744356
+    ],
+    "median_seconds": 0.006053731543943286
+  },
+  "measured_training_work_seconds": 0.13044906605500728,
+  "one_case_raw_loss_after": 0.9591492414474487,
+  "inference_full_path": {
+    "seconds": [
+      0.0004136530915275216,
+      0.00037918996531516314,
+      0.0003552349517121911,
+      0.00034875504206866026,
+      0.0003530910471454263,
+      0.0003406429896131158,
+      0.00033765798434615135,
+      0.0003493360709398985,
+      0.0003337729722261429,
+      0.0003391510108485818
+    ],
+    "median_seconds": 0.0003490455565042794
+  },
+  "checkpoint_restore_max_difference": 0.0,
+  "parameter_ledger_current": {
+    "trainable_real_scalars": 0,
+    "data_fitted_frozen_real_scalars": 394,
+    "data_selected_frozen_real_scalars": 666,
+    "data_independent_core_real_scalars": 0,
+    "learned_or_fitted_total": 1060,
+    "total_core_coefficients_plus_normalization": 1060,
+    "common_adapter_buffer_bytes": 2459688,
+    "core_tensor_bytes": 4200,
+    "accounting_only": true
+  },
+  "peak_GPU_allocated_bytes": 331467776,
+  "status": "ONE_CASE_TIMING_AND_TECHNICAL_CHECKS_COMPLETE"
+}

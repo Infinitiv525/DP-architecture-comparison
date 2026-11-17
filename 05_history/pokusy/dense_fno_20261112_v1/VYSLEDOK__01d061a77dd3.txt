@@ -1,0 +1,16 @@
+ZAVERECNE TESTOVANIE ARCHITEKTUR DOKONCENE
+
+5 novych dense FNO modelov x200 TEST simulacii =1000 overenych poli.
+Zachovane vsetkych5 opakovani kazdej metody; ziadny vyber podlaTEST.
+Surove polia a casovania su naPerune. CSV obsahuje chyby a latencie.
+GPU a merany cas volania zo systemu su vykazane samostatne.
+Merany cas hostitela zahrna dve CUDA udalosti a synchronizaciu;
+prenos vstupov naGPU a vizualizacia nie su v tomto merani.
+
+Metoda          TEST MSE       rychlost L2[%] tlak L2[%] GPU<=5ms host<=5ms
+fno            1.5439836e-05         0.811      1.666        5/5        5/5
+
+Dense FNO dodatok: rovnake plne vstupy,supervizia a zdrojovyrozpocet ako povodnych9rodin.
+Autori FlowBench vo svojom kode pouzivaju TFNO; toto je dodatocny dense FNO variant.
+Split obsahuje zname geometrie. TEST uz bol otvoreny v starej studii.
+Toto je opisne vyhodnotenie; samostatne nevyhlasuje statisticku vyznamnost.

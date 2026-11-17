@@ -1,0 +1,15 @@
+ZÁVEREČNÉ TESTOVANIE AJ AUDIT SÚ DOKONČENÉ
+
+45 nových modelov (9 rodín × 5 opakovaní) + 5 historických PINN referencií.
+Každý z 50 modelov je vyhodnotený na rovnakých 200 TEST prípadoch.
+Všetkých 10 000 polí a 10 miliónov párov časovaní overil CPU audit.
+Všetky úlohy úspešné (exit 0), front prázdny. Nové tréningy sa nespustili.
+
+Najnižšie priemerné chyby: TFNO. Z alternatív najlepšie RealNPU,
+ktoré splnilo aj scenárové p99 ≤ 5 ms pri všetkých piatich modeloch.
+Pri TFNO časový cieľ splnili tri z piatich modelov.
+Ide o ustálené polia a opisné výsledky, nie o štatistickú významnosť.
+
+Čitateľný prehľad: VYSLEDKY.txt. Čísla: report/audit/*.csv a summary.json.
+Protokol: protokol.txt. Dodatočná kontrola: completion_check.json.
+Veľké súbory, váhy a časovania ostávajú na Perune.

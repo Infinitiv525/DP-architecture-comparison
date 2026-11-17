@@ -1,0 +1,36 @@
+{
+  "task": {
+    "index": 38,
+    "id": "elm_s921104",
+    "model": "elm",
+    "seed": 921104,
+    "device": "cpu"
+  },
+  "selected": {
+    "model": "elm",
+    "recipe": {
+      "id": "elm_b",
+      "model": "elm",
+      "device": "cpu",
+      "overrides": {
+        "constructive_width": 256
+      }
+    },
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/elm_b/best.pt",
+    "checkpoint_sha256": "4ea62325dbf1769091ba63abd03d0266d410be80dabafa31f12d4d8b49ee4671",
+    "calibration_validation_mse": 0.0219174609369308,
+    "review_gpu_p99_ms": 1.3294399976730347,
+    "latency_criterion_met": true,
+    "selection_status": "FEASIBLE",
+    "continuation": false,
+    "review_role": "audit",
+    "counts": {
+      "core_parameter_elements": 0,
+      "core_parameter_real_scalar_equivalents": 0,
+      "core_buffer_elements": 15619,
+      "core_buffer_real_scalar_equivalents": 15619,
+      "registered_pipeline_buffer_bytes": 25228340
+    }
+  },
+  "selection_sha256": "5c9577c7bff341bd05209f97d9e05e89ab46d5f58f15dec1740a42dee89c7b57"
+}

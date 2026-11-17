@@ -1,0 +1,53 @@
+DIAGNOSTIKA SLABEJ PRESNOSTI – ZMRAZENE MODELY
+
+Kontrola len cita existujuce modely, bez noveho treningu a bezTEST.
+Pre8 bodovych metod pouzita prva nezavisla verzia seed921101.
+TRAIN:640scenarovx2048pevnychbodov. VAL:160scenarovx2048fluidnychbodov
+s nezavislym pevnym vzorkovanim. Vsetci maju rovnaku normalizaciu zTRAIN.
+Nejde o novy vyber modelov alebo upravu vysledkov povodneho200TEST.
+
+Metoda       TRAIN normMSE VAL normMSE TRAIN pL2[%] VAL pL2[%]
+chebkan         0.012423    0.012919        23.05      23.43
+pinet           0.074359    0.074799       105.28     108.03
+dendrite        0.074279    0.074522       105.03     107.35
+realnpu         0.026364    0.025270        38.66      39.76
+rbf             0.146299    0.146535       125.17     130.21
+cascor          0.232634    0.236706       168.29     171.00
+elm             0.346955    0.356963       193.71     200.74
+scn             0.355549    0.364108       197.35     203.32
+
+NormMSE je surova normalizovana loss bodoveho jadra. pL2 je pomocna
+relativnaL2 tlaku centrovana na vybranych2048bodoch kazdeho scenara.
+Nie je totozna s povodnou finalnou metrikou na celom512x512poli.
+Preto napriklad diagnostickaELM VAL pL2~201% nie je oprava povodneho
+nativneho cisla~193%; ide o odlisny sposob vzorkovaneho merania.
+
+ZISTENIE:TRAIN ajVAL chyba su podobne vysoke. Slaba presnost nevznika
+az pri prechode na noveVALscenare. Zodpoveda nedostatocnemu fitu pri
+zvolenych vstupoch,kapacite a optimalizacii. Samotna diagnostika vsak
+neoddeluje tieto priciny ani nedokazuje vseobecnu nevhodnost architektur.
+
+Zname rozdiely navrhu: FNO dostava plnu geometriu a plnepolia; bodove
+jadra57pevnychpriznakov,vratane4x4globalnehozdruzenia geometrie a
+lokalnejmasky/SDF,plus2048bodov/scenar. FNO1253289ucenychrealnych
+skalarov;ELM771fitovanych vystupnychkoeficientov+pevne nahodne vahy.
+Najmensie kapacity nie su cisty test schopnosti celej rodiny sieti.
+
+Tlakova skala sa meni sRe: voVALkvartilochELM je referencnyRMS tlaku
+priblizne0.492,0.150,0.051,0.031;diagnosticka relativnachyba0.71,0.76,
+2.62,3.94. Globalna absolutnaMSE dava pri rovnakej relativnej chybe
+vacsiu vahu pripadom s vacsim tlakom. Je to kandidat na riadenu kontrolu
+loss/skalovania,nie preukazany jediny zdroj problemu.
+
+DALSIE KONTROLY PRED NOVOU HLAVNOU SERIOU:
+1. Overit moznost presneho fitu na1az8TRAINscenaroch ako diagnostiku.
+2. Oddelene menit kapacitu a zachovanie geometrickych informacii.
+3. Oddelene preverit hustotu bodov a relativne/skalovane ucenie tlaku.
+4. Posudit zmeny naTRAIN/VAL,potom zmrazit porovnatelny protokol a
+   opakovania. Existujuce vysledky zachovat ako zdokumentovanu kohortu;
+   neprepisovat ich a nevyberat konfiguracie podlaTEST.
+
+Prvy pomocnybeh155978 zlyhal na neexistujucomatribute data.inputs.
+Zdroj opraveny na metadata z data.cases,nova revizia r_86b8434c7df62999.
+155979 uspesny po12s. Pôvodnyfailedreceipt a logy zachovane.
+Povodne treningy,vahy,data a protokol beziacehoTEST neboli menene.

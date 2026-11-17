@@ -1,0 +1,51 @@
+[
+  {
+    "status": "DENSE_FNO5_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "fno_s931104",
+      "model": "fno",
+      "seed": 931104,
+      "group": 3,
+      "kind": "posthoc_resource_matched_dense_fno_supplement",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931104/best.pt",
+      "checkpoint_sha256": "fa07f210327effb6908bb31e5f2514ed44fff912066e6b8fcc4df537491bfa70",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.014362535439431667,
+          "pressure_l2": 0.03589591011404991
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.008456331677734852,
+          "pressure_l2": 0.014085114933550358
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 12672888,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 12672898,
+        "total_core_coefficients_plus_normalization": 12672898,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 50691552,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931104/complete.json",
+      "training_summary_sha256": "42494ddcd5c1af171da3e2381fdaec6ca5269216d3bf78df4096a1a5f4524148",
+      "training_elapsed_seconds": 14101.958909685956,
+      "training_stop_reason": "training_time_budget"
+    },
+    "means": {
+      "all_cell_mse": 1.5196731829341959e-05,
+      "fluid_velocity_relative_l2": 0.008009438765225483,
+      "fluid_pressure_relative_l2": 0.016294337779394995
+    },
+    "worst_case_gpu_p99_ms": 2.5582415890693664,
+    "worst_case_host_p99_ms": 2.58464764,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true,
+    "elapsed_seconds": 491.43547278502956
+  }
+]

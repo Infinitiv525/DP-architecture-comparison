@@ -1,0 +1,12 @@
+{
+  "learning_execution_loop_unchanged": true,
+  "original_worker_sha256": "322534dbd0b7d949dc078c4fd16e45fab0f8f94e852d89a6a135803a6be48141",
+  "unchanged_loop_sha256": "ed051fce6aef6bcb7d79eaadb366efbfd3f3378b82d39fbec9bbbc57e02cac70",
+  "changes": [
+    "read selected45task manifest",
+    "one-minute preflight administrative mode",
+    "five-minute validation cadence",
+    "record peak CUDA allocation",
+    "policy reference-resource budget4GPU-h and40GiB host RAM"
+  ]
+}

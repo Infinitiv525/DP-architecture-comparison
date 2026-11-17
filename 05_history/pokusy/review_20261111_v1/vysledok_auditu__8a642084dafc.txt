@@ -1,0 +1,36 @@
+NEZÁVISLÁ KONTROLA KALIBRÁCIE – 11. 11. 2026
+
+Všetkých18 modelov prešlo: 2880 znovu vypočítaných VAL polí a72
+uložených vzorových polí. Overené zdrojové hashe, konečnosť, maska telesa,
+tlakový gauge a zhoda nezávislého NumPy skórovania s pôvodným reportom.
+Žiadny TEST cieľ sa neotvoril. Výsledky sú z jedného kalibračného seedu.
+
+Variant       VAL MSE         rýchlosť L2[%] tlak L2[%]  GPU p99[ms] <=5ms
+tfno_a        1.3318062e-05       1.205       3.657       3.4605 áno
+tfno_b        1.1247848e-05       0.974       3.203       4.9884 áno
+chebkan_a     0.0012000139       7.184      24.806       3.8597 áno
+chebkan_b     0.00086171254       5.007      18.327       5.7610 nie
+pinet_a       0.0053571207      12.841     105.413       1.2897 áno
+pinet_b       0.005357634      12.728     106.438       1.8872 áno
+dendrite_a    0.0053388716      12.796     104.704       1.2411 áno
+dendrite_b    0.0053598135      12.692     106.568       2.2324 áno
+realnpu_a     0.0022320358      17.510      47.785       1.0858 áno
+realnpu_b     0.0015053115      14.289      42.094       1.2446 áno
+rbf_a         0.010825002      20.945     128.122       1.3349 áno
+rbf_b         0.0099746239      19.364     130.891       1.8734 áno
+cascor_a      0.014678526      26.806     164.477       4.5661 áno
+cascor_b      0.010748071      21.762     126.148       9.6209 nie
+elm_a         0.028616774      62.739     181.486       0.7198 áno
+elm_b         0.021917461      39.277     190.491       1.3294 áno
+scn_a         0.026867795      56.217     189.864       0.7198 áno
+scn_b         0.021254025      38.964     195.683       0.9852 áno
+
+GPU: NVIDIA H200, celé natívne pole512x512, vstupy už naGPU.
+Časovanie16 zmrazených VAL prípadov,100 zahriatí,1000 meraní na prípad.
+FNO tri vopred určené bloky, ostatné jeden. V tabuľke najhoršia p99
+spomedzi prípadov a blokov. Nezahŕňa kopírovanie dát ani vykreslenie.
+Väčší FNO je tesne pod hranicou; výsledok sa znovu preverí pri finále.
+Rôzne vstupné reprezentácie a hustota supervízie: porovnanie postupov,
+nie izolovaný účinok architektúry. Päť nezávislých opakovaní ešte nasleduje.
+ChebKAN navyše prešiel predĺžením na400epoch; tabuľka vyššie zachováva
+pôvodné200epochové checkpointy. Pokračovania majú samostatné reporty.

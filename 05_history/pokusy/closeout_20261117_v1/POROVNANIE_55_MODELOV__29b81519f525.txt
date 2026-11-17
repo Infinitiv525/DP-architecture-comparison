@@ -1,0 +1,63 @@
+UZAVRETÉ POROVNANIE ARCHITEKTÚR — STAV K 17. 11. 2026
+
+Hotové je pôvodné porovnanie deviatich rodín po päť modelov, päť
+dodatočných dense FNO modelov a päť pomocných PINN referencií.
+Spolu 55 uložených modelov × 200 TEST scenárov = 11 000 predikčných polí.
+Surové časovania obsahujú 11 miliónov párov GPU/host meraní.
+Druhá šanca ChebKAN/RBF ostáva v samostatnom reporte a do tabuľky sa nepridáva.
+
+Metóda       Rýchlosť L2 [%]       Tlak L2 [%]        Splnené p99≤5ms
+------------------------------------------------------------------------
+TFNO          0.758 ± 0.021       1.561 ± 0.025       3/5
+FNO*          0.811 ± 0.013       1.666 ± 0.028       5/5
+ChebKAN       6.016 ± 0.278       8.364 ± 0.410       5/5
+PiNet        10.118 ± 0.112      27.194 ± 0.050       5/5
+Dendrite      9.883 ± 0.151      26.964 ± 0.068       5/5
+RealNPU       1.716 ± 0.022       2.074 ± 0.019       5/5
+RBF           7.260 ± 0.085      13.988 ± 0.171       5/5
+ELM          38.216 ± 0.277      75.990 ± 0.449       5/5
+SCN          41.592 ± 1.392      76.101 ± 0.959       5/5
+CasCor       52.872 ± 0.647      86.013 ± 1.246       2/5
+PINN**        2.407 ± 0.111       8.601 ± 0.245       5/5
+
+Chyby sú priemery relatívnych L2 chýb v tekutine. ± je výberová SD
+piatich modelových priemerov; každý modelový priemer obsahuje 200 prípadov.
+P99 limit splní model iba vtedy, keď p99 neprekročí 5 ms v žiadnom
+z jeho 200 TEST prípadov. Neznamená to maximálny čas každého volania.
+Meria sa celý výstup ustáleného poľa u/v/p so vstupom už na H200,
+batch 1, FP32, TF32 vypnuté. Prenos dát a vykreslenie sú mimo merania.
+Nie je to meranie časového kroku dynamickej simulácie.
+
+* Dense FNO je dodatočný variant, pridaný až po znalosti pôvodných TEST
+výsledkov. Má rovnaké vstupy, stratu a najviac 4h rozpočet, ale odstránená
+faktorizácia zvýšila počet parametrov. Pôvodní autori FlowBench vo svojom
+kóde sami používajú TFNO; naša adaptácia nie je presná reprodukcia článku.
+** PINN je historická pomocná referencia s inou reprezentáciou a učením;
+nie je plne kontrolovaným súťažiacim nového deväťrodinového protokolu.
+Split obsahuje známe geometrie a TEST už bol otvorený v starších štúdiách.
+Tabuľka je opisné porovnanie, nevyhlasuje štatistickú významnosť.
+
+Čo sa dá z výsledkov priamo povedať
+TFNO má najnižšie priemerné relatívne chyby rýchlosti a tlaku. Dense FNO
+je v týchto chybách blízko a všetkých päť jeho modelov splnilo p99 cieľ.
+RealNPU je z ôsmich pôvodných alternatív najsilnejšie podľa priemerných
+relatívnych chýb a všetkých päť modelov splnilo aj časový cieľ.
+Poradie sa môže líšiť podľa použitej metriky; úplné MSE aj fyzikálne
+diagnostiky sú v pôvodných prípadových reportoch, nie iba v tejto tabuľke.
+
+Samostatná druhá šanca
+ChebKAN a RBF pokračovali s dvoma vopred určenými seedmi ďalšie štyri
+GPU hodiny pri zachovanom Adam a koncovom LR. ChebKAN znížilo VAL stratu
+o 11,29 % a 15,21 %, RBF o 8,13 % a 4,99 %. Dodatok spotreboval podľa
+closeoutov 15,6678 dodatočných H200-h. Celý čas jednej línie bol asi
+7,834 h pri nominálnom strope 8 h. Toto nie sú nové TEST výsledky.
+Dodatok ukazuje mierny prínos ďalšieho učenia pri konkrétnom koncovom LR,
+nepreukazuje minimálny potrebný čas ani optimálne nastavenie architektúry.
+
+Kde sú podrobnosti
+../architecture_dense_fno_20261112_v1/VYSLEDKY.txt — dense FNO.
+../architecture_second_chance_20261112_v1/VYSLEDKY.txt — druhá šanca.
+../architecture_training_diagnostics_20261112_v1/VYSVETLENIE.txt — diagnostika 45 modelov.
+summary_55.json — presné agregáty a všetkých 55 modelových súhrnov.
+Váhy, natívne polia a surové časovacie polia ostávajú na Perune.
+Žiadny ďalší tréning ani šestnásťhodinové pokračovanie sa teraz nespúšťa.

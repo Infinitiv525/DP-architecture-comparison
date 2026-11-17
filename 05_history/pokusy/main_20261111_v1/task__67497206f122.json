@@ -1,0 +1,36 @@
+{
+  "task": {
+    "index": 24,
+    "id": "realnpu_s921105",
+    "model": "realnpu",
+    "seed": 921105,
+    "device": "cpu"
+  },
+  "selected": {
+    "model": "realnpu",
+    "recipe": {
+      "id": "realnpu_b",
+      "model": "realnpu",
+      "device": "cpu",
+      "overrides": {
+        "npu_width": 64
+      }
+    },
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/realnpu_b/best.pt",
+    "checkpoint_sha256": "5da817c027713a5b208d95c0b5feea8a5f1edec351e8d87bb094d7501d76d135",
+    "calibration_validation_mse": 0.001505311503098432,
+    "review_gpu_p99_ms": 1.2446099638938903,
+    "latency_criterion_met": true,
+    "selection_status": "FEASIBLE",
+    "continuation": false,
+    "review_role": "audit",
+    "counts": {
+      "core_parameter_elements": 3900,
+      "core_parameter_real_scalar_equivalents": 3900,
+      "core_buffer_elements": 0,
+      "core_buffer_real_scalar_equivalents": 0,
+      "registered_pipeline_buffer_bytes": 25165864
+    }
+  },
+  "selection_sha256": "5c9577c7bff341bd05209f97d9e05e89ab46d5f58f15dec1740a42dee89c7b57"
+}

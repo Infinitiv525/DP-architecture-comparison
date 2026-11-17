@@ -1,0 +1,105 @@
+{
+  "status": "PAIRED_ONE_CASE_BENCHMARK_REVIEWED",
+  "available_GPU_hours": 500,
+  "available_CPU_core_hours": 29000,
+  "selected_repetitions": 5,
+  "reduce_to_three_if_measured_budget_requires": true,
+  "CPU_families": [
+    "realnpu",
+    "rbf",
+    "pinet",
+    "elm",
+    "dendrite",
+    "chebkan",
+    "tfno"
+  ],
+  "GPU_families": [
+    "scn",
+    "cascor"
+  ],
+  "measured_gradient_projections": [
+    {
+      "model": "tfno",
+      "chosen_device": "cpu",
+      "measured_complete_case_update_seconds": 0.047397286049090326,
+      "projected_400_epoch_wall_hours": 3.3704736746019788,
+      "projected_five_runs_CPU_core_hours": 67.40947349203958,
+      "uncertainty": "Single-case steady-state measurement excludes validation/checkpointing/data load and convergence differences."
+    },
+    {
+      "model": "chebkan",
+      "chosen_device": "cpu",
+      "measured_complete_case_update_seconds": 0.14030119602102786,
+      "projected_400_epoch_wall_hours": 9.976973939273092,
+      "projected_five_runs_CPU_core_hours": 199.53947878546185,
+      "uncertainty": "Single-case steady-state measurement excludes validation/checkpointing/data load and convergence differences."
+    },
+    {
+      "model": "pinet",
+      "chosen_device": "cpu",
+      "measured_complete_case_update_seconds": 0.11095822299830616,
+      "projected_400_epoch_wall_hours": 7.890362524323994,
+      "projected_five_runs_CPU_core_hours": 157.80725048647986,
+      "uncertainty": "Single-case steady-state measurement excludes validation/checkpointing/data load and convergence differences."
+    },
+    {
+      "model": "dendrite",
+      "chosen_device": "cpu",
+      "measured_complete_case_update_seconds": 0.1258383709937334,
+      "projected_400_epoch_wall_hours": 8.948506381776598,
+      "projected_five_runs_CPU_core_hours": 178.97012763553195,
+      "uncertainty": "Single-case steady-state measurement excludes validation/checkpointing/data load and convergence differences."
+    },
+    {
+      "model": "realnpu",
+      "chosen_device": "cpu",
+      "measured_complete_case_update_seconds": 0.2645892599830404,
+      "projected_400_epoch_wall_hours": 18.81523626546065,
+      "projected_five_runs_CPU_core_hours": 376.304725309213,
+      "uncertainty": "Single-case steady-state measurement excludes validation/checkpointing/data load and convergence differences."
+    },
+    {
+      "model": "rbf",
+      "chosen_device": "cpu",
+      "measured_complete_case_update_seconds": 0.12691958399955183,
+      "projected_400_epoch_wall_hours": 9.02539263996813,
+      "projected_five_runs_CPU_core_hours": 180.5078527993626,
+      "uncertainty": "Single-case steady-state measurement excludes validation/checkpointing/data load and convergence differences."
+    }
+  ],
+  "constructive_projections": {
+    "scn": {
+      "chosen_device": "cuda",
+      "late_basis_max_seconds": 0.0005353059386834502,
+      "late_gram_max_seconds": 0.0012108020018786192,
+      "first_candidate_seconds": 0.05363254202529788,
+      "planned_units": 1577,
+      "conservative_component_projection_GPU_hours_per_run": 16.12873477384681,
+      "five_runs_GPU_hours": 80.64367386923405,
+      "limitation": "Cost projection from first and untrained late-size work units; candidate rejection and growing conditioning can change it. Full-data pilot must refine it."
+    },
+    "cascor": {
+      "chosen_device": "cuda",
+      "late_basis_max_seconds": 0.044718054006807506,
+      "late_gram_max_seconds": 0.001341158989816904,
+      "first_candidate_seconds": 0.0037065889919176698,
+      "planned_units": 927,
+      "conservative_component_projection_GPU_hours_per_run": 37.68177557006915,
+      "five_runs_GPU_hours": 188.40887785034573,
+      "limitation": "Cost projection from first and untrained late-size work units; candidate rejection and growing conditioning can change it. Full-data pilot must refine it."
+    }
+  },
+  "full_data_pilot": {
+    "configurations_per_family": 2,
+    "gradient_epochs": 50,
+    "constructive_units": 128,
+    "direct_ELM": "two complete weighted native fits",
+    "GPU_max_allocation_hours": 16,
+    "CPU_max_allocation_core_hours": 336
+  },
+  "CPU_and_GPU_benchmarks_complete": true,
+  "accuracy_cutoff": null,
+  "decision": "Use CPU for six gradient methods and ELM; GPU for SCN/CasCor. Keep five as the plan; launch only the bounded full-data pilot, not 45 final trainings.",
+  "maximum_reserved_GPU_hours_for_final_assessment": 60,
+  "no_automatic_final_launch": true
+}

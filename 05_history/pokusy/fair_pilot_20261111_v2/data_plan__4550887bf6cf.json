@@ -1,0 +1,50 @@
+{
+  "train_ids": [
+    928
+  ],
+  "validation_ids": [
+    341
+  ],
+  "cases": [
+    {
+      "index": 928,
+      "phase": "train",
+      "reynolds": 384.0,
+      "geometry_hash": "b0e441df84b331fb75a978a35eddad5791ff787b2798204b4095a831c2ebb6a6"
+    },
+    {
+      "index": 341,
+      "phase": "validation",
+      "reynolds": 903.0,
+      "geometry_hash": "79a1bda776c30e65f234871bb991035a4c40f8ba8d82e62a4edc3f4ff2af314f"
+    }
+  ],
+  "input_revision": "937c672604d4c9f39aceedf1fa2f0a603695264b",
+  "normalization": {
+    "target_mean": [
+      0.001105676085176367,
+      -0.0008026961615262943,
+      2.487567464712493e-11
+    ],
+    "target_std": [
+      0.19154282465036498,
+      0.1350667922297031,
+      0.2857597197454343
+    ],
+    "target_fluid_points": 148754654,
+    "geometry_mean": [
+      0.886646831035614,
+      0.36494894616530166
+    ],
+    "geometry_std": [
+      0.31075343595726984,
+      0.2738975038115574
+    ],
+    "source": "TRAIN only; pressuregauge fluid mean per sample; no TESTtargets"
+  },
+  "prepared_sha256": "bccc653832466b229b24e2426f9897298af3d6173241704565afe207fd1e978d",
+  "split_sha256": "4b5b8baa9d8c1cec6992921a66c393c2f381504dd8dc1632eb1c9923ad4530ff",
+  "test_targets_read": false,
+  "known_geometry_split": true,
+  "case_selection": "first 1 TRAIN / first 1 VAL in frozen split order; no target-based selection"
+}

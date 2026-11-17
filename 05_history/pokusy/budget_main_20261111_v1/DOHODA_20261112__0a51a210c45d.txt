@@ -1,0 +1,34 @@
+POTVRDENÁ DOHODA A KONTROLA — 12. 11. 2026
+
+Najprv dokončiť dohodnutých 45 nových modelov a zachovať existujúcu
+PINN referenciu. Potom záverečné testovanie. Až po uzavretí tejto série
+prichádzajú do úvahy ďalšie samostatne označené experimenty.
+Zvýšená kvóta nemení metodiku, počet opakovaní ani rozpočet na model.
+
+Podľa používateľovej snímky: pridelených 4 137 GPU-h, použitých 1 867,
+zostatok v čase snímky 2 270 GPU-h. Nie je to nové portálové vyúčtovanie.
+
+VPN bola pri prvom pokuse odpojená; SSH nebolo dostupné. Po používateľovom
+pripojení sa spojenie obnovilo. Aktuálne overených 32 hotových z 45,
+8 bežiacich a 5 čakajúcich modelov. Každý z 32 dokončených pracoval
+so všetkými 640 TRAIN scenármi a má metriky všetkých 160 VAL prípadov.
+Počet prechodov sa medzi architektúrami líši, spoločný je zdrojový strop.
+Stop dôvody: 24 po vyčerpaní rozpočtu, 4 po úplnom priamom ELM fite,
+4 po algoritmickom ukončení SCN. Žiadne stderr pri aktuálnej kontrole.
+
+Všetkých 32 vybraných checkpointov má SHA zhodné s výsledkovým reportom.
+Zhodné sú aj SHA všetkých piatich existujúcich PINN checkpointov a
+zmrazených zdrojov hlavnej série. Táto kontrola bola iba čítanie a
+hashovanie; nebola novým tréningom ani opakovaným prepočtom celej VAL.
+
+Hlavná séria: 9 rodín × 5 seedov, zdroje na beh 1 H200 / max. 4 GPU-h,
+4 CPU / max. 16 CPU core-h a 40 GiB host RAM. PINN zostáva oddelenou
+archivovanou referenciou s piatimi už naučenými opakovaniami.
+Pri záverečnom meraní 200 TEST scenárov to predstavuje 9 000 hlavných
+model/prípad porovnaní a osobitne 1 000 referenčných PINN porovnaní.
+Historická PINN sa nebude vydávať za rovnako kontrolovaného nového súťažiaceho.
+
+Metodika ostáva fixovaná; žiadne ladenie podľa TEST výsledkov a žiadne
+ďalšie experimenty pred dokončením hlavnej série a jej testovania.
+Veľké polia a váhy ostávajú na Perune. Pri tejto kontrole sa nespustili
+žiadne nové tréningy ani TEST výpočty.

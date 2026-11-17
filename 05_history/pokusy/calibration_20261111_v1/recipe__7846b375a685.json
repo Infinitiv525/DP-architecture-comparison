@@ -1,0 +1,8 @@
+{
+  "id": "chebkan_b",
+  "model": "chebkan",
+  "device": "cpu",
+  "overrides": {
+    "kan_width": 64
+  }
+}

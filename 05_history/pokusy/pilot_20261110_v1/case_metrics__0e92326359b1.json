@@ -1,0 +1,154 @@
+[
+  {
+    "index": 341,
+    "reynolds": 903.0,
+    "metrics": {
+      "all_cell_mse": 0.005125220208484635,
+      "mse_fields": {
+        "u": 0.0047297803805426905,
+        "v": 0.004439276498063053,
+        "p": 0.006206603746848159
+      },
+      "fluid_velocity_relative_l2": 0.40562606619756775,
+      "fluid_pressure_relative_l2": 2.7263694680198145,
+      "prediction_physics": {
+        "divergence_rms": 0.7290556300429232,
+        "steady_ns_momentum_rms": 1.3605158300347866
+      },
+      "reference_physics": {
+        "divergence_rms": 0.010988443132258158,
+        "steady_ns_momentum_rms": 0.01791169038623514
+      },
+      "diagnostic_points": 222648
+    },
+    "timing": {
+      "gpu": {
+        "p50_ms": 1.2502560019493103,
+        "p95_ms": 1.2555247843265533,
+        "p99_ms": 1.2579845845699311,
+        "max_ms": 1.2738879919052124
+      },
+      "synchronized_wall": {
+        "p50_ms": 1.2621129999999998,
+        "p95_ms": 1.26803985,
+        "p99_ms": 1.2704958100000001,
+        "max_ms": 1.270586
+      },
+      "gpu_p99_target_pass": true
+    }
+  },
+  {
+    "index": 952,
+    "reynolds": 30.0,
+    "metrics": {
+      "all_cell_mse": 0.0172621184000637,
+      "mse_fields": {
+        "u": 0.004118027936632176,
+        "v": 0.0022552069728545405,
+        "p": 0.04541312029070439
+      },
+      "fluid_velocity_relative_l2": 0.3609302391008939,
+      "fluid_pressure_relative_l2": 0.7114281024620291,
+      "prediction_physics": {
+        "divergence_rms": 0.8611314936982879,
+        "steady_ns_momentum_rms": 6.440796878223174
+      },
+      "reference_physics": {
+        "divergence_rms": 0.009608041507253034,
+        "steady_ns_momentum_rms": 0.35852313098940336
+      },
+      "diagnostic_points": 237279
+    },
+    "timing": {
+      "gpu": {
+        "p50_ms": 1.246944010257721,
+        "p95_ms": 1.2551039457321167,
+        "p99_ms": 1.2571078896522523,
+        "max_ms": 1.2654080390930176
+      },
+      "synchronized_wall": {
+        "p50_ms": 1.257542,
+        "p95_ms": 1.2660968000000001,
+        "p99_ms": 1.26903792,
+        "max_ms": 1.269604
+      },
+      "gpu_p99_target_pass": true
+    }
+  },
+  {
+    "index": 548,
+    "reynolds": 44.0,
+    "metrics": {
+      "all_cell_mse": 0.011291212182224114,
+      "mse_fields": {
+        "u": 0.003077100919199131,
+        "v": 0.001668778202717708,
+        "p": 0.029127757424755502
+      },
+      "fluid_velocity_relative_l2": 0.3228570998233966,
+      "fluid_pressure_relative_l2": 0.6513170910448908,
+      "prediction_physics": {
+        "divergence_rms": 0.7571323648012521,
+        "steady_ns_momentum_rms": 3.8589221504405034
+      },
+      "reference_physics": {
+        "divergence_rms": 0.01002876803939051,
+        "steady_ns_momentum_rms": 0.2550592231061706
+      },
+      "diagnostic_points": 218532
+    },
+    "timing": {
+      "gpu": {
+        "p50_ms": 1.246783971786499,
+        "p95_ms": 1.2547919869422912,
+        "p99_ms": 1.2568070948123933,
+        "max_ms": 1.2575039863586426
+      },
+      "synchronized_wall": {
+        "p50_ms": 1.2585035,
+        "p95_ms": 1.26524765,
+        "p99_ms": 1.26740323,
+        "max_ms": 1.267842
+      },
+      "gpu_p99_target_pass": true
+    }
+  },
+  {
+    "index": 417,
+    "reynolds": 778.0,
+    "metrics": {
+      "all_cell_mse": 0.006709473126336566,
+      "mse_fields": {
+        "u": 0.004496041886490444,
+        "v": 0.003942906682134717,
+        "p": 0.011689470810384536
+      },
+      "fluid_velocity_relative_l2": 0.4001679572314616,
+      "fluid_pressure_relative_l2": 3.6743616691904304,
+      "prediction_physics": {
+        "divergence_rms": 0.75756756152817,
+        "steady_ns_momentum_rms": 1.5010707061650768
+      },
+      "reference_physics": {
+        "divergence_rms": 0.01081461386169173,
+        "steady_ns_momentum_rms": 0.019200728387385176
+      },
+      "diagnostic_points": 223129
+    },
+    "timing": {
+      "gpu": {
+        "p50_ms": 1.2482879757881165,
+        "p95_ms": 1.254656010866165,
+        "p99_ms": 1.2590083384513855,
+        "max_ms": 1.2717119455337524
+      },
+      "synchronized_wall": {
+        "p50_ms": 1.2555040000000002,
+        "p95_ms": 1.2663036,
+        "p99_ms": 1.26698419,
+        "max_ms": 1.26701
+      },
+      "gpu_p99_target_pass": true
+    }
+  }
+]

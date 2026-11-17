@@ -1,0 +1,26 @@
+DOKONČENÉ TRÉNINGY ARCHITEKTÚR
+
+Všetkých45 nezávislých tréningov skončilo a45/45 modelov prešlo
+spoločnou natívnou kontrolou na160 VAL simuláciách. Každá metóda má5
+výsledkov, nevyradzujeme horšie seedy. TEST zatiaľ v tejto štúdii
+nebol použitý na hodnotenie ani výber nastavení.
+
+Metóda        priemerná VAL MSE  SD medzi5seedmi   rýchlosť L2[%]  tlak L2[%]
+tfno          1.1098226e-05     5.30722e-07            0.960        3.003
+chebkan       0.0011332077     3.77823e-05            6.882       23.683
+pinet         0.0053536215     1.12981e-06           12.830      105.384
+dendrite      0.0053398062     3.60788e-06           12.790      104.667
+realnpu       0.0013293554     7.17911e-05           13.497       38.017
+rbf           0.0099046455     7.69702e-05           19.282      129.359
+cascor        0.015168431      0.00045133           27.673      167.415
+elm           0.021796929     0.000204901           38.843      193.194
+scn           0.021568938       0.0001708           40.374      196.788
+
+SD je výberová smerodajná odchýlka piatich tréningov. Táto tabuľka
+obsahuje validačné výsledky; nie je záverečným TEST ani testom hypotézy.
+FNO používa plné obrazy a husté polia; bodové siete spoločných57 pevných
+príznakov a2048 bodov/scenár. Porovnávame celé zdokumentované postupy.
+Slurm už staréID nezobrazuje (retencia záznamov); dokončenie dokladajú
+úspešné reporty všetkých45modelov a spoločná validačná kontrola.
+Nasleduje zmrazenie50checkpointov vrátane5archivovanýchPINN, kontrola
+naVAL a spoločný200TEST so zaznamenaním presnosti a latencie.

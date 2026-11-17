@@ -1,0 +1,122 @@
+{
+  "status": "ALL18_SELECTED_TUNING_CHECKPOINTS_AND160VAL_FIELDS_VERIFIED",
+  "groups": [
+    {
+      "source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budget_audit_20261111_v1/revisions/r_b368143795947da9",
+      "run_root": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_audit_20261111_v1/run_b368143795947da9",
+      "source_sha256": {
+        "manifest.json": "43115f9c225565df60472b84a40b474def0bf1bb9b40d7b57b4c794418fc4156",
+        "audit.py": "efb7b3741f14e73daf1d8b7bd058f34b4b7db4160a78b4e5187f2a71f941ae64",
+        "run.sbatch": "4259d820555e20bfaa1bdeed9dd42149bb09e9b7e15add3f1cdb703c00abbca4"
+      },
+      "models": 8,
+      "results": [
+        {
+          "id": "chebkan_t0",
+          "checkpoint_sha256": "be0c35aa43bb8a383767bd1368874ad5c7ed548cdb80e259b39b7f8fbd6b4eb3",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        },
+        {
+          "id": "chebkan_t1",
+          "checkpoint_sha256": "cac9b98916162c5b184bcfb0b895af70a9e6db342e458a44625ab615d667beb3",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        },
+        {
+          "id": "dendrite_t0",
+          "checkpoint_sha256": "796bd506a04cb7a556ea234d7d0f8203e726365455bc416e8577b0fd9a87aaf9",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        },
+        {
+          "id": "dendrite_t1",
+          "checkpoint_sha256": "ae9dc789d6dfa9a791a73191015ca15aa55d925d293c8cd86b919da940e68518",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        },
+        {
+          "id": "pinet_t0",
+          "checkpoint_sha256": "0436e1b309b2f73dea044a938b79765e54ad04c3bee104397744a6ab865a008e",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        },
+        {
+          "id": "pinet_t1",
+          "checkpoint_sha256": "a777a501e870e0dcc622762c98ee1845e130d7671316e8e107787daa9da35f6e",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        },
+        {
+          "id": "tfno_t0",
+          "checkpoint_sha256": "cf632b19be655b0cb5c66e4fbc6e402f3f4b73b91ff79191ba9c6bf5abd09bb3",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        },
+        {
+          "id": "tfno_t1",
+          "checkpoint_sha256": "a1b006ee42f8875db8e637bc0771d9d2a240d10dbb3dd98e50b86f3f5784e8d9",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        }
+      ]
+    },
+    {
+      "source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budget_audit_20261111_v2/revisions/r_b3afa5b72c333858",
+      "run_root": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_audit_20261111_v2/run_b3afa5b72c333858",
+      "source_sha256": {
+        "manifest.json": "ed09b4c727ac82057c3616718072d4f33c732e61c0661447639f108372733088",
+        "audit.py": "956258a7654bb2a7868b1c4b0275a5e480618a1195a233d11dcac97094440478",
+        "run.sbatch": "4ee038a9e77b27bc1fe3abd2c9ba1eab273cc9e62dab52373f4360c9166b632b"
+      },
+      "models": 10,
+      "results": [
+        {
+          "id": "cascor_t0",
+          "checkpoint_sha256": "ebbf2517ab33567b187f7148db211d73750f553dbb498efa7a6f9b5a28c48afc",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        },
+        {
+          "id": "elm_t0",
+          "checkpoint_sha256": "9a7afa869fe48303f1578eb1097dff77fe277edcfa1ad97dc5a48d39970512fe",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        },
+        {
+          "id": "rbf_t0",
+          "checkpoint_sha256": "593607f82c39a207bbb0c2a04d739e765bb322e8b0b058083537b8bd990d542e",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        },
+        {
+          "id": "realnpu_t0",
+          "checkpoint_sha256": "92d9ea41910846472c491e89b5ccf071b36a5cbd4ea2b2a60448837c5c68e870",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        },
+        {
+          "id": "scn_t0",
+          "checkpoint_sha256": "7c821c71986b4f8f249231ac39e99505841a340a7cbcee963fdbd9f3f3b44d7e",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        },
+        {
+          "id": "cascor_t1",
+          "checkpoint_sha256": "e4cd9d96624e59475177411331d29049cb3aa8059a881302a77c3cbde3df601c",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        },
+        {
+          "id": "elm_t1",
+          "checkpoint_sha256": "201886f3bf264079aa1419ef571aaa0fdfc7823c87bd6c5976008f5b5fac4210",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        },
+        {
+          "id": "rbf_t1",
+          "checkpoint_sha256": "b3944b4ef2d7ee6992c5e88a84f7af66429c3ba8690961ec7393f6bfaf022624",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        },
+        {
+          "id": "realnpu_t1",
+          "checkpoint_sha256": "ebe1d10e4c647e7983a49cfec69755f49d3f6bcc6e14e5a2cf6ffa8bc3f4319e",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        },
+        {
+          "id": "scn_t1",
+          "checkpoint_sha256": "14f55768c28b71e8b1b92e4c122730f71733b8883a3f1057de7c2f5e989c3c36",
+          "status": "CHECKPOINT_AND_ALL160_VALIDATION_FIELDS_VERIFIED"
+        }
+      ]
+    }
+  ],
+  "total_unique_validation_fields": 2880,
+  "training_updates": 0,
+  "test_targets_read": false
+}

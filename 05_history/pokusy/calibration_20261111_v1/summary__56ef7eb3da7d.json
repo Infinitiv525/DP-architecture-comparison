@@ -1,0 +1,20 @@
+{
+  "id": "cascor_a",
+  "model": "cascor",
+  "status": "EVALUATED",
+  "validation_mse": 0.01467852614658716,
+  "velocity_l2": 0.2680565056481057,
+  "pressure_l2": 1.6447660860171058,
+  "worst_screen_gpu_p99_ms": 4.588448367118835,
+  "latency_screen_pass": true,
+  "screen_cases": 16,
+  "best_epoch": 1,
+  "last_epoch": 1,
+  "initial_validation_mse": 0.04276757675177279,
+  "last_relative_validation_gain": null,
+  "needs_longer_training_review": false,
+  "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/cascor_a/best.pt",
+  "checkpoint_sha256": "f884bf0023c36f05a694c27c47f7c4248cf5d791223efe9345167766118728d9",
+  "training_device": "cuda",
+  "fitted_or_selected_core_scalars": 2622
+}

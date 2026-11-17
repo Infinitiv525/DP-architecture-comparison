@@ -1,0 +1,72 @@
+[
+  {
+    "id": "fno_s931101",
+    "model": "fno",
+    "role": "posthoc_resource_matched_dense_fno_supplement",
+    "seed": 931101,
+    "status": "DENSE_FNO5_SAVED_OUTPUT_AUDIT_PASS",
+    "all_cell_mse": 1.6227555292469913e-05,
+    "fluid_velocity_relative_l2": 0.008236410666201096,
+    "fluid_pressure_relative_l2": 0.01670895581810834,
+    "worst_gpu_p99_ms": 2.8621145653724667,
+    "worst_host_p99_ms": 2.8868380599999997,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true
+  },
+  {
+    "id": "fno_s931102",
+    "model": "fno",
+    "role": "posthoc_resource_matched_dense_fno_supplement",
+    "seed": 931102,
+    "status": "DENSE_FNO5_SAVED_OUTPUT_AUDIT_PASS",
+    "all_cell_mse": 1.4637706850168503e-05,
+    "fluid_velocity_relative_l2": 0.00794826691355622,
+    "fluid_pressure_relative_l2": 0.01663792213237888,
+    "worst_gpu_p99_ms": 2.5827551603317254,
+    "worst_host_p99_ms": 2.603927259999999,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true
+  },
+  {
+    "id": "fno_s931103",
+    "model": "fno",
+    "role": "posthoc_resource_matched_dense_fno_supplement",
+    "seed": 931103,
+    "status": "DENSE_FNO5_SAVED_OUTPUT_AUDIT_PASS",
+    "all_cell_mse": 1.6512021505472445e-05,
+    "fluid_velocity_relative_l2": 0.0082455603421664,
+    "fluid_pressure_relative_l2": 0.017079424699288047,
+    "worst_gpu_p99_ms": 2.201284596920013,
+    "worst_host_p99_ms": 2.21888021,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true
+  },
+  {
+    "id": "fno_s931104",
+    "model": "fno",
+    "role": "posthoc_resource_matched_dense_fno_supplement",
+    "seed": 931104,
+    "status": "DENSE_FNO5_SAVED_OUTPUT_AUDIT_PASS",
+    "all_cell_mse": 1.5196731829354409e-05,
+    "fluid_velocity_relative_l2": 0.008009438765225483,
+    "fluid_pressure_relative_l2": 0.016294337779394995,
+    "worst_gpu_p99_ms": 2.5582415890693664,
+    "worst_host_p99_ms": 2.58464764,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true
+  },
+  {
+    "id": "fno_s931105",
+    "model": "fno",
+    "role": "posthoc_resource_matched_dense_fno_supplement",
+    "seed": 931105,
+    "status": "DENSE_FNO5_SAVED_OUTPUT_AUDIT_PASS",
+    "all_cell_mse": 1.4625164549328476e-05,
+    "fluid_velocity_relative_l2": 0.008130638252829362,
+    "fluid_pressure_relative_l2": 0.01659260682992306,
+    "worst_gpu_p99_ms": 2.415690491199493,
+    "worst_host_p99_ms": 2.43714811,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true
+  }
+]

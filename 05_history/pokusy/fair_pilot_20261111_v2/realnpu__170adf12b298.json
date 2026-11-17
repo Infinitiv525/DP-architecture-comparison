@@ -1,0 +1,69 @@
+{
+  "model": "realnpu",
+  "device": "cuda",
+  "case_id": 928,
+  "native_target_values": 786432,
+  "encoded_rows": 4096,
+  "input_channels": 665,
+  "output_channels": 192,
+  "scope": "One complete TRAIN simulation. No TEST targets. Timing estimates are not guarantees.",
+  "adapter_checks": {
+    "loss_native": 0.0023806621320545673,
+    "loss_packed": 0.0023806618992239237,
+    "gradient_max_difference": 8.554934538551606e-11,
+    "geometry_roundtrip_max_error": 8.940696716308594e-08,
+    "target_roundtrip_max_error": 2.384185791015625e-07
+  },
+  "training_step": {
+    "seconds": [
+      0.002481824951246381,
+      0.0024793120101094246,
+      0.0024718299973756075,
+      0.00246746395714581,
+      0.0024711790028959513
+    ],
+    "median_seconds": 0.0024718299973756075
+  },
+  "one_case_learning_losses": [
+    6.013979911804199,
+    39.006309509277344,
+    20.40886116027832,
+    7.156611442565918,
+    3.7925639152526855,
+    5.248956203460693,
+    3.6992156505584717,
+    1.4963527917861938
+  ],
+  "training_updates": 8,
+  "measured_training_work_seconds": 0.0307360109873116,
+  "one_case_raw_loss_after": 2.536984920501709,
+  "inference_full_path": {
+    "seconds": [
+      0.0009378120303153992,
+      0.0009138659806922078,
+      0.0009117519948631525,
+      0.0009077870054170489,
+      0.000901176012121141,
+      0.0008945760782808065,
+      0.0008910909527912736,
+      0.0008940049447119236,
+      0.0008948270697146654,
+      0.0008960090344771743
+    ],
+    "median_seconds": 0.0008985925232991576
+  },
+  "checkpoint_restore_max_difference": 0.0,
+  "parameter_ledger_current": {
+    "trainable_real_scalars": 1353203,
+    "data_fitted_frozen_real_scalars": 10,
+    "data_selected_frozen_real_scalars": 0,
+    "data_independent_core_real_scalars": 0,
+    "learned_or_fitted_total": 1353213,
+    "total_core_coefficients_plus_normalization": 1353213,
+    "common_adapter_buffer_bytes": 2459688,
+    "core_tensor_bytes": 5412812,
+    "accounting_only": true
+  },
+  "peak_GPU_allocated_bytes": 347765760,
+  "status": "ONE_CASE_TIMING_AND_TECHNICAL_CHECKS_COMPLETE"
+}

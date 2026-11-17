@@ -1,0 +1,51 @@
+KONTROLA UKONČENEJ KALIBRÁCIE A DOUČENIE KAN — 11.11.2026
+
+Všetkých18 kalibračných behov a spoločné GPU vyhodnotenie skončili úspešne.
+Menší TFNO_a dosiahol VAL MSE1.331806e-5, relatívne L2 rýchlosti1.205 %,
+tlaku3.657 % a screening p99=3.502ms. Väčší TFNO_b má MSE1.124785e-5,
+ale p99=5.054ms tesne nad limitom. ChebKAN_a/b sa na200epoch ešte zlepšovali
+o1.51 %/4.07 % v poslednom20-epochovom intervale, teda prekročili vopred
+stanovenú hranicu1% pre kontrolu potreby dlhšieho učenia.
+
+Táto etapa nepridáva architektúry, neprepisuje pôvodné výsledky a nenačíta
+TEST ciele. Všetky rozhodnutia sa opierajú o TRAIN/VAL a predchádzajúci
+protokol. Nejde o konečný výsledok piatich opakovaní.
+
+1. Nezávislý audit18 checkpointov: kontrola SHA256, konečných váh, striktné
+načítanie a prepočet všetkých160 VAL polí každého modelu. Primárne MSE/L2
+sa rátajú nezávisle v NumPy z nových predikcií. Backendová tolerancia
+rtol5e-5/atol1e-11; pôvodné uložené4 polia/model sa kontrolujú prísnejšie
+rtol1e-12/atol1e-14. Uviesť tensorové počty aj reálne skalárne ekvivalenty
+komplexných FNO parametrov a osobitne uložené náhodné/buffer koeficienty.
+Pôvodné core_parameters používa PyTorch numel; komplexný prvok má dva
+reálne stupne voľnosti. Opravené odvodené počty neprepisujú staré záznamy.
+
+2. Dlhší latency screen na rovnakej H200: všetkých18 variantov, tých istých
+16 VAL prípadov,100 zahriatí a1000 meraní na prípad. Pre TFNO_a aj TFNO_b
+vopred určené3 bloky; menší model je kontrola, väčší hraničný kandidát.
+Počet blokov je určený pred novým meraním a nebude sa opakovať až do
+dosiahnutia požadovaného výsledku. Posudzovať najhoršie p99 cez prípady
+a bloky. Uchovať všetky surové časy, GPU model/UUID/driver/clocks/temperature.
+GPU vstupy sú už pripravené; v každej query sa počíta celá reprezentácia,
+sieť, maska a tlaková referencia. Toto je stále VAL kalibrácia, nie TEST.
+
+3. Pokračovanie oboch Chebyshev KAN od posledného200-epochového stavu.
+Obnoviť váhy, všetky Adam momenty a RNG pre poradie tej istej vzorky
+1310720 TRAIN bodov. Žiadna zmena šírky, bázy, vstupov alebo cieľov.
+Najviac ďalších200epoch pri konštantnej uloženej minimálnej lr1e-5;
+pôvodný cosine sa nereštartuje a lr sa umelo nezvýši. Každých20epoch celé
+VAL160. Min100 dodatočných epoch, patience5 kontrol; horná hranica celkom
+400epoch. Výstupy a lineage sú oddelené od pôvodnej kalibrácie.
+Po dokončení znovu overiť obidva checkpointy na H200, metriky aj1000časov.
+
+Po tejto etape sa uzavrie výber konfigurácie pre45 nových záverečných
+tréningov (9x5). Päť pôvodných PINN zostáva archívnou referenciou.
+Ak sa pre KAN zvolí dlhší postup, rovnaká200-cosine +200-constant politika
+sa uvedie pre všetkých päť jeho záverečných seedov. Odlišné tréningové
+postupy a množstvo práce sa vykážu. Nedostatočné či pomalé modely sa
+nezataja a kalibračná nízka chyba sa nepovažuje za štatistickú prevahu.
+
+Zdroje: CPU4x2 pokračovanie KAN max1h na kandidáta, audit1H200+CPU4 max1h,
+následné vyhodnotenie KAN1H200+CPU4 max30min. Horné limity1.5GPU-h a14CPU
+core-h, nie odhad spotreby. Bez nových inštalácií. Váhy/polia/timingy
+ostávajú na Perune; lokálne iba malé reporty a logy.

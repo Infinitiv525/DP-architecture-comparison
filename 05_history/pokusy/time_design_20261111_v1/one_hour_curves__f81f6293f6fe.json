@@ -1,0 +1,359 @@
+{
+  "status": "PILOT_LEARNING_CURVE_REVIEW",
+  "selection": "each family winner under existing full one-hour VAL protocol; not final independent-seed evaluation",
+  "points_use": "best observed complete VAL score at or before each time; no interpolation or future checkpoint at earlier times",
+  "accuracy_threshold": null,
+  "rows": [
+    {
+      "model": "tfno",
+      "configuration_index": 0,
+      "end_seconds": 3421.3789030050393,
+      "stop_reason": "training_time_budget",
+      "points": [
+        {
+          "seconds": 300,
+          "best_observed_validation": 0.004244871286209673
+        },
+        {
+          "seconds": 600,
+          "best_observed_validation": 0.0023950038266775664
+        },
+        {
+          "seconds": 900,
+          "best_observed_validation": 0.001456962187512545
+        },
+        {
+          "seconds": 1800,
+          "best_observed_validation": 0.0005886416329303756
+        },
+        {
+          "seconds": 2700,
+          "best_observed_validation": 0.00031178790113699505
+        },
+        {
+          "seconds": 3300,
+          "best_observed_validation": 0.00025354206982228786
+        },
+        {
+          "seconds": 3425,
+          "best_observed_validation": 0.00025166055565932765
+        }
+      ],
+      "relative_reduction_after_30min": 0.5724723811897043,
+      "relative_reduction_after_45min": 0.19284694902657024,
+      "best_checkpoint_selected_at_seconds": 3420.5459701940417
+    },
+    {
+      "model": "chebkan",
+      "configuration_index": 1,
+      "end_seconds": 3420.370504059014,
+      "stop_reason": "training_time_budget",
+      "points": [
+        {
+          "seconds": 300,
+          "best_observed_validation": 0.060470093582989645
+        },
+        {
+          "seconds": 600,
+          "best_observed_validation": 0.04852076846873388
+        },
+        {
+          "seconds": 900,
+          "best_observed_validation": 0.04852076846873388
+        },
+        {
+          "seconds": 1800,
+          "best_observed_validation": 0.03299955170659814
+        },
+        {
+          "seconds": 2700,
+          "best_observed_validation": 0.01730108127812855
+        },
+        {
+          "seconds": 3300,
+          "best_observed_validation": 0.010810152904014103
+        },
+        {
+          "seconds": 3425,
+          "best_observed_validation": 0.010810152904014103
+        }
+      ],
+      "relative_reduction_after_30min": 0.6724151588443351,
+      "relative_reduction_after_45min": 0.37517472288394266,
+      "best_checkpoint_selected_at_seconds": 3248.2430662889965
+    },
+    {
+      "model": "pinet",
+      "configuration_index": 1,
+      "end_seconds": 3420.051001557964,
+      "stop_reason": "training_time_budget",
+      "points": [
+        {
+          "seconds": 300,
+          "best_observed_validation": 0.05574345652712509
+        },
+        {
+          "seconds": 600,
+          "best_observed_validation": 0.050749184668529776
+        },
+        {
+          "seconds": 900,
+          "best_observed_validation": 0.050749184668529776
+        },
+        {
+          "seconds": 1800,
+          "best_observed_validation": 0.04651733280625194
+        },
+        {
+          "seconds": 2700,
+          "best_observed_validation": 0.04388722304720431
+        },
+        {
+          "seconds": 3300,
+          "best_observed_validation": 0.043655743217095734
+        },
+        {
+          "seconds": 3425,
+          "best_observed_validation": 0.043655743217095734
+        }
+      ],
+      "relative_reduction_after_30min": 0.061516630823932564,
+      "relative_reduction_after_45min": 0.005274424172602656,
+      "best_checkpoint_selected_at_seconds": 2886.701280321926
+    },
+    {
+      "model": "dendrite",
+      "configuration_index": 0,
+      "end_seconds": 3419.666807841044,
+      "stop_reason": "training_time_budget",
+      "points": [
+        {
+          "seconds": 300,
+          "best_observed_validation": 0.20354098891839384
+        },
+        {
+          "seconds": 600,
+          "best_observed_validation": 0.20354098891839384
+        },
+        {
+          "seconds": 900,
+          "best_observed_validation": 0.1767037997022271
+        },
+        {
+          "seconds": 1800,
+          "best_observed_validation": 0.05514172349357978
+        },
+        {
+          "seconds": 2700,
+          "best_observed_validation": 0.04388292623916641
+        },
+        {
+          "seconds": 3300,
+          "best_observed_validation": 0.04280571768758819
+        },
+        {
+          "seconds": 3425,
+          "best_observed_validation": 0.04280571768758819
+        }
+      ],
+      "relative_reduction_after_30min": 0.22371454906424693,
+      "relative_reduction_after_45min": 0.024547327261343684,
+      "best_checkpoint_selected_at_seconds": 2887.262665562099
+    },
+    {
+      "model": "realnpu",
+      "configuration_index": 0,
+      "end_seconds": 3419.958039942081,
+      "stop_reason": "training_time_budget",
+      "points": [
+        {
+          "seconds": 300,
+          "best_observed_validation": 0.0026935166031762494
+        },
+        {
+          "seconds": 600,
+          "best_observed_validation": 0.001586224394122837
+        },
+        {
+          "seconds": 900,
+          "best_observed_validation": 0.0012419130567650426
+        },
+        {
+          "seconds": 1800,
+          "best_observed_validation": 0.0009142987996710872
+        },
+        {
+          "seconds": 2700,
+          "best_observed_validation": 0.0007242624626996985
+        },
+        {
+          "seconds": 3300,
+          "best_observed_validation": 0.0006960890736991132
+        },
+        {
+          "seconds": 3425,
+          "best_observed_validation": 0.0006956500215892447
+        }
+      ],
+      "relative_reduction_after_30min": 0.23914367836915007,
+      "relative_reduction_after_45min": 0.039505624803196984,
+      "best_checkpoint_selected_at_seconds": 3419.578958420083
+    },
+    {
+      "model": "rbf",
+      "configuration_index": 0,
+      "end_seconds": 3419.889731365023,
+      "stop_reason": "training_time_budget",
+      "points": [
+        {
+          "seconds": 300,
+          "best_observed_validation": 0.3885157836601138
+        },
+        {
+          "seconds": 600,
+          "best_observed_validation": 0.18690314167179167
+        },
+        {
+          "seconds": 900,
+          "best_observed_validation": 0.1406615980900824
+        },
+        {
+          "seconds": 1800,
+          "best_observed_validation": 0.0741224460536614
+        },
+        {
+          "seconds": 2700,
+          "best_observed_validation": 0.052098280715290456
+        },
+        {
+          "seconds": 3300,
+          "best_observed_validation": 0.04679814735427499
+        },
+        {
+          "seconds": 3425,
+          "best_observed_validation": 0.04646842494839802
+        }
+      ],
+      "relative_reduction_after_30min": 0.37308565188530185,
+      "relative_reduction_after_45min": 0.10806221797718776,
+      "best_checkpoint_selected_at_seconds": 3419.612305101007
+    },
+    {
+      "model": "elm",
+      "configuration_index": 0,
+      "end_seconds": 4.86427417898085,
+      "stop_reason": "algorithm_completed",
+      "points": [
+        {
+          "seconds": 300,
+          "best_observed_validation": 0.38140261042863133
+        },
+        {
+          "seconds": 600,
+          "best_observed_validation": 0.38140261042863133
+        },
+        {
+          "seconds": 900,
+          "best_observed_validation": 0.38140261042863133
+        },
+        {
+          "seconds": 1800,
+          "best_observed_validation": 0.38140261042863133
+        },
+        {
+          "seconds": 2700,
+          "best_observed_validation": 0.38140261042863133
+        },
+        {
+          "seconds": 3300,
+          "best_observed_validation": 0.38140261042863133
+        },
+        {
+          "seconds": 3425,
+          "best_observed_validation": 0.38140261042863133
+        }
+      ],
+      "relative_reduction_after_30min": 0.0,
+      "relative_reduction_after_45min": 0.0,
+      "best_checkpoint_selected_at_seconds": 4.539618249982595
+    },
+    {
+      "model": "scn",
+      "configuration_index": 0,
+      "end_seconds": 289.3349951970158,
+      "stop_reason": "no_admissible_candidate",
+      "points": [
+        {
+          "seconds": 300,
+          "best_observed_validation": 0.4139567600563169
+        },
+        {
+          "seconds": 600,
+          "best_observed_validation": 0.4139567600563169
+        },
+        {
+          "seconds": 900,
+          "best_observed_validation": 0.4139567600563169
+        },
+        {
+          "seconds": 1800,
+          "best_observed_validation": 0.4139567600563169
+        },
+        {
+          "seconds": 2700,
+          "best_observed_validation": 0.4139567600563169
+        },
+        {
+          "seconds": 3300,
+          "best_observed_validation": 0.4139567600563169
+        },
+        {
+          "seconds": 3425,
+          "best_observed_validation": 0.4139567600563169
+        }
+      ],
+      "relative_reduction_after_30min": 0.0,
+      "relative_reduction_after_45min": 0.0,
+      "best_checkpoint_selected_at_seconds": 289.14240173099097
+    },
+    {
+      "model": "cascor",
+      "configuration_index": 1,
+      "end_seconds": 3384.8534874271136,
+      "stop_reason": "training_time_budget",
+      "points": [
+        {
+          "seconds": 300,
+          "best_observed_validation": 0.5216881962493062
+        },
+        {
+          "seconds": 600,
+          "best_observed_validation": 0.521681628189981
+        },
+        {
+          "seconds": 900,
+          "best_observed_validation": 0.521681628189981
+        },
+        {
+          "seconds": 1800,
+          "best_observed_validation": 0.521681628189981
+        },
+        {
+          "seconds": 2700,
+          "best_observed_validation": 0.521388273499906
+        },
+        {
+          "seconds": 3300,
+          "best_observed_validation": 0.521388273499906
+        },
+        {
+          "seconds": 3425,
+          "best_observed_validation": 0.521388273499906
+        }
+      ],
+      "relative_reduction_after_30min": 0.0005623251313119541,
+      "relative_reduction_after_45min": 0.0,
+      "best_checkpoint_selected_at_seconds": 2430.1495215520263
+    }
+  ]
+}

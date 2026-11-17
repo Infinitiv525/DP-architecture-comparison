@@ -1,0 +1,22 @@
+[
+  {
+    "source": "experiment_3d_llm_flow/test/architecture_budget_main_20261111_v1/protokol.txt",
+    "target": "03_methodology/training_protocol.txt",
+    "sha256": "2de2781771740ce8bd36f04639b5c0425e2e08e39b9e64b8f06861c612c01810"
+  },
+  {
+    "source": "experiment_3d_llm_flow/test/architecture_budgeted_20261111_v3/protokol.txt",
+    "target": "03_methodology/resource_protocol.txt",
+    "sha256": "f4d14a634724cb051b451c75d1a0c76ed390bffa289638f4dc2bee0c72a783f0"
+  },
+  {
+    "source": "experiment_3d_llm_flow/test/architecture_second_chance_20261112_v1/protokol.txt",
+    "target": "03_methodology/second_chance_protocol.txt",
+    "sha256": "9d89aadbc46f7d4abb640323ba4c483086383afdd8e2475c3b15bd4f87b61829"
+  },
+  {
+    "source": "experiment_3d_llm_flow/test/architecture_dense_fno_20261112_v1/protokol.txt",
+    "target": "03_methodology/dense_FNO_protocol.txt",
+    "sha256": "7dc7e313a2c67bfc03f2c358de226c07cae2b2d73b686dc784f3bd02fba7afe6"
+  }
+]

@@ -1,0 +1,505 @@
+[
+  {
+    "status": "FINAL50_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "tfno_s931102",
+      "model": "tfno",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931102/best.pt",
+      "checkpoint_sha256": "c67f70b4f27331a52f3d242c0be22217a8c7733b0a758fb97d59da6032a3d0d5",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.01266030129045248,
+          "pressure_l2": 0.027657274156808853
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.005522074177861214,
+          "pressure_l2": 0.014236697927117348
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353318,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353328,
+        "total_core_coefficients_plus_normalization": 1353328,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413272,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931102/complete.json",
+      "training_summary_sha256": "25295f4fdd1af9beaaa1cca9f69adf993d7e061ac00e2f3022f5683b53ab69da",
+      "training_elapsed_seconds": 14101.269061315106,
+      "training_stop_reason": "training_time_budget"
+    },
+    "means": {
+      "all_cell_mse": 1.2273010845903707e-05,
+      "fluid_velocity_relative_l2": 0.007507283206471997,
+      "fluid_pressure_relative_l2": 0.015434316175852279
+    },
+    "worst_case_gpu_p99_ms": 5.3435345649719235,
+    "worst_case_host_p99_ms": 5.374970449999999,
+    "gpu_5ms_pass": false,
+    "host_instrumented_5ms_pass": false,
+    "elapsed_seconds": 819.4379817200825
+  },
+  {
+    "status": "FINAL50_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "chebkan_s931102",
+      "model": "chebkan",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931102/best.pt",
+      "checkpoint_sha256": "cec9099dcd6244f755575fa8f585f23b97b66d801737aa7be92626623079ec2b",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.10251756012439728,
+          "pressure_l2": 0.116776242852211
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.06035691127181053,
+          "pressure_l2": 0.07923845201730728
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1354356,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354366,
+        "total_core_coefficients_plus_normalization": 1354366,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5417424,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931102/complete.json",
+      "training_summary_sha256": "cc2538cdf904db0e21d9add7450b394381134fb8506221fd40109bfd832dfc07",
+      "training_elapsed_seconds": 14100.553358184872,
+      "training_stop_reason": "training_time_budget"
+    },
+    "means": {
+      "all_cell_mse": 0.0013454534483198582,
+      "fluid_velocity_relative_l2": 0.0575966403929233,
+      "fluid_pressure_relative_l2": 0.07792691076389971
+    },
+    "worst_case_gpu_p99_ms": 1.0221174514293672,
+    "worst_case_host_p99_ms": 1.04954441,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true,
+    "elapsed_seconds": 197.54934156313539
+  },
+  {
+    "status": "FINAL50_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "pinet_s931102",
+      "model": "pinet",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931102/best.pt",
+      "checkpoint_sha256": "d90db7e51b7c2b80dabc6e0a74c51d8a3d4e9a203cb70d096b3695ef1cd31040",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.14799590408802032,
+          "pressure_l2": 0.3630620539188385
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.116965152323246,
+          "pressure_l2": 0.4240926206111908
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353612,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353622,
+        "total_core_coefficients_plus_normalization": 1353622,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5414448,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931102/complete.json",
+      "training_summary_sha256": "c852adcf79906738d399d0697e5c34447340ac1b74e0808139be24de79f1098d",
+      "training_elapsed_seconds": 14100.199845636962,
+      "training_stop_reason": "training_time_budget"
+    },
+    "means": {
+      "all_cell_mse": 0.0025543686006516838,
+      "fluid_velocity_relative_l2": 0.09945059929693084,
+      "fluid_pressure_relative_l2": 0.2717410419401377
+    },
+    "worst_case_gpu_p99_ms": 0.7380515366792679,
+    "worst_case_host_p99_ms": 0.7613278,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true,
+    "elapsed_seconds": 134.49066352797672
+  },
+  {
+    "status": "FINAL50_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "dendrite_s931102",
+      "model": "dendrite",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931102/best.pt",
+      "checkpoint_sha256": "511470a398785bd1d4af7c4adc0affce7eee3395c578f39bcd4274c07252b371",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.139864981174469,
+          "pressure_l2": 0.32300257682800293
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.11461126059293747,
+          "pressure_l2": 0.4253070652484894
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1354872,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1354882,
+        "total_core_coefficients_plus_normalization": 1354882,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5419488,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931102/complete.json",
+      "training_summary_sha256": "e9d3aeed570a0921bec5ca8bddb7833eafe6900ec3e124eaff276be11610ef03",
+      "training_elapsed_seconds": 14100.169088786002,
+      "training_stop_reason": "training_time_budget"
+    },
+    "means": {
+      "all_cell_mse": 0.0025484183061110586,
+      "fluid_velocity_relative_l2": 0.09796818351434584,
+      "fluid_pressure_relative_l2": 0.26881622768055696
+    },
+    "worst_case_gpu_p99_ms": 0.7062748861312866,
+    "worst_case_host_p99_ms": 0.7288997,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true,
+    "elapsed_seconds": 130.28114799782634
+  },
+  {
+    "status": "FINAL50_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "realnpu_s931102",
+      "model": "realnpu",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931102/best.pt",
+      "checkpoint_sha256": "6293a9577c947d1c24520ef59235b034c9c0c7a8179e97f6636c10202ddca922",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.05439586192369461,
+          "pressure_l2": 0.07814374566078186
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.012119433842599392,
+          "pressure_l2": 0.01375962421298027
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353203,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353213,
+        "total_core_coefficients_plus_normalization": 1353213,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5412812,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931102/complete.json",
+      "training_summary_sha256": "f09b4e335992ad1e53e0e5e49631f335e59d41ebd86948c3ed096c92182d1b5d",
+      "training_elapsed_seconds": 14100.47880059795,
+      "training_stop_reason": "training_time_budget"
+    },
+    "means": {
+      "all_cell_mse": 1.4879144930776814e-05,
+      "fluid_velocity_relative_l2": 0.01711754749649378,
+      "fluid_pressure_relative_l2": 0.020547168360088738
+    },
+    "worst_case_gpu_p99_ms": 1.062336608171463,
+    "worst_case_host_p99_ms": 1.0841729999999998,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true,
+    "elapsed_seconds": 196.64361527306028
+  },
+  {
+    "status": "FINAL50_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "rbf_s931102",
+      "model": "rbf",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931102/best.pt",
+      "checkpoint_sha256": "1dc2c3443bfcc11ccd5fb8a7ff1578dbec8433948bf70f90dba90036706bb14e",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.22300583124160767,
+          "pressure_l2": 0.23079870641231537
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.12384956330060959,
+          "pressure_l2": 0.43047088384628296
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 1353258,
+        "data_fitted_frozen_real_scalars": 10,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 1353268,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931102/complete.json",
+      "training_summary_sha256": "7b77ff951a57fe4b32d224332802b1877ad2ff32c52f99d1e848124061085f9b",
+      "training_elapsed_seconds": 14100.322722321027,
+      "training_stop_reason": "training_time_budget"
+    },
+    "means": {
+      "all_cell_mse": 0.0011588394157868215,
+      "fluid_velocity_relative_l2": 0.0719018801407292,
+      "fluid_pressure_relative_l2": 0.13824455844866892
+    },
+    "worst_case_gpu_p99_ms": 0.8370703816413879,
+    "worst_case_host_p99_ms": 0.8603554999999999,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true,
+    "elapsed_seconds": 153.08742810506374
+  },
+  {
+    "status": "FINAL50_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "elm_s931102",
+      "model": "elm",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931102/best.pt",
+      "checkpoint_sha256": "50c584840d1e02974ffab23e5b572d80cbedfd79ff7b552b066d48b893972e0e",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.4948011636734009,
+          "pressure_l2": 0.8530292510986328
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.41928213834762573,
+          "pressure_l2": 0.9154608249664307
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 302986,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 1050282,
+        "learned_or_fitted_total": 302986,
+        "total_core_coefficients_plus_normalization": 1353268,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 5413032,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931102/complete.json",
+      "training_summary_sha256": "d87b2a220c121c2bfe3e5ef836e34de39b7b95c1c6a3135f8992cc4a916918b2",
+      "training_elapsed_seconds": 5.179904713993892,
+      "training_stop_reason": "algorithm_completed"
+    },
+    "means": {
+      "all_cell_mse": 0.01768055806646097,
+      "fluid_velocity_relative_l2": 0.3791334869459466,
+      "fluid_pressure_relative_l2": 0.7636184251314583
+    },
+    "worst_case_gpu_p99_ms": 0.6972809499502182,
+    "worst_case_host_p99_ms": 0.7186372000000001,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true,
+    "elapsed_seconds": 126.98361665289849
+  },
+  {
+    "status": "FINAL50_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "scn_s931102",
+      "model": "scn",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931102/best.pt",
+      "checkpoint_sha256": "785e002006375b5bcbe152c140f1a9d527bf4017dd8e15ad35022674f4297152",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.46376174688339233,
+          "pressure_l2": 0.6919994354248047
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.4402109384536743,
+          "pressure_l2": 0.9098173975944519
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 159946,
+        "data_selected_frozen_real_scalars": 554112,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 714058,
+        "total_core_coefficients_plus_normalization": 714058,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 2856192,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931102/complete.json",
+      "training_summary_sha256": "1baa5047c61ecca8cc0c68b5b144376032fd2ee7ab1c9932f2770f1108efe34b",
+      "training_elapsed_seconds": 435.2785101759946,
+      "training_stop_reason": "no_admissible_candidate"
+    },
+    "means": {
+      "all_cell_mse": 0.017927239253659844,
+      "fluid_velocity_relative_l2": 0.4006299429872143,
+      "fluid_pressure_relative_l2": 0.7519384582543082
+    },
+    "worst_case_gpu_p99_ms": 0.6184972578287123,
+    "worst_case_host_p99_ms": 0.6404324399999999,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true,
+    "elapsed_seconds": 99.8061288439203
+  },
+  {
+    "status": "FINAL50_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "cascor_s931102",
+      "model": "cascor",
+      "seed": 931102,
+      "group": 1,
+      "kind": "primary_resource_matched_model",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931102/best.pt",
+      "checkpoint_sha256": "c13909b97c63ff4db1f62316c5e1824436244099ad5ce533f74e18be2f36decd",
+      "expected_validation": [
+        {
+          "index": 341,
+          "velocity_l2": 0.5766950249671936,
+          "pressure_l2": 0.7580356597900391
+        },
+        {
+          "index": 952,
+          "velocity_l2": 0.5366915464401245,
+          "pressure_l2": 0.9615932703018188
+        }
+      ],
+      "parameter_ledger": {
+        "trainable_real_scalars": 0,
+        "data_fitted_frozen_real_scalars": 891989,
+        "data_selected_frozen_real_scalars": 0,
+        "data_independent_core_real_scalars": 0,
+        "learned_or_fitted_total": 891989,
+        "total_core_coefficients_plus_normalization": 891989,
+        "common_adapter_buffer_bytes": 2459688,
+        "core_tensor_bytes": 3567916,
+        "accounting_only": false
+      },
+      "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931102/complete.json",
+      "training_summary_sha256": "557f395d27873c2f68aa5a38e1908db8814c4b6e8bf3fb9fd14e2b4dbf0ad220",
+      "training_elapsed_seconds": 14044.600513238925,
+      "training_stop_reason": "training_time_budget"
+    },
+    "means": {
+      "all_cell_mse": 0.022483533200453376,
+      "fluid_velocity_relative_l2": 0.5216991082145197,
+      "fluid_pressure_relative_l2": 0.8572359089854962
+    },
+    "worst_case_gpu_p99_ms": 14.524375534057617,
+    "worst_case_host_p99_ms": 14.54539484,
+    "gpu_5ms_pass": false,
+    "host_instrumented_5ms_pass": false,
+    "elapsed_seconds": 3141.476669837022
+  },
+  {
+    "status": "FINAL50_MODEL_TEST_COMPLETE",
+    "model": {
+      "id": "fixed_k01",
+      "model": "pinn",
+      "seed": 150002,
+      "kind": "archived_auxiliary_PINN_reference",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k01/145176/training/best.pt",
+      "checkpoint_sha256": "ca725dd517b78aec4c2460f0c61a68672cae61f94e1f97f7b00564e9733bcff0",
+      "config": {
+        "width": 192,
+        "depth": 4,
+        "latent": 32,
+        "frequencies": [
+          1.0,
+          2.0,
+          4.0,
+          8.0,
+          16.0
+        ],
+        "seed": 150002,
+        "epochs": 400,
+        "batch_cases": 4,
+        "lr": 0.001,
+        "data_points": 2048,
+        "physics_points": 64,
+        "wall_points_per_side": 16,
+        "body_points": 64,
+        "physics_weight": 0.001,
+        "bc_weight": 0.01,
+        "warmup": 2000,
+        "ramp": 2000,
+        "assess_epochs": 10,
+        "pressure_weight": 1.0
+      },
+      "expected_validation": [
+        {
+          "index": 341,
+          "mse": 1.7921821441868258e-05,
+          "velocity_l2": 0.028914762360332993,
+          "pressure_l2": 0.09268712020595865
+        },
+        {
+          "index": 952,
+          "mse": 0.0001892972106190506,
+          "velocity_l2": 0.020574348499231343,
+          "pressure_l2": 0.0780919693368179
+        }
+      ],
+      "group": 1
+    },
+    "means": {
+      "all_cell_mse": 0.00029127229408787875,
+      "fluid_velocity_relative_l2": 0.023063699886191294,
+      "fluid_pressure_relative_l2": 0.08378812456047424
+    },
+    "worst_case_gpu_p99_ms": 3.4410085701942443,
+    "worst_case_host_p99_ms": 3.4652739699999997,
+    "gpu_5ms_pass": true,
+    "host_instrumented_5ms_pass": true,
+    "elapsed_seconds": 649.4362270219717
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "model": "pinet",
+  "device": "cpu",
+  "case_id": 928,
+  "native_target_values": 786432,
+  "encoded_rows": 4096,
+  "input_channels": 665,
+  "output_channels": 192,
+  "scope": "One complete TRAIN simulation. No TEST targets. Timing estimates are not guarantees.",
+  "adapter_checks": {
+    "loss_native": 0.0023677463177591562,
+    "loss_packed": 0.0023677474819123745,
+    "gradient_max_difference": 7.099743015714921e-11,
+    "geometry_roundtrip_max_error": 8.940696716308594e-08,
+    "target_roundtrip_max_error": 2.384185791015625e-07
+  },
+  "training_step": {
+    "seconds": [
+      0.11012360302265733,
+      0.11277721798978746,
+      0.11095822299830616,
+      0.10997092095203698,
+      0.11263749492354691
+    ],
+    "median_seconds": 0.11095822299830616
+  },
+  "one_case_learning_losses": [
+    7.259387016296387,
+    68.39884185791016,
+    15.008399963378906,
+    4.588479042053223,
+    4.736015796661377,
+    2.3673853874206543,
+    2.206739902496338,
+    1.6677240133285522
+  ],
+  "training_updates": 8,
+  "measured_training_work_seconds": 0.8911522699054331,
+  "one_case_raw_loss_after": 1.4420254230499268,
+  "inference_full_path": {
+    "seconds": [
+      0.07175822695717216,
+      0.0731745200464502,
+      0.07254258904140443,
+      0.0725799259962514,
+      0.07499068998731673,
+      0.07767764397431165,
+      0.07205986499320716,
+      0.07304794597439468,
+      0.07107462792191654,
+      0.07185494294390082
+    ],
+    "median_seconds": 0.07256125751882792
+  },
+  "checkpoint_restore_max_difference": 0.0,
+  "parameter_ledger_current": {
+    "trainable_real_scalars": 1353612,
+    "data_fitted_frozen_real_scalars": 10,
+    "data_selected_frozen_real_scalars": 0,
+    "data_independent_core_real_scalars": 0,
+    "learned_or_fitted_total": 1353622,
+    "total_core_coefficients_plus_normalization": 1353622,
+    "common_adapter_buffer_bytes": 2459688,
+    "core_tensor_bytes": 5414448,
+    "accounting_only": true
+  },
+  "peak_GPU_allocated_bytes": 0,
+  "status": "ONE_CASE_TIMING_AND_TECHNICAL_CHECKS_COMPLETE"
+}

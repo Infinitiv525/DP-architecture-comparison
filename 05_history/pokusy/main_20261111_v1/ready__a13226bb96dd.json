@@ -1,0 +1,76 @@
+{
+  "status": "ARCHITECTURE_MAIN_PREFLIGHT_PASS",
+  "core_checks": {
+    "status": "CORE_CHECKS_PASS",
+    "checks": [
+      "Chebyshev T3 polynomial values",
+      "PiNet and DD reproduce distinct analytic polynomials",
+      "RealNPU signed division",
+      "chebkan finite forward/backward",
+      "pinet finite forward/backward",
+      "dendrite finite forward/backward",
+      "realnpu finite forward/backward",
+      "rbf finite forward/backward",
+      "elm fitting and checkpoint roundtrip",
+      "scn fitting and checkpoint roundtrip",
+      "cascor fitting and checkpoint roundtrip",
+      "prediction-only gauge and solid mask invariance",
+      "finite-difference diagnostics recover analytic Poiseuille solution",
+      "pinned TFNO finite forward/backward"
+    ],
+    "count": 14
+  },
+  "models": [
+    {
+      "model": "tfno",
+      "strict_restore": true,
+      "first_validation_mse": 3.971784294850185e-06
+    },
+    {
+      "model": "chebkan",
+      "strict_restore": true,
+      "first_validation_mse": 0.000161401050662074
+    },
+    {
+      "model": "pinet",
+      "strict_restore": true,
+      "first_validation_mse": 0.0021987099265340132
+    },
+    {
+      "model": "dendrite",
+      "strict_restore": true,
+      "first_validation_mse": 0.0021887970907696537
+    },
+    {
+      "model": "realnpu",
+      "strict_restore": true,
+      "first_validation_mse": 0.0006168451689025151
+    },
+    {
+      "model": "rbf",
+      "strict_restore": true,
+      "first_validation_mse": 0.0040728203424510575
+    },
+    {
+      "model": "cascor",
+      "strict_restore": true,
+      "first_validation_mse": 0.00451348363330016
+    },
+    {
+      "model": "elm",
+      "strict_restore": true,
+      "first_validation_mse": 0.007905425333758005
+    },
+    {
+      "model": "scn",
+      "strict_restore": true,
+      "first_validation_mse": 0.008820393098312855
+    }
+  ],
+  "task_count": 45,
+  "existing_pinn_references": 5,
+  "tiny_optimizer_updates": 4,
+  "selection_sha256": "5c9577c7bff341bd05209f97d9e05e89ab46d5f58f15dec1740a42dee89c7b57",
+  "point_sample_sha256": "0558cfb0e38073ff6f91c88ce852793ef69a631e03c33002a88748bad4632013",
+  "test_targets_read": false
+}

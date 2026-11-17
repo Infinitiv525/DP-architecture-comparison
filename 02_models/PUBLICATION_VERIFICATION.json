@@ -1,0 +1,102 @@
+{
+  "status": "ALL_PUBLIC_REPOSITORY_CHECKPOINTS_AND_REMOTE_READBACKS_VERIFIED",
+  "repository": "Infinitiv525/DP-architecture-comparison",
+  "selected_models": 59,
+  "checkpoint_files": 587,
+  "scientific_records": 1857,
+  "manifest_sha256": "b64fd76938e341cf0908cba0a4630281fed53f03fa5e0f250caac014ccc1e768",
+  "release_url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/research-artifacts-v1",
+  "assets": [
+    {
+      "name": "architecture-models-and-records-part01-of08.tar.gz",
+      "bytes": 486636826,
+      "sha256": "9a5a11430a290eb2883e1102153258ad41b2b0cb639b5e4df66ee9063c62bec0",
+      "server_digest": "sha256:9a5a11430a290eb2883e1102153258ad41b2b0cb639b5e4df66ee9063c62bec0",
+      "asset_id": 760945573,
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/untagged-bfc58f80528b908ec337/architecture-models-and-records-part01-of08.tar.gz",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "architecture-models-and-records-part02-of08.tar.gz",
+      "bytes": 704776419,
+      "sha256": "560720ff701bb9f6fdbfcbd345655db6f44ef8b059729a11680409b4bb61e50a",
+      "server_digest": "sha256:560720ff701bb9f6fdbfcbd345655db6f44ef8b059729a11680409b4bb61e50a",
+      "asset_id": 760947961,
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/untagged-bfc58f80528b908ec337/architecture-models-and-records-part02-of08.tar.gz",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "architecture-models-and-records-part03-of08.tar.gz",
+      "bytes": 746427114,
+      "sha256": "6dbd685827f7da7628a87e24d266dee917ba86c852276e8c4237283c7de8c84c",
+      "server_digest": "sha256:6dbd685827f7da7628a87e24d266dee917ba86c852276e8c4237283c7de8c84c",
+      "asset_id": 760950661,
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/untagged-bfc58f80528b908ec337/architecture-models-and-records-part03-of08.tar.gz",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "architecture-models-and-records-part04-of08.tar.gz",
+      "bytes": 674780657,
+      "sha256": "ce0a115fa20808aad24f215e4146e8496df2e8852e1835fa8c3e183051aa7ed7",
+      "server_digest": "sha256:ce0a115fa20808aad24f215e4146e8496df2e8852e1835fa8c3e183051aa7ed7",
+      "asset_id": 760953718,
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/untagged-bfc58f80528b908ec337/architecture-models-and-records-part04-of08.tar.gz",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "architecture-models-and-records-part05-of08.tar.gz",
+      "bytes": 634892925,
+      "sha256": "951e4da39b9812bb11ea0b91f216327d1417898141ce4a45c4488a14fc2bb68d",
+      "server_digest": "sha256:951e4da39b9812bb11ea0b91f216327d1417898141ce4a45c4488a14fc2bb68d",
+      "asset_id": 760957751,
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/untagged-bfc58f80528b908ec337/architecture-models-and-records-part05-of08.tar.gz",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "architecture-models-and-records-part06-of08.tar.gz",
+      "bytes": 731864460,
+      "sha256": "4b9c7be2b2e0bc17f5e9bacf3549304c2332c9028c3edd12b82f0c3a351c6612",
+      "server_digest": "sha256:4b9c7be2b2e0bc17f5e9bacf3549304c2332c9028c3edd12b82f0c3a351c6612",
+      "asset_id": 760961437,
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/untagged-bfc58f80528b908ec337/architecture-models-and-records-part06-of08.tar.gz",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "architecture-models-and-records-part07-of08.tar.gz",
+      "bytes": 686717981,
+      "sha256": "2f4223795029b4c7ae07c4c5b1c1d3f72c0be2fe76b62a77f4698a482ae065ef",
+      "server_digest": "sha256:2f4223795029b4c7ae07c4c5b1c1d3f72c0be2fe76b62a77f4698a482ae065ef",
+      "asset_id": 760965070,
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/untagged-bfc58f80528b908ec337/architecture-models-and-records-part07-of08.tar.gz",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "architecture-models-and-records-part08-of08.tar.gz",
+      "bytes": 233413602,
+      "sha256": "a540b64a0764978cc0c225d63fc0f5dbb65677cfbb6f5cef4f0dd87f4690af85",
+      "server_digest": "sha256:a540b64a0764978cc0c225d63fc0f5dbb65677cfbb6f5cef4f0dd87f4690af85",
+      "asset_id": 760968510,
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/untagged-bfc58f80528b908ec337/architecture-models-and-records-part08-of08.tar.gz",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "ARTIFACT_MANIFEST.json",
+      "bytes": 1219593,
+      "sha256": "b64fd76938e341cf0908cba0a4630281fed53f03fa5e0f250caac014ccc1e768",
+      "server_digest": "sha256:b64fd76938e341cf0908cba0a4630281fed53f03fa5e0f250caac014ccc1e768",
+      "asset_id": 760969591,
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/untagged-bfc58f80528b908ec337/ARTIFACT_MANIFEST.json",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 1025,
+      "sha256": "69eca34f5d5a29c066d6478286a21589d18d5c0feb4e4c1a85b8145113bbfec0",
+      "server_digest": "sha256:69eca34f5d5a29c066d6478286a21589d18d5c0feb4e4c1a85b8145113bbfec0",
+      "asset_id": 760969637,
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/untagged-bfc58f80528b908ec337/SHA256SUMS.txt",
+      "full_readback_verified_on_Perun": true
+    }
+  ],
+  "model_or_archive_download_to_PC": false
+}

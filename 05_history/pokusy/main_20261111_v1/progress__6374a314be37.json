@@ -1,0 +1,812 @@
+[
+  {
+    "id": "tfno_s921101",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "tfno",
+    "seed": 921101,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/tfno_s921101/training/tfno_b/best.pt",
+    "checkpoint_sha256": "c1404dadc1fe3b1dc88ecb6b29663223aec772f89dcc6ce627b88cb70f70b687",
+    "epoch": 200,
+    "validation_mse": 1.0562925876771829e-05,
+    "velocity_l2": 0.009396000803151481,
+    "pressure_l2": 0.03007633151152182,
+    "counts": {
+      "parameter_elements": 646194,
+      "parameter_real_scalars": 1253289,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "tfno_s921102",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "tfno",
+    "seed": 921102,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/tfno_s921102/training/tfno_b/best.pt",
+    "checkpoint_sha256": "1f5b26a9a457ba6fa02defd7e65537a27450f52620b5e4a66794955cd05a94c5",
+    "epoch": 200,
+    "validation_mse": 1.1139183544089493e-05,
+    "velocity_l2": 0.009643526162382138,
+    "pressure_l2": 0.02891235540272344,
+    "counts": {
+      "parameter_elements": 646194,
+      "parameter_real_scalars": 1253289,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "tfno_s921103",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "tfno",
+    "seed": 921103,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/tfno_s921103/training/tfno_b/best.pt",
+    "checkpoint_sha256": "e7c8ade3c2202067aa00e7007bb618b5d2054e7cbb3e151e40780fb5608f592b",
+    "epoch": 200,
+    "validation_mse": 1.0557042490105287e-05,
+    "velocity_l2": 0.009641203621065787,
+    "pressure_l2": 0.0306820883768179,
+    "counts": {
+      "parameter_elements": 646194,
+      "parameter_real_scalars": 1253289,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "tfno_s921104",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "tfno",
+    "seed": 921104,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/tfno_s921104/training/tfno_b/best.pt",
+    "checkpoint_sha256": "da618243cfad38eff9869fc016f7fd3ed2a9452b6a2e2859c320c16eed1d8b17",
+    "epoch": 200,
+    "validation_mse": 1.154741849443428e-05,
+    "velocity_l2": 0.0096464446899665,
+    "pressure_l2": 0.03132388844750977,
+    "counts": {
+      "parameter_elements": 646194,
+      "parameter_real_scalars": 1253289,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "tfno_s921105",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "tfno",
+    "seed": 921105,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/tfno_s921105/training/tfno_b/best.pt",
+    "checkpoint_sha256": "dcfe7db2af7d1bdb7bba6a62505a4c0e3793771c41740a11e5762d4f08df3944",
+    "epoch": 200,
+    "validation_mse": 1.1684559183767206e-05,
+    "velocity_l2": 0.009693984210400925,
+    "pressure_l2": 0.029160875378916134,
+    "counts": {
+      "parameter_elements": 646194,
+      "parameter_real_scalars": 1253289,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "chebkan_s921101",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "chebkan",
+    "seed": 921101,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921101/continuation/best.pt",
+    "checkpoint_sha256": "44cbd7b639ccfbfa0fb3f4e80b32481cb104e0b17fdff5ab4dbfe41e2ce6a0ba",
+    "epoch": 400,
+    "validation_mse": 0.0011708864123819844,
+    "velocity_l2": 0.06884673351827313,
+    "pressure_l2": 0.23563281348611204,
+    "counts": {
+      "parameter_elements": 11843,
+      "parameter_real_scalars": 11843,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "chebkan_s921102",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "chebkan",
+    "seed": 921102,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921102/continuation/best.pt",
+    "checkpoint_sha256": "80cff99646214f7f2c8075f984f31016a1876457846706d25a727263aa8bc07f",
+    "epoch": 400,
+    "validation_mse": 0.001115713789360925,
+    "velocity_l2": 0.0670777403804476,
+    "pressure_l2": 0.2336231135427412,
+    "counts": {
+      "parameter_elements": 11843,
+      "parameter_real_scalars": 11843,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "chebkan_s921103",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "chebkan",
+    "seed": 921103,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921103/continuation/best.pt",
+    "checkpoint_sha256": "3615c8b2d5fafbba0fd737c8f2f67f8cebcbc74c3e3b5a9e9ac4b5ac7107891c",
+    "epoch": 400,
+    "validation_mse": 0.0010983017682570581,
+    "velocity_l2": 0.06785512400790535,
+    "pressure_l2": 0.22958674426714704,
+    "counts": {
+      "parameter_elements": 11843,
+      "parameter_real_scalars": 11843,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "chebkan_s921104",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "chebkan",
+    "seed": 921104,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921104/continuation/best.pt",
+    "checkpoint_sha256": "4f916e44004998d5008dfec1aa4d363fe4bce91c7203d84b85b11fe266261a84",
+    "epoch": 400,
+    "validation_mse": 0.0011041161912920784,
+    "velocity_l2": 0.06808685077411705,
+    "pressure_l2": 0.2233974272464072,
+    "counts": {
+      "parameter_elements": 11843,
+      "parameter_real_scalars": 11843,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "chebkan_s921105",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "chebkan",
+    "seed": 921105,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/chebkan_s921105/continuation/best.pt",
+    "checkpoint_sha256": "a1043be48ffe837c916d92da22b659e187ecaf8acd065f2ea9109b7081282bd4",
+    "epoch": 400,
+    "validation_mse": 0.001177020284175537,
+    "velocity_l2": 0.0722091076801981,
+    "pressure_l2": 0.2618947382703379,
+    "counts": {
+      "parameter_elements": 11843,
+      "parameter_real_scalars": 11843,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "pinet_s921101",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "pinet",
+    "seed": 921101,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/pinet_s921101/training/pinet_a/best.pt",
+    "checkpoint_sha256": "b6eee380d55b3e7a9525581fdc808cfc1750063a847060735c342443191bde08",
+    "epoch": 180,
+    "validation_mse": 0.00535258129004104,
+    "velocity_l2": 0.12835603045740585,
+    "pressure_l2": 1.0478433906970432,
+    "counts": {
+      "parameter_elements": 16995,
+      "parameter_real_scalars": 16995,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "pinet_s921102",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "pinet",
+    "seed": 921102,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/pinet_s921102/training/pinet_a/best.pt",
+    "checkpoint_sha256": "2d083d99a8c2a060d454ab3864cd479f9209929aaa3fffcc82ba5c50f09ffe9b",
+    "epoch": 200,
+    "validation_mse": 0.005353666151692577,
+    "velocity_l2": 0.12831461793178714,
+    "pressure_l2": 1.0512834288404425,
+    "counts": {
+      "parameter_elements": 16995,
+      "parameter_real_scalars": 16995,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "pinet_s921103",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "pinet",
+    "seed": 921103,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/pinet_s921103/training/pinet_a/best.pt",
+    "checkpoint_sha256": "051e3d9b4b35ad037c0e962361affd1c3e1ab7d2b1cac3592b5946cf0e8e03a5",
+    "epoch": 180,
+    "validation_mse": 0.005352632448986501,
+    "velocity_l2": 0.12807141844542397,
+    "pressure_l2": 1.0562254750878906,
+    "counts": {
+      "parameter_elements": 16995,
+      "parameter_real_scalars": 16995,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "pinet_s921104",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "pinet",
+    "seed": 921104,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/pinet_s921104/training/pinet_a/best.pt",
+    "checkpoint_sha256": "0ed42e781862c85dc7f85180a10c1ca452279ca5e2f689730843d8ebf06d66fc",
+    "epoch": 200,
+    "validation_mse": 0.005355346686891134,
+    "velocity_l2": 0.1284787370381342,
+    "pressure_l2": 1.0569986124722555,
+    "counts": {
+      "parameter_elements": 16995,
+      "parameter_real_scalars": 16995,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "pinet_s921105",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "pinet",
+    "seed": 921105,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/pinet_s921105/training/pinet_a/best.pt",
+    "checkpoint_sha256": "752f280ae7891edd13dbe1df58d8b8ec20bff4a6d62de044a5df6d75cc2bd124",
+    "epoch": 200,
+    "validation_mse": 0.0053538810331853716,
+    "velocity_l2": 0.1283040107842727,
+    "pressure_l2": 1.0568436158783132,
+    "counts": {
+      "parameter_elements": 16995,
+      "parameter_real_scalars": 16995,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "dendrite_s921101",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "dendrite",
+    "seed": 921101,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/dendrite_s921101/training/dendrite_a/best.pt",
+    "checkpoint_sha256": "545066db7c4139a01c65a4244d8d73b1edf1c28e2f661e9269cf1a7dd488061f",
+    "epoch": 180,
+    "validation_mse": 0.005339138434557238,
+    "velocity_l2": 0.12809554052102556,
+    "pressure_l2": 1.042677247387293,
+    "counts": {
+      "parameter_elements": 24291,
+      "parameter_real_scalars": 24291,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "dendrite_s921102",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "dendrite",
+    "seed": 921102,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/dendrite_s921102/training/dendrite_a/best.pt",
+    "checkpoint_sha256": "1ba3b8e0fc3f5ba015d04950f6a4a02d730c81770d015c25414d8315595baea5",
+    "epoch": 200,
+    "validation_mse": 0.005337922640166803,
+    "velocity_l2": 0.12780572991727346,
+    "pressure_l2": 1.0434463019612878,
+    "counts": {
+      "parameter_elements": 24291,
+      "parameter_real_scalars": 24291,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "dendrite_s921103",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "dendrite",
+    "seed": 921103,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/dendrite_s921103/training/dendrite_a/best.pt",
+    "checkpoint_sha256": "02db390f18ef6204e46ea3a13854077b7764d007630be8fd9c8715ffaa2abd34",
+    "epoch": 180,
+    "validation_mse": 0.0053364841579592055,
+    "velocity_l2": 0.1279733916309349,
+    "pressure_l2": 1.043170440341563,
+    "counts": {
+      "parameter_elements": 24291,
+      "parameter_real_scalars": 24291,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "dendrite_s921104",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "dendrite",
+    "seed": 921104,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/dendrite_s921104/training/dendrite_a/best.pt",
+    "checkpoint_sha256": "ca98cc19d4bb03b23b4ea3a36c08403fa2f948594cba623cb9c5673050fcbb17",
+    "epoch": 180,
+    "validation_mse": 0.005345888461400573,
+    "velocity_l2": 0.12773559654136185,
+    "pressure_l2": 1.0530801071751472,
+    "counts": {
+      "parameter_elements": 24291,
+      "parameter_real_scalars": 24291,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "dendrite_s921105",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "dendrite",
+    "seed": 921105,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/dendrite_s921105/training/dendrite_a/best.pt",
+    "checkpoint_sha256": "e71c5f578c4ecdb4c75a5c8ebbfc086932e47d8c14f715175824b37959c5d1a5",
+    "epoch": 200,
+    "validation_mse": 0.005339597282640831,
+    "velocity_l2": 0.12788301418592396,
+    "pressure_l2": 1.0509888496957918,
+    "counts": {
+      "parameter_elements": 24291,
+      "parameter_real_scalars": 24291,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "realnpu_s921101",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "realnpu",
+    "seed": 921101,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/realnpu_s921101/training/realnpu_b/best.pt",
+    "checkpoint_sha256": "6a430d53c919a61cd88a03623a3409ab745489e2f46aa765bee311ef8d4c93df",
+    "epoch": 200,
+    "validation_mse": 0.0013349384198246515,
+    "velocity_l2": 0.1361228115950634,
+    "pressure_l2": 0.3893958501888969,
+    "counts": {
+      "parameter_elements": 3900,
+      "parameter_real_scalars": 3900,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "realnpu_s921102",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "realnpu",
+    "seed": 921102,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/realnpu_s921102/training/realnpu_b/best.pt",
+    "checkpoint_sha256": "bff8f4ffba44a9797399d7e8b407e893086301318816c5f02f5a5c9bdf228e38",
+    "epoch": 200,
+    "validation_mse": 0.0012126450444190399,
+    "velocity_l2": 0.13406293214727158,
+    "pressure_l2": 0.35725389514031336,
+    "counts": {
+      "parameter_elements": 3900,
+      "parameter_real_scalars": 3900,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "realnpu_s921103",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "realnpu",
+    "seed": 921103,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/realnpu_s921103/training/realnpu_b/best.pt",
+    "checkpoint_sha256": "3ee0f9b6f9191b793964aa4886fa004dd8f30303fdf67aa7c54103a8fa606b4d",
+    "epoch": 200,
+    "validation_mse": 0.0013958593871749394,
+    "velocity_l2": 0.13587970192710286,
+    "pressure_l2": 0.3966460230642022,
+    "counts": {
+      "parameter_elements": 3900,
+      "parameter_real_scalars": 3900,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "realnpu_s921104",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "realnpu",
+    "seed": 921104,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/realnpu_s921104/training/realnpu_b/best.pt",
+    "checkpoint_sha256": "27f27d0760293563a1d908fe5d735d757a2401251c1aabdfaa62b4a7ed0275e1",
+    "epoch": 200,
+    "validation_mse": 0.0013794608951863652,
+    "velocity_l2": 0.1319100691370859,
+    "pressure_l2": 0.37035483761164006,
+    "counts": {
+      "parameter_elements": 3900,
+      "parameter_real_scalars": 3900,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "realnpu_s921105",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "realnpu",
+    "seed": 921105,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/realnpu_s921105/training/realnpu_b/best.pt",
+    "checkpoint_sha256": "c4725cb32e0565fac5520641f523017e896f5b247e33aa841f1e876cb623acde",
+    "epoch": 200,
+    "validation_mse": 0.0013238733071844633,
+    "velocity_l2": 0.13686772357465,
+    "pressure_l2": 0.3872166584341944,
+    "counts": {
+      "parameter_elements": 3900,
+      "parameter_real_scalars": 3900,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "rbf_s921101",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "rbf",
+    "seed": 921101,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/rbf_s921101/training/rbf_b/best.pt",
+    "checkpoint_sha256": "599f51d1e14b70d28de1ea9f130be60a0fbdf15643f253c4f11aa623c38ec312",
+    "epoch": 200,
+    "validation_mse": 0.00995692690783547,
+    "velocity_l2": 0.19264960761018413,
+    "pressure_l2": 1.2960926564652693,
+    "counts": {
+      "parameter_elements": 11715,
+      "parameter_real_scalars": 11715,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "rbf_s921102",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "rbf",
+    "seed": 921102,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/rbf_s921102/training/rbf_b/best.pt",
+    "checkpoint_sha256": "cabe8de762361c36de2d15ba52c3c985e2913f0524faeec03360f41942a9e928",
+    "epoch": 200,
+    "validation_mse": 0.00988521027933029,
+    "velocity_l2": 0.1947469104667294,
+    "pressure_l2": 1.2928825601267147,
+    "counts": {
+      "parameter_elements": 11715,
+      "parameter_real_scalars": 11715,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "rbf_s921103",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "rbf",
+    "seed": 921103,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/rbf_s921103/training/rbf_b/best.pt",
+    "checkpoint_sha256": "91860268b57fef8b52566aa78c02f4fdbc3f98d2a856105082c96879a688a9e8",
+    "epoch": 200,
+    "validation_mse": 0.009999289162801517,
+    "velocity_l2": 0.19436223188747118,
+    "pressure_l2": 1.2957321016308863,
+    "counts": {
+      "parameter_elements": 11715,
+      "parameter_real_scalars": 11715,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "rbf_s921104",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "rbf",
+    "seed": 921104,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/rbf_s921104/training/rbf_b/best.pt",
+    "checkpoint_sha256": "0d7254949e3a8424353723f3078e278a72112d24d3a287b40f7298498874a769",
+    "epoch": 200,
+    "validation_mse": 0.009799053716576253,
+    "velocity_l2": 0.19055421994310104,
+    "pressure_l2": 1.296706684835546,
+    "counts": {
+      "parameter_elements": 11715,
+      "parameter_real_scalars": 11715,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "rbf_s921105",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "rbf",
+    "seed": 921105,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/rbf_s921105/training/rbf_b/best.pt",
+    "checkpoint_sha256": "e2d61a2cb2148f0aeb848e457acd07ee5cd95a436fd281b8720e7a152383e48d",
+    "epoch": 200,
+    "validation_mse": 0.009882747585408181,
+    "velocity_l2": 0.19180910990363573,
+    "pressure_l2": 1.28655165835941,
+    "counts": {
+      "parameter_elements": 11715,
+      "parameter_real_scalars": 11715,
+      "buffer_elements": 0,
+      "buffer_real_scalars": 0
+    }
+  },
+  {
+    "id": "cascor_s921101",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "cascor",
+    "seed": 921101,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/cascor_s921101/training/cascor_a/best.pt",
+    "checkpoint_sha256": "9d169de59ddad2a8811084f7ca68e842b7847ce2d75c5cc505d6e41efda1e233",
+    "epoch": 1,
+    "validation_mse": 0.015374975866718116,
+    "velocity_l2": 0.2833427847805872,
+    "pressure_l2": 1.6467868579005267,
+    "counts": {
+      "parameter_elements": 2352,
+      "parameter_real_scalars": 2352,
+      "buffer_elements": 270,
+      "buffer_real_scalars": 270
+    }
+  },
+  {
+    "id": "cascor_s921102",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "cascor",
+    "seed": 921102,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/cascor_s921102/training/cascor_a/best.pt",
+    "checkpoint_sha256": "0fa26c704edd852a367e7dedd25e4c73ea9f9fdd7ca2bc61649f9d8f9af40a06",
+    "epoch": 1,
+    "validation_mse": 0.014911220167408359,
+    "velocity_l2": 0.27645253201576087,
+    "pressure_l2": 1.6871065650906503,
+    "counts": {
+      "parameter_elements": 2352,
+      "parameter_real_scalars": 2352,
+      "buffer_elements": 270,
+      "buffer_real_scalars": 270
+    }
+  },
+  {
+    "id": "cascor_s921103",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "cascor",
+    "seed": 921103,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/cascor_s921103/training/cascor_a/best.pt",
+    "checkpoint_sha256": "f79bd7b9821724f4d0af2152a76c6425523ce30bf63d2274cf99c232bc2867ee",
+    "epoch": 1,
+    "validation_mse": 0.015379049604815237,
+    "velocity_l2": 0.26704826515777336,
+    "pressure_l2": 1.6980901986801455,
+    "counts": {
+      "parameter_elements": 2352,
+      "parameter_real_scalars": 2352,
+      "buffer_elements": 270,
+      "buffer_real_scalars": 270
+    }
+  },
+  {
+    "id": "cascor_s921104",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "cascor",
+    "seed": 921104,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/cascor_s921104/training/cascor_a/best.pt",
+    "checkpoint_sha256": "80af8782195b9798a8420d3e35f5c7b28ad7cc43a907fdfe5ab9fdd12370fe8c",
+    "epoch": 1,
+    "validation_mse": 0.015658027051726656,
+    "velocity_l2": 0.28079243022391,
+    "pressure_l2": 1.7460073833097076,
+    "counts": {
+      "parameter_elements": 2352,
+      "parameter_real_scalars": 2352,
+      "buffer_elements": 270,
+      "buffer_real_scalars": 270
+    }
+  },
+  {
+    "id": "cascor_s921105",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "cascor",
+    "seed": 921105,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/cascor_s921105/training/cascor_a/best.pt",
+    "checkpoint_sha256": "983ea46af9c2d9edf0e3ced6188dc9191c5b277f47e56bdea2693b3ae5598ccb",
+    "epoch": 1,
+    "validation_mse": 0.014518883647818847,
+    "velocity_l2": 0.2760124880424463,
+    "pressure_l2": 1.5927633777581964,
+    "counts": {
+      "parameter_elements": 2352,
+      "parameter_real_scalars": 2352,
+      "buffer_elements": 270,
+      "buffer_real_scalars": 270
+    }
+  },
+  {
+    "id": "elm_s921101",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "elm",
+    "seed": 921101,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/elm_s921101/training/elm_b/best.pt",
+    "checkpoint_sha256": "a39f58a16372a54c033ce622510500bfd671f9f40f4dc48a8676e45f9fae6b8a",
+    "epoch": 1,
+    "validation_mse": 0.021786981889414563,
+    "velocity_l2": 0.3871889983105189,
+    "pressure_l2": 1.936574637933638,
+    "counts": {
+      "parameter_elements": 0,
+      "parameter_real_scalars": 0,
+      "buffer_elements": 15619,
+      "buffer_real_scalars": 15619
+    }
+  },
+  {
+    "id": "elm_s921102",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "elm",
+    "seed": 921102,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/elm_s921102/training/elm_b/best.pt",
+    "checkpoint_sha256": "d443784bef8ba7cd8ba2434bc0db5798e781dc7c740cbae6446a34e8f4ed1505",
+    "epoch": 1,
+    "validation_mse": 0.02193360809199909,
+    "velocity_l2": 0.387264918689595,
+    "pressure_l2": 1.952380834181254,
+    "counts": {
+      "parameter_elements": 0,
+      "parameter_real_scalars": 0,
+      "buffer_elements": 15619,
+      "buffer_real_scalars": 15619
+    }
+  },
+  {
+    "id": "elm_s921103",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "elm",
+    "seed": 921103,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/elm_s921103/training/elm_b/best.pt",
+    "checkpoint_sha256": "f983653fa4515765c2226b497553c47161d4f25e5806915dbad939a18f0e0a6e",
+    "epoch": 1,
+    "validation_mse": 0.021451093574920428,
+    "velocity_l2": 0.3768133069192311,
+    "pressure_l2": 1.9734187176996911,
+    "counts": {
+      "parameter_elements": 0,
+      "parameter_real_scalars": 0,
+      "buffer_elements": 15619,
+      "buffer_real_scalars": 15619
+    }
+  },
+  {
+    "id": "elm_s921104",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "elm",
+    "seed": 921104,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/elm_s921104/training/elm_b/best.pt",
+    "checkpoint_sha256": "bbd5847e4a7a33aad0d0b10dda786fef7922becd471686f1eca2352b9b3423f4",
+    "epoch": 1,
+    "validation_mse": 0.021853791511038924,
+    "velocity_l2": 0.3885777733778657,
+    "pressure_l2": 1.9210599651791695,
+    "counts": {
+      "parameter_elements": 0,
+      "parameter_real_scalars": 0,
+      "buffer_elements": 15619,
+      "buffer_real_scalars": 15619
+    }
+  },
+  {
+    "id": "elm_s921105",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "elm",
+    "seed": 921105,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/elm_s921105/training/elm_b/best.pt",
+    "checkpoint_sha256": "b6a27d9e31d61580fbb156d5d44a829406109a54cc969e7a436e45033b6b8360",
+    "epoch": 1,
+    "validation_mse": 0.021959170873047974,
+    "velocity_l2": 0.4023140195213313,
+    "pressure_l2": 1.87625398455052,
+    "counts": {
+      "parameter_elements": 0,
+      "parameter_real_scalars": 0,
+      "buffer_elements": 15619,
+      "buffer_real_scalars": 15619
+    }
+  },
+  {
+    "id": "scn_s921101",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "scn",
+    "seed": 921101,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/scn_s921101/training/scn_b/best.pt",
+    "checkpoint_sha256": "d1886cdefd5b49557934483317316aca26cbbcd4ccf613c2b2a236611e10dc8d",
+    "epoch": 1,
+    "validation_mse": 0.021493720395760703,
+    "velocity_l2": 0.40897914064553326,
+    "pressure_l2": 1.9602279018087672,
+    "counts": {
+      "parameter_elements": 0,
+      "parameter_real_scalars": 0,
+      "buffer_elements": 7811,
+      "buffer_real_scalars": 7811
+    }
+  },
+  {
+    "id": "scn_s921102",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "scn",
+    "seed": 921102,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/scn_s921102/training/scn_b/best.pt",
+    "checkpoint_sha256": "86d21a9c9163f52861181f850a0e63256b50bc5f41a865c445adfa74c22f966e",
+    "epoch": 1,
+    "validation_mse": 0.021800399546525413,
+    "velocity_l2": 0.4022416149519749,
+    "pressure_l2": 1.9707683040519837,
+    "counts": {
+      "parameter_elements": 0,
+      "parameter_real_scalars": 0,
+      "buffer_elements": 7811,
+      "buffer_real_scalars": 7811
+    }
+  },
+  {
+    "id": "scn_s921103",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "scn",
+    "seed": 921103,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/scn_s921103/training/scn_b/best.pt",
+    "checkpoint_sha256": "e83f64c2ecf62ccc5a48bced147585f40aaa9fc2cb7963fef08fc3d03b2c61af",
+    "epoch": 1,
+    "validation_mse": 0.021367674467617736,
+    "velocity_l2": 0.39932852392257223,
+    "pressure_l2": 1.9545641881822688,
+    "counts": {
+      "parameter_elements": 0,
+      "parameter_real_scalars": 0,
+      "buffer_elements": 7811,
+      "buffer_real_scalars": 7811
+    }
+  },
+  {
+    "id": "scn_s921104",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "scn",
+    "seed": 921104,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/scn_s921104/training/scn_b/best.pt",
+    "checkpoint_sha256": "84d7f45dfe1615001e1dad4f4f16f555003e6aeb55c7f36e0ef64235318e583d",
+    "epoch": 1,
+    "validation_mse": 0.02150217708897504,
+    "velocity_l2": 0.40542253230040365,
+    "pressure_l2": 1.9706845483868307,
+    "counts": {
+      "parameter_elements": 0,
+      "parameter_real_scalars": 0,
+      "buffer_elements": 7384,
+      "buffer_real_scalars": 7384
+    }
+  },
+  {
+    "id": "scn_s921105",
+    "status": "MAIN_VALIDATION_PASS",
+    "model": "scn",
+    "seed": 921105,
+    "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/scn_s921105/training/scn_b/best.pt",
+    "checkpoint_sha256": "40009b87bfe7882a8af7da4d5bf8f3ef96c4b90432a1ddabca39ac2db46c334d",
+    "epoch": 1,
+    "validation_mse": 0.02168071817490888,
+    "velocity_l2": 0.4027258181383856,
+    "pressure_l2": 1.983152133827086,
+    "counts": {
+      "parameter_elements": 0,
+      "parameter_real_scalars": 0,
+      "buffer_elements": 7811,
+      "buffer_real_scalars": 7811
+    }
+  }
+]

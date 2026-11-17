@@ -1,0 +1,53 @@
+{
+  "algorithm": "Adam, gradient clipping1, data loss only",
+  "updates": 120,
+  "initial_point_training_mse": 0.9341477155685425,
+  "final_point_training_mse": 0.8802353739738464,
+  "point_sample_sha256": "de029a9f95ba750702b4257a4037f06392c5d2ff6b1a8cbe2384b3a0d3ae2373",
+  "point_samples": 32768,
+  "history": [
+    {
+      "update": 1,
+      "normalized_loss": 0.8710473775863647,
+      "gradient_norm_before_clip": 0.4544084370136261,
+      "elapsed_seconds": 0.07754383992869407
+    },
+    {
+      "update": 21,
+      "normalized_loss": 0.8116251826286316,
+      "gradient_norm_before_clip": 0.2245989292860031,
+      "elapsed_seconds": 0.10253236698918045
+    },
+    {
+      "update": 41,
+      "normalized_loss": 0.8936643600463867,
+      "gradient_norm_before_clip": 0.15652798116207123,
+      "elapsed_seconds": 0.12487052893266082
+    },
+    {
+      "update": 61,
+      "normalized_loss": 1.0147762298583984,
+      "gradient_norm_before_clip": 0.10674739629030228,
+      "elapsed_seconds": 0.14696533500682563
+    },
+    {
+      "update": 81,
+      "normalized_loss": 0.8181841373443604,
+      "gradient_norm_before_clip": 0.17245914041996002,
+      "elapsed_seconds": 0.16909086692612618
+    },
+    {
+      "update": 101,
+      "normalized_loss": 0.7885112762451172,
+      "gradient_norm_before_clip": 0.09096898883581161,
+      "elapsed_seconds": 0.19116946891881526
+    },
+    {
+      "update": 120,
+      "normalized_loss": 0.911552906036377,
+      "gradient_norm_before_clip": 0.1711145043373108,
+      "elapsed_seconds": 0.2123193679144606
+    }
+  ],
+  "wall_seconds": 1.2704708779929206
+}

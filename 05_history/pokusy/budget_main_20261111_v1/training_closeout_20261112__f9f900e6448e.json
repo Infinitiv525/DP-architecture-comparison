@@ -1,0 +1,19 @@
+{
+  "status": "ALL45_MAIN_TRAININGS_COMPLETE",
+  "primary_models": 45,
+  "independent_runs_per_family": 5,
+  "training_gpu_process_hours": 137.4774362056307,
+  "time_scope": "Sum of reported per-worker allocation clocks, not exact portal billing",
+  "all45_within_4_H200_hour_limits": true,
+  "all45_worker_exit_codes_zero": true,
+  "all45_used_all640_TRAIN": true,
+  "test_models_including_PINN": 50,
+  "preflight_models_passed": 50,
+  "preflight_unique_VAL_fields": 100,
+  "final_test_started": true,
+  "final_test_job_id": "157382",
+  "CPU_saved_output_audit_job_id": "157383",
+  "methods_unchanged": true,
+  "no_extra_training_launched": true,
+  "test_configuration_frozen": true
+}

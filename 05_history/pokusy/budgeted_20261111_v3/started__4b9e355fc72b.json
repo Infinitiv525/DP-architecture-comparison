@@ -1,0 +1,16 @@
+{
+  "task": {
+    "model": "rbf",
+    "seed": 933001,
+    "configuration_index": 0,
+    "learning_rate": 0.001,
+    "ridge": 1e-08,
+    "time_budget_seconds": 3600,
+    "mode": "tuning"
+  },
+  "allocation": {
+    "job_id": "156218",
+    "initial_scontrol": "JobId=156218 ArrayJobId=156096 ArrayTaskId=10 ArrayTaskThrottle=4 JobName=dp-budget-tune UserId=lutoke823(507402392) GroupId=domain users(507400513) MCS_label=N/A Priority=492 Nice=0 Account=perun2601449 QOS=perun2601449 JobState=RUNNING Reason=None Dependency=(null) Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:02 TimeLimit=01:00:00 TimeMin=N/A SubmitTime=2026-11-11T10:15:36 EligibleTime=2026-11-11T12:09:39 AccrueTime=2026-11-11T10:15:36 StartTime=2026-11-11T12:09:39 EndTime=2026-11-11T13:09:39 Deadline=N/A PreemptEligibleTime=2026-11-11T12:09:39 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-11-11T12:09:39 Scheduler=Main Partition=gpu_short AllocNode:Sid=login01:1782952 ReqNodeList=(null) ExcNodeList=(null) NodeList=gpu20 BatchHost=gpu20 NumNodes=1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=4,mem=48G,node=1,billing=5,gres/gpu=1 AllocTRES=cpu=4,mem=48G,node=1,billing=5,gres/gpu=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=4 MinMemoryNode=48G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=NO Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null) Command=/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budgeted_20261111_v3/revisions/r_eb142e97ac3a1736/run.sbatch SubmitLine=sbatch --parsable --chdir=/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budgeted_20261111_v3/revisions/r_eb142e97ac3a1736 --job-name=dp-budget-tune --partition=gpu_short --time=01:00:00 --gres=gpu:1 --array=0-17%4 --dependency=afterok:156083 --output=/mnt/project/perun2601449/dp_llm_cfd/logs/%x_%A_%a.out --error=/mnt/project/perun2601449/dp_llm_cfd/logs/%x_%A_%a.err run.sbatch tuning /mnt/project/perun2601449/dp_llm_cfd/results/architecture_budgeted_20261111_v3/tuning_eb142e97ac3a1736 WorkDir=/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budgeted_20261111_v3/revisions/r_eb142e97ac3a1736 StdErr=/mnt/project/perun2601449/dp_llm_cfd/logs/dp-budget-tune_156096_10.err StdIn=/dev/null StdOut=/mnt/project/perun2601449/dp_llm_cfd/logs/dp-budget-tune_156096_10.out TresPerNode=gres/gpu:1 TresPerTask=cpu=4\n"
+  },
+  "policy_sha256": "0568dac26fc4d333dfedf8bc22d400d8b993386499982f67650184cbf2f80e7d"
+}

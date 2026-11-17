@@ -1,0 +1,323 @@
+{
+  "runs": [
+    {
+      "id": "fixed_k00",
+      "training_seconds": 13883.622661682894,
+      "process_wall_seconds": 13891.656468161964,
+      "child_cpu_seconds": 13796.726547000002,
+      "peak_cuda_allocated_bytes": 4962697216,
+      "epochs": 400,
+      "train_cases": 640,
+      "seed": 150001,
+      "environment": {
+        "torch": "2.12.0+cu130",
+        "numpy": "2.5.4",
+        "cuda": "13.0",
+        "device": "NVIDIA H200",
+        "parameters": 134922,
+        "seed": 150001,
+        "precision": "float32",
+        "allow_tf32": false,
+        "cudnn_allow_tf32": true,
+        "source_freeze": "c61230aa43a09ae18ac2f7b79a53dac33934227c42746bc31dfb3499e8f24e6b"
+      },
+      "process_exit": 0,
+      "process_timed_out": false,
+      "source_files": {
+        "training/summary.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k00/145176/training/summary.json",
+          "sha256": "df6e5315f6e8af025e2b357fcb5418b8784d5f7aa83b4d5cda19a4c96d64201c"
+        },
+        "training_process.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k00/145176/training_process.json",
+          "sha256": "9b361b7d7830ea54aacd8d5e2ce9aa94fdb99d764ceb52d388d56e9c84263e59"
+        },
+        "training/environment.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k00/145176/training/environment.json",
+          "sha256": "229c01174d8471fcaa8eb18491220cc0e9cfff7919664b6b8871ef55b0d0a9e0"
+        },
+        "training/config.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k00/145176/training/config.json",
+          "sha256": "323c020469c53a78cde2ba023d9e517eadd0ae6f4db1775b8082b09eb7a92122"
+        }
+      },
+      "active_H200_GPU_hours": 3.858793463378323,
+      "proportional_allocated_CPU_core_hours": 15.435173853513293,
+      "observed_child_CPU_core_hours": 3.832424040833334,
+      "observed_peak_CUDA_allocated_GiB": 4.6218719482421875
+    },
+    {
+      "id": "fixed_k01",
+      "training_seconds": 13826.933030450018,
+      "process_wall_seconds": 13834.665981961996,
+      "child_cpu_seconds": 13745.24514200001,
+      "peak_cuda_allocated_bytes": 4962697216,
+      "epochs": 400,
+      "train_cases": 640,
+      "seed": 150002,
+      "environment": {
+        "torch": "2.12.0+cu130",
+        "numpy": "2.5.4",
+        "cuda": "13.0",
+        "device": "NVIDIA H200",
+        "parameters": 134922,
+        "seed": 150002,
+        "precision": "float32",
+        "allow_tf32": false,
+        "cudnn_allow_tf32": true,
+        "source_freeze": "c61230aa43a09ae18ac2f7b79a53dac33934227c42746bc31dfb3499e8f24e6b"
+      },
+      "process_exit": 0,
+      "process_timed_out": false,
+      "source_files": {
+        "training/summary.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k01/145176/training/summary.json",
+          "sha256": "e891134055072a05ddc1069b8575087a5792e6e3c00753f59576eabb312c9218"
+        },
+        "training_process.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k01/145176/training_process.json",
+          "sha256": "9ed2e13840934303ee020aaf178b4597233f7b4a17518d92bd87c39218d79a61"
+        },
+        "training/environment.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k01/145176/training/environment.json",
+          "sha256": "5847afdf23690153da502f1a261d25ca4cd01762b340f53296ea9fd221843ede"
+        },
+        "training/config.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k01/145176/training/config.json",
+          "sha256": "339ed84073b24f9d9cf6dc6e383e15f93fd398232d2fb200b658c2d82f8b75e7"
+        }
+      },
+      "active_H200_GPU_hours": 3.8429627727672213,
+      "proportional_allocated_CPU_core_hours": 15.371851091068885,
+      "observed_child_CPU_core_hours": 3.8181236505555587,
+      "observed_peak_CUDA_allocated_GiB": 4.6218719482421875
+    },
+    {
+      "id": "fixed_k02",
+      "training_seconds": 14146.858000922017,
+      "process_wall_seconds": 14154.781295048015,
+      "child_cpu_seconds": 14065.428937999992,
+      "peak_cuda_allocated_bytes": 4962697216,
+      "epochs": 400,
+      "train_cases": 640,
+      "seed": 150003,
+      "environment": {
+        "torch": "2.12.0+cu130",
+        "numpy": "2.5.4",
+        "cuda": "13.0",
+        "device": "NVIDIA H200",
+        "parameters": 134922,
+        "seed": 150003,
+        "precision": "float32",
+        "allow_tf32": false,
+        "cudnn_allow_tf32": true,
+        "source_freeze": "c61230aa43a09ae18ac2f7b79a53dac33934227c42746bc31dfb3499e8f24e6b"
+      },
+      "process_exit": 0,
+      "process_timed_out": false,
+      "source_files": {
+        "training/summary.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k02/145176/training/summary.json",
+          "sha256": "2cf086c9c10036b4f3b5259f1fba5a5dde7ff8532ae8adad1333be53b08d101b"
+        },
+        "training_process.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k02/145176/training_process.json",
+          "sha256": "10e9662f8e5432bb7c41dae5cb4baf5d65b354404e6b4e6ac13d15f6fbfcef9e"
+        },
+        "training/environment.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k02/145176/training/environment.json",
+          "sha256": "b325a49d866b71fb1ae7bfbbdcae16d744717ff9b6541c5696ba3fe01a83caa3"
+        },
+        "training/config.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k02/145176/training/config.json",
+          "sha256": "48b1da49dc4d52e96b1d1d3d2b21a7f90c5aec9c6e4f0063cb7e99b90c77550e"
+        }
+      },
+      "active_H200_GPU_hours": 3.931883693068893,
+      "proportional_allocated_CPU_core_hours": 15.727534772275572,
+      "observed_child_CPU_core_hours": 3.9070635938888865,
+      "observed_peak_CUDA_allocated_GiB": 4.6218719482421875
+    },
+    {
+      "id": "fixed_k03",
+      "training_seconds": 14066.979835071019,
+      "process_wall_seconds": 14075.14646880608,
+      "child_cpu_seconds": 13982.549249999998,
+      "peak_cuda_allocated_bytes": 4962697216,
+      "epochs": 400,
+      "train_cases": 640,
+      "seed": 150004,
+      "environment": {
+        "torch": "2.12.0+cu130",
+        "numpy": "2.5.4",
+        "cuda": "13.0",
+        "device": "NVIDIA H200",
+        "parameters": 134922,
+        "seed": 150004,
+        "precision": "float32",
+        "allow_tf32": false,
+        "cudnn_allow_tf32": true,
+        "source_freeze": "c61230aa43a09ae18ac2f7b79a53dac33934227c42746bc31dfb3499e8f24e6b"
+      },
+      "process_exit": 0,
+      "process_timed_out": false,
+      "source_files": {
+        "training/summary.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k03/145176/training/summary.json",
+          "sha256": "95df4014bc5a8eac1c278194ad698ad0d0978f19e543467ea7745c89c247d294"
+        },
+        "training_process.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k03/145176/training_process.json",
+          "sha256": "75b1a7e9fbaf00a56b4c6cd7d47f4ef3f5f35bcdfc5f172e331603807c4430d5"
+        },
+        "training/environment.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k03/145176/training/environment.json",
+          "sha256": "6685c74c23b96c2b4bc5ddfaaa5f8dd01270d719f5db79822076c5e03a7df1ef"
+        },
+        "training/config.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k03/145176/training/config.json",
+          "sha256": "dd83942c7fa9e2e6aa36439fbbbdc50fa4850f105dc07ce70caba8565c0a35bf"
+        }
+      },
+      "active_H200_GPU_hours": 3.909762908001689,
+      "proportional_allocated_CPU_core_hours": 15.639051632006757,
+      "observed_child_CPU_core_hours": 3.884041458333333,
+      "observed_peak_CUDA_allocated_GiB": 4.6218719482421875
+    },
+    {
+      "id": "fixed_k04",
+      "training_seconds": 14050.663973426039,
+      "process_wall_seconds": 14058.73135091504,
+      "child_cpu_seconds": 13964.666956000005,
+      "peak_cuda_allocated_bytes": 4962697216,
+      "epochs": 400,
+      "train_cases": 640,
+      "seed": 150005,
+      "environment": {
+        "torch": "2.12.0+cu130",
+        "numpy": "2.5.4",
+        "cuda": "13.0",
+        "device": "NVIDIA H200",
+        "parameters": 134922,
+        "seed": 150005,
+        "precision": "float32",
+        "allow_tf32": false,
+        "cudnn_allow_tf32": true,
+        "source_freeze": "c61230aa43a09ae18ac2f7b79a53dac33934227c42746bc31dfb3499e8f24e6b"
+      },
+      "process_exit": 0,
+      "process_timed_out": false,
+      "source_files": {
+        "training/summary.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k04/145176/training/summary.json",
+          "sha256": "73e59b9dcaf8ac869a2f4f150194e318bf2e64b46a88867806f6e90d18ce700a"
+        },
+        "training_process.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k04/145176/training_process.json",
+          "sha256": "17d69ae800ffad545e1bb323d9add3e626e52ee43bcf20c3cffe526719a819e3"
+        },
+        "training/environment.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k04/145176/training/environment.json",
+          "sha256": "1c14479c50072fb315c0521cbaf1afedc05de28ffc08bbde542370e9b76f1221"
+        },
+        "training/config.json": {
+          "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k04/145176/training/config.json",
+          "sha256": "aff6e0410482622b3591d2ce9f65a2ee3e074f5695737d2659b525ffbec9ad7c"
+        }
+      },
+      "active_H200_GPU_hours": 3.9052031530319558,
+      "proportional_allocated_CPU_core_hours": 15.620812612127823,
+      "observed_child_CPU_core_hours": 3.879074154444446,
+      "observed_peak_CUDA_allocated_GiB": 4.6218719482421875
+    }
+  ],
+  "worker_allocation_source": [
+    {
+      "line": 2,
+      "text": "#SBATCH --job-name=dp-ldc36-main16"
+    },
+    {
+      "line": 3,
+      "text": "#SBATCH --account=perun2601449"
+    },
+    {
+      "line": 4,
+      "text": "#SBATCH --qos=perun2601449"
+    },
+    {
+      "line": 5,
+      "text": "#SBATCH --partition=gpu_short"
+    },
+    {
+      "line": 6,
+      "text": "#SBATCH --nodes=2"
+    },
+    {
+      "line": 7,
+      "text": "#SBATCH --ntasks=16"
+    },
+    {
+      "line": 8,
+      "text": "#SBATCH --ntasks-per-node=8"
+    },
+    {
+      "line": 9,
+      "text": "#SBATCH --cpus-per-task=4"
+    },
+    {
+      "line": 10,
+      "text": "#SBATCH --gres=gpu:8"
+    },
+    {
+      "line": 11,
+      "text": "#SBATCH --mem=320G"
+    },
+    {
+      "line": 12,
+      "text": "#SBATCH --time=1-12:00:00"
+    },
+    {
+      "line": 13,
+      "text": "#SBATCH --export=NIL"
+    },
+    {
+      "line": 14,
+      "text": "#SBATCH --no-requeue"
+    },
+    {
+      "line": 15,
+      "text": "#SBATCH --output=logs/%x_%j.out"
+    },
+    {
+      "line": 16,
+      "text": "#SBATCH --error=logs/%x_%j.err"
+    },
+    {
+      "line": 20,
+      "text": "export OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=1 PYTHONNOUSERSITE=1"
+    },
+    {
+      "line": 29,
+      "text": "srun --export=ALL --nodes=2 --ntasks=16 --ntasks-per-node=8 --cpus-per-task=4 --gpus-per-task=1 --gpu-bind=single:1 \\"
+    },
+    {
+      "line": 32,
+      "text": "srun --export=ALL --nodes=2 --ntasks=16 --ntasks-per-node=8 --cpus-per-task=4 --gpus-per-task=1 --gpu-bind=single:1 --kill-on-bad-exit=0 \\"
+    }
+  ],
+  "training_source_sha256": "ff4360c9fa6b15d5248ea0cab3ae60246416c17aa4304d39edce1cc5232f4c21",
+  "status": "REFERENCE_PINN_RESOURCES_VERIFIED_FROM_FIVE_RUNS",
+  "reference_budget_derivation": "Ceiling of the slowest observed whole training subprocess walltime to a 15-minute allocation block on the same H200 hardware; all five baseline runs fit.",
+  "reference_H200s_per_worker": 1,
+  "reference_CPUs_per_worker": 4,
+  "reference_proportional_host_RAM_GiB": 40,
+  "reference_RAM_is_group_share_not_measured_per_process_peak": true,
+  "median_process_wall_seconds": 14058.73135091504,
+  "median_GPU_hours": 3.9052031530319558,
+  "maximum_process_wall_seconds": 14154.781295048015,
+  "minimum_process_wall_seconds": 13834.665981961996,
+  "common_budget_seconds": 14400,
+  "accounting_scope": "Active single-model training subprocess resource residence, includes process startup/teardown. Not per-model allocation of shared-group idle tails, not portal billing or measured FLOPs/energy.",
+  "historical_PINN_is_only_auxiliary_accuracy_reference": true,
+  "common_budget_selected_without_competitor_test_scores": true
+}

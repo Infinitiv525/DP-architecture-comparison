@@ -1,0 +1,255 @@
+{
+  "status": "DENSE_FNO5_TEST_COMPLETE",
+  "models": [
+    {
+      "status": "DENSE_FNO5_MODEL_TEST_COMPLETE",
+      "model": {
+        "id": "fno_s931101",
+        "model": "fno",
+        "seed": 931101,
+        "group": 0,
+        "kind": "posthoc_resource_matched_dense_fno_supplement",
+        "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931101/best.pt",
+        "checkpoint_sha256": "4373bb94a8b3a41d4843a3a443c07cc0095e0fbf358a0ef91ac43343f8140381",
+        "expected_validation": [
+          {
+            "index": 341,
+            "velocity_l2": 0.014219000935554504,
+            "pressure_l2": 0.037539999932050705
+          },
+          {
+            "index": 952,
+            "velocity_l2": 0.007992285303771496,
+            "pressure_l2": 0.015244548209011555
+          }
+        ],
+        "parameter_ledger": {
+          "trainable_real_scalars": 12672888,
+          "data_fitted_frozen_real_scalars": 10,
+          "data_selected_frozen_real_scalars": 0,
+          "data_independent_core_real_scalars": 0,
+          "learned_or_fitted_total": 12672898,
+          "total_core_coefficients_plus_normalization": 12672898,
+          "common_adapter_buffer_bytes": 2459688,
+          "core_tensor_bytes": 50691552,
+          "accounting_only": false
+        },
+        "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931101/complete.json",
+        "training_summary_sha256": "b8eff7891838127fd608a10fae3d140b8ff307e0a53b42216194363622a6289a",
+        "training_elapsed_seconds": 14101.668529208982,
+        "training_stop_reason": "training_time_budget"
+      },
+      "means": {
+        "all_cell_mse": 1.6227555292457262e-05,
+        "fluid_velocity_relative_l2": 0.008236410666201096,
+        "fluid_pressure_relative_l2": 0.01670895581810834
+      },
+      "worst_case_gpu_p99_ms": 2.8621145653724667,
+      "worst_case_host_p99_ms": 2.8868380599999997,
+      "gpu_5ms_pass": true,
+      "host_instrumented_5ms_pass": true,
+      "elapsed_seconds": 497.46903810906224
+    },
+    {
+      "status": "DENSE_FNO5_MODEL_TEST_COMPLETE",
+      "model": {
+        "id": "fno_s931102",
+        "model": "fno",
+        "seed": 931102,
+        "group": 1,
+        "kind": "posthoc_resource_matched_dense_fno_supplement",
+        "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931102/best.pt",
+        "checkpoint_sha256": "2b14df473f740d26c5bb3859000986cc9e7e90cb2535ccf06333545d5bed0d2d",
+        "expected_validation": [
+          {
+            "index": 341,
+            "velocity_l2": 0.013243170455098152,
+            "pressure_l2": 0.03328599035739899
+          },
+          {
+            "index": 952,
+            "velocity_l2": 0.00813235528767109,
+            "pressure_l2": 0.014146026223897934
+          }
+        ],
+        "parameter_ledger": {
+          "trainable_real_scalars": 12672888,
+          "data_fitted_frozen_real_scalars": 10,
+          "data_selected_frozen_real_scalars": 0,
+          "data_independent_core_real_scalars": 0,
+          "learned_or_fitted_total": 12672898,
+          "total_core_coefficients_plus_normalization": 12672898,
+          "common_adapter_buffer_bytes": 2459688,
+          "core_tensor_bytes": 50691552,
+          "accounting_only": false
+        },
+        "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931102/complete.json",
+        "training_summary_sha256": "78f43c045ad0dfac3e4501877aa22cf16cf9be1c35bcd202669320d5e20004a3",
+        "training_elapsed_seconds": 14101.782146618934,
+        "training_stop_reason": "training_time_budget"
+      },
+      "means": {
+        "all_cell_mse": 1.4637706850158164e-05,
+        "fluid_velocity_relative_l2": 0.00794826691355622,
+        "fluid_pressure_relative_l2": 0.01663792213237888
+      },
+      "worst_case_gpu_p99_ms": 2.5827551603317254,
+      "worst_case_host_p99_ms": 2.603927259999999,
+      "gpu_5ms_pass": true,
+      "host_instrumented_5ms_pass": true,
+      "elapsed_seconds": 489.56241291598417
+    },
+    {
+      "status": "DENSE_FNO5_MODEL_TEST_COMPLETE",
+      "model": {
+        "id": "fno_s931103",
+        "model": "fno",
+        "seed": 931103,
+        "group": 2,
+        "kind": "posthoc_resource_matched_dense_fno_supplement",
+        "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931103/best.pt",
+        "checkpoint_sha256": "f9a4282192267c0fa319ae548c6a2e6b2f97be817472ef5d77ca4d958214fd43",
+        "expected_validation": [
+          {
+            "index": 341,
+            "velocity_l2": 0.013974240981042385,
+            "pressure_l2": 0.03526632860302925
+          },
+          {
+            "index": 952,
+            "velocity_l2": 0.007899723015725613,
+            "pressure_l2": 0.013806725852191448
+          }
+        ],
+        "parameter_ledger": {
+          "trainable_real_scalars": 12672888,
+          "data_fitted_frozen_real_scalars": 10,
+          "data_selected_frozen_real_scalars": 0,
+          "data_independent_core_real_scalars": 0,
+          "learned_or_fitted_total": 12672898,
+          "total_core_coefficients_plus_normalization": 12672898,
+          "common_adapter_buffer_bytes": 2459688,
+          "core_tensor_bytes": 50691552,
+          "accounting_only": false
+        },
+        "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931103/complete.json",
+        "training_summary_sha256": "866c1b37c543770d433e343ff6657702a5f47bd0825ea62a73d8c8a6e8c53ec3",
+        "training_elapsed_seconds": 14101.719740985078,
+        "training_stop_reason": "training_time_budget"
+      },
+      "means": {
+        "all_cell_mse": 1.651202150545959e-05,
+        "fluid_velocity_relative_l2": 0.0082455603421664,
+        "fluid_pressure_relative_l2": 0.017079424699288047
+      },
+      "worst_case_gpu_p99_ms": 2.201284596920013,
+      "worst_case_host_p99_ms": 2.21888021,
+      "gpu_5ms_pass": true,
+      "host_instrumented_5ms_pass": true,
+      "elapsed_seconds": 496.56773130304646
+    },
+    {
+      "status": "DENSE_FNO5_MODEL_TEST_COMPLETE",
+      "model": {
+        "id": "fno_s931104",
+        "model": "fno",
+        "seed": 931104,
+        "group": 3,
+        "kind": "posthoc_resource_matched_dense_fno_supplement",
+        "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931104/best.pt",
+        "checkpoint_sha256": "fa07f210327effb6908bb31e5f2514ed44fff912066e6b8fcc4df537491bfa70",
+        "expected_validation": [
+          {
+            "index": 341,
+            "velocity_l2": 0.014362535439431667,
+            "pressure_l2": 0.03589591011404991
+          },
+          {
+            "index": 952,
+            "velocity_l2": 0.008456331677734852,
+            "pressure_l2": 0.014085114933550358
+          }
+        ],
+        "parameter_ledger": {
+          "trainable_real_scalars": 12672888,
+          "data_fitted_frozen_real_scalars": 10,
+          "data_selected_frozen_real_scalars": 0,
+          "data_independent_core_real_scalars": 0,
+          "learned_or_fitted_total": 12672898,
+          "total_core_coefficients_plus_normalization": 12672898,
+          "common_adapter_buffer_bytes": 2459688,
+          "core_tensor_bytes": 50691552,
+          "accounting_only": false
+        },
+        "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931104/complete.json",
+        "training_summary_sha256": "42494ddcd5c1af171da3e2381fdaec6ca5269216d3bf78df4096a1a5f4524148",
+        "training_elapsed_seconds": 14101.958909685956,
+        "training_stop_reason": "training_time_budget"
+      },
+      "means": {
+        "all_cell_mse": 1.5196731829341959e-05,
+        "fluid_velocity_relative_l2": 0.008009438765225483,
+        "fluid_pressure_relative_l2": 0.016294337779394995
+      },
+      "worst_case_gpu_p99_ms": 2.5582415890693664,
+      "worst_case_host_p99_ms": 2.58464764,
+      "gpu_5ms_pass": true,
+      "host_instrumented_5ms_pass": true,
+      "elapsed_seconds": 491.43547278502956
+    },
+    {
+      "status": "DENSE_FNO5_MODEL_TEST_COMPLETE",
+      "model": {
+        "id": "fno_s931105",
+        "model": "fno",
+        "seed": 931105,
+        "group": 4,
+        "kind": "posthoc_resource_matched_dense_fno_supplement",
+        "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931105/best.pt",
+        "checkpoint_sha256": "454150ebec948ae9d0121b75fbec17226caceca49d275e6a30d09bac54c18b80",
+        "expected_validation": [
+          {
+            "index": 341,
+            "velocity_l2": 0.015529187396168709,
+            "pressure_l2": 0.03470616787672043
+          },
+          {
+            "index": 952,
+            "velocity_l2": 0.00823928788304329,
+            "pressure_l2": 0.014726148918271065
+          }
+        ],
+        "parameter_ledger": {
+          "trainable_real_scalars": 12672888,
+          "data_fitted_frozen_real_scalars": 10,
+          "data_selected_frozen_real_scalars": 0,
+          "data_independent_core_real_scalars": 0,
+          "learned_or_fitted_total": 12672898,
+          "total_core_coefficients_plus_normalization": 12672898,
+          "common_adapter_buffer_bytes": 2459688,
+          "core_tensor_bytes": 50691552,
+          "accounting_only": false
+        },
+        "training_summary": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931105/complete.json",
+        "training_summary_sha256": "991681b90fc0c3de61f89b9b8e0ff8fc0347fa50effec4036324a1466c0b8992",
+        "training_elapsed_seconds": 14101.64769804012,
+        "training_stop_reason": "training_time_budget"
+      },
+      "means": {
+        "all_cell_mse": 1.4625164549317854e-05,
+        "fluid_velocity_relative_l2": 0.008130638252829362,
+        "fluid_pressure_relative_l2": 0.01659260682992306
+      },
+      "worst_case_gpu_p99_ms": 2.415690491199493,
+      "worst_case_host_p99_ms": 2.43714811,
+      "gpu_5ms_pass": true,
+      "host_instrumented_5ms_pass": true,
+      "elapsed_seconds": 496.6234808169538
+    }
+  ],
+  "total_models": 5,
+  "total_case_predictions": 1000,
+  "models_sha256": "942f31e9a4040363025232b2d9095c10cbf859256932318265e9220cd582d2b4",
+  "no_weight_updates": true,
+  "no_test_selection": true
+}

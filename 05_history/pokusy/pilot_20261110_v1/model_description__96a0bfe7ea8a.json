@@ -1,0 +1,12 @@
+{
+  "name": "rbf",
+  "repr": "PointPipeline(\n  (features): FixedGeometryFeatures()\n  (core): RBF(\n    (output): Linear(in_features=96, out_features=3, bias=True)\n  )\n)",
+  "total_parameters": 5859,
+  "trainable_parameters": 5859,
+  "buffer_values": 6291466,
+  "core_parameter_values": 5859,
+  "core_buffer_values": 0,
+  "data_fitted_or_selected_core_scalars": 5859,
+  "counting_note": "ELM fixed random weights are buffers; SCN selected weights and CasCor frozen units also count as fitted/selected. Static coordinate buffers are not learned weights.",
+  "point_encoding": "fixed TRAIN-normalized 4x4 geometry pooling + local geometry + coordinates/Fourier + logRe; no learned or pretrained encoder"
+}

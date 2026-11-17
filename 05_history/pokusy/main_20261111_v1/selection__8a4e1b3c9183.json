@@ -1,0 +1,835 @@
+{
+  "status": "ARCHITECTURE_SELECTION_FROZEN",
+  "selection_rule": "minimum full160 VAL physical all-cell MSE among reviewed GPU-p99<=5ms variants; retain best available if none feasible",
+  "review_evidence": {
+    "audit_summary_sha256": "2767c1066d9d2ae6dfb48d20bb3d2cbe6bf4d5e0ab47fe0856f57e06863ab730",
+    "extended_summary_sha256": "f21d1a7cd2b50d74ab530fc60c7b212a6dad6a4c7e1812ed54f49bea27c1e333"
+  },
+  "audit_evidence": [
+    {
+      "id": "audit/tfno_a",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "ba933673e2ca021b09cb66a7a648e0144d96e91878c182b383f7f1f0220ea658"
+    },
+    {
+      "id": "audit/tfno_b",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "e95c5f2197c23425d64a1ce058665eecfba4394e9e0f3a9ffe5573f5c3f80879"
+    },
+    {
+      "id": "audit/chebkan_a",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "6e39dda136b0cf181901b5cf2caa0fefeead3e41e28092712b61ce5d24a75221"
+    },
+    {
+      "id": "audit/chebkan_b",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "fded9c6e34f05596b5236432ea0d5b74a77babcde8d29d371671344eecc59cfe"
+    },
+    {
+      "id": "audit/pinet_a",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "32de069f80a15ec143d0ee324a368dc3411ab0185ac5359777c4e37c7cfc7545"
+    },
+    {
+      "id": "audit/pinet_b",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "d07261ea169b470600c3b5e96e461348b27ef4cdfcdfd8fdb3a604c940a1ea5e"
+    },
+    {
+      "id": "audit/dendrite_a",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "7e2cc6ca45e745b0b96e4d47a30436908b9d2582844d07d6940fcb8753a4eda1"
+    },
+    {
+      "id": "audit/dendrite_b",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "27b79ee6e6284a9ec39e66f5d60e4708d72d8f8690a224961f323b99029e2534"
+    },
+    {
+      "id": "audit/realnpu_a",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "5abc0687e85fc53c2001544ffdcfe49dcf3a56da87eed5f9c39c423d5f7b8585"
+    },
+    {
+      "id": "audit/realnpu_b",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "5c755ce3e59ac5b0b6bd9c24f6a24e0d7825a074825992b2f998156fea4692a5"
+    },
+    {
+      "id": "audit/rbf_a",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "5e3c0fe516f67bc55adca6ddc10d77a8dcf71922d3fcc2d668cc8fa471d7844f"
+    },
+    {
+      "id": "audit/rbf_b",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "c26423217f722dd7cbcd52d2c3dc30fa1882869455e1d8b337d5996c26167379"
+    },
+    {
+      "id": "audit/cascor_a",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "0def052105fd7ff11af34e9cd72b12cc09870acfc415128c8451671ccbd4c2c2"
+    },
+    {
+      "id": "audit/cascor_b",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "aa66ab32045d851c3f1f93cd196817285679c842ad2784d77f7a2bd49cf292d2"
+    },
+    {
+      "id": "audit/elm_a",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "07cfd0adf5be323219bb0fdf9130cbde2c3d5dd2dd367f74d3aa7cd4482472f3"
+    },
+    {
+      "id": "audit/elm_b",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "00bd84414e106eef3a1441ea5b6065c8adfbfe0e7c61fd8c430e7ece0108f320"
+    },
+    {
+      "id": "audit/scn_a",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "160052c37ed6a86035e85bdd4f5bff1698a828ee283b312a4799680ee67619d6"
+    },
+    {
+      "id": "audit/scn_b",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "105d6f96a761080e248972793aeb82f158cbf3450e9dcaef2ed8fc481bc0f856"
+    },
+    {
+      "id": "extended_evaluation/chebkan_a",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "967bdec93d9159d2d7791aee0d3f08644d94d7ee6514e802c1b3415640dbce78"
+    },
+    {
+      "id": "extended_evaluation/chebkan_b",
+      "status": "MODEL_ARTIFACT_AUDIT_PASS",
+      "artifact_audit_sha256": "41cb5b0816b9a5f827d0fb655a5067974495c650252e78eea88fec00c3d962a1"
+    }
+  ],
+  "selected": [
+    {
+      "model": "tfno",
+      "recipe": {
+        "id": "tfno_b",
+        "model": "tfno",
+        "device": "cuda",
+        "overrides": {
+          "tfno": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48
+          }
+        }
+      },
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/tfno_b/best.pt",
+      "checkpoint_sha256": "7594f6eb3bbc25a4e966ce2ec040675d931da14aa794eea480c0aa8acad78dc8",
+      "calibration_validation_mse": 1.1247847922258346e-05,
+      "review_gpu_p99_ms": 4.988387932777405,
+      "latency_criterion_met": true,
+      "selection_status": "FEASIBLE",
+      "continuation": false,
+      "review_role": "audit",
+      "counts": {
+        "core_parameter_elements": 646194,
+        "core_parameter_real_scalar_equivalents": 1253289,
+        "core_buffer_elements": 0,
+        "core_buffer_real_scalar_equivalents": 0,
+        "registered_pipeline_buffer_bytes": 40
+      }
+    },
+    {
+      "model": "chebkan",
+      "recipe": {
+        "id": "chebkan_a",
+        "model": "chebkan",
+        "device": "cpu",
+        "overrides": {}
+      },
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/extensions/chebkan_a/best.pt",
+      "checkpoint_sha256": "885b73d9d248cdd986960cf9653944023060d2cad392cf1066c02f661a20ff30",
+      "calibration_validation_mse": 0.0011285994836132134,
+      "review_gpu_p99_ms": 3.8613453769683836,
+      "latency_criterion_met": true,
+      "selection_status": "FEASIBLE",
+      "continuation": true,
+      "review_role": "extended_evaluation",
+      "counts": {
+        "core_parameter_elements": 11843,
+        "core_parameter_real_scalar_equivalents": 11843,
+        "core_buffer_elements": 0,
+        "core_buffer_real_scalar_equivalents": 0,
+        "registered_pipeline_buffer_bytes": 25165864
+      }
+    },
+    {
+      "model": "pinet",
+      "recipe": {
+        "id": "pinet_a",
+        "model": "pinet",
+        "device": "cpu",
+        "overrides": {}
+      },
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/pinet_a/best.pt",
+      "checkpoint_sha256": "c371c23d98df6a06e9e1b12940b671d81ca44ff43b18634748c23a4a41ad6925",
+      "calibration_validation_mse": 0.005357120748537241,
+      "review_gpu_p99_ms": 1.289665949344635,
+      "latency_criterion_met": true,
+      "selection_status": "FEASIBLE",
+      "continuation": false,
+      "review_role": "audit",
+      "counts": {
+        "core_parameter_elements": 16995,
+        "core_parameter_real_scalar_equivalents": 16995,
+        "core_buffer_elements": 0,
+        "core_buffer_real_scalar_equivalents": 0,
+        "registered_pipeline_buffer_bytes": 25165864
+      }
+    },
+    {
+      "model": "dendrite",
+      "recipe": {
+        "id": "dendrite_a",
+        "model": "dendrite",
+        "device": "cpu",
+        "overrides": {}
+      },
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/dendrite_a/best.pt",
+      "checkpoint_sha256": "ee9334345ec2e482654e2f24091a89a42bc2aa97cc3cdbf803f9f206195479ce",
+      "calibration_validation_mse": 0.005338871577676847,
+      "review_gpu_p99_ms": 1.2411228609085083,
+      "latency_criterion_met": true,
+      "selection_status": "FEASIBLE",
+      "continuation": false,
+      "review_role": "audit",
+      "counts": {
+        "core_parameter_elements": 24291,
+        "core_parameter_real_scalar_equivalents": 24291,
+        "core_buffer_elements": 0,
+        "core_buffer_real_scalar_equivalents": 0,
+        "registered_pipeline_buffer_bytes": 25165864
+      }
+    },
+    {
+      "model": "realnpu",
+      "recipe": {
+        "id": "realnpu_b",
+        "model": "realnpu",
+        "device": "cpu",
+        "overrides": {
+          "npu_width": 64
+        }
+      },
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/realnpu_b/best.pt",
+      "checkpoint_sha256": "5da817c027713a5b208d95c0b5feea8a5f1edec351e8d87bb094d7501d76d135",
+      "calibration_validation_mse": 0.001505311503098432,
+      "review_gpu_p99_ms": 1.2446099638938903,
+      "latency_criterion_met": true,
+      "selection_status": "FEASIBLE",
+      "continuation": false,
+      "review_role": "audit",
+      "counts": {
+        "core_parameter_elements": 3900,
+        "core_parameter_real_scalar_equivalents": 3900,
+        "core_buffer_elements": 0,
+        "core_buffer_real_scalar_equivalents": 0,
+        "registered_pipeline_buffer_bytes": 25165864
+      }
+    },
+    {
+      "model": "rbf",
+      "recipe": {
+        "id": "rbf_b",
+        "model": "rbf",
+        "device": "cpu",
+        "overrides": {
+          "width": 192
+        }
+      },
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/rbf_b/best.pt",
+      "checkpoint_sha256": "ee4332d09bed566f722bb2eac636b6fdb7fdb189f927f21155e1de69a36bd4ab",
+      "calibration_validation_mse": 0.009974623864810229,
+      "review_gpu_p99_ms": 1.8733513045310974,
+      "latency_criterion_met": true,
+      "selection_status": "FEASIBLE",
+      "continuation": false,
+      "review_role": "audit",
+      "counts": {
+        "core_parameter_elements": 11715,
+        "core_parameter_real_scalar_equivalents": 11715,
+        "core_buffer_elements": 0,
+        "core_buffer_real_scalar_equivalents": 0,
+        "registered_pipeline_buffer_bytes": 25165864
+      }
+    },
+    {
+      "model": "cascor",
+      "recipe": {
+        "id": "cascor_a",
+        "model": "cascor",
+        "device": "cuda",
+        "overrides": {}
+      },
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/cascor_a/best.pt",
+      "checkpoint_sha256": "f884bf0023c36f05a694c27c47f7c4248cf5d791223efe9345167766118728d9",
+      "calibration_validation_mse": 0.014678526146587828,
+      "review_gpu_p99_ms": 4.566083931922913,
+      "latency_criterion_met": true,
+      "selection_status": "FEASIBLE",
+      "continuation": false,
+      "review_role": "audit",
+      "counts": {
+        "core_parameter_elements": 2352,
+        "core_parameter_real_scalar_equivalents": 2352,
+        "core_buffer_elements": 270,
+        "core_buffer_real_scalar_equivalents": 270,
+        "registered_pipeline_buffer_bytes": 25166944
+      }
+    },
+    {
+      "model": "elm",
+      "recipe": {
+        "id": "elm_b",
+        "model": "elm",
+        "device": "cpu",
+        "overrides": {
+          "constructive_width": 256
+        }
+      },
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/elm_b/best.pt",
+      "checkpoint_sha256": "4ea62325dbf1769091ba63abd03d0266d410be80dabafa31f12d4d8b49ee4671",
+      "calibration_validation_mse": 0.0219174609369308,
+      "review_gpu_p99_ms": 1.3294399976730347,
+      "latency_criterion_met": true,
+      "selection_status": "FEASIBLE",
+      "continuation": false,
+      "review_role": "audit",
+      "counts": {
+        "core_parameter_elements": 0,
+        "core_parameter_real_scalar_equivalents": 0,
+        "core_buffer_elements": 15619,
+        "core_buffer_real_scalar_equivalents": 15619,
+        "registered_pipeline_buffer_bytes": 25228340
+      }
+    },
+    {
+      "model": "scn",
+      "recipe": {
+        "id": "scn_b",
+        "model": "scn",
+        "device": "cpu",
+        "overrides": {
+          "constructive_width": 128
+        }
+      },
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/scn_b/best.pt",
+      "checkpoint_sha256": "25a69d5979e88b0437433d17b437377acc829f81a8a777b9fe1d09a5346f0212",
+      "calibration_validation_mse": 0.021254025062879614,
+      "review_gpu_p99_ms": 0.9852166610956192,
+      "latency_criterion_met": true,
+      "selection_status": "FEASIBLE",
+      "continuation": false,
+      "review_role": "audit",
+      "counts": {
+        "core_parameter_elements": 0,
+        "core_parameter_real_scalar_equivalents": 0,
+        "core_buffer_elements": 7811,
+        "core_buffer_real_scalar_equivalents": 7811,
+        "registered_pipeline_buffer_bytes": 25197108
+      }
+    }
+  ],
+  "final_seeds": [
+    921101,
+    921102,
+    921103,
+    921104,
+    921105
+  ],
+  "tasks": [
+    {
+      "index": 0,
+      "id": "tfno_s921101",
+      "model": "tfno",
+      "seed": 921101,
+      "device": "cuda"
+    },
+    {
+      "index": 1,
+      "id": "tfno_s921102",
+      "model": "tfno",
+      "seed": 921102,
+      "device": "cuda"
+    },
+    {
+      "index": 2,
+      "id": "tfno_s921103",
+      "model": "tfno",
+      "seed": 921103,
+      "device": "cuda"
+    },
+    {
+      "index": 3,
+      "id": "tfno_s921104",
+      "model": "tfno",
+      "seed": 921104,
+      "device": "cuda"
+    },
+    {
+      "index": 4,
+      "id": "tfno_s921105",
+      "model": "tfno",
+      "seed": 921105,
+      "device": "cuda"
+    },
+    {
+      "index": 5,
+      "id": "chebkan_s921101",
+      "model": "chebkan",
+      "seed": 921101,
+      "device": "cpu"
+    },
+    {
+      "index": 6,
+      "id": "chebkan_s921102",
+      "model": "chebkan",
+      "seed": 921102,
+      "device": "cpu"
+    },
+    {
+      "index": 7,
+      "id": "chebkan_s921103",
+      "model": "chebkan",
+      "seed": 921103,
+      "device": "cpu"
+    },
+    {
+      "index": 8,
+      "id": "chebkan_s921104",
+      "model": "chebkan",
+      "seed": 921104,
+      "device": "cpu"
+    },
+    {
+      "index": 9,
+      "id": "chebkan_s921105",
+      "model": "chebkan",
+      "seed": 921105,
+      "device": "cpu"
+    },
+    {
+      "index": 10,
+      "id": "pinet_s921101",
+      "model": "pinet",
+      "seed": 921101,
+      "device": "cpu"
+    },
+    {
+      "index": 11,
+      "id": "pinet_s921102",
+      "model": "pinet",
+      "seed": 921102,
+      "device": "cpu"
+    },
+    {
+      "index": 12,
+      "id": "pinet_s921103",
+      "model": "pinet",
+      "seed": 921103,
+      "device": "cpu"
+    },
+    {
+      "index": 13,
+      "id": "pinet_s921104",
+      "model": "pinet",
+      "seed": 921104,
+      "device": "cpu"
+    },
+    {
+      "index": 14,
+      "id": "pinet_s921105",
+      "model": "pinet",
+      "seed": 921105,
+      "device": "cpu"
+    },
+    {
+      "index": 15,
+      "id": "dendrite_s921101",
+      "model": "dendrite",
+      "seed": 921101,
+      "device": "cpu"
+    },
+    {
+      "index": 16,
+      "id": "dendrite_s921102",
+      "model": "dendrite",
+      "seed": 921102,
+      "device": "cpu"
+    },
+    {
+      "index": 17,
+      "id": "dendrite_s921103",
+      "model": "dendrite",
+      "seed": 921103,
+      "device": "cpu"
+    },
+    {
+      "index": 18,
+      "id": "dendrite_s921104",
+      "model": "dendrite",
+      "seed": 921104,
+      "device": "cpu"
+    },
+    {
+      "index": 19,
+      "id": "dendrite_s921105",
+      "model": "dendrite",
+      "seed": 921105,
+      "device": "cpu"
+    },
+    {
+      "index": 20,
+      "id": "realnpu_s921101",
+      "model": "realnpu",
+      "seed": 921101,
+      "device": "cpu"
+    },
+    {
+      "index": 21,
+      "id": "realnpu_s921102",
+      "model": "realnpu",
+      "seed": 921102,
+      "device": "cpu"
+    },
+    {
+      "index": 22,
+      "id": "realnpu_s921103",
+      "model": "realnpu",
+      "seed": 921103,
+      "device": "cpu"
+    },
+    {
+      "index": 23,
+      "id": "realnpu_s921104",
+      "model": "realnpu",
+      "seed": 921104,
+      "device": "cpu"
+    },
+    {
+      "index": 24,
+      "id": "realnpu_s921105",
+      "model": "realnpu",
+      "seed": 921105,
+      "device": "cpu"
+    },
+    {
+      "index": 25,
+      "id": "rbf_s921101",
+      "model": "rbf",
+      "seed": 921101,
+      "device": "cpu"
+    },
+    {
+      "index": 26,
+      "id": "rbf_s921102",
+      "model": "rbf",
+      "seed": 921102,
+      "device": "cpu"
+    },
+    {
+      "index": 27,
+      "id": "rbf_s921103",
+      "model": "rbf",
+      "seed": 921103,
+      "device": "cpu"
+    },
+    {
+      "index": 28,
+      "id": "rbf_s921104",
+      "model": "rbf",
+      "seed": 921104,
+      "device": "cpu"
+    },
+    {
+      "index": 29,
+      "id": "rbf_s921105",
+      "model": "rbf",
+      "seed": 921105,
+      "device": "cpu"
+    },
+    {
+      "index": 30,
+      "id": "cascor_s921101",
+      "model": "cascor",
+      "seed": 921101,
+      "device": "cuda"
+    },
+    {
+      "index": 31,
+      "id": "cascor_s921102",
+      "model": "cascor",
+      "seed": 921102,
+      "device": "cuda"
+    },
+    {
+      "index": 32,
+      "id": "cascor_s921103",
+      "model": "cascor",
+      "seed": 921103,
+      "device": "cuda"
+    },
+    {
+      "index": 33,
+      "id": "cascor_s921104",
+      "model": "cascor",
+      "seed": 921104,
+      "device": "cuda"
+    },
+    {
+      "index": 34,
+      "id": "cascor_s921105",
+      "model": "cascor",
+      "seed": 921105,
+      "device": "cuda"
+    },
+    {
+      "index": 35,
+      "id": "elm_s921101",
+      "model": "elm",
+      "seed": 921101,
+      "device": "cpu"
+    },
+    {
+      "index": 36,
+      "id": "elm_s921102",
+      "model": "elm",
+      "seed": 921102,
+      "device": "cpu"
+    },
+    {
+      "index": 37,
+      "id": "elm_s921103",
+      "model": "elm",
+      "seed": 921103,
+      "device": "cpu"
+    },
+    {
+      "index": 38,
+      "id": "elm_s921104",
+      "model": "elm",
+      "seed": 921104,
+      "device": "cpu"
+    },
+    {
+      "index": 39,
+      "id": "elm_s921105",
+      "model": "elm",
+      "seed": 921105,
+      "device": "cpu"
+    },
+    {
+      "index": 40,
+      "id": "scn_s921101",
+      "model": "scn",
+      "seed": 921101,
+      "device": "cpu"
+    },
+    {
+      "index": 41,
+      "id": "scn_s921102",
+      "model": "scn",
+      "seed": 921102,
+      "device": "cpu"
+    },
+    {
+      "index": 42,
+      "id": "scn_s921103",
+      "model": "scn",
+      "seed": 921103,
+      "device": "cpu"
+    },
+    {
+      "index": 43,
+      "id": "scn_s921104",
+      "model": "scn",
+      "seed": 921104,
+      "device": "cpu"
+    },
+    {
+      "index": 44,
+      "id": "scn_s921105",
+      "model": "scn",
+      "seed": 921105,
+      "device": "cpu"
+    }
+  ],
+  "archived_pinn": [
+    {
+      "id": "fixed_k00",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k00/145176/training/best.pt",
+      "checkpoint_sha256": "00a3879ff52f64db3b7b0a907085b8861754f8bde121cdb2bc1ead3a4f0c3b17",
+      "kind": "fixed",
+      "config": {
+        "width": 192,
+        "depth": 4,
+        "latent": 32,
+        "frequencies": [
+          1.0,
+          2.0,
+          4.0,
+          8.0,
+          16.0
+        ],
+        "seed": 150001,
+        "epochs": 400,
+        "batch_cases": 4,
+        "lr": 0.001,
+        "data_points": 2048,
+        "physics_points": 64,
+        "wall_points_per_side": 16,
+        "body_points": 64,
+        "physics_weight": 0.001,
+        "bc_weight": 0.01,
+        "warmup": 2000,
+        "ramp": 2000,
+        "assess_epochs": 10,
+        "pressure_weight": 1.0
+      }
+    },
+    {
+      "id": "fixed_k01",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k01/145176/training/best.pt",
+      "checkpoint_sha256": "ca725dd517b78aec4c2460f0c61a68672cae61f94e1f97f7b00564e9733bcff0",
+      "kind": "fixed",
+      "config": {
+        "width": 192,
+        "depth": 4,
+        "latent": 32,
+        "frequencies": [
+          1.0,
+          2.0,
+          4.0,
+          8.0,
+          16.0
+        ],
+        "seed": 150002,
+        "epochs": 400,
+        "batch_cases": 4,
+        "lr": 0.001,
+        "data_points": 2048,
+        "physics_points": 64,
+        "wall_points_per_side": 16,
+        "body_points": 64,
+        "physics_weight": 0.001,
+        "bc_weight": 0.01,
+        "warmup": 2000,
+        "ramp": 2000,
+        "assess_epochs": 10,
+        "pressure_weight": 1.0
+      }
+    },
+    {
+      "id": "fixed_k02",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k02/145176/training/best.pt",
+      "checkpoint_sha256": "a2140119e03c4769ae571e8ae014bc9c9c62186402fb9a644350b56b398ae179",
+      "kind": "fixed",
+      "config": {
+        "width": 192,
+        "depth": 4,
+        "latent": 32,
+        "frequencies": [
+          1.0,
+          2.0,
+          4.0,
+          8.0,
+          16.0
+        ],
+        "seed": 150003,
+        "epochs": 400,
+        "batch_cases": 4,
+        "lr": 0.001,
+        "data_points": 2048,
+        "physics_points": 64,
+        "wall_points_per_side": 16,
+        "body_points": 64,
+        "physics_weight": 0.001,
+        "bc_weight": 0.01,
+        "warmup": 2000,
+        "ramp": 2000,
+        "assess_epochs": 10,
+        "pressure_weight": 1.0
+      }
+    },
+    {
+      "id": "fixed_k03",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k03/145176/training/best.pt",
+      "checkpoint_sha256": "063223064bd2c7b70538b3137183d262833d5f05756abd6773c6cbb07fe74fb5",
+      "kind": "fixed",
+      "config": {
+        "width": 192,
+        "depth": 4,
+        "latent": 32,
+        "frequencies": [
+          1.0,
+          2.0,
+          4.0,
+          8.0,
+          16.0
+        ],
+        "seed": 150004,
+        "epochs": 400,
+        "batch_cases": 4,
+        "lr": 0.001,
+        "data_points": 2048,
+        "physics_points": 64,
+        "wall_points_per_side": 16,
+        "body_points": 64,
+        "physics_weight": 0.001,
+        "bc_weight": 0.01,
+        "warmup": 2000,
+        "ramp": 2000,
+        "assess_epochs": 10,
+        "pressure_weight": 1.0
+      }
+    },
+    {
+      "id": "fixed_k04",
+      "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k04/145176/training/best.pt",
+      "checkpoint_sha256": "6038f436125a4c3369b3d544567b1f1f018c7ea569528d9418d63bb99d7c83f2",
+      "kind": "fixed",
+      "config": {
+        "width": 192,
+        "depth": 4,
+        "latent": 32,
+        "frequencies": [
+          1.0,
+          2.0,
+          4.0,
+          8.0,
+          16.0
+        ],
+        "seed": 150005,
+        "epochs": 400,
+        "batch_cases": 4,
+        "lr": 0.001,
+        "data_points": 2048,
+        "physics_points": 64,
+        "wall_points_per_side": 16,
+        "body_points": 64,
+        "physics_weight": 0.001,
+        "bc_weight": 0.01,
+        "warmup": 2000,
+        "ramp": 2000,
+        "assess_epochs": 10,
+        "pressure_weight": 1.0
+      }
+    }
+  ],
+  "archived_pinn_manifest": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_final_test_20261108_v49/models.json",
+  "archived_pinn_manifest_sha256": "5ab7ad1991baa76783ddf26077f0abc614478330bbcccafc81b1b8dd75544c35",
+  "test_targets_read_for_selection": false,
+  "test_previously_opened_in_old_study": true
+}

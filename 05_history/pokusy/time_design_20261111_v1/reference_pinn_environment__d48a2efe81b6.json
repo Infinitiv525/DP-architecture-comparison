@@ -1,0 +1,85 @@
+{
+  "training/environment.json": {
+    "torch": "2.12.0+cu130",
+    "numpy": "2.5.4",
+    "cuda": "13.0",
+    "device": "NVIDIA H200",
+    "parameters": 134922,
+    "seed": 150001,
+    "precision": "float32",
+    "allow_tf32": false,
+    "cudnn_allow_tf32": true,
+    "source_freeze": "c61230aa43a09ae18ac2f7b79a53dac33934227c42746bc31dfb3499e8f24e6b"
+  },
+  "task.json": {
+    "id": "fixed_k00",
+    "kind": "fixed",
+    "method": "fixed",
+    "repeat": 0,
+    "seed": 150001,
+    "dependencies": []
+  },
+  "request.json": {
+    "phase": "main",
+    "task": {
+      "id": "fixed_k00",
+      "kind": "fixed",
+      "method": "fixed",
+      "repeat": 0,
+      "seed": 150001,
+      "dependencies": []
+    },
+    "parameters": {
+      "learning_rate": 0.001,
+      "pressure_weight": 1.0,
+      "physics_weight": 0.001,
+      "bc_weight": 0.01,
+      "warmup_fraction": 0.03125
+    },
+    "protocol_sha256": "454131bd73dca9b86ced7d2ef0d057072a7ed7a2f3fa4df596e4f382feb117cc"
+  },
+  "training_process.json": {
+    "exit_code": 0,
+    "timed_out": false,
+    "wall_seconds": 13891.656468161964,
+    "child_cpu_seconds": 13796.726547000002
+  },
+  "outcome.json": {
+    "status": "COMPLETE",
+    "history": {
+      "id": "fixed_k00",
+      "parameters": {
+        "learning_rate": 0.001,
+        "pressure_weight": 1.0,
+        "physics_weight": 0.001,
+        "bc_weight": 0.01,
+        "warmup_fraction": 0.03125
+      },
+      "status": "COMPLETE",
+      "score": 0.00043212695912269605,
+      "velocity_error": 0.026264967829562856,
+      "pressure_error": 0.08887560159870216,
+      "momentum_rms": 0.6649878490676777,
+      "divergence_rms": 7.705735226203779e-07,
+      "boundary_error": 0.018170435259595913,
+      "training_seconds": 13883.622661682894,
+      "training_seed": 150001,
+      "epochs": 400,
+      "error_codes": []
+    },
+    "trial_summary_sha256": "df6e5315f6e8af025e2b357fcb5418b8784d5f7aa83b4d5cda19a4c96d64201c",
+    "trial_summary_path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k00/145176/training/summary.json",
+    "initial_weight_sha256": "28d4d01a732f2c856562bdab41cf5ebf084b4348435c79d6d4d9b6a9ce6870ef",
+    "sample_sha256": "69b636eaedfcac887d2d5e006dd8eb152ef0934e6cd1d0ec9da9815ad1396bdb",
+    "processes": {
+      "training": {
+        "exit_code": 0,
+        "timed_out": false,
+        "wall_seconds": 13891.656468161964,
+        "child_cpu_seconds": 13796.726547000002
+      }
+    },
+    "proposal_summary_sha256": null
+  },
+  "log_head": "ASSESS 0 {'velocity_relative_l2': 1.0, 'pressure_relative_l2': 1.0, 'mse_all': 0.04276812752468404, 'relative_l2_all': 1.0}\nASSESS 1600 {'velocity_relative_l2': 0.09886869750287551, 'pressure_relative_l2': 0.34749120612462703, 'mse_all': 0.003915710767325493, 'relative_l2_all': 0.1775271167388933}\nASSESS 3200 {'velocity_relative_l2': 0.10756046294105945, 'pressure_relative_l2': 0.3752089425167248, 'mse_all': 0.0031963119730935574, 'relative_l2_all': 0.17860045431477142}\nASSESS 4800 {'velocity_relative_l2': 0.09478854532873346, 'pressure_relative_l2': 0.344900567205267, 'mse_all': 0.002891864460034712, 'relative_l2_all': 0.17062843511220696}\nASSESS 6400 {'velocity_relative_l2': 0.07935157037922672, 'pressure_relative_l2': 0.29241564984812224, 'mse_all': 0.0021055584657362165, 'relative_l2_all': 0.13450211896757583}\nASSESS 8000 {'velocity_relative_l2': 0.07336225840096158, 'pressure_relative_l2': 0.23322145565985813, 'mse_all': 0.0017646947067929957, 'relative_l2_all': 0.1151971413277288}\nASSESS 9600 {'velocity_relative_l2': 0.06682817674160639, 'pressure_relative_l2': 0.2576019286893273, 'mse_all': 0.0017176059949231075, 'relative_l2_all': 0.12005047684189571}\nASSESS 11200 {'velocity_relative_l2': 0.08733309194340771, 'pressure_relative_l2': 0.29030740886010153, 'mse_all': 0.001681127319973854, 'relative_l2_all': 0.13225994432343868}\nASSESS 12800 {'velocity_relative_l2': 0.07613696004228036, 'pressure_relative_l2': 0.2990162252105678, 'mse_all': 0.0015190319865225337, 'relative_l2_all': 0.12752601116856363}\nASSESS 14400 {'velocity_relative_l2': 0.08409532031548549, 'pressure_relative_l2': 0.27310235272453753, 'mse_all': 0.0015446582973977858, 'relative_l2_all': 0.1314505761878145}\nASSESS 16000 {'velocity_relative_l2': 0.05159311442473034, 'pressure_relative_l2': 0.25996862212692406, 'mse_all': 0.0014641780023630071, 'relative_l2_all': 0.11134678287582393}\nASSESS 17600 {'velocity_relative_l2': 0.07374366500110845, 'pressure_relative_l2': 0.23038687529521198, 'mse_all': 0.0013258494120883383, 'relative_l2_all': 0.11420333077744012}\nASSESS 19200 {'velocity_relative_l2': 0.07523525071301221, 'pressure_relative_l2': 0.2691555148465195, 'mse_all': 0.0013083551100506277, 'relative_l2_all': 0.11913568338743072}\nASSESS 20800 {'velocity_relative_l2': 0.05328145565821783, 'pressure_relative_l2': 0.24981403933613203, 'mse_all': 0.0011125092465383343, 'relative_l2_all': 0.1006651167241992}\nASSESS 22400 {'velocity_relative_l2': 0.06515344447147836, 'pressure_relative_l2'"
+}

@@ -1,0 +1,2842 @@
+{
+  "status": "CALIBRATION_TRAINING_COMPLETE",
+  "recipe": {
+    "id": "scn_b",
+    "model": "scn",
+    "device": "cpu",
+    "overrides": {
+      "constructive_width": 128
+    }
+  },
+  "model": "scn",
+  "device": "cpu",
+  "initialization": {
+    "rule": "seeded model constructor"
+  },
+  "training": {
+    "algorithm": "scn",
+    "history": [
+      {
+        "units": 1,
+        "r": 0.99,
+        "radius_slot": 0,
+        "candidate": 8,
+        "candidate_tests": 64,
+        "mse": 0.8850523233413696
+      },
+      {
+        "units": 2,
+        "r": 0.99,
+        "radius_slot": 0,
+        "candidate": 30,
+        "candidate_tests": 64,
+        "mse": 0.8342095613479614
+      },
+      {
+        "units": 3,
+        "r": 0.99,
+        "radius_slot": 0,
+        "candidate": 26,
+        "candidate_tests": 64,
+        "mse": 0.8008014559745789
+      },
+      {
+        "units": 4,
+        "r": 0.99,
+        "radius_slot": 0,
+        "candidate": 26,
+        "candidate_tests": 64,
+        "mse": 0.7636045813560486
+      },
+      {
+        "units": 5,
+        "r": 0.999,
+        "radius_slot": 0,
+        "candidate": 10,
+        "candidate_tests": 96,
+        "mse": 0.7436740398406982
+      },
+      {
+        "units": 6,
+        "r": 0.999,
+        "radius_slot": 0,
+        "candidate": 13,
+        "candidate_tests": 96,
+        "mse": 0.6948802471160889
+      },
+      {
+        "units": 7,
+        "r": 0.999,
+        "radius_slot": 0,
+        "candidate": 27,
+        "candidate_tests": 96,
+        "mse": 0.6800159811973572
+      },
+      {
+        "units": 8,
+        "r": 0.999,
+        "radius_slot": 0,
+        "candidate": 23,
+        "candidate_tests": 96,
+        "mse": 0.6646478176116943
+      },
+      {
+        "units": 9,
+        "r": 0.999,
+        "radius_slot": 0,
+        "candidate": 25,
+        "candidate_tests": 96,
+        "mse": 0.6423094868659973
+      },
+      {
+        "units": 10,
+        "r": 0.999,
+        "radius_slot": 0,
+        "candidate": 0,
+        "candidate_tests": 96,
+        "mse": 0.63648521900177
+      },
+      {
+        "units": 11,
+        "r": 0.999,
+        "radius_slot": 0,
+        "candidate": 30,
+        "candidate_tests": 96,
+        "mse": 0.6124889254570007
+      },
+      {
+        "units": 12,
+        "r": 0.9999,
+        "radius_slot": 0,
+        "candidate": 17,
+        "candidate_tests": 128,
+        "mse": 0.604290783405304
+      },
+      {
+        "units": 13,
+        "r": 0.999,
+        "radius_slot": 0,
+        "candidate": 26,
+        "candidate_tests": 96,
+        "mse": 0.5983982086181641
+      },
+      {
+        "units": 14,
+        "r": 0.999,
+        "radius_slot": 0,
+        "candidate": 2,
+        "candidate_tests": 96,
+        "mse": 0.5936535596847534
+      },
+      {
+        "units": 15,
+        "r": 0.999,
+        "radius_slot": 0,
+        "candidate": 3,
+        "candidate_tests": 96,
+        "mse": 0.588946521282196
+      },
+      {
+        "units": 16,
+        "r": 0.9999,
+        "radius_slot": 0,
+        "candidate": 14,
+        "candidate_tests": 128,
+        "mse": 0.5811131000518799
+      },
+      {
+        "units": 17,
+        "r": 0.9999,
+        "radius_slot": 0,
+        "candidate": 14,
+        "candidate_tests": 128,
+        "mse": 0.5692451596260071
+      },
+      {
+        "units": 18,
+        "r": 0.9999,
+        "radius_slot": 0,
+        "candidate": 2,
+        "candidate_tests": 128,
+        "mse": 0.5661932826042175
+      },
+      {
+        "units": 19,
+        "r": 0.9999,
+        "radius_slot": 0,
+        "candidate": 31,
+        "candidate_tests": 128,
+        "mse": 0.5647678971290588
+      },
+      {
+        "units": 20,
+        "r": 0.99999,
+        "radius_slot": 0,
+        "candidate": 28,
+        "candidate_tests": 160,
+        "mse": 0.5584438443183899
+      },
+      {
+        "units": 21,
+        "r": 0.9999,
+        "radius_slot": 0,
+        "candidate": 3,
+        "candidate_tests": 128,
+        "mse": 0.5363742709159851
+      },
+      {
+        "units": 22,
+        "r": 0.9999,
+        "radius_slot": 0,
+        "candidate": 10,
+        "candidate_tests": 128,
+        "mse": 0.5326882600784302
+      },
+      {
+        "units": 23,
+        "r": 0.99999,
+        "radius_slot": 0,
+        "candidate": 0,
+        "candidate_tests": 160,
+        "mse": 0.5308756828308105
+      },
+      {
+        "units": 24,
+        "r": 0.9999,
+        "radius_slot": 0,
+        "candidate": 17,
+        "candidate_tests": 128,
+        "mse": 0.5299078822135925
+      },
+      {
+        "units": 25,
+        "r": 0.99999,
+        "radius_slot": 0,
+        "candidate": 14,
+        "candidate_tests": 160,
+        "mse": 0.5200183391571045
+      },
+      {
+        "units": 26,
+        "r": 0.99999,
+        "radius_slot": 0,
+        "candidate": 3,
+        "candidate_tests": 160,
+        "mse": 0.5107139348983765
+      },
+      {
+        "units": 27,
+        "r": 0.99999,
+        "radius_slot": 0,
+        "candidate": 20,
+        "candidate_tests": 160,
+        "mse": 0.5098241567611694
+      },
+      {
+        "units": 28,
+        "r": 0.99999,
+        "radius_slot": 1,
+        "candidate": 17,
+        "candidate_tests": 320,
+        "mse": 0.5074425935745239
+      },
+      {
+        "units": 29,
+        "r": 0.99999,
+        "radius_slot": 0,
+        "candidate": 1,
+        "candidate_tests": 160,
+        "mse": 0.49582639336586
+      },
+      {
+        "units": 30,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 4,
+        "candidate_tests": 480,
+        "mse": 0.49312007427215576
+      },
+      {
+        "units": 31,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 9,
+        "candidate_tests": 480,
+        "mse": 0.48933979868888855
+      },
+      {
+        "units": 32,
+        "r": 0.99999,
+        "radius_slot": 1,
+        "candidate": 19,
+        "candidate_tests": 320,
+        "mse": 0.4880778193473816
+      },
+      {
+        "units": 33,
+        "r": 0.99999,
+        "radius_slot": 0,
+        "candidate": 23,
+        "candidate_tests": 160,
+        "mse": 0.487208753824234
+      },
+      {
+        "units": 34,
+        "r": 0.99999,
+        "radius_slot": 1,
+        "candidate": 19,
+        "candidate_tests": 320,
+        "mse": 0.4851045608520508
+      },
+      {
+        "units": 35,
+        "r": 0.99999,
+        "radius_slot": 1,
+        "candidate": 5,
+        "candidate_tests": 320,
+        "mse": 0.4843969941139221
+      },
+      {
+        "units": 36,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 20,
+        "candidate_tests": 480,
+        "mse": 0.481113463640213
+      },
+      {
+        "units": 37,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 28,
+        "candidate_tests": 480,
+        "mse": 0.4795896112918854
+      },
+      {
+        "units": 38,
+        "r": 0.99999,
+        "radius_slot": 1,
+        "candidate": 25,
+        "candidate_tests": 320,
+        "mse": 0.4762512743473053
+      },
+      {
+        "units": 39,
+        "r": 0.99999,
+        "radius_slot": 1,
+        "candidate": 8,
+        "candidate_tests": 320,
+        "mse": 0.4723345935344696
+      },
+      {
+        "units": 40,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 17,
+        "candidate_tests": 480,
+        "mse": 0.47013428807258606
+      },
+      {
+        "units": 41,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 26,
+        "candidate_tests": 480,
+        "mse": 0.4635293185710907
+      },
+      {
+        "units": 42,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 14,
+        "candidate_tests": 480,
+        "mse": 0.46233341097831726
+      },
+      {
+        "units": 43,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 28,
+        "candidate_tests": 480,
+        "mse": 0.46069443225860596
+      },
+      {
+        "units": 44,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 21,
+        "candidate_tests": 480,
+        "mse": 0.4575376510620117
+      },
+      {
+        "units": 45,
+        "r": 0.9999,
+        "radius_slot": 3,
+        "candidate": 21,
+        "candidate_tests": 608,
+        "mse": 0.4557526409626007
+      },
+      {
+        "units": 46,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 16,
+        "candidate_tests": 480,
+        "mse": 0.4544743001461029
+      },
+      {
+        "units": 47,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 31,
+        "candidate_tests": 480,
+        "mse": 0.4529891610145569
+      },
+      {
+        "units": 48,
+        "r": 0.99999,
+        "radius_slot": 0,
+        "candidate": 23,
+        "candidate_tests": 160,
+        "mse": 0.45219072699546814
+      },
+      {
+        "units": 49,
+        "r": 0.99999,
+        "radius_slot": 0,
+        "candidate": 5,
+        "candidate_tests": 160,
+        "mse": 0.44931986927986145
+      },
+      {
+        "units": 50,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 4,
+        "candidate_tests": 480,
+        "mse": 0.44749000668525696
+      },
+      {
+        "units": 51,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 4,
+        "candidate_tests": 480,
+        "mse": 0.4450875520706177
+      },
+      {
+        "units": 52,
+        "r": 0.99999,
+        "radius_slot": 1,
+        "candidate": 27,
+        "candidate_tests": 320,
+        "mse": 0.4434688985347748
+      },
+      {
+        "units": 53,
+        "r": 0.99999,
+        "radius_slot": 1,
+        "candidate": 5,
+        "candidate_tests": 320,
+        "mse": 0.4386105239391327
+      },
+      {
+        "units": 54,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 11,
+        "candidate_tests": 480,
+        "mse": 0.43633410334587097
+      },
+      {
+        "units": 55,
+        "r": 0.99999,
+        "radius_slot": 1,
+        "candidate": 3,
+        "candidate_tests": 320,
+        "mse": 0.4346608519554138
+      },
+      {
+        "units": 56,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 19,
+        "candidate_tests": 480,
+        "mse": 0.43301358819007874
+      },
+      {
+        "units": 57,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 13,
+        "candidate_tests": 480,
+        "mse": 0.4324122369289398
+      },
+      {
+        "units": 58,
+        "r": 0.99999,
+        "radius_slot": 1,
+        "candidate": 27,
+        "candidate_tests": 320,
+        "mse": 0.4302911162376404
+      },
+      {
+        "units": 59,
+        "r": 0.99999,
+        "radius_slot": 1,
+        "candidate": 2,
+        "candidate_tests": 320,
+        "mse": 0.42906925082206726
+      },
+      {
+        "units": 60,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 14,
+        "candidate_tests": 480,
+        "mse": 0.4262055456638336
+      },
+      {
+        "units": 61,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 9,
+        "candidate_tests": 480,
+        "mse": 0.4250287115573883
+      },
+      {
+        "units": 62,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 30,
+        "candidate_tests": 480,
+        "mse": 0.4206714630126953
+      },
+      {
+        "units": 63,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 12,
+        "candidate_tests": 640,
+        "mse": 0.4204105734825134
+      },
+      {
+        "units": 64,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 15,
+        "candidate_tests": 480,
+        "mse": 0.41948428750038147
+      },
+      {
+        "units": 65,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 9,
+        "candidate_tests": 480,
+        "mse": 0.41841012239456177
+      },
+      {
+        "units": 66,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 22,
+        "candidate_tests": 480,
+        "mse": 0.41601720452308655
+      },
+      {
+        "units": 67,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 10,
+        "candidate_tests": 640,
+        "mse": 0.4155062437057495
+      },
+      {
+        "units": 68,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 4,
+        "candidate_tests": 480,
+        "mse": 0.4115738570690155
+      },
+      {
+        "units": 69,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 22,
+        "candidate_tests": 480,
+        "mse": 0.4105442762374878
+      },
+      {
+        "units": 70,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 6,
+        "candidate_tests": 480,
+        "mse": 0.4100765287876129
+      },
+      {
+        "units": 71,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 20,
+        "candidate_tests": 480,
+        "mse": 0.40905046463012695
+      },
+      {
+        "units": 72,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 19,
+        "candidate_tests": 480,
+        "mse": 0.40759676694869995
+      },
+      {
+        "units": 73,
+        "r": 0.99999,
+        "radius_slot": 1,
+        "candidate": 23,
+        "candidate_tests": 320,
+        "mse": 0.40665510296821594
+      },
+      {
+        "units": 74,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 23,
+        "candidate_tests": 480,
+        "mse": 0.4052366614341736
+      },
+      {
+        "units": 75,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 17,
+        "candidate_tests": 480,
+        "mse": 0.4045235216617584
+      },
+      {
+        "units": 76,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 12,
+        "candidate_tests": 480,
+        "mse": 0.40293413400650024
+      },
+      {
+        "units": 77,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 12,
+        "candidate_tests": 480,
+        "mse": 0.4022876024246216
+      },
+      {
+        "units": 78,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 27,
+        "candidate_tests": 640,
+        "mse": 0.4012841582298279
+      },
+      {
+        "units": 79,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 26,
+        "candidate_tests": 480,
+        "mse": 0.4004245400428772
+      },
+      {
+        "units": 80,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 13,
+        "candidate_tests": 480,
+        "mse": 0.3997531533241272
+      },
+      {
+        "units": 81,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 23,
+        "candidate_tests": 480,
+        "mse": 0.3975313603878021
+      },
+      {
+        "units": 82,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 22,
+        "candidate_tests": 480,
+        "mse": 0.3952701687812805
+      },
+      {
+        "units": 83,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 10,
+        "candidate_tests": 640,
+        "mse": 0.39472803473472595
+      },
+      {
+        "units": 84,
+        "r": 0.99999,
+        "radius_slot": 1,
+        "candidate": 1,
+        "candidate_tests": 320,
+        "mse": 0.39231911301612854
+      },
+      {
+        "units": 85,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 22,
+        "candidate_tests": 640,
+        "mse": 0.39192894101142883
+      },
+      {
+        "units": 86,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 1,
+        "candidate_tests": 480,
+        "mse": 0.39116472005844116
+      },
+      {
+        "units": 87,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 28,
+        "candidate_tests": 480,
+        "mse": 0.39026546478271484
+      },
+      {
+        "units": 88,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 2,
+        "candidate_tests": 480,
+        "mse": 0.386726975440979
+      },
+      {
+        "units": 89,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 2,
+        "candidate_tests": 640,
+        "mse": 0.38626930117607117
+      },
+      {
+        "units": 90,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 18,
+        "candidate_tests": 480,
+        "mse": 0.3846716284751892
+      },
+      {
+        "units": 91,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 10,
+        "candidate_tests": 480,
+        "mse": 0.38396042585372925
+      },
+      {
+        "units": 92,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 15,
+        "candidate_tests": 640,
+        "mse": 0.3837425112724304
+      },
+      {
+        "units": 93,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 20,
+        "candidate_tests": 480,
+        "mse": 0.38344717025756836
+      },
+      {
+        "units": 94,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 26,
+        "candidate_tests": 480,
+        "mse": 0.3828357756137848
+      },
+      {
+        "units": 95,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 6,
+        "candidate_tests": 480,
+        "mse": 0.3822081387042999
+      },
+      {
+        "units": 96,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 17,
+        "candidate_tests": 480,
+        "mse": 0.3810998499393463
+      },
+      {
+        "units": 97,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 20,
+        "candidate_tests": 480,
+        "mse": 0.37952807545661926
+      },
+      {
+        "units": 98,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 9,
+        "candidate_tests": 640,
+        "mse": 0.3788185119628906
+      },
+      {
+        "units": 99,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 30,
+        "candidate_tests": 640,
+        "mse": 0.37854745984077454
+      },
+      {
+        "units": 100,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 22,
+        "candidate_tests": 480,
+        "mse": 0.37818998098373413
+      },
+      {
+        "units": 101,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 21,
+        "candidate_tests": 480,
+        "mse": 0.37761208415031433
+      },
+      {
+        "units": 102,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 8,
+        "candidate_tests": 640,
+        "mse": 0.3771609663963318
+      },
+      {
+        "units": 103,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 30,
+        "candidate_tests": 480,
+        "mse": 0.3765830397605896
+      },
+      {
+        "units": 104,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 26,
+        "candidate_tests": 480,
+        "mse": 0.3753119111061096
+      },
+      {
+        "units": 105,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 1,
+        "candidate_tests": 480,
+        "mse": 0.3747517764568329
+      },
+      {
+        "units": 106,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 6,
+        "candidate_tests": 480,
+        "mse": 0.3742651045322418
+      },
+      {
+        "units": 107,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 8,
+        "candidate_tests": 480,
+        "mse": 0.3739110827445984
+      },
+      {
+        "units": 108,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 15,
+        "candidate_tests": 480,
+        "mse": 0.37232908606529236
+      },
+      {
+        "units": 109,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 14,
+        "candidate_tests": 480,
+        "mse": 0.37063178420066833
+      },
+      {
+        "units": 110,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 12,
+        "candidate_tests": 640,
+        "mse": 0.3700066804885864
+      },
+      {
+        "units": 111,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 31,
+        "candidate_tests": 480,
+        "mse": 0.36969223618507385
+      },
+      {
+        "units": 112,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 10,
+        "candidate_tests": 640,
+        "mse": 0.36929506063461304
+      },
+      {
+        "units": 113,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 12,
+        "candidate_tests": 640,
+        "mse": 0.36855217814445496
+      },
+      {
+        "units": 114,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 19,
+        "candidate_tests": 480,
+        "mse": 0.3665505051612854
+      },
+      {
+        "units": 115,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 6,
+        "candidate_tests": 640,
+        "mse": 0.36541977524757385
+      },
+      {
+        "units": 116,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 0,
+        "candidate_tests": 640,
+        "mse": 0.36487025022506714
+      },
+      {
+        "units": 117,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 7,
+        "candidate_tests": 480,
+        "mse": 0.3637670576572418
+      },
+      {
+        "units": 118,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 23,
+        "candidate_tests": 480,
+        "mse": 0.36245831847190857
+      },
+      {
+        "units": 119,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 3,
+        "candidate_tests": 480,
+        "mse": 0.3613646626472473
+      },
+      {
+        "units": 120,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 10,
+        "candidate_tests": 640,
+        "mse": 0.3607253432273865
+      },
+      {
+        "units": 121,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 18,
+        "candidate_tests": 480,
+        "mse": 0.35977903008461
+      },
+      {
+        "units": 122,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 7,
+        "candidate_tests": 480,
+        "mse": 0.359360009431839
+      },
+      {
+        "units": 123,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 20,
+        "candidate_tests": 480,
+        "mse": 0.3584679663181305
+      },
+      {
+        "units": 124,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 27,
+        "candidate_tests": 480,
+        "mse": 0.3579738736152649
+      },
+      {
+        "units": 125,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 26,
+        "candidate_tests": 480,
+        "mse": 0.3570641279220581
+      },
+      {
+        "units": 126,
+        "r": 0.99999,
+        "radius_slot": 3,
+        "candidate": 8,
+        "candidate_tests": 640,
+        "mse": 0.3566519021987915
+      },
+      {
+        "units": 127,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 11,
+        "candidate_tests": 480,
+        "mse": 0.35617658495903015
+      },
+      {
+        "units": 128,
+        "r": 0.99999,
+        "radius_slot": 2,
+        "candidate": 18,
+        "candidate_tests": 480,
+        "mse": 0.35457679629325867
+      }
+    ],
+    "initial_validation_mse": 0.04276757675177279,
+    "best_validation_mse": 0.021800399502091783,
+    "best_epoch": 1,
+    "last_epoch": 1,
+    "ridge_mean": 1e-06,
+    "ridge_sum_equivalent": 1.3107199999999999,
+    "fit_wall_seconds": 376.0064442519797,
+    "validation": {
+      "mse": 0.021800399502091783,
+      "velocity_l2": 0.4022416087827054,
+      "pressure_l2": 1.9707683260211326,
+      "cases": [
+        {
+          "index": 341,
+          "mse": 0.008745445150460048,
+          "mse_fields": [
+            0.006711561075990093,
+            0.005471754585675487,
+            0.014053019789714565
+          ],
+          "velocity_l2": 0.4675696040453641,
+          "pressure_l2": 4.102442747131269
+        },
+        {
+          "index": 952,
+          "mse": 0.02139315059055248,
+          "mse_fields": [
+            0.006976253323109878,
+            0.003308606284639839,
+            0.05389459216390773
+          ],
+          "velocity_l2": 0.45850332551322615,
+          "pressure_l2": 0.775020053510915
+        },
+        {
+          "index": 548,
+          "mse": 0.010626766347502488,
+          "mse_fields": [
+            0.00403273266652272,
+            0.0022591543272588,
+            0.025588412048725945
+          ],
+          "velocity_l2": 0.37174271110790663,
+          "pressure_l2": 0.6104647867366271
+        },
+        {
+          "index": 417,
+          "mse": 0.007850255035913524,
+          "mse_fields": [
+            0.005552994955085858,
+            0.005141639231413195,
+            0.012856130921241517
+          ],
+          "velocity_l2": 0.4504858013949149,
+          "pressure_l2": 3.8533603091737065
+        },
+        {
+          "index": 844,
+          "mse": 0.008789751664490414,
+          "mse_fields": [
+            0.00699670662573246,
+            0.005386272727586168,
+            0.013986275640152618
+          ],
+          "velocity_l2": 0.4757483707814973,
+          "pressure_l2": 3.9850812482163116
+        },
+        {
+          "index": 42,
+          "mse": 0.018260307144119026,
+          "mse_fields": [
+            0.004374521365985067,
+            0.0019724023754217287,
+            0.04843399769095028
+          ],
+          "velocity_l2": 0.36697211848917266,
+          "pressure_l2": 0.685377298214295
+        },
+        {
+          "index": 513,
+          "mse": 0.007364344227555382,
+          "mse_fields": [
+            0.004620745068054165,
+            0.004140049622208985,
+            0.013332237992402993
+          ],
+          "velocity_l2": 0.4125753885384852,
+          "pressure_l2": 3.3849682296083787
+        },
+        {
+          "index": 843,
+          "mse": 0.04638936046232023,
+          "mse_fields": [
+            0.004492430975917488,
+            0.0023339906404059724,
+            0.13234165977063722
+          ],
+          "velocity_l2": 0.37735774656059184,
+          "pressure_l2": 0.7565768397414847
+        },
+        {
+          "index": 803,
+          "mse": 0.0055422109779596695,
+          "mse_fields": [
+            0.004693985346711034,
+            0.0024729835218368365,
+            0.009459664065331136
+          ],
+          "velocity_l2": 0.3900661635060521,
+          "pressure_l2": 1.3427909453579319
+        },
+        {
+          "index": 486,
+          "mse": 0.00673976541445145,
+          "mse_fields": [
+            0.003964597446409817,
+            0.003927328791205579,
+            0.012327370005738952
+          ],
+          "velocity_l2": 0.3993311450673714,
+          "pressure_l2": 2.767064733656328
+        },
+        {
+          "index": 960,
+          "mse": 0.009883325620679026,
+          "mse_fields": [
+            0.007485725947508995,
+            0.0036637121714844585,
+            0.018500538743043624
+          ],
+          "velocity_l2": 0.4731976906189505,
+          "pressure_l2": 0.8199900303214364
+        },
+        {
+          "index": 903,
+          "mse": 0.03554208513349839,
+          "mse_fields": [
+            0.004245134424696087,
+            0.003021760672494038,
+            0.09935936030330503
+          ],
+          "velocity_l2": 0.38004475253029746,
+          "pressure_l2": 0.730140663252452
+        },
+        {
+          "index": 529,
+          "mse": 0.00681516949353564,
+          "mse_fields": [
+            0.004680375078374228,
+            0.0036027786943952905,
+            0.012162354707837402
+          ],
+          "velocity_l2": 0.41254111821838774,
+          "pressure_l2": 2.3113587120072476
+        },
+        {
+          "index": 51,
+          "mse": 0.009493161689795214,
+          "mse_fields": [
+            0.00744014845852889,
+            0.005926170631072851,
+            0.015113165979783903
+          ],
+          "velocity_l2": 0.4921350455684896,
+          "pressure_l2": 4.284166933878134
+        },
+        {
+          "index": 742,
+          "mse": 0.0069304543799299755,
+          "mse_fields": [
+            0.00451511804869233,
+            0.004241220942104345,
+            0.012035024148993252
+          ],
+          "velocity_l2": 0.40957864497200963,
+          "pressure_l2": 3.1359852204948435
+        },
+        {
+          "index": 185,
+          "mse": 0.006826960009429523,
+          "mse_fields": [
+            0.0035352868707349393,
+            0.0034796683619950216,
+            0.01346592479555861
+          ],
+          "velocity_l2": 0.382911767388658,
+          "pressure_l2": 3.0149349217126247
+        },
+        {
+          "index": 293,
+          "mse": 0.006004290055157034,
+          "mse_fields": [
+            0.004479543628555769,
+            0.002230907893363502,
+            0.011302418643551833
+          ],
+          "velocity_l2": 0.38559492891568786,
+          "pressure_l2": 0.6141468810608691
+        },
+        {
+          "index": 257,
+          "mse": 0.008243119154405591,
+          "mse_fields": [
+            0.004414562489374064,
+            0.0018308706338944656,
+            0.018483924339948242
+          ],
+          "velocity_l2": 0.36584365431816895,
+          "pressure_l2": 0.5981811271917129
+        },
+        {
+          "index": 809,
+          "mse": 0.00831116189018829,
+          "mse_fields": [
+            0.006517565013644434,
+            0.005482227104939083,
+            0.012933693551981354
+          ],
+          "velocity_l2": 0.4708131211518919,
+          "pressure_l2": 3.984611903408544
+        },
+        {
+          "index": 371,
+          "mse": 0.028500935813714545,
+          "mse_fields": [
+            0.004571661234574696,
+            0.0018809533054275312,
+            0.0790501929011414
+          ],
+          "velocity_l2": 0.375067310344191,
+          "pressure_l2": 0.7101373352966519
+        },
+        {
+          "index": 122,
+          "mse": 0.006388962921939083,
+          "mse_fields": [
+            0.003444262905040121,
+            0.002923571562524865,
+            0.012799054298252264
+          ],
+          "velocity_l2": 0.3684193067626522,
+          "pressure_l2": 2.2593599561127595
+        },
+        {
+          "index": 159,
+          "mse": 0.0043501445001488575,
+          "mse_fields": [
+            0.0038479548332956068,
+            0.0020176243195690223,
+            0.0071848543475819425
+          ],
+          "velocity_l2": 0.35686561856078225,
+          "pressure_l2": 0.6895322138922565
+        },
+        {
+          "index": 909,
+          "mse": 0.005882262643169639,
+          "mse_fields": [
+            0.004246925232622637,
+            0.0027612816986840433,
+            0.01063858099820224
+          ],
+          "velocity_l2": 0.3737489338321411,
+          "pressure_l2": 0.5886534250356756
+        },
+        {
+          "index": 472,
+          "mse": 0.007130371396421126,
+          "mse_fields": [
+            0.0040558919756144745,
+            0.0033570551038902387,
+            0.013978167109758664
+          ],
+          "velocity_l2": 0.39528968538477655,
+          "pressure_l2": 2.5050783308023528
+        },
+        {
+          "index": 483,
+          "mse": 0.004790286730621987,
+          "mse_fields": [
+            0.004007422550074011,
+            0.0018854148162200024,
+            0.008478022825571946
+          ],
+          "velocity_l2": 0.3553290858402682,
+          "pressure_l2": 0.6470575847227192
+        },
+        {
+          "index": 313,
+          "mse": 0.005079913395538117,
+          "mse_fields": [
+            0.0038464556495440777,
+            0.002074259204843381,
+            0.009319025332226893
+          ],
+          "velocity_l2": 0.3590598849008866,
+          "pressure_l2": 1.0134822152741119
+        },
+        {
+          "index": 175,
+          "mse": 0.004890298867610575,
+          "mse_fields": [
+            0.0035970708356510756,
+            0.001996647530468845,
+            0.009077178236711805
+          ],
+          "velocity_l2": 0.3497555924304738,
+          "pressure_l2": 1.0735600557471565
+        },
+        {
+          "index": 564,
+          "mse": 0.00682297094104959,
+          "mse_fields": [
+            0.0041709171120156985,
+            0.003879202303773261,
+            0.01241879340735981
+          ],
+          "velocity_l2": 0.4022339006319813,
+          "pressure_l2": 2.9934727355984823
+        },
+        {
+          "index": 66,
+          "mse": 0.006952013460703029,
+          "mse_fields": [
+            0.004467777847219314,
+            0.003919809208939602,
+            0.012468453325950169
+          ],
+          "velocity_l2": 0.4118946972209562,
+          "pressure_l2": 3.002271933858986
+        },
+        {
+          "index": 97,
+          "mse": 0.006737357535759224,
+          "mse_fields": [
+            0.004166978491581661,
+            0.0018791358204077531,
+            0.014165958295288258
+          ],
+          "velocity_l2": 0.36648075513494155,
+          "pressure_l2": 0.5770502339581084
+        },
+        {
+          "index": 359,
+          "mse": 0.006229089332276463,
+          "mse_fields": [
+            0.0037139667847503966,
+            0.001967872259865583,
+            0.013005428952213407
+          ],
+          "velocity_l2": 0.3422340162689873,
+          "pressure_l2": 0.5873408810570839
+        },
+        {
+          "index": 118,
+          "mse": 0.007639726733400976,
+          "mse_fields": [
+            0.0052397566966900806,
+            0.004745491711435261,
+            0.012933931792077585
+          ],
+          "velocity_l2": 0.4438651092875602,
+          "pressure_l2": 3.9829105226394446
+        },
+        {
+          "index": 286,
+          "mse": 0.008833172488331415,
+          "mse_fields": [
+            0.006760864227459797,
+            0.005804996293927928,
+            0.013933656943606522
+          ],
+          "velocity_l2": 0.47561020532626613,
+          "pressure_l2": 4.229708134301841
+        },
+        {
+          "index": 399,
+          "mse": 0.09332513817717573,
+          "mse_fields": [
+            0.004469582274909784,
+            0.001973405642740425,
+            0.273532426613877
+          ],
+          "velocity_l2": 0.37454385542345014,
+          "pressure_l2": 0.813668571745699
+        },
+        {
+          "index": 219,
+          "mse": 0.005934747959329362,
+          "mse_fields": [
+            0.0036347640226090825,
+            0.002701326131506473,
+            0.011468153723872531
+          ],
+          "velocity_l2": 0.3666484650450626,
+          "pressure_l2": 1.9852506454911392
+        },
+        {
+          "index": 738,
+          "mse": 0.008038220775929118,
+          "mse_fields": [
+            0.004632846325865895,
+            0.004497911348245145,
+            0.014983904653676314
+          ],
+          "velocity_l2": 0.431814763036075,
+          "pressure_l2": 3.828835294306681
+        },
+        {
+          "index": 283,
+          "mse": 0.36320863625875216,
+          "mse_fields": [
+            0.0038164648077009646,
+            0.001921964011078528,
+            1.0838874799574771
+          ],
+          "velocity_l2": 0.3503852358279391,
+          "pressure_l2": 0.8821065618677549
+        },
+        {
+          "index": 463,
+          "mse": 0.004967220830458447,
+          "mse_fields": [
+            0.0035141365032169206,
+            0.0020171371387650823,
+            0.00937038884939334
+          ],
+          "velocity_l2": 0.34017942441071064,
+          "pressure_l2": 0.5808230908960738
+        },
+        {
+          "index": 255,
+          "mse": 0.005827923443379524,
+          "mse_fields": [
+            0.0039631954986604065,
+            0.0024164661170429634,
+            0.011104108714435203
+          ],
+          "velocity_l2": 0.36947037844568,
+          "pressure_l2": 1.6539705236143278
+        },
+        {
+          "index": 319,
+          "mse": 0.004960381609746296,
+          "mse_fields": [
+            0.003971807405610598,
+            0.0019953320653016272,
+            0.008914005358326663
+          ],
+          "velocity_l2": 0.36035975477978177,
+          "pressure_l2": 0.7156600055165602
+        },
+        {
+          "index": 152,
+          "mse": 0.005312737131136111,
+          "mse_fields": [
+            0.003926030644981746,
+            0.0019836576153698954,
+            0.010028523133056693
+          ],
+          "velocity_l2": 0.35794194355809533,
+          "pressure_l2": 0.5857712813960687
+        },
+        {
+          "index": 43,
+          "mse": 0.004646277291839236,
+          "mse_fields": [
+            0.0040736339570698575,
+            0.0019356022583350682,
+            0.007929595660112781
+          ],
+          "velocity_l2": 0.35777066767967874,
+          "pressure_l2": 0.8335336504089594
+        },
+        {
+          "index": 601,
+          "mse": 0.007142597704028042,
+          "mse_fields": [
+            0.0046451364770081684,
+            0.004508335027332744,
+            0.012274321607743213
+          ],
+          "velocity_l2": 0.4232117411900257,
+          "pressure_l2": 3.602110092402997
+        },
+        {
+          "index": 396,
+          "mse": 0.007872544237428324,
+          "mse_fields": [
+            0.005745551693846535,
+            0.0054911104235883905,
+            0.012380970594850051
+          ],
+          "velocity_l2": 0.45765638049990187,
+          "pressure_l2": 3.929039540392524
+        },
+        {
+          "index": 240,
+          "mse": 0.008296555080847832,
+          "mse_fields": [
+            0.006287412125334481,
+            0.00511942570864475,
+            0.013482827408564265
+          ],
+          "velocity_l2": 0.46643972806217326,
+          "pressure_l2": 3.401952344191645
+        },
+        {
+          "index": 536,
+          "mse": 0.007996551727606415,
+          "mse_fields": [
+            0.005128153384149091,
+            0.004576532485499258,
+            0.014284969313170894
+          ],
+          "velocity_l2": 0.44406978348838616,
+          "pressure_l2": 3.8592330811155193
+        },
+        {
+          "index": 660,
+          "mse": 0.004634152452504005,
+          "mse_fields": [
+            0.0042699152618164374,
+            0.001850322135203957,
+            0.007782219960491618
+          ],
+          "velocity_l2": 0.36117886837046614,
+          "pressure_l2": 0.6951203838583905
+        },
+        {
+          "index": 836,
+          "mse": 0.0050222658572705425,
+          "mse_fields": [
+            0.004585375024136379,
+            0.001980450038472398,
+            0.00850097250920285
+          ],
+          "velocity_l2": 0.38134622645022936,
+          "pressure_l2": 0.6513728309231294
+        },
+        {
+          "index": 699,
+          "mse": 0.004593569987742847,
+          "mse_fields": [
+            0.0036557371391327444,
+            0.001978298775228523,
+            0.008146674048867274
+          ],
+          "velocity_l2": 0.34079119317720785,
+          "pressure_l2": 0.6155065541542818
+        },
+        {
+          "index": 332,
+          "mse": 0.007061502264769758,
+          "mse_fields": [
+            0.0037879143685563923,
+            0.0036168843692730474,
+            0.013779708056479833
+          ],
+          "velocity_l2": 0.38971491849186446,
+          "pressure_l2": 2.7372569657660257
+        },
+        {
+          "index": 410,
+          "mse": 0.007541335829189953,
+          "mse_fields": [
+            0.005079268149402394,
+            0.004729643995134141,
+            0.012815095343033324
+          ],
+          "velocity_l2": 0.4370326958539139,
+          "pressure_l2": 3.6607343800303127
+        },
+        {
+          "index": 300,
+          "mse": 0.008072523859375723,
+          "mse_fields": [
+            0.0039061903425478203,
+            0.00185365206300639,
+            0.018457729172572962
+          ],
+          "velocity_l2": 0.35651784629242245,
+          "pressure_l2": 0.5757794092751989
+        },
+        {
+          "index": 675,
+          "mse": 0.007096935658510043,
+          "mse_fields": [
+            0.004161241579326682,
+            0.0033969985336854084,
+            0.013732566862518038
+          ],
+          "velocity_l2": 0.3864541128246352,
+          "pressure_l2": 2.5993259601140855
+        },
+        {
+          "index": 49,
+          "mse": 0.006683570573836294,
+          "mse_fields": [
+            0.003846432662165742,
+            0.00366402335622296,
+            0.01254025570312018
+          ],
+          "velocity_l2": 0.3896567576085392,
+          "pressure_l2": 3.047218221915735
+        },
+        {
+          "index": 682,
+          "mse": 0.0048859891537320075,
+          "mse_fields": [
+            0.0038621413342111617,
+            0.001971551017547461,
+            0.0088242751094374
+          ],
+          "velocity_l2": 0.36053676595646117,
+          "pressure_l2": 0.7317950148137689
+        },
+        {
+          "index": 741,
+          "mse": 0.011205491413528841,
+          "mse_fields": [
+            0.0037556836105918302,
+            0.001719626482604796,
+            0.0281411641473899
+          ],
+          "velocity_l2": 0.33793240073258246,
+          "pressure_l2": 0.6337898476446917
+        },
+        {
+          "index": 639,
+          "mse": 0.007880222228754669,
+          "mse_fields": [
+            0.004495581768434414,
+            0.004253972241490961,
+            0.014891112676338629
+          ],
+          "velocity_l2": 0.4208711154365278,
+          "pressure_l2": 3.8730378461916475
+        },
+        {
+          "index": 89,
+          "mse": 0.10069981281393132,
+          "mse_fields": [
+            0.004155116619325553,
+            0.002039211387973153,
+            0.2959051104344953
+          ],
+          "velocity_l2": 0.3617356565922361,
+          "pressure_l2": 0.8154088110775989
+        },
+        {
+          "index": 683,
+          "mse": 0.007882820121053591,
+          "mse_fields": [
+            0.0040166174430481556,
+            0.0038795560554173913,
+            0.015752286864695226
+          ],
+          "velocity_l2": 0.4068127708992148,
+          "pressure_l2": 3.374063576553494
+        },
+        {
+          "index": 695,
+          "mse": 0.00803103921411715,
+          "mse_fields": [
+            0.005103192145926293,
+            0.004251744905374891,
+            0.01473818059105026
+          ],
+          "velocity_l2": 0.42468224095208557,
+          "pressure_l2": 3.610161960877825
+        },
+        {
+          "index": 248,
+          "mse": 0.007990742484552634,
+          "mse_fields": [
+            0.004742090992553591,
+            0.002370464367681982,
+            0.01685967209342233
+          ],
+          "velocity_l2": 0.38643065027959733,
+          "pressure_l2": 0.645860476810661
+        },
+        {
+          "index": 245,
+          "mse": 0.008830773047890733,
+          "mse_fields": [
+            0.007181151749747191,
+            0.005714525910871104,
+            0.013596641483053905
+          ],
+          "velocity_l2": 0.48882115904074114,
+          "pressure_l2": 3.7520287676961512
+        },
+        {
+          "index": 277,
+          "mse": 0.008162240971209161,
+          "mse_fields": [
+            0.005610929175219319,
+            0.004954469149729525,
+            0.01392132458867864
+          ],
+          "velocity_l2": 0.45429500362709885,
+          "pressure_l2": 4.050784824550477
+        },
+        {
+          "index": 425,
+          "mse": 0.2525232711328929,
+          "mse_fields": [
+            0.004596723157702061,
+            0.0021764899192344405,
+            0.7507966003217422
+          ],
+          "velocity_l2": 0.38437102124071343,
+          "pressure_l2": 0.8631168176417239
+        },
+        {
+          "index": 76,
+          "mse": 0.007214224360963173,
+          "mse_fields": [
+            0.0044076890940062015,
+            0.0038209560924895966,
+            0.013414027896393722
+          ],
+          "velocity_l2": 0.4030907319298628,
+          "pressure_l2": 2.7031257473351977
+        },
+        {
+          "index": 641,
+          "mse": 0.005973894058786102,
+          "mse_fields": [
+            0.003808683748048715,
+            0.0030212598692960597,
+            0.011091738559013534
+          ],
+          "velocity_l2": 0.374784620931328,
+          "pressure_l2": 2.166528464958227
+        },
+        {
+          "index": 779,
+          "mse": 0.008379116984657325,
+          "mse_fields": [
+            0.005671252160033575,
+            0.005140943921371575,
+            0.014325154872566824
+          ],
+          "velocity_l2": 0.4508436479929987,
+          "pressure_l2": 4.032898973159702
+        },
+        {
+          "index": 611,
+          "mse": 0.0077859846245880255,
+          "mse_fields": [
+            0.005165644287810331,
+            0.004813789939050874,
+            0.01337851964690287
+          ],
+          "velocity_l2": 0.44145315480968744,
+          "pressure_l2": 3.8532227972944666
+        },
+        {
+          "index": 923,
+          "mse": 0.011774033040441126,
+          "mse_fields": [
+            0.004684573380197727,
+            0.002456002215006037,
+            0.028181523526119617
+          ],
+          "velocity_l2": 0.4103781466678529,
+          "pressure_l2": 0.6020946421513337
+        },
+        {
+          "index": 390,
+          "mse": 0.008868236282853785,
+          "mse_fields": [
+            0.0043249253983259845,
+            0.0018763389181916498,
+            0.02040344453204372
+          ],
+          "velocity_l2": 0.36764319619427943,
+          "pressure_l2": 0.6118565667088333
+        },
+        {
+          "index": 475,
+          "mse": 0.0053625177478719135,
+          "mse_fields": [
+            0.004416269908291434,
+            0.002221033287195159,
+            0.009450250048129147
+          ],
+          "velocity_l2": 0.3799113607896541,
+          "pressure_l2": 0.8305070807146223
+        },
+        {
+          "index": 827,
+          "mse": 0.00733851996281899,
+          "mse_fields": [
+            0.005039563362880551,
+            0.004647274626748141,
+            0.012328721898828282
+          ],
+          "velocity_l2": 0.42731802469650565,
+          "pressure_l2": 3.307528514479367
+        },
+        {
+          "index": 424,
+          "mse": 0.008958140512812554,
+          "mse_fields": [
+            0.006765817195606654,
+            0.005645284182834533,
+            0.014463320159996476
+          ],
+          "velocity_l2": 0.4779557202520166,
+          "pressure_l2": 4.323108251084871
+        },
+        {
+          "index": 508,
+          "mse": 0.007684317279956661,
+          "mse_fields": [
+            0.004913214350405689,
+            0.004427214266122638,
+            0.013712523223341655
+          ],
+          "velocity_l2": 0.43072938087964013,
+          "pressure_l2": 3.7302715385150456
+        },
+        {
+          "index": 521,
+          "mse": 0.005387404051209623,
+          "mse_fields": [
+            0.004808714987731306,
+            0.0023831848661238194,
+            0.008970312299773745
+          ],
+          "velocity_l2": 0.3892657112462339,
+          "pressure_l2": 0.9672284766964186
+        },
+        {
+          "index": 922,
+          "mse": 0.00899954278233445,
+          "mse_fields": [
+            0.004758172122700278,
+            0.00506210358596507,
+            0.017178352638338
+          ],
+          "velocity_l2": 0.46816473668214675,
+          "pressure_l2": 3.8952972808357185
+        },
+        {
+          "index": 426,
+          "mse": 0.02541006786042854,
+          "mse_fields": [
+            0.004458308194046242,
+            0.0020237807237922247,
+            0.06974811466344714
+          ],
+          "velocity_l2": 0.3760244861447301,
+          "pressure_l2": 0.6911593946239978
+        },
+        {
+          "index": 393,
+          "mse": 0.00450305610559999,
+          "mse_fields": [
+            0.004194596470680415,
+            0.001968958891154949,
+            0.007345612954964605
+          ],
+          "velocity_l2": 0.36702449399823145,
+          "pressure_l2": 0.7220459432573968
+        },
+        {
+          "index": 273,
+          "mse": 0.005063138276658241,
+          "mse_fields": [
+            0.004427672088552818,
+            0.002141465748184856,
+            0.008620276993237048
+          ],
+          "velocity_l2": 0.3824812027524402,
+          "pressure_l2": 0.9812372998650926
+        },
+        {
+          "index": 746,
+          "mse": 0.006466046192713254,
+          "mse_fields": [
+            0.003932756355543101,
+            0.003714497461178454,
+            0.011750884761418206
+          ],
+          "velocity_l2": 0.3887913286810452,
+          "pressure_l2": 2.794118807443429
+        },
+        {
+          "index": 531,
+          "mse": 0.00859799316024132,
+          "mse_fields": [
+            0.006144307115397088,
+            0.005369932510229368,
+            0.014279739855097508
+          ],
+          "velocity_l2": 0.46988051468740927,
+          "pressure_l2": 4.299673508714957
+        },
+        {
+          "index": 380,
+          "mse": 0.005073188743299715,
+          "mse_fields": [
+            0.004162931322581009,
+            0.0021072082617359838,
+            0.008949426645582152
+          ],
+          "velocity_l2": 0.3653127888894692,
+          "pressure_l2": 0.7438053105842494
+        },
+        {
+          "index": 327,
+          "mse": 0.004654047463122435,
+          "mse_fields": [
+            0.004279033264382443,
+            0.0021000960469651523,
+            0.007583013078019712
+          ],
+          "velocity_l2": 0.37780198142208843,
+          "pressure_l2": 0.8316544838402143
+        },
+        {
+          "index": 559,
+          "mse": 0.0087292529616445,
+          "mse_fields": [
+            0.006416275543293439,
+            0.005195295792160435,
+            0.014576187549479624
+          ],
+          "velocity_l2": 0.4594085651454076,
+          "pressure_l2": 4.082372874871535
+        },
+        {
+          "index": 501,
+          "mse": 0.21578356468636897,
+          "mse_fields": [
+            0.004448738329767373,
+            0.0021115250857232275,
+            0.6407904306436163
+          ],
+          "velocity_l2": 0.37892513536595746,
+          "pressure_l2": 0.8570810213106144
+        },
+        {
+          "index": 735,
+          "mse": 0.008680609342902572,
+          "mse_fields": [
+            0.005681755013749287,
+            0.005215624701887869,
+            0.01514444831307056
+          ],
+          "velocity_l2": 0.4611965699309004,
+          "pressure_l2": 4.32448240312433
+        },
+        {
+          "index": 136,
+          "mse": 0.006348069437090241,
+          "mse_fields": [
+            0.0038904798545630927,
+            0.001966716970311223,
+            0.013187011486396408
+          ],
+          "velocity_l2": 0.35569548496484615,
+          "pressure_l2": 0.5661822176057156
+        },
+        {
+          "index": 149,
+          "mse": 0.004460858880240085,
+          "mse_fields": [
+            0.003942057962779766,
+            0.001936951512339803,
+            0.007503567165600683
+          ],
+          "velocity_l2": 0.359985567952723,
+          "pressure_l2": 0.6611220967622118
+        },
+        {
+          "index": 678,
+          "mse": 0.009191488854993215,
+          "mse_fields": [
+            0.00740176227782652,
+            0.005304876899330091,
+            0.01486782738782303
+          ],
+          "velocity_l2": 0.47406867921935475,
+          "pressure_l2": 3.9986476411692666
+        },
+        {
+          "index": 539,
+          "mse": 0.004973113858187247,
+          "mse_fields": [
+            0.004263768074213914,
+            0.002037882358649183,
+            0.008617691141698646
+          ],
+          "velocity_l2": 0.3719938744958703,
+          "pressure_l2": 0.9272778918650043
+        },
+        {
+          "index": 279,
+          "mse": 0.007704405459021718,
+          "mse_fields": [
+            0.004467456634186972,
+            0.0019464042733166188,
+            0.016699355469561566
+          ],
+          "velocity_l2": 0.3772838286661124,
+          "pressure_l2": 0.5840831329543335
+        },
+        {
+          "index": 859,
+          "mse": 0.008459524850782208,
+          "mse_fields": [
+            0.008179007063448254,
+            0.005031057127622453,
+            0.012168510361275918
+          ],
+          "velocity_l2": 0.5007926862197816,
+          "pressure_l2": 0.7810508976328898
+        },
+        {
+          "index": 591,
+          "mse": 0.0060647386366964135,
+          "mse_fields": [
+            0.004002369790483968,
+            0.0029593201580288076,
+            0.011232525961576463
+          ],
+          "velocity_l2": 0.3813096270789933,
+          "pressure_l2": 2.1858853991295546
+        },
+        {
+          "index": 120,
+          "mse": 0.019759994412901678,
+          "mse_fields": [
+            0.004089720778973196,
+            0.002129178003899,
+            0.05306108445583284
+          ],
+          "velocity_l2": 0.3681658432320784,
+          "pressure_l2": 0.6714836884579991
+        },
+        {
+          "index": 988,
+          "mse": 0.0088162883201267,
+          "mse_fields": [
+            0.006883113067684278,
+            0.006594263488675624,
+            0.012971488404020199
+          ],
+          "velocity_l2": 0.5023481027131611,
+          "pressure_l2": 3.033256240793631
+        },
+        {
+          "index": 530,
+          "mse": 0.014383520375860723,
+          "mse_fields": [
+            0.0044274371297399655,
+            0.0018719798456522981,
+            0.03685114415218991
+          ],
+          "velocity_l2": 0.3713017344539708,
+          "pressure_l2": 0.6383156858161597
+        },
+        {
+          "index": 982,
+          "mse": 0.00861747542028764,
+          "mse_fields": [
+            0.008022672536864369,
+            0.004218527430729677,
+            0.013611226293268872
+          ],
+          "velocity_l2": 0.49221083652235315,
+          "pressure_l2": 1.057315936050885
+        },
+        {
+          "index": 646,
+          "mse": 0.006217990108683261,
+          "mse_fields": [
+            0.0038944326467752373,
+            0.00197282003727347,
+            0.012786717642001077
+          ],
+          "velocity_l2": 0.35107869067989317,
+          "pressure_l2": 0.5757627985765538
+        },
+        {
+          "index": 101,
+          "mse": 0.004724096688280942,
+          "mse_fields": [
+            0.0035960462680453102,
+            0.001975197286255924,
+            0.008601046510541593
+          ],
+          "velocity_l2": 0.34195060555790546,
+          "pressure_l2": 0.5985989359255681
+        },
+        {
+          "index": 629,
+          "mse": 0.004879843378655122,
+          "mse_fields": [
+            0.00433984936170135,
+            0.0019411915212209905,
+            0.008358489253043026
+          ],
+          "velocity_l2": 0.3665470644487303,
+          "pressure_l2": 0.8291513251442334
+        },
+        {
+          "index": 971,
+          "mse": 0.008008695711954048,
+          "mse_fields": [
+            0.007559677186574007,
+            0.004003702584571596,
+            0.012462707364716538
+          ],
+          "velocity_l2": 0.48064522501240237,
+          "pressure_l2": 1.1011662004299279
+        },
+        {
+          "index": 614,
+          "mse": 0.006754955309665822,
+          "mse_fields": [
+            0.003919560521632604,
+            0.0035614215818563213,
+            0.01278388382550854
+          ],
+          "velocity_l2": 0.39621253167900433,
+          "pressure_l2": 2.89728638809299
+        },
+        {
+          "index": 793,
+          "mse": 0.017823224380078728,
+          "mse_fields": [
+            0.004207041084597747,
+            0.00192263061976054,
+            0.047340001435877896
+          ],
+          "velocity_l2": 0.3593466228635546,
+          "pressure_l2": 0.6792776534688318
+        },
+        {
+          "index": 815,
+          "mse": 0.03641430630642082,
+          "mse_fields": [
+            0.004170909973897766,
+            0.0020209878248599916,
+            0.10305102112050471
+          ],
+          "velocity_l2": 0.36841796378401764,
+          "pressure_l2": 0.7296467794019459
+        },
+        {
+          "index": 383,
+          "mse": 0.0413334127592617,
+          "mse_fields": [
+            0.004281805976760767,
+            0.002222394656995309,
+            0.11749603764402904
+          ],
+          "velocity_l2": 0.3715952979615255,
+          "pressure_l2": 0.754655884418646
+        },
+        {
+          "index": 30,
+          "mse": 0.03176723161537586,
+          "mse_fields": [
+            0.003929055728550236,
+            0.0018199319293971282,
+            0.08955270718818023
+          ],
+          "velocity_l2": 0.34853309828874507,
+          "pressure_l2": 0.7240439144189086
+        },
+        {
+          "index": 581,
+          "mse": 0.005799674765907803,
+          "mse_fields": [
+            0.0036262520981725794,
+            0.0018584302438924287,
+            0.0119143419556584
+          ],
+          "velocity_l2": 0.3384313964550286,
+          "pressure_l2": 0.5597863811792614
+        },
+        {
+          "index": 56,
+          "mse": 0.008459035805127297,
+          "mse_fields": [
+            0.005602383275200938,
+            0.004781258109894975,
+            0.01499346603028598
+          ],
+          "velocity_l2": 0.4457310016851491,
+          "pressure_l2": 3.672528656751621
+        },
+        {
+          "index": 789,
+          "mse": 0.008087262903930895,
+          "mse_fields": [
+            0.004697590932393845,
+            0.003946337164139709,
+            0.015617860615259131
+          ],
+          "velocity_l2": 0.41825582984036436,
+          "pressure_l2": 3.2653725276808485
+        },
+        {
+          "index": 210,
+          "mse": 0.21331852903674645,
+          "mse_fields": [
+            0.004312700629146048,
+            0.0019956441048463707,
+            0.6336472423762469
+          ],
+          "velocity_l2": 0.3693247935119794,
+          "pressure_l2": 0.8601996578537715
+        },
+        {
+          "index": 525,
+          "mse": 0.022999696580496085,
+          "mse_fields": [
+            0.005028194728408265,
+            0.002323586326885269,
+            0.061647308686194724
+          ],
+          "velocity_l2": 0.3927044886741748,
+          "pressure_l2": 0.7130352935773889
+        },
+        {
+          "index": 577,
+          "mse": 0.005384558477712368,
+          "mse_fields": [
+            0.0038519856848344097,
+            0.0020144463314326457,
+            0.01028724341687005
+          ],
+          "velocity_l2": 0.3466950862394127,
+          "pressure_l2": 0.5991321180438991
+        },
+        {
+          "index": 65,
+          "mse": 0.007440720755405215,
+          "mse_fields": [
+            0.00501883389731818,
+            0.004542475983543136,
+            0.012760852385354328
+          ],
+          "velocity_l2": 0.431984392953937,
+          "pressure_l2": 3.500985097493574
+        },
+        {
+          "index": 824,
+          "mse": 0.007721208335153537,
+          "mse_fields": [
+            0.005655930609900073,
+            0.005111480733402592,
+            0.012396213662157946
+          ],
+          "velocity_l2": 0.4434277893938089,
+          "pressure_l2": 3.5297795613950362
+        },
+        {
+          "index": 388,
+          "mse": 0.051259626298145955,
+          "mse_fields": [
+            0.004289156856170893,
+            0.0022374535799841375,
+            0.14725226845828285
+          ],
+          "velocity_l2": 0.37223185247865304,
+          "pressure_l2": 0.771622956293574
+        },
+        {
+          "index": 514,
+          "mse": 0.05040248563642041,
+          "mse_fields": [
+            0.004079538047769852,
+            0.0020270500683909056,
+            0.14510086879310047
+          ],
+          "velocity_l2": 0.3579139027203111,
+          "pressure_l2": 0.7656580761179268
+        },
+        {
+          "index": 522,
+          "mse": 0.007916504510320672,
+          "mse_fields": [
+            0.005924939252060968,
+            0.004806111280037933,
+            0.013018462998863115
+          ],
+          "velocity_l2": 0.4568429063083637,
+          "pressure_l2": 3.429699536510161
+        },
+        {
+          "index": 485,
+          "mse": 0.00818023118443618,
+          "mse_fields": [
+            0.0061108745987211695,
+            0.005665984466873886,
+            0.012763834487713484
+          ],
+          "velocity_l2": 0.4642257735080592,
+          "pressure_l2": 3.8513155163869004
+        },
+        {
+          "index": 761,
+          "mse": 0.004844695779678126,
+          "mse_fields": [
+            0.004276599264114413,
+            0.0021787865347637765,
+            0.008078701540156188
+          ],
+          "velocity_l2": 0.3769233141188167,
+          "pressure_l2": 0.7683490217749476
+        },
+        {
+          "index": 468,
+          "mse": 0.009065734611833744,
+          "mse_fields": [
+            0.006729988139122725,
+            0.0049436755486517055,
+            0.015523540147726805
+          ],
+          "velocity_l2": 0.4616875832186377,
+          "pressure_l2": 4.191084594225346
+        },
+        {
+          "index": 951,
+          "mse": 0.006989043497586497,
+          "mse_fields": [
+            0.004821028783473567,
+            0.004034230302918122,
+            0.0121118714063678
+          ],
+          "velocity_l2": 0.4262669687235538,
+          "pressure_l2": 2.3427380037764785
+        },
+        {
+          "index": 847,
+          "mse": 0.190650131713577,
+          "mse_fields": [
+            0.004590303692783644,
+            0.0024386834657124656,
+            0.5649214079822349
+          ],
+          "velocity_l2": 0.3829038446735775,
+          "pressure_l2": 0.854391651320354
+        },
+        {
+          "index": 91,
+          "mse": 0.006038684656479744,
+          "mse_fields": [
+            0.0037407360774102238,
+            0.002487684077713089,
+            0.011887633814315918
+          ],
+          "velocity_l2": 0.3712721432220462,
+          "pressure_l2": 1.6514045718490145
+        },
+        {
+          "index": 165,
+          "mse": 0.0058350382334909565,
+          "mse_fields": [
+            0.003941677660858656,
+            0.0028681373663855614,
+            0.010695299673228654
+          ],
+          "velocity_l2": 0.38318390940384633,
+          "pressure_l2": 1.8518241065616805
+        },
+        {
+          "index": 171,
+          "mse": 0.16559440433546097,
+          "mse_fields": [
+            0.0040738358164107025,
+            0.0019272349265823093,
+            0.4907821422633899
+          ],
+          "velocity_l2": 0.3616670836732307,
+          "pressure_l2": 0.8364591230063706
+        },
+        {
+          "index": 567,
+          "mse": 0.007420807051848246,
+          "mse_fields": [
+            0.00496966458504608,
+            0.004555832772053275,
+            0.012736923798445383
+          ],
+          "velocity_l2": 0.4257592412857627,
+          "pressure_l2": 3.4822123240862166
+        },
+        {
+          "index": 811,
+          "mse": 0.006733566143154303,
+          "mse_fields": [
+            0.0036495544735235625,
+            0.003530085766859877,
+            0.01302105818907947
+          ],
+          "velocity_l2": 0.39045243919332484,
+          "pressure_l2": 2.7397842297416837
+        },
+        {
+          "index": 528,
+          "mse": 0.005363762721993202,
+          "mse_fields": [
+            0.004858891896911855,
+            0.002268676329502115,
+            0.008963719939565639
+          ],
+          "velocity_l2": 0.3872895350990372,
+          "pressure_l2": 0.7504771900785768
+        },
+        {
+          "index": 845,
+          "mse": 0.005058278479152676,
+          "mse_fields": [
+            0.004278457330149987,
+            0.002135140996334924,
+            0.008761237110973118
+          ],
+          "velocity_l2": 0.3663377509816346,
+          "pressure_l2": 0.6682082565703062
+        },
+        {
+          "index": 459,
+          "mse": 0.0052227342371455225,
+          "mse_fields": [
+            0.003921048177482798,
+            0.001954983289718785,
+            0.009792171244234983
+          ],
+          "velocity_l2": 0.3623987488812248,
+          "pressure_l2": 0.564128893909939
+        },
+        {
+          "index": 756,
+          "mse": 0.007019431226097009,
+          "mse_fields": [
+            0.003977087393521932,
+            0.0036311457081515492,
+            0.013450060576617547
+          ],
+          "velocity_l2": 0.3931406838307326,
+          "pressure_l2": 2.959720777214112
+        },
+        {
+          "index": 272,
+          "mse": 0.0055277170263976815,
+          "mse_fields": [
+            0.0044606915548757575,
+            0.0019442376322963474,
+            0.01017822189202094
+          ],
+          "velocity_l2": 0.37718572059081346,
+          "pressure_l2": 0.5801820662526268
+        },
+        {
+          "index": 499,
+          "mse": 0.00787224819377688,
+          "mse_fields": [
+            0.005335833788988384,
+            0.004316656582866555,
+            0.013964254209475703
+          ],
+          "velocity_l2": 0.4292910007249796,
+          "pressure_l2": 3.3552273937736774
+        },
+        {
+          "index": 474,
+          "mse": 0.008823857111066454,
+          "mse_fields": [
+            0.006296476219745396,
+            0.005329724931778674,
+            0.014845370181675295
+          ],
+          "velocity_l2": 0.4689239109103247,
+          "pressure_l2": 3.956685669525497
+        },
+        {
+          "index": 13,
+          "mse": 0.005216076979604997,
+          "mse_fields": [
+            0.004523776548142169,
+            0.0019104557920481772,
+            0.009213998598624642
+          ],
+          "velocity_l2": 0.3729099597326197,
+          "pressure_l2": 0.6075614684148053
+        },
+        {
+          "index": 419,
+          "mse": 0.016135243551856557,
+          "mse_fields": [
+            0.004645542340761682,
+            0.0017909086460946209,
+            0.04196927966871337
+          ],
+          "velocity_l2": 0.37313047342795724,
+          "pressure_l2": 0.6646207471717444
+        },
+        {
+          "index": 713,
+          "mse": 0.03575481069237669,
+          "mse_fields": [
+            0.00359185752934997,
+            0.0021268310870480875,
+            0.101545743460732
+          ],
+          "velocity_l2": 0.34166939002896746,
+          "pressure_l2": 0.7219285750581436
+        },
+        {
+          "index": 794,
+          "mse": 0.006214250480852471,
+          "mse_fields": [
+            0.003607029673302333,
+            0.0032677094806422106,
+            0.011768012288612871
+          ],
+          "velocity_l2": 0.3735740623253294,
+          "pressure_l2": 2.512071651634766
+        },
+        {
+          "index": 648,
+          "mse": 0.006463718375690121,
+          "mse_fields": [
+            0.0039774093704284495,
+            0.003551103781489993,
+            0.01186264197515192
+          ],
+          "velocity_l2": 0.38745231901915717,
+          "pressure_l2": 2.685681632372978
+        },
+        {
+          "index": 102,
+          "mse": 0.0047759160398957,
+          "mse_fields": [
+            0.0035009695785716433,
+            0.0021252511849240985,
+            0.008701527356191358
+          ],
+          "velocity_l2": 0.34317481879359923,
+          "pressure_l2": 0.9823527249738236
+        },
+        {
+          "index": 766,
+          "mse": 0.007829753643327136,
+          "mse_fields": [
+            0.005050144038140288,
+            0.004591797506857607,
+            0.013847319384983512
+          ],
+          "velocity_l2": 0.43787540731124636,
+          "pressure_l2": 3.7901444415392653
+        },
+        {
+          "index": 956,
+          "mse": 0.008941024231714608,
+          "mse_fields": [
+            0.007583909936925226,
+            0.006601575003695135,
+            0.012637587754523463
+          ],
+          "velocity_l2": 0.5029472509870636,
+          "pressure_l2": 3.536846403056432
+        },
+        {
+          "index": 800,
+          "mse": 0.10588045170292237,
+          "mse_fields": [
+            0.0047687317947702175,
+            0.0021448081040805673,
+            0.3107278152099163
+          ],
+          "velocity_l2": 0.38255408461901474,
+          "pressure_l2": 0.8209468612303337
+        },
+        {
+          "index": 798,
+          "mse": 0.008297430094268534,
+          "mse_fields": [
+            0.006528895873785712,
+            0.005469174370290389,
+            0.012894220038729502
+          ],
+          "velocity_l2": 0.46074513999808175,
+          "pressure_l2": 3.885162591209741
+        },
+        {
+          "index": 7,
+          "mse": 0.004538973427734863,
+          "mse_fields": [
+            0.004021172245930604,
+            0.0020012313135461396,
+            0.007594516723727846
+          ],
+          "velocity_l2": 0.35585571123189075,
+          "pressure_l2": 0.8431625825510475
+        },
+        {
+          "index": 850,
+          "mse": 0.008142869850151554,
+          "mse_fields": [
+            0.008481577612397356,
+            0.005067617779208381,
+            0.010879414158848924
+          ],
+          "velocity_l2": 0.508632426220159,
+          "pressure_l2": 1.0796498777605017
+        },
+        {
+          "index": 828,
+          "mse": 0.005935458174353386,
+          "mse_fields": [
+            0.004037349910109105,
+            0.0018867739194795236,
+            0.01188225069347153
+          ],
+          "velocity_l2": 0.35142561009726403,
+          "pressure_l2": 0.6047246750337775
+        },
+        {
+          "index": 92,
+          "mse": 0.008016404763417589,
+          "mse_fields": [
+            0.004421432674652361,
+            0.004394406352275589,
+            0.015233375263324814
+          ],
+          "velocity_l2": 0.4226761735520469,
+          "pressure_l2": 3.5980216016328064
+        },
+        {
+          "index": 637,
+          "mse": 0.007461941370314272,
+          "mse_fields": [
+            0.003987898655930842,
+            0.003779948409776993,
+            0.014617977045234983
+          ],
+          "velocity_l2": 0.4016470598813335,
+          "pressure_l2": 3.409252756921808
+        },
+        {
+          "index": 856,
+          "mse": 0.06053702453310708,
+          "mse_fields": [
+            0.007928877795602446,
+            0.005508192908356995,
+            0.1681740028953618
+          ],
+          "velocity_l2": 0.5030024332288959,
+          "pressure_l2": 0.8119764499652828
+        },
+        {
+          "index": 173,
+          "mse": 0.009026672378287616,
+          "mse_fields": [
+            0.006564140626902802,
+            0.0054862668877027655,
+            0.015029609620257282
+          ],
+          "velocity_l2": 0.4728324367582751,
+          "pressure_l2": 4.292472410106822
+        },
+        {
+          "index": 878,
+          "mse": 0.020922116086536786,
+          "mse_fields": [
+            0.007101166921093666,
+            0.0049383508979814125,
+            0.05072683044053529
+          ],
+          "velocity_l2": 0.4776239318236785,
+          "pressure_l2": 0.7247323775961316
+        },
+        {
+          "index": 2,
+          "mse": 0.008526516100332964,
+          "mse_fields": [
+            0.006971773770080709,
+            0.006247363397062424,
+            0.01236041113385576
+          ],
+          "velocity_l2": 0.48295645295512823,
+          "pressure_l2": 3.880098297588503
+        },
+        {
+          "index": 820,
+          "mse": 0.008154339512199286,
+          "mse_fields": [
+            0.006416558092531304,
+            0.005664823412708263,
+            0.012381637031358292
+          ],
+          "velocity_l2": 0.4616129843768061,
+          "pressure_l2": 3.710897060972876
+        },
+        {
+          "index": 132,
+          "mse": 0.00826888402000063,
+          "mse_fields": [
+            0.004749278861541754,
+            0.004334527697705433,
+            0.015722845500754704
+          ],
+          "velocity_l2": 0.4272570862353223,
+          "pressure_l2": 3.681428611878833
+        },
+        {
+          "index": 5,
+          "mse": 0.004649314716144459,
+          "mse_fields": [
+            0.003992327266506195,
+            0.001854994000202928,
+            0.008100622881724254
+          ],
+          "velocity_l2": 0.3504651655785457,
+          "pressure_l2": 0.6394373843189832
+        },
+        {
+          "index": 720,
+          "mse": 0.10508331298112766,
+          "mse_fields": [
+            0.004206932687964323,
+            0.002060297390243952,
+            0.3089827088651747
+          ],
+          "velocity_l2": 0.36592293149762056,
+          "pressure_l2": 0.8174274536942083
+        },
+        {
+          "index": 109,
+          "mse": 0.17706021619834109,
+          "mse_fields": [
+            0.004032205739664216,
+            0.002210982708695841,
+            0.5249374601466632
+          ],
+          "velocity_l2": 0.36240067231454204,
+          "pressure_l2": 0.8423293799543867
+        },
+        {
+          "index": 14,
+          "mse": 0.0068332481088021965,
+          "mse_fields": [
+            0.004246065518096052,
+            0.0037242502423617506,
+            0.012529428565948787
+          ],
+          "velocity_l2": 0.40434718961690785,
+          "pressure_l2": 2.8275435220866836
+        },
+        {
+          "index": 192,
+          "mse": 0.004671769270798691,
+          "mse_fields": [
+            0.0037223028285578354,
+            0.0020458880122560877,
+            0.00824711697158215
+          ],
+          "velocity_l2": 0.3551035495482254,
+          "pressure_l2": 0.7143608058069486
+        }
+      ]
+    },
+    "dynamic": {
+      "scn_units": 128
+    }
+  },
+  "best_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_main_20261111_v1/run_6015802a53cffb3c/models/scn_s921102/training/scn_b/best.pt",
+  "best_checkpoint_sha256": "86d21a9c9163f52861181f850a0e63256b50bc5f41a865c445adfa74c22f966e",
+  "core_parameters": 0,
+  "core_buffers": 7811,
+  "fitted_or_selected_core_scalars": 7811,
+  "wall_seconds": 392.9323699979577,
+  "cpu_process_seconds": 1143.065410357,
+  "peak_process_rss_kib": 5093612,
+  "peak_cuda_allocated_bytes": null,
+  "torch_threads": 4,
+  "cpu_affinity": [
+    28,
+    29,
+    30,
+    31
+  ],
+  "torch": "2.12.0+cu130",
+  "point_sample_sha256": "0558cfb0e38073ff6f91c88ce852793ef69a631e03c33002a88748bad4632013",
+  "test_targets_read": false,
+  "final_five_repetitions_started": false
+}

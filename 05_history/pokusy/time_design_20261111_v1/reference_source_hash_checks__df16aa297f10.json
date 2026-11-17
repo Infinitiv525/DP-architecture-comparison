@@ -1,0 +1,20 @@
+[
+  {
+    "manifest": "operational_manifest.json",
+    "items": []
+  },
+  {
+    "manifest": "operational_manifest_v34.json",
+    "items": []
+  },
+  {
+    "manifest": "operational_manifest_v36.json",
+    "items": [
+      {
+        "path": "/mnt/project/perun2601449/dp_llm_cfd/test/scripts/264_ldc24_16_v36.sbatch",
+        "record": "ef7e4cdf2f9719f0938333c0208bc67d8a1d4dd14e0def6b9ca6d786d03e1beb",
+        "actual_sha256": "ef7e4cdf2f9719f0938333c0208bc67d8a1d4dd14e0def6b9ca6d786d03e1beb"
+      }
+    ]
+  }
+]

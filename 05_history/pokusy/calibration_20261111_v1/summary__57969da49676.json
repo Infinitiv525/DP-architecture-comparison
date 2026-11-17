@@ -1,0 +1,20 @@
+{
+  "id": "realnpu_b",
+  "model": "realnpu",
+  "status": "EVALUATED",
+  "validation_mse": 0.001505311503098334,
+  "velocity_l2": 0.14289282871157044,
+  "pressure_l2": 0.4209383725309636,
+  "worst_screen_gpu_p99_ms": 1.259776955842972,
+  "latency_screen_pass": true,
+  "screen_cases": 16,
+  "best_epoch": 200,
+  "last_epoch": 200,
+  "initial_validation_mse": 0.04371312226106646,
+  "last_relative_validation_gain": 0.001932789211897218,
+  "needs_longer_training_review": false,
+  "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/realnpu_b/best.pt",
+  "checkpoint_sha256": "5da817c027713a5b208d95c0b5feea8a5f1edec351e8d87bb094d7501d76d135",
+  "training_device": "cpu",
+  "fitted_or_selected_core_scalars": 3900
+}

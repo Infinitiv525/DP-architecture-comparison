@@ -1,0 +1,34 @@
+{
+  "status": "TECHNICAL_PILOT_COMPLETE",
+  "model": "elm",
+  "validation_cases": 4,
+  "mean_validation_mse": 0.018333322163615606,
+  "mean_velocity_relative_l2": 0.6897629399233427,
+  "mean_pressure_relative_l2": 1.9049336452278953,
+  "worst_case_gpu_p99_ms": 0.7317565077543259,
+  "gpu_p99_pass_all_cases": true,
+  "wall_seconds": 2.2856259050313383,
+  "cpu_seconds": 2.241881405,
+  "peak_cuda_allocated_bytes": 290477568,
+  "peak_cuda_reserved_bytes": 360710144,
+  "peak_process_rss_kib": 1360340,
+  "training": {
+    "algorithm": "elm",
+    "point_samples": 32768,
+    "point_sample_sha256": "de029a9f95ba750702b4257a4037f06392c5d2ff6b1a8cbe2384b3a0d3ae2373",
+    "history": [
+      {
+        "units": 32,
+        "mse": 0.4949813783168793
+      }
+    ],
+    "final_point_training_mse": 0.4949813783168793,
+    "wall_seconds": 0.14444593503139913
+  },
+  "device": "NVIDIA H200",
+  "torch": "2.12.0+cu130",
+  "neuraloperator": "2.0.0",
+  "test_targets_read": false,
+  "final_architecture_ranking_allowed": false,
+  "statistical_claims_allowed": false
+}

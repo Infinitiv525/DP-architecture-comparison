@@ -1,0 +1,20 @@
+{
+  "id": "chebkan_a",
+  "model": "chebkan",
+  "status": "EVALUATED",
+  "validation_mse": 0.0012000139294385832,
+  "velocity_l2": 0.07183981222723575,
+  "pressure_l2": 0.24806027875216108,
+  "worst_screen_gpu_p99_ms": 3.8802355098724366,
+  "latency_screen_pass": true,
+  "screen_cases": 16,
+  "best_epoch": 200,
+  "last_epoch": 200,
+  "initial_validation_mse": 0.05757686594339697,
+  "last_relative_validation_gain": 0.015065697245307924,
+  "needs_longer_training_review": true,
+  "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/training/chebkan_a/best.pt",
+  "checkpoint_sha256": "3ce627e21e3d919eb0378e8081241b53279eb50d153d68e8ea7239a3b8cd0270",
+  "training_device": "cpu",
+  "fitted_or_selected_core_scalars": 11843
+}
