@@ -33,3 +33,7 @@ Zachovaných je **587 checkpointových súborov**, vrátane vybraných váh, dos
 - [Porovnanie architektúr](https://github.com/Infinitiv525/DP-architecture-comparison)
 
 Verejný vedecký export oddeľuje tieto podklady od súkromnej rozpracovanej dizertácie a prevádzkovej histórie. Referenčné dáta pochádzajú z [FlowBench](https://huggingface.co/datasets/BGLab/FlowBench); metódy autorov opisuje [pôvodný projekt](https://github.com/baskargroup/flowbench-tools). Licencie a zdroje externých vstupov sú v [metodike](03_methodology/DATA_AND_REUSE.md).
+
+## Doplnkové vedecké dáta
+
+Ďalšie surové merania a podklady na reprodukciu sú v [doplnkovom balíku](01_results/doplnkove_data/README.md).
