@@ -1,0 +1,31 @@
+{
+  "status": "RESULTS_WRITTEN_CLOSEOUT_COMPLETE",
+  "date": "2026-11-17",
+  "verified_new_report_hashes": 95,
+  "TEST_models": 55,
+  "TEST_fields": 11000,
+  "independent_original_primary_runs": 45,
+  "posthoc_dense_FNO_runs": 5,
+  "auxiliary_PINN_references": 5,
+  "separate_exploratory_lineages": 4,
+  "exploratory_results_excluded_from_primary": true,
+  "no_new_jobs_submitted": true,
+  "large_remote_artifacts_not_downloaded": true,
+  "source_proofs": {
+    "architecture_budget_test_20261112_v1\\completion_check.json": "3deb272ae0dd0e7edd30dd852b08eda7a98e094f634a1520e477164f2e2b3f1c",
+    "architecture_dense_fno_20261112_v1\\completion_check.json": "34d6de2a756a71bd5d4592b9200118158c166a94bd19e51593ab4c4c41b74488",
+    "architecture_second_chance_20261112_v1\\completion_check.json": "a2b78667ba224422136c54fa1b2c308dd6c41c089eb4f78b09c6b5a96db13485"
+  },
+  "outputs": {
+    "architecture_closeout_20261117_v1\\summary_55.json": "dabc54c47604eff03648a750742de81d736a8801367e8d61c4aacdda60a5c69c",
+    "architecture_closeout_20261117_v1\\POROVNANIE_55_MODELOV.txt": "41556d05b3adabce12887d5b9c7bac2966a0880d797ff15f4fe5aeb12a5c0976",
+    "architecture_dense_fno_20261112_v1\\VYSLEDKY.txt": "ba765edf344634ef8f3c9fa71479c0b7be81349876f99041f619000e9e0478b9",
+    "architecture_second_chance_20261112_v1\\VYSLEDKY.txt": "8d0efe97e745a10f31da3638bfc78ccbed03bba27717a9d5f018bc9b0239d4f4",
+    "architecture_second_chance_20261112_v1\\figures\\druha_sanca_priebeh.png": "62acff889e164f7e38439c003eb0b1344662f70fa3ec194b49b54723dbde9cf7",
+    "architecture_second_chance_20261112_v1\\figures\\druha_sanca_priebeh.svg": "3d8036b3bde9335a374393f882c01ee0942398b28f02e255c43f668ed3051379",
+    "architecture_second_chance_20261112_v1\\plotting_environment.json": "5ecaa8e9786f96474d68fb9e698874e3ddc03642329b04ace4932a3aff58f100"
+  },
+  "isolated_plotting_dependencies_bytes": 53858939,
+  "temporary_plotting_cleanup_blocked_by_automatic_policy": true,
+  "plotting_dependencies_excluded_from_git": true
+}

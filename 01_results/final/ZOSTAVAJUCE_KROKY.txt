@@ -1,0 +1,32 @@
+ČO EŠTE ZOSTÁVA NA PERUNE — KONTROLA 17. 11. 2026
+
+Dohodnuté výpočty sú hotové
+Živá kontrola Perunu potvrdila kompletné reporty pôvodných 50 TEST modelov,
+piatich dense FNO aj štyroch exploratívnych pokračovaní. Používateľský
+Slurm front bol pri kontrole prázdny. Nechýba tréning alebo audit potrebný
+na uzavretie dohodnutého rozsahu. Ďalšie tréningy nie sú nevyhnutné.
+
+Jedno voliteľné krátke doplnenie
+Jednorazové finálne TEST vyhodnotenie štyroch vopred vybraných modelov
+z druhej šance, každý na tých istých 200 prípadoch: spolu 800 predikcií.
+Išlo by o vyhodnotenie hotových zmrazených váh, nie nové učenie.
+Teraz vieme povedať, že zlepšili VAL výsledky; nevieme z toho samotného
+potvrdiť rovnaký prínos na TEST. Ak doplnok urobíme, výsledky ostanú
+oddelené od hlavnej tabuľky a nebudú slúžiť na ďalšie ladenie alebo výber
+rozpočtu. Toto doplnenie zatiaľ nie je spustené ani naplánované.
+
+Pred definitívnym ukončením prístupu
+Overiť a uzavrieť nezávislú zálohu finálnych váh, splitu, normalizácie,
+manifestov a zdrojov. GitHub má zdroje a malé číselné reporty; v tomto
+kroku sa neoverovala úplnosť zálohy všetkých váh mimo Perunu. Kontrola
+bežných názvov archívnych priečinkov pri koreni projektu nenašla záznam;
+nie je to dôkaz, že iná záloha nikde neexistuje. Veľké dáta sa nesťahovali
+na používateľov počítač. Prípadný archív možno vytvoriť priamo na Perune
+a následne preniesť do dohodnutého trvalého úložiska.
+
+Ďalšia práca s výsledkami
+Štatistické vyhodnotenie, intervaly neistoty, rozbory podľa geometrie/Re,
+grafy a text možno pripravovať z existujúcich výsledkov bez nového učenia.
+Na samotné hlavné porovnanie preto nepotrebujeme ďalšiu GPU kampaň.
+Šestnásťhodinové pokračovanie zostáva voliteľným novým rozšírením;
+na uzavretie existujúcich experimentov ho nepotrebujeme a nespustili sme ho.

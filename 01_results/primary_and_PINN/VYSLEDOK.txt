@@ -1,0 +1,25 @@
+ZAVERECNE TESTOVANIE ARCHITEKTUR DOKONCENE
+
+50 modelov x200 TEST simulacii =10000 overenych predikovanych poli.
+Zachovane vsetkych5 opakovani kazdej metody; ziadny vyber podlaTEST.
+Surove polia a casovania su naPerune. CSV obsahuje chyby a latencie.
+GPU a merany cas volania zo systemu su vykazane samostatne.
+Merany cas hostitela zahrna dve CUDA udalosti a synchronizaciu;
+prenos vstupov naGPU a vizualizacia nie su v tomto merani.
+
+Metoda          TEST MSE       rychlost L2[%] tlak L2[%] GPU<=5ms host<=5ms
+tfno           1.2253451e-05         0.758      1.561        3/5        3/5
+chebkan        0.00092933684         6.016      8.364        5/5        5/5
+pinet          0.0025701418        10.118     27.194        5/5        5/5
+dendrite       0.0025509407         9.883     26.964        5/5        5/5
+realnpu        1.5108648e-05         1.716      2.074        5/5        5/5
+rbf            0.0011599744         7.260     13.988        5/5        5/5
+elm            0.017736936        38.216     75.990        5/5        5/5
+scn            0.018426184        41.592     76.101        5/5        5/5
+cascor         0.022673887        52.872     86.013        2/5        2/5
+pinn           0.00029435387         2.407      8.601        5/5        5/5
+
+Primarne9rodin ma rovnake plne vstupy,superviziu a zdrojovyrozpocet.
+HistorickaPINN je oddelena pomocna referencia s vlastnym postupom.
+Split obsahuje zname geometrie. TEST uz bol otvoreny v starej studii.
+Toto je opisne vyhodnotenie; samostatne nevyhlasuje statisticku vyznamnost.

@@ -1,0 +1,16 @@
+FINALNY SAMOSTATNY TEST DRUHEJ SANCE
+
+4 modely, rovnake200 TEST pripady na kazdy model, 800 parov predikcii.
+Originalne vahy4h sa porovnavaju s vopred zmrazenymi predlzenymi vahami.
+Ziaden novy trening, vyber alebo zmena konfiguracie podla TEST.
+Vysledky su oddelene od povodnej55 modelovej tabulky.
+
+Model                   rychlost L2 pred/po[%]    tlak L2 pred/po[%]   hostp99<=5ms
+chebkan_s931101_extend8h   6.153 / 5.672            8.905 / 8.184         True
+chebkan_s931102_extend8h   5.760 / 5.041            7.793 / 7.064         True
+rbf_s931101_extend8h      7.173 / 6.880           13.810 / 13.110        True
+rbf_s931102_extend8h      7.190 / 6.923           13.824 / 13.252        True
+
+Len dva explorativne seedy na rodinu; opisne porovnanie, nie dokaz
+statistickej vyznamnosti alebo optimalneho potrebneho casu. TEST uz
+bol znamy z povodnej studie. Surove polia a casovania ostavaju naPerune.

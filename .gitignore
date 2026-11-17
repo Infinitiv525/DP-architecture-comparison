@@ -1,0 +1,9 @@
+.migration-owned
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.npy
+*.npz
+*.tar.gz
+.env
