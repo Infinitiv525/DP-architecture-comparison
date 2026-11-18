@@ -37,3 +37,7 @@ Verejný vedecký export oddeľuje tieto podklady od súkromnej rozpracovanej di
 ## Doplnkové vedecké dáta
 
 Ďalšie surové merania a podklady na reprodukciu sú v [doplnkovom balíku](01_results/doplnkove_data/README.md).
+
+## Plné uložené predikčné polia
+
+Všetkých 59 uložených TEST výstupov je dostupných v [samostatnom dátovom balíku](01_results/predikcne_polia/README.md).
