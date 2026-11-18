@@ -1,0 +1,37 @@
+{
+  "status": "ORIGINAL_SLURM_LOGS_PUBLISHED_AND_VERIFIED",
+  "repository": "Infinitiv525/DP-architecture-comparison",
+  "release_url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/scheduler-logs-20261118",
+  "files": 484,
+  "uncompressed_bytes": 1967620,
+  "uploaded_bytes": 691976,
+  "assets": [
+    {
+      "name": "scheduler_stdout_stderr_3d4b7c2f__part01-of01.tar.gz",
+      "bytes": 531095,
+      "sha256": "81ea1d92dd58809dc90059eeb67a090d845d81315bf14b17f07f42316c56f9e9",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/untagged-d68c48743b56c2e296db/scheduler_stdout_stderr_3d4b7c2f__part01-of01.tar.gz",
+      "server_digest": "sha256:81ea1d92dd58809dc90059eeb67a090d845d81315bf14b17f07f42316c56f9e9",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "SLURM_LOGS_MANIFEST.json",
+      "bytes": 160671,
+      "sha256": "6ad227552391a65a7684b911a71679bebb146d2c58cefea56633d4bcd3a3cce4",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/untagged-d68c48743b56c2e296db/SLURM_LOGS_MANIFEST.json",
+      "server_digest": "sha256:6ad227552391a65a7684b911a71679bebb146d2c58cefea56633d4bcd3a3cce4",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "SLURM_LOGS_SHA256SUMS.txt",
+      "bytes": 210,
+      "sha256": "27c12fbdff0c98c79d85625226627067654fd0535c71df3540e7a1a49b51ecc4",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/untagged-d68c48743b56c2e296db/SLURM_LOGS_SHA256SUMS.txt",
+      "server_digest": "sha256:27c12fbdff0c98c79d85625226627067654fd0535c71df3540e7a1a49b51ecc4",
+      "full_readback_verified_on_Perun": true
+    }
+  ],
+  "no_new_inference": true,
+  "no_PC_copy": true,
+  "job_id": "166644"
+}

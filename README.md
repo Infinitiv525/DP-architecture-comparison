@@ -53,3 +53,7 @@ Pôvodné polia a diagnostika starších pokusov sú v [samostatnom balíku](01_
 ## Ďalšie výskumné záznamy
 
 Doplnené pôvodné diagnostiky, protokoly, obrázky a zdroje sú v [samostatnom balíku](01_results/dalsie_vyskumne_zaznamy/README.md).
+
+## Pôvodné Slurm logy
+
+Doplnené pôvodné diagnostiky, protokoly, obrázky a zdroje sú v [samostatnom balíku](01_results/slurm_logy/README.md).
