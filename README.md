@@ -1,5 +1,9 @@
 # Porovnanie architektúr pre ustálené prúdenie
 
+## Úplný prehľad dostupných dát
+
+**[Katalóg výsledkov, váh a numerických polí](01_results/DOSTUPNE_DATA.md)** uvádza všetky publikované balíky, priame odkazy a aj výnimky z archivácie. Veľké súbory sú v Releases a nevyžadujú stiahnutie celého repozitára.
+
 Deväť rodín neurónových sietí dostalo rovnaké úplné geometrické vstupy, rovnaké dáta a najviac štyri hodiny tréningu na H200. Presnosť je výsledkom porovnania, nie vstupnou podmienkou.
 
 Hlavný experiment má **45 sietí: 9 rodín × 5 seedov**. Samostatne je pridaných päť dense FNO, päť historických pomocných PINN a štyri predĺžené ChebKAN/RBF. Archívy obsahujú všetkých **59 vybraných modelov** aj dostupné ďalšie stavy. PINN referencia a dodatočné FNO nie sú zamieňané za pôvodný plne kontrolovaný deväťrodinový experiment.

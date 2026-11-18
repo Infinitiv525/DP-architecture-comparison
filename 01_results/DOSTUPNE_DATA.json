@@ -1,0 +1,72 @@
+{
+  "status": "PUBLIC_DATA_CATALOG_VERIFIED",
+  "checked_UTC": "2026-11-18T21:34:36.782716+00:00",
+  "repository": "Infinitiv525/DP-architecture-comparison",
+  "checkpoint_files": 587,
+  "selected_models": 59,
+  "published_unique_source_files": 3802,
+  "published_unique_source_bytes": 46454698118,
+  "release_asset_bytes": 38086690387,
+  "release_assets": 105,
+  "releases": [
+    {
+      "label": "Modely a základné výsledky",
+      "tag": "research-artifacts-v1",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/research-artifacts-v1",
+      "original_files": 2444,
+      "asset_count": 10,
+      "archive_bytes": 4900730602,
+      "extra_assets_not_in_receipt": []
+    },
+    {
+      "label": "Doplnené vedecké záznamy a merania",
+      "tag": "scientific-data-supplement-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/scientific-data-supplement-20261118",
+      "original_files": 288,
+      "asset_count": 3,
+      "archive_bytes": 698835,
+      "extra_assets_not_in_receipt": []
+    },
+    {
+      "label": "Historické numerické výstupy",
+      "tag": "historical-numerical-outputs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/historical-numerical-outputs-20261118",
+      "original_files": 350,
+      "asset_count": 15,
+      "archive_bytes": 2377100394,
+      "extra_assets_not_in_receipt": []
+    },
+    {
+      "label": "Ďalšie pôvodné diagnostiky a zdroje",
+      "tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/research-records-completion-20261118",
+      "original_files": 661,
+      "asset_count": 16,
+      "archive_bytes": 17841421,
+      "extra_assets_not_in_receipt": []
+    },
+    {
+      "label": "Úplné finálne predikčné polia 59 modelov",
+      "tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/native-prediction-fields-20261118",
+      "original_files": 59,
+      "asset_count": 61,
+      "archive_bytes": 30790319135,
+      "extra_assets_not_in_receipt": []
+    }
+  ],
+  "not_full_filesystem_backup": true,
+  "no_new_training": true,
+  "no_new_inference": true,
+  "model_archive_payload_bytes_through_PC": 0,
+  "context_SK": "Zachovaných je 45 hlavných modelov, 5 dodatočne porovnateľne trénovaných dense FNO, 5 pomocných PINN a 4 modely s rozšíreným tréningom mimo hlavného porovnania. V osobitnom vydaní sú všetky existujúce finálne natívne TEST polia týchto 59 modelov: každý má predictions.npy tvaru [200, 512, 512, 3], osi prípad/y/x/pole, kanály u,v,p. Ide o 200 rôznych ustálených testovacích prípadov na model (spolu 11 800 polí), nie o časovú sekvenciu. Váhy ani polia sa nanovo nepočítali.",
+  "exclusions_SK": "Toto je archív vlastných výskumných artefaktov, nie úplná kópia súborového systému Perunu. Neduplikujú sa verejné vstupné FlowBench dáta, obnoviteľné tréningové a vstupné cache, stiahnuté základné LLM váhy ani softvérové prostredia. Nezverejňujú sa prístupové údaje, autentifikačné pomocné súbory ani rozpracovaná dizertácia. Staré surové paralelné/reštartovacie CFD adresáre nie sú úplne zrkadlené; spracované referenčné exporty a diagnostiky sú zahrnuté. Pri čítaní starej reštartovacej metadátovej vetvy sa pozorovalo čakanie na NFS; túto výnimku audit uvádza otvorene. Pôvodné výskumné dáta na Perune neboli zmazané.",
+  "source_files_unchanged": true,
+  "checks": [
+    "Source file SHA256",
+    "Every tar member decompressed and hashed",
+    "GitHub asset SHA256 and size",
+    "Complete release asset readback into RAM on Perun",
+    "Anonymous HEAD for every recorded public release asset"
+  ]
+}

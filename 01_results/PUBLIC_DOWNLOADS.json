@@ -1,0 +1,1584 @@
+{
+  "repository": "Infinitiv525/DP-architecture-comparison",
+  "checked_UTC": "2026-11-18T21:34:36.782716+00:00",
+  "all_recorded_assets_anonymously_accessible": true,
+  "assets": [
+    {
+      "name": "architecture-models-and-records-part01-of08.tar.gz",
+      "bytes": 486636826,
+      "sha256": "9a5a11430a290eb2883e1102153258ad41b2b0cb639b5e4df66ee9063c62bec0",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/architecture-models-and-records-part01-of08.tar.gz",
+      "release_tag": "research-artifacts-v1",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "architecture-models-and-records-part02-of08.tar.gz",
+      "bytes": 704776419,
+      "sha256": "560720ff701bb9f6fdbfcbd345655db6f44ef8b059729a11680409b4bb61e50a",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/architecture-models-and-records-part02-of08.tar.gz",
+      "release_tag": "research-artifacts-v1",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "architecture-models-and-records-part03-of08.tar.gz",
+      "bytes": 746427114,
+      "sha256": "6dbd685827f7da7628a87e24d266dee917ba86c852276e8c4237283c7de8c84c",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/architecture-models-and-records-part03-of08.tar.gz",
+      "release_tag": "research-artifacts-v1",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "architecture-models-and-records-part04-of08.tar.gz",
+      "bytes": 674780657,
+      "sha256": "ce0a115fa20808aad24f215e4146e8496df2e8852e1835fa8c3e183051aa7ed7",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/architecture-models-and-records-part04-of08.tar.gz",
+      "release_tag": "research-artifacts-v1",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "architecture-models-and-records-part05-of08.tar.gz",
+      "bytes": 634892925,
+      "sha256": "951e4da39b9812bb11ea0b91f216327d1417898141ce4a45c4488a14fc2bb68d",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/architecture-models-and-records-part05-of08.tar.gz",
+      "release_tag": "research-artifacts-v1",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "architecture-models-and-records-part06-of08.tar.gz",
+      "bytes": 731864460,
+      "sha256": "4b9c7be2b2e0bc17f5e9bacf3549304c2332c9028c3edd12b82f0c3a351c6612",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/architecture-models-and-records-part06-of08.tar.gz",
+      "release_tag": "research-artifacts-v1",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "architecture-models-and-records-part07-of08.tar.gz",
+      "bytes": 686717981,
+      "sha256": "2f4223795029b4c7ae07c4c5b1c1d3f72c0be2fe76b62a77f4698a482ae065ef",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/architecture-models-and-records-part07-of08.tar.gz",
+      "release_tag": "research-artifacts-v1",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "architecture-models-and-records-part08-of08.tar.gz",
+      "bytes": 233413602,
+      "sha256": "a540b64a0764978cc0c225d63fc0f5dbb65677cfbb6f5cef4f0dd87f4690af85",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/architecture-models-and-records-part08-of08.tar.gz",
+      "release_tag": "research-artifacts-v1",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "ARTIFACT_MANIFEST.json",
+      "bytes": 1219593,
+      "sha256": "b64fd76938e341cf0908cba0a4630281fed53f03fa5e0f250caac014ccc1e768",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/ARTIFACT_MANIFEST.json",
+      "release_tag": "research-artifacts-v1",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 1025,
+      "sha256": "69eca34f5d5a29c066d6478286a21589d18d5c0feb4e4c1a85b8145113bbfec0",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/SHA256SUMS.txt",
+      "release_tag": "research-artifacts-v1",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "architecture-additional-scientific-records-part01-of01.tar.gz",
+      "bytes": 576176,
+      "sha256": "59b4c0f03d56d07bcee3b8bfa571844cec2fba4a7c3f41fea1ba981c9f049879",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/scientific-data-supplement-20261118/architecture-additional-scientific-records-part01-of01.tar.gz",
+      "release_tag": "scientific-data-supplement-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "SUPPLEMENT_MANIFEST.json",
+      "bytes": 122440,
+      "sha256": "68e6879bb2d702f23e7928171c9fbf13fe79a7915429da70ec09bfea9675d9ac",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/scientific-data-supplement-20261118/SUPPLEMENT_MANIFEST.json",
+      "release_tag": "scientific-data-supplement-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "SUPPLEMENT_SHA256SUMS.txt",
+      "bytes": 219,
+      "sha256": "63fa4894406e4751516dc615476206071fbfabc96a43aa808fac946500f56280",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/scientific-data-supplement-20261118/SUPPLEMENT_SHA256SUMS.txt",
+      "release_tag": "scientific-data-supplement-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz",
+      "bytes": 187602890,
+      "sha256": "7b1d108def95bbeb848762efa67e49a07920453982548d650dc552849f6db5bb",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part01-of04.tar.gz",
+      "bytes": 524084294,
+      "sha256": "25d4e759b025f030033e5c1fff97b78f95fef877719f6a4147ab671a7c2dd665",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part01-of04.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part02-of04.tar.gz",
+      "bytes": 524119355,
+      "sha256": "856498494c55daa84b03653ec82fc8f0f66280733d4852d10f0303a4a8fa802e",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part02-of04.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part03-of04.tar.gz",
+      "bytes": 523859292,
+      "sha256": "9539bb791a8638eaa7008625f70c3ad4cb410e39d15fb97743e383b461b4a3fd",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part03-of04.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part04-of04.tar.gz",
+      "bytes": 15898532,
+      "sha256": "0738b35dc664422a5ac0d70650ce92c34b99b31b6e170e72169f1e131c66ff91",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part04-of04.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz",
+      "bytes": 103116107,
+      "sha256": "0af7e876667eb787893f44fdae64537984ab2f1f5a2be77e0078008f5cde41af",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz",
+      "bytes": 859113,
+      "sha256": "06c218c449015e00a15c2ea869f9793b9f0b142ac2245b8a6c3990d5042553e3",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz",
+      "bytes": 93254468,
+      "sha256": "9ca8ce882429b27485f865d9708749b09766a136c76e9183444dd80d74fe0a5e",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz",
+      "bytes": 93262376,
+      "sha256": "47549da2430f4923e28bd6af08d55a23a7a1b784a4be849a3a2ed26f664f0da1",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz",
+      "bytes": 93254752,
+      "sha256": "b91c4f6ea9cf1608ba9a123ca6fa0d27f6926f75cdfc9d0e621f779ac5cb4648",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz",
+      "bytes": 62179182,
+      "sha256": "b9cb5e6d31909b958194be936a7308140993a9e0930075f2ebf39c850515aa23",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz",
+      "bytes": 62181682,
+      "sha256": "0c5ad4841b87793573e78a27761774bb44317bb9f7e919e4d872d3d7d124a305",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz",
+      "bytes": 93254507,
+      "sha256": "d7bc3ad760cc4878cce6156508004b6da2fcbdfc1042a595a883c8501b709181",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "NUMERICAL_HISTORY_MANIFEST.json",
+      "bytes": 171734,
+      "sha256": "ce17c3eea475ef6b37579a1a4eb417d09381312648b38ccc281d9f53088a5491",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/NUMERICAL_HISTORY_MANIFEST.json",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "NUMERICAL_HISTORY_SHA256SUMS.txt",
+      "bytes": 2110,
+      "sha256": "1f3f2667c638dd1a8f62e31cee7c06d4ddd8f34a8f151e81df08b4c075ce9981",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/NUMERICAL_HISTORY_SHA256SUMS.txt",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_budget_audit_20261111_v1_963b68ef__part01-of01.tar.gz",
+      "bytes": 93715,
+      "sha256": "3f9b925e981c4c89e89f604c817fb4e4047b84dec54d66709010909e56be98b4",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_budget_audit_20261111_v1_963b68ef__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_budget_audit_20261111_v2_7b6d2cc1__part01-of01.tar.gz",
+      "bytes": 118256,
+      "sha256": "44f68c85a8d8e4c3269dac9f0ce8681205959230ed46cffca0f684ec7df73dd5",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_budget_audit_20261111_v2_7b6d2cc1__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_budgeted_20261111_v3_d25d2b78__part01-of01.tar.gz",
+      "bytes": 911,
+      "sha256": "cac08d71f2c1ce5a6c7015d632b310cd9478a4b3e73957eed165d5a6c4f594d9",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_budgeted_20261111_v3_d25d2b78__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_calibration_20261111_v1_39befbbd__part01-of01.tar.gz",
+      "bytes": 12313672,
+      "sha256": "33b40c2d27026cee80520112b47fe45dd04d7029145859023c6f4291951d3955",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_calibration_20261111_v1_39befbbd__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_fair_pilot_20261111_v2_7ed988a6__part01-of01.tar.gz",
+      "bytes": 14834,
+      "sha256": "a6d03dbc82a9cbb6a5529b1444234d0d224b86e991a951e394b7d5fb336ad347",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_fair_pilot_20261111_v2_7ed988a6__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_final_20261111_v1_40999ad1__part01-of01.tar.gz",
+      "bytes": 2186948,
+      "sha256": "bd13d4dc91d57a29a7ddaa53c54a3de168cdff1d71a48a9d9212511155190058",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_final_20261111_v1_40999ad1__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_fit_diagnostic_20261111_v1_40e7395d__part01-of01.tar.gz",
+      "bytes": 365084,
+      "sha256": "97f4f860cd15cb17f3d3d5f6bdee74459c76ad8da79eace1367b9d2c92391fba",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_fit_diagnostic_20261111_v1_40e7395d__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_main_20261111_v1_52168227__part01-of01.tar.gz",
+      "bytes": 574220,
+      "sha256": "6b47c02c6fae3ff7841a20f760c1902c261e0c2fb6570d02d6364538d254b006",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_main_20261111_v1_52168227__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_pilot_20261110_v1_c3cc5ebe__part01-of01.tar.gz",
+      "bytes": 614459,
+      "sha256": "566969e214b03a231c203c32bcfacb6e6375fd69e92e76bfc28f7418ea6ad9b4",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_pilot_20261110_v1_c3cc5ebe__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_review_20261111_v1_40114d8d__part01-of01.tar.gz",
+      "bytes": 289021,
+      "sha256": "e6b1bf8ffc3e2aaa4acf307ca4baa7f31187255a442ba06254982d5730db3cf4",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_review_20261111_v1_40114d8d__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_second_chance_20261112_v1_c03805fe__part01-of01.tar.gz",
+      "bytes": 17146,
+      "sha256": "f3a416b30378811390f94cfb573ca28d5caca982624128dfcbc67299c7f9d1e2",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_second_chance_20261112_v1_c03805fe__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_training_coverage_20261111_v1_392f4ea4__part01-of01.tar.gz",
+      "bytes": 9964,
+      "sha256": "9ab7a033786166aaf5603dd87e41e9e802964109e47ce8c613a95bfea8c755aa",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_training_coverage_20261111_v1_392f4ea4__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_architecture_training_diagnostics_20261112_v1_62906266__part01-of01.tar.gz",
+      "bytes": 780561,
+      "sha256": "ff2bc011b4d54e12fbc6207444a8c29bbfef253a4fb5f3da9cad6cf1fafbd509",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_training_diagnostics_20261112_v1_62906266__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "results_cpu_gpu_benchmark_20261111_v1_cb01c336__part01-of01.tar.gz",
+      "bytes": 146766,
+      "sha256": "972779db9cd6e8f7d030d5611b1b0e60625ce88f4fcd276c34210a31fa3f9e87",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_cpu_gpu_benchmark_20261111_v1_cb01c336__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "RESEARCH_RECORDS_MANIFEST.json",
+      "bytes": 313820,
+      "sha256": "a39bffccd20377b6e6cc856ea4fd19620e1f7de7ef6aae1ecb9ede512ba95278",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/RESEARCH_RECORDS_MANIFEST.json",
+      "release_tag": "research-records-completion-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "RESEARCH_RECORDS_SHA256SUMS.txt",
+      "bytes": 2044,
+      "sha256": "2e6fee17478874ab658f988c62059c92ed8a54c6465dcac930cbb013c19992ca",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/RESEARCH_RECORDS_SHA256SUMS.txt",
+      "release_tag": "research-records-completion-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "cascor_s931101__native_TEST_fields.tar.gz",
+      "bytes": 523583147,
+      "sha256": "939f25c65de2ed25c6d64f30db45eee2dbdcd0bad567ebc502cce24ac908c355",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/cascor_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "cascor_s931102__native_TEST_fields.tar.gz",
+      "bytes": 524162416,
+      "sha256": "accd212ba90ac7a69e0b07bee9dbdb8af5002f9b79e4cb3f9e445e245f74e3ac",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/cascor_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "cascor_s931103__native_TEST_fields.tar.gz",
+      "bytes": 523783227,
+      "sha256": "a289b4d0009235ab6e4ab8aaf238abe742631a9fb1fe0ef3e74b4156061fd620",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/cascor_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "cascor_s931104__native_TEST_fields.tar.gz",
+      "bytes": 523651211,
+      "sha256": "fce3eed3067854273d97581d675848a926d66f7f0b5bb760f04c477419fffac9",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/cascor_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "cascor_s931105__native_TEST_fields.tar.gz",
+      "bytes": 523656581,
+      "sha256": "754c30923419a65b8652469d1a4b18104defc5fa1ae5b0c32517bea5d67205d5",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/cascor_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "chebkan_s931101__native_TEST_fields.tar.gz",
+      "bytes": 525673116,
+      "sha256": "9e669e0d2ea9cb38768e7d29a3ece5e895b71625b6250f06e351584118230769",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/chebkan_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "chebkan_s931101_extend8h__native_TEST_fields.tar.gz",
+      "bytes": 525513800,
+      "sha256": "7e375522dd5e6b8c7d6c5ec6dba3424068b14caf19bc5309590b838374a5f65b",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/chebkan_s931101_extend8h__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "chebkan_s931102__native_TEST_fields.tar.gz",
+      "bytes": 524263419,
+      "sha256": "b450ac9d010259d96b522bee7dc904a73c6a3edb485a0901605b461392e3d3f4",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/chebkan_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "chebkan_s931102_extend8h__native_TEST_fields.tar.gz",
+      "bytes": 525232453,
+      "sha256": "d6b9ba40d8d7942e19d015b467732630a811a0550be45635769740b813478029",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/chebkan_s931102_extend8h__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "chebkan_s931103__native_TEST_fields.tar.gz",
+      "bytes": 525328228,
+      "sha256": "98c3e9a188662786298663f32ffb586cfd353e229e42ba8326fe8a2348b54fd7",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/chebkan_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "chebkan_s931104__native_TEST_fields.tar.gz",
+      "bytes": 524649454,
+      "sha256": "3fd06fd276214f77797e19491baae01adec009b61c7b083bd59dde1b1983ffc9",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/chebkan_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "chebkan_s931105__native_TEST_fields.tar.gz",
+      "bytes": 526007354,
+      "sha256": "88e658d6f447394f6af2bf132c65c8055175b3058721186416a2774772069c43",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/chebkan_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "dendrite_s931101__native_TEST_fields.tar.gz",
+      "bytes": 525461515,
+      "sha256": "21d8c48bdf91d96d22d0b4bad0ab5460b00345b60ed0cdd35767b10676317818",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/dendrite_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "dendrite_s931102__native_TEST_fields.tar.gz",
+      "bytes": 525537440,
+      "sha256": "7e674810f0b5f85525d38a5d834ba684d104830f6ebe1617768e28a4bf32086c",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/dendrite_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "dendrite_s931103__native_TEST_fields.tar.gz",
+      "bytes": 525436400,
+      "sha256": "548bea5419547f63ebd10040c90caead5be67d64848d819d9d20371394bda92d",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/dendrite_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "dendrite_s931104__native_TEST_fields.tar.gz",
+      "bytes": 525483333,
+      "sha256": "8eee30ef807195cdcd5023265ebaf85513bf741f9a52e9701f7e5fe9cb844bae",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/dendrite_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "dendrite_s931105__native_TEST_fields.tar.gz",
+      "bytes": 525401945,
+      "sha256": "30f5e0fbbc8d72747ab00ea72a76ee736df9a611b6e89c1f6003baf6e653c91f",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/dendrite_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "elm_s931101__native_TEST_fields.tar.gz",
+      "bytes": 522757720,
+      "sha256": "9d45b019a290d829be56c06c00c517592103883229cc3ec7f037de18215f8ce0",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/elm_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "elm_s931102__native_TEST_fields.tar.gz",
+      "bytes": 522736521,
+      "sha256": "647c126d507b51bcd1c83bcf9512ca49c29015309de5b54e7f68184c70bfb38f",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/elm_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "elm_s931103__native_TEST_fields.tar.gz",
+      "bytes": 522681297,
+      "sha256": "ec8fe6309441775f050a9c552a435fa07c23170b2a5512e33cf7b64fb9456bd1",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/elm_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "elm_s931104__native_TEST_fields.tar.gz",
+      "bytes": 522754116,
+      "sha256": "89ae7c26a4266d97a11a4916db3dc86d680d132c6ae89396f6ac2cf6560d2ed0",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/elm_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "elm_s931105__native_TEST_fields.tar.gz",
+      "bytes": 522741791,
+      "sha256": "388830e9cb1edee999276bbf196293511800dc6c1e34c201c6d9090d5f42e33c",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/elm_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "fixed_k00__native_TEST_fields.tar.gz",
+      "bytes": 481232069,
+      "sha256": "d1d556c0808b75424c7e0885b8d3a57e673482b84dd3445ce2e9e4449f58faa6",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fixed_k00__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "fixed_k01__native_TEST_fields.tar.gz",
+      "bytes": 480590655,
+      "sha256": "a2994704e8511551bf383d3eb870bd3e1a98e35a666de71219520b9d0db6abea",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fixed_k01__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "fixed_k02__native_TEST_fields.tar.gz",
+      "bytes": 480575960,
+      "sha256": "effb2b913fd5886f6bf9da4e4548d26b7aa307f3ba6370b66d48b6ab8d5796b9",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fixed_k02__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "fixed_k03__native_TEST_fields.tar.gz",
+      "bytes": 481671545,
+      "sha256": "d4e6d690d21479f37c17d5ce5e9c29dfcab27396272e7ffb78a83ec6b0a1600d",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fixed_k03__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "fixed_k04__native_TEST_fields.tar.gz",
+      "bytes": 482031804,
+      "sha256": "478f7dd1026ef19fb08b985c77e750ca90ae7872775ab5cc43cb9aed1d5e7b21",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fixed_k04__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "fno_s931101__native_TEST_fields.tar.gz",
+      "bytes": 529219712,
+      "sha256": "20c5b9bf6390ff4c7e81e474938020edfc54673541922b1b7ffcf61b4d44dfa0",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fno_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "fno_s931102__native_TEST_fields.tar.gz",
+      "bytes": 529361549,
+      "sha256": "66c4b4200121aaf749717624138cd2c33e7986bc092db4cdf27274714a337f96",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fno_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "fno_s931103__native_TEST_fields.tar.gz",
+      "bytes": 529115003,
+      "sha256": "97da912b7eb849b14b1a1af1383470ed8dda5d3712b21401279d054775bcf428",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fno_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "fno_s931104__native_TEST_fields.tar.gz",
+      "bytes": 529130931,
+      "sha256": "5c714a581388abb450075b7da02e2917d966a967fc5427d5a1728b8352918d39",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fno_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "fno_s931105__native_TEST_fields.tar.gz",
+      "bytes": 529268389,
+      "sha256": "460675af294f9bcfb20747e2613b57649e0143c7d35964ffad4ac16d5ce4c2ad",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fno_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "pinet_s931101__native_TEST_fields.tar.gz",
+      "bytes": 525435370,
+      "sha256": "5c7acdf39790dafc3b6f5be14ada1c7923c369d5f83648d3bfd7ec60322a809a",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/pinet_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "pinet_s931102__native_TEST_fields.tar.gz",
+      "bytes": 525489630,
+      "sha256": "0b5c0670e7d12c1000d1e4ca63852dd397ffd7b799f31a59ff14a21ef366aacd",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/pinet_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "pinet_s931103__native_TEST_fields.tar.gz",
+      "bytes": 525457996,
+      "sha256": "950ec38263da69d7ff9fb1221df5206761d663c3c16c7d0e1a8c8ee4f912f5c5",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/pinet_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "pinet_s931104__native_TEST_fields.tar.gz",
+      "bytes": 525444168,
+      "sha256": "b26db3f822e79e169c74c3f6ac18efc199d38230fee2ad497688b9fec5caed98",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/pinet_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "pinet_s931105__native_TEST_fields.tar.gz",
+      "bytes": 525417833,
+      "sha256": "f2b6ebdafcacdc33a93a295848b65a90f0d6e2a86fe41d6096a5c21b83627c05",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/pinet_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "rbf_s931101__native_TEST_fields.tar.gz",
+      "bytes": 525358144,
+      "sha256": "582767d21f428a574381a43c57692b816c1a8f00b01856355fcc3557898abe0d",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/rbf_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "rbf_s931101_extend8h__native_TEST_fields.tar.gz",
+      "bytes": 525233526,
+      "sha256": "6898a858e40a287184d18bb9192d8d2565466328ae9c61aa5c0d5a9fc6164e69",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/rbf_s931101_extend8h__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "rbf_s931102__native_TEST_fields.tar.gz",
+      "bytes": 525901227,
+      "sha256": "db351189b773a53031feac32654023b6a8e6e8af4b3f11cc35beccd46492d546",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/rbf_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "rbf_s931102_extend8h__native_TEST_fields.tar.gz",
+      "bytes": 525930963,
+      "sha256": "7d6a3041e144d423bee29be5b011d533e8d01f613c2ddf5a8bec8f80a97a1175",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/rbf_s931102_extend8h__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "rbf_s931103__native_TEST_fields.tar.gz",
+      "bytes": 526093229,
+      "sha256": "a33487cdf916a03b4570ad36521b1dfab50d10d830804acd0db36631c7b64749",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/rbf_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "rbf_s931104__native_TEST_fields.tar.gz",
+      "bytes": 525863915,
+      "sha256": "d644f384259f0a64728bcb1f520dd7610cadce536c9cfcaf59d4b0c51f4405d7",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/rbf_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "rbf_s931105__native_TEST_fields.tar.gz",
+      "bytes": 526055084,
+      "sha256": "afd4ebccf1c71a3548b191cfc5a4cd2684646c7b5ca3c5e04a595ef2f33f4d2a",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/rbf_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "realnpu_s931101__native_TEST_fields.tar.gz",
+      "bytes": 527312597,
+      "sha256": "cc73155dbd15969a30ada69d6c67319532bf124fb00a018a3a0ddd4763e00dea",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/realnpu_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "realnpu_s931102__native_TEST_fields.tar.gz",
+      "bytes": 527464008,
+      "sha256": "e5c091c70810ab3ccf24ea15bd1669d1d15244e48188ee8e404b9955a4c9b7d4",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/realnpu_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "realnpu_s931103__native_TEST_fields.tar.gz",
+      "bytes": 527484832,
+      "sha256": "b3030169f4f7aca444f4e2ff87755c2ff06bf1ca912ce6eb458316a5253fd974",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/realnpu_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "realnpu_s931104__native_TEST_fields.tar.gz",
+      "bytes": 527396639,
+      "sha256": "02d8177e788bc8bb54653ff0016df5a40f89069f1127e34882976db5f853d707",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/realnpu_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "realnpu_s931105__native_TEST_fields.tar.gz",
+      "bytes": 527508574,
+      "sha256": "9f5cfae16d548e077978d5ce8c4baeb2019c8069e143974841d7bc13be29262c",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/realnpu_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "scn_s931101__native_TEST_fields.tar.gz",
+      "bytes": 522839096,
+      "sha256": "ef47121952b9176fd9afcc3abc32aa0d65c7c9abbd6da856d0aa805700fe4ae3",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/scn_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "scn_s931102__native_TEST_fields.tar.gz",
+      "bytes": 522497197,
+      "sha256": "9e56a1688ee74f2f7f6305b2898fe39c61d57d310de7549c7742b6dfaa0ec40f",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/scn_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "scn_s931103__native_TEST_fields.tar.gz",
+      "bytes": 522676195,
+      "sha256": "2fd19e8e4cc1e45a8992ba648e91340e9697fb235c08f49c100bd48a7eeb47df",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/scn_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "scn_s931104__native_TEST_fields.tar.gz",
+      "bytes": 522677940,
+      "sha256": "b367bed7bc6455ab2fa0f0fa98938c0474bac791da29a88bc2cc2070bd5fab5d",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/scn_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "scn_s931105__native_TEST_fields.tar.gz",
+      "bytes": 522793232,
+      "sha256": "634ff86d39baec87e01b5b476ff6795378ad72443a49c729152de5710f7a2104",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/scn_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "tfno_s931101__native_TEST_fields.tar.gz",
+      "bytes": 528753862,
+      "sha256": "5ff4c4eee2e8c5ecf869393a433636a617c4c6f9dec47ad95d412e2ceaee6a0b",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/tfno_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "tfno_s931102__native_TEST_fields.tar.gz",
+      "bytes": 528525703,
+      "sha256": "3d9b42bf0de1199cf219dc9a8b6e3bb375e24c729226402d632803f54a1e47f2",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/tfno_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "tfno_s931103__native_TEST_fields.tar.gz",
+      "bytes": 528858843,
+      "sha256": "209cff86f8a7ae40bf274434372e5d601d42197de5a2a999df1452d7d3ccf742",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/tfno_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "tfno_s931104__native_TEST_fields.tar.gz",
+      "bytes": 528534962,
+      "sha256": "d3966d6c1702b522ec8cc3a0b856268a716a540533cb3d2f83e10f8773dd4b24",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/tfno_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "tfno_s931105__native_TEST_fields.tar.gz",
+      "bytes": 528538640,
+      "sha256": "b292100196332375c8dae108e9a3af55dc9fd2f8dad6efa3dada19ba83b3e116",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/tfno_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "PREDICTION_FIELDS_MANIFEST.json",
+      "bytes": 75305,
+      "sha256": "1dc548b1f500d37c5a04fa43a510101df6399fab24df4362424953603f12b9ac",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/PREDICTION_FIELDS_MANIFEST.json",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    },
+    {
+      "name": "PREDICTION_FIELDS_SHA256SUMS.txt",
+      "bytes": 6324,
+      "sha256": "489d68e8d142bf23efa073d8581cb08fd269ddcd22f1c6fc02d799047a0871b9",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/PREDICTION_FIELDS_SHA256SUMS.txt",
+      "release_tag": "native-prediction-fields-20261118",
+      "full_readback_verified_on_Perun": true
+    }
+  ],
+  "anonymous_checks": [
+    {
+      "name": "architecture-models-and-records-part01-of08.tar.gz",
+      "release_tag": "research-artifacts-v1",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/architecture-models-and-records-part01-of08.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "architecture-models-and-records-part02-of08.tar.gz",
+      "release_tag": "research-artifacts-v1",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/architecture-models-and-records-part02-of08.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "architecture-models-and-records-part03-of08.tar.gz",
+      "release_tag": "research-artifacts-v1",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/architecture-models-and-records-part03-of08.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "architecture-models-and-records-part04-of08.tar.gz",
+      "release_tag": "research-artifacts-v1",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/architecture-models-and-records-part04-of08.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "architecture-models-and-records-part05-of08.tar.gz",
+      "release_tag": "research-artifacts-v1",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/architecture-models-and-records-part05-of08.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "architecture-models-and-records-part06-of08.tar.gz",
+      "release_tag": "research-artifacts-v1",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/architecture-models-and-records-part06-of08.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "architecture-models-and-records-part07-of08.tar.gz",
+      "release_tag": "research-artifacts-v1",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/architecture-models-and-records-part07-of08.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "architecture-models-and-records-part08-of08.tar.gz",
+      "release_tag": "research-artifacts-v1",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/architecture-models-and-records-part08-of08.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "ARTIFACT_MANIFEST.json",
+      "release_tag": "research-artifacts-v1",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/ARTIFACT_MANIFEST.json",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "release_tag": "research-artifacts-v1",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-artifacts-v1/SHA256SUMS.txt",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "architecture-additional-scientific-records-part01-of01.tar.gz",
+      "release_tag": "scientific-data-supplement-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/scientific-data-supplement-20261118/architecture-additional-scientific-records-part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "SUPPLEMENT_MANIFEST.json",
+      "release_tag": "scientific-data-supplement-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/scientific-data-supplement-20261118/SUPPLEMENT_MANIFEST.json",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "SUPPLEMENT_SHA256SUMS.txt",
+      "release_tag": "scientific-data-supplement-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/scientific-data-supplement-20261118/SUPPLEMENT_SHA256SUMS.txt",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part01-of04.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part01-of04.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part02-of04.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part02-of04.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part03-of04.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part03-of04.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part04-of04.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part04-of04.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "NUMERICAL_HISTORY_MANIFEST.json",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/NUMERICAL_HISTORY_MANIFEST.json",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "NUMERICAL_HISTORY_SHA256SUMS.txt",
+      "release_tag": "historical-numerical-outputs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/historical-numerical-outputs-20261118/NUMERICAL_HISTORY_SHA256SUMS.txt",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_budget_audit_20261111_v1_963b68ef__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_budget_audit_20261111_v1_963b68ef__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_budget_audit_20261111_v2_7b6d2cc1__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_budget_audit_20261111_v2_7b6d2cc1__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_budgeted_20261111_v3_d25d2b78__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_budgeted_20261111_v3_d25d2b78__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_calibration_20261111_v1_39befbbd__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_calibration_20261111_v1_39befbbd__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_fair_pilot_20261111_v2_7ed988a6__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_fair_pilot_20261111_v2_7ed988a6__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_final_20261111_v1_40999ad1__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_final_20261111_v1_40999ad1__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_fit_diagnostic_20261111_v1_40e7395d__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_fit_diagnostic_20261111_v1_40e7395d__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_main_20261111_v1_52168227__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_main_20261111_v1_52168227__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_pilot_20261110_v1_c3cc5ebe__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_pilot_20261110_v1_c3cc5ebe__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_review_20261111_v1_40114d8d__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_review_20261111_v1_40114d8d__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_second_chance_20261112_v1_c03805fe__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_second_chance_20261112_v1_c03805fe__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_training_coverage_20261111_v1_392f4ea4__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_training_coverage_20261111_v1_392f4ea4__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_architecture_training_diagnostics_20261112_v1_62906266__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_architecture_training_diagnostics_20261112_v1_62906266__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "results_cpu_gpu_benchmark_20261111_v1_cb01c336__part01-of01.tar.gz",
+      "release_tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/results_cpu_gpu_benchmark_20261111_v1_cb01c336__part01-of01.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "RESEARCH_RECORDS_MANIFEST.json",
+      "release_tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/RESEARCH_RECORDS_MANIFEST.json",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "RESEARCH_RECORDS_SHA256SUMS.txt",
+      "release_tag": "research-records-completion-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/research-records-completion-20261118/RESEARCH_RECORDS_SHA256SUMS.txt",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "cascor_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/cascor_s931101__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "cascor_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/cascor_s931102__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "cascor_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/cascor_s931103__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "cascor_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/cascor_s931104__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "cascor_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/cascor_s931105__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "chebkan_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/chebkan_s931101__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "chebkan_s931101_extend8h__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/chebkan_s931101_extend8h__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "chebkan_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/chebkan_s931102__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "chebkan_s931102_extend8h__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/chebkan_s931102_extend8h__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "chebkan_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/chebkan_s931103__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "chebkan_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/chebkan_s931104__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "chebkan_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/chebkan_s931105__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "dendrite_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/dendrite_s931101__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "dendrite_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/dendrite_s931102__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "dendrite_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/dendrite_s931103__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "dendrite_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/dendrite_s931104__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "dendrite_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/dendrite_s931105__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "elm_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/elm_s931101__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "elm_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/elm_s931102__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "elm_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/elm_s931103__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "elm_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/elm_s931104__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "elm_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/elm_s931105__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "fixed_k00__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fixed_k00__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "fixed_k01__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fixed_k01__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "fixed_k02__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fixed_k02__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "fixed_k03__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fixed_k03__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "fixed_k04__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fixed_k04__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "fno_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fno_s931101__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "fno_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fno_s931102__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "fno_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fno_s931103__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "fno_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fno_s931104__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "fno_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/fno_s931105__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "pinet_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/pinet_s931101__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "pinet_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/pinet_s931102__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "pinet_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/pinet_s931103__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "pinet_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/pinet_s931104__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "pinet_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/pinet_s931105__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "rbf_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/rbf_s931101__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "rbf_s931101_extend8h__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/rbf_s931101_extend8h__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "rbf_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/rbf_s931102__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "rbf_s931102_extend8h__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/rbf_s931102_extend8h__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "rbf_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/rbf_s931103__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "rbf_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/rbf_s931104__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "rbf_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/rbf_s931105__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "realnpu_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/realnpu_s931101__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "realnpu_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/realnpu_s931102__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "realnpu_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/realnpu_s931103__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "realnpu_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/realnpu_s931104__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "realnpu_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/realnpu_s931105__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "scn_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/scn_s931101__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "scn_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/scn_s931102__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "scn_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/scn_s931103__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "scn_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/scn_s931104__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "scn_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/scn_s931105__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "tfno_s931101__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/tfno_s931101__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "tfno_s931102__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/tfno_s931102__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "tfno_s931103__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/tfno_s931103__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "tfno_s931104__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/tfno_s931104__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "tfno_s931105__native_TEST_fields.tar.gz",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/tfno_s931105__native_TEST_fields.tar.gz",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "PREDICTION_FIELDS_MANIFEST.json",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/PREDICTION_FIELDS_MANIFEST.json",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    },
+    {
+      "name": "PREDICTION_FIELDS_SHA256SUMS.txt",
+      "release_tag": "native-prediction-fields-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/native-prediction-fields-20261118/PREDICTION_FIELDS_SHA256SUMS.txt",
+      "anonymous_HTTP_status": 200,
+      "checked_UTC": "2026-11-18T21:34:36.782716+00:00"
+    }
+  ]
+}
