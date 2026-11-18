@@ -36,3 +36,5 @@ Pôvodný [FlowBench](https://huggingface.co/datasets/BGLab/FlowBench) a ďalši
 - [Staršie 3D pokusy](https://github.com/Infinitiv525/DP-3D-experiments)
 - [Porovnanie LLM](https://github.com/Infinitiv525/DP-LLM-comparison)
 - [Porovnanie architektúr](https://github.com/Infinitiv525/DP-architecture-comparison)
+
+Podrobný textový záznam: [DOKUMENTACIA_ARCHIVACIE.txt](DOKUMENTACIA_ARCHIVACIE.txt).
