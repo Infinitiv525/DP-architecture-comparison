@@ -1,0 +1,2462 @@
+{
+  "status": "HISTORICAL_NUMERICAL_OUTPUTS_HASH_VERIFIED",
+  "repository": "Infinitiv525/DP-architecture-comparison",
+  "files": 350,
+  "uncompressed_bytes": 3309037947,
+  "entries": [
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_a/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_a/prediction_0341.npz",
+      "bytes": 2585615,
+      "sha256": "1abab76edb369fc1278424b0d6833c985c538a4766de729a8e017d1c0b2228f0",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_a/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_a/prediction_0417.npz",
+      "bytes": 2587748,
+      "sha256": "220e7b13e5720085b2b9477e8d2e0dc723d741856fbd43ae78f91b8f9246c924",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_a/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_a/prediction_0548.npz",
+      "bytes": 2532928,
+      "sha256": "d6e0b64bbb6d22c3c74617c28b7627942a2a5d01f3d72293e30fce854ee9be1e",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_a/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_a/prediction_0952.npz",
+      "bytes": 2728754,
+      "sha256": "b255e171773b9ea14843d349de34bd3205535d2dd23af7f9fb472637d98e65e6",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_a/raw_timings.npz",
+      "bytes": 4904,
+      "sha256": "d2c458428aad0d889d1417e4b16a8c528ab5cc2f2deecbbf15969031f1b01924",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_b/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_b/prediction_0341.npz",
+      "bytes": 2585875,
+      "sha256": "4253a9908f928cd89ea9f1559fb953b5962f70940fe0bbc053e5dbc890679f8f",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_b/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_b/prediction_0417.npz",
+      "bytes": 2589754,
+      "sha256": "342b991412dcd63dbbf5f5f912c9b1e1c9118bac82b68da8686a83542b5e6829",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_b/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_b/prediction_0548.npz",
+      "bytes": 2538544,
+      "sha256": "c2f46bac08bbe1206222fc03acc202354105ced224adf1885e7442c91807ee2b",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_b/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_b/prediction_0952.npz",
+      "bytes": 2730347,
+      "sha256": "c674a60fc65b78cb885dd9b7968395098db377527df95ffc6bcf95561483dbbb",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/cascor_b/raw_timings.npz",
+      "bytes": 4965,
+      "sha256": "135d688c10cccd45a7f3c2f94e7e5872120b9d0f6e5b426e1d1047da81a3cf8c",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_a/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_a/prediction_0341.npz",
+      "bytes": 2595673,
+      "sha256": "66a4e7d94e1a4620c7d94490720b36ffb2bc0e0cc8e3086da57883efb6609b05",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_a/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_a/prediction_0417.npz",
+      "bytes": 2595056,
+      "sha256": "2b8181553b12c176a86dde23010e449c6a4365368aff5184e525d51439dc240a",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_a/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_a/prediction_0548.npz",
+      "bytes": 2521873,
+      "sha256": "5a0318a9e4fb34c0c30273e641209fb83e7613cb70d9c37541c6ec598b0ac5b6",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_a/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_a/prediction_0952.npz",
+      "bytes": 2721747,
+      "sha256": "b1ca0bcf0d71956da0bcbfe3f47d04bfc6ed71f313edfee0e25a2c533ff9147d",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_a/raw_timings.npz",
+      "bytes": 5273,
+      "sha256": "be119cf01b88cb8b74fd3178e5624c56a577033e9f85b9308d5daabf10bf59bb",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_b/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_b/prediction_0341.npz",
+      "bytes": 2597880,
+      "sha256": "c0271cb1647981d4f4c8d0441bbd1713da81661f5717bc38a335bbf852f0ab30",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_b/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_b/prediction_0417.npz",
+      "bytes": 2599708,
+      "sha256": "47b71c7da00ecbe2ee853305e87e9ac0d618b7b07bb58296bdf8abc72ed92073",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_b/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_b/prediction_0548.npz",
+      "bytes": 2522384,
+      "sha256": "9410f8a18df99e5da60f7dfe943c93e9082b90ac979083c431c3cd4c94ef93d7",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_b/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_b/prediction_0952.npz",
+      "bytes": 2723789,
+      "sha256": "a022053f9857a780f5a5cba1c70c71fce31f26223e6504abdece03516fd842d7",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/chebkan_b/raw_timings.npz",
+      "bytes": 5268,
+      "sha256": "fef74f5805e48ec6525916f8b7878c93daf5c343bbaa12bba87bf2b62c245031",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_a/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_a/prediction_0341.npz",
+      "bytes": 2581550,
+      "sha256": "c7a7f678831f5eaf560dc6ed9a2c5bc5db34b858acbff80d6adacfa454142f7c",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_a/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_a/prediction_0417.npz",
+      "bytes": 2589324,
+      "sha256": "072c5cb2bcb9db704a22fe7100f85c1be00a7cd96579d64bb9137f5ff2dfede1",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_a/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_a/prediction_0548.npz",
+      "bytes": 2526239,
+      "sha256": "f61deb7f55b4636b4d8f48ffb39627b4e43e46d39e295596c50db6d69bf549b0",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_a/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_a/prediction_0952.npz",
+      "bytes": 2721549,
+      "sha256": "37c6df7265f53e2b2fac42e13560686ffae3cff2feb5b84421857b5a68b2d3d9",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_a/raw_timings.npz",
+      "bytes": 4690,
+      "sha256": "7f6c5ef31ca97591357999a3daaa1b62abf373323e950ebc94a9f90f0d43dcc0",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_b/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_b/prediction_0341.npz",
+      "bytes": 2579557,
+      "sha256": "e3b888d8a291aad4fb539980ad5b1381a4fcf80027f69937aab8dcda9ee138c5",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_b/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_b/prediction_0417.npz",
+      "bytes": 2585382,
+      "sha256": "be52657d316a2748af7be62663e564522417a377d16828eecf6a31213db2ed07",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_b/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_b/prediction_0548.npz",
+      "bytes": 2526254,
+      "sha256": "8c92b0a813244f4ef16f13587c026095cf44bebb394b2f775507bf2c08c5e56e",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_b/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_b/prediction_0952.npz",
+      "bytes": 2722121,
+      "sha256": "4840619d0f532f900a6d4e6201b37f4cbfe0f55d8f4817f99256d9ee12237888",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/dendrite_b/raw_timings.npz",
+      "bytes": 4793,
+      "sha256": "868d7a66566cb8c4f616ca65cf6e0c3ff109fd1cfaa3c9735f0a578bd33ff721",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_a/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_a/prediction_0341.npz",
+      "bytes": 2565576,
+      "sha256": "119bd22de1e7fa9c81db76a546a666a2fc26e84496d2e48a935835a5c1570076",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_a/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_a/prediction_0417.npz",
+      "bytes": 2571233,
+      "sha256": "74941ad703052a2954a7a979937d66c5a4c3bf1c110ac83c0a952464bc9e087a",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_a/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_a/prediction_0548.npz",
+      "bytes": 2513172,
+      "sha256": "02c250f9239174f51b8ba93ee4aac9ddd282c5a1934d54766a19ed5b9adf9637",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_a/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_a/prediction_0952.npz",
+      "bytes": 2715797,
+      "sha256": "17de61ec6c9cea5c0fb3ea34acda297b60b93c93fbf49cab3cfeb48fea6b2a0a",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_a/raw_timings.npz",
+      "bytes": 4753,
+      "sha256": "c425005fcf887e2b91e1173513595ba09d8ebfc79465131f101fb8716fabce43",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_b/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_b/prediction_0341.npz",
+      "bytes": 2573127,
+      "sha256": "c1a4e970595b7d109d6ff02a086703061c72ccaf1bac1e16497897ffcaf3862b",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_b/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_b/prediction_0417.npz",
+      "bytes": 2576331,
+      "sha256": "0318cbe4f255306ca757d0327faa8d55ac72e9bccb20b01276a1726df0c24994",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_b/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_b/prediction_0548.npz",
+      "bytes": 2520630,
+      "sha256": "04767fded219797b43936e4d8ffc060d2a3b3a9b6cf9671adb958cd112a71479",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_b/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_b/prediction_0952.npz",
+      "bytes": 2729602,
+      "sha256": "f9a3c844d00dc71fa05eae7144ba2d975ddfd3e4ba9374a96d098e7aac763a90",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/elm_b/raw_timings.npz",
+      "bytes": 4870,
+      "sha256": "a4cfd2efe4b8a50d6ae1a382f2301a3c6bad04a2c7a5df5202efedc38f1327a6",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_a/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_a/prediction_0341.npz",
+      "bytes": 2581781,
+      "sha256": "2a1cc74c76d9534dab2b587876655427e1cb828f32a41046b76e4f14ee6a3ef3",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_a/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_a/prediction_0417.npz",
+      "bytes": 2587279,
+      "sha256": "ea6715ab535cd4bec54ba0adf0fec649415e61eae681d3d8a595c6720ec8d8d8",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_a/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_a/prediction_0548.npz",
+      "bytes": 2526746,
+      "sha256": "03bcda1c14e4e946c0cacf348f900ea91d2a645b0f0a286d1090cb7946c26103",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_a/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_a/prediction_0952.npz",
+      "bytes": 2721928,
+      "sha256": "058b5f4ea05ec2c8c14d252ef1917d35d279bc7548c51f6d81dae1411381e605",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_a/raw_timings.npz",
+      "bytes": 4806,
+      "sha256": "5b272c34cd969306e410c6d5e7593d829998bbab38adf8bc8bd422665853b9eb",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_b/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_b/prediction_0341.npz",
+      "bytes": 2582684,
+      "sha256": "fcc094123456183a977f7954c5f618a259de203c610e3d80796d324038157227",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_b/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_b/prediction_0417.npz",
+      "bytes": 2588591,
+      "sha256": "cf3aa0e3b04966ff38858e0ebf0527ab4356be4b35eca484a4a2dc5483d094d2",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_b/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_b/prediction_0548.npz",
+      "bytes": 2528909,
+      "sha256": "5fe057305883e1749c3f054182be20e7ad5f2c382d3f3bf0ef68294e487cfddd",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_b/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_b/prediction_0952.npz",
+      "bytes": 2722330,
+      "sha256": "0d3ffd78fe00bc158e304487e590b0026d462211552f8a85bd149a4a88287881",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/pinet_b/raw_timings.npz",
+      "bytes": 4977,
+      "sha256": "cde0e6ea854b74c0e6152ecfa7ce6e72ba13b831360525caa8d90a73b622074c",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_a/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_a/prediction_0341.npz",
+      "bytes": 2575749,
+      "sha256": "1ce093f54bb293e21a36c1d49bf3c8281372915b6fe4901c47be33428945af8e",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_a/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_a/prediction_0417.npz",
+      "bytes": 2577948,
+      "sha256": "c492c529c2731682f9f3a6b9546daf3e5b4d46aed9616260a0326e55e58e3d67",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_a/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_a/prediction_0548.npz",
+      "bytes": 2527774,
+      "sha256": "8c1eddc97c74334656696fa9da2138e3cc264f714edd1255ae28e071b1e39fdd",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_a/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_a/prediction_0952.npz",
+      "bytes": 2720491,
+      "sha256": "6db63defcb6267146d3884d0e5b6bd78169d9e5c9c3106062466ee73ff37b71d",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_a/raw_timings.npz",
+      "bytes": 4796,
+      "sha256": "2ad296c5ffc762322df46247dfcdb8f0c0b484ea3deb6543cf33760d770b4c5b",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_b/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_b/prediction_0341.npz",
+      "bytes": 2575513,
+      "sha256": "b5b32d1996b8ae6015b9e70ae7e1dec8eae1432f507c35d862aa26f513e3d717",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_b/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_b/prediction_0417.npz",
+      "bytes": 2578431,
+      "sha256": "54777bba206cdb674cfff9ad78aad65253de0499b48d6022d26f2494783a126f",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_b/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_b/prediction_0548.npz",
+      "bytes": 2530119,
+      "sha256": "7eba771bb53fb635cda0d7b409fb995ad92ec0e8b56b70346cc4b77eaff8ff0a",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_b/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_b/prediction_0952.npz",
+      "bytes": 2723450,
+      "sha256": "b77a69a7ad9f705512ba33e7173212dec1010723ed71e0b8b431f571865e16f7",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/rbf_b/raw_timings.npz",
+      "bytes": 4887,
+      "sha256": "5c4bc815f9b0574bbb980d53df3decaf0f700649db8645e4e7ba1036f360089b",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_a/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_a/prediction_0341.npz",
+      "bytes": 2592448,
+      "sha256": "14037dd6aa5caf69429c79660e1afc73ea402e98f74ebf9fb1b7c8360515bc10",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_a/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_a/prediction_0417.npz",
+      "bytes": 2595935,
+      "sha256": "849ac77b52713bf87ec56f4b609ea0e13910c32aedc9016736046e97153b41bd",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_a/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_a/prediction_0548.npz",
+      "bytes": 2523756,
+      "sha256": "9c3d32fb25d15159b1d9c12765552b699cf6bed8eacb609c996391f089ea6267",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_a/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_a/prediction_0952.npz",
+      "bytes": 2723355,
+      "sha256": "cdedd052aab3f5e3e506701eaa0d840d893bcd8155a122f5d2a3795557139c18",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_a/raw_timings.npz",
+      "bytes": 4796,
+      "sha256": "84b8a0f2db2557ee1ff459472a9cd8e7eb3c4de5157ef77159a9625cc9857cd6",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_b/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_b/prediction_0341.npz",
+      "bytes": 2596631,
+      "sha256": "81c5ed22733f39bd9dc4af02792f9a0a371239a59e645228e18d23098b762065",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_b/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_b/prediction_0417.npz",
+      "bytes": 2598434,
+      "sha256": "3a5f576f7cfdf18db4e8d033569cf21853a9b2fe3cb4596720c61db02c3d4998",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_b/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_b/prediction_0548.npz",
+      "bytes": 2521482,
+      "sha256": "64f90f2279e8ee745e05aaee057883a40d3398cc29a672e3234ffa7deba1a449",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_b/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_b/prediction_0952.npz",
+      "bytes": 2725000,
+      "sha256": "4bc58e6cc98629ab7746d42d75a9dc2c4ffc523478aa46f34828d7f637f939e6",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/realnpu_b/raw_timings.npz",
+      "bytes": 4786,
+      "sha256": "bc3800cb824371f65f9ffa39792726654c8b4508c3e91b5fccf36cc780f149ec",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_a/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_a/prediction_0341.npz",
+      "bytes": 2544413,
+      "sha256": "aa544be5ec22c7c3b9d8a572e51f9bdccfa6ca850b7dd34f3a0f063a13f85f0f",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_a/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_a/prediction_0417.npz",
+      "bytes": 2555183,
+      "sha256": "f4fc4fc82c3891e1dcbad0f534a259be1d462f2d06332ac2cea3a8c0dc7fbcf0",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_a/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_a/prediction_0548.npz",
+      "bytes": 2502958,
+      "sha256": "d039ace325a93977d760b1d85beec6a31bca5eb8e5d0c3d317a95dbec09b6955",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_a/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_a/prediction_0952.npz",
+      "bytes": 2714219,
+      "sha256": "ba29592864f5811ca91d432a10c883d654881156b490cdc22a598083711acbd9",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_a/raw_timings.npz",
+      "bytes": 4719,
+      "sha256": "ee2061973d286c5c94024c9d884c902f7a5df9b40a22e587ed6d1040fd1c2f52",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_b/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_b/prediction_0341.npz",
+      "bytes": 2572939,
+      "sha256": "ae46cad9eeab3fc5a1aa24ff08190f94d5f8cf0d3476ee2a6e8a710da16d8959",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_b/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_b/prediction_0417.npz",
+      "bytes": 2574707,
+      "sha256": "91e0b0fdcdaece2fad9a0ab469461c0342d25e1e722178a128dc7306f71c8418",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_b/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_b/prediction_0548.npz",
+      "bytes": 2524340,
+      "sha256": "4d6e0bdefbea2f298734a3841ec4e2641b06c42471c3f46622f5931e8473e48e",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_b/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_b/prediction_0952.npz",
+      "bytes": 2727084,
+      "sha256": "17b96fa77cd420cb1acc24db91e55b182457ffd46f5c934b258f51a7af0fb20d",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/scn_b/raw_timings.npz",
+      "bytes": 4915,
+      "sha256": "1ed32040dd83eec1fa25aea05cacad20e8692bbf60780032a21456157b5a7046",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_a/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_a/prediction_0341.npz",
+      "bytes": 2586566,
+      "sha256": "2c9f0368f22cedf758d2d8c2c614211a55d6513709bcde958b5eea7b2d29e0dd",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_a/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_a/prediction_0417.npz",
+      "bytes": 2587996,
+      "sha256": "1c32c1ddfba4e719b5eca0d39243581c88a37f8f5782ce0f68bb59e313467e1e",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_a/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_a/prediction_0548.npz",
+      "bytes": 2521633,
+      "sha256": "0d85a55b4ebbaec489cccd3ae39ee9debb9058573b8e522b973d579c2113d201",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_a/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_a/prediction_0952.npz",
+      "bytes": 2724726,
+      "sha256": "c09cf82c61f6081f98e47ad498509c323b1daaad59f17c3d4f7902f3d65e9ec5",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_a/raw_timings.npz",
+      "bytes": 4712,
+      "sha256": "9c1b188731253c00c14a4ecab50e090265a8a2dc6075412bb6abfd88f22c7639",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_b/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_b/prediction_0341.npz",
+      "bytes": 2587925,
+      "sha256": "2a9a8d2e66ba0611c024b8319fd64c87f4ac57298772f1291961b98e2bdc7eb3",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_b/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_b/prediction_0417.npz",
+      "bytes": 2585217,
+      "sha256": "edd27d7a83134a510dbce61120a33ee8306bbe8fa3515ae6b2b3f294817d9e7f",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_b/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_b/prediction_0548.npz",
+      "bytes": 2518984,
+      "sha256": "10ef8d0500b67e1409a6fa89b5291e4f9113b8690a0dd1c1577a3dfc38456c1a",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_b/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_b/prediction_0952.npz",
+      "bytes": 2725821,
+      "sha256": "dda6a244449c1ebe7c1b9991ba086b8cd12818dac961b27329d9201f509a783f",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_calibration_20261111_v1/run_12669e7239a2e28c/evaluation/tfno_b/raw_timings.npz",
+      "bytes": 4752,
+      "sha256": "5599203b7f4b558bd9ec62eac7551834f37f2e328ae144d0f25c64643a70c507",
+      "archive_part": "results_architecture_calibration_20261111_v1_run_12669e7239a2e28c_a859356c__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_final_20261111_v1/run_11573498b33b3955/test/models/tfno_s921101/predictions.npy",
+      "archive_path": "historical_numeric/results/architecture_final_20261111_v1/run_11573498b33b3955/test/models/tfno_s921101/predictions.npy",
+      "bytes": 629145728,
+      "sha256": "337c43ecd8347fe0e645a06f0aa578d2fc57dac0e97228682a0c03e7ee6cb856",
+      "archive_part": "results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part01-of04.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_final_20261111_v1/run_11573498b33b3955/test/models/tfno_s921101/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_final_20261111_v1/run_11573498b33b3955/test/models/tfno_s921101/raw_timings.npz",
+      "bytes": 1261017,
+      "sha256": "ce93e8504e99bf460b4ca165f32a9fa98b57b2b312ea99fa6f9fdacb5cb7e7a9",
+      "archive_part": "results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part01-of04.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_final_20261111_v1/run_11573498b33b3955/test/models/tfno_s921102/predictions.npy",
+      "archive_path": "historical_numeric/results/architecture_final_20261111_v1/run_11573498b33b3955/test/models/tfno_s921102/predictions.npy",
+      "bytes": 629145728,
+      "sha256": "dadb08a7467e2ec9ebfdbb53f4ef1fcec860568b2b37954e826f17bf3b4927f5",
+      "archive_part": "results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part02-of04.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_final_20261111_v1/run_11573498b33b3955/test/models/tfno_s921102/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_final_20261111_v1/run_11573498b33b3955/test/models/tfno_s921102/raw_timings.npz",
+      "bytes": 1279484,
+      "sha256": "d442db282fcd5500bcadee5d07af48340320c2304e0d34eaccafcfabb919996e",
+      "archive_part": "results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part02-of04.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_final_20261111_v1/run_11573498b33b3955/test/models/tfno_s921103/predictions.npy",
+      "archive_path": "historical_numeric/results/architecture_final_20261111_v1/run_11573498b33b3955/test/models/tfno_s921103/predictions.npy",
+      "bytes": 629145728,
+      "sha256": "0848fcb178a7b6d3b2199915d8379133da9c8e90541c88d5aa8819226f335c08",
+      "archive_part": "results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part03-of04.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_final_20261111_v1/run_11573498b33b3955/test/models/tfno_s921103/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_final_20261111_v1/run_11573498b33b3955/test/models/tfno_s921103/raw_timings.npz",
+      "bytes": 1260303,
+      "sha256": "fe47e387324de7ae19e42a1d0faceaedb9b7ad9e3c23d7c2f9c66f512b51d271",
+      "archive_part": "results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part03-of04.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_final_20261111_v1/run_11573498b33b3955/test/models/tfno_s921104/predictions.npy",
+      "archive_path": "historical_numeric/results/architecture_final_20261111_v1/run_11573498b33b3955/test/models/tfno_s921104/predictions.npy",
+      "bytes": 629145728,
+      "sha256": "f52227e255692ff525b19ec2d123ee8fb0a6900e6a35bc99e310ae5adb6bcb66",
+      "archive_part": "results_architecture_final_20261111_v1_run_11573498b33b3955_6d03c3c7__part04-of04.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/cascor/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/cascor/prediction_0341.npz",
+      "bytes": 2585125,
+      "sha256": "fd97ce59c10e40ed349e59a2c9b4d50ad49cfff36a4fa55f969c273143e16382",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/cascor/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/cascor/prediction_0417.npz",
+      "bytes": 2580535,
+      "sha256": "015f62445d9dee8fb978ac150fd3b38c7f7bbb0f8c5e31bc1fd6a8e7123fd00a",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/cascor/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/cascor/prediction_0548.npz",
+      "bytes": 2531690,
+      "sha256": "7d5066245cedeec99fd63db8668c39a5e16f40c4a126bb0ef2ed09c66d6be545",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/cascor/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/cascor/prediction_0952.npz",
+      "bytes": 2722925,
+      "sha256": "f16d99da8056523b28eb2f8d48fd32addd6a24c8eda396d3d38d0a25929895e1",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/chebkan/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/chebkan/prediction_0341.npz",
+      "bytes": 2586743,
+      "sha256": "cc5e1e62b98db29a20898ff19671adf40f68d2ba7e55b46487e39ffdddb0c49a",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/chebkan/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/chebkan/prediction_0417.npz",
+      "bytes": 2583400,
+      "sha256": "237cd576a67ac6433298d69c901228dd8a63cf1383fada02eb89935c4780efbf",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/chebkan/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/chebkan/prediction_0548.npz",
+      "bytes": 2533410,
+      "sha256": "3e305bd5f2a7a0bf53fb58e199e72add04082b304e89d5beaa273656afeb6421",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/chebkan/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/chebkan/prediction_0952.npz",
+      "bytes": 2727554,
+      "sha256": "d9b9ea00ef788ea9d428a8cbc4bd4cb60ed262306d89f117e45f51054660e4ee",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/dendrite/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/dendrite/prediction_0341.npz",
+      "bytes": 2576246,
+      "sha256": "6098b9d56da9c894e60acadbc533a69061ae03403b3b6e2a391d38a366fa1779",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/dendrite/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/dendrite/prediction_0417.npz",
+      "bytes": 2571937,
+      "sha256": "6d1a3b8806012db3b4fdd5e48ec17efdf29981000b40a89553966ec4bb5e8421",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/dendrite/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/dendrite/prediction_0548.npz",
+      "bytes": 2522479,
+      "sha256": "948294c1250efd728e9c928c9313f77d73cda7c5aa2a28b51813a32639b99e16",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/dendrite/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/dendrite/prediction_0952.npz",
+      "bytes": 2721397,
+      "sha256": "831f97a3b5aae6fe7e5b936f0a0f3a462dcda3ea18972a10aec624cab84bba50",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/elm/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/elm/prediction_0341.npz",
+      "bytes": 2565000,
+      "sha256": "7849b4c4bc72361c018d192de2e3cb8684caa14a8d79fe230417e38a5fa5c876",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/elm/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/elm/prediction_0417.npz",
+      "bytes": 2570157,
+      "sha256": "8f70b39ff5190ac3f2e6135a27afb24c4400ca449a9a2771d8bf8ae3a2c0fcfa",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/elm/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/elm/prediction_0548.npz",
+      "bytes": 2516582,
+      "sha256": "d7a0148ad1987cd61258dac8e7b22bc8afc1c9d23b4054b0024e6ae0268b50bb",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/elm/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/elm/prediction_0952.npz",
+      "bytes": 2720738,
+      "sha256": "69fe86cb9c3a9c85cfc006716f004309e3b8461bf812df1ce00a90d52c10cc99",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/pinet/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/pinet/prediction_0341.npz",
+      "bytes": 2572746,
+      "sha256": "340b6ad2a21ab849075e03cbc454946b248025b9c62f5f54125dfa5a0b9a7192",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/pinet/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/pinet/prediction_0417.npz",
+      "bytes": 2569045,
+      "sha256": "93000fa52e0fdfc07466255494fad3761c134787a6b7cfc9db53113f9263aa0e",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/pinet/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/pinet/prediction_0548.npz",
+      "bytes": 2522817,
+      "sha256": "0a5b93852d221c67e33bd573651cd8d4424c37d5295bb7c8677f8b05366930d0",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/pinet/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/pinet/prediction_0952.npz",
+      "bytes": 2723929,
+      "sha256": "11342802363e9fe8fdeaf59f93939e07659071f8f6332d2d1aeda31b95edd5b8",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/pinn_reference/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/pinn_reference/prediction_0341.npz",
+      "bytes": 2403947,
+      "sha256": "f257d86e0e91fd6ef27f6736aa66ca65f3c84bfb4e2ed77d05f6f03425a9e0a8",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/pinn_reference/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/pinn_reference/prediction_0417.npz",
+      "bytes": 2404202,
+      "sha256": "1e77b2049334139954186c3038defad8f40735c9cb69703e510df309af01d586",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/pinn_reference/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/pinn_reference/prediction_0548.npz",
+      "bytes": 2329025,
+      "sha256": "f3e85afc02ec4dc4cf5eaaff12fd85308c12f02fec72c627f68c96405a2a72ab",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/pinn_reference/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/pinn_reference/prediction_0952.npz",
+      "bytes": 2519954,
+      "sha256": "7395604bf0d65d7af98d2c4ec84d8289e42ff4e4ef31c293e84c1a275a23f2fa",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/pinn_reference/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/pinn_reference/raw_timings.npz",
+      "bytes": 2809,
+      "sha256": "48b708fd6c79437a00f2a78a8076990b90e0f00252f8552f6cbb5610fc257e81",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/rbf/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/rbf/prediction_0341.npz",
+      "bytes": 2565686,
+      "sha256": "46994548aa432a5f19e6382f8265591bee7a014a2c7c5fbc9697b27e4d5af1b5",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/rbf/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/rbf/prediction_0417.npz",
+      "bytes": 2565043,
+      "sha256": "5a64a713fce69c9e3f23ab70ec60c883843dcd641be1f09b75453a91e595bb11",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/rbf/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/rbf/prediction_0548.npz",
+      "bytes": 2516592,
+      "sha256": "3dbb6fdc221abb0b6fba0df2bee3f4a0ab99a4377773fa69ea6e72470c460c4a",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/rbf/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/rbf/prediction_0952.npz",
+      "bytes": 2713130,
+      "sha256": "f01f01d26ca3e7c119e5593ef0e4b7e4c8ba6f0e54580245525caff4518ce6ae",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/realnpu/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/realnpu/prediction_0341.npz",
+      "bytes": 2563574,
+      "sha256": "175ba590290a469b28d8575b6c37c75fae429b69609da9661e1a29e3c9de6197",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/realnpu/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/realnpu/prediction_0417.npz",
+      "bytes": 2560948,
+      "sha256": "82fcc839eeeb1b2f1e6bd77416d6d76c9cecb3b9ab14725e320c7caa1d0199f1",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/realnpu/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/realnpu/prediction_0548.npz",
+      "bytes": 2524861,
+      "sha256": "9dc4e52c85ee425a7bf53657d55a8a246a47651bde9a3d9bade55db73ca41238",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/realnpu/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/realnpu/prediction_0952.npz",
+      "bytes": 2711774,
+      "sha256": "ab3ff9759a3fc695b25c644c3f13b0b71a2bc5e10efecfe52fb1ff687400c7cd",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/scn/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/scn/prediction_0341.npz",
+      "bytes": 2545158,
+      "sha256": "ed5cc8ede936b273ecf39a3e4e58c13efb70e4337e28a2d826c04827d0b540ef",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/scn/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/scn/prediction_0417.npz",
+      "bytes": 2556982,
+      "sha256": "574226956af15a55b51809034a0fc7c61f3cec7bc0df4a75e3bb07fd3a0f5295",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/scn/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/scn/prediction_0548.npz",
+      "bytes": 2489053,
+      "sha256": "18ab46a24611bf6011f39f2f5e7e2c535a1653c19221cf73965ac72d85e00202",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/scn/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/scn/prediction_0952.npz",
+      "bytes": 2714619,
+      "sha256": "e668ae96e1dd9e0f4b46bbfedc68e75b1598218fcd8ced9ae9953197d16dc829",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/tfno/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/tfno/prediction_0341.npz",
+      "bytes": 2576478,
+      "sha256": "b5aee9324b404e8172941e3bfb3548cd7a8d5cd269736479e27a0d50f381d853",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/tfno/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/tfno/prediction_0417.npz",
+      "bytes": 2577121,
+      "sha256": "696b9d8b2ad1e7a8abb27467253c1962622ae3191266ecb0d8441b41d2835edb",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/tfno/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/tfno/prediction_0548.npz",
+      "bytes": 2523146,
+      "sha256": "8de20d6ca16fd0127985a241480e3d4d9fb961513570b04ebb62c59ca155710c",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_pilot_20261110_v1/job_152886/tfno/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/architecture_pilot_20261110_v1/job_152886/tfno/prediction_0952.npz",
+      "bytes": 2705379,
+      "sha256": "5dfcb799fcfe85d4a80dbc1e672b7d34fa9407caf3e04771911061eb7288da56",
+      "archive_part": "results_architecture_pilot_20261110_v1_job_152886_1b67f491__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/cascor_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/cascor_a/raw_timings.npz",
+      "bytes": 37239,
+      "sha256": "4ca693d87c638ac939ffdb6b211705b2548e5b0e9e43fd43915e0eb681b8c432",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/cascor_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/cascor_b/raw_timings.npz",
+      "bytes": 38134,
+      "sha256": "1d56f1bcf42715b4e1406ff14caccc7c7abfab7885d0b7c075d8dffb9cd5922c",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/chebkan_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/chebkan_a/raw_timings.npz",
+      "bytes": 39178,
+      "sha256": "8fa73dce76a200f8765b0da009b507ce9625d9fec650b093ffaddbfa12e95186",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/chebkan_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/chebkan_b/raw_timings.npz",
+      "bytes": 40229,
+      "sha256": "f6712638060b0417a0d2dfa76a29478d1e1a064eada75707f3173a7791114338",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/dendrite_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/dendrite_a/raw_timings.npz",
+      "bytes": 35524,
+      "sha256": "fd031e90b22b105279746b91938e8aeef273c6b8e0f6c12840f70823c36fa28b",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/dendrite_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/dendrite_b/raw_timings.npz",
+      "bytes": 36694,
+      "sha256": "b089fd340d9352dd9ad6378bc71bdf43f9c69a902059f9303b43c500cad5a7b3",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/elm_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/elm_a/raw_timings.npz",
+      "bytes": 34824,
+      "sha256": "0e85d265c2d2cbdbe584f9d41f3576af09bc303404abaabad3d13383e5867338",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/elm_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/elm_b/raw_timings.npz",
+      "bytes": 36185,
+      "sha256": "640d83d1fbbedc4cc7ef7716852b175bc52dca26d7b6b8c86578ed2f2c4e1fea",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/pinet_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/pinet_a/raw_timings.npz",
+      "bytes": 35736,
+      "sha256": "d2a8b779d7a1cba90d9ccc27195dd92c2bf5c3a76b0d7ab6989c2a7f0478751e",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/pinet_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/pinet_b/raw_timings.npz",
+      "bytes": 38456,
+      "sha256": "d5b43533598216ff1f8e67ff75dcc82fca81a506ffac1a7650e063f5b90002e4",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/rbf_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/rbf_a/raw_timings.npz",
+      "bytes": 35868,
+      "sha256": "d54c1d3862f9ca3ad73aef575b625246091b125c4568d521325c51949a1234fd",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/rbf_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/rbf_b/raw_timings.npz",
+      "bytes": 37048,
+      "sha256": "433e60f720ab15bfa914af586f104b0441c5bfd761b83ec7f1c9995b6066937c",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/realnpu_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/realnpu_a/raw_timings.npz",
+      "bytes": 35423,
+      "sha256": "a6b8bd8b89fa0eec1023fb9ff07e7158ba230362948a708831af4988be8980a7",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/realnpu_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/realnpu_b/raw_timings.npz",
+      "bytes": 35608,
+      "sha256": "0850470090c574fdb266bfe62c34fea4b905e7350d9b2408207fa9a96c919178",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/scn_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/scn_a/raw_timings.npz",
+      "bytes": 34788,
+      "sha256": "17bce976ba0b20bd73e8686a1d41963fd5a6a6e4ce6e271a520da15d1d7c456d",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/scn_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/scn_b/raw_timings.npz",
+      "bytes": 35892,
+      "sha256": "9df39514620c074dfa1d774266f49c613ae50007871860a372cacbbede3ab84c",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/tfno_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/tfno_a/raw_timings.npz",
+      "bytes": 102433,
+      "sha256": "a12e3f2c9aa5e617785358e33221856de8f5d1d7a247cf23e9658e18fe6043aa",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/tfno_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/audit/tfno_b/raw_timings.npz",
+      "bytes": 105451,
+      "sha256": "90b582023783137d54a87b07e176a0b4b421240f83c06031d3723eeb107dbcef",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/extended_evaluation/chebkan_a/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/extended_evaluation/chebkan_a/raw_timings.npz",
+      "bytes": 39265,
+      "sha256": "76eab40ba5cdc190ffb802914e11cc132437ca44fb5ce85717568d03d3f157d8",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/architecture_review_20261111_v1/run_cc21a320429eaaa5/extended_evaluation/chebkan_b/raw_timings.npz",
+      "archive_path": "historical_numeric/results/architecture_review_20261111_v1/run_cc21a320429eaaa5/extended_evaluation/chebkan_b/raw_timings.npz",
+      "bytes": 40123,
+      "sha256": "3be48989ecd42769cd584de4ac65851210c8eecb3c2b699910093490eeeec6d7",
+      "archive_part": "results_architecture_review_20261111_v1_run_cc21a320429eaaa5_a335c059__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/cascor/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/cascor/prediction_0341.npz",
+      "bytes": 2579048,
+      "sha256": "0da89e79f76d059bf6e411d0d2d56c4223705ec4e3d020d17e075074a80184ef",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/cascor/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/cascor/prediction_0417.npz",
+      "bytes": 2580806,
+      "sha256": "ffb972554a62baf52971c8fa75ef75f13268f2c763e26862d81164388bb1e4b2",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/cascor/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/cascor/prediction_0548.npz",
+      "bytes": 2527309,
+      "sha256": "b07eb6a73a3a3af7926cd652927d803cfb1cef2456c0beb3a71af0fbb61088ed",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/cascor/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/cascor/prediction_0952.npz",
+      "bytes": 2729254,
+      "sha256": "d3d18cd4e1453be7469b16c2ddda7f34fa6408733be91def1c483accbc307fbd",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/chebkan/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/chebkan/prediction_0341.npz",
+      "bytes": 2584446,
+      "sha256": "68669ac862f541d8b0ea499f9492150762fbece49856ff1d5ed2e2b014e238cd",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/chebkan/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/chebkan/prediction_0417.npz",
+      "bytes": 2588143,
+      "sha256": "d5840fed571865ef35511407b8ef9f00936d4797b5198ca5ff5bb88e232a08e5",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/chebkan/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/chebkan/prediction_0548.npz",
+      "bytes": 2534370,
+      "sha256": "1a3e7d9ea566e3617e75fc1fb11446c11cd1a969649067f2bcaa2d08da67aeee",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/chebkan/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/chebkan/prediction_0952.npz",
+      "bytes": 2733407,
+      "sha256": "68a04c958fc29338cb73f46433ef3a3cfd6a21cdad0666c7f7e45d07f2258440",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/dendrite/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/dendrite/prediction_0341.npz",
+      "bytes": 2575181,
+      "sha256": "62d007d4ad2b993c30dab88c3f90b609e668b57ba31fd1f4e2e3b8c23d1b81d0",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/dendrite/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/dendrite/prediction_0417.npz",
+      "bytes": 2575717,
+      "sha256": "71e61b18f31c22c573cac89966f680d0d989c9f701df5fc4bd4e7df5c78138e6",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/dendrite/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/dendrite/prediction_0548.npz",
+      "bytes": 2517713,
+      "sha256": "c40e3484bc73c7d00dc5ce132c8200c353459e359cd96f4c885ac1cceba1b814",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/dendrite/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/dendrite/prediction_0952.npz",
+      "bytes": 2726039,
+      "sha256": "6cd505667d3cea3415b4dd95605aee3d370f70aa153da049aaa2cdc2172374bd",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/elm/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/elm/prediction_0341.npz",
+      "bytes": 2553368,
+      "sha256": "0bd0fc8a73d482f4d5af744206e710492fe0631b76e1065c4b8902ee9871be77",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/elm/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/elm/prediction_0417.npz",
+      "bytes": 2556843,
+      "sha256": "92f531f3d1b598ef9abba63d68c35583a4f1c220097882dac6cef4a7ff5ed17e",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/elm/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/elm/prediction_0548.npz",
+      "bytes": 2507661,
+      "sha256": "0d9bfd6e5edd73367b3b906fbd32e30ad478698f9b970dbf653752aaec3f682b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/elm/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/elm/prediction_0952.npz",
+      "bytes": 2717486,
+      "sha256": "1dfa569a448a2316b5538860c730b5a93b0d768872d55e97cbe5b023b2b580f7",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/pinet/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/pinet/prediction_0341.npz",
+      "bytes": 2573429,
+      "sha256": "ec179f7914deb2144780af4088172027ceda37b9f6fe26cf94d5cbcab6679993",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/pinet/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/pinet/prediction_0417.npz",
+      "bytes": 2570381,
+      "sha256": "dc38578f61a656fd4ee9b1c40eb0e927615886439e384e556828181e23de3b34",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/pinet/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/pinet/prediction_0548.npz",
+      "bytes": 2515479,
+      "sha256": "50bf22bf7a16d8f93beadd79c27759172f51b1b1fcdeb3f5fa99a869a0684211",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/pinet/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/pinet/prediction_0952.npz",
+      "bytes": 2723284,
+      "sha256": "34f40a7be925ac8479175ee7921e914f6cf9d2d69abe508ad789ae7bf5239ac4",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/rbf/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/rbf/prediction_0341.npz",
+      "bytes": 2544728,
+      "sha256": "c9f76e52c024bbcbc0af7cccc0c45aa48c1a6b65d3c21d69312278090ff8c498",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/rbf/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/rbf/prediction_0417.npz",
+      "bytes": 2547658,
+      "sha256": "1683b1a9d8e6c0d7132c726ac561d3745bf0341b37a8c0b286d6257344b0c19d",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/rbf/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/rbf/prediction_0548.npz",
+      "bytes": 2500841,
+      "sha256": "58a6cb91264561c7d27d4f17916e2b012df89ba90bf12e1bccc0809d0d46f671",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/rbf/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/rbf/prediction_0952.npz",
+      "bytes": 2695766,
+      "sha256": "f6e6995e23b116de9224658b8aeb152f1d6b8f29047fa2146d6244cb6e3e13c1",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/realnpu/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/realnpu/prediction_0341.npz",
+      "bytes": 2567801,
+      "sha256": "3e8ab9d4cd1d28d4c5c690f020e569e7ac46fcabfdf8fe0633d620816bdf6131",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/realnpu/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/realnpu/prediction_0417.npz",
+      "bytes": 2569141,
+      "sha256": "0e8caa10c1a80cf0685b898dddc813ba275a5c65954e5095729e645c32688394",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/realnpu/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/realnpu/prediction_0548.npz",
+      "bytes": 2517790,
+      "sha256": "1016cb10314c6c043db68c3e5c3ea29c07d5c69d7826ea6b8a0eb96860157f9c",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/realnpu/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/realnpu/prediction_0952.npz",
+      "bytes": 2718946,
+      "sha256": "1a2e6ec523f4f7eaffdb8cc5a585f981b1addc5da41843fbafd63cc590c1fb8f",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/scn/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/scn/prediction_0341.npz",
+      "bytes": 2550282,
+      "sha256": "7a4c271a9a4d6184bb4cb0057747b3b4974910aeb2c25a71d1837f835862ed62",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/scn/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/scn/prediction_0417.npz",
+      "bytes": 2551221,
+      "sha256": "efc9f03a34b23bab1aedeee1f04beecf00c032ae78df28324fe27aa71c97153b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/scn/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/scn/prediction_0548.npz",
+      "bytes": 2497756,
+      "sha256": "708cac2ce15b2b75a8493a4c6c6bf791fcc3d7c0df318c6a0f9918bcca9b016b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/scn/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/scn/prediction_0952.npz",
+      "bytes": 2711582,
+      "sha256": "c213af3cdef88802bd6e05b64267e158388cca0dd3b69c59b7ec948e02cbdc8b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/tfno/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/tfno/prediction_0341.npz",
+      "bytes": 2554081,
+      "sha256": "2aad19b5ddab047f1ce496748bc0cfd5349534fa5318e48d60122866d4f2fbee",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/tfno/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/tfno/prediction_0417.npz",
+      "bytes": 2551878,
+      "sha256": "d3cd0355553ef86f6bcffeb9843e584efd7f96493b450d6dac8e568d76eb5942",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/tfno/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/tfno/prediction_0548.npz",
+      "bytes": 2501979,
+      "sha256": "616be0c3f1983643a3e7a9138d7e009c146c664f782f06ed4e2113a196154e1b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/tfno/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu16/tfno/prediction_0952.npz",
+      "bytes": 2665197,
+      "sha256": "46a9e8450ebbaf51c856cf42b4cfb7af4bde92d1ced493ceb3b4028561363a50",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu16_f4d649da__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/cascor/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/cascor/prediction_0341.npz",
+      "bytes": 2581474,
+      "sha256": "9411794e1388abe9a3d0984070f3278cd86ccd6d69baf9dbf5837a01a15dc067",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/cascor/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/cascor/prediction_0417.npz",
+      "bytes": 2581035,
+      "sha256": "0cc7901b1a78317230d43196a8675e750d90d60d3bbd815bae6b84e2e1cb6803",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/cascor/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/cascor/prediction_0548.npz",
+      "bytes": 2527846,
+      "sha256": "34fbd2d991be38f0f54f6179152a6908d6d221a4ca686f385f16a1f8ce2a02df",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/cascor/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/cascor/prediction_0952.npz",
+      "bytes": 2731619,
+      "sha256": "2366e382c54682346d9a5f44dd3538b360181a4ab2d3afc0e718ab9b0502d7e1",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/chebkan/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/chebkan/prediction_0341.npz",
+      "bytes": 2584339,
+      "sha256": "893ee21d7581492ebca12ed54f266da2970234d6df27daa94a5c960e15fd16f0",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/chebkan/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/chebkan/prediction_0417.npz",
+      "bytes": 2588143,
+      "sha256": "d5840fed571865ef35511407b8ef9f00936d4797b5198ca5ff5bb88e232a08e5",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/chebkan/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/chebkan/prediction_0548.npz",
+      "bytes": 2534356,
+      "sha256": "319270c2e950668b5502ee853b58583ccdd51865065bbce7fc82412c549da62d",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/chebkan/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/chebkan/prediction_0952.npz",
+      "bytes": 2733407,
+      "sha256": "68a04c958fc29338cb73f46433ef3a3cfd6a21cdad0666c7f7e45d07f2258440",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/dendrite/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/dendrite/prediction_0341.npz",
+      "bytes": 2575060,
+      "sha256": "7bd9dab5c21b16d15cdf2676f92d6c90e37ca57d5393db782935d745c525e441",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/dendrite/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/dendrite/prediction_0417.npz",
+      "bytes": 2575840,
+      "sha256": "5a0e4e91ae99e9f480991ce93a5ee6133232393cfd11f82d54403e37fa381089",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/dendrite/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/dendrite/prediction_0548.npz",
+      "bytes": 2517687,
+      "sha256": "518a7845311aae90095b043afa85f8870c0d16c4f136231482af3e37a20447e0",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/dendrite/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/dendrite/prediction_0952.npz",
+      "bytes": 2726452,
+      "sha256": "dc6f851cf550e8516e8a35a590cdeef4f949fd4bcc6ab114277ed5d68bb95a83",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/elm/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/elm/prediction_0341.npz",
+      "bytes": 2553368,
+      "sha256": "0bd0fc8a73d482f4d5af744206e710492fe0631b76e1065c4b8902ee9871be77",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/elm/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/elm/prediction_0417.npz",
+      "bytes": 2556873,
+      "sha256": "d15e622d8f2df1a2589611b1677fd8940bbadf1100ee259b7be2d3caff1fbfe5",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/elm/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/elm/prediction_0548.npz",
+      "bytes": 2508189,
+      "sha256": "c6b11d15e6b9cfa2085a5e5e400644b4839d2cc0d88333b46ec85bc48584d5c3",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/elm/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/elm/prediction_0952.npz",
+      "bytes": 2717343,
+      "sha256": "b905b6f4804b03707a9f3df2a386785a5a1a52c8bc53881bbccb5011de6e3bad",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/pinet/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/pinet/prediction_0341.npz",
+      "bytes": 2573390,
+      "sha256": "cc83cf9ea5706d047f35e118bfe8cd0f6320c1e6b1b003ee55437856c3a47c5c",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/pinet/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/pinet/prediction_0417.npz",
+      "bytes": 2570198,
+      "sha256": "7f5655de4b3f976a040da96f49ac628b609218d046181742b63fa6b09fc69573",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/pinet/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/pinet/prediction_0548.npz",
+      "bytes": 2515796,
+      "sha256": "a7d50c4fff822d3b823e464c9ec6c5b637a821d533fc1e7113687afeddc84b91",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/pinet/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/pinet/prediction_0952.npz",
+      "bytes": 2723197,
+      "sha256": "d8aec3c1226ab4a26200846484e808011bf656208dd967cecd0ade4609ef2160",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/rbf/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/rbf/prediction_0341.npz",
+      "bytes": 2544477,
+      "sha256": "c093cdbf3bc396c0e2fa4cb32d679a8d2b4dd8ddd01e32d128504d488e0aa98f",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/rbf/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/rbf/prediction_0417.npz",
+      "bytes": 2547777,
+      "sha256": "5b93329d62e5da9c71808c7210b29808fee5c33c67f924eca6274e802584191a",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/rbf/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/rbf/prediction_0548.npz",
+      "bytes": 2501055,
+      "sha256": "a7af8b0551089b7b13698075d6dbf7111c61172e5c5e27ae61c29d9ef286b0d9",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/rbf/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/rbf/prediction_0952.npz",
+      "bytes": 2695845,
+      "sha256": "cf0a7147125da590bea7e27b2eabe4f8c52889eb465d26c26f93e34e2ab9180b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/realnpu/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/realnpu/prediction_0341.npz",
+      "bytes": 2567763,
+      "sha256": "b12f64100ad2312b439c0a438fc4661089e3120a3c534c3a04f5948d7aaea73c",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/realnpu/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/realnpu/prediction_0417.npz",
+      "bytes": 2569118,
+      "sha256": "bff4b818d3323d6416e9c664ece2b417a189bec7fc7ca0c318a78e7c6aea4cab",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/realnpu/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/realnpu/prediction_0548.npz",
+      "bytes": 2518175,
+      "sha256": "1a334446aa0e6b674453c9e3425a8170a2c5798b8bc9671396f0d4e4ba53384b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/realnpu/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/realnpu/prediction_0952.npz",
+      "bytes": 2719019,
+      "sha256": "7fb421f07164cd7fb6877e1ded3d7612ca98c85b2200dd9422dd7b0d74f9f2da",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/scn/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/scn/prediction_0341.npz",
+      "bytes": 2550282,
+      "sha256": "7a4c271a9a4d6184bb4cb0057747b3b4974910aeb2c25a71d1837f835862ed62",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/scn/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/scn/prediction_0417.npz",
+      "bytes": 2550697,
+      "sha256": "bf2ec97de119a901beea01c10e294818efea1e5333b8ca57f5a6980900fb94b8",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/scn/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/scn/prediction_0548.npz",
+      "bytes": 2497756,
+      "sha256": "708cac2ce15b2b75a8493a4c6c6bf791fcc3d7c0df318c6a0f9918bcca9b016b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/scn/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/scn/prediction_0952.npz",
+      "bytes": 2711578,
+      "sha256": "8fe5421e915222e8bc1586c081941b6f465363b515fc1e62e59efdf28ff9d506",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/tfno/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/tfno/prediction_0341.npz",
+      "bytes": 2554606,
+      "sha256": "79d4710fc82af18dca74a325b387006f691951286d72bfbf8127231e49af7b91",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/tfno/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/tfno/prediction_0417.npz",
+      "bytes": 2551870,
+      "sha256": "0d2a785d76ece28ff4f24a5f13f2a171504b604eb61faedee9f8e4b8d9448f00",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/tfno/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/tfno/prediction_0548.npz",
+      "bytes": 2502483,
+      "sha256": "555b18c9d1fa6694314957c3d0d797d7fe7c4de6fcdbb1768d868a0af699f76c",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/tfno/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_cpu4/tfno/prediction_0952.npz",
+      "bytes": 2665837,
+      "sha256": "005c23bfd4af7ca0f47f97e98960c324ac08a129331fc470042b7eaa5549f797",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_cpu4_e56cdc30__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/cascor/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/cascor/prediction_0341.npz",
+      "bytes": 2579377,
+      "sha256": "f555489372edf2f5ff7655def65dfce763b79d1f06fae12e2cb60700cf419077",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/cascor/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/cascor/prediction_0417.npz",
+      "bytes": 2580992,
+      "sha256": "30c7a6298dcb32a8ac2ed1de797961ec21ece06e5a6b39ebd0cd8b4b81992d07",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/cascor/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/cascor/prediction_0548.npz",
+      "bytes": 2527235,
+      "sha256": "5460f7e495681ecf38ea0924033baa5cf0ba04c776b4778fdcd294526f81138c",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/cascor/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/cascor/prediction_0952.npz",
+      "bytes": 2729113,
+      "sha256": "72b4c4278f812a82983f488388c15b7117c41e7d5035175fd3ed0982bc978ef1",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/chebkan/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/chebkan/prediction_0341.npz",
+      "bytes": 2584944,
+      "sha256": "f3ded2db4c3ca65031a36322b5256267ece2700fc2b5da49ef62ea17de3e65fc",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/chebkan/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/chebkan/prediction_0417.npz",
+      "bytes": 2588748,
+      "sha256": "f8bdc9f6361865e692233a4a46c3b36498360e5897f912a99546109ee2184281",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/chebkan/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/chebkan/prediction_0548.npz",
+      "bytes": 2533370,
+      "sha256": "3f7bdbf616fd2f9bd458f3c4fe5888b701ac36b6ec13dcd90e73e398bee6cf99",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/chebkan/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/chebkan/prediction_0952.npz",
+      "bytes": 2733074,
+      "sha256": "70f1c5d30646232cb3eee50b767361011ecb8033b1c34d3d02dd9d9bf28f5d85",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/dendrite/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/dendrite/prediction_0341.npz",
+      "bytes": 2575111,
+      "sha256": "7927663c0f703cc9e133ea6878a4f083ae9c7679fcad75376815d6673ce317a9",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/dendrite/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/dendrite/prediction_0417.npz",
+      "bytes": 2575705,
+      "sha256": "febeaf6d197f4c8c66c3f535116f2acc9b6c5f3de707e9b383f68d121797769f",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/dendrite/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/dendrite/prediction_0548.npz",
+      "bytes": 2516946,
+      "sha256": "735084980b18f0c72cc51f6f8a52ee2cf5ff8204ec67a1f5dde8211aec651592",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/dendrite/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/dendrite/prediction_0952.npz",
+      "bytes": 2726571,
+      "sha256": "fc2545865dfb885c53f3827479d775b31fb9cfaf71f7400b568f9b7d4edef8c3",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/elm/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/elm/prediction_0341.npz",
+      "bytes": 2553345,
+      "sha256": "6bccbf1d3da3d53998b3e369d0fc2025a3944515e7ba2d02d55941a55da6135a",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/elm/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/elm/prediction_0417.npz",
+      "bytes": 2556917,
+      "sha256": "a9ecc70250006d41a50d1c173f58e0216213fe6477845e2b1221655fd5ffb748",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/elm/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/elm/prediction_0548.npz",
+      "bytes": 2508246,
+      "sha256": "96f4fbfde237933ea5616caf832b43a45450e9ac4b6e44c4d3cdd09a2efbd5c7",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/elm/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/elm/prediction_0952.npz",
+      "bytes": 2717439,
+      "sha256": "e3e05251dded1174ac9583276e2c78a61048a27340f4590cdd50f630b4fed073",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/pinet/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/pinet/prediction_0341.npz",
+      "bytes": 2573430,
+      "sha256": "3fd6561822586955a7bbb9d73d278ab117642110a381ec2739e4dfeb49dbf699",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/pinet/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/pinet/prediction_0417.npz",
+      "bytes": 2570241,
+      "sha256": "c8e765eb22eae1bca1a3222637c2568a8ecb951510f6b9a07ef50a55409963bb",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/pinet/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/pinet/prediction_0548.npz",
+      "bytes": 2515359,
+      "sha256": "d282c456a0ab2adaaf7c24cd9f25175e56b443ac0e7a18ca7aad5b1cee70bd5d",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/pinet/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/pinet/prediction_0952.npz",
+      "bytes": 2723353,
+      "sha256": "eaa06d6208365b61de4e201066ce120f5fc2fad42e96911ff376ef0b18aa781e",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/rbf/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/rbf/prediction_0341.npz",
+      "bytes": 2545124,
+      "sha256": "181f271493acf9cfe3a84634a097c3586e3ef4ffe916481a5ec2751638e5df3b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/rbf/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/rbf/prediction_0417.npz",
+      "bytes": 2547622,
+      "sha256": "476cab9d850d8f8772b23aee626914948a5ddfadbe9d29574727d0a88819b34c",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/rbf/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/rbf/prediction_0548.npz",
+      "bytes": 2500902,
+      "sha256": "016cacf3c4c0d1aa3fec795d9070d8f311c0b1dde9b35d12f24b792ce16afa44",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/rbf/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/rbf/prediction_0952.npz",
+      "bytes": 2696885,
+      "sha256": "68d4107b55ee4006cf883a80f4fa6817c66d4bda3fb1f6d4cc75ffa376be669d",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/realnpu/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/realnpu/prediction_0341.npz",
+      "bytes": 2567637,
+      "sha256": "5d5768966f1f9c9d4b25ff9123b93c7b0e1a403cecbbe0b12b23264904cfc5fa",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/realnpu/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/realnpu/prediction_0417.npz",
+      "bytes": 2568625,
+      "sha256": "68712c921904a3e8d366afe70d984bd9a727e3b34ce849facea67498292dfae0",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/realnpu/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/realnpu/prediction_0548.npz",
+      "bytes": 2518245,
+      "sha256": "c3b651230ec078c26459bbca91755dda34bd37babf4fcac28dd9e1098951024b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/realnpu/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/realnpu/prediction_0952.npz",
+      "bytes": 2718900,
+      "sha256": "c50c566a91841f03e5aca8138c1aba1e60c3891db738f591a7e6ed34e5186a84",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/scn/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/scn/prediction_0341.npz",
+      "bytes": 2550255,
+      "sha256": "87b181a8e2ef8a24fec0c165e39a85c9eaef6d053aaaf1780804f85fde39156b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/scn/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/scn/prediction_0417.npz",
+      "bytes": 2551204,
+      "sha256": "990e8520dc40614891663281f2bbffad2de3adbfee10da3164379122983a052a",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/scn/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/scn/prediction_0548.npz",
+      "bytes": 2497125,
+      "sha256": "c1c40982076f1fd60a11453fb826ac2ba7940544d2eb2703d0730c44871418a8",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/scn/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/scn/prediction_0952.npz",
+      "bytes": 2711233,
+      "sha256": "02f860ca17fa1022056a4f368562e245be0e63293a6aa27b7c3ed47862c05446",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/tfno/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/tfno/prediction_0341.npz",
+      "bytes": 2553407,
+      "sha256": "a0ea2604717231792aad1ee8856cba5c7822f913e3ed62a6f528fb20a488a006",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/tfno/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/tfno/prediction_0417.npz",
+      "bytes": 2551555,
+      "sha256": "fb9ff3a4b5617e3aeb5fe18407900e35eced91c11489cc2ded678e274cda7995",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/tfno/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/tfno/prediction_0548.npz",
+      "bytes": 2502169,
+      "sha256": "845c408b2b901690fea323605a2522259996819568f9f07144cf4c28c1a322e0",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/tfno/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/35799e0a071b9fac_gpu/tfno/prediction_0952.npz",
+      "bytes": 2666084,
+      "sha256": "d7580d9416815c27916f461c4faf4d69728169aa8d2f46aa8802c3d5f5bedabe",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_35799e0a071b9fac_gpu_c795b291__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/chebkan/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/chebkan/prediction_0341.npz",
+      "bytes": 2584446,
+      "sha256": "68669ac862f541d8b0ea499f9492150762fbece49856ff1d5ed2e2b014e238cd",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/chebkan/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/chebkan/prediction_0417.npz",
+      "bytes": 2588143,
+      "sha256": "d5840fed571865ef35511407b8ef9f00936d4797b5198ca5ff5bb88e232a08e5",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/chebkan/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/chebkan/prediction_0548.npz",
+      "bytes": 2534370,
+      "sha256": "1a3e7d9ea566e3617e75fc1fb11446c11cd1a969649067f2bcaa2d08da67aeee",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/chebkan/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/chebkan/prediction_0952.npz",
+      "bytes": 2733407,
+      "sha256": "68a04c958fc29338cb73f46433ef3a3cfd6a21cdad0666c7f7e45d07f2258440",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/dendrite/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/dendrite/prediction_0341.npz",
+      "bytes": 2575181,
+      "sha256": "62d007d4ad2b993c30dab88c3f90b609e668b57ba31fd1f4e2e3b8c23d1b81d0",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/dendrite/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/dendrite/prediction_0417.npz",
+      "bytes": 2575717,
+      "sha256": "71e61b18f31c22c573cac89966f680d0d989c9f701df5fc4bd4e7df5c78138e6",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/dendrite/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/dendrite/prediction_0548.npz",
+      "bytes": 2517713,
+      "sha256": "c40e3484bc73c7d00dc5ce132c8200c353459e359cd96f4c885ac1cceba1b814",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/dendrite/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/dendrite/prediction_0952.npz",
+      "bytes": 2726039,
+      "sha256": "6cd505667d3cea3415b4dd95605aee3d370f70aa153da049aaa2cdc2172374bd",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/pinet/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/pinet/prediction_0341.npz",
+      "bytes": 2573429,
+      "sha256": "ec179f7914deb2144780af4088172027ceda37b9f6fe26cf94d5cbcab6679993",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/pinet/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/pinet/prediction_0417.npz",
+      "bytes": 2570381,
+      "sha256": "dc38578f61a656fd4ee9b1c40eb0e927615886439e384e556828181e23de3b34",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/pinet/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/pinet/prediction_0548.npz",
+      "bytes": 2515479,
+      "sha256": "50bf22bf7a16d8f93beadd79c27759172f51b1b1fcdeb3f5fa99a869a0684211",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/pinet/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/pinet/prediction_0952.npz",
+      "bytes": 2723284,
+      "sha256": "34f40a7be925ac8479175ee7921e914f6cf9d2d69abe508ad789ae7bf5239ac4",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/rbf/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/rbf/prediction_0341.npz",
+      "bytes": 2544728,
+      "sha256": "c9f76e52c024bbcbc0af7cccc0c45aa48c1a6b65d3c21d69312278090ff8c498",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/rbf/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/rbf/prediction_0417.npz",
+      "bytes": 2547658,
+      "sha256": "1683b1a9d8e6c0d7132c726ac561d3745bf0341b37a8c0b286d6257344b0c19d",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/rbf/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/rbf/prediction_0548.npz",
+      "bytes": 2500841,
+      "sha256": "58a6cb91264561c7d27d4f17916e2b012df89ba90bf12e1bccc0809d0d46f671",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/rbf/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/rbf/prediction_0952.npz",
+      "bytes": 2695766,
+      "sha256": "f6e6995e23b116de9224658b8aeb152f1d6b8f29047fa2146d6244cb6e3e13c1",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/realnpu/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/realnpu/prediction_0341.npz",
+      "bytes": 2567801,
+      "sha256": "3e8ab9d4cd1d28d4c5c690f020e569e7ac46fcabfdf8fe0633d620816bdf6131",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/realnpu/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/realnpu/prediction_0417.npz",
+      "bytes": 2569141,
+      "sha256": "0e8caa10c1a80cf0685b898dddc813ba275a5c65954e5095729e645c32688394",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/realnpu/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/realnpu/prediction_0548.npz",
+      "bytes": 2517790,
+      "sha256": "1016cb10314c6c043db68c3e5c3ea29c07d5c69d7826ea6b8a0eb96860157f9c",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/realnpu/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/realnpu/prediction_0952.npz",
+      "bytes": 2718946,
+      "sha256": "1a2e6ec523f4f7eaffdb8cc5a585f981b1addc5da41843fbafd63cc590c1fb8f",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/tfno/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/tfno/prediction_0341.npz",
+      "bytes": 2554081,
+      "sha256": "2aad19b5ddab047f1ce496748bc0cfd5349534fa5318e48d60122866d4f2fbee",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/tfno/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/tfno/prediction_0417.npz",
+      "bytes": 2551878,
+      "sha256": "d3cd0355553ef86f6bcffeb9843e584efd7f96493b450d6dac8e568d76eb5942",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/tfno/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/tfno/prediction_0548.npz",
+      "bytes": 2501979,
+      "sha256": "616be0c3f1983643a3e7a9138d7e009c146c664f782f06ed4e2113a196154e1b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/tfno/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu16/tfno/prediction_0952.npz",
+      "bytes": 2665197,
+      "sha256": "46a9e8450ebbaf51c856cf42b4cfb7af4bde92d1ced493ceb3b4028561363a50",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu16_c4d02ed2__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/chebkan/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/chebkan/prediction_0341.npz",
+      "bytes": 2584339,
+      "sha256": "893ee21d7581492ebca12ed54f266da2970234d6df27daa94a5c960e15fd16f0",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/chebkan/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/chebkan/prediction_0417.npz",
+      "bytes": 2588143,
+      "sha256": "d5840fed571865ef35511407b8ef9f00936d4797b5198ca5ff5bb88e232a08e5",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/chebkan/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/chebkan/prediction_0548.npz",
+      "bytes": 2534356,
+      "sha256": "319270c2e950668b5502ee853b58583ccdd51865065bbce7fc82412c549da62d",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/chebkan/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/chebkan/prediction_0952.npz",
+      "bytes": 2733407,
+      "sha256": "68a04c958fc29338cb73f46433ef3a3cfd6a21cdad0666c7f7e45d07f2258440",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/dendrite/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/dendrite/prediction_0341.npz",
+      "bytes": 2575060,
+      "sha256": "7bd9dab5c21b16d15cdf2676f92d6c90e37ca57d5393db782935d745c525e441",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/dendrite/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/dendrite/prediction_0417.npz",
+      "bytes": 2575840,
+      "sha256": "5a0e4e91ae99e9f480991ce93a5ee6133232393cfd11f82d54403e37fa381089",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/dendrite/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/dendrite/prediction_0548.npz",
+      "bytes": 2517687,
+      "sha256": "518a7845311aae90095b043afa85f8870c0d16c4f136231482af3e37a20447e0",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/dendrite/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/dendrite/prediction_0952.npz",
+      "bytes": 2726452,
+      "sha256": "dc6f851cf550e8516e8a35a590cdeef4f949fd4bcc6ab114277ed5d68bb95a83",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/pinet/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/pinet/prediction_0341.npz",
+      "bytes": 2573390,
+      "sha256": "cc83cf9ea5706d047f35e118bfe8cd0f6320c1e6b1b003ee55437856c3a47c5c",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/pinet/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/pinet/prediction_0417.npz",
+      "bytes": 2570198,
+      "sha256": "7f5655de4b3f976a040da96f49ac628b609218d046181742b63fa6b09fc69573",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/pinet/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/pinet/prediction_0548.npz",
+      "bytes": 2515796,
+      "sha256": "a7d50c4fff822d3b823e464c9ec6c5b637a821d533fc1e7113687afeddc84b91",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/pinet/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/pinet/prediction_0952.npz",
+      "bytes": 2723197,
+      "sha256": "d8aec3c1226ab4a26200846484e808011bf656208dd967cecd0ade4609ef2160",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/rbf/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/rbf/prediction_0341.npz",
+      "bytes": 2544477,
+      "sha256": "c093cdbf3bc396c0e2fa4cb32d679a8d2b4dd8ddd01e32d128504d488e0aa98f",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/rbf/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/rbf/prediction_0417.npz",
+      "bytes": 2547777,
+      "sha256": "5b93329d62e5da9c71808c7210b29808fee5c33c67f924eca6274e802584191a",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/rbf/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/rbf/prediction_0548.npz",
+      "bytes": 2501055,
+      "sha256": "a7af8b0551089b7b13698075d6dbf7111c61172e5c5e27ae61c29d9ef286b0d9",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/rbf/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/rbf/prediction_0952.npz",
+      "bytes": 2695845,
+      "sha256": "cf0a7147125da590bea7e27b2eabe4f8c52889eb465d26c26f93e34e2ab9180b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/realnpu/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/realnpu/prediction_0341.npz",
+      "bytes": 2567763,
+      "sha256": "b12f64100ad2312b439c0a438fc4661089e3120a3c534c3a04f5948d7aaea73c",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/realnpu/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/realnpu/prediction_0417.npz",
+      "bytes": 2569118,
+      "sha256": "bff4b818d3323d6416e9c664ece2b417a189bec7fc7ca0c318a78e7c6aea4cab",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/realnpu/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/realnpu/prediction_0548.npz",
+      "bytes": 2518175,
+      "sha256": "1a334446aa0e6b674453c9e3425a8170a2c5798b8bc9671396f0d4e4ba53384b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/realnpu/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/realnpu/prediction_0952.npz",
+      "bytes": 2719019,
+      "sha256": "7fb421f07164cd7fb6877e1ded3d7612ca98c85b2200dd9422dd7b0d74f9f2da",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/tfno/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/tfno/prediction_0341.npz",
+      "bytes": 2554606,
+      "sha256": "79d4710fc82af18dca74a325b387006f691951286d72bfbf8127231e49af7b91",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/tfno/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/tfno/prediction_0417.npz",
+      "bytes": 2551870,
+      "sha256": "0d2a785d76ece28ff4f24a5f13f2a171504b604eb61faedee9f8e4b8d9448f00",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/tfno/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/tfno/prediction_0548.npz",
+      "bytes": 2502483,
+      "sha256": "555b18c9d1fa6694314957c3d0d797d7fe7c4de6fcdbb1768d868a0af699f76c",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/tfno/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_cpu4/tfno/prediction_0952.npz",
+      "bytes": 2665837,
+      "sha256": "005c23bfd4af7ca0f47f97e98960c324ac08a129331fc470042b7eaa5549f797",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_cpu4_69ba2338__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/cascor/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/cascor/prediction_0341.npz",
+      "bytes": 2579377,
+      "sha256": "f555489372edf2f5ff7655def65dfce763b79d1f06fae12e2cb60700cf419077",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/cascor/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/cascor/prediction_0417.npz",
+      "bytes": 2580992,
+      "sha256": "30c7a6298dcb32a8ac2ed1de797961ec21ece06e5a6b39ebd0cd8b4b81992d07",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/cascor/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/cascor/prediction_0548.npz",
+      "bytes": 2527235,
+      "sha256": "5460f7e495681ecf38ea0924033baa5cf0ba04c776b4778fdcd294526f81138c",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/cascor/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/cascor/prediction_0952.npz",
+      "bytes": 2729113,
+      "sha256": "72b4c4278f812a82983f488388c15b7117c41e7d5035175fd3ed0982bc978ef1",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/chebkan/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/chebkan/prediction_0341.npz",
+      "bytes": 2584944,
+      "sha256": "f3ded2db4c3ca65031a36322b5256267ece2700fc2b5da49ef62ea17de3e65fc",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/chebkan/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/chebkan/prediction_0417.npz",
+      "bytes": 2588748,
+      "sha256": "f8bdc9f6361865e692233a4a46c3b36498360e5897f912a99546109ee2184281",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/chebkan/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/chebkan/prediction_0548.npz",
+      "bytes": 2533370,
+      "sha256": "3f7bdbf616fd2f9bd458f3c4fe5888b701ac36b6ec13dcd90e73e398bee6cf99",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/chebkan/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/chebkan/prediction_0952.npz",
+      "bytes": 2733074,
+      "sha256": "70f1c5d30646232cb3eee50b767361011ecb8033b1c34d3d02dd9d9bf28f5d85",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/dendrite/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/dendrite/prediction_0341.npz",
+      "bytes": 2575111,
+      "sha256": "7927663c0f703cc9e133ea6878a4f083ae9c7679fcad75376815d6673ce317a9",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/dendrite/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/dendrite/prediction_0417.npz",
+      "bytes": 2575705,
+      "sha256": "febeaf6d197f4c8c66c3f535116f2acc9b6c5f3de707e9b383f68d121797769f",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/dendrite/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/dendrite/prediction_0548.npz",
+      "bytes": 2516946,
+      "sha256": "735084980b18f0c72cc51f6f8a52ee2cf5ff8204ec67a1f5dde8211aec651592",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/dendrite/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/dendrite/prediction_0952.npz",
+      "bytes": 2726571,
+      "sha256": "fc2545865dfb885c53f3827479d775b31fb9cfaf71f7400b568f9b7d4edef8c3",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/elm/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/elm/prediction_0341.npz",
+      "bytes": 2553345,
+      "sha256": "6bccbf1d3da3d53998b3e369d0fc2025a3944515e7ba2d02d55941a55da6135a",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/elm/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/elm/prediction_0417.npz",
+      "bytes": 2556917,
+      "sha256": "a9ecc70250006d41a50d1c173f58e0216213fe6477845e2b1221655fd5ffb748",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/elm/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/elm/prediction_0548.npz",
+      "bytes": 2508246,
+      "sha256": "96f4fbfde237933ea5616caf832b43a45450e9ac4b6e44c4d3cdd09a2efbd5c7",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/elm/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/elm/prediction_0952.npz",
+      "bytes": 2717439,
+      "sha256": "e3e05251dded1174ac9583276e2c78a61048a27340f4590cdd50f630b4fed073",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/pinet/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/pinet/prediction_0341.npz",
+      "bytes": 2573430,
+      "sha256": "3fd6561822586955a7bbb9d73d278ab117642110a381ec2739e4dfeb49dbf699",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/pinet/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/pinet/prediction_0417.npz",
+      "bytes": 2570241,
+      "sha256": "c8e765eb22eae1bca1a3222637c2568a8ecb951510f6b9a07ef50a55409963bb",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/pinet/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/pinet/prediction_0548.npz",
+      "bytes": 2515359,
+      "sha256": "d282c456a0ab2adaaf7c24cd9f25175e56b443ac0e7a18ca7aad5b1cee70bd5d",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/pinet/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/pinet/prediction_0952.npz",
+      "bytes": 2723353,
+      "sha256": "eaa06d6208365b61de4e201066ce120f5fc2fad42e96911ff376ef0b18aa781e",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/rbf/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/rbf/prediction_0341.npz",
+      "bytes": 2545124,
+      "sha256": "181f271493acf9cfe3a84634a097c3586e3ef4ffe916481a5ec2751638e5df3b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/rbf/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/rbf/prediction_0417.npz",
+      "bytes": 2547622,
+      "sha256": "476cab9d850d8f8772b23aee626914948a5ddfadbe9d29574727d0a88819b34c",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/rbf/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/rbf/prediction_0548.npz",
+      "bytes": 2500902,
+      "sha256": "016cacf3c4c0d1aa3fec795d9070d8f311c0b1dde9b35d12f24b792ce16afa44",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/rbf/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/rbf/prediction_0952.npz",
+      "bytes": 2696885,
+      "sha256": "68d4107b55ee4006cf883a80f4fa6817c66d4bda3fb1f6d4cc75ffa376be669d",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/realnpu/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/realnpu/prediction_0341.npz",
+      "bytes": 2567637,
+      "sha256": "5d5768966f1f9c9d4b25ff9123b93c7b0e1a403cecbbe0b12b23264904cfc5fa",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/realnpu/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/realnpu/prediction_0417.npz",
+      "bytes": 2568625,
+      "sha256": "68712c921904a3e8d366afe70d984bd9a727e3b34ce849facea67498292dfae0",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/realnpu/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/realnpu/prediction_0548.npz",
+      "bytes": 2518245,
+      "sha256": "c3b651230ec078c26459bbca91755dda34bd37babf4fcac28dd9e1098951024b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/realnpu/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/realnpu/prediction_0952.npz",
+      "bytes": 2718900,
+      "sha256": "c50c566a91841f03e5aca8138c1aba1e60c3891db738f591a7e6ed34e5186a84",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/scn/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/scn/prediction_0341.npz",
+      "bytes": 2550255,
+      "sha256": "87b181a8e2ef8a24fec0c165e39a85c9eaef6d053aaaf1780804f85fde39156b",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/scn/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/scn/prediction_0417.npz",
+      "bytes": 2551204,
+      "sha256": "990e8520dc40614891663281f2bbffad2de3adbfee10da3164379122983a052a",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/scn/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/scn/prediction_0548.npz",
+      "bytes": 2497125,
+      "sha256": "c1c40982076f1fd60a11453fb826ac2ba7940544d2eb2703d0730c44871418a8",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/scn/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/scn/prediction_0952.npz",
+      "bytes": 2711233,
+      "sha256": "02f860ca17fa1022056a4f368562e245be0e63293a6aa27b7c3ed47862c05446",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/tfno/prediction_0341.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/tfno/prediction_0341.npz",
+      "bytes": 2554313,
+      "sha256": "9c4ae44b592bf7ba71d90843ed63f24a3aa8cba3954babad7ae143b2ad85fbdc",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/tfno/prediction_0417.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/tfno/prediction_0417.npz",
+      "bytes": 2551521,
+      "sha256": "cbc5408e45821ef2756118193bbe8f9440541057280db51eaf2bc093a722cca7",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/tfno/prediction_0548.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/tfno/prediction_0548.npz",
+      "bytes": 2502066,
+      "sha256": "68755e38ed6b3d55f34270374f0bd86949409a1da216118bc8d67b95589752f2",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    },
+    {
+      "original_relative": "results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/tfno/prediction_0952.npz",
+      "archive_path": "historical_numeric/results/cpu_gpu_benchmark_20261111_v1/f922ac12e7d38b1e_gpu/tfno/prediction_0952.npz",
+      "bytes": 2665034,
+      "sha256": "d275f1abb8f52e3dc1287504c184529b0bcaa727f03f4aae1702eaee9e7687ff",
+      "archive_part": "results_cpu_gpu_benchmark_20261111_v1_f922ac12e7d38b1e_gpu_5420d5f0__part01-of01.tar.gz"
+    }
+  ],
+  "no_new_inference": true,
+  "no_PC_copy": true,
+  "scope": "Historical saved predictions, validation examples, pointwise physical diagnostics and timing arrays. These exploratory/failed or partial stages never replace final results.",
+  "excludes": "Downloaded FlowBench arrays and reconstructible input/state caches; all final 59 native fields are in a separate release."
+}

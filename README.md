@@ -41,3 +41,7 @@ Verejný vedecký export oddeľuje tieto podklady od súkromnej rozpracovanej di
 ## Plné uložené predikčné polia
 
 Všetkých 59 uložených TEST výstupov je dostupných v [samostatnom dátovom balíku](01_results/predikcne_polia/README.md).
+
+## Historické numerické výstupy
+
+Pôvodné polia a diagnostika starších pokusov sú v [samostatnom balíku](01_results/historicke_numericke_vystupy/README.md).
