@@ -1,13 +1,13 @@
 {
   "status": "PUBLIC_DATA_CATALOG_VERIFIED",
-  "checked_UTC": "2026-11-18T21:34:36.782716+00:00",
+  "checked_UTC": "2026-11-18T21:50:38.138787+00:00",
   "repository": "Infinitiv525/DP-architecture-comparison",
   "checkpoint_files": 587,
   "selected_models": 59,
-  "published_unique_source_files": 3802,
-  "published_unique_source_bytes": 46454698118,
-  "release_asset_bytes": 38086690387,
-  "release_assets": 105,
+  "published_unique_source_files": 4286,
+  "published_unique_source_bytes": 46456665738,
+  "release_asset_bytes": 38087382363,
+  "release_assets": 108,
   "releases": [
     {
       "label": "Modely a základné výsledky",
@@ -43,6 +43,15 @@
       "original_files": 661,
       "asset_count": 16,
       "archive_bytes": 17841421,
+      "extra_assets_not_in_receipt": []
+    },
+    {
+      "label": "Pôvodné stdout a stderr úloh Slurm",
+      "tag": "scheduler-logs-20261118",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/scheduler-logs-20261118",
+      "original_files": 484,
+      "asset_count": 3,
+      "archive_bytes": 691976,
       "extra_assets_not_in_receipt": []
     },
     {

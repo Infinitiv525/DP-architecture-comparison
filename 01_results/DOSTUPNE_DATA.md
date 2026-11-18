@@ -10,6 +10,7 @@ V tomto repozitári: **587 checkpointových súborov** a **59 vybraných modelov
 | [Doplnené vedecké záznamy a merania](https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/scientific-data-supplement-20261118) | 288 | 0.001 GB |
 | [Historické numerické výstupy](https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/historical-numerical-outputs-20261118) | 350 | 2.377 GB |
 | [Ďalšie pôvodné diagnostiky a zdroje](https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/research-records-completion-20261118) | 661 | 0.018 GB |
+| [Pôvodné stdout a stderr úloh Slurm](https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/scheduler-logs-20261118) | 484 | 0.001 GB |
 | [Úplné finálne predikčné polia 59 modelov](https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/native-prediction-fields-20261118) | 59 | 30.790 GB |
 
 Veľké váhy a numerické polia sú **v Releases**, aby sa pri práci so zdrojovým kódom nemuseli automaticky sťahovať. [Zoznam všetkých priamych odkazov a SHA256](PUBLIC_DOWNLOADS.json). Archívy sú členené podľa modelov alebo pôvodných pokusov. Každý balík má manifest s pôvodnými cestami; historické a neúspešné pokusy zostávajú oddelené od finálneho porovnania. V starších nemenných manifestoch sa pôvodné vylúčenia vzťahujú iba na daný balík; dodatočné vydania ich rozširujú podľa tejto tabuľky.
