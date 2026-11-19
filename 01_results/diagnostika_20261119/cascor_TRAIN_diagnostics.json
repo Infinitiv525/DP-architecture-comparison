@@ -1,0 +1,41 @@
+{
+  "status": "CASCOR_FROZEN_TRAIN_RESIDUAL_DECOMPOSITION_COMPLETE",
+  "seed": 931101,
+  "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931101/last.pt",
+  "checkpoint_sha256": "7e15f1c84854497037ce23227066d7cc61da6035da7e4f0b2a89a3d62e548d21",
+  "checkpoint_unchanged": true,
+  "cases": 640,
+  "patch_rows": 2621440,
+  "hidden_units": 640,
+  "fields": [
+    {
+      "field": "u",
+      "raw_weighted_energy": 59.3601588719801,
+      "global_centered_weighted_energy": 59.36015887197897,
+      "within_case_weighted_energy": 59.35710403337815,
+      "between_case_weighted_energy": 0.0030548386008164563,
+      "fraction_global_centered_energy_removed_by_per_case_centering": 5.146277669850537e-05
+    },
+    {
+      "field": "v",
+      "raw_weighted_energy": 37.69386568237742,
+      "global_centered_weighted_energy": 37.69386568237674,
+      "within_case_weighted_energy": 37.691596932703874,
+      "between_case_weighted_energy": 0.0022687496728586165,
+      "fraction_global_centered_energy_removed_by_per_case_centering": 6.018882998034717e-05
+    },
+    {
+      "field": "p",
+      "raw_weighted_energy": 231.44730366573083,
+      "global_centered_weighted_energy": 231.44730366571756,
+      "within_case_weighted_energy": 231.43756085328351,
+      "between_case_weighted_energy": 0.009742812434033965,
+      "fraction_global_centered_energy_removed_by_per_case_centering": 4.209516498885483e-05
+    }
+  ],
+  "total_fraction_global_centered_energy_removed": 4.586404806745739e-05,
+  "scope": "Only frozen TRAIN residuals. Weighted variance decomposition diagnoses modes omitted by the per-case covariance objective; no retraining, no TEST and no proof of achievable accuracy with a global objective.",
+  "job": "166812",
+  "torch": "2.12.0+cu130",
+  "hardware": "NVIDIA H200"
+}

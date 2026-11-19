@@ -1,0 +1,2205 @@
+{
+  "status": "FINAL_IMPLEMENTATION_AND_SELECTION_REVIEW_COMPLETE",
+  "date": "2026-11-19",
+  "scope": "Retrospective source/literature audit; no retraining or new TEST reads",
+  "primary_nine_families": [
+    {
+      "name": "tfno",
+      "mechanism": "globálny spektrálny operátor",
+      "implemented_operation": "Tucker rank .1; 5 Fourier blokov, 32×32 módov, width 48",
+      "fitting": "gradient, Adam/cosine; presný optimizer vo frozen train.py",
+      "reference_keys": [
+        "P01",
+        "P02"
+      ],
+      "implementation_limit": "Presný spoločný adaptér sa líši od autorského FlowBench experimentu.",
+      "planned_recipe": {
+        "model": "tfno",
+        "width": 48,
+        "degree": null,
+        "planned_core_coefficient_scalars": 1353318,
+        "planned_total_coefficient_scalars": 1353328,
+        "planned_total_fitted_scalars": 1353328
+      },
+      "actual_runs": [
+        {
+          "seed": 931101,
+          "summary_sha256": "af0395974887d1bd5ebbcf37925ad507ad414b847a1f481316ef80e41fde7260",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14101.66578219505,
+          "selected_checkpoint_sha256": "ed1b6ce255a9925ce7632eb3abe583d28978a41b588c81fa2f75c31d54b8761a"
+        },
+        {
+          "seed": 931102,
+          "summary_sha256": "25295f4fdd1af9beaaa1cca9f69adf993d7e061ac00e2f3022f5683b53ab69da",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14101.269061315106,
+          "selected_checkpoint_sha256": "c67f70b4f27331a52f3d242c0be22217a8c7733b0a758fb97d59da6032a3d0d5"
+        },
+        {
+          "seed": 931103,
+          "summary_sha256": "26171584b4b174adae67a2e982cf8fdc1887665ee57f2765d169a66695a6c32c",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14101.346600306919,
+          "selected_checkpoint_sha256": "16115ba5ce54adcc3e97afead7631f05d75761e9f7c8d2684fed4335445b2bb5"
+        },
+        {
+          "seed": 931104,
+          "summary_sha256": "c7cfd63b4d45cae9f8360a671e401346f23122c57f16e365d42799dcf0b6921c",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14101.283274983987,
+          "selected_checkpoint_sha256": "84234e5a9f68add2f5ea3e4b001490f07fb9241055cdc6484416820083b29424"
+        },
+        {
+          "seed": 931105,
+          "summary_sha256": "3233e4852a92952f3a5173b217a2a536a976f4cb123c6f1bf90f70821e9cf04c",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14101.535304341,
+          "selected_checkpoint_sha256": "2d36586cfcef860f6cba21d6d4773f1991e2532e1525b2e12fe3a59f7e4847b7"
+        }
+      ]
+    },
+    {
+      "name": "chebkan",
+      "mechanism": "polynomiálne učené funkcie na hranách",
+      "implemented_operation": "665 -> 294 -> 294 -> 192; Chebyshev stupeň 3 po tanh",
+      "fitting": "gradient",
+      "reference_keys": [
+        "R01",
+        "P04",
+        "P05",
+        "P06"
+      ],
+      "implementation_limit": "Nie všetky KAN; konkrétna nízkostupňová Chebyshevova varianta.",
+      "planned_recipe": {
+        "model": "chebkan",
+        "width": 294,
+        "degree": 3,
+        "planned_core_coefficient_scalars": 1354356,
+        "planned_total_coefficient_scalars": 1354366,
+        "planned_total_fitted_scalars": 1354366,
+        "relative_budget_difference": 0.0007669980965442229,
+        "constructive_units_are_intended_not_yet_selected": false
+      },
+      "actual_runs": [
+        {
+          "seed": 931101,
+          "summary_sha256": "8fd716ff97fe032c29314fd2023e2ce5d48580bfa5f4d4d557dcbc55c72c155a",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1354356,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354366,
+            "total_core_coefficients_plus_normalization": 1354366,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5417424,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1354356,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354366,
+            "total_core_coefficients_plus_normalization": 1354366,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5417424,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14099.53388206102,
+          "selected_checkpoint_sha256": "bb01513a53b6c27de6c62884d59f5b14004420c0ee1bf3a49eee95164a5b2812"
+        },
+        {
+          "seed": 931102,
+          "summary_sha256": "cc2538cdf904db0e21d9add7450b394381134fb8506221fd40109bfd832dfc07",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1354356,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354366,
+            "total_core_coefficients_plus_normalization": 1354366,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5417424,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1354356,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354366,
+            "total_core_coefficients_plus_normalization": 1354366,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5417424,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14100.553358184872,
+          "selected_checkpoint_sha256": "cec9099dcd6244f755575fa8f585f23b97b66d801737aa7be92626623079ec2b"
+        },
+        {
+          "seed": 931103,
+          "summary_sha256": "522d6edcb050570158e9014256e5440ff5a716c600b79dda899abce52585cde8",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1354356,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354366,
+            "total_core_coefficients_plus_normalization": 1354366,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5417424,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1354356,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354366,
+            "total_core_coefficients_plus_normalization": 1354366,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5417424,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14100.194070560043,
+          "selected_checkpoint_sha256": "f9f41b435db72fee49bba2cf24fa12a23b2cc841bfd3452f6513f7e559092787"
+        },
+        {
+          "seed": 931104,
+          "summary_sha256": "7b325a4fe18c45cbc15eb44ee86724c50f0d393eb678ecda3420dca9c4d9c892",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1354356,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354366,
+            "total_core_coefficients_plus_normalization": 1354366,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5417424,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1354356,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354366,
+            "total_core_coefficients_plus_normalization": 1354366,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5417424,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14100.080636405037,
+          "selected_checkpoint_sha256": "7bf07fa92b42a86e9e5404f999c31bbfc7c017e0df4d79d07b35a6347db1aec8"
+        },
+        {
+          "seed": 931105,
+          "summary_sha256": "95def349ac8d06d70f023dd3196a6abd842feb89bf137721ba06bc21aea70cc6",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1354356,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354366,
+            "total_core_coefficients_plus_normalization": 1354366,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5417424,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1354356,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354366,
+            "total_core_coefficients_plus_normalization": 1354366,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5417424,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14099.733627557987,
+          "selected_checkpoint_sha256": "2e14b7d3e177f18fa957637f8386bb4f8c06d40bedee2ecd3b77e7140b875cdd"
+        }
+      ]
+    },
+    {
+      "name": "pinet",
+      "mechanism": "násobné polynomiálne príznaky",
+      "implemented_operation": "h=U0*x+b0; h=h*(1+Ui*x+bi), degree 3; width 618; affine 192",
+      "fitting": "gradient",
+      "reference_keys": [
+        "P08",
+        "P09"
+      ],
+      "implementation_limit": "CP-style vlastná rekurencia, nie presná reprodukcia všetkých Pi-Net variantov.",
+      "planned_recipe": {
+        "model": "pinet",
+        "width": 618,
+        "degree": 3,
+        "planned_core_coefficient_scalars": 1353612,
+        "planned_total_coefficient_scalars": 1353622,
+        "planned_total_fitted_scalars": 1353622,
+        "relative_budget_difference": 0.00021724223543738102,
+        "constructive_units_are_intended_not_yet_selected": false
+      },
+      "actual_runs": [
+        {
+          "seed": 931101,
+          "summary_sha256": "fea8aaa15b0176cac40d7abaae4ff5239e95cf9fe8a3848225a209f850bf86cd",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353612,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353622,
+            "total_core_coefficients_plus_normalization": 1353622,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5414448,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353612,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353622,
+            "total_core_coefficients_plus_normalization": 1353622,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5414448,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14100.006491893902,
+          "selected_checkpoint_sha256": "26a90de725595f9246797b9f924884dd6c3b32389769c3572df1ff0ec1911174"
+        },
+        {
+          "seed": 931102,
+          "summary_sha256": "c852adcf79906738d399d0697e5c34447340ac1b74e0808139be24de79f1098d",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353612,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353622,
+            "total_core_coefficients_plus_normalization": 1353622,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5414448,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353612,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353622,
+            "total_core_coefficients_plus_normalization": 1353622,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5414448,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14100.199845636962,
+          "selected_checkpoint_sha256": "d90db7e51b7c2b80dabc6e0a74c51d8a3d4e9a203cb70d096b3695ef1cd31040"
+        },
+        {
+          "seed": 931103,
+          "summary_sha256": "26c99b59275c4cac35c943fbb8d870db2ea670f7d3cc07b26d026fb313993d39",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353612,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353622,
+            "total_core_coefficients_plus_normalization": 1353622,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5414448,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353612,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353622,
+            "total_core_coefficients_plus_normalization": 1353622,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5414448,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14100.18441636092,
+          "selected_checkpoint_sha256": "6b668ab4af0de37c8157079fe6ec4666c299d62d0597712e985268e9f9c3d732"
+        },
+        {
+          "seed": 931104,
+          "summary_sha256": "f6457fbbbecad74f8c41f0d126b259b316549c8c93e717cc81113ea12df8fd31",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353612,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353622,
+            "total_core_coefficients_plus_normalization": 1353622,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5414448,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353612,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353622,
+            "total_core_coefficients_plus_normalization": 1353622,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5414448,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14099.750626594992,
+          "selected_checkpoint_sha256": "9d569cd55a486260322c2761bcb35d4c83785f946ae6969a56bc37715ea52d06"
+        },
+        {
+          "seed": 931105,
+          "summary_sha256": "71e459bcecc048e712943c485c9c90d04817a9ec1ed64415c277f4e9ffe392a0",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353612,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353622,
+            "total_core_coefficients_plus_normalization": 1353622,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5414448,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353612,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353622,
+            "total_core_coefficients_plus_normalization": 1353622,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5414448,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14100.192901439033,
+          "selected_checkpoint_sha256": "139c0a236a8bbb2453f0cf79d912ee94d80b628ade9324d02f1435fbc5a88b73"
+        }
+      ]
+    },
+    {
+      "name": "dendrite",
+      "mechanism": "násobné polynomiálne príznaky",
+      "implemented_operation": "base=affine(x); h=(Wi*h)*base dvakrát; width 636; affine 192",
+      "fitting": "gradient",
+      "reference_keys": [
+        "P10",
+        "P11",
+        "P12"
+      ],
+      "implementation_limit": "DD-style s učeným vstupným embeddingom, príbuzné PiNet.",
+      "planned_recipe": {
+        "model": "dendrite",
+        "width": 636,
+        "degree": 3,
+        "planned_core_coefficient_scalars": 1354872,
+        "planned_total_coefficient_scalars": 1354882,
+        "planned_total_fitted_scalars": 1354882,
+        "relative_budget_difference": 0.0011482803873118712,
+        "constructive_units_are_intended_not_yet_selected": false
+      },
+      "actual_runs": [
+        {
+          "seed": 931101,
+          "summary_sha256": "b773f8df3d739461b09e1e7403432a37894cc2de27bdc39f2595fb7b93bdfd8a",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1354872,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354882,
+            "total_core_coefficients_plus_normalization": 1354882,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5419488,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1354872,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354882,
+            "total_core_coefficients_plus_normalization": 1354882,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5419488,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14099.78555954597,
+          "selected_checkpoint_sha256": "cb2da16208ed7b9b48c5a3f0619978ea58f14cd2310318494c3cf49ff9c36660"
+        },
+        {
+          "seed": 931102,
+          "summary_sha256": "e9d3aeed570a0921bec5ca8bddb7833eafe6900ec3e124eaff276be11610ef03",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1354872,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354882,
+            "total_core_coefficients_plus_normalization": 1354882,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5419488,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1354872,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354882,
+            "total_core_coefficients_plus_normalization": 1354882,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5419488,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14100.169088786002,
+          "selected_checkpoint_sha256": "511470a398785bd1d4af7c4adc0affce7eee3395c578f39bcd4274c07252b371"
+        },
+        {
+          "seed": 931103,
+          "summary_sha256": "05ff80bbfbc3dd5414bacbbd7244c97d9c960936e2d170bf382b85c32f43def6",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1354872,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354882,
+            "total_core_coefficients_plus_normalization": 1354882,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5419488,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1354872,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354882,
+            "total_core_coefficients_plus_normalization": 1354882,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5419488,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14099.653486964991,
+          "selected_checkpoint_sha256": "6ffd7294b57f06c2beb227c410b4c68cef0fbed68e356717442f089e6ac97760"
+        },
+        {
+          "seed": 931104,
+          "summary_sha256": "2d5ea3ccef7f85d4a02662605675e62aa6861293a7de3b2173992cb3fa7d9271",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1354872,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354882,
+            "total_core_coefficients_plus_normalization": 1354882,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5419488,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1354872,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354882,
+            "total_core_coefficients_plus_normalization": 1354882,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5419488,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14100.222351688077,
+          "selected_checkpoint_sha256": "a4167357f96519d5937a315ffe6875ea1427ae47ce12c5204f95f613bdcd20b8"
+        },
+        {
+          "seed": 931105,
+          "summary_sha256": "bd8f8dd38adc3737b757c98616af90637b96671ea08b2654c7d85678fe708f7a",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1354872,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354882,
+            "total_core_coefficients_plus_normalization": 1354882,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5419488,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1354872,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1354882,
+            "total_core_coefficients_plus_normalization": 1354882,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5419488,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14099.942581831012,
+          "selected_checkpoint_sha256": "ef32d9c8ef0bf7dd17b06cadc84c503e9427b9587000c0882a7e4828d53ceacb"
+        }
+      ]
+    },
+    {
+      "name": "realnpu",
+      "mechanism": "učené mocniny a aritmetické interakcie",
+      "implemented_operation": "exp(W log(g|x|+eps+1-g))*cos(pi W[g*1(x<0)]); width 1578; affine 192",
+      "fitting": "gradient; gate projection [0,1]",
+      "reference_keys": [
+        "P14"
+      ],
+      "implementation_limit": "Presne v kóde radius=g*(abs(x)+eps)+(1-g); vlastný afinný výstup. Nejde o vynútenie PDE.",
+      "planned_recipe": {
+        "model": "realnpu",
+        "width": 1578,
+        "degree": null,
+        "planned_core_coefficient_scalars": 1353203,
+        "planned_total_coefficient_scalars": 1353213,
+        "planned_total_fitted_scalars": 1353213,
+        "relative_budget_difference": -8.497570433775108e-05,
+        "constructive_units_are_intended_not_yet_selected": false
+      },
+      "actual_runs": [
+        {
+          "seed": 931101,
+          "summary_sha256": "22c9518389f25c994dbc7b933a8e785d49bee1532a484707863096ccff1c42f3",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14099.490141206887,
+          "selected_checkpoint_sha256": "f7ff5098cf5555abee22834620fcc0ed9789a92c9fb36dadab78616c28cc2349"
+        },
+        {
+          "seed": 931102,
+          "summary_sha256": "f09b4e335992ad1e53e0e5e49631f335e59d41ebd86948c3ed096c92182d1b5d",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14100.47880059795,
+          "selected_checkpoint_sha256": "6293a9577c947d1c24520ef59235b034c9c0c7a8179e97f6636c10202ddca922"
+        },
+        {
+          "seed": 931103,
+          "summary_sha256": "b743dbb8a9b6069b8cebf5e0927da4301395087f23525eb05cf8194dd897ba84",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14099.729727120954,
+          "selected_checkpoint_sha256": "c9fb8f62a6d1394d3fff7651c6049c2965050e35e8616f919aa108f6d85b4f4a"
+        },
+        {
+          "seed": 931104,
+          "summary_sha256": "2454d40718932daafb62a7c83c9511982b5c6ca5baae0a5a49295c05bbbe0854",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14100.33122707007,
+          "selected_checkpoint_sha256": "57256ad464328114604bb6126f1a9e4d9140910fad9841ba15d4a49e1230e691"
+        },
+        {
+          "seed": 931105,
+          "summary_sha256": "9e88e9beb93e7ee0b3b368396e1797643a3f83c1aef602f65ba39eb5722f9a8c",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14100.049714389024,
+          "selected_checkpoint_sha256": "93601d7a9d86c7557b923650a853f04b0cbe98ad4d2c46a416c60cf6cbb4dbf5"
+        }
+      ]
+    },
+    {
+      "name": "rbf",
+      "mechanism": "radiálne bázy",
+      "implemented_operation": "1577 Gaussových báz; vzdialenosť delená 665; učené centrá a softplus šírky; affine 192",
+      "fitting": "gradient",
+      "reference_keys": [
+        "R02",
+        "P15",
+        "P17"
+      ],
+      "implementation_limit": "Konkrétna Gaussova adaptácia, nie multikvadriková/POD/kolokačná reprodukcia.",
+      "planned_recipe": {
+        "model": "rbf",
+        "width": 1577,
+        "degree": null,
+        "planned_core_coefficient_scalars": 1353258,
+        "planned_total_coefficient_scalars": 1353268,
+        "planned_total_fitted_scalars": 1353268,
+        "relative_budget_difference": -4.4335150089261435e-05,
+        "constructive_units_are_intended_not_yet_selected": false
+      },
+      "actual_runs": [
+        {
+          "seed": 931101,
+          "summary_sha256": "753cd57a90c56ef4f0c41d79e483e4cf6029c2391268aaf214f9e814c6af6648",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353258,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353268,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353258,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353268,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14099.844109861879,
+          "selected_checkpoint_sha256": "ea0449cd4711cc197855fd2482a26f716caaf8f4da100df52f16fa20615ef1c1"
+        },
+        {
+          "seed": 931102,
+          "summary_sha256": "7b77ff951a57fe4b32d224332802b1877ad2ff32c52f99d1e848124061085f9b",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353258,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353268,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353258,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353268,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14100.322722321027,
+          "selected_checkpoint_sha256": "1dc2c3443bfcc11ccd5fb8a7ff1578dbec8433948bf70f90dba90036706bb14e"
+        },
+        {
+          "seed": 931103,
+          "summary_sha256": "e4bb2fa5b7c44c63bb16090e716fc5cc37a00c1e4bc08ef45e1559f786f1192e",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353258,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353268,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353258,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353268,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14099.917564215022,
+          "selected_checkpoint_sha256": "37be3e974571844d697feead3b1c5c8c6b8642606a0d837df836c4478653614b"
+        },
+        {
+          "seed": 931104,
+          "summary_sha256": "a32c92d44e16a07e0458b627c4c8ae86c8b795d24d7e915eddf4543330a07a29",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353258,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353268,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353258,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353268,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14100.309315343038,
+          "selected_checkpoint_sha256": "a938617b9fedc769e379901d2bd053b2136a56a8f2133094dbf968e8eec4880f"
+        },
+        {
+          "seed": 931105,
+          "summary_sha256": "7cb08f7553e0094e953b4ba9f672d712626e8e58509df2b2c531482e56ab8235",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 1353258,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353268,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 1353258,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353268,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14100.012028057943,
+          "selected_checkpoint_sha256": "0327dc48aabedf1afd4eb99fd7955a24fd48d840514f93256d6028890a42bd71"
+        }
+      ]
+    },
+    {
+      "name": "elm",
+      "mechanism": "pevné náhodné príznaky",
+      "implemented_operation": "1577 fixných náhodných tanh báz + intercept; vážený ridge výstup",
+      "fitting": "globálne FP64 normálové rovnice; beta FP32; intercept bez penalizácie",
+      "reference_keys": [
+        "P21",
+        "P22",
+        "P23",
+        "P24"
+      ],
+      "implementation_limit": "Skryté váhy sa neučia; dlhšie čakanie po dokončení lineárneho fitu nie je ďalšie učenie.",
+      "planned_recipe": {
+        "model": "elm",
+        "width": 1577,
+        "degree": null,
+        "planned_core_coefficient_scalars": 1353258,
+        "planned_total_coefficient_scalars": 1353268,
+        "planned_total_fitted_scalars": 302986,
+        "relative_budget_difference": -4.4335150089261435e-05,
+        "constructive_units_are_intended_not_yet_selected": false
+      },
+      "actual_runs": [
+        {
+          "seed": 931101,
+          "summary_sha256": "08e161947f44b94c22e12292a9e4cb5dc444972d0adf792d0304b228f2e11fe7",
+          "stop_reason": "algorithm_completed",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 302986,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 1050282,
+            "learned_or_fitted_total": 302986,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 302986,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 1050282,
+            "learned_or_fitted_total": 302986,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 3.8774569879751652,
+          "selected_checkpoint_sha256": "91fd5866b611cf7c89202baac80c17c3099df2eb602a1530370c365886e394f2"
+        },
+        {
+          "seed": 931102,
+          "summary_sha256": "d87b2a220c121c2bfe3e5ef836e34de39b7b95c1c6a3135f8992cc4a916918b2",
+          "stop_reason": "algorithm_completed",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 302986,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 1050282,
+            "learned_or_fitted_total": 302986,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 302986,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 1050282,
+            "learned_or_fitted_total": 302986,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 5.179904713993892,
+          "selected_checkpoint_sha256": "50c584840d1e02974ffab23e5b572d80cbedfd79ff7b552b066d48b893972e0e"
+        },
+        {
+          "seed": 931103,
+          "summary_sha256": "d7c9b5a7e6174cf3ed1c38f808469356fec808612d20ab673de7644020188e27",
+          "stop_reason": "algorithm_completed",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 302986,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 1050282,
+            "learned_or_fitted_total": 302986,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 302986,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 1050282,
+            "learned_or_fitted_total": 302986,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 5.1153106349520385,
+          "selected_checkpoint_sha256": "c5aba384ef7f4420553544d38ee2079cbb5a87a2b3c71df0805ec46551a557ba"
+        },
+        {
+          "seed": 931104,
+          "summary_sha256": "2ab23850aafd7e14e1b1ed304b74ee5eeab448ccd3b738f8575aa7d9d8ec3d1d",
+          "stop_reason": "algorithm_completed",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 302986,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 1050282,
+            "learned_or_fitted_total": 302986,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 302986,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 1050282,
+            "learned_or_fitted_total": 302986,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 5.522050871979445,
+          "selected_checkpoint_sha256": "a89450cf16b4d6d6bfd1dd0bb74b13febcc35d6d76cc321f454aac06e24c8dc6"
+        },
+        {
+          "seed": 931105,
+          "summary_sha256": "3e96e568e253699ca863a50b0346e7d15d485a907565e6740ac9697cf2c5ef5c",
+          "stop_reason": "algorithm_completed",
+          "final_grown_units": 0,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 302986,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 1050282,
+            "learned_or_fitted_total": 302986,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 302986,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 1050282,
+            "learned_or_fitted_total": 302986,
+            "total_core_coefficients_plus_normalization": 1353268,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413032,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 8.539398260065354,
+          "selected_checkpoint_sha256": "cbaf0402583c74ca8c025dc466164a6ae140a0248fa1ca9519e388ef3f7161c1"
+        }
+      ]
+    },
+    {
+      "name": "scn",
+      "mechanism": "selektované náhodné príznaky",
+      "implemented_operation": "tanh rast 0..1577; pool 16 ×4 radii, 6 relaxácií; podmienka pre každý aktívny výstup",
+      "fitting": "globálny vážený ridge po každom prijatom neuróne; zastaví sa bez prípustného",
+      "reference_keys": [
+        "N03",
+        "N04",
+        "N05"
+      ],
+      "implementation_limit": "64 odlišných vektorov /384 hodnotení pri neúspešnom úplnom poole. Obmedzený pool a ridge sú explicitné voľby.",
+      "planned_recipe": {
+        "model": "scn",
+        "width": 1577,
+        "degree": null,
+        "planned_core_coefficient_scalars": 1353258,
+        "planned_total_coefficient_scalars": 1353268,
+        "planned_total_fitted_scalars": 1353268,
+        "relative_budget_difference": -4.4335150089261435e-05,
+        "constructive_units_are_intended_not_yet_selected": true
+      },
+      "actual_runs": [
+        {
+          "seed": 931101,
+          "summary_sha256": "f279c1099652f3daed94acc05f6df2f012dfc9d46ffd1f17547fd36fd4b66e2a",
+          "stop_reason": "no_admissible_candidate",
+          "final_grown_units": 559,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 107530,
+            "data_selected_frozen_real_scalars": 372294,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 479824,
+            "total_core_coefficients_plus_normalization": 479824,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 1919256,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 107530,
+            "data_selected_frozen_real_scalars": 372294,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 479824,
+            "total_core_coefficients_plus_normalization": 479824,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 1919256,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 218.64219907601364,
+          "selected_checkpoint_sha256": "4c46020570627cbf7840fccd010c4bada816037ebb66da765425d26eb0797560"
+        },
+        {
+          "seed": 931102,
+          "summary_sha256": "1baa5047c61ecca8cc0c68b5b144376032fd2ee7ab1c9932f2770f1108efe34b",
+          "stop_reason": "no_admissible_candidate",
+          "final_grown_units": 832,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 159946,
+            "data_selected_frozen_real_scalars": 554112,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 714058,
+            "total_core_coefficients_plus_normalization": 714058,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 2856192,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 159946,
+            "data_selected_frozen_real_scalars": 554112,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 714058,
+            "total_core_coefficients_plus_normalization": 714058,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 2856192,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 435.2785101759946,
+          "selected_checkpoint_sha256": "785e002006375b5bcbe152c140f1a9d527bf4017dd8e15ad35022674f4297152"
+        },
+        {
+          "seed": 931103,
+          "summary_sha256": "7814c39c9d6cc78434c35b0857a67c1278b2d06e28c4dccc64778f40aeb3c010",
+          "stop_reason": "no_admissible_candidate",
+          "final_grown_units": 724,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 139210,
+            "data_selected_frozen_real_scalars": 482184,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 621394,
+            "total_core_coefficients_plus_normalization": 621394,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 2485536,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 139210,
+            "data_selected_frozen_real_scalars": 482184,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 621394,
+            "total_core_coefficients_plus_normalization": 621394,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 2485536,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 338.40928601601627,
+          "selected_checkpoint_sha256": "847c8518365a4bb0572e9a8d41c33b035c842ffb266503cf6aa6fc0b3c4a0f64"
+        },
+        {
+          "seed": 931104,
+          "summary_sha256": "7ad113db76eb9d8ae25fb790e6125f62434a04cbbd104e1d22e068d0b57e84c6",
+          "stop_reason": "no_admissible_candidate",
+          "final_grown_units": 738,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 141898,
+            "data_selected_frozen_real_scalars": 491508,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 633406,
+            "total_core_coefficients_plus_normalization": 633406,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 2533584,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 141898,
+            "data_selected_frozen_real_scalars": 491508,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 633406,
+            "total_core_coefficients_plus_normalization": 633406,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 2533584,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 381.0882164699724,
+          "selected_checkpoint_sha256": "10f9ed5c1ce359c5ce3e404d065fede370d46d14ff62e6881f7a429657fc7807"
+        },
+        {
+          "seed": 931105,
+          "summary_sha256": "23730548772d50d04a4a508f280534217eeeb9b9a6406ff104e945b0cd87e1f2",
+          "stop_reason": "no_admissible_candidate",
+          "final_grown_units": 748,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 143818,
+            "data_selected_frozen_real_scalars": 498168,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 641986,
+            "total_core_coefficients_plus_normalization": 641986,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 2567904,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 143818,
+            "data_selected_frozen_real_scalars": 498168,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 641986,
+            "total_core_coefficients_plus_normalization": 641986,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 2567904,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 363.59427477396093,
+          "selected_checkpoint_sha256": "4cd9315d625f9f9eff6cdf6daf0de81a6c33cfbe2a1c6b97466c69f4a961fcff"
+        }
+      ]
+    },
+    {
+      "name": "cascor",
+      "mechanism": "učené rastúce príznaky",
+      "implemented_operation": "kapacita do 927 tanh jednotiek, každá vidí pôvodné príznaky a staršie jednotky; pool 8",
+      "fitting": "kandidát Adam .01 jednu epochu; kovariancia centrovaná v každom prípade; globálny vážený ridge výstup",
+      "reference_keys": [
+        "N01",
+        "N02",
+        "R03"
+      ],
+      "implementation_limit": "Centrovanie po prípadoch je prispôsobenie pôvodného globálneho cieľa, nie presná replikácia pôvodného algoritmu.",
+      "planned_recipe": {
+        "model": "cascor",
+        "width": 927,
+        "degree": null,
+        "planned_core_coefficient_scalars": 1352439,
+        "planned_total_coefficient_scalars": 1352449,
+        "planned_total_fitted_scalars": 1352449,
+        "relative_budget_difference": -0.00064950994880768,
+        "constructive_units_are_intended_not_yet_selected": true
+      },
+      "actual_runs": [
+        {
+          "seed": 931101,
+          "summary_sha256": "77f6618fae6b2558a307d0007259ec4786206d2265ddfd9e8dbb2bbf2fc1ec01",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 640,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 247807,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 247807,
+            "total_core_coefficients_plus_normalization": 247807,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 991188,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 881482,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 881482,
+            "total_core_coefficients_plus_normalization": 881482,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 3525888,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14025.469516959041,
+          "selected_checkpoint_sha256": "41f15af8db86efebe2db0c58ef6ef3ae03212d51808bd15702a09cd04bc7c929"
+        },
+        {
+          "seed": 931102,
+          "summary_sha256": "557f395d27873c2f68aa5a38e1908db8814c4b6e8bf3fb9fd14e2b4dbf0ad220",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 647,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 891989,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 891989,
+            "total_core_coefficients_plus_normalization": 891989,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 3567916,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 891989,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 891989,
+            "total_core_coefficients_plus_normalization": 891989,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 3567916,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14044.600513238925,
+          "selected_checkpoint_sha256": "c13909b97c63ff4db1f62316c5e1824436244099ad5ce533f74e18be2f36decd"
+        },
+        {
+          "seed": 931103,
+          "summary_sha256": "8bb8b31a6d6b4997c481f0fc61d4104c25447fdbc1cfbe71b2ec8e08bc4060a0",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 639,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 412882,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 412882,
+            "total_core_coefficients_plus_normalization": 412882,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 1651488,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 879985,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 879985,
+            "total_core_coefficients_plus_normalization": 879985,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 3519900,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14020.427127489005,
+          "selected_checkpoint_sha256": "0990472ca4f901036603c36e962c61e0898a3218451635c1cfb1e92055c22f27"
+        },
+        {
+          "seed": 931104,
+          "summary_sha256": "6659d9e75ae9c08c0df4f64dc0c37383729af1249ea5cec1efefc321f496e6bb",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 648,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 820925,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 820925,
+            "total_core_coefficients_plus_normalization": 820925,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 3283660,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 893494,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 893494,
+            "total_core_coefficients_plus_normalization": 893494,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 3573936,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14036.52442988602,
+          "selected_checkpoint_sha256": "6e071f1453e19682251b7481e58756cbada1b30b3c169b7f5e788f744f4d1d3c"
+        },
+        {
+          "seed": 931105,
+          "summary_sha256": "2020b5667971d4bbbf6b83d7142773a8c809b442378c04490accb7c98e81465f",
+          "stop_reason": "training_time_budget",
+          "final_grown_units": 646,
+          "selected_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 309905,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 309905,
+            "total_core_coefficients_plus_normalization": 309905,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 1239580,
+            "accounting_only": false
+          },
+          "last_parameter_ledger": {
+            "trainable_real_scalars": 0,
+            "data_fitted_frozen_real_scalars": 890485,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 890485,
+            "total_core_coefficients_plus_normalization": 890485,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 3561900,
+            "accounting_only": true
+          },
+          "allocation_elapsed_seconds": 14018.713845880004,
+          "selected_checkpoint_sha256": "44299be000c198cb3ebc5ec54d9a48fd66ac9ff5c46e271b67f394a671ca0a63"
+        }
+      ]
+    }
+  ],
+  "common_input": [
+    1,
+    665,
+    64,
+    64
+  ],
+  "common_output": [
+    1,
+    3,
+    512,
+    512
+  ],
+  "TRAIN": 640,
+  "VAL": 160,
+  "source_provenance": [
+    {
+      "path": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_fair_pilot_20261111_v2/revisions/r_0bc20031d1e9f75f/common.py",
+      "sha256": "ac850e10aed16f6200759f3864cebf5517e783269f48b755e199bdf45e500c7c"
+    },
+    {
+      "path": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_fair_pilot_20261111_v2/revisions/r_0bc20031d1e9f75f/field_adapter.py",
+      "sha256": "2471a365e3791398c7961636b477239c3cfaec08e95ac5f5a769d5ce108819fb"
+    },
+    {
+      "path": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_fair_pilot_20261111_v2/revisions/r_0bc20031d1e9f75f/operator_models.py",
+      "sha256": "7c376cec6ff10bde18f0f97736fed9c14ee8f389a3bd2085a81f786686517276"
+    },
+    {
+      "path": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_fair_pilot_20261111_v2/revisions/r_0bc20031d1e9f75f/weighted_fit.py",
+      "sha256": "499e2ddc571d3183353455ef08d74f199487ce137d6d8f43d84ad58ad900cae9"
+    },
+    {
+      "path": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_fair_pilot_20261111_v2/revisions/r_0bc20031d1e9f75f/train.py",
+      "sha256": "c4488d4c7272de439bb80c843004528fe9cc273bbe6b9a3bfa93255306af638d"
+    },
+    {
+      "path": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_fair_pilot_20261111_v2/revisions/r_0bc20031d1e9f75f/capacity_plan.json",
+      "sha256": "aba3f6dc9a45977b7224266ca581330a6ae49cb4e155e3ae455551e75ef50c57"
+    },
+    {
+      "path": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_pilot_20261110_v1/revisions/r_e9dafab653bac9e5/models.py",
+      "sha256": "2ee19101e62a09867807e36d1509f93f9afc7f262f5c13270aa4974fe6894f56"
+    }
+  ],
+  "limitations": [
+    "Identical tensors do not imply identical global spatial mixing; pointwise cores see distant geometry through fixed global descriptors.",
+    "One adapted implementation per family, not a test of every possible formulation.",
+    "Archived PINN auxiliary has a different encoder/loss/precision setup.",
+    "Dense FNO and second-chance extensions were added after primary TEST results were known.",
+    "Literature search does not establish universal novelty."
+  ],
+  "additional_dense_FNO": {
+    "recipe": {
+      "n_modes": [
+        32,
+        32
+      ],
+      "n_layers": 5,
+      "hidden_channels": 48,
+      "in_channels": 665,
+      "out_channels": 192,
+      "projection_channel_ratio": 4,
+      "lifting_channel_ratio": 2,
+      "factorization": null,
+      "rank": 1.0,
+      "implementation": "factorized",
+      "positional_embedding": "grid",
+      "fno_block_precision": "full",
+      "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+    },
+    "selected_configuration": {
+      "status": "DENSE_FNO_CONFIGURATION_FROZEN_FROM_TWO_ONE_HOUR_VAL_TRIALS",
+      "selection_uses_test": false,
+      "prior_original_test_results_known": true,
+      "selection_metric": "minimum complete mean raw case-balanced VAL loss; ties by configuration index",
+      "candidates": [
+        {
+          "configuration_index": 0,
+          "validation_loss": 0.0003613581081481243,
+          "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/tuning/fno_t0/best.pt",
+          "checkpoint_sha256": "4ce78d69aedc723036423f6270802e3eec31d57703ec02e763da9309667d3651",
+          "allocation_elapsed_seconds": 3421.4693497830303,
+          "stop_reason": "training_time_budget"
+        },
+        {
+          "configuration_index": 1,
+          "validation_loss": 0.0002554199451878958,
+          "checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/tuning/fno_t1/best.pt",
+          "checkpoint_sha256": "9ed95fd63615d6442930f53014060621be5523af89d0e50670cb5942f677b726",
+          "allocation_elapsed_seconds": 3421.6186686179135,
+          "stop_reason": "training_time_budget"
+        }
+      ],
+      "selected_configuration_index": 1,
+      "selected_tuning_checkpoint": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/tuning/fno_t1/best.pt",
+      "selected_tuning_checkpoint_sha256": "9ed95fd63615d6442930f53014060621be5523af89d0e50670cb5942f677b726",
+      "tasks": [
+        {
+          "id": "fno_s931101",
+          "model": "fno",
+          "seed": 931101,
+          "configuration_index": 1
+        },
+        {
+          "id": "fno_s931102",
+          "model": "fno",
+          "seed": 931102,
+          "configuration_index": 1
+        },
+        {
+          "id": "fno_s931103",
+          "model": "fno",
+          "seed": 931103,
+          "configuration_index": 1
+        },
+        {
+          "id": "fno_s931104",
+          "model": "fno",
+          "seed": 931104,
+          "configuration_index": 1
+        },
+        {
+          "id": "fno_s931105",
+          "model": "fno",
+          "seed": 931105,
+          "configuration_index": 1
+        }
+      ]
+    },
+    "actual_runs": [
+      {
+        "task": {
+          "model": "fno",
+          "seed": 931101,
+          "configuration_index": 1,
+          "learning_rate": 0.0003,
+          "ridge": 1e-06,
+          "time_budget_seconds": 14400,
+          "mode": "main"
+        },
+        "stop_reason": "training_time_budget",
+        "allocation_elapsed_seconds": 14101.668529208982,
+        "selected_parameter_ledger": {
+          "trainable_real_scalars": 12672888,
+          "data_fitted_frozen_real_scalars": 10,
+          "data_selected_frozen_real_scalars": 0,
+          "data_independent_core_real_scalars": 0,
+          "learned_or_fitted_total": 12672898,
+          "total_core_coefficients_plus_normalization": 12672898,
+          "common_adapter_buffer_bytes": 2459688,
+          "core_tensor_bytes": 50691552,
+          "accounting_only": false
+        },
+        "last_parameter_ledger": {
+          "trainable_real_scalars": 12672888,
+          "data_fitted_frozen_real_scalars": 10,
+          "data_selected_frozen_real_scalars": 0,
+          "data_independent_core_real_scalars": 0,
+          "learned_or_fitted_total": 12672898,
+          "total_core_coefficients_plus_normalization": 12672898,
+          "common_adapter_buffer_bytes": 2459688,
+          "core_tensor_bytes": 50691552,
+          "accounting_only": true
+        },
+        "selected_checkpoint_sha256": "4373bb94a8b3a41d4843a3a443c07cc0095e0fbf358a0ef91ac43343f8140381"
+      },
+      {
+        "task": {
+          "model": "fno",
+          "seed": 931102,
+          "configuration_index": 1,
+          "learning_rate": 0.0003,
+          "ridge": 1e-06,
+          "time_budget_seconds": 14400,
+          "mode": "main"
+        },
+        "stop_reason": "training_time_budget",
+        "allocation_elapsed_seconds": 14101.782146618934,
+        "selected_parameter_ledger": {
+          "trainable_real_scalars": 12672888,
+          "data_fitted_frozen_real_scalars": 10,
+          "data_selected_frozen_real_scalars": 0,
+          "data_independent_core_real_scalars": 0,
+          "learned_or_fitted_total": 12672898,
+          "total_core_coefficients_plus_normalization": 12672898,
+          "common_adapter_buffer_bytes": 2459688,
+          "core_tensor_bytes": 50691552,
+          "accounting_only": false
+        },
+        "last_parameter_ledger": {
+          "trainable_real_scalars": 12672888,
+          "data_fitted_frozen_real_scalars": 10,
+          "data_selected_frozen_real_scalars": 0,
+          "data_independent_core_real_scalars": 0,
+          "learned_or_fitted_total": 12672898,
+          "total_core_coefficients_plus_normalization": 12672898,
+          "common_adapter_buffer_bytes": 2459688,
+          "core_tensor_bytes": 50691552,
+          "accounting_only": true
+        },
+        "selected_checkpoint_sha256": "2b14df473f740d26c5bb3859000986cc9e7e90cb2535ccf06333545d5bed0d2d"
+      },
+      {
+        "task": {
+          "model": "fno",
+          "seed": 931103,
+          "configuration_index": 1,
+          "learning_rate": 0.0003,
+          "ridge": 1e-06,
+          "time_budget_seconds": 14400,
+          "mode": "main"
+        },
+        "stop_reason": "training_time_budget",
+        "allocation_elapsed_seconds": 14101.719740985078,
+        "selected_parameter_ledger": {
+          "trainable_real_scalars": 12672888,
+          "data_fitted_frozen_real_scalars": 10,
+          "data_selected_frozen_real_scalars": 0,
+          "data_independent_core_real_scalars": 0,
+          "learned_or_fitted_total": 12672898,
+          "total_core_coefficients_plus_normalization": 12672898,
+          "common_adapter_buffer_bytes": 2459688,
+          "core_tensor_bytes": 50691552,
+          "accounting_only": false
+        },
+        "last_parameter_ledger": {
+          "trainable_real_scalars": 12672888,
+          "data_fitted_frozen_real_scalars": 10,
+          "data_selected_frozen_real_scalars": 0,
+          "data_independent_core_real_scalars": 0,
+          "learned_or_fitted_total": 12672898,
+          "total_core_coefficients_plus_normalization": 12672898,
+          "common_adapter_buffer_bytes": 2459688,
+          "core_tensor_bytes": 50691552,
+          "accounting_only": true
+        },
+        "selected_checkpoint_sha256": "f9a4282192267c0fa319ae548c6a2e6b2f97be817472ef5d77ca4d958214fd43"
+      },
+      {
+        "task": {
+          "model": "fno",
+          "seed": 931104,
+          "configuration_index": 1,
+          "learning_rate": 0.0003,
+          "ridge": 1e-06,
+          "time_budget_seconds": 14400,
+          "mode": "main"
+        },
+        "stop_reason": "training_time_budget",
+        "allocation_elapsed_seconds": 14101.958909685956,
+        "selected_parameter_ledger": {
+          "trainable_real_scalars": 12672888,
+          "data_fitted_frozen_real_scalars": 10,
+          "data_selected_frozen_real_scalars": 0,
+          "data_independent_core_real_scalars": 0,
+          "learned_or_fitted_total": 12672898,
+          "total_core_coefficients_plus_normalization": 12672898,
+          "common_adapter_buffer_bytes": 2459688,
+          "core_tensor_bytes": 50691552,
+          "accounting_only": false
+        },
+        "last_parameter_ledger": {
+          "trainable_real_scalars": 12672888,
+          "data_fitted_frozen_real_scalars": 10,
+          "data_selected_frozen_real_scalars": 0,
+          "data_independent_core_real_scalars": 0,
+          "learned_or_fitted_total": 12672898,
+          "total_core_coefficients_plus_normalization": 12672898,
+          "common_adapter_buffer_bytes": 2459688,
+          "core_tensor_bytes": 50691552,
+          "accounting_only": true
+        },
+        "selected_checkpoint_sha256": "fa07f210327effb6908bb31e5f2514ed44fff912066e6b8fcc4df537491bfa70"
+      },
+      {
+        "task": {
+          "model": "fno",
+          "seed": 931105,
+          "configuration_index": 1,
+          "learning_rate": 0.0003,
+          "ridge": 1e-06,
+          "time_budget_seconds": 14400,
+          "mode": "main"
+        },
+        "stop_reason": "training_time_budget",
+        "allocation_elapsed_seconds": 14101.64769804012,
+        "selected_parameter_ledger": {
+          "trainable_real_scalars": 12672888,
+          "data_fitted_frozen_real_scalars": 10,
+          "data_selected_frozen_real_scalars": 0,
+          "data_independent_core_real_scalars": 0,
+          "learned_or_fitted_total": 12672898,
+          "total_core_coefficients_plus_normalization": 12672898,
+          "common_adapter_buffer_bytes": 2459688,
+          "core_tensor_bytes": 50691552,
+          "accounting_only": false
+        },
+        "last_parameter_ledger": {
+          "trainable_real_scalars": 12672888,
+          "data_fitted_frozen_real_scalars": 10,
+          "data_selected_frozen_real_scalars": 0,
+          "data_independent_core_real_scalars": 0,
+          "learned_or_fitted_total": 12672898,
+          "total_core_coefficients_plus_normalization": 12672898,
+          "common_adapter_buffer_bytes": 2459688,
+          "core_tensor_bytes": 50691552,
+          "accounting_only": true
+        },
+        "selected_checkpoint_sha256": "454150ebec948ae9d0121b75fbec17226caceca49d275e6a30d09bac54c18b80"
+      }
+    ],
+    "scope": "Supplement added after original TEST known; dense factorization, same resource allowance, actual larger coefficient count"
+  },
+  "auxiliary_PINN_resource_reference": {
+    "runs": [
+      {
+        "id": "fixed_k00",
+        "training_seconds": 13883.622661682894,
+        "process_wall_seconds": 13891.656468161964,
+        "child_cpu_seconds": 13796.726547000002,
+        "peak_cuda_allocated_bytes": 4962697216,
+        "epochs": 400,
+        "train_cases": 640,
+        "seed": 150001,
+        "environment": {
+          "torch": "2.12.0+cu130",
+          "numpy": "2.5.4",
+          "cuda": "13.0",
+          "device": "NVIDIA H200",
+          "parameters": 134922,
+          "seed": 150001,
+          "precision": "float32",
+          "allow_tf32": false,
+          "cudnn_allow_tf32": true,
+          "source_freeze": "c61230aa43a09ae18ac2f7b79a53dac33934227c42746bc31dfb3499e8f24e6b"
+        },
+        "process_exit": 0,
+        "process_timed_out": false,
+        "source_files": {
+          "training/summary.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k00/145176/training/summary.json",
+            "sha256": "df6e5315f6e8af025e2b357fcb5418b8784d5f7aa83b4d5cda19a4c96d64201c"
+          },
+          "training_process.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k00/145176/training_process.json",
+            "sha256": "9b361b7d7830ea54aacd8d5e2ce9aa94fdb99d764ceb52d388d56e9c84263e59"
+          },
+          "training/environment.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k00/145176/training/environment.json",
+            "sha256": "229c01174d8471fcaa8eb18491220cc0e9cfff7919664b6b8871ef55b0d0a9e0"
+          },
+          "training/config.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k00/145176/training/config.json",
+            "sha256": "323c020469c53a78cde2ba023d9e517eadd0ae6f4db1775b8082b09eb7a92122"
+          }
+        },
+        "active_H200_GPU_hours": 3.858793463378323,
+        "proportional_allocated_CPU_core_hours": 15.435173853513293,
+        "observed_child_CPU_core_hours": 3.832424040833334,
+        "observed_peak_CUDA_allocated_GiB": 4.6218719482421875
+      },
+      {
+        "id": "fixed_k01",
+        "training_seconds": 13826.933030450018,
+        "process_wall_seconds": 13834.665981961996,
+        "child_cpu_seconds": 13745.24514200001,
+        "peak_cuda_allocated_bytes": 4962697216,
+        "epochs": 400,
+        "train_cases": 640,
+        "seed": 150002,
+        "environment": {
+          "torch": "2.12.0+cu130",
+          "numpy": "2.5.4",
+          "cuda": "13.0",
+          "device": "NVIDIA H200",
+          "parameters": 134922,
+          "seed": 150002,
+          "precision": "float32",
+          "allow_tf32": false,
+          "cudnn_allow_tf32": true,
+          "source_freeze": "c61230aa43a09ae18ac2f7b79a53dac33934227c42746bc31dfb3499e8f24e6b"
+        },
+        "process_exit": 0,
+        "process_timed_out": false,
+        "source_files": {
+          "training/summary.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k01/145176/training/summary.json",
+            "sha256": "e891134055072a05ddc1069b8575087a5792e6e3c00753f59576eabb312c9218"
+          },
+          "training_process.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k01/145176/training_process.json",
+            "sha256": "9ed2e13840934303ee020aaf178b4597233f7b4a17518d92bd87c39218d79a61"
+          },
+          "training/environment.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k01/145176/training/environment.json",
+            "sha256": "5847afdf23690153da502f1a261d25ca4cd01762b340f53296ea9fd221843ede"
+          },
+          "training/config.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k01/145176/training/config.json",
+            "sha256": "339ed84073b24f9d9cf6dc6e383e15f93fd398232d2fb200b658c2d82f8b75e7"
+          }
+        },
+        "active_H200_GPU_hours": 3.8429627727672213,
+        "proportional_allocated_CPU_core_hours": 15.371851091068885,
+        "observed_child_CPU_core_hours": 3.8181236505555587,
+        "observed_peak_CUDA_allocated_GiB": 4.6218719482421875
+      },
+      {
+        "id": "fixed_k02",
+        "training_seconds": 14146.858000922017,
+        "process_wall_seconds": 14154.781295048015,
+        "child_cpu_seconds": 14065.428937999992,
+        "peak_cuda_allocated_bytes": 4962697216,
+        "epochs": 400,
+        "train_cases": 640,
+        "seed": 150003,
+        "environment": {
+          "torch": "2.12.0+cu130",
+          "numpy": "2.5.4",
+          "cuda": "13.0",
+          "device": "NVIDIA H200",
+          "parameters": 134922,
+          "seed": 150003,
+          "precision": "float32",
+          "allow_tf32": false,
+          "cudnn_allow_tf32": true,
+          "source_freeze": "c61230aa43a09ae18ac2f7b79a53dac33934227c42746bc31dfb3499e8f24e6b"
+        },
+        "process_exit": 0,
+        "process_timed_out": false,
+        "source_files": {
+          "training/summary.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k02/145176/training/summary.json",
+            "sha256": "2cf086c9c10036b4f3b5259f1fba5a5dde7ff8532ae8adad1333be53b08d101b"
+          },
+          "training_process.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k02/145176/training_process.json",
+            "sha256": "10e9662f8e5432bb7c41dae5cb4baf5d65b354404e6b4e6ac13d15f6fbfcef9e"
+          },
+          "training/environment.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k02/145176/training/environment.json",
+            "sha256": "b325a49d866b71fb1ae7bfbbdcae16d744717ff9b6541c5696ba3fe01a83caa3"
+          },
+          "training/config.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k02/145176/training/config.json",
+            "sha256": "48b1da49dc4d52e96b1d1d3d2b21a7f90c5aec9c6e4f0063cb7e99b90c77550e"
+          }
+        },
+        "active_H200_GPU_hours": 3.931883693068893,
+        "proportional_allocated_CPU_core_hours": 15.727534772275572,
+        "observed_child_CPU_core_hours": 3.9070635938888865,
+        "observed_peak_CUDA_allocated_GiB": 4.6218719482421875
+      },
+      {
+        "id": "fixed_k03",
+        "training_seconds": 14066.979835071019,
+        "process_wall_seconds": 14075.14646880608,
+        "child_cpu_seconds": 13982.549249999998,
+        "peak_cuda_allocated_bytes": 4962697216,
+        "epochs": 400,
+        "train_cases": 640,
+        "seed": 150004,
+        "environment": {
+          "torch": "2.12.0+cu130",
+          "numpy": "2.5.4",
+          "cuda": "13.0",
+          "device": "NVIDIA H200",
+          "parameters": 134922,
+          "seed": 150004,
+          "precision": "float32",
+          "allow_tf32": false,
+          "cudnn_allow_tf32": true,
+          "source_freeze": "c61230aa43a09ae18ac2f7b79a53dac33934227c42746bc31dfb3499e8f24e6b"
+        },
+        "process_exit": 0,
+        "process_timed_out": false,
+        "source_files": {
+          "training/summary.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k03/145176/training/summary.json",
+            "sha256": "95df4014bc5a8eac1c278194ad698ad0d0978f19e543467ea7745c89c247d294"
+          },
+          "training_process.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k03/145176/training_process.json",
+            "sha256": "75b1a7e9fbaf00a56b4c6cd7d47f4ef3f5f35bcdfc5f172e331603807c4430d5"
+          },
+          "training/environment.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k03/145176/training/environment.json",
+            "sha256": "6685c74c23b96c2b4bc5ddfaaa5f8dd01270d719f5db79822076c5e03a7df1ef"
+          },
+          "training/config.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k03/145176/training/config.json",
+            "sha256": "dd83942c7fa9e2e6aa36439fbbbdc50fa4850f105dc07ce70caba8565c0a35bf"
+          }
+        },
+        "active_H200_GPU_hours": 3.909762908001689,
+        "proportional_allocated_CPU_core_hours": 15.639051632006757,
+        "observed_child_CPU_core_hours": 3.884041458333333,
+        "observed_peak_CUDA_allocated_GiB": 4.6218719482421875
+      },
+      {
+        "id": "fixed_k04",
+        "training_seconds": 14050.663973426039,
+        "process_wall_seconds": 14058.73135091504,
+        "child_cpu_seconds": 13964.666956000005,
+        "peak_cuda_allocated_bytes": 4962697216,
+        "epochs": 400,
+        "train_cases": 640,
+        "seed": 150005,
+        "environment": {
+          "torch": "2.12.0+cu130",
+          "numpy": "2.5.4",
+          "cuda": "13.0",
+          "device": "NVIDIA H200",
+          "parameters": 134922,
+          "seed": 150005,
+          "precision": "float32",
+          "allow_tf32": false,
+          "cudnn_allow_tf32": true,
+          "source_freeze": "c61230aa43a09ae18ac2f7b79a53dac33934227c42746bc31dfb3499e8f24e6b"
+        },
+        "process_exit": 0,
+        "process_timed_out": false,
+        "source_files": {
+          "training/summary.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k04/145176/training/summary.json",
+            "sha256": "73e59b9dcaf8ac869a2f4f150194e318bf2e64b46a88867806f6e90d18ce700a"
+          },
+          "training_process.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k04/145176/training_process.json",
+            "sha256": "17d69ae800ffad545e1bb323d9add3e626e52ee43bcf20c3cffe526719a819e3"
+          },
+          "training/environment.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k04/145176/training/environment.json",
+            "sha256": "1c14479c50072fb315c0521cbaf1afedc05de28ffc08bbde542370e9b76f1221"
+          },
+          "training/config.json": {
+            "path": "/mnt/project/perun2601449/dp_llm_cfd/results/ldc_main_20261104_v33/main/executions/fixed_k04/145176/training/config.json",
+            "sha256": "aff6e0410482622b3591d2ce9f65a2ee3e074f5695737d2659b525ffbec9ad7c"
+          }
+        },
+        "active_H200_GPU_hours": 3.9052031530319558,
+        "proportional_allocated_CPU_core_hours": 15.620812612127823,
+        "observed_child_CPU_core_hours": 3.879074154444446,
+        "observed_peak_CUDA_allocated_GiB": 4.6218719482421875
+      }
+    ],
+    "worker_allocation_source": [
+      {
+        "line": 2,
+        "text": "#SBATCH --job-name=dp-ldc36-main16"
+      },
+      {
+        "line": 3,
+        "text": "#SBATCH --account=perun2601449"
+      },
+      {
+        "line": 4,
+        "text": "#SBATCH --qos=perun2601449"
+      },
+      {
+        "line": 5,
+        "text": "#SBATCH --partition=gpu_short"
+      },
+      {
+        "line": 6,
+        "text": "#SBATCH --nodes=2"
+      },
+      {
+        "line": 7,
+        "text": "#SBATCH --ntasks=16"
+      },
+      {
+        "line": 8,
+        "text": "#SBATCH --ntasks-per-node=8"
+      },
+      {
+        "line": 9,
+        "text": "#SBATCH --cpus-per-task=4"
+      },
+      {
+        "line": 10,
+        "text": "#SBATCH --gres=gpu:8"
+      },
+      {
+        "line": 11,
+        "text": "#SBATCH --mem=320G"
+      },
+      {
+        "line": 12,
+        "text": "#SBATCH --time=1-12:00:00"
+      },
+      {
+        "line": 13,
+        "text": "#SBATCH --export=NIL"
+      },
+      {
+        "line": 14,
+        "text": "#SBATCH --no-requeue"
+      },
+      {
+        "line": 15,
+        "text": "#SBATCH --output=logs/%x_%j.out"
+      },
+      {
+        "line": 16,
+        "text": "#SBATCH --error=logs/%x_%j.err"
+      },
+      {
+        "line": 20,
+        "text": "export OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=1 PYTHONNOUSERSITE=1"
+      },
+      {
+        "line": 29,
+        "text": "srun --export=ALL --nodes=2 --ntasks=16 --ntasks-per-node=8 --cpus-per-task=4 --gpus-per-task=1 --gpu-bind=single:1 \\"
+      },
+      {
+        "line": 32,
+        "text": "srun --export=ALL --nodes=2 --ntasks=16 --ntasks-per-node=8 --cpus-per-task=4 --gpus-per-task=1 --gpu-bind=single:1 --kill-on-bad-exit=0 \\"
+      }
+    ],
+    "training_source_sha256": "ff4360c9fa6b15d5248ea0cab3ae60246416c17aa4304d39edce1cc5232f4c21",
+    "status": "REFERENCE_PINN_RESOURCES_VERIFIED_FROM_FIVE_RUNS",
+    "reference_budget_derivation": "Ceiling of the slowest observed whole training subprocess walltime to a 15-minute allocation block on the same H200 hardware; all five baseline runs fit.",
+    "reference_H200s_per_worker": 1,
+    "reference_CPUs_per_worker": 4,
+    "reference_proportional_host_RAM_GiB": 40,
+    "reference_RAM_is_group_share_not_measured_per_process_peak": true,
+    "median_process_wall_seconds": 14058.73135091504,
+    "median_GPU_hours": 3.9052031530319558,
+    "maximum_process_wall_seconds": 14154.781295048015,
+    "minimum_process_wall_seconds": 13834.665981961996,
+    "common_budget_seconds": 14400,
+    "accounting_scope": "Active single-model training subprocess resource residence, includes process startup/teardown. Not per-model allocation of shared-group idle tails, not portal billing or measured FLOPs/energy.",
+    "historical_PINN_is_only_auxiliary_accuracy_reference": true,
+    "common_budget_selected_without_competitor_test_scores": true
+  }
+}

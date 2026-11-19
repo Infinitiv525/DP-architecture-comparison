@@ -1,0 +1,246 @@
+{
+  "status": "SYNTHETIC_DIAGNOSTICS_COMPLETE",
+  "scope": "Post-experiment implementation/representation diagnostics only; no CFD/TEST data, no changes to main models",
+  "seeds": [
+    191101,
+    191102,
+    191103
+  ],
+  "input_dimensions": 665,
+  "output_dimensions": 192,
+  "results": [
+    {
+      "test": "ELM_in_basis_positive_control",
+      "seed": 191101,
+      "train_mse": 1.0002833361483503e-15,
+      "validation_mse": 1.0512267563324209e-15,
+      "fit": {
+        "cases": 4,
+        "rows": 512,
+        "normal_equation_relative_residual": [
+          2.8500234733825996e-16,
+          2.9595228754125313e-16,
+          2.8059958304967033e-16
+        ],
+        "ridge": 1e-08
+      }
+    },
+    {
+      "test": "ELM_independent_smooth_target",
+      "seed": 191101,
+      "width": 16,
+      "train_mse": 0.9849303960800171,
+      "validation_mse": 1.0235865116119385
+    },
+    {
+      "test": "ELM_independent_smooth_target",
+      "seed": 191101,
+      "width": 64,
+      "train_mse": 0.8729753494262695,
+      "validation_mse": 1.2052029371261597
+    },
+    {
+      "test": "ELM_independent_smooth_target",
+      "seed": 191101,
+      "width": 256,
+      "train_mse": 0.49322354793548584,
+      "validation_mse": 1.784682035446167
+    },
+    {
+      "test": "SCN_known_admissible_candidate_positive_control",
+      "seed": 191101,
+      "before_mse": 0.07847711443901062,
+      "after_mse": 5.425877579561478e-18,
+      "metadata": {
+        "radius": 0.5,
+        "relaxation": 0.9,
+        "minimum_xi": 8.338162972488208,
+        "candidate_tests": 16
+      },
+      "scope": "Constructed algebraic witness, not an unbiased PDE or architecture benchmark"
+    },
+    {
+      "test": "CasCor_case_constant_nonlinear_mode",
+      "seed": 191101,
+      "before_mse": 0.06117590516805649,
+      "after_one_random_or_learned_node_mse": 0.06117589771747589,
+      "candidate_metadata": {
+        "candidate_correlation": 2.1751489498456067e-11,
+        "candidate_epochs": 1,
+        "candidate_train_case_visits": 8,
+        "candidate_train_row_visits": 1024
+      },
+      "global_teacher_covariance": 11093.5361328125,
+      "interpretation": "Per-case centering removes errors constant inside a case; a nonzero global witness does not prove this is the sole cause of FlowBench results"
+    },
+    {
+      "test": "CasCor_within_case_nonlinear_mode",
+      "seed": 191101,
+      "before_mse": 0.0511828176677227,
+      "after_mse": 0.04895423352718353,
+      "candidate_metadata": {
+        "candidate_correlation": 0.31515079736709595,
+        "candidate_epochs": 1,
+        "candidate_train_case_visits": 4,
+        "candidate_train_row_visits": 512
+      }
+    },
+    {
+      "test": "ELM_in_basis_positive_control",
+      "seed": 191102,
+      "train_mse": 9.132475244444187e-16,
+      "validation_mse": 1.0016019546889884e-15,
+      "fit": {
+        "cases": 4,
+        "rows": 512,
+        "normal_equation_relative_residual": [
+          2.753410424367411e-16,
+          3.334940356874997e-16,
+          2.9211878831915506e-16
+        ],
+        "ridge": 1e-08
+      }
+    },
+    {
+      "test": "ELM_independent_smooth_target",
+      "seed": 191102,
+      "width": 16,
+      "train_mse": 1.0484466552734375,
+      "validation_mse": 1.1710381507873535
+    },
+    {
+      "test": "ELM_independent_smooth_target",
+      "seed": 191102,
+      "width": 64,
+      "train_mse": 0.9476490616798401,
+      "validation_mse": 1.3130537271499634
+    },
+    {
+      "test": "ELM_independent_smooth_target",
+      "seed": 191102,
+      "width": 256,
+      "train_mse": 0.6075548529624939,
+      "validation_mse": 2.1886210441589355
+    },
+    {
+      "test": "SCN_known_admissible_candidate_positive_control",
+      "seed": 191102,
+      "before_mse": 0.04993726685643196,
+      "after_mse": 3.3621914050075384e-17,
+      "metadata": {
+        "radius": 0.5,
+        "relaxation": 0.9,
+        "minimum_xi": 0.6523519495041064,
+        "candidate_tests": 16
+      },
+      "scope": "Constructed algebraic witness, not an unbiased PDE or architecture benchmark"
+    },
+    {
+      "test": "CasCor_case_constant_nonlinear_mode",
+      "seed": 191102,
+      "before_mse": 0.06117590516805649,
+      "after_one_random_or_learned_node_mse": 0.061143361032009125,
+      "candidate_metadata": {
+        "candidate_correlation": 1.6110723866091803e-11,
+        "candidate_epochs": 1,
+        "candidate_train_case_visits": 8,
+        "candidate_train_row_visits": 1024
+      },
+      "global_teacher_covariance": 11093.5361328125,
+      "interpretation": "Per-case centering removes errors constant inside a case; a nonzero global witness does not prove this is the sole cause of FlowBench results"
+    },
+    {
+      "test": "CasCor_within_case_nonlinear_mode",
+      "seed": 191102,
+      "before_mse": 0.0511828176677227,
+      "after_mse": 0.04829081520438194,
+      "candidate_metadata": {
+        "candidate_correlation": 0.3264007568359375,
+        "candidate_epochs": 1,
+        "candidate_train_case_visits": 4,
+        "candidate_train_row_visits": 512
+      }
+    },
+    {
+      "test": "ELM_in_basis_positive_control",
+      "seed": 191103,
+      "train_mse": 1.0248395624430813e-15,
+      "validation_mse": 1.0886368134808543e-15,
+      "fit": {
+        "cases": 4,
+        "rows": 512,
+        "normal_equation_relative_residual": [
+          2.8095859853973917e-16,
+          2.842237563473076e-16,
+          2.6460735274133544e-16
+        ],
+        "ridge": 1e-08
+      }
+    },
+    {
+      "test": "ELM_independent_smooth_target",
+      "seed": 191103,
+      "width": 16,
+      "train_mse": 1.0069681406021118,
+      "validation_mse": 0.996446967124939
+    },
+    {
+      "test": "ELM_independent_smooth_target",
+      "seed": 191103,
+      "width": 64,
+      "train_mse": 0.919818639755249,
+      "validation_mse": 1.0858922004699707
+    },
+    {
+      "test": "ELM_independent_smooth_target",
+      "seed": 191103,
+      "width": 256,
+      "train_mse": 0.5414275527000427,
+      "validation_mse": 1.944006085395813
+    },
+    {
+      "test": "SCN_known_admissible_candidate_positive_control",
+      "seed": 191103,
+      "before_mse": 0.0649535283446312,
+      "after_mse": 1.82883148339472e-17,
+      "metadata": {
+        "radius": 0.5,
+        "relaxation": 0.9,
+        "minimum_xi": 2.1713222321827983,
+        "candidate_tests": 16
+      },
+      "scope": "Constructed algebraic witness, not an unbiased PDE or architecture benchmark"
+    },
+    {
+      "test": "CasCor_case_constant_nonlinear_mode",
+      "seed": 191103,
+      "before_mse": 0.06117590516805649,
+      "after_one_random_or_learned_node_mse": 0.06105631962418556,
+      "candidate_metadata": {
+        "candidate_correlation": 2.6298074828901008e-11,
+        "candidate_epochs": 1,
+        "candidate_train_case_visits": 8,
+        "candidate_train_row_visits": 1024
+      },
+      "global_teacher_covariance": 11093.5361328125,
+      "interpretation": "Per-case centering removes errors constant inside a case; a nonzero global witness does not prove this is the sole cause of FlowBench results"
+    },
+    {
+      "test": "CasCor_within_case_nonlinear_mode",
+      "seed": 191103,
+      "before_mse": 0.0511828176677227,
+      "after_mse": 0.04649503901600838,
+      "candidate_metadata": {
+        "candidate_correlation": 0.4239310324192047,
+        "candidate_epochs": 1,
+        "candidate_train_case_visits": 4,
+        "candidate_train_row_visits": 512
+      }
+    }
+  ],
+  "source_sha256": {
+    "weighted_fit.py": "499e2ddc571d3183353455ef08d74f199487ce137d6d8f43d84ad58ad900cae9",
+    "operator_models.py": "7c376cec6ff10bde18f0f97736fed9c14ee8f389a3bd2085a81f786686517276"
+  },
+  "job": "166798"
+}

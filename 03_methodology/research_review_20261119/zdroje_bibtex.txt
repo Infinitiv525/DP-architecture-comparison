@@ -1,0 +1,277 @@
+% Zdrojove zaznamy prevzate z predexperimentovej resersnej evidencie; rozsah precitania odlisuje sprava.
+
+@inproceedings{P01_Li2021FNO,
+  author = {Li, Zongyi and Kovachki, Nikola and Azizzadenesheli, Kamyar and Liu, Burigede and Bhattacharya, Kaushik and Stuart, Andrew and Anandkumar, Anima},
+  title = {{Fourier Neural Operator for Parametric Partial Differential Equations}},
+  booktitle = {International Conference on Learning Representations},
+  year = {2021},
+  eprint = {2010.08895},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2010.08895}
+}
+
+@misc{P02_Tali2024FlowBench,
+  author = {Tali, Ronak and Rabeh, Ali and Yang, Cheng-Hau and Shadkhah, Mehdi and Karki, Samundra and Upadhyaya, Abhisek and Dhakshinamoorthy, Suriya and Saadati, Marjan and Sarkar, Soumik and Krishnamurthy, Adarsh and Hegde, Chinmay and Balu, Aditya and Ganapathysubramanian, Baskar},
+  title = {{FlowBench: A Large Scale Benchmark for Flow Simulation over Complex Geometries}},
+  year = {2024},
+  eprint = {2409.18032},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2409.18032},
+  note = {Preprint version used in this review; author code: baskargroup/flowbench-tools}
+}
+
+@article{P03_Raissi2019PINN,
+  author = {Raissi, Maziar and Perdikaris, Paris and Karniadakis, George Em},
+  title = {{Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations}},
+  journal = {Journal of Computational Physics},
+  volume = {378},
+  pages = {686--707},
+  year = {2019},
+  doi = {10.1016/j.jcp.2018.10.045},
+  url = {https://doi.org/10.1016/j.jcp.2018.10.045}
+}
+
+@article{P04_Shukla2024FAIRKAN,
+  author = {Shukla, Khemraj and Toscano, Juan Diego and Wang, Zhicheng and Zou, Zongren and Karniadakis, George Em},
+  title = {{A comprehensive and FAIR comparison between MLP and KAN representations for differential equations and operator networks}},
+  journal = {Computer Methods in Applied Mechanics and Engineering},
+  volume = {431},
+  pages = {117290},
+  year = {2024},
+  doi = {10.1016/j.cma.2024.117290},
+  url = {https://arxiv.org/abs/2406.02917}
+}
+
+@misc{P05_Guo2024ChebPIKAN,
+  author = {Guo, Chunyu and Sun, Lucheng and Li, Shilong and Yuan, Zelong and Wang, Chao},
+  title = {{Physics-informed Kolmogorov-Arnold Network with Chebyshev Polynomials for Fluid Mechanics}},
+  year = {2024},
+  eprint = {2411.04516},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2411.04516},
+  note = {Read version v3, 2025-08-14}
+}
+
+@misc{P06_Kashefi2025PIKANPointNet,
+  author = {Kashefi, Ali and Mukerji, Tapan},
+  title = {{Physics-informed KAN PointNet: Deep learning for simultaneous solutions to inverse problems in incompressible flow on numerous irregular geometries}},
+  year = {2025},
+  eprint = {2504.06327},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2504.06327},
+  note = {Read version v1}
+}
+
+@misc{P08_Chrysos2020PolynomialNets,
+  author = {Chrysos, Grigorios and Moschoglou, Stylianos and Bouritsas, Giorgos and Deng, Jiankang and Panagakis, Yannis and Zafeiriou, Stefanos},
+  title = {{Deep Polynomial Neural Networks}},
+  year = {2020},
+  eprint = {2006.13026},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2006.13026},
+  note = {Architecture origin; preprint record, later TPAMI article}
+}
+
+@article{P09_Fronk2023PolynomialNODE,
+  author = {Fronk, Colby and Petzold, Linda},
+  title = {{Interpretable polynomial neural ordinary differential equations}},
+  journal = {Chaos: An Interdisciplinary Journal of Nonlinear Science},
+  volume = {33},
+  number = {4},
+  pages = {043101},
+  year = {2023},
+  doi = {10.1063/5.0130803},
+  url = {https://arxiv.org/abs/2208.05072},
+  note = {Relevant full text inspected in the arXiv preprint; publisher full text was inaccessible}
+}
+
+@misc{P10_Liu2020Dendrite,
+  author = {Liu, Gang and Wang, Jing},
+  title = {{Dendrite Net: A White-Box Module for Classification, Regression, and System Identification}},
+  year = {2020},
+  eprint = {2004.03955},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2004.03955},
+  note = {Preprint record; last revision 2021-11-19}
+}
+
+@article{P11_Ding2022DendriteFan,
+  author = {Ding, Yanyan and Wang, Jun and Jiang, Boyan and Li, Zhiang and Xiao, Qianhao and Wu, Lanyong and Xie, Bochao},
+  title = {{Multi-Objective Optimization for the Radial Bending and Twisting Law of Axial Fan Blades}},
+  journal = {Processes},
+  volume = {10},
+  number = {4},
+  pages = {753},
+  year = {2022},
+  doi = {10.3390/pr10040753},
+  url = {https://www.mdpi.com/2227-9717/10/4/753}
+}
+
+@article{P12_Chen2026DendriteAircraft,
+  author = {Chen, Yuyan and Wang, Wei and Ni, Zijian and Zhang, Puxi and Wang, Yuchen and Ji, Yi},
+  title = {{Neural-network-based aerodynamic modeling and fixed-time neuro-adaptive control of a novel diamond-wing morphing aircraft}},
+  journal = {Aerospace Science and Technology},
+  volume = {176},
+  pages = {112682},
+  year = {2026},
+  doi = {10.1016/j.ast.2026.112682},
+  url = {https://doi.org/10.1016/j.ast.2026.112682}
+}
+
+@inproceedings{P14_Heim2020NPU,
+  author = {Heim, Niklas and Pevný, Tomáš and Šmídl, Václav},
+  title = {{Neural Power Units}},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume = {33},
+  year = {2020},
+  eprint = {2006.01681},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2006.01681}
+}
+
+@article{P15_MaiDuy2001RBFNavierStokes,
+  author = {Mai-Duy, Nam and Tran-Cong, Thanh},
+  title = {{Numerical solution of Navier-Stokes equations using multiquadric radial basis function networks}},
+  journal = {International Journal for Numerical Methods in Fluids},
+  volume = {37},
+  number = {1},
+  pages = {65--86},
+  year = {2001},
+  doi = {10.1002/fld.165},
+  url = {https://doi.org/10.1002/fld.165},
+  note = {Publisher-deposited abstract accessed via Crossref; full text not inspected}
+}
+
+@article{P17_Min2024PODRBFNN,
+  author = {Min, Guangyun and Jiang, Naibin},
+  title = {{Flow fields prediction for data-driven model of parallel twin cylinders based on POD-RBFNN and POD-BPNN surrogate models}},
+  journal = {Annals of Nuclear Energy},
+  volume = {199},
+  pages = {110342},
+  year = {2024},
+  doi = {10.1016/j.anucene.2024.110342},
+  url = {https://doi.org/10.1016/j.anucene.2024.110342}
+}
+
+@article{P21_San2018ELMTurbulence,
+  author = {San, Omer and Maulik, Romit},
+  title = {{Extreme learning machine for reduced order modeling of turbulent geophysical flows}},
+  journal = {Physical Review E},
+  volume = {97},
+  number = {4},
+  pages = {042322},
+  year = {2018},
+  doi = {10.1103/PhysRevE.97.042322},
+  url = {https://arxiv.org/abs/1803.00222}
+}
+
+@article{P22_Dwivedi2020PIELM,
+  author = {Dwivedi, Vikas and Srinivasan, Balaji},
+  title = {{Physics Informed Extreme Learning Machine (PIELM)--A rapid method for the numerical solution of partial differential equations}},
+  journal = {Neurocomputing},
+  volume = {391},
+  pages = {96--118},
+  year = {2020},
+  doi = {10.1016/j.neucom.2019.12.099},
+  url = {https://arxiv.org/abs/1907.03507}
+}
+
+@misc{P23_Dwivedi2025CurriculumPIELM,
+  author = {Dwivedi, Vikas and Sixou, Bruno and Sigovan, Monica},
+  title = {{Curriculum Learning-Driven PIELMs for Fluid Flow Simulations}},
+  year = {2025},
+  eprint = {2503.06347},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2503.06347},
+  note = {Read preprint v1}
+}
+
+@article{P24_Dong2021LocalELM,
+  author = {Dong, Suchuan and Li, Zongwei},
+  title = {{Local extreme learning machines and domain decomposition for solving linear and nonlinear partial differential equations}},
+  journal = {Computer Methods in Applied Mechanics and Engineering},
+  volume = {387},
+  pages = {114129},
+  year = {2021},
+  doi = {10.1016/j.cma.2021.114129},
+  url = {https://arxiv.org/abs/2012.02895}
+}
+
+@inproceedings{N01_Fahlman1990CascadeCorrelation,
+  author = {Fahlman, Scott E. and Lebiere, Christian},
+  title = {{The Cascade-Correlation Learning Architecture}},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume = {2},
+  year = {1990},
+  url = {https://papers.nips.cc/paper_files/paper/1989/hash/69adc1e107f7f7d035d7baf04342e1ca-Abstract.html},
+  note = {NIPS 1989 proceedings; inspected author report CMU-CS-90-100 in revision dated 1991-08-29}
+}
+
+@article{N02_Karunanithi1994RiverFlow,
+  author = {Karunanithi, Nachimuthu and Grenney, William J. and Whitley, Darrell and Bovee, Ken},
+  title = {{Neural Networks for River Flow Prediction}},
+  journal = {Journal of Computing in Civil Engineering},
+  volume = {8},
+  number = {2},
+  year = {1994},
+  doi = {10.1061/(ASCE)0887-3801(1994)8:2(201)},
+  url = {https://www.usgs.gov/publications/neural-networks-river-flow-prediction},
+  note = {Cascade-correlation application; primary author-institution abstract}
+}
+
+@article{N03_Wang2017SCN,
+  author = {Wang, Dianhui and Li, Ming},
+  title = {{Stochastic Configuration Networks: Fundamentals and Algorithms}},
+  journal = {IEEE Transactions on Cybernetics},
+  volume = {47},
+  number = {10},
+  pages = {3466--3479},
+  year = {2017},
+  doi = {10.1109/TCYB.2017.2734043},
+  url = {https://arxiv.org/abs/1702.03180}
+}
+
+@article{N04_Xu2025PhysicsSCN,
+  author = {Xu, Lei and Yang, Chunhua and Xu, Xiaodong and Luo, Biao and Huang, Tingwen},
+  title = {{Physics-informed stochastic configuration network promoted model predictive control with multi-objective optimization}},
+  journal = {Artificial Intelligence Review},
+  volume = {58},
+  pages = {281},
+  year = {2025},
+  doi = {10.1007/s10462-025-11278-8},
+  url = {https://link.springer.com/article/10.1007/s10462-025-11278-8}
+}
+
+@misc{N05_Song2026PISCM,
+  author = {Song, Yuehao and Chen, Zhong and Cen, Lihui and Wu, Liang and Zhang, Kai},
+  title = {{Physics-Informed Stochastic Configuration Machine: A Backpropagation-Free Neural Network with Fast Training for Nonlinear Differential Equations}},
+  year = {2026},
+  eprint = {2608.26549},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2608.26549},
+  note = {Related PI-SCM variant; inspected preprint v1, 2026-08-27}
+}
+
+@misc{R01_Sidharth2024ChebKAN,
+  author = {{Sidharth SS} and {Keerthana AR} and {Gokul R} and {Anas KP}},
+  title = {Chebyshev Polynomial-Based Kolmogorov-Arnold Networks: An Efficient Architecture for Nonlinear Function Approximation},
+  year = {2024}, eprint = {2405.07200}, archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2405.07200}, note = {Architecture origin; primary abstract and metadata checked 2026-11-19}
+}
+
+@article{R02_Broomhead1988RBF,
+  author = {Broomhead, D. S. and Lowe, David},
+  title = {Multivariable Functional Interpolation and Adaptive Networks},
+  journal = {Complex Systems}, volume = {2}, number = {3}, year = {1988},
+  url = {https://www.complex-systems.com/abstracts/v02_i03_a05/},
+  note = {Primary publisher abstract; origin of radial basis network formulation}
+}
+
+@inproceedings{R03_Bitsuamlak1999CasCorWind,
+  author = {Bitsuamlak, G. T. and Godbole, P. N.},
+  title = {Application of cascade correlation neural network for determination of wind pressure distribution in buildings},
+  booktitle = {10th International Conference on Industrial Aerodynamics and Wind Engineering},
+  year = {1999}, pages = {1491--1497}, address = {Denmark},
+  url = {https://www.eng.uwo.ca/civil/faculty/bitsuamlak_g/publications.html},
+  note = {Bibliographic entry verified on author university page; conference full text not inspected}
+}

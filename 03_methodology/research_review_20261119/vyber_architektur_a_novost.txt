@@ -1,0 +1,88 @@
+VÝBER ARCHITEKTÚR A HRANICE TVRDENÍ O NOVOSTI
+Kontrola k 19. 11. 2026. Ide o dodatočnú kontrolu zdôvodnení a finálneho kódu; nejde o novú predregistráciu ani o zmenu pôvodných výsledkov.
+
+1. Čo skúmame a prečo tieto rodiny
+
+Úloha je spoločné dopredné zobrazenie geometria + Reynoldsovo číslo -> ustálené 2D polia u, v, p z FlowBench LDC. Nejde o integráciu celej časovej trajektórie ani o sieť pre každú simuláciu. Hlavný experiment má deväť formulácií × päť nezávislých semien; husté FNO bolo pridané osobitne a pôvodné PINN je pomocné porovnanie.
+
+Výber je zámerný výber odlišných aproximačných a učiacich mechanizmov, nie náhodná reprezentatívna vzorka všetkých sietí a nie rebríček desiatich najnovších architektúr. Predexperimentové návrhy v4–v6 a požiadavka vedúceho na KAN sú súčasťou pôvodu výberu. Nasledujúce dôvody sú spätne skontrolované proti implementácii; nevytvárame dodatočné číselné skóre, ktoré pri výbere neexistovalo.
+
+- TFNO: referenčný priestorový operátor nadväzujúci na autorský kód FlowBench. Kontroluje, či priestorové Fourierovo miešanie a nízkorozmerná faktorizácia spektrálnych váh pomáhajú pri danej cene učenia.
+- ChebKAN: nelineárne učené funkcie na hranách vyjadrené Chebyshevovými polynómami. Je to zámerný známy fyzikálny kandidát a požiadavka vedúceho, nie nová aplikácia KAN vo fyzike.
+- PiNet: násobné polynomiálne interakcie bez potreby vyjadrovať ich iba skladaním bežných aktivácií. Overuje inú parametrizáciu interakcií geometrie a Re.
+- Dendrite Net: opakované násobenie transformovanej skrytej reprezentácie vloženým vstupom. S PiNet patrí do príbuznej polynomiálnej skupiny, nejde o úplne nezávislý princíp; porovnávame dve konkrétne rekurencie.
+- RealNPU: mocniny a súčiny s učenými exponentmi a bránami. Má motiváciu v algebraických vzťahoch fyziky, ale samotná voľba operácií nevynucuje Navierove–Stokesove rovnice.
+- RBF: lokálne radiálne bázy, učené centrá a šírky. Predstavuje odlišný spôsob aproximácie závislý od vzdialenosti vstupu od centier.
+- ELM: pevné náhodné nelineárne príznaky a globálne vážené lineárne riešenie výstupu. Kontroluje, koľko možno dosiahnuť bez gradientového učenia skrytých príznakov.
+- SCN: náhodné príznaky vyberané podľa rezídua a rastúca sieť. S ELM porovnáva selekciu príznakov namiesto ich čisto náhodného ponechania.
+- CasCor: rastúca sieť s učením nového príznaku podľa korelácie s rezíduom, zmrazením už pridaných jednotiek a novým riešením výstupu. Dopĺňa ELM/SCN o gradientové učenie kandidáta.
+
+RBF, ELM, SCN a CasCor nie sú považované za nové len preto, že sú menej bežné než FNO. Spoločný vstupný a výstupný formát a meraná spotreba umožňujú skúmať ich konkrétne prispôsobenia na túto úlohu. Wavelet NN a Fourier-INR boli na žiadosť používateľa vyradené pred finálnym porovnaním.
+
+2. Čo už existuje v literatúre
+
+Rozlišujeme pôvod architektúry, použitie vo fyzikálnych systémoch, použitie pri prúdení a presnú zhodu s našou doprednou úlohou. Nedohľadanie presnej zhody nie je dôkaz prvenstva.
+
+TFNO/FNO: Li et al. [P01] je pôvod FNO; FlowBench [P02] a jeho autorský FNO.py priamo inštancujú TFNO. Preto TFNO nie je chýbajúci autorský baseline a dodatočné husté FNO nie je oprava údajne nesprávneho názvu. Používame neuraloperator 2.0.0 s vlastným spoločným rozhraním; nereplikujeme presné tabuľkové skóre článku.
+https://arxiv.org/abs/2010.08895
+https://arxiv.org/abs/2409.18032
+https://github.com/baskargroup/flowbench-tools/blob/6877099b8883232138c73b2b6056ff01f7d3697b/Training/codes/models/FNO.py
+
+ChebKAN: pôvod polynomiálnej varianty je Sidharth et al. [R01]; Shukla et al. [P04] porovnávajú KAN/MLP pri diferenciálnych rovniciach a operátoroch, ChebPIKAN [P05] rieši mechaniku tekutín. KAN PointNet [P06] navyše rieši viaceré nepravidelné geometrie, avšak ide o inú, inverznú úlohu. Tvrdenie „KAN sa ešte nepoužil vo fyzike/prúdení“ je nesprávne.
+https://arxiv.org/abs/2405.07200
+https://arxiv.org/abs/2406.02917
+https://arxiv.org/abs/2411.04516
+https://arxiv.org/abs/2504.06327
+
+PiNet: Chrysos et al. [P08] poskytujú polynomiálne siete; Fronk a Petzold [P09] používajú polynomiálne neural ODE pri dynamických systémoch. Príbuznosť nie je identita s našou kubickou patchovou doprednou sieťou; nemožno tvrdiť prvé použitie polynomiálnych sietí vo fyzike.
+https://arxiv.org/abs/2006.13026
+https://arxiv.org/abs/2208.05072
+
+Dendrite: pôvod [P10]; [P11] obsahuje Dendrite Net pri optimalizácii axiálneho ventilátora na CFD dátach, predikuje však výkonové koeficienty, nie naše úplné u/v/p polia. [P12] je ďalší aerodynamický precedent; pri ňom bol dostupný abstrakt, nie plný text. Žiadne tvrdenie o absencii CFD použitia nie je obhájiteľné.
+https://arxiv.org/abs/2004.03955
+https://www.mdpi.com/2227-9717/10/4/753
+https://doi.org/10.1016/j.ast.2026.112682
+
+RealNPU: Heim et al. [P14] už obsahujú modelovanie dynamického systému fSIR. Je to príbuzná fyzikálna/dynamická aplikácia, nie dôkaz rovnakej CFD úlohy. V obmedzenej rešerši sa nepotvrdila presná zhoda RealNPU -> celé ustálené polia FlowBench; nesmie sa to premeniť na tvrdenie „nikto to nepoužil“.
+https://arxiv.org/abs/2006.01681
+
+RBF: už klasický pôvod [R02]; Navierove–Stokesove rovnice [P15] a POD-RBFNN predikcia prúdenia okolo dvojice valcov [P17]. U P15/P17 rozlišujeme vydavateľský abstrakt od prečítaného plného textu; už abstrakty stačia vyvrátiť všeobecné tvrdenie nepoužitia pri prúdení. Konkrétne multikvadriky/POD varianty nie sú naša Gaussova báza v spoločnom rozhraní.
+https://www.complex-systems.com/abstracts/v02_i03_a05/
+https://doi.org/10.1002/fld.165
+https://doi.org/10.1016/j.anucene.2024.110342
+
+ELM: prúdenie už v San/Maulik [P21]; PIELM [P22], lokálne ELM [P24] a curriculum PIELM pre prúdenie [P23]. Naše ELM používa dátové vážené regresné riešenie, nie PDE kolokáciu z týchto prác. Nie je to nové prvé ELM vo fyzike.
+https://arxiv.org/abs/1803.00222
+https://arxiv.org/abs/1907.03507
+https://arxiv.org/abs/2012.02895
+https://arxiv.org/abs/2503.06347
+
+SCN: pôvod [N03]; physics-informed SCN pre fyzikálny priemyselný proces a prediktívne riadenie [N04]. Príbuzná PI-SCM [N05] rieši diferenciálne rovnice, ale je to odlišná varianta stroja. Preto nemožno tvrdiť prvé SCN/príbuznej konštruktívnej rodiny vo fyzikálnom modelovaní. Abstrakty týchto aplikácií nie sú dôkazom rovnakej úplnej CFD úlohy.
+https://arxiv.org/abs/1702.03180
+https://link.springer.com/article/10.1007/s10462-025-11278-8
+https://arxiv.org/abs/2608.26549
+
+CasCor: pôvod [N01]; riečne prietoky už v roku 1994 [N02], čo je hydrológia, nie priestorové riešenie Navierových–Stokesových rovníc. Autorská univerzitná bibliografia navyše uvádza CasCor pre rozdelenie tlaku vetra na budovách (Bitsuamlak/Godbole, 1999) [R03]. Pri R03 je overený bibliografický záznam, nie prečítaný konferenčný plný text. Aj tu je široké tvrdenie úplného nepoužitia neudržateľné.
+https://papers.nips.cc/paper_files/paper/1989/hash/69adc1e107f7f7d035d7baf04342e1ca-Abstract.html
+https://www.usgs.gov/publications/neural-networks-river-flow-prediction
+https://www.eng.uwo.ca/civil/faculty/bitsuamlak_g/publications.html
+
+3. Čo presne bolo implementované
+
+Zdrojom tejto kontroly sú zmrazené hlavné revízie, nie prvý pilot so 57 príznakmi. Alternatívne jadrá sú vlastné implementácie matematických princípov s explicitnými úpravami; nejde o prebraté hotové autorské modely ani o test všetkých variantov danej rodiny. Matica implementácií uvádza konkrétne vzorce, šírky, fitovanie a odchýlky.
+
+Spoločný adaptér: dva geometrické kanály 512×512 sa bez straty preusporiadajú do 128 kanálov 64×64 (patch 8×8). Pridá sa 512 pevných globálnych geometrických deskriptorov, tri príznaky Re a 22 súradnicových/Fourierových príznakov. Každý model teda dostáva ten istý tenzor [1,665,64,64]. Výstup 192 kanálov sa preusporiada na tri úplné polia 512×512. Globálny deskriptor je kompresia geometrie; samotné lokálne preusporiadanie geometriu nestráca.
+
+Dôležitá hranica porovnania: TFNO/FNO sa učia miešať informáciu medzi priestorovými patchmi. Bodové alternatívne jadrá spracujú každý patch osobitne s jeho 665 vstupmi; vzdialenú geometriu vidia cez spoločný pevný globálny deskriptor. Rovnaký vstupný tenzor teda neznamená rovnakú schopnosť globálneho spracovania. Výsledok porovnáva tieto konkrétne formulácie vrátane rozhrania, nie čistý univerzálny efekt názvu architektúry. Lepší učený globálny encoder pre alternatívy by bol ďalší experiment.
+
+Spoločné hlavné učenie: 640 TRAIN, 160 VAL; rovnaké normalizácie a úplné natívne cieľové polia; bez TEST v učení a výbere. Rovnaká surová case-balanced dátová účelová funkcia .5*(relatívna štvorcová chyba rýchlosti + relatívna štvorcová chyba tlaku). Maska pevných oblastí a vlastná tlaková kalibrácia sa uplatňujú rovnako pri finálnej predikcii. Tento postprocessing sám nedokazuje vyriešenie PDE a deväť hlavných modelov nie je automaticky PINN.
+
+Rozpočet je horná hranica zdrojov: 1×H200, 4 CPU, 40 GiB RAM, najviac 4 GPU-h a 16 CPU-core-h na opakovanie. Pôvodom je najpomalší z piatich hotových PINN tréningov 14 154.78 s, zaokrúhlený nahor na 15-minútový blok; dostupná kvóta nie je vedecké zdôvodnenie. Každá rodina dostala dve hodinové VAL konfigurácie a päť nových semien. Rovnaký rozpočet neznamená rovnaké FLOPs, epochy alebo vynútené čakanie: ELM po vyriešení regresie a SCN bez prípustného kandidáta prirodzene končia. Približne 1.353 milióna koeficientov bol pomocný kapacitný plán deviatich modelov; pri ELM sú mnohé náhodné a pri rastúcich modeloch skutočná veľkosť závisí od rastu. Rozhodujú skutočné účtovné záznamy v matici.
+
+Pôvodné pomocné PINN má iný encoder, vzorkovanie a fyzikálne členy straty; používalo aj iné nastavenie cuDNN TF32. Je zdrojová referencia a samostatný výsledok, nie plne kontrolovaná izolácia architektúry. Husté FNO má 12 672 898 reálnych koeficientov vrátane normalizácie, rovnaký časový rozpočet a bolo doplnené po znalosti pôvodných TEST výsledkov. Druhé šance ChebKAN/RBF sú takisto osobitné exploratívne rozšírenie, nesmú spätne nahrádzať primárne opakovania.
+
+4. Obhájiteľné tvrdenie
+
+„Porovnali sme konkrétne Fourierove, polynomiálne, aritmetické, radiálne a náhodné/konštruktívne formulácie pri spoločnom rozhraní a rovnakom maximálnom rozpočte učenia na úlohe predikcie ustálených polí FlowBench. Uvádzame presnosť, čas, spotrebu, skutočnú veľkosť a obmedzenia jednotlivých formulácií.“
+
+Nie: „Navrhli sme deväť nových architektúr“, „žiadna z nich ešte nebola použitá vo fyzike“, „dokázali sme, že rodina X sa na fyziku nehodí“ alebo „všetky modely mali identickú kapacitu a fyzikálne učenie“. Presná medzera v literatúre zostáva obmedzená rozsahom dohľadanej rešerše; univerzálne prvenstvo sa netvrdí.

@@ -1,0 +1,27 @@
+DIAGNOSTIKA ELM, SCN A CASCOR – 19. 11. 2026
+
+Ide o samostatnú exploratívnu diagnostiku zmrazených implementácií. Pôvodné porovnanie, váhy, výbery a TEST sa nemenia. Syntetické kontroly používajú tri semená 191101–191103; skutočné diagnostiky jeden výslovne zvolený pôvodný model s seed 931101, TRAIN bez TEST.
+
+ELM
+Pozitívna kontrola vytvorí cieľ presne zo zvolených fixných báz. Vážená regresia ho obnovila s validačnou MSE okolo 1e-15 vo všetkých troch semenách. To potvrdzuje konkrétny výstupný solver pri tejto kontrole, nie dostatočnosť náhodných príznakov na CFD.
+Na nezávislom cieli sin(5*x0)+cos(4*x1) rast šírky 16/64/256 znižoval TRAIN MSE, no nezlepšil VAL MSE. Je to syntetický príklad obmedzenia reprezentácie/generalizácie, nie nové CFD poradie.
+Na vzorke 64 TRAIN prípadov a 8192 patchov malo |tanh|>.99 len 3.251 % aktivácií; medián odchýlky príznaku 0.3612. Podmatica 1024×256 mala pri relatívnom prahu 1e-6 hodnosť 256. Nenašiel sa dôkaz úplného kolapsu/saturácie príznakov; nejde o dôkaz hodnosti celej bázy.
+ELM v hlavnom experimente prirodzene dokončilo jeden globálny fit; pridanie hodín bez zmeny báz alebo regularizácie samo nevytvorí nové učenie.
+
+SCN
+Päť pôvodných modelov vyrástlo na 559, 832, 724, 738, 748 neurónov. Všetky skončili až pri neúspešnom hľadaní ďalšieho prípustného neurónu. Stop reason teda neznamená, že sieť nepridala ani jeden neurón.
+Pozitívna syntetická kontrola s garantovaným vhodným kandidátom bola úspešná pri všetkých troch semenách. Je to zámerne konštruovaný algebraický svedok, nie nestranný výkonový benchmark.
+Z posledného zmrazeného modelu seed 931101 sa obnovil presný ďalší generátor kandidátov seed 931661 na H200. Cez všetkých 640 TRAIN prípadov sme preverili 64 rôznych vektorov a 384 kombinácií vektor/relaxácia. Ani pri r=.9999999 neprešiel žiadny kandidát podmienkou pre všetkých 192 aktívnych výstupov.
+Hypotetickým súčtovým kritériom by pri najvoľnejšej relaxácii prešlo 32 zo 64 vektorov. Súčet však pripúšťa kompenzáciu slabých výstupov dobrými; nie je to pôvodný testovaný SCN. Modely sme takto nemenili ani nefitovali. Diagnostika potvrdzuje dôvod zastavenia pri danom konečnom poole, nie nemožnosť existencie iného vhodného kandidáta.
+
+
+CASCOR
+Syntetická kontrola odhalila štrukturálnu hranicu nášho centrovania rezídua v každom prípade: cieľ konštantný vnútri prípadu, ale nelineárne závislý od parametra medzi prípadmi, má prakticky nulovú kandidátsku kovarianciu (~1e-11), hoci globálny vhodný príznak existuje. Kontrola s variabilitou vnútri prípadu dáva nenulovú kovarianciu a po jednom neuróne znižuje chybu.
+Doplňujúca kontrola skutočného posledného modelu (640 neurónov) však cez všetkých 640 TRAIN prípadov zistila, že centrovanie po prípadoch odstraňuje len 0.004586 % globálne centrovanej váženej energie rezídua.
+To je príliš malá časť zostávajúcej chyby na to, aby sme tento mechanizmus označili za jej hlavnú nameranú príčinu. Synteticky preukázané obmedzenie preto NEVYDÁVAME za vysvetlenie celého slabého CFD výsledku.
+Päť hlavných CasCor behov spotrebovalo časový rozpočet pri 639–648 neurónoch z plánovaných najviac 927. Tento postup opakovane vyhodnocuje rastúcu sekvenčnú bázu, učí kandidáta a prepočítava výstup. V rámci rozpočtu môže byť neefektívny; samostatný pokus s globálnou kovarianciou alebo iným učením kandidáta by bol potrebný na určenie príčinného zlepšenia. Taký výkon tu nepredstierame.
+
+HRANICE A REPRODUKCIA
+Diagnostické kódy sú v priečinku kod, nesťahujú ani nemenia dáta, pôvodné modely iba čítajú. Hashy vybraných checkpointov boli pred a po čítaní rovnaké. real_TRAIN_diagnostics.json obsahuje aj úplnú pôvodnú históriu rastu; synthetic_diagnostics.json všetkých 21 kontrolných riadkov.
+Prvý diagnostický štart 166799 skončil pred načítaním fixture na nesprávnom kontrolnom predpoklade nulového rastu SCN. Opravená v2 používa skutočný počet jednotiek a odvodené semeno; nejde o chybu pôvodného tréningu. Neúspešný štart je zachovaný na Perune.
+Neotvárali sa nové TEST výsledky, nepridávali sa tréningy do hlavnej porovnávacej sady a nebol stanovený nový dodatočný prah prijateľnej chyby. Závery sa týkajú jednej implementácie/prispôsobenia na rodinu.

@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-19",
+  "origin": "Perun -> GitHub directly; no local file staging",
+  "main_results_unchanged": true,
+  "files": [
+    {
+      "path": "03_methodology/research_review_20261119/matica_implementacii.json",
+      "bytes": 97341,
+      "sha256": "49e03972a8c5adc1f8db8c671d683293626963a7944eb35910cf275b9b6efa38"
+    },
+    {
+      "path": "03_methodology/research_review_20261119/vyber_architektur_a_novost.txt",
+      "bytes": 11444,
+      "sha256": "ab5258ba1d906712cbdce82b90d33755460fe3d54233be64e5a9bfe316c635d7"
+    },
+    {
+      "path": "03_methodology/research_review_20261119/zdroje_bibtex.txt",
+      "bytes": 11422,
+      "sha256": "bae39fab7692ead81568b34a1804484bd0fccb835e9a552387554c46b0eafc93"
+    },
+    {
+      "path": "01_results/diagnostika_20261119/cascor_TRAIN_diagnostics.json",
+      "bytes": 1868,
+      "sha256": "c9b4b683b83fa1855dbdd4a3db5d298e984b9d55022998fcb817f718b6e11e07"
+    },
+    {
+      "path": "01_results/diagnostika_20261119/real_TRAIN_diagnostics.json",
+      "bytes": 1431045,
+      "sha256": "48888fd87b9d301bf827e42465c44a1e3da93e3752c7a9dd151e328104521ad0"
+    },
+    {
+      "path": "01_results/diagnostika_20261119/slurm_controller_records.json",
+      "bytes": 285,
+      "sha256": "6c3d03116116fe8047bc461eebee72c20a2bab4af52f71831075cfd2cf54c434"
+    },
+    {
+      "path": "01_results/diagnostika_20261119/synthetic_diagnostics.json",
+      "bytes": 7714,
+      "sha256": "45a7355b7d67dd5b689cf5afd763ce59966f28a623a6204cb6d9dd39391f388d"
+    },
+    {
+      "path": "01_results/diagnostika_20261119/uctovanie_diagnostik.txt",
+      "bytes": 348,
+      "sha256": "d9fdd514b6cd4ae2568383eca495ae2db5201e031224f31ca83919b622adb11f"
+    },
+    {
+      "path": "01_results/diagnostika_20261119/vysvetlenie_diagnostiky.txt",
+      "bytes": 4508,
+      "sha256": "e07eea6d25f5dad17d6bb518a4e1c51cc0ea46b8f6714a84aeab1c9cc9b89b10"
+    },
+    {
+      "path": "04_source/research_review_20261119/synthetic_diagnostics_v1.py",
+      "bytes": 5367,
+      "sha256": "0c850ec7b2deff3b4cf6bceca25d8be60df6acd5c239d52892bfab396734285e"
+    },
+    {
+      "path": "04_source/research_review_20261119/real_train_diagnostics_v2.py",
+      "bytes": 5624,
+      "sha256": "25724aeacea7eba62509dd0ea9426232eec53e7fbbd2f24188d9d4cdea6d0a38"
+    },
+    {
+      "path": "04_source/research_review_20261119/cascor_TRAIN_diagnostics_v1.py",
+      "bytes": 2535,
+      "sha256": "0af8fb557514b88faf41bfdb9a6148456194524419aadb1f50d9e34a6959b00e"
+    },
+    {
+      "path": "04_source/research_review_20261119/real_train_diagnostics_v2.sbatch",
+      "bytes": 551,
+      "sha256": "6fed06284cb2f99650f9940ac972556917ec49ef068fdd9341828eaade0cd791"
+    },
+    {
+      "path": "04_source/research_review_20261119/cascor_TRAIN_diagnostics_v1.sbatch",
+      "bytes": 549,
+      "sha256": "92ecfa8791f7fe3d4025cd4a37486057ebc3e3681a8ff5c02ba4ab5cd7a2c0c3"
+    },
+    {
+      "path": "04_source/research_review_20261119/prepare_final_reports_v2.py",
+      "bytes": 7098,
+      "sha256": "aeb618c37336ffd3874c2f4b85a2fe7468e4703e19930e3b2da8eaa1ec1d0e7e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5419,
+      "sha256": "4d9e5ba591bb90c138111e9332b71769b21015c054749ea457dc9c50592f566c"
+    }
+  ]
+}

@@ -57,3 +57,10 @@ Doplnené pôvodné diagnostiky, protokoly, obrázky a zdroje sú v [samostatnom
 ## Pôvodné Slurm logy
 
 Pôvodné výstupné a chybové záznamy jednotlivých úloh Slurm sú v [samostatnom balíku](01_results/slurm_logy/README.md); zahŕňajú aj prípravné a neúspešné pokusy.
+
+## Doplnenia z 19. novembra 2026
+
+- [Výber architektúr, literatúra a hranice novosti](03_methodology/research_review_20261119/vyber_architektur_a_novost.txt)
+- [Diagnostika ELM, SCN a CasCor](01_results/diagnostika_20261119/vysvetlenie_diagnostiky.txt)
+
+Doplnenia zachovávajú pôvodné váhy a výsledky. Rozbory pracujú s pôvodnými TRAIN/VAL záznamami alebo so samostatnými diagnostickými kontrolami.
