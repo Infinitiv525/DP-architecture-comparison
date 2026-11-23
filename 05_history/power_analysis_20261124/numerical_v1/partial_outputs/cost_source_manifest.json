@@ -1,0 +1,802 @@
+[
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931101/complete.json",
+    "sha256": "af0395974887d1bd5ebbcf37925ad507ad414b847a1f481316ef80e41fde7260"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931101/started.json",
+    "sha256": "dc2b2e05d92ce5f468e07ab4796dd53b509c490056c4fa083eeb38be03aed4dc"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_0.json",
+    "sha256": "44d30da1350993e7dcec67051577ad8c09c0485b12a7cb38847d47b890e072bb"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/tfno_s931101/summary.json",
+    "sha256": "4d89d54b26e672ae3e183c9a235666748b561da3f636d21799a0a3390e9a8ac7"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931102/complete.json",
+    "sha256": "25295f4fdd1af9beaaa1cca9f69adf993d7e061ac00e2f3022f5683b53ab69da"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931102/started.json",
+    "sha256": "02d2e7861c61769e39ebc48778c92e1a42d2564edfd6ffdacdf20d5a88ccc0ff"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_9.json",
+    "sha256": "88f4a08e7baca1c711c252dcd2bef7ae4544ac1da8fda7355ae066b1526a140d"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/tfno_s931102/summary.json",
+    "sha256": "16c97ba782f0fd45fd71255c63a3247799975c667dc15765b123cc4eae1a61f4"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931103/complete.json",
+    "sha256": "26171584b4b174adae67a2e982cf8fdc1887665ee57f2765d169a66695a6c32c"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931103/started.json",
+    "sha256": "0a175b864f3d287b9f8f0ac11def91128c36cafe076c8b2828ad26de54c970e6"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_18.json",
+    "sha256": "c58a1a35071e3d989481475c07591cd3f7a5df14b7f16c99fe53b37f2ab125d2"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/tfno_s931103/summary.json",
+    "sha256": "71742af22fe260b9fc286729380d9f88cf167c50006a13471f2be5adf2403f08"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931104/complete.json",
+    "sha256": "c7cfd63b4d45cae9f8360a671e401346f23122c57f16e365d42799dcf0b6921c"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931104/started.json",
+    "sha256": "8a8c2423139682790503294f9aed3420df1baa75c5e153b88b8f4255ed738aba"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_27.json",
+    "sha256": "18f00aaec632d4fdb2468427cbb0b11003ed11c9b56e25bbb677ebd46c095cc3"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/tfno_s931104/summary.json",
+    "sha256": "9373c3a44d6f10cc1424934bb2bcc1174fe75c9efd4d3d15f74b4ae9380b5ec6"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931105/complete.json",
+    "sha256": "3233e4852a92952f3a5173b217a2a536a976f4cb123c6f1bf90f70821e9cf04c"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/tfno_s931105/started.json",
+    "sha256": "85fbe4a62f8feb51f64224d96dbdf0ae389a6aa2197bcf9ce05d741a17e0f71e"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_36.json",
+    "sha256": "9908e9a98c4842f8b995b97d2983949dd35a602d538bf8b8a9eb28bcf6371535"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/tfno_s931105/summary.json",
+    "sha256": "f8444a4348a1cc5117039a5d4ddf2d3a1e7fce7be79399c949e79f4cded0c4f4"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931101/complete.json",
+    "sha256": "8fd716ff97fe032c29314fd2023e2ce5d48580bfa5f4d4d557dcbc55c72c155a"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931101/started.json",
+    "sha256": "122d284f83378ad9e04d93eb184f2e7049c28b15d80f6564742e036b6c58c56b"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_1.json",
+    "sha256": "fe64b473554cb2aef7faec5122b7d3921ba0541046e5aae656c6ec82fac56518"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/chebkan_s931101/summary.json",
+    "sha256": "44bc0e02f71cacdf8bf28e6cfbb0e6bbe1d8573499f5e4a09c87ed4d596f5a41"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931102/complete.json",
+    "sha256": "cc2538cdf904db0e21d9add7450b394381134fb8506221fd40109bfd832dfc07"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931102/started.json",
+    "sha256": "99713d9378cead33966ce198cb45dcbe4fea911816e05bce6dc40ac70430623a"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_10.json",
+    "sha256": "b71587b49ad056a002330c1a34f05a57c9b4b3b2f649d3bb0a5e4dd967092746"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/chebkan_s931102/summary.json",
+    "sha256": "e24cad4f389945a74f9c6046a619d78ca5816a0c7a55bf1879234d8785963f28"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931103/complete.json",
+    "sha256": "522d6edcb050570158e9014256e5440ff5a716c600b79dda899abce52585cde8"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931103/started.json",
+    "sha256": "e09a83f3800328e7fe40ace4eb1abb498fb7ebf8bb175cabd60e0bfac0a40412"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_19.json",
+    "sha256": "ae26e8b752da2e0445109218a34ca19df99ce0a90da55ee3f2f2d2991e0faa8a"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/chebkan_s931103/summary.json",
+    "sha256": "52dc20ac937a31b03198e82d75ef201563fb318bca10648cc1e01f7f7fa61062"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931104/complete.json",
+    "sha256": "7b325a4fe18c45cbc15eb44ee86724c50f0d393eb678ecda3420dca9c4d9c892"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931104/started.json",
+    "sha256": "238c2cd4c76dcf304a9385f52586b736e4b467d4fe0465b11edf6123999f413c"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_28.json",
+    "sha256": "4f7f7a3acc7a6925f4885be585a27ac2671f7ef399b97c8bd4848d5fa7b347c6"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/chebkan_s931104/summary.json",
+    "sha256": "e466913d53b1ee7f2675cf449858b5be7db41474041dc75de658a9407d6eb1d0"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931105/complete.json",
+    "sha256": "95def349ac8d06d70f023dd3196a6abd842feb89bf137721ba06bc21aea70cc6"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/chebkan_s931105/started.json",
+    "sha256": "dabe4348c09a7c480e668df00bb340c9cd8feff085506c7631cd1806644440d5"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_37.json",
+    "sha256": "a07b24e463acbcfd159bd23061b79de011a4e9977dfab730afc471bb93a388ea"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/chebkan_s931105/summary.json",
+    "sha256": "fff2bc391938aa2ff2864f5ae4ae61d83fd816a8d9cd3f8b385327fedfba37a0"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931101/complete.json",
+    "sha256": "fea8aaa15b0176cac40d7abaae4ff5239e95cf9fe8a3848225a209f850bf86cd"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931101/started.json",
+    "sha256": "f3e90fa3c11739204e531c0f46ed2b7ffac24a98cfa2cec6405fe7f58a39afbc"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_2.json",
+    "sha256": "a7d782836adc34de70277caaacf0997e9895a9e419e8eaab8593fe0c0aa7d8a6"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/pinet_s931101/summary.json",
+    "sha256": "6968646bb432f1ea81e7ff363ef0b03ba4bc6ed1f5a3a6a40ca210eea1099ede"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931102/complete.json",
+    "sha256": "c852adcf79906738d399d0697e5c34447340ac1b74e0808139be24de79f1098d"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931102/started.json",
+    "sha256": "9b2d71032eac79d498e46454bf4c8caba1918a270f68f1339403da40f8968bc9"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_11.json",
+    "sha256": "fc685569dbc9dc63d791af1d4510a0f7d40ad939336fab5d7feb4617b352adc9"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/pinet_s931102/summary.json",
+    "sha256": "15de4e8644608b3d6885479d424b16d6b3a629e38ad88f688a6f32f6cb3453b0"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931103/complete.json",
+    "sha256": "26c99b59275c4cac35c943fbb8d870db2ea670f7d3cc07b26d026fb313993d39"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931103/started.json",
+    "sha256": "15cce40b818181eb960c24e0230d5ffad00227a87b7c8a7d72247b98bdb19838"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_20.json",
+    "sha256": "d107dbc1377b912224bca5071807a57ff07272a8311a7100af01fd500e4cb559"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/pinet_s931103/summary.json",
+    "sha256": "602bbfdbf9f0dfa021b5a63baf2878ae3c2a4051d2feb40d28c8de0f3d7540b5"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931104/complete.json",
+    "sha256": "f6457fbbbecad74f8c41f0d126b259b316549c8c93e717cc81113ea12df8fd31"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931104/started.json",
+    "sha256": "da8c196026ec24f849a9c72caacb4bbe4874584274b46e96c9f57a69f1c619d1"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_29.json",
+    "sha256": "1ba9993f4b18fea9fd7f327d472a26cbbfdba9b58c9330cb19cd212033496958"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/pinet_s931104/summary.json",
+    "sha256": "07ebdafd72befdbbb7a3f3d70138ef06af64bf5b2218823af1a23c32f28ac1d5"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931105/complete.json",
+    "sha256": "71e459bcecc048e712943c485c9c90d04817a9ec1ed64415c277f4e9ffe392a0"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/pinet_s931105/started.json",
+    "sha256": "7fc5af001713b1e986e451223e7816cc6105740267b11c5a0f8fd8d819c70e26"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_38.json",
+    "sha256": "21836ca16782fe5a7b678898a58dec6e20dc534a73debd804fa3806ebc94104f"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/pinet_s931105/summary.json",
+    "sha256": "ccdd2a41664c25e99ec7db9447bdac7c28e9878fc5c74716730c5c45ec29554d"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931101/complete.json",
+    "sha256": "b773f8df3d739461b09e1e7403432a37894cc2de27bdc39f2595fb7b93bdfd8a"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931101/started.json",
+    "sha256": "20ed1d1026daba83b0fb8d171f4553bcf7ac71e7c4e303a306a7eda026d42c05"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_3.json",
+    "sha256": "deb3f3190a858c47de2bcdbeefd95840c824b68eefe0475b5832b0f490904e80"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/dendrite_s931101/summary.json",
+    "sha256": "2849a975496f084ebee241f2a2538c53b5c9b5570b39dfb77f1309d6f83dc280"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931102/complete.json",
+    "sha256": "e9d3aeed570a0921bec5ca8bddb7833eafe6900ec3e124eaff276be11610ef03"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931102/started.json",
+    "sha256": "743454a50dc56cb74dcc5939b28c34221355e0406e7327cecf53aaaf30a52e36"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_12.json",
+    "sha256": "b091f6cda9af006a5be83d694cbb4df945a0fbe1a459e9d4ae91f551f41bb44a"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/dendrite_s931102/summary.json",
+    "sha256": "5d9eb7d2292bb87463dc7a04b261007c94051111c2a6a490e9fa49d201689e49"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931103/complete.json",
+    "sha256": "05ff80bbfbc3dd5414bacbbd7244c97d9c960936e2d170bf382b85c32f43def6"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931103/started.json",
+    "sha256": "36bb9048fd3a278063a1ded5c7b39b1c8dbc53339115098af2ae445b36a76a68"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_21.json",
+    "sha256": "bc47dfd8f371afb073c6fd928658d0b809024f0d984cec54b6c3892f21b72436"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/dendrite_s931103/summary.json",
+    "sha256": "62e35e0c252f2463ffb0ee59c9cbc0417b43b41f020b448e28e51cce68e5b374"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931104/complete.json",
+    "sha256": "2d5ea3ccef7f85d4a02662605675e62aa6861293a7de3b2173992cb3fa7d9271"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931104/started.json",
+    "sha256": "dece27f3e35b39cde94b7db952f8305159e8b16f9812f9107b83bb7ad34a50b8"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_30.json",
+    "sha256": "e2f3c9fa98d82508c5ce8154cc741027c79ee33187d470c4fffd965e327d42a3"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/dendrite_s931104/summary.json",
+    "sha256": "6b19e1a911935dbc4b827104d4e9a7976f290f10103388fd6a3b1fb3cf2e36cd"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931105/complete.json",
+    "sha256": "bd8f8dd38adc3737b757c98616af90637b96671ea08b2654c7d85678fe708f7a"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/dendrite_s931105/started.json",
+    "sha256": "4368fd3b9d77ca32c93a72e813c62a8a714203a48f69e447d4229c6fec95920c"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_39.json",
+    "sha256": "be3f34a574b0d6863bd6f722b3c502679ed8f74c21ea4e9ed61f0db3878a9c07"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/dendrite_s931105/summary.json",
+    "sha256": "4e135af20461cec2c1342e15bc57578e0e1b955edee8d39877717c7480e6910d"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931101/complete.json",
+    "sha256": "22c9518389f25c994dbc7b933a8e785d49bee1532a484707863096ccff1c42f3"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931101/started.json",
+    "sha256": "3ee7840b3d6b6bcf6c3fc44e702f2cff0092359e6bcd1a3f4f36f4ccc6dd4a90"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_4.json",
+    "sha256": "6f7b3f5a0a4f980ca9a6b0353180b5ded98c396e98e894b6fe52941cb45907cb"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/realnpu_s931101/summary.json",
+    "sha256": "56dc0cedc68bfd7dc78a4d255b6634a2f126256fe1ffaf94b1813d2a5009494c"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931102/complete.json",
+    "sha256": "f09b4e335992ad1e53e0e5e49631f335e59d41ebd86948c3ed096c92182d1b5d"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931102/started.json",
+    "sha256": "b1e41c7902817d399405d1590d720ea9ef7603ec4686a9261bdbf8947222df06"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_13.json",
+    "sha256": "2ee7779823366b0a598c08403e7c91fe922042f1639652974ddc7e82ccb029ca"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/realnpu_s931102/summary.json",
+    "sha256": "56150b8ca7dd2d0054069bfd89785c1cde2a142d80cf6d83697e7dfb899123ae"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931103/complete.json",
+    "sha256": "b743dbb8a9b6069b8cebf5e0927da4301395087f23525eb05cf8194dd897ba84"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931103/started.json",
+    "sha256": "7dde6a9c517804ed13d8fa005deb72a166e0cbbceefde5ff2cbc276044ae192a"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_22.json",
+    "sha256": "d578f5ee8459f2735602384888ce4f4064195a0f9e576b5944a233220e920d20"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/realnpu_s931103/summary.json",
+    "sha256": "2e3208dc117dab36a4dab521b9cbfe74e2838786a19d9d10360ebb38aacd03cd"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931104/complete.json",
+    "sha256": "2454d40718932daafb62a7c83c9511982b5c6ca5baae0a5a49295c05bbbe0854"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931104/started.json",
+    "sha256": "c51c70180444e95ceca225a34efad654531abf708d7c1f10199642f9f8072fca"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_31.json",
+    "sha256": "4de12214d95352760c23bcef3c4f32c950f294918980c9bdb065f65404c38368"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/realnpu_s931104/summary.json",
+    "sha256": "4e94fc58ae2008504cffa3fc086a3bf2f598dd25092294e8abf205b4199c8824"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931105/complete.json",
+    "sha256": "9e88e9beb93e7ee0b3b368396e1797643a3f83c1aef602f65ba39eb5722f9a8c"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/realnpu_s931105/started.json",
+    "sha256": "0aeea3140cb34cd912116d5f3fc1675101006a8b263b8490d9a8e0f6be7eb524"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_40.json",
+    "sha256": "d09b5f4212d3c60a19f7ca31b102588a2543060e431b91ccde4d15c92d6cf9f3"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/realnpu_s931105/summary.json",
+    "sha256": "2fdb3f3a7c86629d369d0501e3a1a704be3811fa3342b439cb3947d2ab463ce5"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931101/complete.json",
+    "sha256": "753cd57a90c56ef4f0c41d79e483e4cf6029c2391268aaf214f9e814c6af6648"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931101/started.json",
+    "sha256": "cc8fb2188f4b4d0b3ccec0bf92ad37368ef2c5f2e8fea54e00f1f013ecc54d03"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_5.json",
+    "sha256": "430af99e6f83af1aad26801741ad1384847819d5b4c78f55b9649006588b0569"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/rbf_s931101/summary.json",
+    "sha256": "e8d9ffbdfb8095b5e38aabb8b8beba5417679801a7068407d06507d734a8b74e"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931102/complete.json",
+    "sha256": "7b77ff951a57fe4b32d224332802b1877ad2ff32c52f99d1e848124061085f9b"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931102/started.json",
+    "sha256": "b45d24f1881357aa2ebef8f8c69d65e9fd5410b7fccc18a3f94f11db77d214e4"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_14.json",
+    "sha256": "ceacb02c9f7e5c44a22b0204c7bc5aa3781d6f2147bece6899154d30b26734f4"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/rbf_s931102/summary.json",
+    "sha256": "12d8d36fb642e789c4ecf4dc549786861d5f7b8a34d2bc082ab8e9cc734cf3e2"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931103/complete.json",
+    "sha256": "e4bb2fa5b7c44c63bb16090e716fc5cc37a00c1e4bc08ef45e1559f786f1192e"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931103/started.json",
+    "sha256": "fc926f186f282b7ee0baa0cf8f1bb3f608c44bcb51fa456b41977a97bee451c7"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_23.json",
+    "sha256": "4e1151a4486c9e446481c9f99c46f9f0b39f663bcf68bdfcd885d1de9bedf851"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/rbf_s931103/summary.json",
+    "sha256": "47142eb92a05e64909d150391aa5c76cb9275ccbacdf42c20181c485dbfe9585"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931104/complete.json",
+    "sha256": "a32c92d44e16a07e0458b627c4c8ae86c8b795d24d7e915eddf4543330a07a29"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931104/started.json",
+    "sha256": "908ea18f14bf65c494b1a9a1ce2f92828aa13e4e7702372aa90c712f397a8b27"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_32.json",
+    "sha256": "ed980ff6c2cbbdbf8901e651fa5954bfcb446bd61cef485376ba1c038386219d"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/rbf_s931104/summary.json",
+    "sha256": "4696283498ef6331ab252fb3422c4c13839f6726a9ac4108aae6153db007433b"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931105/complete.json",
+    "sha256": "7cb08f7553e0094e953b4ba9f672d712626e8e58509df2b2c531482e56ab8235"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/rbf_s931105/started.json",
+    "sha256": "5ed80d9edcb9ff06678cca32869cdeb147449d5211da04b76ded0a8654b190df"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_41.json",
+    "sha256": "f74b92575602c50110a03fe91901cefcd8d71a948e5c26fb636b0be347cf9bcf"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/rbf_s931105/summary.json",
+    "sha256": "8c3df986fc08f0534eaf7f8d7abe2fef1e2cf587f01b05db42eca6df1fa5e41a"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931101/complete.json",
+    "sha256": "08e161947f44b94c22e12292a9e4cb5dc444972d0adf792d0304b228f2e11fe7"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931101/started.json",
+    "sha256": "fc71c011a5131e0d3815f62e9a56c7e5df78df8ccf091f1ac8cdf4a1da7499da"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_6.json",
+    "sha256": "0af91cfb1b56737dbc4187602c0738685e0373077ec547c117e775cf8c7da4dd"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/elm_s931101/summary.json",
+    "sha256": "4cf29e3ab520b383e885f05ddc1bbcad23cc3ee43b5586da0e36f154c3900298"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931102/complete.json",
+    "sha256": "d87b2a220c121c2bfe3e5ef836e34de39b7b95c1c6a3135f8992cc4a916918b2"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931102/started.json",
+    "sha256": "41a5e13eb890231b6865a5018760ee55701e43a57d13298ded36ec3510a546dd"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_15.json",
+    "sha256": "bd6c64c7f4d840803992a8f8e73ab6da1061dd6346a0250344f52ca4b588011b"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/elm_s931102/summary.json",
+    "sha256": "aec3368cdedb87f13ab2ece0001dcf3a8599b9fbfe05bb36a917e8ee1d3ef6e3"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931103/complete.json",
+    "sha256": "d7c9b5a7e6174cf3ed1c38f808469356fec808612d20ab673de7644020188e27"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931103/started.json",
+    "sha256": "438b086a0dc949f23bc0ca16517e1a006555ec91a90f2dd96630e5d5ca6129a8"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_24.json",
+    "sha256": "5c77ffad733e0b90774a953e72a7646682d5ffca7b370b8dccbb005a3396efab"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/elm_s931103/summary.json",
+    "sha256": "5c1182f874a723291a21465302cea4dcd8548d619fef002a6f69df5931cf66ae"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931104/complete.json",
+    "sha256": "2ab23850aafd7e14e1b1ed304b74ee5eeab448ccd3b738f8575aa7d9d8ec3d1d"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931104/started.json",
+    "sha256": "811ddea7cb1d720466936eb2ca968ce14c19359153250e88e8ac4ba188b511fd"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_33.json",
+    "sha256": "bfa62bf91e5837be6b2f09f568d1a05959ba45bb40a648365e99e5c2ac519b3c"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/elm_s931104/summary.json",
+    "sha256": "01934beb12ec0644f796bb67465c2026a09d50e26c3ac6bdc8e3423e85b25bc2"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931105/complete.json",
+    "sha256": "3e96e568e253699ca863a50b0346e7d15d485a907565e6740ac9697cf2c5ef5c"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/elm_s931105/started.json",
+    "sha256": "817f52cfbb5d70dd908aaed43bbe7c07862067c6fec645558cfd2a36f4b725ff"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_42.json",
+    "sha256": "a4b9c01c0580de683905e3c6bab0a1b058a37b1ec66b42790b00e29550c28902"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/elm_s931105/summary.json",
+    "sha256": "ce09e37bea115507c226f9c76e8f27b05f73c3c2439256a87db7a0e3203dd78f"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931101/complete.json",
+    "sha256": "f279c1099652f3daed94acc05f6df2f012dfc9d46ffd1f17547fd36fd4b66e2a"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931101/started.json",
+    "sha256": "164430726cbfb4cce21d56ddd8ecf809272cc32e1a0519f05ab3077539ff18f1"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_7.json",
+    "sha256": "feb1a0f07b6c029a2b61fc306aa70ebfa9f577561f47c6e2da59645ac0870efa"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/scn_s931101/summary.json",
+    "sha256": "d3670562a07f4c10b2abe062a136597784a8875bac614e183ebd973c40bb1d7c"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931102/complete.json",
+    "sha256": "1baa5047c61ecca8cc0c68b5b144376032fd2ee7ab1c9932f2770f1108efe34b"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931102/started.json",
+    "sha256": "621825f45f3b587371e6d57d4fd33e31f4f7f97476616ee6b6b0efdc2f2cd613"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_16.json",
+    "sha256": "2be1666e2faa9a82e21c0f99a1504014e79b3d807038a1a15188f0a000292994"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/scn_s931102/summary.json",
+    "sha256": "7d770ee93445e49ea6c8ba0ac379bd19e93e4164349d79d1a2f71c99cfd14ccc"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931103/complete.json",
+    "sha256": "7814c39c9d6cc78434c35b0857a67c1278b2d06e28c4dccc64778f40aeb3c010"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931103/started.json",
+    "sha256": "efc0f4b5d53e5815ccd15cd95742b1eb0496b30999e9a13230ff9a1cce90521f"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_25.json",
+    "sha256": "f75a0f1dfe4f37a94c53e7165a68700c59015c2eac63e8eb1c5fc8be0b88b947"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/scn_s931103/summary.json",
+    "sha256": "b6ccdb29c40d4dddbec01992c3cfed9be273609ce3386eeb4ade757b55c54184"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931104/complete.json",
+    "sha256": "7ad113db76eb9d8ae25fb790e6125f62434a04cbbd104e1d22e068d0b57e84c6"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931104/started.json",
+    "sha256": "aaf8e132bdc11ce97be584718d9a11242bc988ef533201b2fa865747c6849e13"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_34.json",
+    "sha256": "dde935c077e3ac2b11e3fd2a830a02f683df74da758c1cf88ae8a4762590f87c"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/scn_s931104/summary.json",
+    "sha256": "ae424613d0bb14937603b2e0b37666c18fa6e0d6beb17f347ec9580440bc6d96"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931105/complete.json",
+    "sha256": "23730548772d50d04a4a508f280534217eeeb9b9a6406ff104e945b0cd87e1f2"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/scn_s931105/started.json",
+    "sha256": "acadfbddfc8032ce2c84cf80ce274bc4421619c30606c8a5cba60f10fe102bb5"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_43.json",
+    "sha256": "f76d3634eda71611a916b8e63c30d6c1a403f3f908758dcd1d1285379a69c0dc"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/scn_s931105/summary.json",
+    "sha256": "111475755f455464d50d531daa93994b7155a7117a67fbae89f84ed8568aaab8"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931101/complete.json",
+    "sha256": "77f6618fae6b2558a307d0007259ec4786206d2265ddfd9e8dbb2bbf2fc1ec01"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931101/started.json",
+    "sha256": "b8a1cef54dfe6aeccae25dc36a3a2cf5ae6ffd388bcf794dbc67c7f16cdb7646"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_8.json",
+    "sha256": "805fb074d3d7755cacb39aa2488af25072bde9b6ae0504b79aa28cb01ad0d96e"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/cascor_s931101/summary.json",
+    "sha256": "baff51057bc60bc717fc53fdddd6a20bc87cabb92c1fd9a1a5268c343df64481"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931102/complete.json",
+    "sha256": "557f395d27873c2f68aa5a38e1908db8814c4b6e8bf3fb9fd14e2b4dbf0ad220"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931102/started.json",
+    "sha256": "ceb77c75dfd083e36bd8464adfde01f73fdf6c7093d3db8577a79ca7f025c16e"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_17.json",
+    "sha256": "69347da87d629f722ed911ac36113e2dfa4af6dc8e3ccefd81a45984d837ed78"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/cascor_s931102/summary.json",
+    "sha256": "9f52ee41c29eec62048a47bc82a5892dfbf5f0ab2df61cb8024c87a3e153a767"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931103/complete.json",
+    "sha256": "8bb8b31a6d6b4997c481f0fc61d4104c25447fdbc1cfbe71b2ec8e08bc4060a0"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931103/started.json",
+    "sha256": "c252070bd32aaa3cb08725c45232d8fe1226e26666176fda629cf2215a1dfd9c"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_26.json",
+    "sha256": "e64957ee017e899359c3291d87db691996b95ff02dd83834ea98e51f52fcde1b"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/cascor_s931103/summary.json",
+    "sha256": "31bdf39fdd5d556211a4b912ace6505f43bf205795d4b5aaa05fb54fd0d7bdde"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931104/complete.json",
+    "sha256": "6659d9e75ae9c08c0df4f64dc0c37383729af1249ea5cec1efefc321f496e6bb"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931104/started.json",
+    "sha256": "35121e7b0ec47dfb320ba473bc038fe2e16198a87defe263ec37d301831139a5"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_35.json",
+    "sha256": "2e3174accff0eb0d588700312c2b3c1781da74ac3bdccacbbfd89f29bec1d561"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/cascor_s931104/summary.json",
+    "sha256": "f5e0945c109b25ab4e3211ca987e3478eaa35c44bc9e4e13c2348b39b6d80781"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931105/complete.json",
+    "sha256": "2020b5667971d4bbbf6b83d7142773a8c809b442378c04490accb7c98e81465f"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/main/cascor_s931105/started.json",
+    "sha256": "63ffd087b9fc14a203107d4951c21e786aca84b19a278af4c77a106f279c0410"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_main_20261111_v1/run_3e11271df45aff09/allocation_closeout/main_44.json",
+    "sha256": "5b251bd26209e44413d36c8bb3290c5f5da847144624e66ec12ffd5233d3eea6"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/test/models/cascor_s931105/summary.json",
+    "sha256": "d164dcf17a7c5c178f3c4bfbfef545d63e42586524ce7a625445156463b5ec03"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931101/complete.json",
+    "sha256": "b8eff7891838127fd608a10fae3d140b8ff307e0a53b42216194363622a6289a"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931101/started.json",
+    "sha256": "d5b14cb43f78b4ba00118b67d8b2a51c1de2db5ad443d13ac57eb0a2ec8deeb2"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/allocation_closeout/main_0.json",
+    "sha256": "0a850af841896b7933656af329ab073ed146436c7783e84729f815eeb79f9992"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/test/models/fno_s931101/summary.json",
+    "sha256": "737b9f2c82cc42ca604f1e325351bdb14bb54ffd40188e788e540f15d41ffb88"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931102/complete.json",
+    "sha256": "78f43c045ad0dfac3e4501877aa22cf16cf9be1c35bcd202669320d5e20004a3"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931102/started.json",
+    "sha256": "916f933622cc653c7be388e95c37d9eaebb58997d6e3650146f46abf57c75fbd"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/allocation_closeout/main_1.json",
+    "sha256": "ba84ed3695e47366ca7953903617317abf4124d04219d34e605f32b51fd7a21c"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/test/models/fno_s931102/summary.json",
+    "sha256": "a424229092eee482d7ed87bf74ae6bc485940e03dfeca01ddc7478c3d42ab996"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931103/complete.json",
+    "sha256": "866c1b37c543770d433e343ff6657702a5f47bd0825ea62a73d8c8a6e8c53ec3"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931103/started.json",
+    "sha256": "37dd5e3be3dc2a54a0a8bd6136a94d5d061d8530b72032cc8bfddcf24edd7584"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/allocation_closeout/main_2.json",
+    "sha256": "938e81665132a4e0ecc18b007fdc206b8378604fd612d7661785437f5788cfa0"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/test/models/fno_s931103/summary.json",
+    "sha256": "5b031bb74e91021577fbc6a1b88499f120e04dce5d1698362721fa9ecc0d439a"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931104/complete.json",
+    "sha256": "42494ddcd5c1af171da3e2381fdaec6ca5269216d3bf78df4096a1a5f4524148"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931104/started.json",
+    "sha256": "8ce157bd00eff7c001a61a73a90e8ae88dec8e0a0b09db16640a3299532a3c82"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/allocation_closeout/main_3.json",
+    "sha256": "edaf89420a8bdab26cfefeb544d1a9ed0b3dd33a7d2f978622c159b6ef74f60c"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/test/models/fno_s931104/summary.json",
+    "sha256": "b51f084a69815346477a1b4bac24b463bb55f1da1ba6a9cd5b1bdb8c0b0d8985"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931105/complete.json",
+    "sha256": "991681b90fc0c3de61f89b9b8e0ff8fc0347fa50effec4036324a1466c0b8992"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/main/fno_s931105/started.json",
+    "sha256": "961d6a08fa3abad60d67be311aa5cc56a8f1fb909da3238b3d86bb19886640df"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/allocation_closeout/main_4.json",
+    "sha256": "f2cea4f919ca85588c11b8348753e068eb23a644aa815819fd6a499bb2423faa"
+  },
+  {
+    "path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/test/models/fno_s931105/summary.json",
+    "sha256": "a0d2d29c730fd4f60fa61988cf18eff0ec9593c0f98b0817b876ad5fb17f016a"
+  }
+]

@@ -1,0 +1,132 @@
+ANALÝZA ŠTATISTICKEJ SILY A ODHAD GPU HODÍN
+Dokončené 2026-11-24T00:40:54.239897+01:00
+
+ODPORÚČANIE
+Najrozumnejší cielený dodatok je 20 NOVÝCH tréningov každej z metód
+TFNO, dense FNO a RealNPU: spolu 60 nových sietí. Odhad je 243 GPU-h
+vrátane rovnakého záverečného testovania a časovania; plánovať 260 GPU-h.
+Výpočet pri nižšie uvedených predpokladoch dáva minimum 19; 20 je
+prehľadné zaokrúhlenie s jedným dodatočným opakovaním.
+Tento dodatok by samostatne posilnil tri kľúčové metódy. Nezmení
+ostatných sedem architektúr na rovnako rozsiahlo potvrdené metódy.
+Pôvodné porovnanie 9 rodín po 5 behov ostáva zachované a samostatné.
+
+AK CHCEME ROVNAKO POSILNIŤ VŠETKÝCH 10 ARCHITEKTÚR
+Pre všetky dvojice a dve primárne L2 metriky vychádza 30 NOVÝCH behov
+na metódu: 300 nových tréningov. Odhad vrátane TEST je 977 GPU-h;
+konzervatívny tréningový strop a rezerva TEST spolu 1312,5 GPU-h.
+Plán je na 90% silu pre 20% rozdiel v symetrickej definícii nižšie.
+MSE by v tomto NOVOM protokole bola sekundárna a stále zverejnená.
+Týmto sa nemení ani nezjednodušuje pôvodná trojmetrická analýza.
+Možnosť rozšíriť všetkých 10 iba oproti TFNO má 18 L2 kontrastov:
+minimum 24 nových behov/metódu,240 modelov, odhad 781 GPU-h, rezerva 1050 GPU-h.
+
+ČO ZNAMENÁ SILA A VEĽKOSŤ ROZDIELU
+90% sila znamená: ak by skutočný rozdiel bol aspoň taký veľký, aký
+plánujeme zachytiť, a model variability platil, test by ho odhalil
+približne v 90 zo 100 opakovaných rovnako navrhnutých štúdií.
+Nie je to 90% pravdepodobnosť, že hypotéza alebo záver je pravdivý.
+Je to cieľ každého kontrastu, nie 90% šanca zamietnuť naraz všetky testy.
+Efekt r sa definuje delta=r*(mean(A)+mean(B))/2. Ide o približne
+5%,10% alebo 20% relatívny rozdiel chýb, nie o toľko percentuálnych bodov.
+Napríklad chyby 1,00 a 0,90 majú podľa tejto definície rozdiel 10,526%.
+Pracovné efekty nie sú nové požiadavky na absolútnu presnosť siete.
+
+Z ČOHO SA POČÍTALO
+Všetkých 50 kontrolovane trénovaných modelov (45 hlavných +5 dense FNO),
+5 párovaných seedových blokov, priemery na pevne daných 200 TEST prípadoch.
+Historická PINN ostáva pomocnou referenciou; nový tréning sa jej
+v týchto scenároch nepriraďuje.
+Zo starých dát sa odhadovala variabilita, nie pravdivosť pozorovaného
+rozdielu. Nejde o nesprávne spätne vypočítanú 'dosiahnutú silu'.
+Počet behov sa riešil pomocou necentrálneho t-rozdelenia, obojstranne,
+Bonferroni alpha=.05/počet kontrastov. Predpokladom plánovania je
+približne normálne rozdelenie rozdielov medzi tréningovými seedmi.
+Pri iba 5 pilotných behoch je odhad SD neistý.Preto odporúčané scenáre
+používajú hornú jednostrannú 95% hranicu SD: 2,3724 násobok pilotnej SD.
+Táto horná hranica je pre každý kontrast osobitne; nie je súčasnou
+95% zárukou pre všetky SD ani zárukou proti inému tvaru rozdelenia.
+Simulácia šikmých rozdielov ukazuje, že porušenie predpokladov môže
+zmeniť chybovosť testu; čísla sú plánovacie odhady, nie garancie.
+
+PREHĽAD CIELENÉHO DODATKU —3 METÓDY,3 METRIKY,9 KONTRASTOV
+Rozdiel   Sila  Minimum nových behov/metódu  Nové modely  Odhad GPU-h  Strop+rezerva
+    5%      80%              51                 153          620.7          663.0
+    5%      90%              64                 192          778.9          832.0
+   10%      80%              16                  48          194.7          208.0
+   10%      90%              19                  57          231.2          247.0
+   20%      80%               7                  21           85.2           91.0
+   20%      90%               8                  24           97.4          104.0
+
+Pre vybraný odporúčaný N 20: 60 modelov,235,05 GPU-h odhad tréningov,
+8,37 GPU-h odhad TEST, spolu 243,42 GPU-h. Tvrdý tréningový strop 240 h
+a plánovacia rezerva TEST 20 h dávajú 260 GPU-h.
+
+PREČO SA NEODPORÚČA NASLEPO DOROVNAŤ CELÝ REBRÍČEK
+Požadovať rovnakú vysokú silu aj pre malé hypotetické rozdiely MSE
+v každej dvojici je extrémne drahé, lebo niektoré MSE výrazne kolíšu.
+Napríklad všetkých 10 metód, všetky 3 metriky,20% efekt a 80% sila
+pri hornom odhade SD vyžaduje najhorší kontrast 1354 behov/metódu.
+Nie je to potrebný počet na obhajobu dizertácie.Je to cena veľmi
+silnej plošnej požiadavky, ktorú pre túto prácu neodporúčame.
+Nie je cieľom vynútiť významnosť každého páru za ľubovoľnú cenu.
+Súčasné výsledky sa nestávajú neplatné len preto, že plánovanie
+malých budúcich rozdielov by vyžadovalo veľa tréningov.
+
+DVE RÔZNE NEISTOTY
+Výpočet N vyššie rieši variabilitu učenia na TOM ISTOM 200-prípadovom
+benchmarku. Závery budú podmienené týmito dátami, implementáciami
+a rovnakým štvorhodinovým rozpočtom na jednu H200.
+Pri zovšeobecnení na populáciu geometrií zostáva aj neistota z 85
+geometrických skupín. Ďalšie tréningy ďalšie geometrie nepridávajú.
+Doplnkový dvojfaktorový model naznačuje, že pri viacerých 10% efektoch
+je geometrická neistota dominantná a samotný počet seedov nestačí.
+Tento model je orientačný a pri niektorých kontrastoch dáva iné SE
+než pôvodný bootstrap; nejde o presný dôkaz nemožnosti zlepšenia.
+Preto nesľubujeme, že 60 alebo 300 nových tréningov preukáže všeobecnú
+nadradenosť na úplne nových geometriách. Nové CFD sa nenavrhuje.
+
+NOVÁ NEZÁVISLÁ KOHORTA OPROTI POUŽITIU STARÝCH 5
+Odporúčaných 20 na metódu znamená 20 NOVÝCH seedov. Pôvodných 5
+už slúžilo na výber metód a plánovanie, a ostanú prieskumnou sadou.
+Ak by sa len doplnilo na 20 vrátane pôvodných 5, pri troch metódach
+by to bolo 45 nových tréningov, odhad 182,56 GPU-h a rezerva 195 GPU-h.
+Takýto spoločný súhrn by bol rozšírenou exploratívnou analýzou;
+nevydával by sa za nezávislé 20-behové potvrdenie.
+Ani nová kohorta nie je nový slepý TEST geometrie; používa tie isté
+známe dáta a samostatne preveruje opakovateľnosť nových tréningov.
+
+AKO SA OVERILI NÁKLADY A VÝPOČET
+Načítané boli pôvodné complete, started a allocation_closeout všetkých
+50 behov aj ich finálne TEST súhrny. Rozlišuje sa zaznamenaný runtime
+alokácie od finálneho portálového vyúčtovania a od nákladového stropu.
+ELM a SCN sú v odhade lacnejšie, pretože prirodzene skončili skôr.
+Tréningový limit zostáva 4 GPU-h/nový model. TEST rezerva je maximum
+doterajšej ceny metódy krát 1,25 +3 minúty, zaokrúhlené na štvrťhodinu.
+Je to plánovacia rezerva, nie absolútna záruka budúceho runtime.
+Cena zahŕňa rovnaké 200 TEST prípadov a 1000 časovaní/prípad; neplánuje
+sa nové ladenie, HPO, LLM generovanie ani nový tréning PINN.
+Nezávislý audit preveril 96 scenárov,113 limitujúcich minimálnychN
+adaptívnou integráciou a všetky rozpočtové vzorce aj pôvodnéSHA.
+Pre veľkéN sa opravila numerická cesta pre NaN zo SciPy 1.18.1;
+pôvodný neúspešný pokus je zachovaný a neovplyvnil vedecké dáta.
+
+ČO JE TERAZ HOTOVÉ
+Hotová je táto CPU analýza a návrhy rozsahu.ŽIADNE NOVÉ TRÉNINGY
+sa nespustili a analýza nespotrebovala GPU hodiny.
+Sila nepredstavuje univerzálnu hranicu obhájiteľnosti dizertácie.
+Každý prípadný dodatok dostane vopred uzavretý cieľ, metriky, seedy
+a počet behov; tréning sa nebude pridávať dovtedy, kým vyjde p<.05.
+
+SÚBORY A ZDROJE
+recommendation.json —presný odporúčaný rozsah a obe hlavné možnosti.
+sample_size_design_summary.csv —96 scenárov s nákladmi.
+sample_size_all_contrasts.csv —všetky 5580 plánovacích kontrastov.
+geometry_uncertainty_limits.csv —oddelená geometrická diagnostika.
+TFNO_anchored_effect_sensitivity.csv —alternatívna definícia efektu.
+observed_training_and_TEST_costs.csv —pôvodné náklady všetkých 50 behov.
+independent_verification.json —overenie výpočtov a nákladov.
+Colas et al.:https://arxiv.org/abs/1806.08295
+Hoenig/Heisey:https://doi.org/10.1198/000313001300339897
+SciPy:https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.nct.html
+Owen/Eckles:https://arxiv.org/abs/1106.2125

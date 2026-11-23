@@ -1,0 +1,4424 @@
+[
+  {
+    "design": "original_nine_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 108,
+    "relative_effect": 0.05,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 3734,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 33561,
+      "expected_training_GPU_h": 102548.95016666666,
+      "training_hard_limit_GPU_h": 134244,
+      "expected_TEST_GPU_h": 3736.100271040146,
+      "TEST_planning_reserve_GPU_h": 13051.5,
+      "total_expected_GPU_h": 106285.05043770681,
+      "training_cap_plus_TEST_reserve_GPU_h": 147295.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 33606,
+      "expected_training_GPU_h": 102686.45211111111,
+      "training_hard_limit_GPU_h": 134424,
+      "expected_TEST_GPU_h": 3741.1097913821145,
+      "TEST_planning_reserve_GPU_h": 13069.0,
+      "total_expected_GPU_h": 106427.56190249322,
+      "training_cap_plus_TEST_reserve_GPU_h": 147493.0
+    }
+  },
+  {
+    "design": "original_nine_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 108,
+    "relative_effect": 0.05,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 20986,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 188829,
+      "expected_training_GPU_h": 576985.6592777778,
+      "training_hard_limit_GPU_h": 755316,
+      "expected_TEST_GPU_h": 21020.949258968438,
+      "TEST_planning_reserve_GPU_h": 73433.5,
+      "total_expected_GPU_h": 598006.6085367462,
+      "training_cap_plus_TEST_reserve_GPU_h": 828749.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 188874,
+      "expected_training_GPU_h": 577123.1612222223,
+      "training_hard_limit_GPU_h": 755496,
+      "expected_TEST_GPU_h": 21025.958779310407,
+      "TEST_planning_reserve_GPU_h": 73451.0,
+      "total_expected_GPU_h": 598149.1200015326,
+      "training_cap_plus_TEST_reserve_GPU_h": 828947.0
+    }
+  },
+  {
+    "design": "original_nine_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 108,
+    "relative_effect": 0.05,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 4528,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 40707,
+      "expected_training_GPU_h": 124384.25894444445,
+      "training_hard_limit_GPU_h": 162828,
+      "expected_TEST_GPU_h": 4531.612101344752,
+      "TEST_planning_reserve_GPU_h": 15830.5,
+      "total_expected_GPU_h": 128915.8710457892,
+      "training_cap_plus_TEST_reserve_GPU_h": 178658.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 40752,
+      "expected_training_GPU_h": 124521.7608888889,
+      "training_hard_limit_GPU_h": 163008,
+      "expected_TEST_GPU_h": 4536.621621686721,
+      "TEST_planning_reserve_GPU_h": 15848.0,
+      "total_expected_GPU_h": 129058.38251057561,
+      "training_cap_plus_TEST_reserve_GPU_h": 178856.0
+    }
+  },
+  {
+    "design": "original_nine_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 108,
+    "relative_effect": 0.05,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 25452,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 229023,
+      "expected_training_GPU_h": 699802.3960555556,
+      "training_hard_limit_GPU_h": 916092,
+      "expected_TEST_GPU_h": 25495.45282841475,
+      "TEST_planning_reserve_GPU_h": 89064.5,
+      "total_expected_GPU_h": 725297.8488839703,
+      "training_cap_plus_TEST_reserve_GPU_h": 1005156.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 229068,
+      "expected_training_GPU_h": 699939.898,
+      "training_hard_limit_GPU_h": 916272,
+      "expected_TEST_GPU_h": 25500.462348756715,
+      "TEST_planning_reserve_GPU_h": 89082.0,
+      "total_expected_GPU_h": 725440.3603487567,
+      "training_cap_plus_TEST_reserve_GPU_h": 1005354.0
+    }
+  },
+  {
+    "design": "original_nine_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 108,
+    "relative_effect": 0.1,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 939,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 8406,
+      "expected_training_GPU_h": 25685.363222222222,
+      "training_hard_limit_GPU_h": 33624,
+      "expected_TEST_GPU_h": 935.7783998797255,
+      "TEST_planning_reserve_GPU_h": 3269.0,
+      "total_expected_GPU_h": 26621.141622101946,
+      "training_cap_plus_TEST_reserve_GPU_h": 36893.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 8451,
+      "expected_training_GPU_h": 25822.865166666666,
+      "training_hard_limit_GPU_h": 33804,
+      "expected_TEST_GPU_h": 940.7879202216941,
+      "TEST_planning_reserve_GPU_h": 3286.5,
+      "total_expected_GPU_h": 26763.65308688836,
+      "training_cap_plus_TEST_reserve_GPU_h": 37090.5
+    }
+  },
+  {
+    "design": "original_nine_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 108,
+    "relative_effect": 0.1,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 5252,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 47223,
+      "expected_training_GPU_h": 144294.5405,
+      "training_hard_limit_GPU_h": 188892,
+      "expected_TEST_GPU_h": 5256.990646861798,
+      "TEST_planning_reserve_GPU_h": 18364.5,
+      "total_expected_GPU_h": 149551.5311468618,
+      "training_cap_plus_TEST_reserve_GPU_h": 207256.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 47268,
+      "expected_training_GPU_h": 144432.04244444444,
+      "training_hard_limit_GPU_h": 189072,
+      "expected_TEST_GPU_h": 5262.000167203767,
+      "TEST_planning_reserve_GPU_h": 18382.0,
+      "total_expected_GPU_h": 149694.0426116482,
+      "training_cap_plus_TEST_reserve_GPU_h": 207454.0
+    }
+  },
+  {
+    "design": "original_nine_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 108,
+    "relative_effect": 0.1,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 1137,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 10188,
+      "expected_training_GPU_h": 31130.440222222223,
+      "training_hard_limit_GPU_h": 40752,
+      "expected_TEST_GPU_h": 1134.1554054216801,
+      "TEST_planning_reserve_GPU_h": 3962.0,
+      "total_expected_GPU_h": 32264.595627643903,
+      "training_cap_plus_TEST_reserve_GPU_h": 44714.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 10233,
+      "expected_training_GPU_h": 31267.942166666668,
+      "training_hard_limit_GPU_h": 40932,
+      "expected_TEST_GPU_h": 1139.1649257636486,
+      "TEST_planning_reserve_GPU_h": 3979.5,
+      "total_expected_GPU_h": 32407.107092430313,
+      "training_cap_plus_TEST_reserve_GPU_h": 44911.5
+    }
+  },
+  {
+    "design": "original_nine_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 108,
+    "relative_effect": 0.1,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 6368,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 57267,
+      "expected_training_GPU_h": 174984.9745,
+      "training_hard_limit_GPU_h": 229068,
+      "expected_TEST_GPU_h": 6375.115587189179,
+      "TEST_planning_reserve_GPU_h": 22270.5,
+      "total_expected_GPU_h": 181360.09008718916,
+      "training_cap_plus_TEST_reserve_GPU_h": 251338.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 57312,
+      "expected_training_GPU_h": 175122.47644444444,
+      "training_hard_limit_GPU_h": 229248,
+      "expected_TEST_GPU_h": 6380.1251075311475,
+      "TEST_planning_reserve_GPU_h": 22288.0,
+      "total_expected_GPU_h": 181502.6015519756,
+      "training_cap_plus_TEST_reserve_GPU_h": 251536.0
+    }
+  },
+  {
+    "design": "original_nine_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 108,
+    "relative_effect": 0.2,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 240,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 2115,
+      "expected_training_GPU_h": 6462.591388888889,
+      "training_hard_limit_GPU_h": 8460,
+      "expected_TEST_GPU_h": 235.44745607252193,
+      "TEST_planning_reserve_GPU_h": 822.5,
+      "total_expected_GPU_h": 6698.038844961411,
+      "training_cap_plus_TEST_reserve_GPU_h": 9282.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 2160,
+      "expected_training_GPU_h": 6600.093333333333,
+      "training_hard_limit_GPU_h": 8640,
+      "expected_TEST_GPU_h": 240.4569764144905,
+      "TEST_planning_reserve_GPU_h": 840.0,
+      "total_expected_GPU_h": 6840.550309747824,
+      "training_cap_plus_TEST_reserve_GPU_h": 9480.0
+    }
+  },
+  {
+    "design": "original_nine_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 108,
+    "relative_effect": 0.2,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 1318,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 11817,
+      "expected_training_GPU_h": 36108.01061111111,
+      "training_hard_limit_GPU_h": 47268,
+      "expected_TEST_GPU_h": 1315.5000418009417,
+      "TEST_planning_reserve_GPU_h": 4595.5,
+      "total_expected_GPU_h": 37423.51065291205,
+      "training_cap_plus_TEST_reserve_GPU_h": 51863.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 11862,
+      "expected_training_GPU_h": 36245.51255555556,
+      "training_hard_limit_GPU_h": 47448,
+      "expected_TEST_GPU_h": 1320.5095621429102,
+      "TEST_planning_reserve_GPU_h": 4613.0,
+      "total_expected_GPU_h": 37566.02211769846,
+      "training_cap_plus_TEST_reserve_GPU_h": 52061.0
+    }
+  },
+  {
+    "design": "original_nine_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 108,
+    "relative_effect": 0.2,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 289,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 2556,
+      "expected_training_GPU_h": 7810.1104444444445,
+      "training_hard_limit_GPU_h": 10224,
+      "expected_TEST_GPU_h": 284.5407554238137,
+      "TEST_planning_reserve_GPU_h": 994.0,
+      "total_expected_GPU_h": 8094.651199868258,
+      "training_cap_plus_TEST_reserve_GPU_h": 11218.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 2601,
+      "expected_training_GPU_h": 7947.612388888889,
+      "training_hard_limit_GPU_h": 10404,
+      "expected_TEST_GPU_h": 289.5502757657823,
+      "TEST_planning_reserve_GPU_h": 1011.5,
+      "total_expected_GPU_h": 8237.16266465467,
+      "training_cap_plus_TEST_reserve_GPU_h": 11415.5
+    }
+  },
+  {
+    "design": "original_nine_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 108,
+    "relative_effect": 0.2,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 1597,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 14328,
+      "expected_training_GPU_h": 43780.61911111111,
+      "training_hard_limit_GPU_h": 57312,
+      "expected_TEST_GPU_h": 1595.0312768827869,
+      "TEST_planning_reserve_GPU_h": 5572.0,
+      "total_expected_GPU_h": 45375.6503879939,
+      "training_cap_plus_TEST_reserve_GPU_h": 62884.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 14373,
+      "expected_training_GPU_h": 43918.12105555556,
+      "training_hard_limit_GPU_h": 57492,
+      "expected_TEST_GPU_h": 1600.0407972247556,
+      "TEST_planning_reserve_GPU_h": 5589.5,
+      "total_expected_GPU_h": 45518.16185278031,
+      "training_cap_plus_TEST_reserve_GPU_h": 63081.5
+    }
+  },
+  {
+    "design": "ten_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 135,
+    "relative_effect": 0.05,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 3837,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 38320,
+      "expected_training_GPU_h": 120393.35022222222,
+      "training_hard_limit_GPU_h": 153280,
+      "expected_TEST_GPU_h": 4365.484944356034,
+      "TEST_planning_reserve_GPU_h": 14370.0,
+      "total_expected_GPU_h": 124758.83516657825,
+      "training_cap_plus_TEST_reserve_GPU_h": 167650.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 38370,
+      "expected_training_GPU_h": 120550.43966666666,
+      "training_hard_limit_GPU_h": 153480,
+      "expected_TEST_GPU_h": 4371.181036402428,
+      "TEST_planning_reserve_GPU_h": 14388.75,
+      "total_expected_GPU_h": 124921.62070306909,
+      "training_cap_plus_TEST_reserve_GPU_h": 167868.75
+    }
+  },
+  {
+    "design": "ten_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 135,
+    "relative_effect": 0.05,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 21561,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 215560,
+      "expected_training_GPU_h": 677244.0128888888,
+      "training_hard_limit_GPU_h": 862240,
+      "expected_TEST_GPU_h": 24556.99203041197,
+      "TEST_planning_reserve_GPU_h": 80835.0,
+      "total_expected_GPU_h": 701801.0049193008,
+      "training_cap_plus_TEST_reserve_GPU_h": 943075.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 215610,
+      "expected_training_GPU_h": 677401.1023333332,
+      "training_hard_limit_GPU_h": 862440,
+      "expected_TEST_GPU_h": 24562.688122458363,
+      "TEST_planning_reserve_GPU_h": 80853.75,
+      "total_expected_GPU_h": 701963.7904557916,
+      "training_cap_plus_TEST_reserve_GPU_h": 943293.75
+    }
+  },
+  {
+    "design": "ten_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 135,
+    "relative_effect": 0.05,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 4640,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 46350,
+      "expected_training_GPU_h": 145621.91499999998,
+      "training_hard_limit_GPU_h": 185400,
+      "expected_TEST_GPU_h": 5280.277327006842,
+      "TEST_planning_reserve_GPU_h": 17381.25,
+      "total_expected_GPU_h": 150902.19232700684,
+      "training_cap_plus_TEST_reserve_GPU_h": 202781.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 46400,
+      "expected_training_GPU_h": 145779.00444444444,
+      "training_hard_limit_GPU_h": 185600,
+      "expected_TEST_GPU_h": 5285.973419053235,
+      "TEST_planning_reserve_GPU_h": 17400.0,
+      "total_expected_GPU_h": 151064.97786349768,
+      "training_cap_plus_TEST_reserve_GPU_h": 203000.0
+    }
+  },
+  {
+    "design": "ten_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 135,
+    "relative_effect": 0.05,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 26084,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 260790,
+      "expected_training_GPU_h": 819347.1243333332,
+      "training_hard_limit_GPU_h": 1043160,
+      "expected_TEST_GPU_h": 29709.676895579596,
+      "TEST_planning_reserve_GPU_h": 97796.25,
+      "total_expected_GPU_h": 849056.8012289129,
+      "training_cap_plus_TEST_reserve_GPU_h": 1140956.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 260840,
+      "expected_training_GPU_h": 819504.2137777777,
+      "training_hard_limit_GPU_h": 1043360,
+      "expected_TEST_GPU_h": 29715.37298762599,
+      "TEST_planning_reserve_GPU_h": 97815.0,
+      "total_expected_GPU_h": 849219.5867654037,
+      "training_cap_plus_TEST_reserve_GPU_h": 1141175.0
+    }
+  },
+  {
+    "design": "ten_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 135,
+    "relative_effect": 0.1,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 964,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 9590,
+      "expected_training_GPU_h": 30129.755444444443,
+      "training_hard_limit_GPU_h": 38360,
+      "expected_TEST_GPU_h": 1092.5104544982873,
+      "TEST_planning_reserve_GPU_h": 3596.25,
+      "total_expected_GPU_h": 31222.26589894273,
+      "training_cap_plus_TEST_reserve_GPU_h": 41956.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 9640,
+      "expected_training_GPU_h": 30286.844888888885,
+      "training_hard_limit_GPU_h": 38560,
+      "expected_TEST_GPU_h": 1098.2065465446808,
+      "TEST_planning_reserve_GPU_h": 3615.0,
+      "total_expected_GPU_h": 31385.05143543357,
+      "training_cap_plus_TEST_reserve_GPU_h": 42175.0
+    }
+  },
+  {
+    "design": "ten_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 135,
+    "relative_effect": 0.1,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 5395,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 53900,
+      "expected_training_GPU_h": 169342.4211111111,
+      "training_hard_limit_GPU_h": 215600,
+      "expected_TEST_GPU_h": 6140.387226012272,
+      "TEST_planning_reserve_GPU_h": 20212.5,
+      "total_expected_GPU_h": 175482.80833712337,
+      "training_cap_plus_TEST_reserve_GPU_h": 235812.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 53950,
+      "expected_training_GPU_h": 169499.51055555555,
+      "training_hard_limit_GPU_h": 215800,
+      "expected_TEST_GPU_h": 6146.083318058665,
+      "TEST_planning_reserve_GPU_h": 20231.25,
+      "total_expected_GPU_h": 175645.5938736142,
+      "training_cap_plus_TEST_reserve_GPU_h": 236031.25
+    }
+  },
+  {
+    "design": "ten_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 135,
+    "relative_effect": 0.1,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 1165,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 11600,
+      "expected_training_GPU_h": 36444.75111111111,
+      "training_hard_limit_GPU_h": 46400,
+      "expected_TEST_GPU_h": 1321.4933547633088,
+      "TEST_planning_reserve_GPU_h": 4350.0,
+      "total_expected_GPU_h": 37766.24446587442,
+      "training_cap_plus_TEST_reserve_GPU_h": 50750.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 11650,
+      "expected_training_GPU_h": 36601.84055555555,
+      "training_hard_limit_GPU_h": 46600,
+      "expected_TEST_GPU_h": 1327.1894468097025,
+      "TEST_planning_reserve_GPU_h": 4368.75,
+      "total_expected_GPU_h": 37929.03000236525,
+      "training_cap_plus_TEST_reserve_GPU_h": 50968.75
+    }
+  },
+  {
+    "design": "ten_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 135,
+    "relative_effect": 0.1,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 6526,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 65210,
+      "expected_training_GPU_h": 204876.05344444443,
+      "training_hard_limit_GPU_h": 260840,
+      "expected_TEST_GPU_h": 7428.843246906497,
+      "TEST_planning_reserve_GPU_h": 24453.75,
+      "total_expected_GPU_h": 212304.89669135094,
+      "training_cap_plus_TEST_reserve_GPU_h": 285293.75
+    },
+    "new_independent_cohort_n": {
+      "new_models": 65260,
+      "expected_training_GPU_h": 205033.14288888886,
+      "training_hard_limit_GPU_h": 261040,
+      "expected_TEST_GPU_h": 7434.539338952891,
+      "TEST_planning_reserve_GPU_h": 24472.5,
+      "total_expected_GPU_h": 212467.68222784175,
+      "training_cap_plus_TEST_reserve_GPU_h": 285512.5
+    }
+  },
+  {
+    "design": "ten_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 135,
+    "relative_effect": 0.2,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 246,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 2410,
+      "expected_training_GPU_h": 7571.711222222221,
+      "training_hard_limit_GPU_h": 9640,
+      "expected_TEST_GPU_h": 274.5516366361702,
+      "TEST_planning_reserve_GPU_h": 903.75,
+      "total_expected_GPU_h": 7846.262858858392,
+      "training_cap_plus_TEST_reserve_GPU_h": 10543.75
+    },
+    "new_independent_cohort_n": {
+      "new_models": 2460,
+      "expected_training_GPU_h": 7728.800666666666,
+      "training_hard_limit_GPU_h": 9840,
+      "expected_TEST_GPU_h": 280.2477286825638,
+      "TEST_planning_reserve_GPU_h": 922.5,
+      "total_expected_GPU_h": 8009.04839534923,
+      "training_cap_plus_TEST_reserve_GPU_h": 10762.5
+    }
+  },
+  {
+    "design": "ten_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 135,
+    "relative_effect": 0.2,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 1354,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 13490,
+      "expected_training_GPU_h": 42382.73211111111,
+      "training_hard_limit_GPU_h": 53960,
+      "expected_TEST_GPU_h": 1536.8056341169859,
+      "TEST_planning_reserve_GPU_h": 5058.75,
+      "total_expected_GPU_h": 43919.537745228095,
+      "training_cap_plus_TEST_reserve_GPU_h": 59018.75
+    },
+    "new_independent_cohort_n": {
+      "new_models": 13540,
+      "expected_training_GPU_h": 42539.82155555555,
+      "training_hard_limit_GPU_h": 54160,
+      "expected_TEST_GPU_h": 1542.5017261633795,
+      "TEST_planning_reserve_GPU_h": 5077.5,
+      "total_expected_GPU_h": 44082.323281718935,
+      "training_cap_plus_TEST_reserve_GPU_h": 59237.5
+    }
+  },
+  {
+    "design": "ten_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 135,
+    "relative_effect": 0.2,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 296,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 2910,
+      "expected_training_GPU_h": 9142.605666666666,
+      "training_hard_limit_GPU_h": 11640,
+      "expected_TEST_GPU_h": 331.51255710010594,
+      "TEST_planning_reserve_GPU_h": 1091.25,
+      "total_expected_GPU_h": 9474.118223766773,
+      "training_cap_plus_TEST_reserve_GPU_h": 12731.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 2960,
+      "expected_training_GPU_h": 9299.69511111111,
+      "training_hard_limit_GPU_h": 11840,
+      "expected_TEST_GPU_h": 337.2086491464995,
+      "TEST_planning_reserve_GPU_h": 1110.0,
+      "total_expected_GPU_h": 9636.90376025761,
+      "training_cap_plus_TEST_reserve_GPU_h": 12950.0
+    }
+  },
+  {
+    "design": "ten_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 135,
+    "relative_effect": 0.2,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 1637,
+    "exact_sign_flip_resolution_minimum_n": 13,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 16320,
+      "expected_training_GPU_h": 51273.99466666666,
+      "training_hard_limit_GPU_h": 65280,
+      "expected_TEST_GPU_h": 1859.204443942862,
+      "TEST_planning_reserve_GPU_h": 6120.0,
+      "total_expected_GPU_h": 53133.19911060952,
+      "training_cap_plus_TEST_reserve_GPU_h": 71400.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 16370,
+      "expected_training_GPU_h": 51431.08411111111,
+      "training_hard_limit_GPU_h": 65480,
+      "expected_TEST_GPU_h": 1864.9005359892558,
+      "TEST_planning_reserve_GPU_h": 6138.75,
+      "total_expected_GPU_h": 53295.98464710036,
+      "training_cap_plus_TEST_reserve_GPU_h": 71618.75
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 27,
+    "relative_effect": 0.05,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 3096,
+    "exact_sign_flip_resolution_minimum_n": 11,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 30910,
+      "expected_training_GPU_h": 97112.69455555554,
+      "training_hard_limit_GPU_h": 123640,
+      "expected_TEST_GPU_h": 3521.3241030805066,
+      "TEST_planning_reserve_GPU_h": 11591.25,
+      "total_expected_GPU_h": 100634.01865863605,
+      "training_cap_plus_TEST_reserve_GPU_h": 135231.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 30960,
+      "expected_training_GPU_h": 97269.78399999999,
+      "training_hard_limit_GPU_h": 123840,
+      "expected_TEST_GPU_h": 3527.0201951269,
+      "TEST_planning_reserve_GPU_h": 11610.0,
+      "total_expected_GPU_h": 100796.8041951269,
+      "training_cap_plus_TEST_reserve_GPU_h": 135450.0
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 27,
+    "relative_effect": 0.05,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 17401,
+    "exact_sign_flip_resolution_minimum_n": 11,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 173960,
+      "expected_training_GPU_h": 546545.5951111111,
+      "training_hard_limit_GPU_h": 695840,
+      "expected_TEST_GPU_h": 19817.843447812516,
+      "TEST_planning_reserve_GPU_h": 65235.0,
+      "total_expected_GPU_h": 566363.4385589235,
+      "training_cap_plus_TEST_reserve_GPU_h": 761075.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 174010,
+      "expected_training_GPU_h": 546702.6845555555,
+      "training_hard_limit_GPU_h": 696040,
+      "expected_TEST_GPU_h": 19823.539539858913,
+      "TEST_planning_reserve_GPU_h": 65253.75,
+      "total_expected_GPU_h": 566526.2240954144,
+      "training_cap_plus_TEST_reserve_GPU_h": 761293.75
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 27,
+    "relative_effect": 0.05,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 3822,
+    "exact_sign_flip_resolution_minimum_n": 11,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 38170,
+      "expected_training_GPU_h": 119922.08188888888,
+      "training_hard_limit_GPU_h": 152680,
+      "expected_TEST_GPU_h": 4348.396668216853,
+      "TEST_planning_reserve_GPU_h": 14313.75,
+      "total_expected_GPU_h": 124270.47855710573,
+      "training_cap_plus_TEST_reserve_GPU_h": 166993.75
+    },
+    "new_independent_cohort_n": {
+      "new_models": 38220,
+      "expected_training_GPU_h": 120079.17133333332,
+      "training_hard_limit_GPU_h": 152880,
+      "expected_TEST_GPU_h": 4354.092760263247,
+      "TEST_planning_reserve_GPU_h": 14332.5,
+      "total_expected_GPU_h": 124433.26409359658,
+      "training_cap_plus_TEST_reserve_GPU_h": 167212.5
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 27,
+    "relative_effect": 0.05,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 21487,
+    "exact_sign_flip_resolution_minimum_n": 11,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 214820,
+      "expected_training_GPU_h": 674919.089111111,
+      "training_hard_limit_GPU_h": 859280,
+      "expected_TEST_GPU_h": 24472.689868125344,
+      "TEST_planning_reserve_GPU_h": 80557.5,
+      "total_expected_GPU_h": 699391.7789792364,
+      "training_cap_plus_TEST_reserve_GPU_h": 939837.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 214870,
+      "expected_training_GPU_h": 675076.1785555555,
+      "training_hard_limit_GPU_h": 859480,
+      "expected_TEST_GPU_h": 24478.385960171738,
+      "TEST_planning_reserve_GPU_h": 80576.25,
+      "total_expected_GPU_h": 699554.5645157272,
+      "training_cap_plus_TEST_reserve_GPU_h": 940056.25
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 27,
+    "relative_effect": 0.1,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 778,
+    "exact_sign_flip_resolution_minimum_n": 11,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 7730,
+      "expected_training_GPU_h": 24286.028111111107,
+      "training_hard_limit_GPU_h": 30920,
+      "expected_TEST_GPU_h": 880.6158303724463,
+      "TEST_planning_reserve_GPU_h": 2898.75,
+      "total_expected_GPU_h": 25166.643941483555,
+      "training_cap_plus_TEST_reserve_GPU_h": 33818.75
+    },
+    "new_independent_cohort_n": {
+      "new_models": 7780,
+      "expected_training_GPU_h": 24443.117555555553,
+      "training_hard_limit_GPU_h": 31120,
+      "expected_TEST_GPU_h": 886.3119224188399,
+      "TEST_planning_reserve_GPU_h": 2917.5,
+      "total_expected_GPU_h": 25329.429477974394,
+      "training_cap_plus_TEST_reserve_GPU_h": 34037.5
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 27,
+    "relative_effect": 0.1,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 4354,
+    "exact_sign_flip_resolution_minimum_n": 11,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 43490,
+      "expected_training_GPU_h": 136636.39877777777,
+      "training_hard_limit_GPU_h": 173960,
+      "expected_TEST_GPU_h": 4954.460861953129,
+      "TEST_planning_reserve_GPU_h": 16308.75,
+      "total_expected_GPU_h": 141590.8596397309,
+      "training_cap_plus_TEST_reserve_GPU_h": 190268.75
+    },
+    "new_independent_cohort_n": {
+      "new_models": 43540,
+      "expected_training_GPU_h": 136793.48822222222,
+      "training_hard_limit_GPU_h": 174160,
+      "expected_TEST_GPU_h": 4960.1569539995235,
+      "TEST_planning_reserve_GPU_h": 16327.5,
+      "total_expected_GPU_h": 141753.64517622173,
+      "training_cap_plus_TEST_reserve_GPU_h": 190487.5
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 27,
+    "relative_effect": 0.1,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 960,
+    "exact_sign_flip_resolution_minimum_n": 11,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 9550,
+      "expected_training_GPU_h": 30004.083888888887,
+      "training_hard_limit_GPU_h": 38200,
+      "expected_TEST_GPU_h": 1087.9535808611724,
+      "TEST_planning_reserve_GPU_h": 3581.25,
+      "total_expected_GPU_h": 31092.03746975006,
+      "training_cap_plus_TEST_reserve_GPU_h": 41781.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 9600,
+      "expected_training_GPU_h": 30161.17333333333,
+      "training_hard_limit_GPU_h": 38400,
+      "expected_TEST_GPU_h": 1093.649672907566,
+      "TEST_planning_reserve_GPU_h": 3600.0,
+      "total_expected_GPU_h": 31254.8230062409,
+      "training_cap_plus_TEST_reserve_GPU_h": 42000.0
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 27,
+    "relative_effect": 0.1,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 5376,
+    "exact_sign_flip_resolution_minimum_n": 11,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 53710,
+      "expected_training_GPU_h": 168745.4812222222,
+      "training_hard_limit_GPU_h": 214840,
+      "expected_TEST_GPU_h": 6118.742076235976,
+      "TEST_planning_reserve_GPU_h": 20141.25,
+      "total_expected_GPU_h": 174864.22329845818,
+      "training_cap_plus_TEST_reserve_GPU_h": 234981.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 53760,
+      "expected_training_GPU_h": 168902.57066666664,
+      "training_hard_limit_GPU_h": 215040,
+      "expected_TEST_GPU_h": 6124.43816828237,
+      "TEST_planning_reserve_GPU_h": 20160.0,
+      "total_expected_GPU_h": 175027.00883494903,
+      "training_cap_plus_TEST_reserve_GPU_h": 235200.0
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 27,
+    "relative_effect": 0.2,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 199,
+    "exact_sign_flip_resolution_minimum_n": 11,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 1940,
+      "expected_training_GPU_h": 6095.070444444444,
+      "training_hard_limit_GPU_h": 7760,
+      "expected_TEST_GPU_h": 221.00837140007062,
+      "TEST_planning_reserve_GPU_h": 727.5,
+      "total_expected_GPU_h": 6316.078815844515,
+      "training_cap_plus_TEST_reserve_GPU_h": 8487.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 1990,
+      "expected_training_GPU_h": 6252.159888888888,
+      "training_hard_limit_GPU_h": 7960,
+      "expected_TEST_GPU_h": 226.7044634464642,
+      "TEST_planning_reserve_GPU_h": 746.25,
+      "total_expected_GPU_h": 6478.864352335353,
+      "training_cap_plus_TEST_reserve_GPU_h": 8706.25
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 27,
+    "relative_effect": 0.2,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 1093,
+    "exact_sign_flip_resolution_minimum_n": 11,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 10880,
+      "expected_training_GPU_h": 34182.663111111106,
+      "training_hard_limit_GPU_h": 43520,
+      "expected_TEST_GPU_h": 1239.4696292952415,
+      "TEST_planning_reserve_GPU_h": 4080.0,
+      "total_expected_GPU_h": 35422.13274040635,
+      "training_cap_plus_TEST_reserve_GPU_h": 47600.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 10930,
+      "expected_training_GPU_h": 34339.752555555555,
+      "training_hard_limit_GPU_h": 43720,
+      "expected_TEST_GPU_h": 1245.165721341635,
+      "TEST_planning_reserve_GPU_h": 4098.75,
+      "total_expected_GPU_h": 35584.91827689719,
+      "training_cap_plus_TEST_reserve_GPU_h": 47818.75
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 27,
+    "relative_effect": 0.2,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 244,
+    "exact_sign_flip_resolution_minimum_n": 11,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 2390,
+      "expected_training_GPU_h": 7508.875444444444,
+      "training_hard_limit_GPU_h": 9560,
+      "expected_TEST_GPU_h": 272.27319981761275,
+      "TEST_planning_reserve_GPU_h": 896.25,
+      "total_expected_GPU_h": 7781.148644262056,
+      "training_cap_plus_TEST_reserve_GPU_h": 10456.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 2440,
+      "expected_training_GPU_h": 7665.964888888888,
+      "training_hard_limit_GPU_h": 9760,
+      "expected_TEST_GPU_h": 277.9692918640063,
+      "TEST_planning_reserve_GPU_h": 915.0,
+      "total_expected_GPU_h": 7943.9341807528945,
+      "training_cap_plus_TEST_reserve_GPU_h": 10675.0
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 27,
+    "relative_effect": 0.2,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 1348,
+    "exact_sign_flip_resolution_minimum_n": 11,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 0.00033093219351937265
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 13430,
+      "expected_training_GPU_h": 42194.224777777774,
+      "training_hard_limit_GPU_h": 53720,
+      "expected_TEST_GPU_h": 1529.9703236613136,
+      "TEST_planning_reserve_GPU_h": 5036.25,
+      "total_expected_GPU_h": 43724.19510143909,
+      "training_cap_plus_TEST_reserve_GPU_h": 58756.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 13480,
+      "expected_training_GPU_h": 42351.314222222216,
+      "training_hard_limit_GPU_h": 53920,
+      "expected_TEST_GPU_h": 1535.6664157077073,
+      "TEST_planning_reserve_GPU_h": 5055.0,
+      "total_expected_GPU_h": 43886.980637929926,
+      "training_cap_plus_TEST_reserve_GPU_h": 58975.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 9,
+    "relative_effect": 0.05,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 13,
+    "exact_sign_flip_resolution_minimum_n": 9,
+    "limiting_contrasts": [
+      {
+        "method_a": "realnpu",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 6.105934172864914e-07
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 24,
+      "expected_training_GPU_h": 94.02088888888889,
+      "training_hard_limit_GPU_h": 96,
+      "expected_TEST_GPU_h": 3.3467751110944275,
+      "TEST_planning_reserve_GPU_h": 8.0,
+      "total_expected_GPU_h": 97.36766399998331,
+      "training_cap_plus_TEST_reserve_GPU_h": 104.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 39,
+      "expected_training_GPU_h": 152.78394444444444,
+      "training_hard_limit_GPU_h": 156,
+      "expected_TEST_GPU_h": 5.438509555528444,
+      "TEST_planning_reserve_GPU_h": 13.0,
+      "total_expected_GPU_h": 158.22245399997288,
+      "training_cap_plus_TEST_reserve_GPU_h": 169.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 9,
+    "relative_effect": 0.05,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 51,
+    "exact_sign_flip_resolution_minimum_n": 9,
+    "limiting_contrasts": [
+      {
+        "method_a": "realnpu",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 6.105934172864914e-07
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 138,
+      "expected_training_GPU_h": 540.6201111111111,
+      "training_hard_limit_GPU_h": 552,
+      "expected_TEST_GPU_h": 19.243956888792958,
+      "TEST_planning_reserve_GPU_h": 46.0,
+      "total_expected_GPU_h": 559.864067999904,
+      "training_cap_plus_TEST_reserve_GPU_h": 598.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 153,
+      "expected_training_GPU_h": 599.3831666666666,
+      "training_hard_limit_GPU_h": 612,
+      "expected_TEST_GPU_h": 21.335691333226976,
+      "TEST_planning_reserve_GPU_h": 51.0,
+      "total_expected_GPU_h": 620.7188579998935,
+      "training_cap_plus_TEST_reserve_GPU_h": 663.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 9,
+    "relative_effect": 0.05,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 15,
+    "exact_sign_flip_resolution_minimum_n": 9,
+    "limiting_contrasts": [
+      {
+        "method_a": "realnpu",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 6.105934172864914e-07
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 30,
+      "expected_training_GPU_h": 117.5261111111111,
+      "training_hard_limit_GPU_h": 120,
+      "expected_TEST_GPU_h": 4.183468888868035,
+      "TEST_planning_reserve_GPU_h": 10.0,
+      "total_expected_GPU_h": 121.70957999997913,
+      "training_cap_plus_TEST_reserve_GPU_h": 130.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 45,
+      "expected_training_GPU_h": 176.28916666666666,
+      "training_hard_limit_GPU_h": 180,
+      "expected_TEST_GPU_h": 6.275203333302051,
+      "TEST_planning_reserve_GPU_h": 15.0,
+      "total_expected_GPU_h": 182.5643699999687,
+      "training_cap_plus_TEST_reserve_GPU_h": 195.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 9,
+    "relative_effect": 0.05,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 64,
+    "exact_sign_flip_resolution_minimum_n": 9,
+    "limiting_contrasts": [
+      {
+        "method_a": "realnpu",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 6.105934172864914e-07
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 177,
+      "expected_training_GPU_h": 693.4040555555556,
+      "training_hard_limit_GPU_h": 708,
+      "expected_TEST_GPU_h": 24.682466444321403,
+      "TEST_planning_reserve_GPU_h": 59.0,
+      "total_expected_GPU_h": 718.0865219998769,
+      "training_cap_plus_TEST_reserve_GPU_h": 767.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 192,
+      "expected_training_GPU_h": 752.1671111111111,
+      "training_hard_limit_GPU_h": 768,
+      "expected_TEST_GPU_h": 26.77420088875542,
+      "TEST_planning_reserve_GPU_h": 64.0,
+      "total_expected_GPU_h": 778.9413119998665,
+      "training_cap_plus_TEST_reserve_GPU_h": 832.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 9,
+    "relative_effect": 0.1,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 6,
+    "exact_sign_flip_resolution_minimum_n": 9,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 5.334820620647344e-07
+      },
+      {
+        "method_a": "realnpu",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 6.105934172864914e-07
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 3,
+      "expected_training_GPU_h": 11.752611111111111,
+      "training_hard_limit_GPU_h": 12,
+      "expected_TEST_GPU_h": 0.41834688888680344,
+      "TEST_planning_reserve_GPU_h": 1.0,
+      "total_expected_GPU_h": 12.170957999997913,
+      "training_cap_plus_TEST_reserve_GPU_h": 13.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 18,
+      "expected_training_GPU_h": 70.51566666666668,
+      "training_hard_limit_GPU_h": 72,
+      "expected_TEST_GPU_h": 2.5100813333208207,
+      "TEST_planning_reserve_GPU_h": 6.0,
+      "total_expected_GPU_h": 73.02574799998749,
+      "training_cap_plus_TEST_reserve_GPU_h": 78.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 9,
+    "relative_effect": 0.1,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 16,
+    "exact_sign_flip_resolution_minimum_n": 9,
+    "limiting_contrasts": [
+      {
+        "method_a": "realnpu",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 6.105934172864914e-07
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 33,
+      "expected_training_GPU_h": 129.27872222222223,
+      "training_hard_limit_GPU_h": 132,
+      "expected_TEST_GPU_h": 4.601815777754838,
+      "TEST_planning_reserve_GPU_h": 11.0,
+      "total_expected_GPU_h": 133.88053799997704,
+      "training_cap_plus_TEST_reserve_GPU_h": 143.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 48,
+      "expected_training_GPU_h": 188.04177777777778,
+      "training_hard_limit_GPU_h": 192,
+      "expected_TEST_GPU_h": 6.693550222188855,
+      "TEST_planning_reserve_GPU_h": 16.0,
+      "total_expected_GPU_h": 194.73532799996661,
+      "training_cap_plus_TEST_reserve_GPU_h": 208.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 9,
+    "relative_effect": 0.1,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 7,
+    "exact_sign_flip_resolution_minimum_n": 9,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 5.334820620647344e-07
+      },
+      {
+        "method_a": "realnpu",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 6.105934172864914e-07
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 6,
+      "expected_training_GPU_h": 23.505222222222223,
+      "training_hard_limit_GPU_h": 24,
+      "expected_TEST_GPU_h": 0.8366937777736069,
+      "TEST_planning_reserve_GPU_h": 2.0,
+      "total_expected_GPU_h": 24.341915999995827,
+      "training_cap_plus_TEST_reserve_GPU_h": 26.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 21,
+      "expected_training_GPU_h": 82.26827777777778,
+      "training_hard_limit_GPU_h": 84,
+      "expected_TEST_GPU_h": 2.928428222207624,
+      "TEST_planning_reserve_GPU_h": 7.0,
+      "total_expected_GPU_h": 85.1967059999854,
+      "training_cap_plus_TEST_reserve_GPU_h": 91.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 9,
+    "relative_effect": 0.1,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 19,
+    "exact_sign_flip_resolution_minimum_n": 9,
+    "limiting_contrasts": [
+      {
+        "method_a": "realnpu",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 6.105934172864914e-07
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 42,
+      "expected_training_GPU_h": 164.53655555555557,
+      "training_hard_limit_GPU_h": 168,
+      "expected_TEST_GPU_h": 5.856856444415248,
+      "TEST_planning_reserve_GPU_h": 14.0,
+      "total_expected_GPU_h": 170.3934119999708,
+      "training_cap_plus_TEST_reserve_GPU_h": 182.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 57,
+      "expected_training_GPU_h": 223.29961111111112,
+      "training_hard_limit_GPU_h": 228,
+      "expected_TEST_GPU_h": 7.948590888849266,
+      "TEST_planning_reserve_GPU_h": 19.0,
+      "total_expected_GPU_h": 231.24820199996034,
+      "training_cap_plus_TEST_reserve_GPU_h": 247.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 9,
+    "relative_effect": 0.2,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 4,
+    "exact_sign_flip_resolution_minimum_n": 9,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "realnpu",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 3.067115303059489e-07
+      },
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 5.334820620647344e-07
+      },
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0002150232662929262
+      },
+      {
+        "method_a": "realnpu",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 6.105934172864914e-07
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 0,
+      "expected_training_GPU_h": 0.0,
+      "training_hard_limit_GPU_h": 0,
+      "expected_TEST_GPU_h": 0.0,
+      "TEST_planning_reserve_GPU_h": 0.0,
+      "total_expected_GPU_h": 0.0,
+      "training_cap_plus_TEST_reserve_GPU_h": 0.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 12,
+      "expected_training_GPU_h": 47.010444444444445,
+      "training_hard_limit_GPU_h": 48,
+      "expected_TEST_GPU_h": 1.6733875555472137,
+      "TEST_planning_reserve_GPU_h": 4.0,
+      "total_expected_GPU_h": 48.683831999991654,
+      "training_cap_plus_TEST_reserve_GPU_h": 52.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 9,
+    "relative_effect": 0.2,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 7,
+    "exact_sign_flip_resolution_minimum_n": 9,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 5.334820620647344e-07
+      },
+      {
+        "method_a": "realnpu",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 6.105934172864914e-07
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 6,
+      "expected_training_GPU_h": 23.505222222222223,
+      "training_hard_limit_GPU_h": 24,
+      "expected_TEST_GPU_h": 0.8366937777736069,
+      "TEST_planning_reserve_GPU_h": 2.0,
+      "total_expected_GPU_h": 24.341915999995827,
+      "training_cap_plus_TEST_reserve_GPU_h": 26.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 21,
+      "expected_training_GPU_h": 82.26827777777778,
+      "training_hard_limit_GPU_h": 84,
+      "expected_TEST_GPU_h": 2.928428222207624,
+      "TEST_planning_reserve_GPU_h": 7.0,
+      "total_expected_GPU_h": 85.1967059999854,
+      "training_cap_plus_TEST_reserve_GPU_h": 91.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 9,
+    "relative_effect": 0.2,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 5,
+    "exact_sign_flip_resolution_minimum_n": 9,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 5.334820620647344e-07
+      },
+      {
+        "method_a": "realnpu",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 6.105934172864914e-07
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 0,
+      "expected_training_GPU_h": 0.0,
+      "training_hard_limit_GPU_h": 0,
+      "expected_TEST_GPU_h": 0.0,
+      "TEST_planning_reserve_GPU_h": 0.0,
+      "total_expected_GPU_h": 0.0,
+      "training_cap_plus_TEST_reserve_GPU_h": 0.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 15,
+      "expected_training_GPU_h": 58.76305555555555,
+      "training_hard_limit_GPU_h": 60,
+      "expected_TEST_GPU_h": 2.0917344444340173,
+      "TEST_planning_reserve_GPU_h": 5.0,
+      "total_expected_GPU_h": 60.85478999998956,
+      "training_cap_plus_TEST_reserve_GPU_h": 65.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 9,
+    "relative_effect": 0.2,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 8,
+    "exact_sign_flip_resolution_minimum_n": 9,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 5.334820620647344e-07
+      },
+      {
+        "method_a": "realnpu",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "pilot_paired_sd": 6.105934172864914e-07
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 9,
+      "expected_training_GPU_h": 35.25783333333334,
+      "training_hard_limit_GPU_h": 36,
+      "expected_TEST_GPU_h": 1.2550406666604104,
+      "TEST_planning_reserve_GPU_h": 3.0,
+      "total_expected_GPU_h": 36.512873999993744,
+      "training_cap_plus_TEST_reserve_GPU_h": 39.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 24,
+      "expected_training_GPU_h": 94.02088888888889,
+      "training_hard_limit_GPU_h": 96,
+      "expected_TEST_GPU_h": 3.3467751110944275,
+      "TEST_planning_reserve_GPU_h": 8.0,
+      "total_expected_GPU_h": 97.36766399998331,
+      "training_cap_plus_TEST_reserve_GPU_h": 104.0
+    }
+  },
+  {
+    "design": "original_nine_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 72,
+    "relative_effect": 0.05,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 60,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 495,
+      "expected_training_GPU_h": 1512.5213888888889,
+      "training_hard_limit_GPU_h": 1980,
+      "expected_TEST_GPU_h": 55.10472376165407,
+      "TEST_planning_reserve_GPU_h": 192.5,
+      "total_expected_GPU_h": 1567.6261126505428,
+      "training_cap_plus_TEST_reserve_GPU_h": 2172.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 540,
+      "expected_training_GPU_h": 1650.0233333333333,
+      "training_hard_limit_GPU_h": 2160,
+      "expected_TEST_GPU_h": 60.114244103622624,
+      "TEST_planning_reserve_GPU_h": 210.0,
+      "total_expected_GPU_h": 1710.137577436956,
+      "training_cap_plus_TEST_reserve_GPU_h": 2370.0
+    }
+  },
+  {
+    "design": "original_nine_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 72,
+    "relative_effect": 0.05,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 307,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 2718,
+      "expected_training_GPU_h": 8305.117444444444,
+      "training_hard_limit_GPU_h": 10872,
+      "expected_TEST_GPU_h": 302.5750286549005,
+      "TEST_planning_reserve_GPU_h": 1057.0,
+      "total_expected_GPU_h": 8607.692473099345,
+      "training_cap_plus_TEST_reserve_GPU_h": 11929.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 2763,
+      "expected_training_GPU_h": 8442.619388888888,
+      "training_hard_limit_GPU_h": 11052,
+      "expected_TEST_GPU_h": 307.5845489968691,
+      "TEST_planning_reserve_GPU_h": 1074.5,
+      "total_expected_GPU_h": 8750.203937885757,
+      "training_cap_plus_TEST_reserve_GPU_h": 12126.5
+    }
+  },
+  {
+    "design": "original_nine_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 72,
+    "relative_effect": 0.05,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 71,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 594,
+      "expected_training_GPU_h": 1815.0256666666667,
+      "training_hard_limit_GPU_h": 2376,
+      "expected_TEST_GPU_h": 66.12566851398489,
+      "TEST_planning_reserve_GPU_h": 231.0,
+      "total_expected_GPU_h": 1881.1513351806516,
+      "training_cap_plus_TEST_reserve_GPU_h": 2607.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 639,
+      "expected_training_GPU_h": 1952.5276111111111,
+      "training_hard_limit_GPU_h": 2556,
+      "expected_TEST_GPU_h": 71.13518885595343,
+      "TEST_planning_reserve_GPU_h": 248.5,
+      "total_expected_GPU_h": 2023.6627999670645,
+      "training_cap_plus_TEST_reserve_GPU_h": 2804.5
+    }
+  },
+  {
+    "design": "original_nine_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 72,
+    "relative_effect": 0.05,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 373,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 3312,
+      "expected_training_GPU_h": 10120.14311111111,
+      "training_hard_limit_GPU_h": 13248,
+      "expected_TEST_GPU_h": 368.7006971688854,
+      "TEST_planning_reserve_GPU_h": 1288.0,
+      "total_expected_GPU_h": 10488.843808279997,
+      "training_cap_plus_TEST_reserve_GPU_h": 14536.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 3357,
+      "expected_training_GPU_h": 10257.645055555555,
+      "training_hard_limit_GPU_h": 13428,
+      "expected_TEST_GPU_h": 373.71021751085397,
+      "TEST_planning_reserve_GPU_h": 1305.5,
+      "total_expected_GPU_h": 10631.355273066409,
+      "training_cap_plus_TEST_reserve_GPU_h": 14733.5
+    }
+  },
+  {
+    "design": "original_nine_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 72,
+    "relative_effect": 0.1,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 19,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 126,
+      "expected_training_GPU_h": 385.00544444444444,
+      "training_hard_limit_GPU_h": 504,
+      "expected_TEST_GPU_h": 14.026656957511946,
+      "TEST_planning_reserve_GPU_h": 49.0,
+      "total_expected_GPU_h": 399.03210140195637,
+      "training_cap_plus_TEST_reserve_GPU_h": 553.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 171,
+      "expected_training_GPU_h": 522.5073888888888,
+      "training_hard_limit_GPU_h": 684,
+      "expected_TEST_GPU_h": 19.036177299480496,
+      "TEST_planning_reserve_GPU_h": 66.5,
+      "total_expected_GPU_h": 541.5435661883694,
+      "training_cap_plus_TEST_reserve_GPU_h": 750.5
+    }
+  },
+  {
+    "design": "original_nine_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 72,
+    "relative_effect": 0.1,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 81,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 684,
+      "expected_training_GPU_h": 2090.0295555555554,
+      "training_hard_limit_GPU_h": 2736,
+      "expected_TEST_GPU_h": 76.14470919792198,
+      "TEST_planning_reserve_GPU_h": 266.0,
+      "total_expected_GPU_h": 2166.1742647534775,
+      "training_cap_plus_TEST_reserve_GPU_h": 3002.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 729,
+      "expected_training_GPU_h": 2227.5315,
+      "training_hard_limit_GPU_h": 2916,
+      "expected_TEST_GPU_h": 81.15422953989054,
+      "TEST_planning_reserve_GPU_h": 283.5,
+      "total_expected_GPU_h": 2308.6857295398904,
+      "training_cap_plus_TEST_reserve_GPU_h": 3199.5
+    }
+  },
+  {
+    "design": "original_nine_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 72,
+    "relative_effect": 0.1,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 22,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 153,
+      "expected_training_GPU_h": 467.5066111111111,
+      "training_hard_limit_GPU_h": 612,
+      "expected_TEST_GPU_h": 17.032369162693076,
+      "TEST_planning_reserve_GPU_h": 59.5,
+      "total_expected_GPU_h": 484.53898027380416,
+      "training_cap_plus_TEST_reserve_GPU_h": 671.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 198,
+      "expected_training_GPU_h": 605.0085555555555,
+      "training_hard_limit_GPU_h": 792,
+      "expected_TEST_GPU_h": 22.04188950466163,
+      "TEST_planning_reserve_GPU_h": 77.0,
+      "total_expected_GPU_h": 627.0504450602172,
+      "training_cap_plus_TEST_reserve_GPU_h": 869.0
+    }
+  },
+  {
+    "design": "original_nine_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 72,
+    "relative_effect": 0.1,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 98,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 837,
+      "expected_training_GPU_h": 2557.5361666666668,
+      "training_hard_limit_GPU_h": 3348,
+      "expected_TEST_GPU_h": 93.17707836061507,
+      "TEST_planning_reserve_GPU_h": 325.5,
+      "total_expected_GPU_h": 2650.7132450272816,
+      "training_cap_plus_TEST_reserve_GPU_h": 3673.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 882,
+      "expected_training_GPU_h": 2695.038111111111,
+      "training_hard_limit_GPU_h": 3528,
+      "expected_TEST_GPU_h": 98.18659870258362,
+      "TEST_planning_reserve_GPU_h": 343.0,
+      "total_expected_GPU_h": 2793.2247098136945,
+      "training_cap_plus_TEST_reserve_GPU_h": 3871.0
+    }
+  },
+  {
+    "design": "original_nine_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 72,
+    "relative_effect": 0.2,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 9,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 36,
+      "expected_training_GPU_h": 110.00155555555556,
+      "training_hard_limit_GPU_h": 144,
+      "expected_TEST_GPU_h": 4.0076162735748415,
+      "TEST_planning_reserve_GPU_h": 14.0,
+      "total_expected_GPU_h": 114.0091718291304,
+      "training_cap_plus_TEST_reserve_GPU_h": 158.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 81,
+      "expected_training_GPU_h": 247.5035,
+      "training_hard_limit_GPU_h": 324,
+      "expected_TEST_GPU_h": 9.017136615543393,
+      "TEST_planning_reserve_GPU_h": 31.5,
+      "total_expected_GPU_h": 256.52063661554337,
+      "training_cap_plus_TEST_reserve_GPU_h": 355.5
+    }
+  },
+  {
+    "design": "original_nine_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 72,
+    "relative_effect": 0.2,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 25,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 180,
+      "expected_training_GPU_h": 550.0077777777777,
+      "training_hard_limit_GPU_h": 720,
+      "expected_TEST_GPU_h": 20.038081367874206,
+      "TEST_planning_reserve_GPU_h": 70.0,
+      "total_expected_GPU_h": 570.045859145652,
+      "training_cap_plus_TEST_reserve_GPU_h": 790.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 225,
+      "expected_training_GPU_h": 687.5097222222222,
+      "training_hard_limit_GPU_h": 900,
+      "expected_TEST_GPU_h": 25.04760170984276,
+      "TEST_planning_reserve_GPU_h": 87.5,
+      "total_expected_GPU_h": 712.557323932065,
+      "training_cap_plus_TEST_reserve_GPU_h": 987.5
+    }
+  },
+  {
+    "design": "original_nine_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 72,
+    "relative_effect": 0.2,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 10,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 45,
+      "expected_training_GPU_h": 137.50194444444443,
+      "training_hard_limit_GPU_h": 180,
+      "expected_TEST_GPU_h": 5.0095203419685514,
+      "TEST_planning_reserve_GPU_h": 17.5,
+      "total_expected_GPU_h": 142.511464786413,
+      "training_cap_plus_TEST_reserve_GPU_h": 197.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 90,
+      "expected_training_GPU_h": 275.00388888888887,
+      "training_hard_limit_GPU_h": 360,
+      "expected_TEST_GPU_h": 10.019040683937103,
+      "TEST_planning_reserve_GPU_h": 35.0,
+      "total_expected_GPU_h": 285.022929572826,
+      "training_cap_plus_TEST_reserve_GPU_h": 395.0
+    }
+  },
+  {
+    "design": "original_nine_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor"
+    ],
+    "comparisons": 72,
+    "relative_effect": 0.2,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 29,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 216,
+      "expected_training_GPU_h": 660.0093333333333,
+      "training_hard_limit_GPU_h": 864,
+      "expected_TEST_GPU_h": 24.04569764144905,
+      "TEST_planning_reserve_GPU_h": 84.0,
+      "total_expected_GPU_h": 684.0550309747823,
+      "training_cap_plus_TEST_reserve_GPU_h": 948.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 261,
+      "expected_training_GPU_h": 797.5112777777778,
+      "training_hard_limit_GPU_h": 1044,
+      "expected_TEST_GPU_h": 29.055217983417602,
+      "TEST_planning_reserve_GPU_h": 101.5,
+      "total_expected_GPU_h": 826.5664957611954,
+      "training_cap_plus_TEST_reserve_GPU_h": 1145.5
+    }
+  },
+  {
+    "design": "ten_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 90,
+    "relative_effect": 0.05,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 61,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 560,
+      "expected_training_GPU_h": 1759.4017777777776,
+      "training_hard_limit_GPU_h": 2240,
+      "expected_TEST_GPU_h": 63.796230919608014,
+      "TEST_planning_reserve_GPU_h": 210.0,
+      "total_expected_GPU_h": 1823.1980086973856,
+      "training_cap_plus_TEST_reserve_GPU_h": 2450.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 610,
+      "expected_training_GPU_h": 1916.491222222222,
+      "training_hard_limit_GPU_h": 2440,
+      "expected_TEST_GPU_h": 69.49232296600158,
+      "TEST_planning_reserve_GPU_h": 228.75,
+      "total_expected_GPU_h": 1985.9835451882236,
+      "training_cap_plus_TEST_reserve_GPU_h": 2668.75
+    }
+  },
+  {
+    "design": "ten_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 90,
+    "relative_effect": 0.05,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 316,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 3110,
+      "expected_training_GPU_h": 9770.963444444444,
+      "training_hard_limit_GPU_h": 12440,
+      "expected_TEST_GPU_h": 354.29692528568023,
+      "TEST_planning_reserve_GPU_h": 1166.25,
+      "total_expected_GPU_h": 10125.260369730124,
+      "training_cap_plus_TEST_reserve_GPU_h": 13606.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 3160,
+      "expected_training_GPU_h": 9928.052888888888,
+      "training_hard_limit_GPU_h": 12640,
+      "expected_TEST_GPU_h": 359.9930173320738,
+      "TEST_planning_reserve_GPU_h": 1185.0,
+      "total_expected_GPU_h": 10288.045906220961,
+      "training_cap_plus_TEST_reserve_GPU_h": 13825.0
+    }
+  },
+  {
+    "design": "ten_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 90,
+    "relative_effect": 0.05,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 73,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 680,
+      "expected_training_GPU_h": 2136.416444444444,
+      "training_hard_limit_GPU_h": 2720,
+      "expected_TEST_GPU_h": 77.46685183095259,
+      "TEST_planning_reserve_GPU_h": 255.0,
+      "total_expected_GPU_h": 2213.883296275397,
+      "training_cap_plus_TEST_reserve_GPU_h": 2975.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 730,
+      "expected_training_GPU_h": 2293.505888888889,
+      "training_hard_limit_GPU_h": 2920,
+      "expected_TEST_GPU_h": 83.16294387734617,
+      "TEST_planning_reserve_GPU_h": 273.75,
+      "total_expected_GPU_h": 2376.668832766235,
+      "training_cap_plus_TEST_reserve_GPU_h": 3193.75
+    }
+  },
+  {
+    "design": "ten_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 90,
+    "relative_effect": 0.05,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 382,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 3770,
+      "expected_training_GPU_h": 11844.54411111111,
+      "training_hard_limit_GPU_h": 15080,
+      "expected_TEST_GPU_h": 429.48534029807536,
+      "TEST_planning_reserve_GPU_h": 1413.75,
+      "total_expected_GPU_h": 12274.029451409186,
+      "training_cap_plus_TEST_reserve_GPU_h": 16493.75
+    },
+    "new_independent_cohort_n": {
+      "new_models": 3820,
+      "expected_training_GPU_h": 12001.633555555554,
+      "training_hard_limit_GPU_h": 15280,
+      "expected_TEST_GPU_h": 435.18143234446893,
+      "TEST_planning_reserve_GPU_h": 1432.5,
+      "total_expected_GPU_h": 12436.814987900023,
+      "training_cap_plus_TEST_reserve_GPU_h": 16712.5
+    }
+  },
+  {
+    "design": "ten_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 90,
+    "relative_effect": 0.1,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 20,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 150,
+      "expected_training_GPU_h": 471.26833333333326,
+      "training_hard_limit_GPU_h": 600,
+      "expected_TEST_GPU_h": 17.088276139180717,
+      "TEST_planning_reserve_GPU_h": 56.25,
+      "total_expected_GPU_h": 488.35660947251404,
+      "training_cap_plus_TEST_reserve_GPU_h": 656.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 200,
+      "expected_training_GPU_h": 628.3577777777778,
+      "training_hard_limit_GPU_h": 800,
+      "expected_TEST_GPU_h": 22.78436818557429,
+      "TEST_planning_reserve_GPU_h": 75.0,
+      "total_expected_GPU_h": 651.142145963352,
+      "training_cap_plus_TEST_reserve_GPU_h": 875.0
+    }
+  },
+  {
+    "design": "ten_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 90,
+    "relative_effect": 0.1,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 84,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 790,
+      "expected_training_GPU_h": 2482.013222222222,
+      "training_hard_limit_GPU_h": 3160,
+      "expected_TEST_GPU_h": 89.99825433301845,
+      "TEST_planning_reserve_GPU_h": 296.25,
+      "total_expected_GPU_h": 2572.0114765552403,
+      "training_cap_plus_TEST_reserve_GPU_h": 3456.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 840,
+      "expected_training_GPU_h": 2639.102666666666,
+      "training_hard_limit_GPU_h": 3360,
+      "expected_TEST_GPU_h": 95.69434637941202,
+      "TEST_planning_reserve_GPU_h": 315.0,
+      "total_expected_GPU_h": 2734.7970130460785,
+      "training_cap_plus_TEST_reserve_GPU_h": 3675.0
+    }
+  },
+  {
+    "design": "ten_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 90,
+    "relative_effect": 0.1,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 23,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 180,
+      "expected_training_GPU_h": 565.5219999999999,
+      "training_hard_limit_GPU_h": 720,
+      "expected_TEST_GPU_h": 20.505931367016863,
+      "TEST_planning_reserve_GPU_h": 67.5,
+      "total_expected_GPU_h": 586.0279313670168,
+      "training_cap_plus_TEST_reserve_GPU_h": 787.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 230,
+      "expected_training_GPU_h": 722.6114444444444,
+      "training_hard_limit_GPU_h": 920,
+      "expected_TEST_GPU_h": 26.202023413410434,
+      "TEST_planning_reserve_GPU_h": 86.25,
+      "total_expected_GPU_h": 748.8134678578548,
+      "training_cap_plus_TEST_reserve_GPU_h": 1006.25
+    }
+  },
+  {
+    "design": "ten_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 90,
+    "relative_effect": 0.1,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 100,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 950,
+      "expected_training_GPU_h": 2984.699444444444,
+      "training_hard_limit_GPU_h": 3800,
+      "expected_TEST_GPU_h": 108.22574888147788,
+      "TEST_planning_reserve_GPU_h": 356.25,
+      "total_expected_GPU_h": 3092.925193325922,
+      "training_cap_plus_TEST_reserve_GPU_h": 4156.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 1000,
+      "expected_training_GPU_h": 3141.788888888889,
+      "training_hard_limit_GPU_h": 4000,
+      "expected_TEST_GPU_h": 113.92184092787146,
+      "TEST_planning_reserve_GPU_h": 375.0,
+      "total_expected_GPU_h": 3255.7107298167602,
+      "training_cap_plus_TEST_reserve_GPU_h": 4375.0
+    }
+  },
+  {
+    "design": "ten_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 90,
+    "relative_effect": 0.2,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 9,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      },
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_pressure_relative_l2",
+        "pilot_paired_sd": 0.003962297159302724
+      },
+      {
+        "method_a": "chebkan",
+        "method_b": "realnpu",
+        "metric": "fluid_pressure_relative_l2",
+        "pilot_paired_sd": 0.004103665367204265
+      },
+      {
+        "method_a": "chebkan",
+        "method_b": "fno",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0027650303331982896
+      },
+      {
+        "method_a": "chebkan",
+        "method_b": "fno",
+        "metric": "fluid_pressure_relative_l2",
+        "pilot_paired_sd": 0.0040160833167933695
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 40,
+      "expected_training_GPU_h": 125.67155555555554,
+      "training_hard_limit_GPU_h": 160,
+      "expected_TEST_GPU_h": 4.556873637114858,
+      "TEST_planning_reserve_GPU_h": 15.0,
+      "total_expected_GPU_h": 130.2284291926704,
+      "training_cap_plus_TEST_reserve_GPU_h": 175.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 90,
+      "expected_training_GPU_h": 282.76099999999997,
+      "training_hard_limit_GPU_h": 360,
+      "expected_TEST_GPU_h": 10.252965683508432,
+      "TEST_planning_reserve_GPU_h": 33.75,
+      "total_expected_GPU_h": 293.0139656835084,
+      "training_cap_plus_TEST_reserve_GPU_h": 393.75
+    }
+  },
+  {
+    "design": "ten_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 90,
+    "relative_effect": 0.2,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 26,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 210,
+      "expected_training_GPU_h": 659.7756666666666,
+      "training_hard_limit_GPU_h": 840,
+      "expected_TEST_GPU_h": 23.923586594853006,
+      "TEST_planning_reserve_GPU_h": 78.75,
+      "total_expected_GPU_h": 683.6992532615196,
+      "training_cap_plus_TEST_reserve_GPU_h": 918.75
+    },
+    "new_independent_cohort_n": {
+      "new_models": 260,
+      "expected_training_GPU_h": 816.865111111111,
+      "training_hard_limit_GPU_h": 1040,
+      "expected_TEST_GPU_h": 29.61967864124658,
+      "TEST_planning_reserve_GPU_h": 97.5,
+      "total_expected_GPU_h": 846.4847897523576,
+      "training_cap_plus_TEST_reserve_GPU_h": 1137.5
+    }
+  },
+  {
+    "design": "ten_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 90,
+    "relative_effect": 0.2,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 10,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      },
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_pressure_relative_l2",
+        "pilot_paired_sd": 0.003962297159302724
+      },
+      {
+        "method_a": "chebkan",
+        "method_b": "fno",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0027650303331982896
+      },
+      {
+        "method_a": "chebkan",
+        "method_b": "fno",
+        "metric": "fluid_pressure_relative_l2",
+        "pilot_paired_sd": 0.0040160833167933695
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 50,
+      "expected_training_GPU_h": 157.08944444444444,
+      "training_hard_limit_GPU_h": 200,
+      "expected_TEST_GPU_h": 5.696092046393573,
+      "TEST_planning_reserve_GPU_h": 18.75,
+      "total_expected_GPU_h": 162.785536490838,
+      "training_cap_plus_TEST_reserve_GPU_h": 218.75
+    },
+    "new_independent_cohort_n": {
+      "new_models": 100,
+      "expected_training_GPU_h": 314.1788888888889,
+      "training_hard_limit_GPU_h": 400,
+      "expected_TEST_GPU_h": 11.392184092787145,
+      "TEST_planning_reserve_GPU_h": 37.5,
+      "total_expected_GPU_h": 325.571072981676,
+      "training_cap_plus_TEST_reserve_GPU_h": 437.5
+    }
+  },
+  {
+    "design": "ten_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 90,
+    "relative_effect": 0.2,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 30,
+    "exact_sign_flip_resolution_minimum_n": 12,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 250,
+      "expected_training_GPU_h": 785.4472222222222,
+      "training_hard_limit_GPU_h": 1000,
+      "expected_TEST_GPU_h": 28.480460231967864,
+      "TEST_planning_reserve_GPU_h": 93.75,
+      "total_expected_GPU_h": 813.9276824541901,
+      "training_cap_plus_TEST_reserve_GPU_h": 1093.75
+    },
+    "new_independent_cohort_n": {
+      "new_models": 300,
+      "expected_training_GPU_h": 942.5366666666665,
+      "training_hard_limit_GPU_h": 1200,
+      "expected_TEST_GPU_h": 34.176552278361434,
+      "TEST_planning_reserve_GPU_h": 112.5,
+      "total_expected_GPU_h": 976.7132189450281,
+      "training_cap_plus_TEST_reserve_GPU_h": 1312.5
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 18,
+    "relative_effect": 0.05,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 49,
+    "exact_sign_flip_resolution_minimum_n": 10,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 440,
+      "expected_training_GPU_h": 1382.387111111111,
+      "training_hard_limit_GPU_h": 1760,
+      "expected_TEST_GPU_h": 50.125610008263436,
+      "TEST_planning_reserve_GPU_h": 165.0,
+      "total_expected_GPU_h": 1432.5127211193744,
+      "training_cap_plus_TEST_reserve_GPU_h": 1925.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 490,
+      "expected_training_GPU_h": 1539.4765555555555,
+      "training_hard_limit_GPU_h": 1960,
+      "expected_TEST_GPU_h": 55.82170205465701,
+      "TEST_planning_reserve_GPU_h": 183.75,
+      "total_expected_GPU_h": 1595.2982576102124,
+      "training_cap_plus_TEST_reserve_GPU_h": 2143.75
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 18,
+    "relative_effect": 0.05,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 251,
+    "exact_sign_flip_resolution_minimum_n": 10,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 2460,
+      "expected_training_GPU_h": 7728.800666666666,
+      "training_hard_limit_GPU_h": 9840,
+      "expected_TEST_GPU_h": 280.2477286825638,
+      "TEST_planning_reserve_GPU_h": 922.5,
+      "total_expected_GPU_h": 8009.04839534923,
+      "training_cap_plus_TEST_reserve_GPU_h": 10762.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 2510,
+      "expected_training_GPU_h": 7885.89011111111,
+      "training_hard_limit_GPU_h": 10040,
+      "expected_TEST_GPU_h": 285.94382072895735,
+      "TEST_planning_reserve_GPU_h": 941.25,
+      "total_expected_GPU_h": 8171.833931840068,
+      "training_cap_plus_TEST_reserve_GPU_h": 10981.25
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 18,
+    "relative_effect": 0.05,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 59,
+    "exact_sign_flip_resolution_minimum_n": 10,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 540,
+      "expected_training_GPU_h": 1696.5659999999998,
+      "training_hard_limit_GPU_h": 2160,
+      "expected_TEST_GPU_h": 61.51779410105058,
+      "TEST_planning_reserve_GPU_h": 202.5,
+      "total_expected_GPU_h": 1758.0837941010504,
+      "training_cap_plus_TEST_reserve_GPU_h": 2362.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 590,
+      "expected_training_GPU_h": 1853.6554444444444,
+      "training_hard_limit_GPU_h": 2360,
+      "expected_TEST_GPU_h": 67.21388614744416,
+      "TEST_planning_reserve_GPU_h": 221.25,
+      "total_expected_GPU_h": 1920.8693305918885,
+      "training_cap_plus_TEST_reserve_GPU_h": 2581.25
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 18,
+    "relative_effect": 0.05,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 311,
+    "exact_sign_flip_resolution_minimum_n": 10,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 3060,
+      "expected_training_GPU_h": 9613.874,
+      "training_hard_limit_GPU_h": 12240,
+      "expected_TEST_GPU_h": 348.60083323928666,
+      "TEST_planning_reserve_GPU_h": 1147.5,
+      "total_expected_GPU_h": 9962.474833239286,
+      "training_cap_plus_TEST_reserve_GPU_h": 13387.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 3110,
+      "expected_training_GPU_h": 9770.963444444444,
+      "training_hard_limit_GPU_h": 12440,
+      "expected_TEST_GPU_h": 354.29692528568023,
+      "TEST_planning_reserve_GPU_h": 1166.25,
+      "total_expected_GPU_h": 10125.260369730124,
+      "training_cap_plus_TEST_reserve_GPU_h": 13606.25
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 18,
+    "relative_effect": 0.1,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 16,
+    "exact_sign_flip_resolution_minimum_n": 10,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 110,
+      "expected_training_GPU_h": 345.59677777777773,
+      "training_hard_limit_GPU_h": 440,
+      "expected_TEST_GPU_h": 12.531402502065859,
+      "TEST_planning_reserve_GPU_h": 41.25,
+      "total_expected_GPU_h": 358.1281802798436,
+      "training_cap_plus_TEST_reserve_GPU_h": 481.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 160,
+      "expected_training_GPU_h": 502.68622222222217,
+      "training_hard_limit_GPU_h": 640,
+      "expected_TEST_GPU_h": 18.227494548459433,
+      "TEST_planning_reserve_GPU_h": 60.0,
+      "total_expected_GPU_h": 520.9137167706816,
+      "training_cap_plus_TEST_reserve_GPU_h": 700.0
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 18,
+    "relative_effect": 0.1,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 67,
+    "exact_sign_flip_resolution_minimum_n": 10,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 620,
+      "expected_training_GPU_h": 1947.9091111111109,
+      "training_hard_limit_GPU_h": 2480,
+      "expected_TEST_GPU_h": 70.6315413752803,
+      "TEST_planning_reserve_GPU_h": 232.5,
+      "total_expected_GPU_h": 2018.5406524863913,
+      "training_cap_plus_TEST_reserve_GPU_h": 2712.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 670,
+      "expected_training_GPU_h": 2104.9985555555554,
+      "training_hard_limit_GPU_h": 2680,
+      "expected_TEST_GPU_h": 76.32763342167388,
+      "TEST_planning_reserve_GPU_h": 251.25,
+      "total_expected_GPU_h": 2181.3261889772293,
+      "training_cap_plus_TEST_reserve_GPU_h": 2931.25
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 18,
+    "relative_effect": 0.1,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 19,
+    "exact_sign_flip_resolution_minimum_n": 10,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 140,
+      "expected_training_GPU_h": 439.8504444444444,
+      "training_hard_limit_GPU_h": 560,
+      "expected_TEST_GPU_h": 15.949057729902004,
+      "TEST_planning_reserve_GPU_h": 52.5,
+      "total_expected_GPU_h": 455.7995021743464,
+      "training_cap_plus_TEST_reserve_GPU_h": 612.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 190,
+      "expected_training_GPU_h": 596.9398888888888,
+      "training_hard_limit_GPU_h": 760,
+      "expected_TEST_GPU_h": 21.645149776295575,
+      "TEST_planning_reserve_GPU_h": 71.25,
+      "total_expected_GPU_h": 618.5850386651845,
+      "training_cap_plus_TEST_reserve_GPU_h": 831.25
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 18,
+    "relative_effect": 0.1,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 82,
+    "exact_sign_flip_resolution_minimum_n": 10,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 770,
+      "expected_training_GPU_h": 2419.177444444444,
+      "training_hard_limit_GPU_h": 3080,
+      "expected_TEST_GPU_h": 87.71981751446101,
+      "TEST_planning_reserve_GPU_h": 288.75,
+      "total_expected_GPU_h": 2506.8972619589053,
+      "training_cap_plus_TEST_reserve_GPU_h": 3368.75
+    },
+    "new_independent_cohort_n": {
+      "new_models": 820,
+      "expected_training_GPU_h": 2576.266888888889,
+      "training_hard_limit_GPU_h": 3280,
+      "expected_TEST_GPU_h": 93.41590956085459,
+      "TEST_planning_reserve_GPU_h": 307.5,
+      "total_expected_GPU_h": 2669.682798449743,
+      "training_cap_plus_TEST_reserve_GPU_h": 3587.5
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 18,
+    "relative_effect": 0.2,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 7,
+    "exact_sign_flip_resolution_minimum_n": 10,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      },
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_pressure_relative_l2",
+        "pilot_paired_sd": 0.003962297159302724
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 20,
+      "expected_training_GPU_h": 62.83577777777777,
+      "training_hard_limit_GPU_h": 80,
+      "expected_TEST_GPU_h": 2.278436818557429,
+      "TEST_planning_reserve_GPU_h": 7.5,
+      "total_expected_GPU_h": 65.1142145963352,
+      "training_cap_plus_TEST_reserve_GPU_h": 87.5
+    },
+    "new_independent_cohort_n": {
+      "new_models": 70,
+      "expected_training_GPU_h": 219.9252222222222,
+      "training_hard_limit_GPU_h": 280,
+      "expected_TEST_GPU_h": 7.974528864951002,
+      "TEST_planning_reserve_GPU_h": 26.25,
+      "total_expected_GPU_h": 227.8997510871732,
+      "training_cap_plus_TEST_reserve_GPU_h": 306.25
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 18,
+    "relative_effect": 0.2,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 20,
+    "exact_sign_flip_resolution_minimum_n": 10,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 150,
+      "expected_training_GPU_h": 471.26833333333326,
+      "training_hard_limit_GPU_h": 600,
+      "expected_TEST_GPU_h": 17.088276139180717,
+      "TEST_planning_reserve_GPU_h": 56.25,
+      "total_expected_GPU_h": 488.35660947251404,
+      "training_cap_plus_TEST_reserve_GPU_h": 656.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 200,
+      "expected_training_GPU_h": 628.3577777777778,
+      "training_hard_limit_GPU_h": 800,
+      "expected_TEST_GPU_h": 22.78436818557429,
+      "TEST_planning_reserve_GPU_h": 75.0,
+      "total_expected_GPU_h": 651.142145963352,
+      "training_cap_plus_TEST_reserve_GPU_h": 875.0
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 18,
+    "relative_effect": 0.2,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 8,
+    "exact_sign_flip_resolution_minimum_n": 10,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      },
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_pressure_relative_l2",
+        "pilot_paired_sd": 0.003962297159302724
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 30,
+      "expected_training_GPU_h": 94.25366666666666,
+      "training_hard_limit_GPU_h": 120,
+      "expected_TEST_GPU_h": 3.4176552278361436,
+      "TEST_planning_reserve_GPU_h": 11.25,
+      "total_expected_GPU_h": 97.6713218945028,
+      "training_cap_plus_TEST_reserve_GPU_h": 131.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 80,
+      "expected_training_GPU_h": 251.34311111111109,
+      "training_hard_limit_GPU_h": 320,
+      "expected_TEST_GPU_h": 9.113747274229716,
+      "TEST_planning_reserve_GPU_h": 30.0,
+      "total_expected_GPU_h": 260.4568583853408,
+      "training_cap_plus_TEST_reserve_GPU_h": 350.0
+    }
+  },
+  {
+    "design": "ten_against_TFNO_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "comparisons": 18,
+    "relative_effect": 0.2,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 24,
+    "exact_sign_flip_resolution_minimum_n": 10,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0029236000714738517
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 190,
+      "expected_training_GPU_h": 596.9398888888888,
+      "training_hard_limit_GPU_h": 760,
+      "expected_TEST_GPU_h": 21.645149776295575,
+      "TEST_planning_reserve_GPU_h": 71.25,
+      "total_expected_GPU_h": 618.5850386651845,
+      "training_cap_plus_TEST_reserve_GPU_h": 831.25
+    },
+    "new_independent_cohort_n": {
+      "new_models": 240,
+      "expected_training_GPU_h": 754.0293333333333,
+      "training_hard_limit_GPU_h": 960,
+      "expected_TEST_GPU_h": 27.34124182268915,
+      "TEST_planning_reserve_GPU_h": 90.0,
+      "total_expected_GPU_h": 781.3705751560224,
+      "training_cap_plus_TEST_reserve_GPU_h": 1050.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 6,
+    "relative_effect": 0.05,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 8,
+    "exact_sign_flip_resolution_minimum_n": 8,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0002150232662929262
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 9,
+      "expected_training_GPU_h": 35.25783333333334,
+      "training_hard_limit_GPU_h": 36,
+      "expected_TEST_GPU_h": 1.2550406666604104,
+      "TEST_planning_reserve_GPU_h": 3.0,
+      "total_expected_GPU_h": 36.512873999993744,
+      "training_cap_plus_TEST_reserve_GPU_h": 39.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 24,
+      "expected_training_GPU_h": 94.02088888888889,
+      "training_hard_limit_GPU_h": 96,
+      "expected_TEST_GPU_h": 3.3467751110944275,
+      "TEST_planning_reserve_GPU_h": 8.0,
+      "total_expected_GPU_h": 97.36766399998331,
+      "training_cap_plus_TEST_reserve_GPU_h": 104.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 6,
+    "relative_effect": 0.05,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 24,
+    "exact_sign_flip_resolution_minimum_n": 8,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0002150232662929262
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 57,
+      "expected_training_GPU_h": 223.29961111111112,
+      "training_hard_limit_GPU_h": 228,
+      "expected_TEST_GPU_h": 7.948590888849266,
+      "TEST_planning_reserve_GPU_h": 19.0,
+      "total_expected_GPU_h": 231.24820199996034,
+      "training_cap_plus_TEST_reserve_GPU_h": 247.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 72,
+      "expected_training_GPU_h": 282.0626666666667,
+      "training_hard_limit_GPU_h": 288,
+      "expected_TEST_GPU_h": 10.040325333283283,
+      "TEST_planning_reserve_GPU_h": 24.0,
+      "total_expected_GPU_h": 292.10299199994995,
+      "training_cap_plus_TEST_reserve_GPU_h": 312.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 6,
+    "relative_effect": 0.05,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 9,
+    "exact_sign_flip_resolution_minimum_n": 8,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0002150232662929262
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 12,
+      "expected_training_GPU_h": 47.010444444444445,
+      "training_hard_limit_GPU_h": 48,
+      "expected_TEST_GPU_h": 1.6733875555472137,
+      "TEST_planning_reserve_GPU_h": 4.0,
+      "total_expected_GPU_h": 48.683831999991654,
+      "training_cap_plus_TEST_reserve_GPU_h": 52.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 27,
+      "expected_training_GPU_h": 105.7735,
+      "training_hard_limit_GPU_h": 108,
+      "expected_TEST_GPU_h": 3.765121999981231,
+      "TEST_planning_reserve_GPU_h": 9.0,
+      "total_expected_GPU_h": 109.53862199998122,
+      "training_cap_plus_TEST_reserve_GPU_h": 117.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 6,
+    "relative_effect": 0.05,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 30,
+    "exact_sign_flip_resolution_minimum_n": 8,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0002150232662929262
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 75,
+      "expected_training_GPU_h": 293.8152777777778,
+      "training_hard_limit_GPU_h": 300,
+      "expected_TEST_GPU_h": 10.458672222170087,
+      "TEST_planning_reserve_GPU_h": 25.0,
+      "total_expected_GPU_h": 304.27394999994783,
+      "training_cap_plus_TEST_reserve_GPU_h": 325.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 90,
+      "expected_training_GPU_h": 352.5783333333333,
+      "training_hard_limit_GPU_h": 360,
+      "expected_TEST_GPU_h": 12.550406666604102,
+      "TEST_planning_reserve_GPU_h": 30.0,
+      "total_expected_GPU_h": 365.1287399999374,
+      "training_cap_plus_TEST_reserve_GPU_h": 390.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 6,
+    "relative_effect": 0.1,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 5,
+    "exact_sign_flip_resolution_minimum_n": 8,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0002150232662929262
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 0,
+      "expected_training_GPU_h": 0.0,
+      "training_hard_limit_GPU_h": 0,
+      "expected_TEST_GPU_h": 0.0,
+      "TEST_planning_reserve_GPU_h": 0.0,
+      "total_expected_GPU_h": 0.0,
+      "training_cap_plus_TEST_reserve_GPU_h": 0.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 15,
+      "expected_training_GPU_h": 58.76305555555555,
+      "training_hard_limit_GPU_h": 60,
+      "expected_TEST_GPU_h": 2.0917344444340173,
+      "TEST_planning_reserve_GPU_h": 5.0,
+      "total_expected_GPU_h": 60.85478999998956,
+      "training_cap_plus_TEST_reserve_GPU_h": 65.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 6,
+    "relative_effect": 0.1,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 9,
+    "exact_sign_flip_resolution_minimum_n": 8,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0002150232662929262
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 12,
+      "expected_training_GPU_h": 47.010444444444445,
+      "training_hard_limit_GPU_h": 48,
+      "expected_TEST_GPU_h": 1.6733875555472137,
+      "TEST_planning_reserve_GPU_h": 4.0,
+      "total_expected_GPU_h": 48.683831999991654,
+      "training_cap_plus_TEST_reserve_GPU_h": 52.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 27,
+      "expected_training_GPU_h": 105.7735,
+      "training_hard_limit_GPU_h": 108,
+      "expected_TEST_GPU_h": 3.765121999981231,
+      "TEST_planning_reserve_GPU_h": 9.0,
+      "total_expected_GPU_h": 109.53862199998122,
+      "training_cap_plus_TEST_reserve_GPU_h": 117.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 6,
+    "relative_effect": 0.1,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 5,
+    "exact_sign_flip_resolution_minimum_n": 8,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0002150232662929262
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 0,
+      "expected_training_GPU_h": 0.0,
+      "training_hard_limit_GPU_h": 0,
+      "expected_TEST_GPU_h": 0.0,
+      "TEST_planning_reserve_GPU_h": 0.0,
+      "total_expected_GPU_h": 0.0,
+      "training_cap_plus_TEST_reserve_GPU_h": 0.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 15,
+      "expected_training_GPU_h": 58.76305555555555,
+      "training_hard_limit_GPU_h": 60,
+      "expected_TEST_GPU_h": 2.0917344444340173,
+      "TEST_planning_reserve_GPU_h": 5.0,
+      "total_expected_GPU_h": 60.85478999998956,
+      "training_cap_plus_TEST_reserve_GPU_h": 65.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 6,
+    "relative_effect": 0.1,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 11,
+    "exact_sign_flip_resolution_minimum_n": 8,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0002150232662929262
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 18,
+      "expected_training_GPU_h": 70.51566666666668,
+      "training_hard_limit_GPU_h": 72,
+      "expected_TEST_GPU_h": 2.5100813333208207,
+      "TEST_planning_reserve_GPU_h": 6.0,
+      "total_expected_GPU_h": 73.02574799998749,
+      "training_cap_plus_TEST_reserve_GPU_h": 78.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 33,
+      "expected_training_GPU_h": 129.27872222222223,
+      "training_hard_limit_GPU_h": 132,
+      "expected_TEST_GPU_h": 4.601815777754838,
+      "TEST_planning_reserve_GPU_h": 11.0,
+      "total_expected_GPU_h": 133.88053799997704,
+      "training_cap_plus_TEST_reserve_GPU_h": 143.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 6,
+    "relative_effect": 0.2,
+    "target_power": 0.8,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 4,
+    "exact_sign_flip_resolution_minimum_n": 8,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0002150232662929262
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 0,
+      "expected_training_GPU_h": 0.0,
+      "training_hard_limit_GPU_h": 0,
+      "expected_TEST_GPU_h": 0.0,
+      "TEST_planning_reserve_GPU_h": 0.0,
+      "total_expected_GPU_h": 0.0,
+      "training_cap_plus_TEST_reserve_GPU_h": 0.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 12,
+      "expected_training_GPU_h": 47.010444444444445,
+      "training_hard_limit_GPU_h": 48,
+      "expected_TEST_GPU_h": 1.6733875555472137,
+      "TEST_planning_reserve_GPU_h": 4.0,
+      "total_expected_GPU_h": 48.683831999991654,
+      "training_cap_plus_TEST_reserve_GPU_h": 52.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 6,
+    "relative_effect": 0.2,
+    "target_power": 0.8,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 5,
+    "exact_sign_flip_resolution_minimum_n": 8,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0002150232662929262
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 0,
+      "expected_training_GPU_h": 0.0,
+      "training_hard_limit_GPU_h": 0,
+      "expected_TEST_GPU_h": 0.0,
+      "TEST_planning_reserve_GPU_h": 0.0,
+      "total_expected_GPU_h": 0.0,
+      "training_cap_plus_TEST_reserve_GPU_h": 0.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 15,
+      "expected_training_GPU_h": 58.76305555555555,
+      "training_hard_limit_GPU_h": 60,
+      "expected_TEST_GPU_h": 2.0917344444340173,
+      "TEST_planning_reserve_GPU_h": 5.0,
+      "total_expected_GPU_h": 60.85478999998956,
+      "training_cap_plus_TEST_reserve_GPU_h": 65.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 6,
+    "relative_effect": 0.2,
+    "target_power": 0.9,
+    "sd_scenario": "point_pilot_sd",
+    "maximum_required_n": 4,
+    "exact_sign_flip_resolution_minimum_n": 8,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0002150232662929262
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 0,
+      "expected_training_GPU_h": 0.0,
+      "training_hard_limit_GPU_h": 0,
+      "expected_TEST_GPU_h": 0.0,
+      "TEST_planning_reserve_GPU_h": 0.0,
+      "total_expected_GPU_h": 0.0,
+      "training_cap_plus_TEST_reserve_GPU_h": 0.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 12,
+      "expected_training_GPU_h": 47.010444444444445,
+      "training_hard_limit_GPU_h": 48,
+      "expected_TEST_GPU_h": 1.6733875555472137,
+      "TEST_planning_reserve_GPU_h": 4.0,
+      "total_expected_GPU_h": 48.683831999991654,
+      "training_cap_plus_TEST_reserve_GPU_h": 52.0
+    }
+  },
+  {
+    "design": "core_three_all_metrics_L2",
+    "methods": [
+      "tfno",
+      "realnpu",
+      "fno"
+    ],
+    "comparisons": 6,
+    "relative_effect": 0.2,
+    "target_power": 0.9,
+    "sd_scenario": "upper95_pilot_sd",
+    "maximum_required_n": 6,
+    "exact_sign_flip_resolution_minimum_n": 8,
+    "limiting_contrasts": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "fluid_velocity_relative_l2",
+        "pilot_paired_sd": 0.0002150232662929262
+      }
+    ],
+    "extend_existing_to_n": {
+      "new_models": 3,
+      "expected_training_GPU_h": 11.752611111111111,
+      "training_hard_limit_GPU_h": 12,
+      "expected_TEST_GPU_h": 0.41834688888680344,
+      "TEST_planning_reserve_GPU_h": 1.0,
+      "total_expected_GPU_h": 12.170957999997913,
+      "training_cap_plus_TEST_reserve_GPU_h": 13.0
+    },
+    "new_independent_cohort_n": {
+      "new_models": 18,
+      "expected_training_GPU_h": 70.51566666666668,
+      "training_hard_limit_GPU_h": 72,
+      "expected_TEST_GPU_h": 2.5100813333208207,
+      "TEST_planning_reserve_GPU_h": 6.0,
+      "total_expected_GPU_h": 73.02574799998749,
+      "training_cap_plus_TEST_reserve_GPU_h": 78.0
+    }
+  }
+]

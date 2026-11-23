@@ -1,0 +1,106 @@
+{
+  "name": "architecture_power_20261124_v1",
+  "date": "2026-11-24",
+  "root": "/mnt/project/perun2601449/dp_llm_cfd",
+  "previous_statistics": "results/architecture_statistics_20261123_v1",
+  "input_npz": "results/architecture_statistics_20261123_v1/analysis_inputs.npz",
+  "main_training": "results/architecture_budget_main_20261111_v1/run_3e11271df45aff09",
+  "dense_training": "results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4",
+  "main_test": "results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb",
+  "relative_effects": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "target_powers": [
+    0.8,
+    0.9
+  ],
+  "family_alpha": 0.05,
+  "planning_sd_upper_confidence": 0.95,
+  "maximum_n": 100000,
+  "random_seed": 24112026,
+  "monte_carlo_replicates": 100000,
+  "comparison_designs": [
+    {
+      "key": "original_nine_all_metrics",
+      "methods": [
+        "tfno",
+        "chebkan",
+        "pinet",
+        "dendrite",
+        "realnpu",
+        "rbf",
+        "elm",
+        "scn",
+        "cascor"
+      ],
+      "family_size": 108,
+      "all_pairs": true
+    },
+    {
+      "key": "ten_all_metrics",
+      "methods": [
+        "tfno",
+        "chebkan",
+        "pinet",
+        "dendrite",
+        "realnpu",
+        "rbf",
+        "elm",
+        "scn",
+        "cascor",
+        "fno"
+      ],
+      "family_size": 135,
+      "all_pairs": true
+    },
+    {
+      "key": "ten_against_TFNO_all_metrics",
+      "methods": [
+        "tfno",
+        "chebkan",
+        "pinet",
+        "dendrite",
+        "realnpu",
+        "rbf",
+        "elm",
+        "scn",
+        "cascor",
+        "fno"
+      ],
+      "family_size": 27,
+      "all_pairs": false
+    },
+    {
+      "key": "core_three_all_metrics",
+      "methods": [
+        "tfno",
+        "realnpu",
+        "fno"
+      ],
+      "family_size": 9,
+      "all_pairs": true
+    }
+  ],
+  "allow_new_training": false,
+  "references": [
+    {
+      "title": "How Many Random Seeds? Statistical Power Analysis in Deep Reinforcement Learning Experiments",
+      "url": "https://arxiv.org/abs/1806.08295"
+    },
+    {
+      "title": "The Abuse of Power: The Pervasive Fallacy of Power Calculations for Data Analysis",
+      "doi": "10.1198/000313001300339897",
+      "url": "https://doi.org/10.1198/000313001300339897"
+    },
+    {
+      "title": "SciPy noncentral t distribution",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.nct.html"
+    },
+    {
+      "title": "Bootstrapping data arrays of arbitrary order",
+      "url": "https://arxiv.org/abs/1106.2125"
+    }
+  ]
+}

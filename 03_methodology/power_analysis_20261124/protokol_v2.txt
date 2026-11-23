@@ -1,0 +1,105 @@
+PLÁNOVANIE ĎALŠÍCH TRÉNINGOV — ANALÝZA ŠTATISTICKEJ SILY
+24. 11. 2026
+
+Účelom je plánovať prípadné nové tréningy, nie spätne vyhlásiť staré
+nevýznamné alebo významné výsledky za správne. Nepoužijeme pozorovaný
+rozdiel ako pravdivý efekt na výpočet „dosiahnutej sily“ starého testu.
+Doterajších päť tréningov slúži na neistý pilotný odhad variability.
+Žiadny výpočet sily negarantuje obhajobu alebo významnosť výsledku.
+
+Efekty: 5 %, 10 % a 20 % priemernej chyby dvojice metód:
+delta = r * (mean(A)+mean(B))/2. Definícia je symetrická a invariantná
+voči poradiu metód. Pre základné porovnania proti TFNO sa navyše
+vyčísli delta=r*mean(TFNO), aby bolo vidno rozdiel praktického cieľa.
+Ide o pracovné plánovacie rozdiely, nie nové prahy prijateľnej presnosti.
+Zníženie chyby z 1.00 na 0.90 má podľa symetrickej definície rozdiel
+10.526 %, nie presne 10 %. Obe konvencie zostanú zreteľne označené.
+Sila: 80 % a 90 % pre každý kontrast, obojstranné testovanie.
+Nejde o pravdepodobnosť súčasného zamietnutia všetkých hypotéz.
+
+Hlavný plánovací model:
+Pre každý tréningový seed sa priemeruje chyba cez pevne daných200
+TEST prípadov. Zo zodpovedajúcich piatich seedových blokov sa spočíta
+výberová SD párových rozdielov. Je to plánovanie variability nových
+tréningov na tom istom benchmarku; neodhaduje nový nezávislý dataset.
+Použije sa sila párového t-testu z necentrálneho t-rozdelenia, df=N−1,
+lambda=delta*sqrt(N)/SD, alpha=.05/počet kontrastov. Bonferroni
+je plánovacia konzervatívna ochrana; predpoklady jednotlivého testu
+a približnosť rozdelenia výsledkov učenia zostávajú dôležité.
+
+Odhad SD pri iba5seedo ch je neistý. Vypočítame:
+1. bodový pilotný odhad párovej SD,
+2. hornú jednostrannú95% hranicu SD pri normálnom modeli:
+   SD_upper = SD * sqrt(4 / chi2.ppf(.05,4)).
+Táto hranica je pre každý kontrast samostatne; nie je spoločnou95%
+zárukou pre všetky odhady SD. Navyše sa uvedie citlivosť na nepárované
+štarty cez sqrt(var(A)+var(B)). Žiadna voľba nezaručí silu pri ľubovoľnom
+neznámom budúcom rozdelení. Výpočet overí nezávislá numerická integrácia
+a Monte Carlo normálnych aj ťažkochvostých rozdielov.
+Požadované N je počet tréningových párov na metódu, nie počet
+testovacích scenárov, pixelov alebo bootstrap replík.
+
+Vyčíslené možnosti nového experimentu:
+- pôvodných9metód, všetky dvojice a3metriky:108kontrastov;
+- všetkých10vrátane dense FNO:135kontrastov;
+- všetkých9alternatív oproti TFNO,3metriky:27kontrastov;
+- samostatný dodatok TFNO/RealNPU/dense FNO:9kontrastov.
+Tieto možnosti nemenia pôvodnú rodinu hypotéz. Je to rozhodovanie
+o novom vopred opísanom rozšírení, bez tvrdenia predregistrácie starého.
+Pre každú možnosť sa uvedie maximum potrebného N cez jej kontrasty.
+Rozlíšime rozšírenie do celkového N (N−5nových na metódu, kombinovaný
+exploratívny výsledok) a úplne novú nezávislú kohortu Nnových na metódu.
+Pôvodných5výsledkov použitých na plánovanie sa nesmie vydávať za
+nové nezávislé potvrdzujúce dáta.
+
+Exaktná znamienková kontrola:
+minimálne obojstranné p=2/2^N. Vyčíslime minimálneN pre samotné
+rozlíšenie .05/m. Nie je to výpočet sily tohto testu a minimumN sa
+nezamení za počet postačujúci na80% alebo90%silu. T-testové plánovanie
+sa nebude prezentovať ako záruka výkonu exaktného permutačného testu.
+
+Geometrická neistota:
+Osobitná diagnostika rozdielov seed × geometria oddelí zložky
+variability. Homoskedastický dvojfaktorový ANOVA model s interakciou
+odhaduje zložku seed, geometria a seed×geometria. Bodový cieľ zostáva
+vážený200prípadmi; geometrické váhy sú počty prípadov/200.
+Približná variancia pri N tréningoch a rovnakých85geometriách:
+V(N) = sigma_geometry^2*sum(w_g^2)
+     + (sigma_seed^2+sigma_interaction^2*sum(w_g^2))/N.
+Negatívne momentové odhady sa vykážu aj s orezaním na nulu.
+Ide o citlivostný model, nie dokázanú presnú dekompozíciu pre tieto dáta.
+Porovnáme jeho SE pri5seedo ch s pôvodným kríženým bootstrapom.
+Limit pri N→∞ ukáže, ktoré plánovacie efekty nemožno podľa tohto modelu
+spoľahlivo odlíšiť len pridaním tréningov. Netvrdíme tým presný potrebný
+počet nových geometrií. Nové CFD ani nové referenčné dáta sa negenerujú.
+
+Cena:
+Zo všetkých50existujúcich kontrolovaných tréningov načítame ich
+complete.json, started.json a zodpovedajúci allocation_closeout.
+Zachováme SHA a čísla priradených GPU/CPU. Closeout je RunTime pred
+krátkym ukončením batchu; nie konečná portálová fakturácia.
+Odhad ďalších tréningov použije priemerný skutočný closeout každej
+metódy; konzervatívny tvrdý tréningový strop zostáva4H200-GPU-h/beh.
+Historické PINN sa nanovo netrénujú. ELM/SCN môžu prirodzene skončiť skôr.
+Samostatne sa pripočíta odhad záverečného hodnotenia a časovania zo
+skutočného elapsed_seconds všetkých50TEST modelov. Rezerva vyhodnotenia
+je plánovacia voľba, nie tvrdý fyzikálny horný limit.
+Hodina GPU znamená jednu H200 počas jednej hodiny; súbeh skracuje
+kalendárny čas, nie súčet GPU hodín. Čakanie vo fronte sa neodhaduje.
+Nové tréningy sa touto analýzou NEspúšťajú.
+
+Výstupy budú v nových priečinkoch na Perune a publikované v existujúcom
+repozitári architektúr. Pôvodné výsledky ani dokumentacia.txt sa nemenia.
+Zdroje a presné voľby sú aj v config.json.
+
+DOPLNOK v2 — 24. 11. 2026
+Prvá numerická kontrola v1 zastavila výpočet, pretože SciPy1.18.1 pri
+niektorých vysokých stupňoch voľnosti vracia pre necentrálne t NaN.
+Starý zdroj, log a diagnostika zostávajú zachované. v2 počíta pri
+N>=2000 (alebo neplatnom výsledku SciPy) definičnú zmes normálneho
+a chí-kvadrát rozdelenia cez128-bodovú Gaussovu kvadratúru. Overuje
+ju nezávislá adaptívna integrácia; štatistický model sa nemení.
+Pridávame explicitnú citlivosť na rozsah metrík: tie isté štyri možnosti
+sa vyčíslia aj pri dvoch L2 metrikách. Prípadný budúci protokol by musel
+vopred uviesť, či sú primárne všetky tri alebo dve L2; stará analýza sa
+tým nemení a MSE sa neodstraňuje. Nejde o povolenie vybrať priaznivé p.

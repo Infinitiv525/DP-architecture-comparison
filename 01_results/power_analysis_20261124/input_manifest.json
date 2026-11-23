@@ -1,0 +1,8 @@
+{
+  "input_npz": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_statistics_20261123_v1/analysis_inputs.npz",
+  "input_npz_sha256": "7f9ffcd970e0af38b376af0804b729267137be844f3b2ba0306186bf7d164472",
+  "previous_statistics_archive": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_statistics_20261123_v1",
+  "source_sha256": "6d476ec15dee832c2166730fb2968ec7c9095574dd900fa5fd699f9d54003f3e",
+  "config_sha256": "248bfd3bc799dc682642e7f48459a2afad4291188973d57fc72669ab4860980a",
+  "no_original_model_or_score_modified": true
+}

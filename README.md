@@ -68,3 +68,7 @@ Doplnenia zachovávajú pôvodné váhy a výsledky. Rozbory pracujú s pôvodn�
 ## Štatistické porovnanie architektúr — dokončené 24. 11. 2026
 
 [Čitateľný výsledok, všetky intervaly a kontroly](01_results/statistical_comparison_20261123/README.md). Dodatočná analýza zahŕňa päť tréningov každej metódy, 200 TEST prípadov a 85 geometrických skupín, 200 000 krížených bootstrap replík a opravu na viacnásobné porovnávanie. TFNO má v tejto približnej analýze nižšie L2 chyby než všetkých osem hlavných alternatív; RealNPU je z nich najsilnejšie podľa oboch L2 metrík. Rozdiel TFNO–dense FNO nie je stabilne preukázaný. Obmedzenie iba piatich tréningov, posthoc charakter, samostatné kohorty aj nesplnenia 5 ms zostávajú uvedené. [Úplné resampling dáta a zdroje](https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/architecture-statistics-20261123).
+
+## Analýza štatistickej sily a ďalších nákladov — 24. 11. 2026
+
+[Koľko ďalších tréningov a GPU hodín](01_results/power_analysis_20261124/README.md). Samostatný cielený dodatok pre TFNO, dense FNO a RealNPU:20 nových tréningov/metódu, 60 modelov, odhad243GPU-h a plánovacia rezerva260GPU-h. Rovnomerný nový dodatok pre10architektúr, všetky dvojice a dve L2 metriky:30 nových tréningov/metódu, odhad977GPU-h a rezerva1312,5GPU-h. Rozdielne ciele sily, predpoklady, obmedzenie pevného TESTu a úplné výpočty sú v reporte. Žiadne nové tréningy sa touto analýzou nespustili.

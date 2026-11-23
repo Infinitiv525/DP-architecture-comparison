@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_power_20261124_v1/power_analysis.py", line 297, in <module>
+    a=p.parse_args();run(a.config,a.output)
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_power_20261124_v1/power_analysis.py", line 158, in run
+    n=required(delta,sd,alpha,target,c["maximum_n"])
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_power_20261124_v1/power_analysis.py", line 30, in required
+    assert lo==2 or power(lo-1,effect,sd,alpha)<target+1e-12
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

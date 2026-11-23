@@ -1,0 +1,92 @@
+{
+  "tfno": {
+    "mean_training_GPU_h": 3.918222222222222,
+    "minimum_training_GPU_h": 3.917222222222222,
+    "maximum_training_GPU_h": 3.921388888888889,
+    "mean_TEST_GPU_h": 0.22592361428129432,
+    "maximum_TEST_GPU_h": 0.22818915443281487,
+    "training_hard_limit_GPU_h": 4.0,
+    "proposed_TEST_reserve_per_model_GPU_h": 0.5
+  },
+  "chebkan": {
+    "mean_training_GPU_h": 3.9172222222222226,
+    "minimum_training_GPU_h": 3.9166666666666665,
+    "maximum_training_GPU_h": 3.918888888888889,
+    "mean_TEST_GPU_h": 0.05479127660845148,
+    "maximum_TEST_GPU_h": 0.055002818516416786,
+    "training_hard_limit_GPU_h": 4.0,
+    "proposed_TEST_reserve_per_model_GPU_h": 0.25
+  },
+  "pinet": {
+    "mean_training_GPU_h": 3.9175555555555555,
+    "minimum_training_GPU_h": 3.9166666666666665,
+    "maximum_training_GPU_h": 3.9186111111111113,
+    "mean_TEST_GPU_h": 0.037229833868280465,
+    "maximum_TEST_GPU_h": 0.03754459430722313,
+    "training_hard_limit_GPU_h": 4.0,
+    "proposed_TEST_reserve_per_model_GPU_h": 0.25
+  },
+  "dendrite": {
+    "mean_training_GPU_h": 3.9172222222222217,
+    "minimum_training_GPU_h": 3.9166666666666665,
+    "maximum_training_GPU_h": 3.918888888888889,
+    "mean_TEST_GPU_h": 0.03577925338266262,
+    "maximum_TEST_GPU_h": 0.036189207777173986,
+    "training_hard_limit_GPU_h": 4.0,
+    "proposed_TEST_reserve_per_model_GPU_h": 0.25
+  },
+  "realnpu": {
+    "mean_training_GPU_h": 3.916888888888889,
+    "minimum_training_GPU_h": 3.9166666666666665,
+    "maximum_training_GPU_h": 3.9169444444444443,
+    "mean_TEST_GPU_h": 0.05510893372050486,
+    "maximum_TEST_GPU_h": 0.05548668528305522,
+    "training_hard_limit_GPU_h": 4.0,
+    "proposed_TEST_reserve_per_model_GPU_h": 0.25
+  },
+  "rbf": {
+    "mean_training_GPU_h": 3.916888888888889,
+    "minimum_training_GPU_h": 3.9166666666666665,
+    "maximum_training_GPU_h": 3.9169444444444443,
+    "mean_TEST_GPU_h": 0.04293176088333388,
+    "maximum_TEST_GPU_h": 0.04358359010366257,
+    "training_hard_limit_GPU_h": 4.0,
+    "proposed_TEST_reserve_per_model_GPU_h": 0.25
+  },
+  "elm": {
+    "mean_training_GPU_h": 0.0017777777777777779,
+    "minimum_training_GPU_h": 0.001388888888888889,
+    "maximum_training_GPU_h": 0.0025,
+    "mean_TEST_GPU_h": 0.035847778045378316,
+    "maximum_TEST_GPU_h": 0.036292356554962074,
+    "training_hard_limit_GPU_h": 4.0,
+    "proposed_TEST_reserve_per_model_GPU_h": 0.25
+  },
+  "scn": {
+    "mean_training_GPU_h": 0.09666666666666666,
+    "minimum_training_GPU_h": 0.060833333333333336,
+    "maximum_training_GPU_h": 0.12111111111111111,
+    "mean_TEST_GPU_h": 0.026406905481889325,
+    "maximum_TEST_GPU_h": 0.02772392467886675,
+    "training_hard_limit_GPU_h": 4.0,
+    "proposed_TEST_reserve_per_model_GPU_h": 0.25
+  },
+  "cascor": {
+    "mean_training_GPU_h": 3.8979444444444438,
+    "minimum_training_GPU_h": 3.8961111111111113,
+    "maximum_training_GPU_h": 3.901666666666667,
+    "mean_TEST_GPU_h": 0.4878847121219151,
+    "maximum_TEST_GPU_h": 0.8726324082880618,
+    "training_hard_limit_GPU_h": 4.0,
+    "proposed_TEST_reserve_per_model_GPU_h": 1.25
+  },
+  "fno": {
+    "mean_training_GPU_h": 3.9174999999999995,
+    "minimum_training_GPU_h": 3.9175,
+    "maximum_training_GPU_h": 3.9175,
+    "mean_TEST_GPU_h": 0.13731434088500424,
+    "maximum_TEST_GPU_h": 0.13818584391918395,
+    "training_hard_limit_GPU_h": 4.0,
+    "proposed_TEST_reserve_per_model_GPU_h": 0.25
+  }
+}

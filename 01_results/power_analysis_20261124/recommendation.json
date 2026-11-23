@@ -1,0 +1,82 @@
+{
+  "status": "POWER_ANALYSIS_VERIFIED_RECOMMENDATION_NOT_TRAINING_AUTHORIZATION",
+  "completed_at": "2026-11-24T00:40:54.239897+01:00",
+  "recommended_scope": "Separate focused confirmation of TFNO, dense FNO and RealNPU on the fixed existing benchmark",
+  "original_nine_family_experiment_remains_unchanged": true,
+  "focused": {
+    "methods": [
+      "tfno",
+      "fno",
+      "realnpu"
+    ],
+    "metrics": 3,
+    "multiple_comparisons": 9,
+    "target_power": 0.9,
+    "symmetric_relative_effect": 0.1,
+    "minimum_n_under_assumptions": 19,
+    "recommended_new_n_per_method": 20,
+    "design": "core_three_all_metrics",
+    "training_pairs_n": 20.0,
+    "pilot_reused": "False",
+    "new_models": 60.0,
+    "expected_training_GPU_h": 235.0522222222222,
+    "training_hard_limit_GPU_h": 240.0,
+    "expected_TEST_GPU_h": 8.36693777773607,
+    "TEST_planning_reserve_GPU_h": 20.0,
+    "total_expected_GPU_h": 243.41915999995825,
+    "training_cap_plus_TEST_reserve_GPU_h": 260.0
+  },
+  "broad": {
+    "methods": [
+      "tfno",
+      "chebkan",
+      "pinet",
+      "dendrite",
+      "realnpu",
+      "rbf",
+      "elm",
+      "scn",
+      "cascor",
+      "fno"
+    ],
+    "primary_metrics": [
+      "fluid_velocity_relative_l2",
+      "fluid_pressure_relative_l2"
+    ],
+    "secondary_metric": "all_cell_mse",
+    "multiple_primary_comparisons": 90,
+    "target_power": 0.9,
+    "symmetric_relative_effect": 0.2,
+    "recommended_new_n_per_method": 30,
+    "design": "ten_all_metrics_L2",
+    "training_pairs_n": 30.0,
+    "pilot_reused": "False",
+    "new_models": 300.0,
+    "expected_training_GPU_h": 942.5366666666665,
+    "training_hard_limit_GPU_h": 1200.0,
+    "expected_TEST_GPU_h": 34.176552278361434,
+    "TEST_planning_reserve_GPU_h": 112.5,
+    "total_expected_GPU_h": 976.7132189450281,
+    "training_cap_plus_TEST_reserve_GPU_h": 1312.5
+  },
+  "pooled_exploratory_alternative": {
+    "explanation": "Existing five pilot runs plus fifteen new runs per selected method; not an independent twenty-run cohort.",
+    "design": "core_three_all_metrics",
+    "training_pairs_n": 20.0,
+    "pilot_reused": "True",
+    "new_models": 45.0,
+    "expected_training_GPU_h": 176.28916666666666,
+    "training_hard_limit_GPU_h": 180.0,
+    "expected_TEST_GPU_h": 6.275203333302051,
+    "TEST_planning_reserve_GPU_h": 15.0,
+    "total_expected_GPU_h": 182.5643699999687,
+    "training_cap_plus_TEST_reserve_GPU_h": 195.0
+  },
+  "no_new_training_submitted": true,
+  "conditions": [
+    "Power is model-based and conditional on hypothetical true effect and normal seed-difference model.",
+    "Upper one-sided95% SD bound from five pilot runs; not simultaneous95% protection of all SD estimates.",
+    "Fixed200TEST benchmark. Geometry-population uncertainty does not vanish with more seeds.",
+    "Choosing a focused or L2-primary follow-up must be documented before new runs; it does not rewrite the old protocol."
+  ]
+}

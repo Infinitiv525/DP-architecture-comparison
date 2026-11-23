@@ -1,0 +1,125 @@
+{
+  "status": "PASS",
+  "numerical_integration": [
+    {
+      "n": 15,
+      "standardized_effect": 0.8,
+      "family_size": 108,
+      "noncentral_t_power": 0.14977510309218106,
+      "independently_integrated_power": 0.14977510309218134,
+      "quadrature_error": 1.216798641570141e-10
+    },
+    {
+      "n": 30,
+      "standardized_effect": 1.0,
+      "family_size": 135,
+      "noncentral_t_power": 0.90505334757989,
+      "independently_integrated_power": 0.9050533475798856,
+      "quadrature_error": 1.5456419057143848e-10
+    },
+    {
+      "n": 15,
+      "standardized_effect": 2.0,
+      "family_size": 9,
+      "noncentral_t_power": 0.9999283820406848,
+      "independently_integrated_power": 0.9999283820406848,
+      "quadrature_error": 5.317292077694959e-10
+    },
+    {
+      "n": 5000,
+      "standardized_effect": 0.07113,
+      "family_size": 108,
+      "noncentral_t_power": 0.9364014529227136,
+      "independently_integrated_power": 0.9364014348783758,
+      "quadrature_error": 2.0232704400768853e-12
+    },
+    {
+      "n": 100000,
+      "standardized_effect": 0.01,
+      "family_size": 135,
+      "noncentral_t_power": 0.3452539918977882,
+      "independently_integrated_power": 0.3452539924161195,
+      "quadrature_error": 1.1909861985515136e-11
+    }
+  ],
+  "monte_carlo": [
+    {
+      "n": 15,
+      "standardized_effect": 0.8,
+      "family_size": 108,
+      "noise_shape": "normal",
+      "replicates": 100000,
+      "empirical_rejection_rate": 0.14694,
+      "mc_standard_error": 0.0011195920524905488,
+      "normal_model_prediction": 0.14977510309218106,
+      "is_null_type_I_check": false
+    },
+    {
+      "n": 30,
+      "standardized_effect": 1.0,
+      "family_size": 135,
+      "noise_shape": "normal",
+      "replicates": 100000,
+      "empirical_rejection_rate": 0.90567,
+      "mc_standard_error": 0.0009242935199383366,
+      "normal_model_prediction": 0.90505334757989,
+      "is_null_type_I_check": false
+    },
+    {
+      "n": 15,
+      "standardized_effect": 2.0,
+      "family_size": 9,
+      "noise_shape": "normal",
+      "replicates": 100000,
+      "empirical_rejection_rate": 0.9999,
+      "mc_standard_error": 3.162119542332152e-05,
+      "normal_model_prediction": 0.9999283820406848,
+      "is_null_type_I_check": false
+    },
+    {
+      "n": 15,
+      "standardized_effect": 0,
+      "family_size": 135,
+      "noise_shape": "normal",
+      "replicates": 100000,
+      "empirical_rejection_rate": 0.00038,
+      "mc_standard_error": 6.163242653019594e-05,
+      "normal_model_prediction": 0.0003703703703703699,
+      "is_null_type_I_check": true
+    },
+    {
+      "n": 15,
+      "standardized_effect": 0,
+      "family_size": 135,
+      "noise_shape": "student_t3",
+      "replicates": 100000,
+      "empirical_rejection_rate": 0.00015,
+      "mc_standard_error": 3.872692861562868e-05,
+      "normal_model_prediction": 0.0003703703703703699,
+      "is_null_type_I_check": true
+    },
+    {
+      "n": 15,
+      "standardized_effect": 0,
+      "family_size": 135,
+      "noise_shape": "centered_exponential",
+      "replicates": 100000,
+      "empirical_rejection_rate": 0.00874,
+      "mc_standard_error": 0.00029434015016643585,
+      "normal_model_prediction": 0.0003703703703703699,
+      "is_null_type_I_check": true
+    },
+    {
+      "n": 30,
+      "standardized_effect": 1.0,
+      "family_size": 135,
+      "noise_shape": "student_t3",
+      "replicates": 100000,
+      "empirical_rejection_rate": 0.89679,
+      "mc_standard_error": 0.0009620691030274281,
+      "normal_model_prediction": 0.90505334757989,
+      "is_null_type_I_check": false
+    }
+  ],
+  "note": "Heavy-tail and skew checks diagnose assumptions; they are not CFD evidence."
+}
