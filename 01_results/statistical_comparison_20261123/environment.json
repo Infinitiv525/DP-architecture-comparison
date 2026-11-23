@@ -1,0 +1,21 @@
+{
+  "python": "3.12.15 (main, Oct 13 2026, 16:52:04) [GCC 15.3.0]",
+  "numpy": "2.5.4",
+  "platform": "Linux-5.14.0-611.55.1.el9_7.x86_64-x86_64-with-glibc2.34",
+  "cpu_affinity": [
+    228,
+    229,
+    230,
+    231
+  ],
+  "slurm_job_id": "172503",
+  "requested_cpus": "4",
+  "gpu_requested": false,
+  "elapsed_seconds": 18.698020186042413,
+  "cpu_process_seconds": 18.242899766,
+  "blas_threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

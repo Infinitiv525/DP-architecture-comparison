@@ -64,3 +64,7 @@ Pôvodné výstupné a chybové záznamy jednotlivých úloh Slurm sú v [samost
 - [Diagnostika ELM, SCN a CasCor](01_results/diagnostika_20261119/vysvetlenie_diagnostiky.txt)
 
 Doplnenia zachovávajú pôvodné váhy a výsledky. Rozbory pracujú s pôvodnými TRAIN/VAL záznamami alebo so samostatnými diagnostickými kontrolami.
+
+## Štatistické porovnanie architektúr — dokončené 24. 11. 2026
+
+[Čitateľný výsledok, všetky intervaly a kontroly](01_results/statistical_comparison_20261123/README.md). Dodatočná analýza zahŕňa päť tréningov každej metódy, 200 TEST prípadov a 85 geometrických skupín, 200 000 krížených bootstrap replík a opravu na viacnásobné porovnávanie. TFNO má v tejto približnej analýze nižšie L2 chyby než všetkých osem hlavných alternatív; RealNPU je z nich najsilnejšie podľa oboch L2 metrík. Rozdiel TFNO–dense FNO nie je stabilne preukázaný. Obmedzenie iba piatich tréningov, posthoc charakter, samostatné kohorty aj nesplnenia 5 ms zostávajú uvedené. [Úplné resampling dáta a zdroje](https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/architecture-statistics-20261123).

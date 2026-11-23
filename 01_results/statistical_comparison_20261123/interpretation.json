@@ -1,0 +1,1652 @@
+[
+  {
+    "method_a": "tfno",
+    "method_b": "chebkan",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "chebkan",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "chebkan",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "pinet",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "pinet",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "pinet",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "dendrite",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "dendrite",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "dendrite",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "realnpu",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "realnpu",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "realnpu",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "rbf",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "rbf",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "rbf",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "elm",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "elm",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "elm",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "scn",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "scn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "scn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "cascor",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "SENSITIVE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "pinn",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "pinn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "pinn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "tfno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "pinet",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "pinet",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "pinet",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "dendrite",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "dendrite",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "dendrite",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "realnpu",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "realnpu",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "realnpu",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "rbf",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "rbf",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "rbf",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "elm",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "elm",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "elm",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "scn",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "scn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "scn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "cascor",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "pinn",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "pinn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "pinn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "chebkan",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "dendrite",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "dendrite",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "dendrite",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "dendrite",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "dendrite",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "dendrite",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "realnpu",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "realnpu",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "realnpu",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "rbf",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "rbf",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "rbf",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "rbf",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "rbf",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "rbf",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "elm",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinet",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "elm",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinet",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "elm",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinet",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "scn",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinet",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "scn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinet",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "scn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinet",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "cascor",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinet",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinet",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinet",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "pinn",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "pinn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "pinn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "realnpu",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "realnpu",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "realnpu",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "rbf",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "rbf",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "rbf",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "rbf",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "rbf",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "rbf",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "elm",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "dendrite",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "elm",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "dendrite",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "elm",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "dendrite",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "scn",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "dendrite",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "scn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "dendrite",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "scn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "dendrite",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "cascor",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "dendrite",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "dendrite",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "dendrite",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "pinn",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "pinn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "pinn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "rbf",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "rbf",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "rbf",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "elm",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "elm",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "elm",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "scn",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "scn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "scn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "cascor",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "pinn",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "pinn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "pinn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "realnpu",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "elm",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "rbf",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "elm",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "rbf",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "elm",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "rbf",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "scn",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "rbf",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "scn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "rbf",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "scn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "rbf",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "cascor",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "rbf",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "rbf",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "rbf",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "pinn",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "pinn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "pinn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "elm",
+    "method_b": "scn",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "elm",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "elm",
+    "method_b": "scn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "elm",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "elm",
+    "method_b": "scn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "elm",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "elm",
+    "method_b": "cascor",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "elm",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "elm",
+    "method_b": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "elm",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "elm",
+    "method_b": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "elm",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "elm",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "elm",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "elm",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "elm",
+    "method_b": "pinn",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "elm",
+    "method_b": "pinn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "elm",
+    "method_b": "pinn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "scn",
+    "method_b": "cascor",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "scn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "scn",
+    "method_b": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "scn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "scn",
+    "method_b": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "scn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "scn",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "scn",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "scn",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "scn",
+    "method_b": "pinn",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "scn",
+    "method_b": "pinn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "scn",
+    "method_b": "pinn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "cascor",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "cascor",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "cascor",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "cascor",
+    "method_b": "pinn",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "cascor",
+    "method_b": "pinn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "cascor",
+    "method_b": "pinn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "pinn",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "fno",
+    "method_b": "pinn",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "NOT_ESTABLISHED_BY_CONSERVATIVE_INTERVAL",
+    "stable_across_reported_controls": false,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "fno",
+    "method_b": "pinn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  },
+  {
+    "method_a": "fno",
+    "method_b": "pinn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "interpretation": "STABLE_APPROXIMATE_BOOTSTRAP_SUPPORT",
+    "stable_across_reported_controls": true,
+    "smaller_observed_error": "fno",
+    "not_a_confirmatory_or_universal_claim": true
+  }
+]

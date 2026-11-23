@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "explicit_loop_replicas_checked": 23,
+  "models_checked_per_replica": 11,
+  "both_seed_resampling_modes_checked": true,
+  "second_chance_direct_expansion_checked": true,
+  "original_aggregates_reproduced": true,
+  "holm_known_vectors_pass": true,
+  "zero_difference_p_one": true,
+  "constant_tensor_invariance": true,
+  "exact_sign_flip_all_positive_p": 0.0625,
+  "output_contrasts": 165,
+  "model_metric_summaries": 33,
+  "first_second_half_decision_disagreements": [
+    {
+      "method_a": "tfno",
+      "method_b": "fno",
+      "metric": "fluid_pressure_relative_l2",
+      "family": "posthoc_FNO_and_auxiliary_PINN"
+    }
+  ],
+  "paired_vs_independent_seed_decision_disagreements": [
+    {
+      "method_a": "tfno",
+      "method_b": "fno",
+      "metric": "fluid_pressure_relative_l2",
+      "family": "posthoc_FNO_and_auxiliary_PINN"
+    }
+  ],
+  "basic_vs_percentile_decision_disagreements": [
+    {
+      "method_a": "tfno",
+      "method_b": "chebkan",
+      "metric": "all_cell_mse",
+      "family": "original_nine_methods"
+    },
+    {
+      "method_a": "tfno",
+      "method_b": "rbf",
+      "metric": "all_cell_mse",
+      "family": "original_nine_methods"
+    },
+    {
+      "method_a": "tfno",
+      "method_b": "fno",
+      "metric": "all_cell_mse",
+      "family": "posthoc_FNO_and_auxiliary_PINN"
+    },
+    {
+      "method_a": "tfno",
+      "method_b": "pinn",
+      "metric": "all_cell_mse",
+      "family": "posthoc_FNO_and_auxiliary_PINN"
+    },
+    {
+      "method_a": "chebkan",
+      "method_b": "realnpu",
+      "metric": "all_cell_mse",
+      "family": "original_nine_methods"
+    },
+    {
+      "method_a": "chebkan",
+      "method_b": "rbf",
+      "metric": "fluid_velocity_relative_l2",
+      "family": "original_nine_methods"
+    },
+    {
+      "method_a": "chebkan",
+      "method_b": "fno",
+      "metric": "all_cell_mse",
+      "family": "posthoc_FNO_and_auxiliary_PINN"
+    },
+    {
+      "method_a": "chebkan",
+      "method_b": "pinn",
+      "metric": "all_cell_mse",
+      "family": "posthoc_FNO_and_auxiliary_PINN"
+    },
+    {
+      "method_a": "pinet",
+      "method_b": "dendrite",
+      "metric": "all_cell_mse",
+      "family": "original_nine_methods"
+    },
+    {
+      "method_a": "realnpu",
+      "method_b": "rbf",
+      "metric": "all_cell_mse",
+      "family": "original_nine_methods"
+    },
+    {
+      "method_a": "realnpu",
+      "method_b": "pinn",
+      "metric": "all_cell_mse",
+      "family": "posthoc_FNO_and_auxiliary_PINN"
+    },
+    {
+      "method_a": "elm",
+      "method_b": "scn",
+      "metric": "all_cell_mse",
+      "family": "original_nine_methods"
+    },
+    {
+      "method_a": "fno",
+      "method_b": "pinn",
+      "metric": "all_cell_mse",
+      "family": "posthoc_FNO_and_auxiliary_PINN"
+    }
+  ]
+}

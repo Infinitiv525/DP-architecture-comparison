@@ -1,0 +1,233 @@
+[
+  {
+    "method": "tfno",
+    "metric": "all_cell_mse",
+    "largest_geometry_share_of_error_sum": 0.37915454919348435,
+    "largest_five_geometries_share": 0.6596683695515911,
+    "largest_geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+  },
+  {
+    "method": "tfno",
+    "metric": "fluid_velocity_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.15394477484225835,
+    "largest_five_geometries_share": 0.2629305925656372,
+    "largest_geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+  },
+  {
+    "method": "tfno",
+    "metric": "fluid_pressure_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.06900113017515579,
+    "largest_five_geometries_share": 0.18299136126482088,
+    "largest_geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+  },
+  {
+    "method": "chebkan",
+    "metric": "all_cell_mse",
+    "largest_geometry_share_of_error_sum": 0.24997249310541406,
+    "largest_five_geometries_share": 0.7049234159200625,
+    "largest_geometry_hash": "bb184545fa6e7d5afa870f57a871278c1d7997c1433df2d43e4258cf7625f8bb"
+  },
+  {
+    "method": "chebkan",
+    "metric": "fluid_velocity_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.02748714217557757,
+    "largest_five_geometries_share": 0.12432969074012395,
+    "largest_geometry_hash": "c9d6273b78b21f6b7eaba0302f31560f07a1ca08c9ed56c3fb9cd2dbb86326bc"
+  },
+  {
+    "method": "chebkan",
+    "metric": "fluid_pressure_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.03000103124401561,
+    "largest_five_geometries_share": 0.13343520425129687,
+    "largest_geometry_hash": "296849eb5ce30f3e886b8b64d2c2b6daa0f2d6277e841f8cc7c405d53d2d9c32"
+  },
+  {
+    "method": "pinet",
+    "metric": "all_cell_mse",
+    "largest_geometry_share_of_error_sum": 0.08575964562252926,
+    "largest_five_geometries_share": 0.39744357165807837,
+    "largest_geometry_hash": "bb184545fa6e7d5afa870f57a871278c1d7997c1433df2d43e4258cf7625f8bb"
+  },
+  {
+    "method": "pinet",
+    "metric": "fluid_velocity_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.02557848836214428,
+    "largest_five_geometries_share": 0.12068949822678376,
+    "largest_geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+  },
+  {
+    "method": "pinet",
+    "metric": "fluid_pressure_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.024695170659207812,
+    "largest_five_geometries_share": 0.11890861670701514,
+    "largest_geometry_hash": "e2a573ac023e0fd17254ab59fe0f4d96329b6fe46f05780db86691548e7f6fbe"
+  },
+  {
+    "method": "dendrite",
+    "metric": "all_cell_mse",
+    "largest_geometry_share_of_error_sum": 0.08593549847600813,
+    "largest_five_geometries_share": 0.39880532295438736,
+    "largest_geometry_hash": "bb184545fa6e7d5afa870f57a871278c1d7997c1433df2d43e4258cf7625f8bb"
+  },
+  {
+    "method": "dendrite",
+    "metric": "fluid_velocity_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.025743169611964288,
+    "largest_five_geometries_share": 0.12034941652223417,
+    "largest_geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+  },
+  {
+    "method": "dendrite",
+    "metric": "fluid_pressure_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.024790352194519926,
+    "largest_five_geometries_share": 0.11735704905662588,
+    "largest_geometry_hash": "e2a573ac023e0fd17254ab59fe0f4d96329b6fe46f05780db86691548e7f6fbe"
+  },
+  {
+    "method": "realnpu",
+    "metric": "all_cell_mse",
+    "largest_geometry_share_of_error_sum": 0.2068225557721942,
+    "largest_five_geometries_share": 0.39806149581161554,
+    "largest_geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+  },
+  {
+    "method": "realnpu",
+    "metric": "fluid_velocity_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.05984293708847608,
+    "largest_five_geometries_share": 0.21433309368934922,
+    "largest_geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+  },
+  {
+    "method": "realnpu",
+    "metric": "fluid_pressure_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.05626811707674391,
+    "largest_five_geometries_share": 0.1946863655912024,
+    "largest_geometry_hash": "79a1bda776c30e65f234871bb991035a4c40f8ba8d82e62a4edc3f4ff2af314f"
+  },
+  {
+    "method": "rbf",
+    "metric": "all_cell_mse",
+    "largest_geometry_share_of_error_sum": 0.10868146165537763,
+    "largest_five_geometries_share": 0.4895505427432478,
+    "largest_geometry_hash": "ca3457a531ec8bbbfb1a4a5f856e9c55b2d21c6d1150c378df4093b32c3631dd"
+  },
+  {
+    "method": "rbf",
+    "metric": "fluid_velocity_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.05430426963334347,
+    "largest_five_geometries_share": 0.17230706401170015,
+    "largest_geometry_hash": "79a1bda776c30e65f234871bb991035a4c40f8ba8d82e62a4edc3f4ff2af314f"
+  },
+  {
+    "method": "rbf",
+    "metric": "fluid_pressure_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.03524254455502515,
+    "largest_five_geometries_share": 0.14238377166785748,
+    "largest_geometry_hash": "c9d6273b78b21f6b7eaba0302f31560f07a1ca08c9ed56c3fb9cd2dbb86326bc"
+  },
+  {
+    "method": "elm",
+    "metric": "all_cell_mse",
+    "largest_geometry_share_of_error_sum": 0.08811241773359353,
+    "largest_five_geometries_share": 0.3989228804235269,
+    "largest_geometry_hash": "a06c1393f90d342f91d7b15eee0c2b12f493c77da239f350c0fe6ffa21a5e79b"
+  },
+  {
+    "method": "elm",
+    "metric": "fluid_velocity_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.02412126485104575,
+    "largest_five_geometries_share": 0.11379289121477433,
+    "largest_geometry_hash": "e2a573ac023e0fd17254ab59fe0f4d96329b6fe46f05780db86691548e7f6fbe"
+  },
+  {
+    "method": "elm",
+    "metric": "fluid_pressure_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.02467531579878926,
+    "largest_five_geometries_share": 0.10848127906274974,
+    "largest_geometry_hash": "e2a573ac023e0fd17254ab59fe0f4d96329b6fe46f05780db86691548e7f6fbe"
+  },
+  {
+    "method": "scn",
+    "metric": "all_cell_mse",
+    "largest_geometry_share_of_error_sum": 0.08703559293664825,
+    "largest_five_geometries_share": 0.39005406269932125,
+    "largest_geometry_hash": "a06c1393f90d342f91d7b15eee0c2b12f493c77da239f350c0fe6ffa21a5e79b"
+  },
+  {
+    "method": "scn",
+    "metric": "fluid_velocity_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.024038312222278386,
+    "largest_five_geometries_share": 0.11353599708637074,
+    "largest_geometry_hash": "e2a573ac023e0fd17254ab59fe0f4d96329b6fe46f05780db86691548e7f6fbe"
+  },
+  {
+    "method": "scn",
+    "metric": "fluid_pressure_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.024074181083107007,
+    "largest_five_geometries_share": 0.10818445068065219,
+    "largest_geometry_hash": "e2a573ac023e0fd17254ab59fe0f4d96329b6fe46f05780db86691548e7f6fbe"
+  },
+  {
+    "method": "cascor",
+    "metric": "all_cell_mse",
+    "largest_geometry_share_of_error_sum": 0.07699586646133577,
+    "largest_five_geometries_share": 0.35015785162797813,
+    "largest_geometry_hash": "a06c1393f90d342f91d7b15eee0c2b12f493c77da239f350c0fe6ffa21a5e79b"
+  },
+  {
+    "method": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.024728140572478303,
+    "largest_five_geometries_share": 0.11003783082962289,
+    "largest_geometry_hash": "e2a573ac023e0fd17254ab59fe0f4d96329b6fe46f05780db86691548e7f6fbe"
+  },
+  {
+    "method": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.02470653349988942,
+    "largest_five_geometries_share": 0.11076266284404422,
+    "largest_geometry_hash": "e2a573ac023e0fd17254ab59fe0f4d96329b6fe46f05780db86691548e7f6fbe"
+  },
+  {
+    "method": "fno",
+    "metric": "all_cell_mse",
+    "largest_geometry_share_of_error_sum": 0.36885267368249186,
+    "largest_five_geometries_share": 0.7081685568471885,
+    "largest_geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+  },
+  {
+    "method": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.1589352735399895,
+    "largest_five_geometries_share": 0.2753314527510518,
+    "largest_geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+  },
+  {
+    "method": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.07286304250766937,
+    "largest_five_geometries_share": 0.19780664499078818,
+    "largest_geometry_hash": "61b9da24449df4299415558acbb42ecb9fb15076763d378114c03f6868600107"
+  },
+  {
+    "method": "pinn",
+    "metric": "all_cell_mse",
+    "largest_geometry_share_of_error_sum": 0.15509685420430636,
+    "largest_five_geometries_share": 0.6754731039739676,
+    "largest_geometry_hash": "bb184545fa6e7d5afa870f57a871278c1d7997c1433df2d43e4258cf7625f8bb"
+  },
+  {
+    "method": "pinn",
+    "metric": "fluid_velocity_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.029705815231529396,
+    "largest_five_geometries_share": 0.12338206873528235,
+    "largest_geometry_hash": "f4ec0695baf5488e8a5ceb34928539ce325e84b70b4ad3db4d8717ba1ec4b8f5"
+  },
+  {
+    "method": "pinn",
+    "metric": "fluid_pressure_relative_l2",
+    "largest_geometry_share_of_error_sum": 0.023529905179192515,
+    "largest_five_geometries_share": 0.10913398203098847,
+    "largest_geometry_hash": "c9d6273b78b21f6b7eaba0302f31560f07a1ca08c9ed56c3fb9cd2dbb86326bc"
+  }
+]

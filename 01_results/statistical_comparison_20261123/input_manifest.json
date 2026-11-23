@@ -1,0 +1,36 @@
+{
+  "input_commit": "f13b43e7ac32c30ab725cfeeb1db0e08ac7238a7",
+  "inputs": [
+    {
+      "key": "primary",
+      "actual_path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/audit/case_metrics.csv",
+      "public_path": "01_results/primary_and_PINN/case_metrics.csv",
+      "git_blob_sha": "34537de19ea60c1b52b64edc6a9f969afd17d9c1",
+      "sha256": "4408f4491d348163c2656347d36df9dc6b88c11ee428f044aa84aed253716788",
+      "bytes": 4328261,
+      "rows": 10000
+    },
+    {
+      "key": "fno",
+      "actual_path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/audit/case_metrics.csv",
+      "public_path": "01_results/dense_FNO/case_metrics.csv",
+      "git_blob_sha": "bda17a1ab95bfaee6a90b7e5e2cb85e1471cafbf",
+      "sha256": "ff5db4ceb68aaaf1531e25986f2ac0bb0395734ea76df0ec315b2d393d255c7b",
+      "bytes": 448685,
+      "rows": 1000
+    },
+    {
+      "key": "second",
+      "actual_path": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_second_chance_test_20261117_v1/run_40028c5a5a732cab/audit/case_metrics.csv",
+      "public_path": "01_results/second_chance/case_metrics.csv",
+      "git_blob_sha": "0be9d34840751eea6e6d8d73689de54b35aa5abb",
+      "sha256": "f4d254f20597c09f9aa968d531096e797e694e31818e4645a77e5393c2487b8c",
+      "bytes": 359837,
+      "rows": 800
+    }
+  ],
+  "summary_git_blob": "4dafaa4d33ceab95cc9a47979bbb1fe5c239443f",
+  "summary_sha256": "dabc54c47604eff03648a750742de81d736a8801367e8d61c4aacdda60a5c69c",
+  "source_sha256": "ff5ae5de5381ba5e9193390f87bfca842ef192fdd9ade6cf933bd6cfe4fe5b6c",
+  "config_sha256": "90af652cd8301a8247d90b33592964b35c7ff981ade8cb0a63c1b255f15dbe25"
+}

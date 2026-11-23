@@ -1,0 +1,170 @@
+[
+  {
+    "method": "chebkan",
+    "metric": "all_cell_mse",
+    "fixed_training_lineages": 2,
+    "geometric_clusters": 85,
+    "original_mean": 0.001236611330021614,
+    "extended_mean": 0.0011789259771056513,
+    "difference_extended_minus_original": -5.7685352915962724e-05,
+    "relative_difference_percent": -4.664792527410732,
+    "ci95_basic": [
+      -9.291226832620864e-05,
+      -1.3456466857735618e-05
+    ],
+    "ci_family_basic": [
+      -0.00010208117677569842,
+      5.3727494810406e-06
+    ],
+    "ci95_percentile": [
+      -0.00010191423897418983,
+      -2.2458437505716796e-05
+    ],
+    "ci_family_percentile": [
+      -0.00012074345531296605,
+      -1.328952905622703e-05
+    ],
+    "conditional_on_two_specific_training_lineages": true,
+    "basic_bonferroni_excludes_zero": false
+  },
+  {
+    "method": "chebkan",
+    "metric": "fluid_velocity_relative_l2",
+    "fixed_training_lineages": 2,
+    "geometric_clusters": 85,
+    "original_mean": 0.059561366215254825,
+    "extended_mean": 0.0535681482766686,
+    "difference_extended_minus_original": -0.005993217938586229,
+    "relative_difference_percent": -10.06225733124847,
+    "ci95_basic": [
+      -0.006807909421680498,
+      -0.005305312801714933
+    ],
+    "ci_family_basic": [
+      -0.007155224604676167,
+      -0.005106693098239293
+    ],
+    "ci95_percentile": [
+      -0.006681123075457525,
+      -0.00517852645549196
+    ],
+    "ci_family_percentile": [
+      -0.006879742778933165,
+      -0.004831211272496291
+    ],
+    "conditional_on_two_specific_training_lineages": true,
+    "basic_bonferroni_excludes_zero": true
+  },
+  {
+    "method": "chebkan",
+    "metric": "fluid_pressure_relative_l2",
+    "fixed_training_lineages": 2,
+    "geometric_clusters": 85,
+    "original_mean": 0.0834898660753609,
+    "extended_mean": 0.07623767686262792,
+    "difference_extended_minus_original": -0.007252189212732985,
+    "relative_difference_percent": -8.686310750800452,
+    "ci95_basic": [
+      -0.008249300697837574,
+      -0.006215793440268326
+    ],
+    "ci_family_basic": [
+      -0.008582014194799644,
+      -0.005850806118164565
+    ],
+    "ci95_percentile": [
+      -0.008288584985197644,
+      -0.006255077727628395
+    ],
+    "ci_family_percentile": [
+      -0.008653572307301405,
+      -0.005922364230666325
+    ],
+    "conditional_on_two_specific_training_lineages": true,
+    "basic_bonferroni_excludes_zero": true
+  },
+  {
+    "method": "rbf",
+    "metric": "all_cell_mse",
+    "fixed_training_lineages": 2,
+    "geometric_clusters": 85,
+    "original_mean": 0.0011491985928554721,
+    "extended_mean": 0.001083650543445212,
+    "difference_extended_minus_original": -6.554804941026e-05,
+    "relative_difference_percent": -5.703805227205294,
+    "ci95_basic": [
+      -9.743297666249672e-05,
+      -2.634457035635583e-05
+    ],
+    "ci_family_basic": [
+      -0.00010612331982002684,
+      -1.063491897222764e-05
+    ],
+    "ci95_percentile": [
+      -0.00010475152846416417,
+      -3.366312215802328e-05
+    ],
+    "ci_family_percentile": [
+      -0.00012046117984829236,
+      -2.4972779000493165e-05
+    ],
+    "conditional_on_two_specific_training_lineages": true,
+    "basic_bonferroni_excludes_zero": true
+  },
+  {
+    "method": "rbf",
+    "metric": "fluid_velocity_relative_l2",
+    "fixed_training_lineages": 2,
+    "geometric_clusters": 85,
+    "original_mean": 0.07181600502261455,
+    "extended_mean": 0.06901669813751812,
+    "difference_extended_minus_original": -0.0027993068850964364,
+    "relative_difference_percent": -3.897887224741814,
+    "ci95_basic": [
+      -0.004111773552686544,
+      -0.0019646355177069877
+    ],
+    "ci_family_basic": [
+      -0.004712250820351265,
+      -0.001815099276879013
+    ],
+    "ci95_percentile": [
+      -0.003633978252485885,
+      -0.0014868402175063288
+    ],
+    "ci_family_percentile": [
+      -0.00378351449331386,
+      -0.0008863629498416083
+    ],
+    "conditional_on_two_specific_training_lineages": true,
+    "basic_bonferroni_excludes_zero": true
+  },
+  {
+    "method": "rbf",
+    "metric": "fluid_pressure_relative_l2",
+    "fixed_training_lineages": 2,
+    "geometric_clusters": 85,
+    "original_mean": 0.13816995725287232,
+    "extended_mean": 0.13180796706997122,
+    "difference_extended_minus_original": -0.006361990182901103,
+    "relative_difference_percent": -4.604467070404949,
+    "ci95_basic": [
+      -0.0070736807933037054,
+      -0.005536121100226261
+    ],
+    "ci_family_basic": [
+      -0.007280698480709768,
+      -0.005211099301181052
+    ],
+    "ci95_percentile": [
+      -0.0071878592655759445,
+      -0.0056502995724985
+    ],
+    "ci_family_percentile": [
+      -0.007512881064621154,
+      -0.005443281885092437
+    ],
+    "conditional_on_two_specific_training_lineages": true,
+    "basic_bonferroni_excludes_zero": true
+  }
+]

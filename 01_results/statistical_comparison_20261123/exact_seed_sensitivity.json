@@ -1,0 +1,2432 @@
+[
+  {
+    "method_a": "tfno",
+    "method_b": "chebkan",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.0011153455108374466,
+      -0.0013331804374738883,
+      -0.0009095996903002728,
+      -0.0004697447767927686,
+      -0.0007575465455804119
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "chebkan",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.05411383292235234,
+      -0.05008935718645132,
+      -0.04932500249459383,
+      -0.05289740755557183,
+      -0.056444999484214164
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "chebkan",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.07328002893388119,
+      -0.06249259458804744,
+      -0.068817995598989,
+      -0.06639071272709973,
+      -0.0691548870025295
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "pinet",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.002566180825741583,
+      -0.0025420955898056486,
+      -0.0025571789738845253,
+      -0.0025567621949043875,
+      -0.0025672240055621023
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "pinet",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.09373670475603067,
+      -0.09194331609045887,
+      -0.09342887488613154,
+      -0.09494937592259954,
+      -0.0939329832014912
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "pinet",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.2560942229958273,
+      -0.2563067257642855,
+      -0.25631116207197857,
+      -0.2570423427023067,
+      -0.2558552989982933
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "dendrite",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.0025312128989663086,
+      -0.002536145295265029,
+      -0.0025405010325203433,
+      -0.0025286629459125545,
+      -0.002556913900833451
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "dendrite",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.09076554016335166,
+      -0.09046090030787382,
+      -0.09077697412440716,
+      -0.09021211284677862,
+      -0.09403019617374019
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "dendrite",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.25439736808349483,
+      -0.2533819115047046,
+      -0.25357354975017443,
+      -0.25496375308789454,
+      -0.25378960801552897
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "realnpu",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -2.68570771493341e-06,
+      -2.60613408487314e-06,
+      -2.640873506825625e-06,
+      -3.031399997678511e-06,
+      -3.3118662914260307e-06
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "realnpu",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.009703429495257827,
+      -0.009610264290021792,
+      -0.009622667205575135,
+      -0.009402124813396891,
+      -0.009536114411126631
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "realnpu",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.004770395908365293,
+      -0.005112852184236467,
+      -0.004950184768118596,
+      -0.005410602067333339,
+      -0.005362364661465434
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "rbf",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.0011271340690381891,
+      -0.0011465664049408607,
+      -0.0011409193812899536,
+      -0.0011687058286622939,
+      -0.0011552788793219501
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "rbf",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.06431787078926587,
+      -0.06439459693425718,
+      -0.06549539870989836,
+      -0.06472626658971356,
+      -0.06612151601891426
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "rbf",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.12232256360413489,
+      -0.12281024227281671,
+      -0.12616070430712234,
+      -0.12520592824940657,
+      -0.1248552081843997
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "elm",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.017772958411409585,
+      -0.017668285055614585,
+      -0.017799958874994245,
+      -0.017750728038432223,
+      -0.01763148465886367
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "elm",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.3751023372861049,
+      -0.37162620373947447,
+      -0.3782550449170362,
+      -0.3724006517401958,
+      -0.3754972569240413
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "elm",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.7429613316293631,
+      -0.748184108955606,
+      -0.7396180756586365,
+      -0.7405028212764768,
+      -0.750139491079848
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "scn",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.0192010478954184,
+      -0.01791496624281345,
+      -0.018345714110234137,
+      -0.018072323295073054,
+      -0.018535603681308386
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "scn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.43113973652060483,
+      -0.39312265978074246,
+      -0.40677145424425004,
+      -0.4073091706327008,
+      -0.4033273046633283
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "scn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.7600584396864694,
+      -0.7365041420784562,
+      -0.7419737605528909,
+      -0.7390064029344625,
+      -0.7494477378834872
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "cascor",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.02271463508561726,
+      -0.022471260189606976,
+      -0.022764737535693275,
+      -0.022568158423856646,
+      -0.022789375021504406
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.5303208864314859,
+      -0.5141918250080474,
+      -0.5216749776616934,
+      -0.5156529930187352,
+      -0.5238112539845893
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.8254114411457689,
+      -0.8418015928096444,
+      -0.8593447026915506,
+      -0.8474408452001909,
+      -0.8485989358083026
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -3.803854406488001e-06,
+      -2.3646960042561613e-06,
+      -3.4059688294024935e-06,
+      -3.3083865270100495e-06,
+      -3.049017835885918e-06
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.0008241515509670892,
+      -0.0004409837070842278,
+      -0.0003207616988005844,
+      -0.00037727884758423195,
+      -0.0006829365571430993
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.0009361633651674556,
+      -0.0012036059565266183,
+      -0.0011153716319333429,
+      -0.0007856414437757437,
+      -0.0012030671292751118
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "pinet",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.0014508353149041363,
+      -0.0012089151523317603,
+      -0.0016475792835842526,
+      -0.0020870174181116187,
+      -0.0018096774599816907
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "pinet",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.03962287183367833,
+      -0.04185395890400755,
+      -0.044103872391537714,
+      -0.04205196836702771,
+      -0.03748798371727703
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "pinet",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.1828141940619461,
+      -0.19381413117623805,
+      -0.18749316647298958,
+      -0.19065162997520696,
+      -0.18670041199576376
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "dendrite",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.0014158673881288619,
+      -0.0012029648577911408,
+      -0.0016309013422200706,
+      -0.0020589181691197857,
+      -0.0017993673552530393
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "dendrite",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.036651707240999316,
+      -0.0403715431214225,
+      -0.04145197162981334,
+      -0.037314705291206784,
+      -0.03758519668952602
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "dendrite",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.18111733914961364,
+      -0.1908893169166572,
+      -0.18475555415118544,
+      -0.1885730403607948,
+      -0.18463472101299944
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "realnpu",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.0011126598031225132,
+      0.0013305743033890152,
+      0.0009069588167934471,
+      0.0004667133767950901,
+      0.0007542346792889858
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "realnpu",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.044410403427094514,
+      0.040479092896429536,
+      0.03970233528901869,
+      0.04349528274217494,
+      0.04690888507308753
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "realnpu",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.0685096330255159,
+      0.05737974240381097,
+      0.06386781083087041,
+      0.0609801106597664,
+      0.06379252234106407
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "rbf",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.1875,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -1.1788558200742563e-05,
+      0.00018661403253302758,
+      -0.00023131969098968096,
+      -0.0006989610518695252,
+      -0.00039773233374153824
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "rbf",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.010204037866913533,
+      -0.014305239747805863,
+      -0.016170396215304535,
+      -0.011828859034141728,
+      -0.0096765165347001
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "rbf",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.0490425346702537,
+      -0.06031764768476927,
+      -0.057342708708133336,
+      -0.05881521552230683,
+      -0.0557003211818702
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "elm",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.01665761290057214,
+      -0.016335104618140694,
+      -0.016890359184693973,
+      -0.017280983261639453,
+      -0.01687393811328326
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "elm",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.3209885043637526,
+      -0.3215368465530231,
+      -0.3289300424224424,
+      -0.319503244184624,
+      -0.3190522574398271
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "elm",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.6696813026954819,
+      -0.6856915143675586,
+      -0.6708000800596474,
+      -0.6741121085493771,
+      -0.6809846040773185
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "scn",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.018085702384580956,
+      -0.01658178580533956,
+      -0.017436114419933865,
+      -0.017602578518280284,
+      -0.017778057135727974
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "scn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.3770259035982525,
+      -0.3430333025942911,
+      -0.3574464517496562,
+      -0.35441176307712896,
+      -0.3468823051791141
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "scn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.6867784107525882,
+      -0.6740115474904087,
+      -0.6731557649539018,
+      -0.6726156902073628,
+      -0.6802928508809577
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "cascor",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.021599289574779815,
+      -0.021138079752133086,
+      -0.021855137845393002,
+      -0.022098413647063875,
+      -0.022031828475923994
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.47620705350913356,
+      -0.46410246782159603,
+      -0.47234997516709953,
+      -0.46275558546316337,
+      -0.46736625450037517
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.7521314122118877,
+      -0.7793089982215969,
+      -0.7905267070925616,
+      -0.7810501324730912,
+      -0.7794440488057731
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.0011115416564309586,
+      0.0013308157414696322,
+      0.0009061937214708703,
+      0.00046643639026575854,
+      0.000754497527744526
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.053289681371385254,
+      0.0496483734793671,
+      0.04900424079579324,
+      0.0525201287079876,
+      0.05576206292707106
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "chebkan",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.07234386556871374,
+      0.061288988631520824,
+      0.06770262396705566,
+      0.06560507128332399,
+      0.0679518198732544
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "dendrite",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      3.4967926775274476e-05,
+      5.950294540619551e-06,
+      1.6677941364182016e-05,
+      2.8099248991832974e-05,
+      1.0310104728651452e-05
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "dendrite",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.125,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.0029711645926790153,
+      0.0014824157825850531,
+      0.0026519007617243767,
+      0.004737263075820924,
+      -9.721297224898895e-05
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "dendrite",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.0016968549123324572,
+      0.0029248142595808546,
+      0.0027376123218041393,
+      0.002078589614412152,
+      0.0020656909827643233
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "realnpu",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.0025634951180266495,
+      0.0025394894557207756,
+      0.0025545381003776995,
+      0.0025537307949067087,
+      0.0025639121392706764
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "realnpu",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.08403327526077284,
+      0.08233305180043708,
+      0.08380620768055641,
+      0.08554725110920265,
+      0.08439686879036457
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "realnpu",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.25132382708746204,
+      0.251193873580049,
+      0.25136097730386,
+      0.25163174063497334,
+      0.25049293433682784
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "rbf",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.0014390467567033938,
+      0.001395529184864788,
+      0.0014162595925945715,
+      0.0013880563662420937,
+      0.0014119451262401524
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "rbf",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.0294188339667648,
+      0.02754871915620169,
+      0.02793347617623318,
+      0.03022310933288598,
+      0.027811467182576932
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "rbf",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.13377165939169242,
+      0.13349648349146878,
+      0.13015045776485623,
+      0.13183641445290012,
+      0.13100009081389358
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "elm",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.015206777585668003,
+      -0.015126189465808935,
+      -0.01524277990110972,
+      -0.015193965843527835,
+      -0.015064260653301569
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "elm",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.2813656325300743,
+      -0.2796828876490156,
+      -0.28482617003090466,
+      -0.2774512758175963,
+      -0.2815642737225501
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "elm",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.4868671086335357,
+      -0.4918773831913205,
+      -0.4833069135866579,
+      -0.4834604785741701,
+      -0.4942841920815547
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "scn",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.016634867069676817,
+      -0.015372870653007801,
+      -0.01578853513634961,
+      -0.015515561100168666,
+      -0.015968379675746283
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "scn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.3374030317645742,
+      -0.30117934369028354,
+      -0.3133425793581185,
+      -0.3123597947101012,
+      -0.3093943214618371
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "scn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.503964216690642,
+      -0.4801974163141706,
+      -0.4856625984809123,
+      -0.4819640602321558,
+      -0.4935924388851939
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "cascor",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.020148454259875676,
+      -0.019929164599801326,
+      -0.02020755856180875,
+      -0.020011396228952257,
+      -0.020222151015942304
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.4365841816754552,
+      -0.42224850891758847,
+      -0.4282461027755618,
+      -0.4207036170961357,
+      -0.42987827078309815
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.5693172181499415,
+      -0.5854948670453588,
+      -0.603033540619572,
+      -0.5903985024978842,
+      -0.5927436368100093
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.002562376971335095,
+      0.0025397308938013927,
+      0.0025537730050551226,
+      0.0025534538083773774,
+      0.0025641749877262166
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.09291255320506359,
+      0.09150233238337464,
+      0.09310811318733096,
+      0.09457209707501531,
+      0.09325004664434809
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "pinet",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.25515805963065985,
+      0.25510311980775885,
+      0.25519579044004526,
+      0.25625670125853095,
+      0.2546522318690182
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "realnpu",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.002528527191251375,
+      0.002533539161180156,
+      0.0025378601590135175,
+      0.0025256315459148758,
+      0.002553602034542025
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "realnpu",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.08106211066809382,
+      0.08085063601785203,
+      0.08115430691883203,
+      0.08080998803338173,
+      0.08449408176261355
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "realnpu",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.24962697217512955,
+      0.24826905932046817,
+      0.24862336498205584,
+      0.2495531510205612,
+      0.24842724335406352
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "rbf",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.0014040788299281193,
+      0.0013895788903241684,
+      0.0013995816512303895,
+      0.0013599571172502607,
+      0.001401635021511501
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "rbf",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.026447669374085783,
+      0.026066303373616637,
+      0.025281575414508803,
+      0.025485846257065056,
+      0.02790868015482592
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "rbf",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.13207480447935996,
+      0.13057166923188793,
+      0.1274128454430521,
+      0.12975782483848797,
+      0.12893439983112925
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "elm",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.015241745512443276,
+      -0.015132139760349553,
+      -0.015259457842473902,
+      -0.015222065092519669,
+      -0.015074570758030221
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "elm",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.2843367971227533,
+      -0.2811653034316006,
+      -0.28747807079262905,
+      -0.2821885388934172,
+      -0.2814670607503011
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "elm",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.4885639635458682,
+      -0.49480219745090137,
+      -0.48604452590846203,
+      -0.4855390681885823,
+      -0.49634988306431904
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "scn",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.016669834996452092,
+      -0.01537882094754842,
+      -0.015805213077713796,
+      -0.0155436603491605,
+      -0.015978689780474935
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "scn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.3403741963572532,
+      -0.3026617594728686,
+      -0.3159944801198429,
+      -0.3170970577859222,
+      -0.3092971084895881
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "scn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.5056610716029745,
+      -0.4831222305737515,
+      -0.48840021080271645,
+      -0.484042649846568,
+      -0.4956581298679582
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "cascor",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.02018342218665095,
+      -0.019935114894341945,
+      -0.020224236503172933,
+      -0.02003949547794409,
+      -0.020232461120670956
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.43955534626813425,
+      -0.42373092470017354,
+      -0.4308980035372862,
+      -0.4254408801719566,
+      -0.42978105781084913
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.571014073062274,
+      -0.5884196813049397,
+      -0.6057711529413762,
+      -0.5924770921122964,
+      -0.5948093277927736
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.0025274090445598207,
+      0.002533780599260773,
+      0.0025370950636909406,
+      0.0025253545593855444,
+      0.002553864882997565
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.08994138861238457,
+      0.09001991660078959,
+      0.09045621242560659,
+      0.08983483399919438,
+      0.09334725961659708
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "dendrite",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.2534612047183274,
+      0.252178305548178,
+      0.2524581781182411,
+      0.2541781116441188,
+      0.2525865408862539
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "rbf",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.0011244483613232557,
+      -0.0011439602708559877,
+      -0.001138278507783128,
+      -0.0011656744286646153,
+      -0.001151967013030524
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "rbf",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.05461444129400805,
+      -0.05478433264423539,
+      -0.05587273150432323,
+      -0.05532414177631667,
+      -0.05658540160778763
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "rbf",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.1175521676957696,
+      -0.11769739008858024,
+      -0.12121051953900375,
+      -0.11979532618207323,
+      -0.11949284352293427
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "elm",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.01777027270369465,
+      -0.01766567892152971,
+      -0.01779731800148742,
+      -0.017747696638434545,
+      -0.017628172792572245
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "elm",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.3653989077908471,
+      -0.36201593944945265,
+      -0.36863237771146107,
+      -0.36299852692679896,
+      -0.36596114251291467
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "elm",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.7381909357209977,
+      -0.7430712567713695,
+      -0.7346678908905179,
+      -0.7350922192091435,
+      -0.7447771264183826
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "scn",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.019198362187703467,
+      -0.017912360108728577,
+      -0.018343073236727313,
+      -0.018069291895075376,
+      -0.01853229181501696
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "scn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.421436307025347,
+      -0.38351239549072064,
+      -0.3971487870386749,
+      -0.3979070458193039,
+      -0.39379119025220166
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "scn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.755288043778104,
+      -0.7313912898942196,
+      -0.7370235757847723,
+      -0.7335958008671292,
+      -0.7440853732220217
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "cascor",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.022711949377902326,
+      -0.022468654055522102,
+      -0.02276209666218645,
+      -0.022565127023858968,
+      -0.02278606315521298
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.5206174569362281,
+      -0.5045815607180256,
+      -0.5120523104561182,
+      -0.5062508682053383,
+      -0.5142751395734627
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.8206410452374036,
+      -0.8366887406254079,
+      -0.854394517923432,
+      -0.8420302431328576,
+      -0.8432365711468371
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.3125,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -1.118146691554591e-06,
+      2.414380806169788e-07,
+      -7.650953225768687e-07,
+      -2.7698652933153865e-07,
+      2.6284845554011263e-07
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.008879277944290739,
+      0.009169280582937563,
+      0.00930190550677455,
+      0.009024845965812659,
+      0.008853177853983532
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "realnpu",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.0038342325431978373,
+      0.003909246227709849,
+      0.0038348131361852535,
+      0.004624960623557595,
+      0.004159297532190322
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "elm",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.016645824342371395,
+      -0.01652171865067372,
+      -0.016659039493704293,
+      -0.01658202220976993,
+      -0.01647620577954172
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "elm",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.31078446649683905,
+      -0.30723160680521727,
+      -0.31275964620713786,
+      -0.3076743851504823,
+      -0.30937574090512704
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "elm",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.6206387680252281,
+      -0.6253738666827893,
+      -0.6134573713515141,
+      -0.6152968930270702,
+      -0.6252842828954484
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "scn",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.01807391382638021,
+      -0.016768399837872587,
+      -0.017204794728944185,
+      -0.01690361746641076,
+      -0.017380324801986435
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "scn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.36682186573133896,
+      -0.32872806284648526,
+      -0.3412760555343517,
+      -0.34258290404298725,
+      -0.33720578864441403
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "scn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.6377358760823344,
+      -0.6136938998056394,
+      -0.6158130562457685,
+      -0.6138004746850559,
+      -0.6245925296990875
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "cascor",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.02158750101657907,
+      -0.021324693784666116,
+      -0.021623818154403323,
+      -0.02139945259519435,
+      -0.021634096142182455
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.46600301564222,
+      -0.4497972280737902,
+      -0.456179578951795,
+      -0.45092672642902165,
+      -0.4576897379656751
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.703088877541634,
+      -0.7189913505368276,
+      -0.7331839983844283,
+      -0.7222349169507843,
+      -0.7237437276239029
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.0011233302146317012,
+      0.0011442017089366046,
+      0.0011375134124605511,
+      0.0011653974421352838,
+      0.0011522298614860642
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.06349371923829879,
+      0.06395361322717295,
+      0.06517463701109778,
+      0.06434898774212933,
+      0.06543857946177116
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "rbf",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.12138640023896743,
+      0.1216066363162901,
+      0.125045332675189,
+      0.12442028680563082,
+      0.12365214105512459
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "elm",
+    "method_b": "scn",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.001428089484008816,
+      -0.0002466811871988661,
+      -0.000545755235239892,
+      -0.000321595256640831,
+      -0.0009041190224447146
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "elm",
+    "method_b": "scn",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.05603739923449991,
+      -0.021496456041267986,
+      -0.028516409327213832,
+      -0.03490851889250496,
+      -0.02783004773928699
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "elm",
+    "method_b": "scn",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.75,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.01709710805710629,
+      0.011679966877149894,
+      -0.0023556848942544173,
+      0.0014964183420143051,
+      0.0006917531963608337
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "elm",
+    "method_b": "cascor",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.004941676674207675,
+      -0.004802975133992391,
+      -0.00496477866069903,
+      -0.0048174303854244226,
+      -0.005157890362640735
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "elm",
+    "method_b": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.15521854914538097,
+      -0.14256562126857292,
+      -0.14341993274465714,
+      -0.14325234127853936,
+      -0.14831399706054804
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "elm",
+    "method_b": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.08245010951640586,
+      -0.09361748385403834,
+      -0.11972662703291415,
+      -0.1069380239237141,
+      -0.09845944472845458
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "elm",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.0177691545570031,
+      0.017665920359610326,
+      0.017796552906164845,
+      0.01774741965190521,
+      0.017628435641027784
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "elm",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.3742781857351378,
+      0.37118522003239024,
+      0.37793428321823563,
+      0.3720233728926116,
+      0.3748143203668982
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "elm",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.7420251682641955,
+      0.7469805029990794,
+      0.7385027040267031,
+      0.739717179832701,
+      0.7489364239505729
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "scn",
+    "method_b": "cascor",
+    "metric": "all_cell_mse",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.0035135871901988587,
+      -0.004556293946793525,
+      -0.004419023425459138,
+      -0.0044958351287835915,
+      -0.004253771340196021
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "scn",
+    "method_b": "cascor",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.09918114991088106,
+      -0.12106916522730493,
+      -0.11490352341744331,
+      -0.1083438223860344,
+      -0.12048394932126105
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "scn",
+    "method_b": "cascor",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "original_nine_methods",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      -0.06535300145929956,
+      -0.10529745073118824,
+      -0.11737094213865973,
+      -0.1084344422657284,
+      -0.09915119792481542
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "scn",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.019197244041011915,
+      0.017912601546809192,
+      0.018342308141404737,
+      0.018069014908546042,
+      0.0185325546634725
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "scn",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.43031558496963773,
+      0.3926816760736582,
+      0.40645069254544947,
+      0.4069318917851166,
+      0.4026443681061852
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "scn",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.7591222763213018,
+      0.7353005361219295,
+      0.7408583889209576,
+      0.7382207614906867,
+      0.7482446707542121
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "cascor",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.022710831231210774,
+      0.022468895493602717,
+      0.022761331566863875,
+      0.022564850037329633,
+      0.02278632600366852
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "cascor",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.5294967348805188,
+      0.5137508413009632,
+      0.5213542159628928,
+      0.5152757141711509,
+      0.5231283174274463
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  },
+  {
+    "method_a": "cascor",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "family": "posthoc_FNO_and_auxiliary_PINN",
+    "seed_blocks": 5,
+    "permutations": 32,
+    "p_exact_symmetric_sign_flip": 0.0625,
+    "minimum_possible_two_sided_p": 0.0625,
+    "training_seed_deltas": [
+      0.8244752777806014,
+      0.8405979868531177,
+      0.8582293310596173,
+      0.8466552037564151,
+      0.8473958686790275
+    ],
+    "p_holm_within_this_sensitivity_family": 1.0
+  }
+]

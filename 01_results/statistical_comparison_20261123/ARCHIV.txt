@@ -1,0 +1,23 @@
+ÚPLNÝ ARCHÍV ŠTATISTIKY ARCHITEKTÚR
+
+Verejný Release:
+https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/architecture-statistics-20261123
+
+architecture_statistics_complete_20261123.tar.gz obsahuje kompletné
+výsledky, vstupné metrické tenzory, všetkých200000 bootstrap replík
+(vrátane variantu s nezávislými seedmi), váhy resamplovania, zdroje,
+konfiguráciu, metodiku a nezávislé overenie. Obsahuje aj snapshot
+pôvodného súhrnu55modelov, podľa ktorého sa overili všetky agregáty.
+Pôvodné veľké predikčné polia ani modelové váhy sa neduplikujú;
+sú už v skorších vydaniach toho istého repozitára.
+
+Je to snapshot pred publikáciou. Najnovší stav publikácie a overenie
+verejného spätného prečítania sú v publication_receipt.json v repozitári.
+Súbor ARCHIVE_MANIFEST.json obsahuje SHA256 každého vnútorného súboru;
+SHA256SUMS.txt kontroluje výsledné verejné prílohy.
+
+Pre reprodukciu: Python3.12 a NumPy2.5.4. Stiahni zmrazené pôvodnéCSV
+uvedené v input_manifest.json alebo príslušný commit repozitára.
+Spusti analyze.py s --config config.json --published-summary
+frozen_summary55.json --input-root cesta_k_repozitaru --output novy_priecinok.
+Voľby a semeno ostanú nezmenené. Skript odmietne prepísať existujúci výsledok.

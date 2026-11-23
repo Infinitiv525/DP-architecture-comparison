@@ -1,0 +1,10 @@
+{
+  "status": "ANALYSIS_PLAN_AND_SOURCE_PUBLISHED_BEFORE_COMPUTATION",
+  "commit": "ecf2b1ce1e85aaf370dff6e4f7494e13ac0407a4",
+  "files": [
+    "04_source/statistical_comparison_20261123/analyze.py",
+    "04_source/statistical_comparison_20261123/config.json",
+    "04_source/statistical_comparison_20261123/run.sbatch",
+    "03_methodology/statistical_comparison_20261123/protokol.txt"
+  ]
+}

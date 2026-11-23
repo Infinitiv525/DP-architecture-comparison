@@ -1,0 +1,150 @@
+{
+  "status": "ARCHITECTURE_POSTHOC_STATISTICS_COMPLETE",
+  "date": "2026-11-23",
+  "posthoc": true,
+  "original_scores_and_weights_unchanged": true,
+  "gpu_jobs_or_new_inference": false,
+  "bootstrap_replicates": 200000,
+  "bootstrap_seed": 23112026,
+  "main_family_contrasts": 108,
+  "supplementary_family_contrasts": 57,
+  "primary_basic_bonferroni_nonzero": 96,
+  "supplementary_basic_bonferroni_nonzero": 48,
+  "primary_holm_rejections": 103,
+  "training_replicates_per_method": 5,
+  "test_cases_per_model": 200,
+  "geometry_clusters": 85,
+  "approximate_inference_not_exact_coverage_guarantee": true,
+  "minimum_exact_two_sided_seed_flip_p": 0.0625,
+  "checks": {
+    "status": "PASS",
+    "explicit_loop_replicas_checked": 23,
+    "models_checked_per_replica": 11,
+    "both_seed_resampling_modes_checked": true,
+    "second_chance_direct_expansion_checked": true,
+    "original_aggregates_reproduced": true,
+    "holm_known_vectors_pass": true,
+    "zero_difference_p_one": true,
+    "constant_tensor_invariance": true,
+    "exact_sign_flip_all_positive_p": 0.0625,
+    "output_contrasts": 165,
+    "model_metric_summaries": 33,
+    "first_second_half_decision_disagreements": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "fluid_pressure_relative_l2",
+        "family": "posthoc_FNO_and_auxiliary_PINN"
+      }
+    ],
+    "paired_vs_independent_seed_decision_disagreements": [
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "fluid_pressure_relative_l2",
+        "family": "posthoc_FNO_and_auxiliary_PINN"
+      }
+    ],
+    "basic_vs_percentile_decision_disagreements": [
+      {
+        "method_a": "tfno",
+        "method_b": "chebkan",
+        "metric": "all_cell_mse",
+        "family": "original_nine_methods"
+      },
+      {
+        "method_a": "tfno",
+        "method_b": "rbf",
+        "metric": "all_cell_mse",
+        "family": "original_nine_methods"
+      },
+      {
+        "method_a": "tfno",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "family": "posthoc_FNO_and_auxiliary_PINN"
+      },
+      {
+        "method_a": "tfno",
+        "method_b": "pinn",
+        "metric": "all_cell_mse",
+        "family": "posthoc_FNO_and_auxiliary_PINN"
+      },
+      {
+        "method_a": "chebkan",
+        "method_b": "realnpu",
+        "metric": "all_cell_mse",
+        "family": "original_nine_methods"
+      },
+      {
+        "method_a": "chebkan",
+        "method_b": "rbf",
+        "metric": "fluid_velocity_relative_l2",
+        "family": "original_nine_methods"
+      },
+      {
+        "method_a": "chebkan",
+        "method_b": "fno",
+        "metric": "all_cell_mse",
+        "family": "posthoc_FNO_and_auxiliary_PINN"
+      },
+      {
+        "method_a": "chebkan",
+        "method_b": "pinn",
+        "metric": "all_cell_mse",
+        "family": "posthoc_FNO_and_auxiliary_PINN"
+      },
+      {
+        "method_a": "pinet",
+        "method_b": "dendrite",
+        "metric": "all_cell_mse",
+        "family": "original_nine_methods"
+      },
+      {
+        "method_a": "realnpu",
+        "method_b": "rbf",
+        "metric": "all_cell_mse",
+        "family": "original_nine_methods"
+      },
+      {
+        "method_a": "realnpu",
+        "method_b": "pinn",
+        "metric": "all_cell_mse",
+        "family": "posthoc_FNO_and_auxiliary_PINN"
+      },
+      {
+        "method_a": "elm",
+        "method_b": "scn",
+        "metric": "all_cell_mse",
+        "family": "original_nine_methods"
+      },
+      {
+        "method_a": "fno",
+        "method_b": "pinn",
+        "metric": "all_cell_mse",
+        "family": "posthoc_FNO_and_auxiliary_PINN"
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.12.15 (main, Oct 13 2026, 16:52:04) [GCC 15.3.0]",
+    "numpy": "2.5.4",
+    "platform": "Linux-5.14.0-611.55.1.el9_7.x86_64-x86_64-with-glibc2.34",
+    "cpu_affinity": [
+      228,
+      229,
+      230,
+      231
+    ],
+    "slurm_job_id": "172503",
+    "requested_cpus": "4",
+    "gpu_requested": false,
+    "elapsed_seconds": 18.698020186042413,
+    "cpu_process_seconds": 18.242899766,
+    "blas_threads": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  }
+}

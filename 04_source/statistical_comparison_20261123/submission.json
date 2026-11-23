@@ -1,0 +1,18 @@
+{
+  "status": "CPU_ONLY_ANALYSIS_SUBMITTED",
+  "job_id": "172503",
+  "cpus": 4,
+  "gpus": 0,
+  "submitted_unix": 1795474774.186877,
+  "source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_statistics_20261123_v1",
+  "plan_publication": {
+    "status": "ANALYSIS_PLAN_AND_SOURCE_PUBLISHED_BEFORE_COMPUTATION",
+    "commit": "ecf2b1ce1e85aaf370dff6e4f7494e13ac0407a4",
+    "files": [
+      "04_source/statistical_comparison_20261123/analyze.py",
+      "04_source/statistical_comparison_20261123/config.json",
+      "04_source/statistical_comparison_20261123/run.sbatch",
+      "03_methodology/statistical_comparison_20261123/protokol.txt"
+    ]
+  }
+}
