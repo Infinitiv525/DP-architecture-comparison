@@ -1,0 +1,49 @@
+{
+  "status": "STATISTICS_AND_FULL_ARCHIVE_PUBLIC_AND_READBACK_VERIFIED",
+  "completed_at": "2026-11-24T00:09:05.733479+01:00",
+  "repository": "https://github.com/Infinitiv525/DP-architecture-comparison",
+  "results_commit": "e5bc6e705d6d82bf6be2f408cbb837c9143398ba",
+  "report": "https://github.com/Infinitiv525/DP-architecture-comparison/blob/main/01_results/statistical_comparison_20261123/VYSLEDKY.txt",
+  "release_url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/architecture-statistics-20261123",
+  "assets": [
+    {
+      "name": "architecture_statistics_complete_20261123.tar.gz",
+      "bytes": 118087516,
+      "sha256": "c79ee5ffe6c6b75b56ab712454294f469a8a72c3a77f0840992b852c7e78187e",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/architecture-statistics-20261123/architecture_statistics_complete_20261123.tar.gz",
+      "asset_id": 784887698,
+      "github_digest": "sha256:c79ee5ffe6c6b75b56ab712454294f469a8a72c3a77f0840992b852c7e78187e",
+      "anonymous_full_readback_verified": true,
+      "retried_http_statuses": []
+    },
+    {
+      "name": "ARCHIVE_MANIFEST.json",
+      "bytes": 8207,
+      "sha256": "2c6fc3347de17ce83c37e0ae9a62f50bcea335a6a36f36021577aaff06dc9236",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/architecture-statistics-20261123/ARCHIVE_MANIFEST.json",
+      "asset_id": 784888031,
+      "github_digest": "sha256:2c6fc3347de17ce83c37e0ae9a62f50bcea335a6a36f36021577aaff06dc9236",
+      "anonymous_full_readback_verified": true,
+      "retried_http_statuses": []
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 203,
+      "sha256": "b945bd33d873c5cd5d02294bdb256608378e0f942579cb8c9f3cf3b3df7b29c1",
+      "url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/download/architecture-statistics-20261123/SHA256SUMS.txt",
+      "asset_id": 784888066,
+      "github_digest": "sha256:b945bd33d873c5cd5d02294bdb256608378e0f942579cb8c9f3cf3b3df7b29c1",
+      "anonymous_full_readback_verified": true,
+      "retried_http_statuses": []
+    }
+  ],
+  "no_PC_copy": true,
+  "GPU_used": false,
+  "original_metrics_and_weights_preserved": true,
+  "independent_verification": "PASS",
+  "main_contrasts": 108,
+  "supplementary_contrasts": 57,
+  "second_chance_conditional_contrasts": 6,
+  "initial_publication_http_404_preserved": true,
+  "no_scientific_result_rerun_or_asset_replacement": true
+}

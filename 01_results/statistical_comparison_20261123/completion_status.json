@@ -1,5 +1,5 @@
 {
-  "status": "STATISTICS_AND_INDEPENDENT_VERIFICATION_COMPLETE",
+  "status": "STATISTICS_AND_COMPLETE_PUBLIC_ARCHIVE_VERIFIED",
   "analysis_started": "2026-11-23",
   "human_report_finished_at": "2026-11-24T00:04:30.152500+01:00",
   "main_contrasts": 108,
@@ -10,5 +10,10 @@
   "training_replicates_per_method": 5,
   "no_new_GPU_usage": true,
   "no_new_training_or_inference": true,
-  "publication_pending": true
+  "publication_pending": false,
+  "release_url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/architecture-statistics-20261123",
+  "public_archive_assets": 3,
+  "anonymous_full_readback_verified": true,
+  "no_PC_copy": true,
+  "publication_completed_at": "2026-11-24T00:09:05.733479+01:00"
 }
