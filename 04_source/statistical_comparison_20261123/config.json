@@ -1,0 +1,96 @@
+{
+  "name": "architecture_statistics_20261123_v1",
+  "date": "2026-11-23",
+  "repository": "Infinitiv525/DP-architecture-comparison",
+  "input_commit": "f13b43e7ac32c30ab725cfeeb1db0e08ac7238a7",
+  "methods": [
+    "tfno",
+    "chebkan",
+    "pinet",
+    "dendrite",
+    "realnpu",
+    "rbf",
+    "elm",
+    "scn",
+    "cascor",
+    "fno",
+    "pinn"
+  ],
+  "metrics": [
+    "all_cell_mse",
+    "fluid_velocity_relative_l2",
+    "fluid_pressure_relative_l2"
+  ],
+  "architecture_seeds": [
+    931101,
+    931102,
+    931103,
+    931104,
+    931105
+  ],
+  "pinn_seeds": [
+    150001,
+    150002,
+    150003,
+    150004,
+    150005
+  ],
+  "bootstrap_replicates": 200000,
+  "bootstrap_seed": 23112026,
+  "alpha": 0.05,
+  "chunk_size": 1024,
+  "inputs": [
+    {
+      "key": "primary",
+      "remote": "results/architecture_budget_test_20261112_v1/run_30896f9aadca67bb/audit/case_metrics.csv",
+      "public": "01_results/primary_and_PINN/case_metrics.csv",
+      "blob": "34537de19ea60c1b52b64edc6a9f969afd17d9c1",
+      "rows": 10000
+    },
+    {
+      "key": "fno",
+      "remote": "results/architecture_dense_fno_20261112_v1/run_c93033883d5f56d4/audit/case_metrics.csv",
+      "public": "01_results/dense_FNO/case_metrics.csv",
+      "blob": "bda17a1ab95bfaee6a90b7e5e2cb85e1471cafbf",
+      "rows": 1000
+    },
+    {
+      "key": "second",
+      "remote": "results/architecture_second_chance_test_20261117_v1/run_40028c5a5a732cab/audit/case_metrics.csv",
+      "public": "01_results/second_chance/case_metrics.csv",
+      "blob": "0be9d34840751eea6e6d8d73689de54b35aa5abb",
+      "rows": 800
+    }
+  ],
+  "summary_blob": "4dafaa4d33ceab95cc9a47979bbb1fe5c239443f",
+  "references": [
+    {
+      "title": "The pigeonhole bootstrap",
+      "authors": "Art B. Owen",
+      "year": 2007,
+      "url": "https://arxiv.org/abs/0712.1111",
+      "doi": "10.1214/07-AOAS122"
+    },
+    {
+      "title": "Bootstrapping data arrays of arbitrary order",
+      "authors": "Art B. Owen and Dean Eckles",
+      "year": 2012,
+      "url": "https://arxiv.org/abs/1106.2125",
+      "doi": "10.1214/12-AOAS547"
+    },
+    {
+      "title": "A Simple Sequentially Rejective Multiple Test Procedure",
+      "authors": "Sture Holm",
+      "year": 1979,
+      "url": "https://www.jstor.org/stable/4615733",
+      "doi": "10.2307/4615733"
+    },
+    {
+      "title": "What Teachers Should Know about the Bootstrap",
+      "authors": "Tim Hesterberg",
+      "year": 2015,
+      "url": "https://arxiv.org/abs/1411.5279",
+      "doi": "10.1080/00031305.2015.1089789"
+    }
+  ]
+}

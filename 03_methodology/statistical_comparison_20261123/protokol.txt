@@ -1,0 +1,136 @@
+DODATOČNÉ ŠTATISTICKÉ POROVNANIE ARCHITEKTÚR — 23. 11. 2026
+
+CHARAKTER ANALÝZY
+Táto analýza sa navrhuje po dokončení a znalosti TEST výsledkov.
+Je post hoc a exploratívna; nie je dodatočne vyhláseným predregistrovaným
+potvrdzujúcim testom. Pôvodné modely, ich výber, predikcie ani merania
+nemeníme. Nepridáva sa tréning, HPO, CFD ani nové GPU vyhodnotenie.
+Vstupy sú verejné nemenné CSV z commitu f13b43e7ac32c30ab725cfeeb1db0e08ac7238a7.
+Ich git blob SHA a SHA256 sa kontrolujú priamo na Perune.
+
+ROZSAH A JEDNOTKY
+Hlavná kohorta: TFNO, ChebKAN, PiNet, Dendrite, RealNPU, RBF, ELM, SCN,
+CasCor. Deväť implementácií × päť nezávislých tréningov na rovnakých
+640 TRAIN a 160 VAL prípadoch, so spoločným stropom 4 H200-GPU-h
+a 16 CPU core-h na tréning. Porovnávame konkrétne implementácie a celý
+tréningový postup pri tomto rozpočte, nie optimálnosť rodín všeobecne.
+Každý finálny model bol meraný na rovnakých 200 TEST prípadoch.
+Tie tvoria 85 geometrických klastrov; rôzne Re rovnakej geometrie
+nepovažujeme za nezávislé geometrie. Pôvodný split zdieľa geometrie
+s TRAIN. Analýza nie je dôkaz generalizácie na úplne nové geometrie.
+Päť seedov nie je 1000 nezávislých tréningov. Pixely ani opakované
+časovania sa nikdy nepoužijú ako nezávislé vedecké replikácie.
+
+ODDELENÉ DOPLNKY
+Dodatočné dense FNO (5 modelov) a historická PINN (5 modelov) sa
+porovnávajú v samostatnej rodine kontrastov; nepremenujú sa na pôvodné
+hlavné metódy. FNO bolo pridané po znalosti TEST, PINN má odlišné učenie.
+Predĺženie ChebKAN/RBF zahŕňa iba dva seedy každej rodiny. Je opisným
+exploratívnym dodatkom; intervaly preň sú podmienené týmito dvoma
+konkrétnymi líniami a nezaručujú prínos pre nové tréningové seedy.
+
+METRIKY A ESTIMAND
+Použijú sa všetky tri pôvodné hlavné číselné chyby, bez výberu tej,
+ktorá poskytne priaznivejší záver:
+1. all_cell_mse — natívna MSE u/v/p cez všetky bunky,
+2. fluid_velocity_relative_l2 — relatívna L2 vektorovej rýchlosti v tekutine,
+3. fluid_pressure_relative_l2 — relatívna L2 tlaku v tekutine po gauge.
+Menšia hodnota je lepšia. Bodový odhad je priemer cez 200 prípadov
+a následne cez všetkých 5 tréningov, rovnako ako v pôvodnom reporte.
+Rozdiel = chyba A mínus chyba B. Záporná hodnota zvýhodňuje A.
+Relatívny rozdiel = 100 × (priemer A / priemer B − 1).
+L2 ×100 sa interpretuje ako percentá relatívnej chyby; rozdiel L2 ×100
+sú percentuálne body. Nejde o percento chybných buniek.
+
+HLAVNÝ VÝPOČET NEISTOTY
+200000 replík, NumPy PCG64, seed 23112026, float64.
+Párovaný krížený bootstrap: nezávisle sa s opakovaním vyberie 5
+tréningových seedových blokov a 85 geometrických klastrov.
+Všetky hlavné architektúry aj dense FNO zdieľajú v každej replike
+rovnaké vybrané seedové bloky 931101–931105 a rovnaké geometrie.
+Párovanie je podľa experimentálneho opakovania, nie podľa totožných
+inicializačných tenzorov rôznych architektúr.
+Historické PINN seedy 150001–150005 sa vyberajú nezávisle od nových
+architektúr; ich umelé párovanie podľa poradia by nebolo odôvodnené.
+Všetky Re varianty vybratej geometrie sa prenesú spolu.
+Priemer zostáva vážený počtom prípadov: súčet vybraných chýb sa delí
+skutočným počtom prenesených prípadov a tréningov. Nezamieňa sa
+s rovnakou váhou každej geometrie.
+
+Pre každý rozdiel d sa uložia marginálne 95% aj Bonferroni intervaly
+základného (basic) bootstrapu: [2d−Q(1−a/2), 2d−Q(a/2)].
+Zverejnia sa aj percentile intervaly ako kontrola citlivosti.
+Monte Carlo bootstrap p = (1 + počet |d*−d| >= |d|)/(B+1),
+obojstranne, centrované na nulovú hypotézu; nikdy sa nevykáže p=0.
+P-hodnoty sú približné, nie exaktné randomizačné p-hodnoty.
+Holm upraví všetky p-hodnoty v príslušnej rodine.
+Konzervatívny hlavný príznak podpory rozdielu používa Bonferroni
+interval, ktorý neobsahuje nulu. Holm aj percentile výsledky zostanú
+viditeľné aj v prípade nesúladu; nevyberie sa priaznivejší variant.
+
+VIACNÁSOBNÉ POROVNANIA
+Hlavná rodina: všetkých C(9,2)=36 dvojíc × 3 metriky =108 kontrastov.
+Nevyberá sa dodatočne len najlepší víťaz alebo výhodná metrika.
+Nominálne rodinné alpha=.05: jednotlivé intervaly majú pokrytie
+1−.05/108 =99.9537037%. Toto je nominálny cieľ, nie zaručené presné
+pokrytie pri iba piatich tréningoch.
+Doplnková rodina: všetkých 55 dvojíc 11 metód mínus pôvodných 36
+hlavných dvojíc =19 dvojíc ×3 =57 kontrastov. Upravuje sa samostatne
+a zreteľne sa označí za doplnkovú exploratívnu rodinu.
+Nevydáva sa za jedinú globálnu potvrdzujúcu rodinu oboch kohort.
+
+KONTROLY CITLIVOSTI
+A. Rovnaké váhy geometrií namiesto prípadov — bodové poradia.
+B. Vynechanie každého z piatich tréningových blokov — rozsah odhadov.
+C. Presné vymenovanie všetkých 2^5 znamienok párovaných rozdielov
+   modelových priemerov na pevnom TESTe. Ide o podmienenú kontrolu
+   pri symetrickej/exchangeable nulovej hypotéze, nie o randomizáciu
+   skutočného tréningového experimentu. Najmenšie obojstranné p je
+   2/32=.0625; päť blokov preto samo osebe nemôže týmto testom
+   dosiahnuť p<.05. Toto obmedzenie sa uvedie aj pri úzkych bootstrap CI.
+D. Nezávislé výbery tréningových seedov medzi architektúrami
+   (rovnaké geometrické bootstrap váhy) preveria citlivosť na párovanie.
+E. Prvých 100000 a druhých 100000 bootstrap replík sa vyhodnotí
+   oddelene ako kontrola Monte Carlo stability rozhodnutí.
+F. Nezávislá implementácia v slučkách preverí výpočet vážených replík,
+   Holmovo zoradenie, znamienka a nulové/konštantné syntetické prípady.
+Analýza nesľubuje presné pokrytie bootstrapu pri n=5. Počet replík
+zmenšuje numerickú chybu resamplovania, nezvyšuje počet tréningov.
+
+ČAS A DRUHÁ ŠANCA
+Latencia sa vykáže opisne: všetkých päť najhorších per-case p99,
+GPU/host osobitne, počet modelov pod 5 ms. P99 nie je maximum každého
+volania a milióny opakovaní nenahrádzajú nezávislé tréningy alebo stroje.
+Režimy merania, vrátane neskoršie meraného FNO, ostávajú označené.
+Druhá šanca: na každej z dvoch rodín sa priemeruje párový rozdiel
+predĺženie−pôvodný stav cez jej dva seedy a rovnakých 200 prípadov.
+Bootstrapuje sa len 85 geometrií, seedy sú pevné. Šesť kontrastov
+(2 rodiny ×3 metriky), Bonferroni rodinné alpha=.05.
+Aj tieto intervaly sú približné a podmienené; dva seedy neodhadnú
+spoľahlivo rozdelenie výsledkov nových tréningov. Zlepšenie nemá
+vplyv na hlavný výsledok pri 4h a nepreukazuje optimálny čas učenia.
+
+VÝSTUPY A REPRODUKCIA
+Ľudský report VYSLEDKY.txt, tabuľky kontrastov a súhrnov, JSON
+s presnými hodnotami, vstupné SHA a audit reprodukcie agregátov,
+bootstrap modelové priemery a váhy, spustiteľný zdroj a prostredie.
+Nové súbory vzniknú na Perune v samostatných test/results priečinkoch.
+Malé výsledky sa publikujú do existujúceho repozitára architektúr,
+komprimované resampling dáta ako Release. Žiadne nové váhy ani polia
+sa nesťahujú do PC. Pôvodná dokumentacia.txt sa nedopĺňa.
+
+ZDROJE A HRANICE PREVZATIA
+Owen (2007), The pigeonhole bootstrap. doi:10.1214/07-AOAS122
+https://arxiv.org/abs/0712.1111
+Owen a Eckles (2012), Bootstrapping data arrays of arbitrary order.
+doi:10.1214/12-AOAS547 — https://arxiv.org/abs/1106.2125
+Preberáme princíp oddeleného resamplovania krížených faktorov.
+Tieto práce nesľubujú exaktný bootstrap ani presné pokrytie pre našich5seedov.
+Holm (1979), A Simple Sequentially Rejective Multiple Test Procedure.
+doi:10.2307/4615733 — https://www.jstor.org/stable/4615733
+Preberáme step-down úpravu; jej ochrana predpokladá platné jednotlivé p.
+Hesterberg (2015), What Teachers Should Know about the Bootstrap.
+doi:10.1080/00031305.2015.1089789 — https://arxiv.org/abs/1411.5279
+Obmedzenie malých vzoriek a intervalov sa pri záveroch nezamlčí.
+Voľba metrík, počtu replík, konkrétnych rodín kontrastov a kontrol je
+naša dodatočná metodická voľba, nie autorský protokol FlowBench.
