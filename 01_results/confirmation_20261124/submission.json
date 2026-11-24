@@ -1,12 +1,20 @@
 {
-  "status": "THREE_AUXILIARY_GPU_PREFLIGHTS_SUBMITTED",
+  "status": "CONFIRMATION60_AUTOMATIC_WAVES_ACTIVE",
   "jobs": {
     "cpu_audit": "172529",
-    "gpu_preflight": "172530"
+    "gpu_preflight": "172530",
+    "main_wave1": "173839",
+    "release_wave2": "173840"
   },
   "source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_20261124_v2",
   "run_root": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2",
   "main_models": 60,
-  "main_submitted": false,
-  "prior_technical_preparation": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v1"
+  "main_submitted": true,
+  "prior_technical_preparation": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v1",
+  "models_per_method": 20,
+  "maximum_running_model_jobs": 20,
+  "all60_tasks_authorized_and_in_workflow": true,
+  "unsubmitted_tasks_automatically_released_after_first_wave": 20,
+  "main_training_GPU_hours_hard_limit": 240,
+  "overall_planning_budget_GPU_hours": 260
 }

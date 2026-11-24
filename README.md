@@ -72,3 +72,7 @@ Doplnenia zachovávajú pôvodné váhy a výsledky. Rozbory pracujú s pôvodn�
 ## Analýza štatistickej sily a ďalších nákladov — 24. 11. 2026
 
 [Koľko ďalších tréningov a GPU hodín](01_results/power_analysis_20261124/README.md). Samostatný cielený dodatok pre TFNO, dense FNO a RealNPU:20 nových tréningov/metódu, 60 modelov, odhad243GPU-h a plánovacia rezerva260GPU-h. Rovnomerný nový dodatok pre10architektúr, všetky dvojice a dve L2 metriky:30 nových tréningov/metódu, odhad977GPU-h a rezerva1312,5GPU-h. Rozdielne ciele sily, predpoklady, obmedzenie pevného TESTu a úplné výpočty sú v reporte. Žiadne nové tréningy sa touto analýzou nespustili.
+
+## Nový cielený dodatok —60 tréningov
+
+[TFNO, dense FNO a RealNPU:20 nových tréningov/metódu](01_results/confirmation_20261124/README.md). Plán a kód boli zmrazené pred hlavným učením;CPU aj H200 kontroly prešli. Automatické dávky40+20 rešpektujú limity plánovača a nevyžadujú nové manuálne odoslanie druhej dávky. Primárna analýza bude používať iba20 nových seedových blokov na pevnom existujúcom TESTe.

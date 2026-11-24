@@ -1,0 +1,47 @@
+DOKUMENTÁCIA NOVÉHO CIELENÉHO DODATKU —24.11.2026
+
+Používateľ schválil 60 nových tréningov:20 TFNO,20 dense FNO,20 RealNPU.
+Aktívny priečinok na Perune:architecture_confirmation_20261124_v2.
+Pôvodných5 behov/metódu zostáva pilotnou sadou a nevstupuje do novej
+primárnej20-seedovej analýzy. Nevykonáva sa nové ladenie ani CFD.
+
+Konfigurácie a matematický tréningový kód sú pôvodné. CPU kontrola
+potvrdila rovnakú inicializáciu referenčného a prevzatého kódu pre
+všetkých60 modelov aj párované poradie640 TRAIN vzoriek.
+Nové seedové bloky majú veľké rozostupy,aby sa pri pravidle seed+epoch
+neprekrývali shuffle prúdy medzi tréningovými opakovaniami.
+Každý beh používa jednu H200,4 CPU,40 GiB RAM a najviac4 GPU-h.
+Dáta640 TRAIN/160 VAL/200 TEST a pôvodné normovanie zostávajú zhodné.
+
+Prípravné technické kontroly sú oddelené od hlavných modelov.
+Prvý CPU kontrolný odtlačok sa doplnil o netenzorové extra_state
+metadáta neuraloperatoru. Odosielanie GPU úloh dostalo správny
+pracovný priečinok. Žiadny hlavný model sa v týchto pokusoch netrénoval.
+Pred hlavným štartom prešli všetky tri krátke H200 kontroly na
+samostatných technických seedoch a všetkých160 VAL prípadoch.
+
+Plán a zdroje boli publikované pred hlavným spustením:
+647e10ae8040fc4fbf547feb535239582c45f331.
+Organizácia dávok pred štartom:
+3d88566d3b048b761ab56a8553bdfe77d2762e8c.
+
+Odoslanie jedného60-prvkového poľa plánovač odmietol pre MaxSubmitJobs.
+Aktuálna asociácia má limit50 odoslaných a20 bežiacich úloh.
+Celá sada je preto nastavená automaticky ako40+20 modelov:
+prvé pole173839 má indexy0–39 a najviac20 GPU naraz;
+CPU úloha173840 s afterany:173839 automaticky odošle indexy40–59.
+Po druhej dávke sa automaticky odošle CPU kontrola všetkých60 tréningov,
+pokrytia640 TRAIN,160 VAL,alokácií a SHA najlepších checkpointov.
+Nevykoná sa tichá náhrada nepresných modelov alebo neobmedzené requeue.
+
+Hlavný tréningový strop je240 GPU-h;odhad učenia a rovnakého TESTu
+je243,42 GPU-h a plánovacia rezerva260 GPU-h. Čakanie vo fronte nie je
+GPU výpočet a súbeh nemení počet modelov ani limit na jeden beh.
+
+Konečný TEST,porovnanie presnosti/rýchlosti,štatistika a archivácia
+celých polí zostávajú krokmi po úspešnej kontrole všetkých60 tréningov.
+Pôvodný TEST bol známy pri plánovaní;nejde o nový slepý test geometrií.
+Sleduje sa opakovateľnosť nových tréningov na tom istom benchmarku.
+
+Žiadne objemné dáta sa neukladajú do PC. Aktuálny stav je v status.json
+a presné odoslanie v submission.json; tieto údaje sú časovým snapshotom.

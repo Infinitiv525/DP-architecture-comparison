@@ -1,9 +1,20 @@
 {
-  "status": "PLAN_AND_CPU_AUDIT_COMPLETE_MAIN_NOT_YET_SUBMITTED",
-  "recorded_at": "2026-11-24T01:02:29.514662+01:00",
+  "status": "CONFIRMATION60_WORKFLOW_SUBMITTED_AND_FIRST_WAVE_RUNNING",
+  "recorded_unix": 1795541566.1022105,
   "main_models": 60,
   "per_method": 20,
-  "active_source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_20261124_v2",
-  "active_run": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2",
-  "main_submitted": false
+  "first_array": "173839",
+  "first_array_models": 40,
+  "first_array_state_counts": {
+    "PENDING": 25,
+    "RUNNING": 15
+  },
+  "second_array_models": 20,
+  "automatic_release_job": "173840",
+  "second_array_submission": "automatic after completion of first40; no further user action",
+  "started_models_observed": 15,
+  "errors_found": [],
+  "main_training_GPU_hours_hard_limit": 240,
+  "planning_GPU_hours": 260,
+  "recorded_at": "2026-11-24T18:34:51.762214+01:00"
 }
