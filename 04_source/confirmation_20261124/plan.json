@@ -1,0 +1,97 @@
+{
+  "name": "architecture_confirmation_20261124_v2",
+  "date": "2026-11-24",
+  "methods": [
+    "tfno",
+    "fno",
+    "realnpu"
+  ],
+  "main_seeds": [
+    24112001,
+    124112001,
+    224112001,
+    324112001,
+    424112001,
+    524112001,
+    624112001,
+    724112001,
+    824112001,
+    924112001,
+    1024112001,
+    1124112001,
+    1224112001,
+    1324112001,
+    1424112001,
+    1524112001,
+    1624112001,
+    1724112001,
+    1824112001,
+    1924112001
+  ],
+  "technical_preflight_seeds": [
+    2411391,
+    2411392,
+    2411393
+  ],
+  "configuration_indices": {
+    "tfno": 0,
+    "fno": 1,
+    "realnpu": 0
+  },
+  "training_seconds": 14400,
+  "main_models": 60,
+  "maximum_simultaneous_GPUs": 24,
+  "CPUs_per_task": 4,
+  "host_RAM_GiB": 40,
+  "training_GPU": "NVIDIA H200",
+  "split": {
+    "train": 640,
+    "validation": 160,
+    "test": 200
+  },
+  "training_selection": "Best full VAL checkpoint using original frozen loss; all seeds retained",
+  "warm_start": false,
+  "new_hyperparameter_tuning": false,
+  "existing_pilot_models_in_primary_analysis": false,
+  "primary_metrics": [
+    "all_cell_mse",
+    "fluid_velocity_relative_l2",
+    "fluid_pressure_relative_l2"
+  ],
+  "primary_contrasts": [
+    [
+      "tfno",
+      "fno"
+    ],
+    [
+      "tfno",
+      "realnpu"
+    ],
+    [
+      "fno",
+      "realnpu"
+    ]
+  ],
+  "primary_family_size": 9,
+  "primary_inference": "Two-sided paired Student t on20 per-seed whole-TEST model means; Holm family alpha.05; Bonferroni simultaneous t intervals",
+  "conditional_on_fixed_TEST_benchmark": true,
+  "test_previously_known": true,
+  "additional_sensitivity": [
+    "Exact symmetric sign-flip enumeration20blocks",
+    "Exact binomial sign test for median direction, separately labelled",
+    "Crossed seed/geometry bootstrap for existing85geometry clusters, approximate"
+  ],
+  "power_target": 0.9,
+  "power_relative_effect_symmetric": 0.1,
+  "expected_training_GPU_hours": 235.0522222222222,
+  "maximum_training_GPU_hours": 240,
+  "overall_planning_budget_GPU_hours": 260,
+  "failure_policy": "No silent requeue, no replacement based on accuracy; preserve each failed attempt and allocation cost",
+  "user_authorization": "2026-11-24: Spusti tych60novych treningov preTFNO,denseFNO aRealNPU,po20pre kazdu siet.",
+  "parents": {
+    "primary": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budget_main_20261111_v1/revisions/r_3e11271df45aff09",
+    "dense": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_dense_fno_20261112_v1/revisions/r_c93033883d5f56d4"
+  },
+  "main_seed_stride": 100000000,
+  "seed_stream_separation_reason": "Original worker shuffles with seed+epoch; widely separated seed blocks prevent cross-run epoch-seed reuse."
+}

@@ -1,0 +1,97 @@
+SAMOSTATNÝ DODATOK: TFNO, DENSE FNO, REALNPU — 24. 11. 2026
+
+Rozsah schválený používateľom: 20 NOVÝCH tréningov každej z troch
+sietí, spolu 60. Pôvodných päť tréningov každej metódy sa nepripočíta
+do primárnej analýzy nového dodatku. Slúžili na výber tohto cieleného
+porovnania a na plánovanie sily. Pôvodná deväťrodinová štúdia ostáva
+samostatná. Nejde o nový experiment so všetkými desiatimi rodinami.
+
+Konfigurácie sa preberajú bez nového ladenia:
+TFNO: configuration_index=0, počiatočné LR=.001, ridge=1e-8.
+RealNPU: configuration_index=0, počiatočné LR=.001, ridge=1e-8.
+Dense FNO: configuration_index=1, počiatočné LR=.0003, ridge=1e-6.
+Ridge je zachované pole pôvodného gradientového workeru; nepredstiera
+sa tým nový regularizačný člen, ktorý pôvodný kód nepoužíval.
+Modely, spoločný adaptér, tréningová loss, optimalizátor, cosine LR,
+gradient clipping, 300s prevádzková rezerva a intervaly validácie
+sú pôvodné. Originálne worker.py, budget.py a modelové implementácie
+sa kopírujú byte za bytom; mení sa manifest úloh a prevádzkové metadáta.
+Zachovajú sa pôvodné počty parametrov vrátane väčšieho dense FNO.
+Rovnaký je rozpočet, nie vynútený počet parametrov alebo epoch.
+
+Spoločné podmienky:
+1 H200, 4 CPU, 40 GiB RAM, FP32, matmul aj cuDNN TF32 vypnuté.
+Maximálne 4 GPU-h a 16 CPU core-h na tréning vrátane štartu,
+načítania dát, validácie a zápisu checkpointov.
+640 TRAIN / 160 VAL / 200 TEST, pôvodný nemenný split, TRAIN normalizácia
+a úplné natívne polia 512x512 u/v/p. Nové CFD sa negeneruje.
+Všetkých 640 TRAIN prípadov sa opakovane prechádza; nevyberá sa podmnožina.
+Žiadny warm-start z best.pt starých modelov a žiadne nové HPO.
+Najlepší kompletný VAL checkpoint sa vyberie v každom behu.
+Nesprávna presnosť nie je dôvod na vynechanie alebo náhradu seedu.
+
+Nové párované seedové bloky: 24112001 + 100000000 × b, b=0 až19. Každý seed má všetky
+tri architektúry. Poradie úloh sa prekladá po seedoch: TFNO/FNO/RealNPU.
+Najviac 24 GPU naraz, podľa už schváleného súbehu; scheduler môže
+spustiť menej podľa dostupnosti. Súbeh nezvyšuje počet tréningov
+ani nemení rozpočet na model. Hlavný tvrdý strop je 240 GPU-h.
+Odhad učenia a rovnakého TESTu bol243,42 GPU-h; plánovacia rezerva260.
+Technické kontroly sa účtujú osobitne v rámci rezervy.
+Žiadne automatické neobmedzené requeue ani opakovanie zlyhaní.
+
+Pred hlavným spustením:
+CPU kontrola SHA pôvodných a kopírovaných zdrojov, dátového manifestu,
+konfigurácií a všetkých63 smerovacích záznamov (60 hlavných+3 technické).
+CPU porovná iniciálne tenzory pôvodného a skopírovaného modelu
+pre všetkých20 nových seedov a overí rovnaké poradie640 TRAIN vzoriek.
+Tri krátke H200 kontroly používajú samostatné seedy2411391–2411393,
+maximálne minútu na sieť; ich váhy ani skóre nevstupujú do hlavnej analýzy.
+Brána požaduje úspešný návrat, správny model/seed/config, H200,
+finitné VAL metriky, checkpoint a záznam alokácie.
+Nie je stanovený prah kvality a podľa skóre sa nič neladí.
+
+Po hlavnom tréningu:
+Overiť všetkých60 kompletných behov, exit code, spotrebu, checkpoint SHA,
+návštevy všetkých640 TRAIN prípadov a úplné160 VAL hodnotenie.
+Až potom zmraziť60 checkpointov pre rovnaký200-prípadový TEST.
+Pôvodné kritériá5ms a rozsah synchronizovaného merania sa zachovajú.
+Zachovať všetky celé predikčné polia, per-case metriky a surové časovania.
+Konečné hodnotenie a archivácia zostávajú ďalšími krokmi po tréningoch.
+
+Primárne štatistické porovnanie nového dodatku:
+Tri dvojice (TFNO–FNO, TFNO–RealNPU, FNO–RealNPU) krát tri metriky:
+all-cell MSE, fluidná relatívna L2 rýchlosti a tlaku, spolu9 kontrastov.
+Jednotka replikácie je tréningový seed. Každý model najprv spriemeruje
+všetkých200 pevných TEST prípadov rovnakou váhou. Primárny odhad
+priemeruje všetkých20 tréningov, nevyberá najlepší seed.
+Obojstranný párový Student t-test na20 rozdieloch modelových priemerov,
+Holm korekcia rodiny9 pri alpha=.05, aj Bonferroni t-intervaly
+s nominálnym rodinným pokrytím95%. Normálne rozdelenie rozdielov
+je predpoklad, nie zistenie z päťbehového pilota. Zverejnia sa všetky
+individuálne hodnoty a kontrola tvaru rozdelenia; test sa nevyberie
+dodatočne podľa priaznivejšieho p.
+Plánovaná sila90% pre približne10% rozdiel sa vzťahuje na predpoklady
+a symetrickú definíciu efektu v power_analysis_20261124.
+Nejde o záruku významnosti alebo obhajoby.
+
+Samostatné kontroly citlivosti:
+Presné znamienkové vymenovanie2^20 pri symetrickej nulovej hypotéze;
+exaktný binomický sign test pre smer mediánu (iný estimand);
+krížený bootstrap seedov a85 geometrických skupín ako približná
+diagnostika neistoty pri prenose medzi týmito geometriami.
+Primárna otázka je opakovateľnosť na existujúcom pevnom benchmarku.
+Nové tréningy nepridávajú geometrie a nezaručujú generalizáciu na nové.
+TEST už bol známy pri výbere tohto dodatku. Nové sú tréningové seedy;
+dodatok sa nevydáva za predregistráciu pôvodnej štúdie ani úplne slepý TEST.
+
+Zdrojový plán a metodika sa publikujú pred hlavnými tréningmi.
+Nové súbory vznikajú iba na Perune; výsledky a siete sa následne
+archivujú priamo na GitHub bez uloženia objemných dát v PC.
+Pôvodné dáta, váhy, výsledky ani dokumentacia.txt sa nemenia.
+
+UPRESNENIE SEEDOV PRED HLAVNÝM UČENÍM:
+Pôvodný nemenný worker používa pre epochu RNG seed+epoch. Nové
+tréningové seedy sú preto od seba vzdialené100miliónov, aby sa
+medzi nezávislými behmi neprekrývali epochové shuffle seedy.
+Predchádzajúca príprava v1 mala iba technické kontroly; žiadny
+hlavný tréning nebol spustený. Je zachovaná ako prevádzková história.

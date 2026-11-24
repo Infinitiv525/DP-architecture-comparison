@@ -1,0 +1,1576 @@
+{
+  "status": "CPU_REFERENCE_PARITY_AND_SETUP_PASS",
+  "source_integrity_sha256": "cef64c63c2da666efeab70f9461b0b48008952935676ca97f5f35405fe09e1dd",
+  "main_models": 60,
+  "models_per_method": 20,
+  "technical_preflights": 3,
+  "matching_original_initializations": 60,
+  "paired_sample_orders_match": true,
+  "original_scientific_code_copied_byte_for_byte": true,
+  "training_targets_not_loaded_by_probe": true,
+  "no_GPU_used": true,
+  "test_targets_read": false,
+  "elapsed_seconds": 27.427068281918764,
+  "fixture_proofs": [
+    {
+      "kind": "primary",
+      "ready_sha256": "d996ae3334f9bc8165b4ac1a5620ced22b81c440a5f7d7dc8762b78efdaa9d0a",
+      "fixture": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_fair_pilot_20261111_v2/pilot_0bc20031d1e9f75f/fixture",
+      "normalization": {
+        "target_mean": [
+          0.001105676085176367,
+          -0.0008026961615262943,
+          2.487567464712493e-11
+        ],
+        "target_std": [
+          0.19154282465036498,
+          0.1350667922297031,
+          0.2857597197454343
+        ],
+        "target_fluid_points": 148754654,
+        "geometry_mean": [
+          0.886646831035614,
+          0.36494894616530166
+        ],
+        "geometry_std": [
+          0.31075343595726984,
+          0.2738975038115574
+        ],
+        "source": "TRAIN only; pressuregauge fluid mean per sample; no TESTtargets"
+      }
+    },
+    {
+      "kind": "dense",
+      "ready_sha256": "d996ae3334f9bc8165b4ac1a5620ced22b81c440a5f7d7dc8762b78efdaa9d0a",
+      "fixture": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_fair_pilot_20261111_v2/pilot_0bc20031d1e9f75f/fixture",
+      "normalization": {
+        "target_mean": [
+          0.001105676085176367,
+          -0.0008026961615262943,
+          2.487567464712493e-11
+        ],
+        "target_std": [
+          0.19154282465036498,
+          0.1350667922297031,
+          0.2857597197454343
+        ],
+        "target_fluid_points": 148754654,
+        "geometry_mean": [
+          0.886646831035614,
+          0.36494894616530166
+        ],
+        "geometry_std": [
+          0.31075343595726984,
+          0.2738975038115574
+        ],
+        "source": "TRAIN only; pressuregauge fluid mean per sample; no TESTtargets"
+      }
+    }
+  ],
+  "initialization_proofs": [
+    {
+      "method": "tfno",
+      "records": [
+        {
+          "seed": 24112001,
+          "state_sha256": "79a0cec5675ab36bac4a99ebe634367dbd578c6b07edb9637b4f2f6eda2e3125",
+          "first_epoch_order_sha256": "c55bd5eac877f631cfde64d59d8a49a922f97bd1136327975cc199ff12828049",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 124112001,
+          "state_sha256": "dee9e774f8d27ecee089fb93b0bfe0e48d35d39d909533cb548ebba1db308daf",
+          "first_epoch_order_sha256": "e17c5c619ccd668e96d8604d09a46ddca8d59a46d6ef826242941d5265f40132",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 224112001,
+          "state_sha256": "542fe8ccf5e44c62fded4d9414885cf76f0eb8d1cdb4d30a10c3435d31e5861b",
+          "first_epoch_order_sha256": "51d8975ade1931b32838bf99e22ad7d41473139f4dc065553394e055d8efa555",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 324112001,
+          "state_sha256": "1e81098bd450048ebc98b92f0ea473e8d94d4e96d04d2c022ffe1531bc422a0c",
+          "first_epoch_order_sha256": "a2f4ceb3174a0cdde6d42fbaba2db641c9e4b3ac32a733c6aa3f2a1abd307566",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 424112001,
+          "state_sha256": "b2b1307867c9019ddfb938215abbddb2f520b7b108a6a1d5f99f4ffbdb476a8b",
+          "first_epoch_order_sha256": "71b9459f31f6aefa0569e0dd8e49bfa98a379fde04e775175353ab7408b6a105",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 524112001,
+          "state_sha256": "b24f44134055390aa3211ba10b64f7f0a7ba1729413548b68ac8f177df6f9045",
+          "first_epoch_order_sha256": "fec354db362908a6aea9c7aa79e82cb0acdfcbc026986eada022089416a12cea",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 624112001,
+          "state_sha256": "53e5372d10f8ef4cb95a2ec75850e719849fdc0835343fc6f0cce54037787626",
+          "first_epoch_order_sha256": "39a901032dcd9b467f6cfe0d6c71ed3ed2142029aee1ec571c17a097bbc01548",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 724112001,
+          "state_sha256": "70d2e4487d6093877648ef96956c88250b5393a5b2a9e99e9de3258ebe1b8341",
+          "first_epoch_order_sha256": "8acefe8243f887c9aaaa474f059b16a20aa53f02d79685ab5c3b445b45824607",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 824112001,
+          "state_sha256": "02ac5025bb462054e1863233d84f37131c584a16ae6daa23a3f682e884ac5f41",
+          "first_epoch_order_sha256": "62210b4b11477b4176933edaf48c05e802cd3d71e3ac22602788902353ab3457",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 924112001,
+          "state_sha256": "1e066c864b589dbb1cfa8c128128b6f0e2b2fe596594db816769f5953e6f0754",
+          "first_epoch_order_sha256": "970f759db273d4734f828fb157e50b80897c3d6db6a9572230df1caba424b40e",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1024112001,
+          "state_sha256": "f5b949472cb156d5ca0943b7a5b163473637e2820d95b726b62600091f701330",
+          "first_epoch_order_sha256": "9d589396cf7d4bc29071563f45746e7a177c30d843436cac152d73d3221ae9ec",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1124112001,
+          "state_sha256": "6bc1f19be3e68e142292b0fec8ab523698147fd7dbbe3304bc957da79f487f80",
+          "first_epoch_order_sha256": "0cb40574d47461ca5ebbdc58244a0c4e05c2cb84a71b9dc0eb96898fb7a003e6",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1224112001,
+          "state_sha256": "78ec3b5f998fdda78091f9170165e04c4268629c62abe20a274a597c0b4c9184",
+          "first_epoch_order_sha256": "df701ad180ca548b8658b8dcb3b03d9dca21b6d2b2022eee1d39f30feb744dc9",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1324112001,
+          "state_sha256": "05d4488deaa50a7e6a4c6659c9399a24582998eab4a7ce5de49dcb84e60e7206",
+          "first_epoch_order_sha256": "7328cd29b04cfe0f3eb6502b58e1831cdbe29feb8376ee6d8dd834646ccdeee9",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1424112001,
+          "state_sha256": "f152f2fd8df04c45d23c50f33b499db2e1831cb1bfc13757a8ae01198de9f1e4",
+          "first_epoch_order_sha256": "652438df4bf790a41e01aa5027094753b93884e859c8135bcf423f53c5dbcb6d",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1524112001,
+          "state_sha256": "203b5a68c5d69c193ce1f95356fe9dc82b9cf9938dbd9f689208fdface8ec489",
+          "first_epoch_order_sha256": "d4aa90638d3ce88e78bf91d325130a290813c2824bfab1327c5bca50234aea38",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1624112001,
+          "state_sha256": "78497132100b821912b87db9a015a79dc7339e7cf1f3c4ffbdb4f71f0799bf95",
+          "first_epoch_order_sha256": "4acbed777d706e658afe4ce8b7b523506091fa525a738ada92a6c6c3dfaf9049",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1724112001,
+          "state_sha256": "b11924a8c60fd38987e4a554bcd7fe2fe5b5678cb81d5461b6ee156c099805dd",
+          "first_epoch_order_sha256": "9676f9590e1a3462623218ccbff221dcc0bee1ba02163b3b1ad31053c931cfac",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1824112001,
+          "state_sha256": "a5ad07446523cbb052ea7df51e016ed9d88da5a673aab6e897afbe01f2e9d5fe",
+          "first_epoch_order_sha256": "ce53899a3f988d688610042edbe80c249bf5c69198bc6e16e7def10569bf19d7",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1924112001,
+          "state_sha256": "ba4c1ca04b6e7cfbc5ccb5a445d75dfea3dfc8ccd72114b8afa7c6c47fd22a9d",
+          "first_epoch_order_sha256": "9ea8e6dafbe41a263c901ace9e4e91f6a18f56a5f076de92d982d471ae6ccde3",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353318,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353328,
+            "total_core_coefficients_plus_normalization": 1353328,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5413272,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 48,
+            "degree": 3
+          }
+        }
+      ],
+      "torch": "2.12.0+cu130",
+      "numpy": "2.5.4",
+      "cuda_initialized": false
+    },
+    {
+      "method": "fno",
+      "records": [
+        {
+          "seed": 24112001,
+          "state_sha256": "344ac4398a036a43719008c0c7f9ccd76017e7de69ac2a334762d557e5aa1b52",
+          "first_epoch_order_sha256": "c55bd5eac877f631cfde64d59d8a49a922f97bd1136327975cc199ff12828049",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 124112001,
+          "state_sha256": "05eb0875177ffcfa9a67f8c285c8ccd80b3577434a4923a3805ccf05e5522c6f",
+          "first_epoch_order_sha256": "e17c5c619ccd668e96d8604d09a46ddca8d59a46d6ef826242941d5265f40132",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 224112001,
+          "state_sha256": "312a4bb1793bd997089259137c0e447bbcf952565f4d2106044ca265248fd2c9",
+          "first_epoch_order_sha256": "51d8975ade1931b32838bf99e22ad7d41473139f4dc065553394e055d8efa555",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 324112001,
+          "state_sha256": "9eabd2c65cf1bb3e7c40c142846120bcad411551efa496ea52d24287cd5fe802",
+          "first_epoch_order_sha256": "a2f4ceb3174a0cdde6d42fbaba2db641c9e4b3ac32a733c6aa3f2a1abd307566",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 424112001,
+          "state_sha256": "a11ac1e59752b3d5a31d8eba44d06e32e5c2e7f8b7f005372287dbb9f47a6b63",
+          "first_epoch_order_sha256": "71b9459f31f6aefa0569e0dd8e49bfa98a379fde04e775175353ab7408b6a105",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 524112001,
+          "state_sha256": "997baa6a10cfa1e1614c4fe545041abf4094836ee69a60406a9892316d0158d6",
+          "first_epoch_order_sha256": "fec354db362908a6aea9c7aa79e82cb0acdfcbc026986eada022089416a12cea",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 624112001,
+          "state_sha256": "53fb8073a7805e10f027ff57d27075c6bd45c57ba8ceafe0b295109f5bbb846c",
+          "first_epoch_order_sha256": "39a901032dcd9b467f6cfe0d6c71ed3ed2142029aee1ec571c17a097bbc01548",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 724112001,
+          "state_sha256": "fa63cc653415bd0455b0fa2bcba0e76d42da908123c5d59c4664c36f8151b5b0",
+          "first_epoch_order_sha256": "8acefe8243f887c9aaaa474f059b16a20aa53f02d79685ab5c3b445b45824607",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 824112001,
+          "state_sha256": "6c0dcd61657e25bb5794cec3991dc7a36902a6e00bc3ddf8ef6b77e99bee84fb",
+          "first_epoch_order_sha256": "62210b4b11477b4176933edaf48c05e802cd3d71e3ac22602788902353ab3457",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 924112001,
+          "state_sha256": "6fb7af5546d417c90e04eab634b813c8ee5f6c171ac35adc61073cf86d0af048",
+          "first_epoch_order_sha256": "970f759db273d4734f828fb157e50b80897c3d6db6a9572230df1caba424b40e",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 1024112001,
+          "state_sha256": "e8a0c421871059d123d38621ca37f042915473a74c7d4b31e4e40a7155097337",
+          "first_epoch_order_sha256": "9d589396cf7d4bc29071563f45746e7a177c30d843436cac152d73d3221ae9ec",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 1124112001,
+          "state_sha256": "3752075226ef33ba4d64cea9baaed8a7df50d040ab16d7a7daf36f271689d54c",
+          "first_epoch_order_sha256": "0cb40574d47461ca5ebbdc58244a0c4e05c2cb84a71b9dc0eb96898fb7a003e6",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 1224112001,
+          "state_sha256": "b7862b073b69f70da155b469124735bc3ce6d19963d16d5cc18e7538bbd3d25b",
+          "first_epoch_order_sha256": "df701ad180ca548b8658b8dcb3b03d9dca21b6d2b2022eee1d39f30feb744dc9",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 1324112001,
+          "state_sha256": "f7f477ae8c43e4ada37a9b06fb962dd9ca0be5f93ebd5336127308b73e401e89",
+          "first_epoch_order_sha256": "7328cd29b04cfe0f3eb6502b58e1831cdbe29feb8376ee6d8dd834646ccdeee9",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 1424112001,
+          "state_sha256": "b5be7cda8cd94a71627402d0e839f92e385855b1da956d09f17187425381ef8f",
+          "first_epoch_order_sha256": "652438df4bf790a41e01aa5027094753b93884e859c8135bcf423f53c5dbcb6d",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 1524112001,
+          "state_sha256": "7ae3cbe9d660526593f2dd10ba5dfc1422072d36e5fb69c37746e7ba8d9bb40c",
+          "first_epoch_order_sha256": "d4aa90638d3ce88e78bf91d325130a290813c2824bfab1327c5bca50234aea38",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 1624112001,
+          "state_sha256": "a074fc6cca6106494ed71743d5a80bddf23c5d985b4d4f6a294b6bde5589fa38",
+          "first_epoch_order_sha256": "4acbed777d706e658afe4ce8b7b523506091fa525a738ada92a6c6c3dfaf9049",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 1724112001,
+          "state_sha256": "1d2ca08712bb3fdb3f748518059cf9546110e560d517ba4682309d069fc4bb09",
+          "first_epoch_order_sha256": "9676f9590e1a3462623218ccbff221dcc0bee1ba02163b3b1ad31053c931cfac",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 1824112001,
+          "state_sha256": "3f7b20d2938f487695e6379358b2c127ed32a89ffb73175b60b5bd3a01ab1431",
+          "first_epoch_order_sha256": "ce53899a3f988d688610042edbe80c249bf5c69198bc6e16e7def10569bf19d7",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        },
+        {
+          "seed": 1924112001,
+          "state_sha256": "0f5fbc4f6f71c6aa83c9b7226c83087807f23adffc2d1406e68a581bb398edd6",
+          "first_epoch_order_sha256": "9ea8e6dafbe41a263c901ace9e4e91f6a18f56a5f076de92d982d471ae6ccde3",
+          "parameter_ledger": {
+            "trainable_real_scalars": 12672888,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 12672898,
+            "total_core_coefficients_plus_normalization": 12672898,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 50691552,
+            "accounting_only": true
+          },
+          "recipe": {
+            "n_modes": [
+              32,
+              32
+            ],
+            "n_layers": 5,
+            "hidden_channels": 48,
+            "in_channels": 665,
+            "out_channels": 192,
+            "projection_channel_ratio": 4,
+            "lifting_channel_ratio": 2,
+            "factorization": null,
+            "rank": 1.0,
+            "implementation": "factorized",
+            "positional_embedding": "grid",
+            "fno_block_precision": "full",
+            "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+          }
+        }
+      ],
+      "torch": "2.12.0+cu130",
+      "numpy": "2.5.4",
+      "cuda_initialized": false
+    },
+    {
+      "method": "realnpu",
+      "records": [
+        {
+          "seed": 24112001,
+          "state_sha256": "5af497086bed22917190c018b12a6a745c6863379454437637debbef8a49ca73",
+          "first_epoch_order_sha256": "c55bd5eac877f631cfde64d59d8a49a922f97bd1136327975cc199ff12828049",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 124112001,
+          "state_sha256": "7581254bb3261f9011f5e6503315351d6f5fab6f0418fe00baebd45025de020e",
+          "first_epoch_order_sha256": "e17c5c619ccd668e96d8604d09a46ddca8d59a46d6ef826242941d5265f40132",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 224112001,
+          "state_sha256": "0565b1fb857242571c43e55be47af5264b7cda883656d38d04793e58682a97ad",
+          "first_epoch_order_sha256": "51d8975ade1931b32838bf99e22ad7d41473139f4dc065553394e055d8efa555",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 324112001,
+          "state_sha256": "1c559e970985434571a6ef7dad3e4bfca4ca6d8029d8a1c54ca225ec9a31fc2f",
+          "first_epoch_order_sha256": "a2f4ceb3174a0cdde6d42fbaba2db641c9e4b3ac32a733c6aa3f2a1abd307566",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 424112001,
+          "state_sha256": "ef31b1f6c675fa5b1ef6fff9d8562ee23b9fe585d62b9e56ab26a67dab8fa719",
+          "first_epoch_order_sha256": "71b9459f31f6aefa0569e0dd8e49bfa98a379fde04e775175353ab7408b6a105",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 524112001,
+          "state_sha256": "e3ee9282f5b8684ea9c24db7771d1e37dc64ab16ef1835d645e1f6ee32d199f4",
+          "first_epoch_order_sha256": "fec354db362908a6aea9c7aa79e82cb0acdfcbc026986eada022089416a12cea",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 624112001,
+          "state_sha256": "aefd5a6901f0f1362dcb0dcbd139980de2773b6d4105bb9dc685e9aad7d1b4c0",
+          "first_epoch_order_sha256": "39a901032dcd9b467f6cfe0d6c71ed3ed2142029aee1ec571c17a097bbc01548",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 724112001,
+          "state_sha256": "422abd82524e32817589b611a862239e5571c8d13fbd1ad918f759ab4a5684a3",
+          "first_epoch_order_sha256": "8acefe8243f887c9aaaa474f059b16a20aa53f02d79685ab5c3b445b45824607",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 824112001,
+          "state_sha256": "188929b6eeb81bbf4cfd66d97992f72110ed5581b82895004c33dbac1a49ac21",
+          "first_epoch_order_sha256": "62210b4b11477b4176933edaf48c05e802cd3d71e3ac22602788902353ab3457",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 924112001,
+          "state_sha256": "44e9c13da0dafd87e76afc627a19a5d46f45fd8130e2429caf142421426b647d",
+          "first_epoch_order_sha256": "970f759db273d4734f828fb157e50b80897c3d6db6a9572230df1caba424b40e",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1024112001,
+          "state_sha256": "cbe80f222c970837f5a8d8662a99bdea913b8fefcafa1029407c2565d0ea401a",
+          "first_epoch_order_sha256": "9d589396cf7d4bc29071563f45746e7a177c30d843436cac152d73d3221ae9ec",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1124112001,
+          "state_sha256": "ccd6f89f8f6b78a9fc791f50d36c9dacc17756003bd94fba7870ea9401c80119",
+          "first_epoch_order_sha256": "0cb40574d47461ca5ebbdc58244a0c4e05c2cb84a71b9dc0eb96898fb7a003e6",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1224112001,
+          "state_sha256": "f107663cb56b8bcb25061b3a6e3aac4dc91d25e3f56305afe974c8759cf9e235",
+          "first_epoch_order_sha256": "df701ad180ca548b8658b8dcb3b03d9dca21b6d2b2022eee1d39f30feb744dc9",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1324112001,
+          "state_sha256": "d9300a9b37eb25622b29b5eecddabe07e1699209d35fb081c744c495cc0cec46",
+          "first_epoch_order_sha256": "7328cd29b04cfe0f3eb6502b58e1831cdbe29feb8376ee6d8dd834646ccdeee9",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1424112001,
+          "state_sha256": "8d34f74bba045426d5df4f8e7e43ddc027a4798a28fc5a6832381d815e7eb11e",
+          "first_epoch_order_sha256": "652438df4bf790a41e01aa5027094753b93884e859c8135bcf423f53c5dbcb6d",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1524112001,
+          "state_sha256": "c6206f567ef03337083f0a1d72dce73fad9d74af732630045d3eed792b3eff58",
+          "first_epoch_order_sha256": "d4aa90638d3ce88e78bf91d325130a290813c2824bfab1327c5bca50234aea38",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1624112001,
+          "state_sha256": "353157e95447178703de7818c7323785da03e47988774d4fd39f997d3e9ee04a",
+          "first_epoch_order_sha256": "4acbed777d706e658afe4ce8b7b523506091fa525a738ada92a6c6c3dfaf9049",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1724112001,
+          "state_sha256": "3e8feb21279169703fecbf938d59162c9e552aa2af3aa5087d8fef5d965c6048",
+          "first_epoch_order_sha256": "9676f9590e1a3462623218ccbff221dcc0bee1ba02163b3b1ad31053c931cfac",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1824112001,
+          "state_sha256": "621a05a88581f6e62eae0c786c0eaa7043d3d75b5312611f7fe8a4536b424a5f",
+          "first_epoch_order_sha256": "ce53899a3f988d688610042edbe80c249bf5c69198bc6e16e7def10569bf19d7",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        },
+        {
+          "seed": 1924112001,
+          "state_sha256": "bb28fef559051f7119da5f773df644f27f4726a9af5d4dbbefb3ac1e5adbeb35",
+          "first_epoch_order_sha256": "9ea8e6dafbe41a263c901ace9e4e91f6a18f56a5f076de92d982d471ae6ccde3",
+          "parameter_ledger": {
+            "trainable_real_scalars": 1353203,
+            "data_fitted_frozen_real_scalars": 10,
+            "data_selected_frozen_real_scalars": 0,
+            "data_independent_core_real_scalars": 0,
+            "learned_or_fitted_total": 1353213,
+            "total_core_coefficients_plus_normalization": 1353213,
+            "common_adapter_buffer_bytes": 2459688,
+            "core_tensor_bytes": 5412812,
+            "accounting_only": true
+          },
+          "recipe": {
+            "width": 1578,
+            "degree": 3
+          }
+        }
+      ],
+      "torch": "2.12.0+cu130",
+      "numpy": "2.5.4",
+      "cuda_initialized": false
+    }
+  ]
+}

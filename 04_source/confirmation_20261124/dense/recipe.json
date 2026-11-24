@@ -1,0 +1,18 @@
+{
+  "n_modes": [
+    32,
+    32
+  ],
+  "n_layers": 5,
+  "hidden_channels": 48,
+  "in_channels": 665,
+  "out_channels": 192,
+  "projection_channel_ratio": 4,
+  "lifting_channel_ratio": 2,
+  "factorization": null,
+  "rank": 1.0,
+  "implementation": "factorized",
+  "positional_embedding": "grid",
+  "fno_block_precision": "full",
+  "note": "Only spectral weight factorization differs from the completed TFNO backbone. implementation=factorized is the library contraction path; factorization=None creates dense tensors."
+}

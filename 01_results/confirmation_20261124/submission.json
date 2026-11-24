@@ -1,0 +1,12 @@
+{
+  "status": "THREE_AUXILIARY_GPU_PREFLIGHTS_SUBMITTED",
+  "jobs": {
+    "cpu_audit": "172529",
+    "gpu_preflight": "172530"
+  },
+  "source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_20261124_v2",
+  "run_root": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2",
+  "main_models": 60,
+  "main_submitted": false,
+  "prior_technical_preparation": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v1"
+}

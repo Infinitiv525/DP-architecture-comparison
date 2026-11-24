@@ -1,0 +1,56 @@
+[
+  {
+    "parent": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budget_main_20261111_v1/revisions/r_3e11271df45aff09/worker.py",
+    "copy": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_20261124_v2/primary/worker.py",
+    "sha256": "fe19e1905943336477cc587af00779e944810fb65a07aa9934473c1eaf567997",
+    "unchanged": true
+  },
+  {
+    "parent": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budget_main_20261111_v1/revisions/r_3e11271df45aff09/budget.py",
+    "copy": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_20261124_v2/primary/budget.py",
+    "sha256": "5d0df9af10882783d2cad13a402e25aea0a6ba21200ddc5b689d4526ff7fd2d2",
+    "unchanged": true
+  },
+  {
+    "parent": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budget_main_20261111_v1/revisions/r_3e11271df45aff09/record_allocation.py",
+    "copy": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_20261124_v2/primary/record_allocation.py",
+    "sha256": "4c36e6a9d6193e10ae6044061bb4f17e08f372ea744b5fefec45ee840696ea3a",
+    "unchanged": true
+  },
+  {
+    "parent": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_dense_fno_20261112_v1/revisions/r_c93033883d5f56d4/worker.py",
+    "copy": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_20261124_v2/dense/worker.py",
+    "sha256": "87fc83cc29ab6ea30b8cebb999f20e68f82f99bf22f60907b7bf2dc6be817d04",
+    "unchanged": true
+  },
+  {
+    "parent": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_dense_fno_20261112_v1/revisions/r_c93033883d5f56d4/budget.py",
+    "copy": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_20261124_v2/dense/budget.py",
+    "sha256": "5d0df9af10882783d2cad13a402e25aea0a6ba21200ddc5b689d4526ff7fd2d2",
+    "unchanged": true
+  },
+  {
+    "parent": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_dense_fno_20261112_v1/revisions/r_c93033883d5f56d4/record_allocation.py",
+    "copy": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_20261124_v2/dense/record_allocation.py",
+    "sha256": "4c36e6a9d6193e10ae6044061bb4f17e08f372ea744b5fefec45ee840696ea3a",
+    "unchanged": true
+  },
+  {
+    "parent": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_dense_fno_20261112_v1/revisions/r_c93033883d5f56d4/runtime.py",
+    "copy": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_20261124_v2/dense/runtime.py",
+    "sha256": "6b3007197a16ef01a98e75ee65f0d20158310759d4462fb916c3e907fe7a5417",
+    "unchanged": true
+  },
+  {
+    "parent": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_dense_fno_20261112_v1/revisions/r_c93033883d5f56d4/models_fno.py",
+    "copy": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_20261124_v2/dense/models_fno.py",
+    "sha256": "9fd9826678b690cab9e30f7b6654371d1da250b91b56d4e37ea77cc34dcc8e16",
+    "unchanged": true
+  },
+  {
+    "parent": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_dense_fno_20261112_v1/revisions/r_c93033883d5f56d4/recipe.json",
+    "copy": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_20261124_v2/dense/recipe.json",
+    "sha256": "d3d120d83ee02aa1a954ee2c5557b067ee5ed8f42a2382065681e9e7f10dee79",
+    "unchanged": true
+  }
+]

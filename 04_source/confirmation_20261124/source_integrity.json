@@ -1,0 +1,31 @@
+{
+  "status": "SOURCE_FROZEN_BEFORE_TRAINING",
+  "files": {
+    "protokol.txt": "2401e5a6761a48d5623f7b49ec23accd0bcb6d24e679d052e4e1cd78c01eb8cc",
+    "launch.py": "99f23c2e85daa7a699ac1ef69bbe7725f7604aacc4e7c4ae7d7368122db8075c",
+    "run.sbatch": "4fad949f64f0d5c92f70b96307ae4135e67c83e5cf778ae6238fc2798f1d41fa",
+    "probe_initialization.py": "6b295b4b807873edf48a3029f69cb5e081bdc5c77e65586736f55611bc0438ef",
+    "cpu_audit.py": "26d86e7e1d4cf1f2fec428969c0a508607d873502adb8f02310da583047ffb28",
+    "cpu_audit.sbatch": "bff939cdbfe1042419d89aed56a73b326464718c8d786396d4654f8c0c557a3a",
+    "submit_main.py": "7557838e947679caf737ce83e9c3fbfb46466cbcac321c193b41ce5365b773d4",
+    "completion_audit.py": "c1a9875ca07652eab206450e75af40a228e52c5ee38b6303ed748f9fcb435415",
+    "completion_audit.sbatch": "4fa6d24e7e01d9e18a7151ea70393ca07bfcbc88f5e1dbf5334cc9662994568f",
+    "plan.json": "9eed71dd306dd1eeead27eac17fc5fbf596ed09267b2fbc0292b04b3aad506b5",
+    "selection.json": "919f53c9ddb942581079550a4fd720d09f47ac5c66a0ccf4a3ab73865b58f694",
+    "copy_provenance.json": "8404b573fee58586ed5f171385b8469f43dc1cc18ef48e2518f70ab2eeb60b78",
+    "primary/worker.py": "fe19e1905943336477cc587af00779e944810fb65a07aa9934473c1eaf567997",
+    "primary/budget.py": "5d0df9af10882783d2cad13a402e25aea0a6ba21200ddc5b689d4526ff7fd2d2",
+    "primary/record_allocation.py": "4c36e6a9d6193e10ae6044061bb4f17e08f372ea744b5fefec45ee840696ea3a",
+    "primary/policy.json": "20b4eec0bc9478db4ff79fef8b34bb7ab7caad3f0fe4ae5ce3bf842217ca8bbf",
+    "primary/selection.json": "919f53c9ddb942581079550a4fd720d09f47ac5c66a0ccf4a3ab73865b58f694",
+    "dense/worker.py": "87fc83cc29ab6ea30b8cebb999f20e68f82f99bf22f60907b7bf2dc6be817d04",
+    "dense/budget.py": "5d0df9af10882783d2cad13a402e25aea0a6ba21200ddc5b689d4526ff7fd2d2",
+    "dense/record_allocation.py": "4c36e6a9d6193e10ae6044061bb4f17e08f372ea744b5fefec45ee840696ea3a",
+    "dense/runtime.py": "6b3007197a16ef01a98e75ee65f0d20158310759d4462fb916c3e907fe7a5417",
+    "dense/models_fno.py": "9fd9826678b690cab9e30f7b6654371d1da250b91b56d4e37ea77cc34dcc8e16",
+    "dense/recipe.json": "d3d120d83ee02aa1a954ee2c5557b067ee5ed8f42a2382065681e9e7f10dee79",
+    "dense/policy.json": "ae3bcc1a1724932729a619da45918f8e5ae4533fe8b36f299d37befc6564b307",
+    "dense/selection.json": "919f53c9ddb942581079550a4fd720d09f47ac5c66a0ccf4a3ab73865b58f694"
+  },
+  "seed_streams_disjoint_by_design": true
+}
