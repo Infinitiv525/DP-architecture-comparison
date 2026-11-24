@@ -1,0 +1,22 @@
+{
+  "status": "AUTOMATIC40_PLUS20_TRAINING_PLAN",
+  "waves": [
+    [
+      0,
+      39
+    ],
+    [
+      40,
+      59
+    ]
+  ],
+  "maximum_concurrent_model_jobs": 20,
+  "association_MaxJobs": 20,
+  "association_MaxSubmitJobs": 50,
+  "unchanged_main_models": 60,
+  "training_source_integrity_sha256": "cef64c63c2da666efeab70f9461b0b48008952935676ca97f5f35405fe09e1dd",
+  "files": {
+    "submit_waves.py": "4fb86b4dfa12f4cdfcf87580f1516aabf61e1854729f6e533edc748020189379",
+    "release_wave2.sbatch": "89ab34f73b74ce0b8d960343b48c40d27dd91b03fbcb86387ec08fc90f061252"
+  }
+}

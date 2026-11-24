@@ -16,3 +16,7 @@ Primárna rodina má 9 porovnaní:3 dvojice × MSE/L2 rýchlosti/L2 tlaku. Prim�
 Hlavný tréningový strop 240 GPU-h; odhad učenia a TEST 243,42 GPU-h, plánovacia rezerva 260 GPU-h. Celé polia a váhy zostávajú na Perune do priamej archivácie naGitHub. Predbežná príprava v1 mala iba technické kontroly, žiadne hlavné tréningy; aktívny je priečinok v2.
 
 Samostatný auxiliary operational_integrity.json bol prevzatý zo staršej prípravy. Aktuálne celé SHA zdrojov určuje source_integrity.json; CPU brána odkazuje na jeho presný SHA.
+
+## Organizácia odoslania pred hlavným štartom
+
+Plánovač má limit50 odoslaných a20 bežiacich úloh. Všetkých60 tréningov vykonajú automatické dávky40+20. Prvých40 bude v plánovači, CPU úloha po ich ukončení odošle zostávajúcich20 a následný audit. Maximálny súbeh je20 GPU. Matematika, konfigurácie, seedy a4h rozpočet na model sa nemenia.

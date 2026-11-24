@@ -1,0 +1,27 @@
+{
+  "status": "THREE_AUXILIARY_H200_PREFLIGHTS_PASS",
+  "models": [
+    {
+      "id": "tfno_s2411391_technical",
+      "seed": 2411391,
+      "model": "tfno",
+      "initial_check_sha256": "b272974393f93bd9ddbb2c38635f56c42b2fb552eb440657abf6e924f3a09b67"
+    },
+    {
+      "id": "fno_s2411392_technical",
+      "seed": 2411392,
+      "model": "fno",
+      "initial_check_sha256": "34941a5049a934c1529040c9c47e9402e8f25b467bf6aeef257b819431de582a"
+    },
+    {
+      "id": "realnpu_s2411393_technical",
+      "seed": 2411393,
+      "model": "realnpu",
+      "initial_check_sha256": "b64abc15ecbc4122dfd3cbb742b07fac7fe6a028493de1ff9f81910190247914"
+    }
+  ],
+  "source_integrity_sha256": "cef64c63c2da666efeab70f9461b0b48008952935676ca97f5f35405fe09e1dd",
+  "accuracy_threshold": null,
+  "technical_seeds_excluded_from_main": true,
+  "test_targets_read": false
+}

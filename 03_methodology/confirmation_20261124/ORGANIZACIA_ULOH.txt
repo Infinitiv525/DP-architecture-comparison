@@ -1,0 +1,11 @@
+DOPLNOK ORGANIZÁCIE ÚLOH PRED HLAVNÝM UČENÍM —24.11.2026
+
+Scontrol association cache potvrdil MaxSubmitJobs=50 a MaxJobs=20.
+Jedno60-prvkové pole nebolo prijaté; nespustilo žiadny model.
+Pôvodný60-modelový plán sa preto vykoná v poliach0–39 a40–59.
+Najviac20modelových úloh naraz. CPU úloha s dependency afterany
+prvého poľa automaticky odošle druhé; po ňom nasleduje CPU audit60.
+Matematický kód, modely,60seedových úloh,640TRAIN,160VAL aj4h limit
+na jeden model zostávajú presne zhodné. Celá sada je autorizovaná
+a naplánovaná teraz, hoci posledných20úloh sa do Slurmu odošle neskôr.
+Nejde o dodatočné rozhodovanie podľa presnosti ani nový experiment.
