@@ -1,0 +1,716 @@
+{
+  "training": {
+    "records": [
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_0.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9191666666666665,
+        "allocated_CPU_core_h": 15.676666666666666,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_1.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9191666666666665,
+        "allocated_CPU_core_h": 15.676666666666666,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_10.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.917222222222222,
+        "allocated_CPU_core_h": 15.668888888888889,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_11.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.917222222222222,
+        "allocated_CPU_core_h": 15.668888888888889,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_12.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.917222222222222,
+        "allocated_CPU_core_h": 15.668888888888889,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_13.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_14.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.918888888888889,
+        "allocated_CPU_core_h": 15.675555555555556,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_15.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_16.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.917222222222222,
+        "allocated_CPU_core_h": 15.668888888888889,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_17.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9169444444444443,
+        "allocated_CPU_core_h": 15.667777777777777,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_18.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_19.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_2.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_20.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.917222222222222,
+        "allocated_CPU_core_h": 15.668888888888889,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_21.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.917222222222222,
+        "allocated_CPU_core_h": 15.668888888888889,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_22.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_23.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.917222222222222,
+        "allocated_CPU_core_h": 15.668888888888889,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_24.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.917222222222222,
+        "allocated_CPU_core_h": 15.668888888888889,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_25.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_26.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9169444444444443,
+        "allocated_CPU_core_h": 15.667777777777777,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_27.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.917777777777778,
+        "allocated_CPU_core_h": 15.671111111111111,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_28.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.917777777777778,
+        "allocated_CPU_core_h": 15.671111111111111,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_29.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9166666666666665,
+        "allocated_CPU_core_h": 15.666666666666666,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_3.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_30.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.918888888888889,
+        "allocated_CPU_core_h": 15.675555555555556,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_31.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9186111111111113,
+        "allocated_CPU_core_h": 15.674444444444445,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_32.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9186111111111113,
+        "allocated_CPU_core_h": 15.674444444444445,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_33.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9186111111111113,
+        "allocated_CPU_core_h": 15.674444444444445,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_34.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.918888888888889,
+        "allocated_CPU_core_h": 15.675555555555556,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_35.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9202777777777778,
+        "allocated_CPU_core_h": 15.681111111111111,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_36.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9202777777777778,
+        "allocated_CPU_core_h": 15.681111111111111,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_37.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.92,
+        "allocated_CPU_core_h": 15.68,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_38.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.92,
+        "allocated_CPU_core_h": 15.68,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_39.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.92,
+        "allocated_CPU_core_h": 15.68,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_4.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_40.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_41.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_42.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_43.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_44.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_45.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_46.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9191666666666665,
+        "allocated_CPU_core_h": 15.676666666666666,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_47.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9191666666666665,
+        "allocated_CPU_core_h": 15.676666666666666,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_48.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9191666666666665,
+        "allocated_CPU_core_h": 15.676666666666666,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_49.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9191666666666665,
+        "allocated_CPU_core_h": 15.676666666666666,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_5.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_50.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9191666666666665,
+        "allocated_CPU_core_h": 15.676666666666666,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_51.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9191666666666665,
+        "allocated_CPU_core_h": 15.676666666666666,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_52.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9191666666666665,
+        "allocated_CPU_core_h": 15.676666666666666,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_53.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9191666666666665,
+        "allocated_CPU_core_h": 15.676666666666666,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_54.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9180555555555556,
+        "allocated_CPU_core_h": 15.672222222222222,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_55.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_56.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9169444444444443,
+        "allocated_CPU_core_h": 15.667777777777777,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_57.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_58.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_59.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9169444444444443,
+        "allocated_CPU_core_h": 15.667777777777777,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_6.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_7.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.9175,
+        "allocated_CPU_core_h": 15.67,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_8.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.917222222222222,
+        "allocated_CPU_core_h": 15.668888888888889,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/main_9.json",
+        "role": "main",
+        "exit_code": 0,
+        "allocated_GPU_h": 3.917222222222222,
+        "allocated_CPU_core_h": 15.668888888888889,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/preflight_60.json",
+        "role": "preflight",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.014722222222222222,
+        "allocated_CPU_core_h": 0.058888888888888886,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/preflight_61.json",
+        "role": "preflight",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.014722222222222222,
+        "allocated_CPU_core_h": 0.058888888888888886,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2/allocation_closeout/preflight_62.json",
+        "role": "preflight",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.014166666666666666,
+        "allocated_CPU_core_h": 0.056666666666666664,
+        "final_portal_billing": false
+      }
+    ],
+    "observed_closeout_GPU_h": 235.1261111111111,
+    "observed_closeout_CPU_core_h": 940.5044444444444
+  },
+  "test_v2": {
+    "records": [
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/audit_0.json",
+        "role": "audit",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.0,
+        "allocated_CPU_core_h": 0.8555555555555555,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/cpu_0.json",
+        "role": "cpu",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.0,
+        "allocated_CPU_core_h": 0.017777777777777778,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/gate_0.json",
+        "role": "gate",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.0,
+        "allocated_CPU_core_h": 0.0033333333333333335,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/preflight_0.json",
+        "role": "preflight",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.008888888888888889,
+        "allocated_CPU_core_h": 0.035555555555555556,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/preflight_1.json",
+        "role": "preflight",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.008888888888888889,
+        "allocated_CPU_core_h": 0.035555555555555556,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/preflight_2.json",
+        "role": "preflight",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.008611111111111111,
+        "allocated_CPU_core_h": 0.034444444444444444,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/preflight_3.json",
+        "role": "preflight",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.008611111111111111,
+        "allocated_CPU_core_h": 0.034444444444444444,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/test_0.json",
+        "role": "test",
+        "exit_code": 0,
+        "allocated_GPU_h": 1.1211111111111112,
+        "allocated_CPU_core_h": 4.484444444444445,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/test_1.json",
+        "role": "test",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.6833333333333333,
+        "allocated_CPU_core_h": 2.7333333333333334,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/test_10.json",
+        "role": "test",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.6938888888888889,
+        "allocated_CPU_core_h": 2.7755555555555556,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/test_11.json",
+        "role": "test",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.2797222222222222,
+        "allocated_CPU_core_h": 1.1188888888888888,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/test_2.json",
+        "role": "test",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.28444444444444444,
+        "allocated_CPU_core_h": 1.1377777777777778,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/test_3.json",
+        "role": "test",
+        "exit_code": 0,
+        "allocated_GPU_h": 1.105,
+        "allocated_CPU_core_h": 4.42,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/test_4.json",
+        "role": "test",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.6725,
+        "allocated_CPU_core_h": 2.69,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/test_5.json",
+        "role": "test",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.2752777777777778,
+        "allocated_CPU_core_h": 1.1011111111111112,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/test_6.json",
+        "role": "test",
+        "exit_code": 0,
+        "allocated_GPU_h": 1.0858333333333334,
+        "allocated_CPU_core_h": 4.343333333333334,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/test_7.json",
+        "role": "test",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.6758333333333333,
+        "allocated_CPU_core_h": 2.703333333333333,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/test_8.json",
+        "role": "test",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.27694444444444444,
+        "allocated_CPU_core_h": 1.1077777777777778,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2/allocation_closeout/test_9.json",
+        "role": "test",
+        "exit_code": 0,
+        "allocated_GPU_h": 1.1122222222222222,
+        "allocated_CPU_core_h": 4.448888888888889,
+        "final_portal_billing": false
+      }
+    ],
+    "observed_closeout_GPU_h": 8.301111111111112,
+    "observed_closeout_CPU_core_h": 34.08111111111111
+  },
+  "technical_test_v1": {
+    "records": [
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v1/allocation_closeout/cpu_0.json",
+        "role": "cpu",
+        "exit_code": 0,
+        "allocated_GPU_h": 0.0,
+        "allocated_CPU_core_h": 0.035555555555555556,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v1/allocation_closeout/preflight_0.json",
+        "role": "preflight",
+        "exit_code": 1,
+        "allocated_GPU_h": 0.0025,
+        "allocated_CPU_core_h": 0.01,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v1/allocation_closeout/preflight_1.json",
+        "role": "preflight",
+        "exit_code": 1,
+        "allocated_GPU_h": 0.0008333333333333334,
+        "allocated_CPU_core_h": 0.0033333333333333335,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v1/allocation_closeout/preflight_2.json",
+        "role": "preflight",
+        "exit_code": 1,
+        "allocated_GPU_h": 0.0019444444444444444,
+        "allocated_CPU_core_h": 0.0077777777777777776,
+        "final_portal_billing": false
+      },
+      {
+        "file": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v1/allocation_closeout/preflight_3.json",
+        "role": "preflight",
+        "exit_code": 1,
+        "allocated_GPU_h": 0.005,
+        "allocated_CPU_core_h": 0.02,
+        "final_portal_billing": false
+      }
+    ],
+    "observed_closeout_GPU_h": 0.010277777777777778,
+    "observed_closeout_CPU_core_h": 0.07666666666666666
+  }
+}

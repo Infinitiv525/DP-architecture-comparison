@@ -1,0 +1,74 @@
+{
+  "analysis_inputs.npz": {
+    "bytes": 282506,
+    "sha256": "5ad64666854789997a796611ca26bf67c4d0c31745cfeb656e9c17475e7924ae"
+  },
+  "latency_by_model.json": {
+    "bytes": 27657,
+    "sha256": "85f1bb2b676a5779810dd9285e44a407215fd792506f6a384131073d9bfe14af"
+  },
+  "input_validation.json": {
+    "bytes": 275,
+    "sha256": "ec8f235bac457f9d943e6887ef5dacbb194d37e31dbe3fb7483d3f31aad59df4"
+  },
+  "resource_closeouts.json": {
+    "bytes": 29233,
+    "sha256": "5f91d5bd93f27dbf6fb784ac316f9b7271ee9c1ce177f94230c2a0e1a9da978f"
+  },
+  "paired_t_primary.json": {
+    "bytes": 28384,
+    "sha256": "bcbfca30f656d1d6fe961fe54e3c46bf7c00817ee0fc65dd1b2b07c91f285522"
+  },
+  "exact_sign_sensitivities.json": {
+    "bytes": 6672,
+    "sha256": "fefa941f14770b763b049f1769f359416eb1b804e52eec7fd48d5683cd64ca22"
+  },
+  "crossed_bootstrap_replicates.npz": {
+    "bytes": 27503205,
+    "sha256": "cab95affe8eb05804ea82c7f1291613422be9c35f6cb74752314461845c94d00"
+  },
+  "crossed_geometry_sensitivity.json": {
+    "bytes": 9110,
+    "sha256": "1171b35f3cfb9cb3d102279ccd6c8b7afe76ec5a324571f2af56809e61b71193"
+  },
+  "method_summary.json": {
+    "bytes": 2528,
+    "sha256": "c62f07826ea0032b34f6108df276b21bfe6350b95699f99f4ddad6577c152af6"
+  },
+  "primary_t_tests.csv": {
+    "bytes": 3409,
+    "sha256": "7f40a1d24ec323c07bf764fd67c2b517413dadd54d75027ed5d82ac4c2e757d4"
+  },
+  "per_seed_model_means.csv": {
+    "bytes": 5115,
+    "sha256": "cd0d4b5ff53af729fdf44a273d444d55ed4fee74e4bc2722888a5819fe14e01a"
+  },
+  "calculation_checks.json": {
+    "bytes": 552,
+    "sha256": "4714a028f07ebf349f8246010a9bad66353f76c9b44da96b1e6e60171054b363"
+  },
+  "input_manifest.json": {
+    "bytes": 30830,
+    "sha256": "9656717b1eb440b0dd2d2ec3ed032df689141333f73c2641e0e0936e54672fad"
+  },
+  "summary.json": {
+    "bytes": 1949,
+    "sha256": "1e3f6528e587590604862ceb66501e4ca22ec519a50f8abd54b8b400622cde97"
+  },
+  "independent_verification.json": {
+    "bytes": 667,
+    "sha256": "95432a0a7accfd93f2da052a7238e16fb8647066339b53560c21b18f31a7f5c8"
+  },
+  "VYSLEDKY.txt": {
+    "bytes": 8563,
+    "sha256": "aa94ef619543a1b969dc4831259b4a7b44951936fa5b616f9791bc6a1377dca9"
+  },
+  "README.md": {
+    "bytes": 1134,
+    "sha256": "d1b10d849a88fdd88e0f8ea7e8710c444312108e49920bffdeda3abfa062c827"
+  },
+  "completion_status.json": {
+    "bytes": 312,
+    "sha256": "1eaf98ba3f37fe03c8454a98230f46ec3a167eb95457cf32e8c8ae999e98aabb"
+  }
+}

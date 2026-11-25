@@ -1,0 +1,15 @@
+{
+  "status": "INDEPENDENT_INPUT_PRIMARY_EXACT_SIGN_AND_BOOTSTRAP_AUDIT_PASS",
+  "input_files_verified": 156,
+  "raw_case_rows_reproduced": 12000,
+  "per_model_metric_means_verified": 180,
+  "primary_t_contrasts_verified": 9,
+  "t_pvalue_route": "regularized incomplete beta; scalar statistics module",
+  "signflip_route": "Meet-in-the-middle1024x1024 sign sums with sorted tail counting, agrees with full2^20enumeration",
+  "sign_test_route": "Exact integer binomial sums",
+  "bootstrap_full_intervals_verified": 9,
+  "independently_replayed_bootstrap_replicates": 3,
+  "old_pilot_models_included": false,
+  "no_GPU": true,
+  "elapsed_seconds": 0.3220149059779942
+}

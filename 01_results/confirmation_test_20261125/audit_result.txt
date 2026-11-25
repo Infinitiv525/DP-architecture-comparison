@@ -1,0 +1,11 @@
+POTVRDZUJUCI TEST ARCHITEKTUR DOKONCENY
+
+60 novych modelov x200 TEST pripadov =12000 overenych poli.
+Po20 nezavislych treningov TFNO,denseFNO aRealNPU. Starych5pilotnych modelov nie je v tomto novom potvrdeni.
+Vsetky ulozene polia, casovania a fyzikalne diagnostiky boli skontrolovane.
+Merania su FP32,H200,bez TF32,vstupy uz naGPU; bez prenosu a vykreslovania.
+Toto je opisny report. Parove statisticke porovnanie20semien nasleduje samostatne.
+
+tfno MSE=1.24111542168e-05 uL2=0.00761460437 pL2=0.015735105 GPU5ms=20/20 host5ms=20/20
+fno MSE=1.56980873191e-05 uL2=0.00808456254 pL2=0.0166536048 GPU5ms=20/20 host5ms=20/20
+realnpu MSE=1.53952738976e-05 uL2=0.0171831814 pL2=0.0211279746 GPU5ms=20/20 host5ms=20/20

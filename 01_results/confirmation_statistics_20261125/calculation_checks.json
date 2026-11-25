@@ -1,0 +1,22 @@
+{
+  "normal_model_Monte_Carlo": [
+    {
+      "N": 20,
+      "normal_location_shift": 0.0,
+      "rejection": 0.00531,
+      "normal_model_probability": 0.005555555555555537
+    },
+    {
+      "N": 20,
+      "normal_location_shift": 0.8,
+      "rejection": 0.67295,
+      "normal_model_probability": 0.6705402136449031
+    }
+  ],
+  "sign_patterns": 1048576,
+  "signflip_p_minimum": 1.9073486328125e-06,
+  "primary_family_size": 9,
+  "confidence_critical_t": 3.1265952531662613,
+  "raw_case_means_verified": true,
+  "all_three_metrics_reported": true
+}

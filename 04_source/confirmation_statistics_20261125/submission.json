@@ -1,0 +1,10 @@
+{
+  "status": "CONFIRMATION_STATISTICS_CPU_JOB_SUBMITTED",
+  "job": "175539",
+  "source_sha256": "5705f95bb1d731aa2d0ffdae3c1cd8df5001a0c49233feedac2be2adac2752d1",
+  "primary_protocol_sha256": "2401e5a6761a48d5623f7b49ec23accd0bcb6d24e679d052e4e1cd78c01eb8cc",
+  "source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_statistics_20261125_v1",
+  "output": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_statistics_20261125_v1",
+  "no_GPU": true,
+  "no_new_training": true
+}

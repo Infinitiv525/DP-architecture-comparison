@@ -1,0 +1,10 @@
+{
+  "status": "ALL12000_ROWS_AND60_MODEL_MEANS_REPRODUCED",
+  "rows": 12000,
+  "models": 60,
+  "seeds_per_method": 20,
+  "case_count": 200,
+  "geometry_clusters": 85,
+  "maximum_difference_from_saved_CPU_audit": 1.3877787807814457e-17,
+  "old_pilot_models_included": false
+}

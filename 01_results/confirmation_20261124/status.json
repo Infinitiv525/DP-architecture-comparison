@@ -1,25 +1,12 @@
 {
-  "status": "TRAINING60_COMPLETE_ALL_GATES_PASS_FINAL_TEST_RELEASED",
-  "recorded_at": "2026-11-25T15:11:34.285474+01:00",
-  "complete_models": 60,
-  "per_method": {
-    "tfno": 20,
-    "fno": 20,
-    "realnpu": 20
-  },
-  "training_audit": "PASS",
-  "allocation_closeout_GPU_hours": 235.0825,
-  "final_portal_billing": false,
-  "all_seeds_retained": true,
-  "new_TEST_result_root": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2",
-  "TEST_jobs": {
-    "cpu_gate": "175446",
-    "preflight": "175447",
-    "validation_gate": "175448",
-    "test": "175449",
-    "saved_field_audit": "175450"
-  },
-  "TEST_complete": false,
-  "checkpoint_weights_frozen": true,
-  "TEST_released_at": "2026-11-25T15:14:45.535014+01:00"
+  "status": "ALL60_TRAINING_TEST_AUDIT_AND_STATISTICS_COMPLETE_ARCHIVE_IN_PROGRESS",
+  "recorded_at": "2026-11-25T18:24:37.673125+01:00",
+  "models": 60,
+  "independent_seeds_per_method": 20,
+  "native_fields_audited": 12000,
+  "primary_contrasts": 9,
+  "Holm_significant": 8,
+  "all60_GPU_p99_5ms_pass": true,
+  "no_new_training": true,
+  "full_public_archive_pending": true
 }

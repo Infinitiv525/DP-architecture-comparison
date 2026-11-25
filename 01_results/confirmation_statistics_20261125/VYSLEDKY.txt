@@ -1,0 +1,77 @@
+POTVRDZUJÚCE POROVNANIE TROCH ARCHITEKTÚR – 25.11.2026
+
+Výsledok: na tomto pevnom TEST benchmarku je TFNO presnejšie než denseFNO ajRealNPU vo všetkých troch metrikách. Výsledok platí pre naše konkrétne implementácie, konfigurácie a rovnaký pridelený tréningový rozpočet; nie je univerzálnym poradím všetkých možných sietí.
+Všetkých60nových tréningov a TESTov je dokončených. Nezávislý CPUaudit znova skontroloval12000celých polí a12000000dvojíc časovacích meraní. Následný nezávislý štatistický audit prešiel.
+
+ČO SA POROVNÁVALO
+TFNO20,denseFNO20,RealNPU20; vždy4H200GPU-h/model,640TRAIN/160VAL/200TEST,rovnaká celá geometria a rovnaký natívny výstup512×512u/v/p. Počet parametrov ostal odlišný podľa pôvodných implementácií. Nové konfigurácie sa neladili, výber checkpointov bol podľaVAL.
+Primárna jednotka je tréningové semeno: každý model najprv spriemeruje200pevných TEST prípadov. Používame20nových párovaných semien, nie4000nezávislých prípadov/metódu. Pôvodných5pilotných behov sa nepridáva.
+Pôvodné porovnanie všetkých architektúr s5behmi ostáva samostatné. Tento cielený dodatok overuje iba tieto3rodiny.
+
+PRIEMERNÉ VÝSLEDKY
+Metóda | MSE | relatívna L2 rýchlosti[%] | relatívna L2 tlaku[%] | najhoršie per-case GPU p99[ms] | modely spĺňajúce p99<=5ms
+TFNO | 1.24111542168e-05 | 0.761460 | 1.573510 | 4.609580 | 20/20
+dense FNO | 1.56980873191e-05 | 0.808456 | 1.665360 | 2.769779 | 20/20
+RealNPU | 1.53952738976e-05 | 1.718318 | 2.112797 | 1.113805 | 20/20
+
+PRIMÁRNE ŠTATISTICKÉ POROVNANIE
+Dvojstranný párový Studentt cez20semien,df19; Holm cez9vopred určených kontrastov,rodinná alpha0,05. Osem z9rozdielov je významných. Bonferroni t-intervaly s nominálnym95%rodinným pokrytím vylučujú nulu pri rovnakých8kontrastoch.
+A−B: záporné číslo znamená nižšiu chybuA. Percento je bodový relatívny rozdiel voči priemeruB. Interval je pre absolútny priemerný rozdiel, nie pre percentuálny pomer.
+Porovnanie | metrika | rozdielA−B | rozdiel vočiB[%] | Holm p | Bonferroni rodinný95% interval | páry s nižšou chybouA/B
+TFNO–dense FNO | MSE u/v/p | -3.28693310232e-06 | -20.938430 | 4.15378875415e-08 | [-4.35920629125e-06, -2.2146599134e-06] | 20/0
+TFNO–dense FNO | relatívna L2 rýchlosti | -0.000469958172909 | -5.813032 | 2.75930964535e-07 | [-0.000646417520667, -0.000293498825152] | 20/0
+TFNO–dense FNO | relatívna L2 tlaku | -0.00091849979428 | -5.515321 | 4.84454969429e-06 | [-0.00135169839333, -0.000485301195234] | 19/1
+TFNO–RealNPU | MSE u/v/p | -2.98411968085e-06 | -19.383349 | 1.40641455077e-13 | [-3.4474513725e-06, -2.52078798919e-06] | 20/0
+TFNO–RealNPU | relatívna L2 rýchlosti | -0.00956857707731 | -55.685713 | 4.26171774599e-31 | [-0.00973727665906, -0.00939987749556] | 20/0
+TFNO–RealNPU | relatívna L2 tlaku | -0.00539286960812 | -25.524783 | 2.16340265986e-22 | [-0.00567017170666, -0.00511556750958] | 20/0
+dense FNO–RealNPU | MSE u/v/p | 3.02813421475e-07 | +1.966925 | 0.316008863207 | [-6.16511621471e-07, 1.22213846442e-06] | 10/10
+dense FNO–RealNPU | relatívna L2 rýchlosti | -0.0090986189044 | -52.950724 | 1.18558876336e-28 | [-0.00931573307656, -0.00888150473224] | 20/0
+dense FNO–RealNPU | relatívna L2 tlaku | -0.00447436981384 | -21.177467 | 8.57337529735e-18 | [-0.0048814025439, -0.00406733708378] | 20/0
+
+TFNO oproti denseFNO: nižšia MSE o20,94%,relatívna chyba rýchlosti o5,81% a tlaku o5,52%. Všetky tri rozdiely prešli primárnou Holm korekciou.
+DenseFNO oproti RealNPU: významne nižšia relatívna chyba rýchlosti ajtlaku. V celkovej MSE je rozdiel približne+1,97%v neprospechFNO, ale Holm p=0,316; rozdiel sa nepreukázal. To nie je dôkaz rovnosti ani ekvivalencie. MSE súhrnne váži absolútne chybyu/v/p, relatívneL2 hodnotí rýchlosť a tlak osobitne, preto nejde o rozpor.
+
+KONTROLY CITLIVOSTI A PREDPOKLADY
+Exaktné znamienkové vymenovanie všetkých1048576kombinácií potvrdilo8z9rozdielov po vlastnej Holm korekcii. Nezávislý meet-in-the-middle algoritmus dal rovnaké počty. Predpokladom sign-flipu je symetria rozdielov pri nulovej hypotéze.
+Binomický sign test tiež označil8z9kontrastov. Ten skúma smer/medián rozdielu a nie veľkosť priemerného efektu; neprezentuje sa ako totožná otázka.
+Žiadne semeno sa nevynechalo. Všetky surové20rozdiely, Shapiro diagnostika, šikmosť,kurtóza a QQbody sú v paired_t_primary.json. Žiadny primárny test sa dodatočne nemenil podľa p.
+Shapiro p v9diagnostikách: rozsah0.137863 až0.997866; žiadne pod0,05. Taký výsledok normalitu nedokazuje, najmä pri20pozorovaniach.
+
+DÔLEŽITÉ OBMEDZENIE: GEOMETRIE
+Primárny výsledok sa týka opakovateľnosti na rovnakom pevnom200-prípadovom benchmarku. Nové tréningové semená nepridali nové geometrie;85geometrických skupín sa vyskytuje ajvTRAIN.
+Pri samostatnom kríženom resamplovaní20semien a85geometrií (200000opakovaní) sa zvyšuje neistota. BasicBonferroni intervaly vylúčili nulu iba pri4z9kontrastov: L2rýchlosti a tlakuTFNO–RealNPU aFNO–RealNPU.
+Pri TFNO–FNO basicBonferroni intervaly všetkých3metrík nulu obsahujú, zatiaľ čo percentileBonferroni intervaly ju vylučujú; centrované bootstrapHolm p sú0,0908preMSE a0,0306preobeL2. Výsledok tejto približnej citlivosti teda závisí od postupu. Nevyberáme dodatočne priaznivejší interval.
+Bezpečný záver: výhodaTFNO nadFNO je presvedčivá cez nové tréningové semená na tomto benchmarku. Všeobecnú výhodu na nevidených geometriách tento experiment nepreukazuje.
+Všetky varianty a intervaly sú v crossed_geometry_sensitivity.json; táto citlivosť nenahrádza dopredu určený primárny test.
+
+RÝCHLOSŤ A JEDNOTLIVÉ PREKROČENIA
+Všetkých60modelov splnilo GPUajhost per-casep99<=5ms na všetkých200prípadoch. Nie je to záruka, že každé jednotlivé volanie bolo pod5ms.
+Metóda | jednotlivé CUDAvolania nad5ms zo4000000 | maximálne CUDAmeranie[ms] | najhoršie hostp99[ms]
+TFNO | 2017 | 9.105024 | 4.636591
+dense FNO | 1 | 6.197152 | 2.796306
+RealNPU | 0 | 2.167040 | 1.141686
+RealNPU bolo opisne najrýchlejšie. TFNO poskytlo najnižšie chyby pri splnení nášho p99limitu; denseFNO má menšiu latenciu nežTFNO a lepšieL2chyby nežRealNPU.
+Meranie:H200,FP32,bezTF32,batch1,celé pole,vstupy naGPU,100zahriatí+1000meraní na prípad. Prenos naGPU,kreslenie a sieťová komunikácia nie sú zahrnuté. CUDA a synchronizovaný meranýhostčas sú samostatné,réžia sa neodpočítava. Nejde o nový test výkonu starej5-seedovej kohorty za rovnakých dátumových podmienok.
+
+ZDROJE A OVERENIE
+60hlavných tréningov:235,0825GPU-h. Samotných12TESTskupín:8.266111GPU-h. Záznamy vybraných súvisiacich kontrol sú osobitne v resource_closeouts.json; nejde o konečný účet portálu.
+Štatistika ani jej nezávislé overenie nepoužiliGPU a nespustili nové učenie.
+Nezávislé overenie:12000vstupných riadkov,180modelových priemerov(60×3),9t-testov cez neúplnúbetafunkciu,Holm a intervaly; všetky exaktné počty znamienok a intervaly zo zachovaných bootstrapreplikátov.
+Plánz24.11.bol zverejnený pred novými tréningmi, no pôvodnýTEST bol už známy pri výbere tohto dodatku. Skutočná chronológia sa zachováva.
+Výsledky, váhy a polia sa archivujú priamoPerun→GitHub. Podrobnosti verejného archívu a jeho overenia sú v ARCHIV.txt a publication_receipt.json po dokončení publikácie. Žiadne objemné dáta nevznikli vPC.
+
+REPRODUKČNÉ SÚBORY
+paired_t_primary.json:9primárnych kontrastov,intervaly,20rozdielov a diagnostiky.
+exact_sign_sensitivities.json:exaktné znamienkové ajbinomické kontroly.
+crossed_geometry_sensitivity.json:všetky bootstrapintervaly a odlišný rozsah inferencie.
+analysis_inputs.npz:kompaktné vstupné metriky,IDprípadov,semien a geometrií.
+crossed_bootstrap_replicates.npz:všetkých200000resamplingvýsledkov(v úplnomarchíve).
+input_manifest.json a independent_verification.json:SHA vstupov a nezávislý audit.
+per_seed_model_means.csv a primary_t_tests.csv:tabuľky na ďalšiu prácu.
+latency_by_model.json:časovania,počty prekročení a maximá každého modelu.
+
+METODICKÉ ZDROJE
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_rel.html
+https://www.statsmodels.org/stable/generated/statsmodels.stats.multitest.multipletests.html
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.binomtest.html
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.shapiro.html

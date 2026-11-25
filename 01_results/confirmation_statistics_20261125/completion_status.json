@@ -1,0 +1,10 @@
+{
+  "status": "STATISTICS_COMPLETE_INDEPENDENT_AUDIT_PASS_PUBLICATION_IN_PROGRESS",
+  "primary_contrasts": 9,
+  "Holm_rejections": 8,
+  "training_models": 60,
+  "native_fields_audited": 12000,
+  "old_pilot_models_included": false,
+  "GPU_used_for_statistics": false,
+  "full_archive_publication_pending": true
+}

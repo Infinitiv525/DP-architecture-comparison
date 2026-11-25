@@ -1,0 +1,9 @@
+ÚPLNÝ ARCHÍV NOVÉHO POTVRDENIA
+Verejný cieľ archívu:
+https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/architecture-confirmation20-complete-20261125
+Štatistika je dokončená a nezávisle overená. Úplné balíky sa pripravujú a ich verejné nahratie sa overí osobitne; toto nie je potvrdenie dokončeného uploadu.
+Plán:60balíkov, každý obsahuje best/last váhy, optimizer, celú históriu tréningu, všetkých200TESTpolí, časovania, chyby a obrazovú ukážku.
+Samostatný numerický balík obsahuje kompletné vstupné metriky,všetkých200000bootstrapreplík,zdroje a audity.
+ARTIFACT_MANIFEST.json aSHA256SUMS.txt určia každý súbor a jeho kontrolný súčet.
+Je to snapshot pred publikáciou. Konečný stav a verejné spätné overenie určí publication_receipt.json a modelový katalóg po dokončení.
+Na PC sa objemné dáta nekopírujú.

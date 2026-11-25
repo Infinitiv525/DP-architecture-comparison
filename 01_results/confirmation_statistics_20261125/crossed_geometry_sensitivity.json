@@ -1,0 +1,218 @@
+[
+  {
+    "method_a": "tfno",
+    "method_b": "fno",
+    "metric": "all_cell_mse",
+    "point_difference": -3.2869331023219596e-06,
+    "paired_crossed_bootstrap_SE": 1.521163940840801e-06,
+    "approximate_Bonferroni_family95_basic_CI": [
+      -6.2398871567946395e-06,
+      2.1102329299426562e-06
+    ],
+    "approximate_Bonferroni_family95_percentile_CI": [
+      -8.684099134586575e-06,
+      -3.3397904784928e-07
+    ],
+    "approximate_individual95_basic_CI": [
+      -5.722143829581751e-06,
+      1.7894209053372996e-07
+    ],
+    "approximate_centered_bootstrap_p": 0.03026484867575662,
+    "basic_family_CI_excludes_zero": false,
+    "resampling": "Paired20seed IDs and85geometry clusters. All cases of sampled clusters included; ratio divided by sampled case count.",
+    "interpretation": "Approximate geometry sensitivity only. Does not replace fixed-benchmark paired t inference or establish unseen-geometry generalization.",
+    "approximate_bootstrap_p_Holm_9": 0.09079454602726986
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "fno",
+    "metric": "fluid_velocity_relative_l2",
+    "point_difference": -0.00046995817290936383,
+    "paired_crossed_bootstrap_SE": 0.0001638294336755377,
+    "approximate_Bonferroni_family95_basic_CI": [
+      -0.0008666239001552967,
+      5.2042989344036356e-05
+    ],
+    "approximate_Bonferroni_family95_percentile_CI": [
+      -0.000991959335162764,
+      -7.329244566343097e-05
+    ],
+    "approximate_individual95_basic_CI": [
+      -0.0007645369745068282,
+      -0.00012414352850726915
+    ],
+    "approximate_centered_bootstrap_p": 0.006124969375153124,
+    "basic_family_CI_excludes_zero": false,
+    "resampling": "Paired20seed IDs and85geometry clusters. All cases of sampled clusters included; ratio divided by sampled case count.",
+    "interpretation": "Approximate geometry sensitivity only. Does not replace fixed-benchmark paired t inference or establish unseen-geometry generalization.",
+    "approximate_bootstrap_p_Holm_9": 0.03062484687576562
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "fno",
+    "metric": "fluid_pressure_relative_l2",
+    "point_difference": -0.0009184997942802569,
+    "paired_crossed_bootstrap_SE": 0.0003384903335641898,
+    "approximate_Bonferroni_family95_basic_CI": [
+      -0.0017889017988940745,
+      9.459782712845088e-05
+    ],
+    "approximate_Bonferroni_family95_percentile_CI": [
+      -0.0019315974156889648,
+      -4.809778966643942e-05
+    ],
+    "approximate_individual95_basic_CI": [
+      -0.0015533445127238255,
+      -0.00022705630251237865
+    ],
+    "approximate_centered_bootstrap_p": 0.007149964250178749,
+    "basic_family_CI_excludes_zero": false,
+    "resampling": "Paired20seed IDs and85geometry clusters. All cases of sampled clusters included; ratio divided by sampled case count.",
+    "interpretation": "Approximate geometry sensitivity only. Does not replace fixed-benchmark paired t inference or establish unseen-geometry generalization.",
+    "approximate_bootstrap_p_Holm_9": 0.03062484687576562
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "realnpu",
+    "metric": "all_cell_mse",
+    "point_difference": -2.9841196808471987e-06,
+    "paired_crossed_bootstrap_SE": 2.27912414826263e-06,
+    "approximate_Bonferroni_family95_basic_CI": [
+      -1.0220267967837332e-05,
+      2.698688705728119e-06
+    ],
+    "approximate_Bonferroni_family95_percentile_CI": [
+      -8.666928067422516e-06,
+      4.252028606142936e-06
+    ],
+    "approximate_individual95_basic_CI": [
+      -7.830542947950594e-06,
+      1.1371318241308657e-06
+    ],
+    "approximate_centered_bootstrap_p": 0.18397408012959934,
+    "basic_family_CI_excludes_zero": false,
+    "resampling": "Paired20seed IDs and85geometry clusters. All cases of sampled clusters included; ratio divided by sampled case count.",
+    "interpretation": "Approximate geometry sensitivity only. Does not replace fixed-benchmark paired t inference or establish unseen-geometry generalization.",
+    "approximate_bootstrap_p_Holm_9": 0.3679481602591987
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "realnpu",
+    "metric": "fluid_velocity_relative_l2",
+    "point_difference": -0.009568577077309121,
+    "paired_crossed_bootstrap_SE": 0.0009483922343112146,
+    "approximate_Bonferroni_family95_basic_CI": [
+      -0.011996321022470573,
+      -0.006715781654392402
+    ],
+    "approximate_Bonferroni_family95_percentile_CI": [
+      -0.01242137250022584,
+      -0.007140833132147669
+    ],
+    "approximate_individual95_basic_CI": [
+      -0.01134037359280134,
+      -0.0076195776026984335
+    ],
+    "approximate_centered_bootstrap_p": 4.9999750001249995e-06,
+    "basic_family_CI_excludes_zero": true,
+    "resampling": "Paired20seed IDs and85geometry clusters. All cases of sampled clusters included; ratio divided by sampled case count.",
+    "interpretation": "Approximate geometry sensitivity only. Does not replace fixed-benchmark paired t inference or establish unseen-geometry generalization.",
+    "approximate_bootstrap_p_Holm_9": 4.4999775001124996e-05
+  },
+  {
+    "method_a": "tfno",
+    "method_b": "realnpu",
+    "metric": "fluid_pressure_relative_l2",
+    "point_difference": -0.005392869608119534,
+    "paired_crossed_bootstrap_SE": 0.001009170117458864,
+    "approximate_Bonferroni_family95_basic_CI": [
+      -0.007947624338933994,
+      -0.0023410618646884755
+    ],
+    "approximate_Bonferroni_family95_percentile_CI": [
+      -0.008444677351550592,
+      -0.0028381148773050733
+    ],
+    "approximate_individual95_basic_CI": [
+      -0.007266549940629719,
+      -0.0033126675760682964
+    ],
+    "approximate_centered_bootstrap_p": 4.9999750001249995e-06,
+    "basic_family_CI_excludes_zero": true,
+    "resampling": "Paired20seed IDs and85geometry clusters. All cases of sampled clusters included; ratio divided by sampled case count.",
+    "interpretation": "Approximate geometry sensitivity only. Does not replace fixed-benchmark paired t inference or establish unseen-geometry generalization.",
+    "approximate_bootstrap_p_Holm_9": 4.4999775001124996e-05
+  },
+  {
+    "method_a": "fno",
+    "method_b": "realnpu",
+    "metric": "all_cell_mse",
+    "point_difference": 3.0281342147476087e-07,
+    "paired_crossed_bootstrap_SE": 3.5555447715978612e-06,
+    "approximate_Bonferroni_family95_basic_CI": [
+      -1.1501584288428557e-05,
+      8.19784428678365e-06
+    ],
+    "approximate_Bonferroni_family95_percentile_CI": [
+      -7.592217443834129e-06,
+      1.2107211131378078e-05
+    ],
+    "approximate_individual95_basic_CI": [
+      -7.513991948232977e-06,
+      6.3242954918913976e-06
+    ],
+    "approximate_centered_bootstrap_p": 0.9334953325233374,
+    "basic_family_CI_excludes_zero": false,
+    "resampling": "Paired20seed IDs and85geometry clusters. All cases of sampled clusters included; ratio divided by sampled case count.",
+    "interpretation": "Approximate geometry sensitivity only. Does not replace fixed-benchmark paired t inference or establish unseen-geometry generalization.",
+    "approximate_bootstrap_p_Holm_9": 0.9334953325233374
+  },
+  {
+    "method_a": "fno",
+    "method_b": "realnpu",
+    "metric": "fluid_velocity_relative_l2",
+    "point_difference": -0.009098618904399757,
+    "paired_crossed_bootstrap_SE": 0.0009594120249099513,
+    "approximate_Bonferroni_family95_basic_CI": [
+      -0.011662940711385638,
+      -0.006286106954086344
+    ],
+    "approximate_Bonferroni_family95_percentile_CI": [
+      -0.01191113085471317,
+      -0.006534297097413876
+    ],
+    "approximate_individual95_basic_CI": [
+      -0.010925110585274792,
+      -0.007158015270639792
+    ],
+    "approximate_centered_bootstrap_p": 4.9999750001249995e-06,
+    "basic_family_CI_excludes_zero": true,
+    "resampling": "Paired20seed IDs and85geometry clusters. All cases of sampled clusters included; ratio divided by sampled case count.",
+    "interpretation": "Approximate geometry sensitivity only. Does not replace fixed-benchmark paired t inference or establish unseen-geometry generalization.",
+    "approximate_bootstrap_p_Holm_9": 4.4999775001124996e-05
+  },
+  {
+    "method_a": "fno",
+    "method_b": "realnpu",
+    "metric": "fluid_pressure_relative_l2",
+    "point_difference": -0.004474369813839276,
+    "paired_crossed_bootstrap_SE": 0.0009977428115688779,
+    "approximate_Bonferroni_family95_basic_CI": [
+      -0.007208136809520175,
+      -0.0016238464721001654
+    ],
+    "approximate_Bonferroni_family95_percentile_CI": [
+      -0.007324893155578387,
+      -0.001740602818158377
+    ],
+    "approximate_individual95_basic_CI": [
+      -0.006398761870773936,
+      -0.0024910271115775266
+    ],
+    "approximate_centered_bootstrap_p": 4.9999750001249995e-06,
+    "basic_family_CI_excludes_zero": true,
+    "resampling": "Paired20seed IDs and85geometry clusters. All cases of sampled clusters included; ratio divided by sampled case count.",
+    "interpretation": "Approximate geometry sensitivity only. Does not replace fixed-benchmark paired t inference or establish unseen-geometry generalization.",
+    "approximate_bootstrap_p_Holm_9": 4.4999775001124996e-05
+  }
+]

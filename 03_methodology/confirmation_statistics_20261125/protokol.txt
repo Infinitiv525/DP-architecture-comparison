@@ -1,0 +1,25 @@
+VYHODNOTENIE NOVÉHO20-SEEDOVÉHO POTVRDENIA – 25.11.2026
+
+Toto vykonáva plán štatistiky z24.11., nemení primárne testy podľa výsledkov. Zdrojom sú nezávisle auditované12000TESTpolia a ich číselné metriky. Žiadne nové učenie ani inferencia, ibaCPU. Pôvodné modely a výsledky sa nemenia, dáta nevznikajú vPC.
+
+Primárny vstup:3metódy(TFNO,denseFNO,RealNPU)×20nových párovaných semien×200pevných TEST prípadov×3metriky. Starých5pilotných behov je oddelených. Jeden model najprv rovnomerne spriemeruje200prípadov; jednotka replikácie je tréningové semeno, nie bunka ani prípad. Metriky: all-cellMSE, fluidná relatívnaL2 rýchlosti a tlaku.
+
+Primárny výpočet:každá z3dvojíc×3metriky=9testov. Dvojstranný párovýStudentt s19stupňami voľnosti. Holm korekcia na9testov pri rodinnej alpha0,05. Bonferroni obojstranné t-intervaly majú nominálne95%rodinné pokrytie za normálneho modelu rozdielov. Smer rozdielu A−B, záporná hodnota znamená nižšiu chybu A. Uvádza sa absolútny rozdiel, percento vočiB a symetrická relatívna definícia z plánovania sily.
+Shapiro, šikmosť, kurtóza a QQbody sú diagnostika. Nevyberajú nový primárny test a nevylučujú semená. Nezamietnutie normality nie je jej dôkaz. Nezamietnutie rovnosti nie je ekvivalencia.
+
+Samostatná citlivosť1:úplné znamienkové vymenovanie2^20kombinácií, absolútny priemer rozdielu(equivalentné poradie absolútnych t pri fixnom súčte štvorcov). Vyžaduje nezávislé rozdiely symetrické okolo nuly pri nulovej hypotéze; architektúra nebola náhodne priradená ako liečba. Exaktné vymenovanie, nie náhodnýMonteCarloodhad; uvádza sa tolerancia float64pri zhodách.
+Citlivosť2:exaktný binomický sign test pre smer rozdielu/mediánu pri kontinuite, iná otázka než priemerný efekt. Pre obe citlivosti vlastná Holm korekcia cez tých istých9kontrastov; nevyberá sa priaznivejší test.
+
+Citlivosť3:párový krížený bootstrap200000opakovaní so seedom25112501. Spoločne pre všetky architektúry sa nezávisle resampluje20semien a85geometrických skupín. Zo zvolenej geometrie sa zachovajú všetky jej prípady, priemer sa delí skutočným počtom resamplovaných prípadov. Ukladajú sa všetky replikáty, približné basic ajpercentileBonferroni intervaly a osobitne označené centrované bootstrap p. Toto je približná diagnostika geometrickej neistoty, nenahrádza primárnu inferenciu na fixnom benchmarku a nepreukazuje prenos na úplne nové geometrie.
+
+Latencia:opisne sa zachová per-casep99 všetkých60modelov, CUDA ajmeranýhostčas, jednotlivé prekročenia5ms a maximá. Keby všetky p99prešli, neznamená to, že každé jednotlivé volanie bolo pod5ms. Latencia nie je nová rodina primárnych testov. Meranie H200,FP32,bezTF32,vstupy naGPU,bez prenosu/kreslenia.
+
+Reprodukcia:overia sa IDmodelov, semien, prípadov a85geometrií; zhoda všetkých modelových priemerov s pôvodnýmCPUauditom a GPUzáznamami. SHA manifest chráni vstupy. Nezávislý druhý skript osobitne overí t zo základných vzorcov, p cez neúplnúbetafunkciu, Holm, intervaly, exaktné znamienkové počty iným algoritmom a intervaly zo zachovaných bootstrapreplikátov. Nevznikajú náhradné výsledky pri chybe.
+
+Obmedzenia:novéseedy, ale vopred známy TEST a cielený výber3metód po skorších výsledkoch. Rovnaké zdrojové rozpočty, rôzne počty parametrov. Záver platí pre tieto implementácie/konfigurácie a známysplit s85geometriami zdieľanými sTRAIN. Pôvodná širšia štúdia je samostatná.
+
+Metodické podklady:
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_rel.html
+https://www.statsmodels.org/stable/generated/statsmodels.stats.multitest.multipletests.html
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.binomtest.html
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.shapiro.html

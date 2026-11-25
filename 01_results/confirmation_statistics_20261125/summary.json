@@ -1,0 +1,46 @@
+{
+  "status": "CONFIRMATION60_STATISTICAL_COMPARISON_COMPLETE",
+  "methods": [
+    "tfno",
+    "fno",
+    "realnpu"
+  ],
+  "metrics": [
+    "all_cell_mse",
+    "fluid_velocity_relative_l2",
+    "fluid_pressure_relative_l2"
+  ],
+  "training_models": 60,
+  "independent_seed_blocks": 20,
+  "TEST_cases_per_model": 200,
+  "geometry_clusters": 85,
+  "primary_contrasts": 9,
+  "primary_Holm_rejections": 8,
+  "primary_Bonferroni_CI_exclusions": 8,
+  "signflip_Holm_rejections": 8,
+  "sign_test_Holm_rejections": 8,
+  "crossed_basic_CI_exclusions": 4,
+  "TEST_and_full_field_audit_pass": true,
+  "all60_per_case_p99_GPU_pass": true,
+  "bootstrap_iterations": 200000,
+  "bootstrap_seed": 25112501,
+  "no_new_training": true,
+  "no_GPU_used": true,
+  "finished_at": "2026-11-25T18:15:27.265988+01:00",
+  "elapsed_seconds": 3.1928061489015818,
+  "environment": {
+    "python": "3.12.15 (main, Oct 13 2026, 16:52:04) [GCC 15.3.0]",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "inference": "Prespecified paired Student t over20seedwise200case means, two sided, Holm over9contrasts, Bonferroni family95%t CIs.",
+  "limitations": [
+    "Fixed known200case benchmark with85geometries also present inTRAIN.",
+    "Three architectures selected after earlier TEST results were known. This is a dated independent-seed extension, not a blind new-geometry experiment.",
+    "Twenty differences require distributional assumptions for exact t inference. Shape diagnostics do not change the preselected primary test.",
+    "Sign-flip assumes null symmetry; sign test concerns median direction; crossed bootstrap is approximate sensitivity.",
+    "Nonsignificant results do not establish equivalence.",
+    "All60models pass per-casep99<=5ms onH200 with resident inputs; this does not mean every individual call was<=5ms.",
+    "Results concern fixed implementations/configurations and equal allocated-resource budgets, not universal architectural dominance."
+  ]
+}
