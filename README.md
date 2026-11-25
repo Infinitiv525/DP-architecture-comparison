@@ -4,7 +4,7 @@
 Na pevnom benchmarku máTFNO nižšieMSE ajL2chyby neždenseFNO aRealNPU. Z9vopred určených kontrastov prešlo8Holm korekciou; MSEdenseFNO–RealNPU sa nepreukázala.
 [Čitateľný výsledok a obmedzenia](01_results/confirmation_statistics_20261125/VYSLEDKY.txt) · [Úplné testy a intervaly](01_results/confirmation_statistics_20261125/paired_t_primary.json).
 Záver cez tréningové semená platí pre200pevnýchTESTprípadov. Geometrická bootstrapcitlivosť je slabšia/závisí od variantu intervalu; všeobecnú prevahu na nevidených geometriách netvrdíme.
-Všetkých60modelov splnilo per-casep99<=5ms. Štatistika nepoužilaGPU a nepridala tréningy. Verejný archív všetkých nových váh/polí sa dokončuje priamo zPerunu.
+Všetkých60modelov splnilo per-casep99<=5ms. Štatistika nepoužilaGPU a nepridala tréningy. **[Kompletný verejný archív všetkých60modelov a12000polí](02_models/confirmation20_20261125/README.md) je overený.** Všetkých63príloh sa anonymne celých prečítalo späť a porovnal saSHA256;bez kópie vPC.
 
 ---
 

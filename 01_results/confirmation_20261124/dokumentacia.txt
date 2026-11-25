@@ -51,3 +51,5 @@ a presné odoslanie v submission.json; tieto údaje sú časovým snapshotom.
 25.11.: Opravene poradie importov evaluatorov, CPU kontrola aj120VALpoli60modelov presli. Protokol naGitHube, uvolnenyTEST175449,4GPUsubezne; naslednyCPUaudit175450. Vahy ani trening sa nemenili.
 
 25.11.: TEST60/60 aCPUaudit12000poli/12milionovcasovani presli. Statistika20novychsemien:8z9Holmkontrastov,TFNOlepsieodFNOaRealNPUv3metrikach;MSEFNO–RealNPUnepreukazane. Nezavisleovereniett,p,Holm,signflip,sign testabootstrap preslo. Geometricka citlivost jeosobitna aniejerovnakosilna. StatistikanevyuzilaGPU;priamyverejnyarchivvahapoli sapripravuje.
+
+25.11.: Kompletnyverejnyarchiv60modelov/12000poli/statistiky:zverejnenych63priloh,39.025GB,anonymnyplnySHA256readbackvsetkychpresiel. NicobjemnesanekopirovalodoPC. Zaveryplatiaprepevnybenchmarkageometrickeobmedzeniaostavaju.

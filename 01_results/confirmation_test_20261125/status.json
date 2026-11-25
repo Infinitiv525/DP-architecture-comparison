@@ -1,12 +1,18 @@
 {
-  "status": "ALL60_TRAINING_TEST_AUDIT_AND_STATISTICS_COMPLETE_ARCHIVE_IN_PROGRESS",
-  "recorded_at": "2026-11-25T18:24:37.673125+01:00",
+  "status": "ALL60_TEST_STATISTICS_AND_COMPLETE_PUBLIC_ARCHIVE_VERIFIED",
   "models": 60,
   "independent_seeds_per_method": 20,
   "native_fields_audited": 12000,
+  "timing_pairs_audited": 12000000,
   "primary_contrasts": 9,
-  "Holm_significant": 8,
-  "all60_GPU_p99_5ms_pass": true,
-  "no_new_training": true,
-  "full_public_archive_pending": true
+  "primary_Holm_significant": 8,
+  "all60_per_case_p99_5ms_pass": true,
+  "public_assets": 63,
+  "total_public_asset_bytes": 39024841687,
+  "release_url": "https://github.com/Infinitiv525/DP-architecture-comparison/releases/tag/architecture-confirmation20-complete-20261125",
+  "anonymous_complete_readback_verified": true,
+  "full_public_archive_pending": false,
+  "no_PC_copy": true,
+  "no_new_GPU_for_statistics_or_publication": true,
+  "completed_at": "2026-11-25T18:46:54.781245+01:00"
 }
