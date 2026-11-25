@@ -1,5 +1,5 @@
 {
-  "status": "ALL60_TEST_WORKFLOW_REGISTERED_TEST_HELD_UNTIL_PREFLIGHT_AND_PUBLICATION",
+  "status": "CONFIRMATION60_FINAL_TEST_RELEASED_AFTER_ALL_GATES",
   "jobs": {
     "cpu_gate": "175446",
     "preflight": "175447",
@@ -16,8 +16,12 @@
   "TEST_model_case_pairs": 12000,
   "maximum_simultaneous_TEST_GPUs": 4,
   "preflight_plus_TEST_GPU_allocation_hard_cap": 19.333333333333332,
-  "TEST_held": true,
+  "TEST_held": false,
   "CPU_checkpoint_and_evaluator_import_gate_passed": true,
   "failed_first_preflight_observed_GPU_h": 0.010277777777777778,
-  "active_caps_plus_observed_failed_preflight_GPU_h": 19.34361111111111
+  "active_caps_plus_observed_failed_preflight_GPU_h": 19.34361111111111,
+  "all60_GPU_validation_preflight_passed": true,
+  "TEST_released_at": "2026-11-25T15:14:45.535014+01:00",
+  "protocol_publication_commit": "092a547532f857845b90c182b6f663535ab0362f",
+  "CPU_saved_field_audit_automatically_queued": true
 }

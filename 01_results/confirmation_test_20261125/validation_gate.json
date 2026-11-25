@@ -1,0 +1,9 @@
+{
+  "status": "CONFIRMATION60_VALIDATION_PREFLIGHT_PASS",
+  "models": 60,
+  "validation_fields": 120,
+  "parts": 4,
+  "models_sha256": "3b4ddda916b5536ddd5802606e3f9bef84d90df1ef6638520db1ee288df6f176",
+  "test_targets_read": false,
+  "all_models_validation_parity_pass": true
+}

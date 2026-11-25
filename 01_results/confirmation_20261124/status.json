@@ -1,5 +1,5 @@
 {
-  "status": "ALL60_TRAININGS_COMPLETE_AND_AUDITED_TEST_WORKFLOW_REGISTERED",
+  "status": "TRAINING60_COMPLETE_ALL_GATES_PASS_FINAL_TEST_RELEASED",
   "recorded_at": "2026-11-25T15:11:34.285474+01:00",
   "complete_models": 60,
   "per_method": {
@@ -20,5 +20,6 @@
     "saved_field_audit": "175450"
   },
   "TEST_complete": false,
-  "checkpoint_weights_frozen": true
+  "checkpoint_weights_frozen": true,
+  "TEST_released_at": "2026-11-25T15:14:45.535014+01:00"
 }

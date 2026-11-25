@@ -1,0 +1,22 @@
+{
+  "status": "CONFIRMATION60_TEST_RUNNING_AFTER_ALL_GATES",
+  "recorded_at": "2026-11-25T15:15:50.361932+01:00",
+  "training_complete_models": 60,
+  "CPU_checkpoint_gate": "PASS",
+  "GPU_validation_gate": "PASS",
+  "GPU_validation_fields": 120,
+  "TEST_group_state_counts": {
+    "RUNNING": 4,
+    "PENDING": 8
+  },
+  "total_TEST_groups": 12,
+  "models_per_group": 5,
+  "total_models": 60,
+  "cases_per_model": 200,
+  "expected_native_fields": 12000,
+  "TEST_complete": false,
+  "saved_field_CPU_audit_job": "175450",
+  "statistical_comparison_follows_CPU_audit": true,
+  "no_new_training": true,
+  "large_outputs_on_Perun": true
+}

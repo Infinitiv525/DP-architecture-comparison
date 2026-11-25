@@ -47,3 +47,5 @@ Sleduje sa opakovateľnosť nových tréningov na tom istom benchmarku.
 a presné odoslanie v submission.json; tieto údaje sú časovým snapshotom.
 
 25.11.2026: Vsetkych60novych treningov dobehlo (20TFNO,20denseFNO,20RealNPU), audit bezchybny. Zaznamenana alokacia235.0825GPU-h. CPU obnova60vah presla. Nadvazujuci TEST ma4VALpreflighty,12skupin po5modelov na200pripadoch a naslednyCPUaudit12000polí. TEST sa uvolni az po vsetkychVALkontrolach a ulozeni protokolu. LLM experiment sa nemenil.
+
+25.11.: Opravene poradie importov evaluatorov, CPU kontrola aj120VALpoli60modelov presli. Protokol naGitHube, uvolnenyTEST175449,4GPUsubezne; naslednyCPUaudit175450. Vahy ani trening sa nemenili.
