@@ -1,0 +1,21 @@
+POTVRDZUJÚCI TEST ARCHITEKTÚR – 25. 11. 2026
+
+Všetkých60nových tréningov úspešne skončilo: TFNO20,denseFNO20,RealNPU20. Audit tréningu/VAL prešiel, všetky semená a checkpointy zostávajú. Zaznamenaná alokácia tréningov235,0825GPU-h nie je konečný účet portálu. Konfigurácie, váhy a protokol z24.11. sa nemenia. Pôvodný TEST benchmark bol známy z predošlej štúdie, nové váhy sa vyberali len pomocou VAL.
+
+Cieľ: rovnakých200TEST prípadov pre všetkých60modelov;12000celých predikovaných polí512×512×3(u,v,p). Žiadna aktualizácia váh, nové ladenie ani vylučovanie podľa presnosti. Všetkých20nových semien každej metódy tvorí primárne potvrdenie, pôvodných5sa nepridáva.
+Ukladajú sa všetky natívne predikcie, chyby po prípadoch/kanáloch, relatívne chyby rýchlosti/tlaku, fyzikálne diagnostiky, surové časovania a prostredie. Polia zaberú približne37,75GB; zostanú na Perune a budú archivované priamo naGitHub bez sťahovania doPC.
+
+Numerika: pôvodné obnovenie modelov, spoločný adaptér, normalizácia, kanonizácia, metriky a meranie. Zmeny sú nové manifesty, počty modelov/skupín, riadenie preflightov a explicitné rozlíšenie pôvodnej obnovy TFNO/RealNPU a denseFNO. AST zhoda Loaded,measure,stats,check_field,environment,instrumentation_overhead sa overuje pred spustením. SHA kódov/váh a dátové odtlačky sú zmrazené.
+
+Kontroly pred novým TESTom:
+1.CPU overí zdroje, vstupy, manifesty a obnovu všetkých60checkpointov: správna normalizácia, konečné váhy, počty parametrov.
+2.Štyri H200úlohy overia60modelov na dvoch pôvodnýchVALprípadoch/model. Porovnajú uložené tréningové VAL chyby, opakovateľnosť a platnosť poľa. Toto je technická kontrola bez prahu kvality; slabší výsledok sa zachová.
+3.Až po úspechu všetkých štyroch častí sa otvoria200TESTreferencie.
+
+Rýchlosť: rovnaký postup ako pôvodne,H200,FP32,matmulajcuDNNTF32vypnuté,celé pole,batch1,vstupy naGPU. Každý prípad100zahriatí+1000meraní. CUDAudalosti a synchronizovaný meraný čas hostiteľa sa ukladajú oddelene. Všetko pôvodné vstupné/výstupné spracovanie modelu zostáva vo volaní, bez cache vstupne závislých čŕt; prenos naGPU a vykreslenie sú mimo merania. Réžia meradla sa uloží a neodpočítava. Kritérium5ms sa vzťahuje na p99 každého prípadu; jednotlivé prekročenia sa tiež zachovajú. Nesplnenie5ms nespôsobí vynechanie modelu.
+
+Organizácia:4GPUpreflighty po15modelov, limit20minút; potom12TESTskupín po5modelov, súbeh max4H200. TEST limit90minút/skupinu. Maximálna alokácia preflight+TEST19,333GPU-h je v pôvodnej rezerve približne20GPU-h. Skupiny striedajú rodiny podľa blokov semien. CPUaudit používa samostatnú úlohu bezGPU.
+Žiadne skryté opakovanie pri chybe ani výber priaznivých behov. Čiastočné výstupy sa zachovajú na kontrolu pred ďalším postupom.
+
+Po TESTe CPU nezávisle znova vypočíta chyby/fyzikálne diagnostiky zo všetkých12000polí, overí rawtimings,SHA a nezmenené váhy. Následná štatistika podľa protokolu24.11.:tri páry×tri metriky,párový t-test cez20nových semien,Holm alpha0,05,Bonferroni intervaly; osobitne exaktný sign-flip20,sign test a približný krížený bootstrap20semien×85geometrií.
+Samotným dokončením tréningov TEST ešte hotový nie je. LLM experiment ostáva uzavretý a nepribudnú mu tréningy.

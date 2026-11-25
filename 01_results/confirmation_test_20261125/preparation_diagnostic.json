@@ -1,0 +1,17 @@
+{
+  "status": "FIRST_GPU_PREFLIGHT_IMPORT_ROUTING_FAILURE_FIXED_BEFORE_TEST",
+  "prior_source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_test_20261125_v1",
+  "prior_results": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v1",
+  "failed_preflight_job": "175439",
+  "cancelled_unstarted_jobs": [
+    "175440",
+    "175441",
+    "175442"
+  ],
+  "cause": "Dense FNO module directory temporarily preceded the frozen evaluation directory in sys.path, so evaluate.py was imported from the old dense package.",
+  "fix": "Restore this frozen source directory to first import priority after binding both model restorers. CPU gate now imports evaluate and audit and asserts both exact file paths.",
+  "trained_models_modified": false,
+  "prior_TEST_opened": false,
+  "failed_attempts_and_allocation_closeouts_preserved": true,
+  "new_source_integrity_sha256": "b8bc26022713d043306ed0b28f2350775ceb05517cd961700f7d964edef2cf9a"
+}

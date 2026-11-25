@@ -1,0 +1,22 @@
+{
+  "status": "ALL60_TEST_WORKFLOW_REGISTERED_TEST_HELD_UNTIL_PREFLIGHT_AND_PUBLICATION",
+  "jobs": {
+    "cpu_gate": "175436",
+    "preflight": "175439",
+    "validation_gate": "175440",
+    "test": "175441",
+    "saved_field_audit": "175442"
+  },
+  "source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_test_20261125_v1",
+  "run": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v1",
+  "models": 60,
+  "source_integrity_sha256": "c8b90ce1836938f84b40fa3e1c45f05816adaa8c3c9ea89692f0d33d477b8319",
+  "GPU_training_submitted": false,
+  "TEST_GPU_jobs_submitted": true,
+  "TEST_model_case_pairs": 12000,
+  "maximum_simultaneous_TEST_GPUs": 4,
+  "preflight_plus_TEST_GPU_allocation_hard_cap": 19.333333333333332,
+  "TEST_held": true,
+  "CPU_checkpoint_gate_passed": true,
+  "CPU_gate_source_integrity_sha256": "73d1f935a3310e1b9da893affde7a57dcee78fe6d4d2fd5ef65c2cffb26e23b4"
+}

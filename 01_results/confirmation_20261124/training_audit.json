@@ -1,0 +1,12 @@
+{
+  "status": "CONFIRMATION60_TRAINING_AND_VAL_AUDIT_PASS",
+  "complete_models": 60,
+  "expected_models": 60,
+  "failures": [],
+  "allocation_closeout_GPU_hours": 235.0825,
+  "final_portal_billing": false,
+  "test_targets_read": false,
+  "all_seeds_retained": true,
+  "pilot_models_used": false,
+  "source_integrity_sha256": "cef64c63c2da666efeab70f9461b0b48008952935676ca97f5f35405fe09e1dd"
+}

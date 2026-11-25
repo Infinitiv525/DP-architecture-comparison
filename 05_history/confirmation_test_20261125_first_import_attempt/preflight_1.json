@@ -1,0 +1,13 @@
+{
+  "job_id": "175444",
+  "role": "preflight",
+  "index": "1",
+  "worker_exit_code": 1,
+  "allocated_GPUs": 1,
+  "allocated_CPUs": 4,
+  "captured_unix": 1795615858.6446064,
+  "scheduler_returncode": 0,
+  "scheduler_stdout": "JobId=175444 ArrayJobId=175439 ArrayTaskId=1 ArrayTaskThrottle=4 JobName=dp-confirm60-preflight UserId=lutoke823(507402392) GroupId=domain users(507400513) MCS_label=N/A Priority=8345 Nice=0 Account=perun2601449 QOS=perun2601449 JobState=RUNNING Reason=None Dependency=(null) Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:03 TimeLimit=00:20:00 TimeMin=N/A SubmitTime=2026-11-25T15:10:55 EligibleTime=2026-11-25T15:10:55 AccrueTime=2026-11-25T15:10:55 StartTime=2026-11-25T15:10:55 EndTime=2026-11-25T15:30:56 Deadline=N/A PreemptEligibleTime=2026-11-25T15:10:55 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-11-25T15:10:55 Scheduler=Main Partition=gpu_short AllocNode:Sid=login01:3346201 ReqNodeList=(null) ExcNodeList=(null) NodeList=gpu22 BatchHost=gpu22 NumNodes=1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=4,mem=48G,node=1,billing=5,gres/gpu=1 AllocTRES=cpu=4,mem=48G,node=1,billing=5,gres/gpu=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=4 MinMemoryNode=48G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=NO Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null) Command=/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_test_20261125_v1/run.sbatch SubmitLine=sbatch --parsable --job-name=dp-confirm60-preflight --output=/mnt/project/perun2601449/dp_llm_cfd/logs/confirm60-preflight_%A_%a.out --error=/mnt/project/perun2601449/dp_llm_cfd/logs/confirm60-preflight_%A_%a.err --partition=gpu_short --time=00:20:00 --gres=gpu:1 --array=0-3%4 --dependency=afterok:175436 /mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_test_20261125_v1/run.sbatch preflight /mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v1 WorkDir=/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_test_20261125_v1 StdErr=/mnt/project/perun2601449/dp_llm_cfd/logs/confirm60-preflight_175439_1.err StdIn=/dev/null StdOut=/mnt/project/perun2601449/dp_llm_cfd/logs/confirm60-preflight_175439_1.out TresPerNode=gres/gpu:1 TresPerTask=cpu=4\n",
+  "scheduler_stderr": "",
+  "closeout_is_final_portal_billing": false
+}

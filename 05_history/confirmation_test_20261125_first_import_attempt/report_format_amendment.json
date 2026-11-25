@@ -1,0 +1,9 @@
+{
+  "status": "HUMAN_REPORT_NEWLINE_ONLY_AMENDMENT_AFTER_CPU_GATE",
+  "source_integrity_before": "73d1f935a3310e1b9da893affde7a57dcee78fe6d4d2fd5ef65c2cffb26e23b4",
+  "source_integrity_after": "c8b90ce1836938f84b40fa3e1c45f05816adaa8c3c9ea89692f0d33d477b8319",
+  "changed": "Only final TXT report newline formatting in audit.py; all prediction, restoration, metrics, timing and CPU checkpoint validation code unchanged.",
+  "CPU_checkpoint_evidence_retained": true,
+  "weights_models_config_unchanged": true,
+  "new_TEST_opened": false
+}

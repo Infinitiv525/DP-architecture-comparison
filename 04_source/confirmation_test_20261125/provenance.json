@@ -1,0 +1,32 @@
+{
+  "original_evaluate_path": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budget_test_20261112_v1/revisions/r_30896f9aadca67bb/evaluate.py",
+  "original_evaluate_sha256": "1f28be4431100720de600df24cc39175d3eb8ef862f6e41da135b3aa9191adf5",
+  "original_audit_path": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_budget_test_20261112_v1/revisions/r_30896f9aadca67bb/audit.py",
+  "original_audit_sha256": "26cb26658c41086ed1a1fa03370da16b0931d4219e10091d1fb5a89b70e0b71d",
+  "numerical_functions_unchanged": [
+    "Data",
+    "Loaded",
+    "measure",
+    "stats",
+    "check_field",
+    "instrumentation_overhead"
+  ],
+  "changes": [
+    "60fresh model manifest and mixed-family restore dispatch",
+    "Four gated VAL-only preflight parts,12groups of5",
+    "No prediction, normalization, canonicalization, metric, precision or timing change",
+    "CPU output audit counts and human report adapted to60models,20perfamily"
+  ],
+  "training_audit": {
+    "status": "CONFIRMATION60_TRAINING_AND_VAL_AUDIT_PASS",
+    "complete_models": 60,
+    "expected_models": 60,
+    "failures": [],
+    "allocation_closeout_GPU_hours": 235.0825,
+    "final_portal_billing": false,
+    "test_targets_read": false,
+    "all_seeds_retained": true,
+    "pilot_models_used": false,
+    "source_integrity_sha256": "cef64c63c2da666efeab70f9461b0b48008952935676ca97f5f35405fe09e1dd"
+  }
+}

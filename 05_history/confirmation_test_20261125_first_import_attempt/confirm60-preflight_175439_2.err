@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_test_20261125_v1/driver.py", line 34, in <module>
+    try:main(a.mode,a.root,a.index)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_test_20261125_v1/driver.py", line 16, in main
+    from evaluate import preflight,evaluate
+  File "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_dense_fno_20261112_v1/revisions/r_c93033883d5f56d4/evaluate.py", line 13, in <module>
+    from eval_common import SOURCE,read,save,digest,dependencies,legacy_paths,configure
+  File "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_dense_fno_20261112_v1/revisions/r_c93033883d5f56d4/eval_common.py", line 11, in <module>
+    SOURCE=Path(os.environ['DENSE_FNO_RUN_ROOT'])/'frozen_evaluation'
+                ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 714, in __getitem__
+KeyError: 'DENSE_FNO_RUN_ROOT'
+srun: error: gpu22: task 0: Exited with exit code 1

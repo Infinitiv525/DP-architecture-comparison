@@ -76,3 +76,9 @@ Doplnenia zachovávajú pôvodné váhy a výsledky. Rozbory pracujú s pôvodn�
 ## Nový cielený dodatok —60 tréningov
 
 [TFNO, dense FNO a RealNPU:20 nových tréningov/metódu](01_results/confirmation_20261124/README.md). Plán a kód boli zmrazené pred hlavným učením;CPU aj H200 kontroly prešli. Automatické dávky40+20 rešpektujú limity plánovača a nevyžadujú nové manuálne odoslanie druhej dávky. Primárna analýza bude používať iba20 nových seedových blokov na pevnom existujúcom TESTe.
+
+## Dokončenie60nových tréningov — 25. novembra2026
+
+Všetkých60modelov je dokončených a auditovaných:20TFNO,20denseFNO,20RealNPU. Zaznamenaná alokácia235,0825GPU-h. [Audit tréningu a zmrazené modely](01_results/confirmation_20261124/README.md).
+
+Nadväzuje spoločný TEST na200prípadoch/model, so všetkými12000predikovanými poľami a pôvodným meraním1000opakovaní. [Protokol a stav TESTu](01_results/confirmation_test_20261125/README.md). Dokončenie tréningu nie je dokončený TEST ani štatistický záver. Dáta zostávajú naPerune, publikovanie prebieha priamo naGitHub.

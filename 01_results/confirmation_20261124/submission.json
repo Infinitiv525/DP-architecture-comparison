@@ -4,7 +4,9 @@
     "cpu_audit": "172529",
     "gpu_preflight": "172530",
     "main_wave1": "173839",
-    "release_wave2": "173840"
+    "release_wave2": "173840",
+    "main_wave2": "174847",
+    "completion_audit": "174848"
   },
   "source": "/mnt/project/perun2601449/dp_llm_cfd/test/architecture_confirmation_20261124_v2",
   "run_root": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_20261124_v2",
@@ -14,7 +16,7 @@
   "models_per_method": 20,
   "maximum_running_model_jobs": 20,
   "all60_tasks_authorized_and_in_workflow": true,
-  "unsubmitted_tasks_automatically_released_after_first_wave": 20,
+  "unsubmitted_tasks_automatically_released_after_first_wave": 0,
   "main_training_GPU_hours_hard_limit": 240,
   "overall_planning_budget_GPU_hours": 260
 }

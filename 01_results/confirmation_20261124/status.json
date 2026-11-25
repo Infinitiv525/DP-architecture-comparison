@@ -1,20 +1,24 @@
 {
-  "status": "CONFIRMATION60_WORKFLOW_SUBMITTED_AND_FIRST_WAVE_RUNNING",
-  "recorded_unix": 1795541566.1022105,
-  "main_models": 60,
-  "per_method": 20,
-  "first_array": "173839",
-  "first_array_models": 40,
-  "first_array_state_counts": {
-    "PENDING": 25,
-    "RUNNING": 15
+  "status": "ALL60_TRAININGS_COMPLETE_AND_AUDITED_TEST_WORKFLOW_REGISTERED",
+  "recorded_at": "2026-11-25T15:11:34.285474+01:00",
+  "complete_models": 60,
+  "per_method": {
+    "tfno": 20,
+    "fno": 20,
+    "realnpu": 20
   },
-  "second_array_models": 20,
-  "automatic_release_job": "173840",
-  "second_array_submission": "automatic after completion of first40; no further user action",
-  "started_models_observed": 15,
-  "errors_found": [],
-  "main_training_GPU_hours_hard_limit": 240,
-  "planning_GPU_hours": 260,
-  "recorded_at": "2026-11-24T18:34:51.762214+01:00"
+  "training_audit": "PASS",
+  "allocation_closeout_GPU_hours": 235.0825,
+  "final_portal_billing": false,
+  "all_seeds_retained": true,
+  "new_TEST_result_root": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2",
+  "TEST_jobs": {
+    "cpu_gate": "175446",
+    "preflight": "175447",
+    "validation_gate": "175448",
+    "test": "175449",
+    "saved_field_audit": "175450"
+  },
+  "TEST_complete": false,
+  "checkpoint_weights_frozen": true
 }

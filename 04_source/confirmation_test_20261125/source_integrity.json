@@ -1,0 +1,25 @@
+{
+  "status": "CONFIRMATION60_TEST_SOURCE_FROZEN_BEFORE_NEW_TEST",
+  "files": {
+    "audit.py": "7213fe2e448b577e2e0061ca9e3ab66f53d21c1b76c4bc274968b3d0588bcf7b",
+    "common.py": "3c41c89973061410bb44644baeff414fc12e8e124d9701bf792f3bce671ce097",
+    "config.json": "c9c549c9212f23368338ed954b04a1777e0f468f7b003c922cee4cef23b09867",
+    "cpu_gate.py": "96254cc684aec9665775e0fd8e601488965ccee674f5b92831dfde42cd9081f7",
+    "driver.py": "9d498df7c32e090e21a38a7eb5e63c3424ec378d1ef949f26123d51014174e1a",
+    "evaluate.py": "89ef0e94c2c7645885f0de6783000295010d0900ab97f6c2abe3dba48a9af3e4",
+    "models.json": "3b4ddda916b5536ddd5802606e3f9bef84d90df1ef6638520db1ee288df6f176",
+    "protokol.txt": "3fe552e9cbff2a074d8812b692d60c1f9c255e80216ab09e3ea336133258a9b5",
+    "provenance.json": "bc623be8e0e5a31ad49247de420145387cfde7b0a053caee099cd041332b8749",
+    "record_allocation.py": "99253e07c1733380b802929934a98375d898a922444718aa9d2316f0a38f2222",
+    "run.sbatch": "6326f3f47444eae345c8b7758122c2632723d4ecb542f8b8f8c89e54dddbc054"
+  },
+  "unchanged_numerical_function_AST": [
+    "Loaded",
+    "measure",
+    "stats",
+    "check_field",
+    "environment",
+    "instrumentation_overhead"
+  ],
+  "root": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2"
+}

@@ -1,0 +1,310 @@
+{
+  "status": "CONFIRMATION60_CPU_CHECKPOINT_GATE_PASS",
+  "models": 60,
+  "restored": [
+    {
+      "id": "tfno_s24112001",
+      "checkpoint_sha256": "14a9717a7621c0ad7bc3ffb173c5ffc83c66aefd6f6e6d4c741d4ae884f6faf5",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s24112001",
+      "checkpoint_sha256": "36224243c6b0d33a2dc5cc82d73b591cac4c4181d95d38b5be77356313272ac3",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s24112001",
+      "checkpoint_sha256": "0fe039c31ee8e13d7126cb96fac8a937e27144b65e26e84986a70b2d06dcaaa3",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s124112001",
+      "checkpoint_sha256": "2a133e71c1524b0975ae949035efe82eda1d43c98cd65d20c70a41d19193585f",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s124112001",
+      "checkpoint_sha256": "e539f1581d6fe3554a9c6b0c90aef38621902903054ca0a6beccc48ae29f40b9",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s124112001",
+      "checkpoint_sha256": "5fc0297c8b6b1e5c601fd4cf27efda288ab81bddfbedbc5c8533f625aaaca3c1",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s224112001",
+      "checkpoint_sha256": "b9e51179aa2a84696bb5a5e2cd2a0cf9d440b0ca282e153a65aaf93533e16f6d",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s224112001",
+      "checkpoint_sha256": "274a2824e5070470adabe02e15b8f8e484263d1465d6687bee878c62d4a5acf9",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s224112001",
+      "checkpoint_sha256": "4c6ef0b9b5aa7487c81deb741b7984121a53c2e335ac96cde71ed3c58361b3eb",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s324112001",
+      "checkpoint_sha256": "d30fc3f3a2dc2470d89159b1f695f498a269f162e9d5b2cfb24e5ebcee83d175",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s324112001",
+      "checkpoint_sha256": "a309ff2d6d8e4d6219b3b7012bf5a828632c183be4a2805603f84d5d7fbd3c14",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s324112001",
+      "checkpoint_sha256": "dfde3ede8c03742336cdfb898f5f1f73fae7733f5a529f9cd67993befdb002b8",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s424112001",
+      "checkpoint_sha256": "b1a60a95b51ce5e84236fc31a773a78324dfa72c4d247040d3b3ea87e7bbcdb2",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s424112001",
+      "checkpoint_sha256": "9e301dd69e6539ecd3cfb7c506eee18ac8c97babe8c03530b5586e0496932861",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s424112001",
+      "checkpoint_sha256": "1c7cd0233dd25d98344914991a1d7f94322f789482fbbcd7e034e072e9e3e147",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s524112001",
+      "checkpoint_sha256": "ef652840af21810f0af4e916ebfeed0d8e2292d449ee74b3aaadb649b8691460",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s524112001",
+      "checkpoint_sha256": "1b2311fe9bd94ee9da97194268f0c243da49ac7762879fcdc975675e83d9b392",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s524112001",
+      "checkpoint_sha256": "1c12c4c3b6aee0c422d9bc022d9dc2fb478f051c667998bed44615a8e425dac6",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s624112001",
+      "checkpoint_sha256": "c9998c29bd3720fd93896926b0deb3b1363f05346841702fbd7135ea999b429e",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s624112001",
+      "checkpoint_sha256": "9ea04ee6a337544bb7738210b846fd8aec4ee0359d706492e42a01973c04530d",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s624112001",
+      "checkpoint_sha256": "5f65f0c80fe7d566662678035f23b6ed2261824e6470e64701abf1c2f139d255",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s724112001",
+      "checkpoint_sha256": "6f11fae09d0aa5a7c13428f73509d81e03283727d1dd30423ec56c519965d720",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s724112001",
+      "checkpoint_sha256": "d000bac955ec10be6b428bcc3047ad5d0b3a92764b36969c6b5f6b47ffba3f72",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s724112001",
+      "checkpoint_sha256": "0945184dd8a0fdad95928f1f678b6aa252335fb73063110f5f7380e6809ce64f",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s824112001",
+      "checkpoint_sha256": "2582d217fdd6b2b8d13061f03737c9d926cd382854cde95d75cd1afaa6d4f960",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s824112001",
+      "checkpoint_sha256": "1242d083eab11c214584740aaf379de379e0299b6b7aac5815dd6c86d45b7951",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s824112001",
+      "checkpoint_sha256": "6d2fee145ade71268499fa6923a1b520eb5780257dfe851d7b53bba373d79bb2",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s924112001",
+      "checkpoint_sha256": "b7207404c4ce7b2dae1128bf5dc3c12567bf7df197ae1513b6a92d467799006e",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s924112001",
+      "checkpoint_sha256": "4fc637f838f783112550ed3f8302cbf5b757c1e2d125ba280adecb3c5302d312",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s924112001",
+      "checkpoint_sha256": "7530d3dd3cf7d35d165028597a5059776dc328c5d023b3e2f714f921e36c5071",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s1024112001",
+      "checkpoint_sha256": "0bc58964134e9b3bf24afc197c6a3a579ba8b6d89a20e3c1db28e109e529dd58",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s1024112001",
+      "checkpoint_sha256": "3924ca4e6e24c7caf0578f4d8cfd7997da06d711e7d65639360a1d58b95e7762",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s1024112001",
+      "checkpoint_sha256": "86abe99e72179bb6920d2bb46b9fd29add544dbe073aeff5ac169aa4552e8818",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s1124112001",
+      "checkpoint_sha256": "217159d5ccf99acfaa6db49df6249dd08776c25872cae036f98ff8660eb5eb13",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s1124112001",
+      "checkpoint_sha256": "64e51c54501a516b2cca74ce4de8a405f72121d9ca1d9a9b2d7cdbcae5543f36",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s1124112001",
+      "checkpoint_sha256": "1d462ce8fb7316ab814bd8191d6960d8d0ff80932b051fbeb16780128b0e475f",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s1224112001",
+      "checkpoint_sha256": "0b3a658d5f469ef496c2d603aafa202519770a5f0ca30b596f5fe236d381eb75",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s1224112001",
+      "checkpoint_sha256": "5cb691dd69557f22fe3a6695a9cbc7b0a1893ecc47d8eb3c9405e8d5d29fd6a7",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s1224112001",
+      "checkpoint_sha256": "d6f354f6c53198a211a718660ef70e0626fb3e55cdbd99de92b040f35185db08",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s1324112001",
+      "checkpoint_sha256": "456986307b9a0948dc75dd9c482fed5fc0fa2b2bd108e457a7e8f1be3219e4c0",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s1324112001",
+      "checkpoint_sha256": "44f8e916fe237feef742b1da3399fdf170527bc4b4aff7a5496cbe8b6f86294d",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s1324112001",
+      "checkpoint_sha256": "21ec8f9d3370f8336b53d8b3e2bb8006434d367ba543241c1c78f10977697764",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s1424112001",
+      "checkpoint_sha256": "de566fd3482917403dbae165cb0c77b5e75b7324d3ee09651e9287f7bcc12512",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s1424112001",
+      "checkpoint_sha256": "26efe7db3512dea2953cc312262db67241e75ee5370932890cf5bcb10e4139e6",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s1424112001",
+      "checkpoint_sha256": "432f7fb3b4c014e44cdc5924c8b6cbb159868b2a0ee2d29933e8f222ff372d86",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s1524112001",
+      "checkpoint_sha256": "02807e9cc845111cf4cfaacf95e21c6e3fdc88a0cc7cbf3815d587c29a414262",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s1524112001",
+      "checkpoint_sha256": "77971c474ca068c1860113485d1b2b0dea868c0c268df5f640db15eb478c216c",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s1524112001",
+      "checkpoint_sha256": "431152c3f7494014faa212e1f1e88b8620131f6c9ad16c02caf8511da84675e3",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s1624112001",
+      "checkpoint_sha256": "60d42e6290883a9bae0026f918382bae6523f8ad2f2e874873c6ae741a536232",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s1624112001",
+      "checkpoint_sha256": "7b8e4b43e33476c5e577e7faaade2b1845e388c32343d914cff6f2f07a9d614e",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s1624112001",
+      "checkpoint_sha256": "0e5dd7682669f8925f1809e6ad590643e2c5dd582dfcdc942335b44ca7e44e24",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s1724112001",
+      "checkpoint_sha256": "96f344879b505cd4f73242457fc2318cf40e91584b8df579da7cd5bac82f4339",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s1724112001",
+      "checkpoint_sha256": "23db1814861710e051757187fc0f126692ca08a27d59d93125d5d00dfaf94947",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s1724112001",
+      "checkpoint_sha256": "80ded3e00f9a3afa6a8fa633cf07b8ac26c6559e72797a4825d5b281dbfe153a",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s1824112001",
+      "checkpoint_sha256": "1494054d88e990ee929214eee687f8e23632c859908f1374e4a20a4b3c4445ab",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s1824112001",
+      "checkpoint_sha256": "de8e9f4dc704546c8432a919138832cc273cfc26e31e97acc8635a3ccf35ec70",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s1824112001",
+      "checkpoint_sha256": "16933598661be254184324213317e73e9c8c4255dd02d00038d35e25b639924b",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "tfno_s1924112001",
+      "checkpoint_sha256": "d4426007f4183f2c682f59814581b64c3e355d02145942c695ee0bf930419e71",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "fno_s1924112001",
+      "checkpoint_sha256": "4172f21e856f72ea39751f682559b3f793027ee3a6938decd102ad8e1f255c0c",
+      "CPU_restore_pass": true
+    },
+    {
+      "id": "realnpu_s1924112001",
+      "checkpoint_sha256": "71d89320a4a310616f1d5563f07a2100b472d2f7a2ac00077aa488c553acb7dc",
+      "CPU_restore_pass": true
+    }
+  ],
+  "elapsed_seconds": 13.142348113004118,
+  "models_sha256": "3b4ddda916b5536ddd5802606e3f9bef84d90df1ef6638520db1ee288df6f176",
+  "source_integrity_sha256": "b8bc26022713d043306ed0b28f2350775ceb05517cd961700f7d964edef2cf9a",
+  "test_targets_read": false
+}

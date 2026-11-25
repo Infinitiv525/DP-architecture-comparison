@@ -1,0 +1,5 @@
+{
+  "status": "SUPERSEDED_BEFORE_NEW_TEST",
+  "next_results": "/mnt/project/perun2601449/dp_llm_cfd/results/architecture_confirmation_test_20261125_v2",
+  "reason": "Dense FNO module directory temporarily preceded the frozen evaluation directory in sys.path, so evaluate.py was imported from the old dense package."
+}
